@@ -1,0 +1,4309 @@
+[
+    {
+        "scope": "https://stats.openledger.info:443",
+        "method": "GET",
+        "path": "/api/asset/pairs",
+        "body": "",
+        "status": 200,
+        "response": {
+            "BTC_BTS": {
+                "baseName": "BTC",
+                "quoteName": "BTS",
+                "last": 0.000003412045063820756,
+                "baseVolume": 0.50390936,
+                "quoteVolume": 151028.80981,
+                "usdVolume": 5201.06923794283,
+                "btsVolume": 151028.80981
+            },
+            "LTC_BTS": {
+                "baseName": "LTC",
+                "quoteName": "BTS",
+                "last": 0.0004938271604938272,
+                "baseVolume": 43.46356577,
+                "quoteVolume": 88638.9085,
+                "usdVolume": 3052.5109802835386,
+                "btsVolume": 88638.9085
+            },
+            "XSD_BTS": {
+                "baseName": "XSD",
+                "quoteName": "BTS",
+                "last": 1.7857142857142858,
+                "baseVolume": 38778.078461,
+                "quoteVolume": 21360.47414,
+                "usdVolume": 735.603393135336,
+                "btsVolume": 21360.47414
+            },
+            "OBITS_BTS": {
+                "baseName": "OBITS",
+                "quoteName": "BTS",
+                "last": 1.2299669099756692,
+                "baseVolume": 17841.6818,
+                "quoteVolume": 15425.37291,
+                "usdVolume": 531.2127707748482,
+                "btsVolume": 15425.37291
+            },
+            "XMR_BITUSD": {
+                "baseName": "XMR",
+                "quoteName": "BITUSD",
+                "last": 0.014903129657228018,
+                "baseVolume": 6.009907,
+                "quoteVolume": 339.0461,
+                "usdVolume": 339.0461,
+                "btsVolume": 11515.791888170706
+            },
+            "XMR_BTS": {
+                "baseName": "XMR",
+                "quoteName": "BTS",
+                "last": 0.0005218839536492075,
+                "baseVolume": 5.319985,
+                "quoteVolume": 9026.78522,
+                "usdVolume": 310.86078864239573,
+                "btsVolume": 9026.78522
+            },
+            "DASH_BTS": {
+                "baseName": "DASH",
+                "quoteName": "BTS",
+                "last": 0.00035714285714285714,
+                "baseVolume": 1.93794687,
+                "quoteVolume": 5942.54713,
+                "usdVolume": 204.64704126154066,
+                "btsVolume": 5942.54713
+            },
+            "USDT_BITUSD": {
+                "baseName": "USDT",
+                "quoteName": "BITUSD",
+                "last": 1.0204081632653061,
+                "baseVolume": 151.187636,
+                "quoteVolume": 148.1639,
+                "usdVolume": 148.1639,
+                "btsVolume": 4651.812759486956
+            },
+            "XMR_BTC": {
+                "baseName": "XMR",
+                "quoteName": "BTC",
+                "last": 156.54235727440147,
+                "baseVolume": 2.153519,
+                "quoteVolume": 0.01205834,
+                "usdVolume": 142.1044242246506,
+                "btsVolume": 4126.432677114886
+            },
+            "ETH_BTS": {
+                "baseName": "ETH",
+                "quoteName": "BTS",
+                "last": 0.00019305030864696522,
+                "baseVolume": 0.753622,
+                "quoteVolume": 3961.94979,
+                "usdVolume": 136.4400288989012,
+                "btsVolume": 3961.94979
+            },
+            "EOS_BTS": {
+                "baseName": "EOS",
+                "quoteName": "BTS",
+                "last": 0.009226829779198741,
+                "baseVolume": 14.456646,
+                "quoteVolume": 1596.23332,
+                "usdVolume": 54.97043926702287,
+                "btsVolume": 1596.23332
+            },
+            "CVN_BTS": {
+                "baseName": "CVN",
+                "quoteName": "BTS",
+                "last": 0.32935154403367467,
+                "baseVolume": 465.8303,
+                "quoteVolume": 1510.73585,
+                "usdVolume": 52.026111878769186,
+                "btsVolume": 1510.73585
+            },
+            "XRP_BTC": {
+                "baseName": "XRP",
+                "quoteName": "BTC",
+                "last": 41270.648030495555,
+                "baseVolume": 24.2462,
+                "quoteVolume": 0.00057903,
+                "usdVolume": 6.056400312204352,
+                "btsVolume": 175.86594006714702
+            },
+            "XRP_BTS": {
+                "baseName": "XRP",
+                "quoteName": "BTS",
+                "last": 0.1378675142596833,
+                "baseVolume": 24.2193,
+                "quoteVolume": 175.67081,
+                "usdVolume": 6.049680501653551,
+                "btsVolume": 175.67081
+            },
+            "BTC_BITUSD": {
+                "baseName": "BTC",
+                "quoteName": "BITUSD",
+                "last": 0.00009794411410361043,
+                "baseVolume": 0.00055191,
+                "quoteVolume": 5.717,
+                "usdVolume": 5.717,
+                "btsVolume": 161.75343223104431
+            },
+            "DASH_BITUSD": {
+                "baseName": "DASH",
+                "quoteName": "BITUSD",
+                "last": 0.010651896037494673,
+                "baseVolume": 0.04898166,
+                "quoteVolume": 4.5984,
+                "usdVolume": 4.5984,
+                "btsVolume": 137.148648
+            },
+            "EOS_BITRUBLE": {
+                "baseName": "EOS",
+                "quoteName": "BITRUBLE",
+                "last": 0.004,
+                "baseVolume": 0.999999,
+                "quoteVolume": 249.99918,
+                "usdVolume": 3.7323287692022658,
+                "btsVolume": 108.37947853491669
+            },
+            "EOS_BTC": {
+                "baseName": "EOS",
+                "quoteName": "BTC",
+                "last": 2686.106459133747,
+                "baseVolume": 0.817946,
+                "quoteVolume": 0.00030451,
+                "usdVolume": 3.0528464403003563,
+                "btsVolume": 88.64864959837055
+            },
+            "BTC_ETH": {
+                "baseName": "BTC",
+                "quoteName": "ETH",
+                "last": 0.017556288819875775,
+                "baseVolume": 0.00018942,
+                "quoteVolume": 0.010703,
+                "usdVolume": 1.911806391596246,
+                "btsVolume": 55.51509328188367
+            },
+            "USDT_BTC": {
+                "baseName": "USDT",
+                "quoteName": "BTC",
+                "last": 11115.347973623384,
+                "baseVolume": 1.003158,
+                "quoteVolume": 0.0000903,
+                "usdVolume": 1.0629384701863296,
+                "btsVolume": 30.865640257655826
+            },
+            "REALITY_BTS": {
+                "baseName": "REALITY",
+                "quoteName": "BTS",
+                "last": 0.25000002829545775,
+                "baseVolume": 2.00000022,
+                "quoteVolume": 8,
+                "usdVolume": 0.27550077336825857,
+                "btsVolume": 8
+            },
+            "EOS_BITUSD": {
+                "baseName": "EOS",
+                "quoteName": "BITUSD",
+                "last": 0.26,
+                "baseVolume": 0.054578,
+                "quoteVolume": 0.2099,
+                "usdVolume": 0.2099,
+                "btsVolume": 5.915141094619778
+            },
+            "DOGE_BTS": {
+                "baseName": "DOGE",
+                "quoteName": "BTS",
+                "last": 13.342228209408635,
+                "baseVolume": 65.8646,
+                "quoteVolume": 4.93823,
+                "usdVolume": 0.17006077300879194,
+                "btsVolume": 4.93823
+            },
+            "DOGE_BITCNY": {
+                "baseName": "DOGE",
+                "quoteName": "BITCNY",
+                "last": 58.82352941831753,
+                "baseVolume": 65.7065,
+                "quoteVolume": 1.117,
+                "usdVolume": 0.16959490649916548,
+                "btsVolume": 4.924702153847532
+            },
+            "ETH_BITUSD": {
+                "baseName": "ETH",
+                "quoteName": "BITUSD",
+                "last": 0.00555,
+                "baseVolume": 0.000489,
+                "quoteVolume": 0.0881,
+                "usdVolume": 0.0881,
+                "btsVolume": 2.53301848325062
+            },
+            "ZEC_BITUSD": {
+                "baseName": "ZEC",
+                "quoteName": "BITUSD",
+                "last": 0.02857142857142857,
+                "baseVolume": 0.00099715,
+                "quoteVolume": 0.0349,
+                "usdVolume": 0.0349,
+                "btsVolume": 2.4430175
+            },
+            "ZGC_BTS": {
+                "baseName": "ZGC",
+                "quoteName": "BTS",
+                "last": 10.000007270564955,
+                "baseVolume": 9.9960072,
+                "quoteVolume": 0.9996,
+                "usdVolume": 0.03442382163236391,
+                "btsVolume": 0.9996
+            },
+            "ZGC_BITCNY": {
+                "baseName": "ZGC",
+                "quoteName": "BITCNY",
+                "last": 100,
+                "baseVolume": 9.9666666,
+                "quoteVolume": 0.1,
+                "usdVolume": 0.03432277949794512,
+                "btsVolume": 0.9966659353675578
+            },
+            "NEO_BITUSD": {
+                "baseName": "NEO",
+                "quoteName": "BITUSD",
+                "last": 0.19986409241715633,
+                "baseVolume": 0.0009794,
+                "quoteVolume": 0.0049,
+                "usdVolume": 0.0049,
+                "btsVolume": 0.16845690107414066
+            },
+            "USDT_BITCNY": {
+                "baseName": "USDT",
+                "quoteName": "BITCNY",
+                "last": 0.15384615384615385,
+                "baseVolume": 0.0032,
+                "quoteVolume": 0.0208,
+                "usdVolume": 0.0033906952888739903,
+                "btsVolume": 0.09845911493951964
+            },
+            "USDT_BTS": {
+                "baseName": "USDT",
+                "quoteName": "BTS",
+                "last": 0.03250079997129428,
+                "baseVolume": 0.000734,
+                "quoteVolume": 0.02257,
+                "usdVolume": 0.0007772565568651995,
+                "btsVolume": 0.02257
+            },
+            "RMBPAY_BTS": {
+                "baseName": "RMBPAY",
+                "quoteName": "BTS",
+                "last": 0.95,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SONM_ETH": {
+                "baseName": "SONM",
+                "quoteName": "ETH",
+                "last": 78003700,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IQ_HTML": {
+                "baseName": "IQ",
+                "quoteName": "HTML",
+                "last": 0.1125004207195988,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FUNC_ETP": {
+                "baseName": "FUNC",
+                "quoteName": "ETP",
+                "last": 88.88556469708303,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTS_B2X": {
+                "baseName": "BTS",
+                "quoteName": "B2X",
+                "last": 2.2099989606070056,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GBG_BTS": {
+                "baseName": "GBG",
+                "quoteName": "BTS",
+                "last": 6.44280073412288,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CVN_BTC": {
+                "baseName": "CVN",
+                "quoteName": "BTC",
+                "last": 30003.000300030002,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_LTC": {
+                "baseName": "STEEM",
+                "quoteName": "LTC",
+                "last": 364,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LISK_BITCNY": {
+                "baseName": "LISK",
+                "quoteName": "BITCNY",
+                "last": 0.5810396376775345,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_BITUSD": {
+                "baseName": "ZEN",
+                "quoteName": "BITUSD",
+                "last": 7.510729613733906,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HEAT_BTC": {
+                "baseName": "HEAT",
+                "quoteName": "BTC",
+                "last": 200000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ICOO_BITCNY": {
+                "baseName": "ICOO",
+                "quoteName": "BITCNY",
+                "last": 2,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OMG_BTS": {
+                "baseName": "OMG",
+                "quoteName": "BTS",
+                "last": 0.02252252505884291,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FUNC_BITCNY": {
+                "baseName": "FUNC",
+                "quoteName": "BITCNY",
+                "last": 100,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XMR_WAVES": {
+                "baseName": "XMR",
+                "quoteName": "WAVES",
+                "last": 0.0204082,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOS_CVN": {
+                "baseName": "EOS",
+                "quoteName": "CVN",
+                "last": 0.000001,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZRX_ETH": {
+                "baseName": "ZRX",
+                "quoteName": "ETH",
+                "last": 565.8382593304134,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPY_ETH": {
+                "baseName": "PPY",
+                "quoteName": "ETH",
+                "last": 183.15018315018315,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_BITGOLD": {
+                "baseName": "ETH",
+                "quoteName": "BITGOLD",
+                "last": 0.2,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LISK_BTC": {
+                "baseName": "LISK",
+                "quoteName": "BTC",
+                "last": 3846.153846153846,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MAID_DOGE": {
+                "baseName": "MAID",
+                "quoteName": "DOGE",
+                "last": 0.022222222222222223,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SBD_BITUSD": {
+                "baseName": "SBD",
+                "quoteName": "BITUSD",
+                "last": 1.6393400909933207,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RISE_BTC": {
+                "baseName": "RISE",
+                "quoteName": "BTC",
+                "last": 200000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ONZ_BITUSD": {
+                "baseName": "ONZ",
+                "quoteName": "BITUSD",
+                "last": 200000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PURA_BTS": {
+                "baseName": "PURA",
+                "quoteName": "BTS",
+                "last": 1,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_BITEUR": {
+                "baseName": "USDT",
+                "quoteName": "BITEUR",
+                "last": 1.18,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XSD_XRP": {
+                "baseName": "XSD",
+                "quoteName": "XRP",
+                "last": 8.695652173913043,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITUSD_ATM": {
+                "baseName": "BITUSD",
+                "quoteName": "ATM",
+                "last": 0.001504765357629169,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LOCI_BTC": {
+                "baseName": "LOCI",
+                "quoteName": "BTC",
+                "last": 122249.38875305624,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DEOS_BTS": {
+                "baseName": "DEOS",
+                "quoteName": "BTS",
+                "last": 0.003489183659850265,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRC_BTS": {
+                "baseName": "GRC",
+                "quoteName": "BTS",
+                "last": 5.882352969056897,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "REALITY_CVN": {
+                "baseName": "REALITY",
+                "quoteName": "CVN",
+                "last": 1,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_BITCNY": {
+                "baseName": "ETH",
+                "quoteName": "BITCNY",
+                "last": 0.0009090876033095417,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_BITRUBLE": {
+                "baseName": "BTC",
+                "quoteName": "BITRUBLE",
+                "last": 0.0000012500015638619642,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "KRM_BTS": {
+                "baseName": "KRM",
+                "quoteName": "BTS",
+                "last": 111.11111111111111,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ESC_BTS": {
+                "baseName": "ESC",
+                "quoteName": "BTS",
+                "last": 31250,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_BITGOLD": {
+                "baseName": "WAVES",
+                "quoteName": "BITGOLD",
+                "last": 555.5533333333333,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XSD_BITCNY": {
+                "baseName": "XSD",
+                "quoteName": "BITCNY",
+                "last": 7.6923,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ESC_BTC": {
+                "baseName": "ESC",
+                "quoteName": "BTC",
+                "last": 63287.96613960988,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OCC_BTS": {
+                "baseName": "OCC",
+                "quoteName": "BTS",
+                "last": 35587.188612,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EMC_BITUSD": {
+                "baseName": "EMC",
+                "quoteName": "BITUSD",
+                "last": 0.8672172318067706,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOS_COI": {
+                "baseName": "EOS",
+                "quoteName": "COI",
+                "last": 0.00000102,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAX_BTS": {
+                "baseName": "WAX",
+                "quoteName": "BTS",
+                "last": 1.6666675061069278,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRFT_BTS": {
+                "baseName": "GRFT",
+                "quoteName": "BTS",
+                "last": 9.090826,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "KRM_ETH": {
+                "baseName": "KRM",
+                "quoteName": "ETH",
+                "last": 200000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTS_ATB": {
+                "baseName": "BTS",
+                "quoteName": "ATB",
+                "last": 2.989989583333333,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OMG_BTC": {
+                "baseName": "OMG",
+                "quoteName": "BTC",
+                "last": 4524.886877,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NXC_BITCNY": {
+                "baseName": "NXC",
+                "quoteName": "BITCNY",
+                "last": 2.15043856976252,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRC_EOS": {
+                "baseName": "GRC",
+                "quoteName": "EOS",
+                "last": 888.8888095238095,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MKR_BITEUR": {
+                "baseName": "MKR",
+                "quoteName": "BITEUR",
+                "last": 0.00002,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZRX_BTS": {
+                "baseName": "ZRX",
+                "quoteName": "BTS",
+                "last": 0.18832391713747645,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IQ_BITSILVER": {
+                "baseName": "IQ",
+                "quoteName": "BITSILVER",
+                "last": 1435.9637774902976,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_SCR": {
+                "baseName": "STEEM",
+                "quoteName": "SCR",
+                "last": 0.14574,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_STEEM": {
+                "baseName": "WAVES",
+                "quoteName": "STEEM",
+                "last": 0.8356797614924789,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OMNI_BTC": {
+                "baseName": "OMNI",
+                "quoteName": "BTC",
+                "last": 74571.21551081282,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XSD_USDT": {
+                "baseName": "XSD",
+                "quoteName": "USDT",
+                "last": 777.7677360624399,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "INCNT_BTC": {
+                "baseName": "INCNT",
+                "quoteName": "BTC",
+                "last": 80000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MAID_BITEUR": {
+                "baseName": "MAID",
+                "quoteName": "BITEUR",
+                "last": 8.888880597014925,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ONZ_BTC": {
+                "baseName": "ONZ",
+                "quoteName": "BTC",
+                "last": 1042080.2422628148,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WGR_BTS": {
+                "baseName": "WGR",
+                "quoteName": "BTS",
+                "last": 2.000000271009659,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITUSD_ARDR": {
+                "baseName": "BITUSD",
+                "quoteName": "ARDR",
+                "last": 0.5,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DGD_BITUSD": {
+                "baseName": "DGD",
+                "quoteName": "BITUSD",
+                "last": 0.03124902,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "REALITY_BTC": {
+                "baseName": "REALITY",
+                "quoteName": "BTC",
+                "last": 204081.70179979177,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NBC_ETH": {
+                "baseName": "NBC",
+                "quoteName": "ETH",
+                "last": 300.6614552014432,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SONM_BTS": {
+                "baseName": "SONM",
+                "quoteName": "BTS",
+                "last": 1.9996000799840032,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEC_BTC": {
+                "baseName": "ZEC",
+                "quoteName": "BTC",
+                "last": 100,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_ETH": {
+                "baseName": "WAVES",
+                "quoteName": "ETH",
+                "last": 102.05665078463085,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_BITGOLD": {
+                "baseName": "BTC",
+                "quoteName": "BITGOLD",
+                "last": 0.03,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IQ_BTC": {
+                "baseName": "IQ",
+                "quoteName": "BTC",
+                "last": 99999997,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_BTS": {
+                "baseName": "WAVES",
+                "quoteName": "BTS",
+                "last": 0.029524705756425636,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XMR_DASH": {
+                "baseName": "XMR",
+                "quoteName": "DASH",
+                "last": 1.81,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_EXCL": {
+                "baseName": "WAVES",
+                "quoteName": "EXCL",
+                "last": 0.2,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITSILVER_BTC": {
+                "baseName": "BITSILVER",
+                "quoteName": "BTC",
+                "last": 2645.5,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_EPT": {
+                "baseName": "ETH",
+                "quoteName": "EPT",
+                "last": 0.00036999980549997085,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WARRANTBTS_BTS": {
+                "baseName": "WARRANTBTS",
+                "quoteName": "BTS",
+                "last": 1.0629251700680271,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SONM_BITUSD": {
+                "baseName": "SONM",
+                "quoteName": "BITUSD",
+                "last": 20,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_EOS": {
+                "baseName": "ZEN",
+                "quoteName": "EOS",
+                "last": 0.8,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SBD_BTS": {
+                "baseName": "SBD",
+                "quoteName": "BTS",
+                "last": 0.11101082549278578,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPC_BITUSD": {
+                "baseName": "PPC",
+                "quoteName": "BITUSD",
+                "last": 0.5644706702255439,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ONZ_ETH": {
+                "baseName": "ONZ",
+                "quoteName": "ETH",
+                "last": 20004.000800160033,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_BITCNY": {
+                "baseName": "BTC",
+                "quoteName": "BITCNY",
+                "last": 0.000015718667346803524,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DASH_BTC": {
+                "baseName": "DASH",
+                "quoteName": "BTC",
+                "last": 45.70214874168255,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "INCNT_BTS": {
+                "baseName": "INCNT",
+                "quoteName": "BTS",
+                "last": 0.5717552922762369,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SCR_EOS": {
+                "baseName": "SCR",
+                "quoteName": "EOS",
+                "last": 88.88888556469708,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XCEL_BTC": {
+                "baseName": "XCEL",
+                "quoteName": "BTC",
+                "last": 147130.94654242275,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LIVE_BTC": {
+                "baseName": "LIVE",
+                "quoteName": "BTC",
+                "last": 66666.66457235126,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_NEO": {
+                "baseName": "USDT",
+                "quoteName": "NEO",
+                "last": 75,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPC_BITCNY": {
+                "baseName": "PPC",
+                "quoteName": "BITCNY",
+                "last": 0.06428646046784471,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STU_BTS": {
+                "baseName": "STU",
+                "quoteName": "BTS",
+                "last": 10.0145,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OBITS_BITUSD": {
+                "baseName": "OBITS",
+                "quoteName": "BITUSD",
+                "last": 34.48275862068966,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IQ_ETH": {
+                "baseName": "IQ",
+                "quoteName": "ETH",
+                "last": 2565.7084188911704,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NEO_BITCNY": {
+                "baseName": "NEO",
+                "quoteName": "BITCNY",
+                "last": 0.009259260565885415,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HTML_BITCNY": {
+                "baseName": "HTML",
+                "quoteName": "BITCNY",
+                "last": 1000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_EOSDAC": {
+                "baseName": "ETH",
+                "quoteName": "EOSDAC",
+                "last": 0.00010498000003883601,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IQ_BITUSD": {
+                "baseName": "IQ",
+                "quoteName": "BITUSD",
+                "last": 10011.939546599497,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_SCR": {
+                "baseName": "XEM",
+                "quoteName": "SCR",
+                "last": 0.12857309451138174,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CLOAK_BITUSD": {
+                "baseName": "CLOAK",
+                "quoteName": "BITUSD",
+                "last": 0.1,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RMBPAY_BTC": {
+                "baseName": "RMBPAY",
+                "quoteName": "BTC",
+                "last": 27367.26874657909,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SBD_GRC": {
+                "baseName": "SBD",
+                "quoteName": "GRC",
+                "last": 0.00666666666666666,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GOLOS_BITUSD": {
+                "baseName": "GOLOS",
+                "quoteName": "BITUSD",
+                "last": 23.735493685598467,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OMNI_BITCNY": {
+                "baseName": "OMNI",
+                "quoteName": "BITCNY",
+                "last": 0.010433867695987226,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MASP_ETH": {
+                "baseName": "MASP",
+                "quoteName": "ETH",
+                "last": 1000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SCR_BITUSD": {
+                "baseName": "SCR",
+                "quoteName": "BITUSD",
+                "last": 2857.142857131241,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_ETH": {
+                "baseName": "STEEM",
+                "quoteName": "ETH",
+                "last": 2319.64,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SONM_BTC": {
+                "baseName": "SONM",
+                "quoteName": "BTC",
+                "last": 50000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XCEL_ETH": {
+                "baseName": "XCEL",
+                "quoteName": "ETH",
+                "last": 2001.33422281521,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FUNC_BITUSD": {
+                "baseName": "FUNC",
+                "quoteName": "BITUSD",
+                "last": 557.0980278582265,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FUNC_BTS": {
+                "baseName": "FUNC",
+                "quoteName": "BTS",
+                "last": 100.0000086177795,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_EOS": {
+                "baseName": "LTC",
+                "quoteName": "EOS",
+                "last": 0.041666666666666664,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_ETH": {
+                "baseName": "USDT",
+                "quoteName": "ETH",
+                "last": 176.0188679245283,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GAME_BTC": {
+                "baseName": "GAME",
+                "quoteName": "BTC",
+                "last": 96061.4792,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "REALITY_BITUSD": {
+                "baseName": "REALITY",
+                "quoteName": "BITUSD",
+                "last": 10,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HTML_BTC": {
+                "baseName": "HTML",
+                "quoteName": "BTC",
+                "last": 13976803.333091885,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ESC_BITUSD": {
+                "baseName": "ESC",
+                "quoteName": "BITUSD",
+                "last": 1512.859,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IVC_BTS": {
+                "baseName": "IVC",
+                "quoteName": "BTS",
+                "last": 8.347245538131178,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZGC_ETH": {
+                "baseName": "ZGC",
+                "quoteName": "ETH",
+                "last": 2567.5675675675675,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ICOO_BTS": {
+                "baseName": "ICOO",
+                "quoteName": "BTS",
+                "last": 0.14288367839741667,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NBT_BITCNY": {
+                "baseName": "NBT",
+                "quoteName": "BITCNY",
+                "last": 0.053005192092463835,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_DASH": {
+                "baseName": "LTC",
+                "quoteName": "DASH",
+                "last": 2.4929242500037394,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MAID_AGRS": {
+                "baseName": "MAID",
+                "quoteName": "AGRS",
+                "last": 4.320659062773037,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XRP_USDT": {
+                "baseName": "XRP",
+                "quoteName": "USDT",
+                "last": 5.04553050328189,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_ETH": {
+                "baseName": "XEM",
+                "quoteName": "ETH",
+                "last": 113.85631333257429,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_STEEM": {
+                "baseName": "USDT",
+                "quoteName": "STEEM",
+                "last": 4.144129078014184,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_DASH": {
+                "baseName": "ZEN",
+                "quoteName": "DASH",
+                "last": 11.4,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZRX_BITUSD": {
+                "baseName": "ZRX",
+                "quoteName": "BITUSD",
+                "last": 3.0304385671242047,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XSD_STEEM": {
+                "baseName": "XSD",
+                "quoteName": "STEEM",
+                "last": 1.0204081632653061,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XPO_BITUSD": {
+                "baseName": "XPO",
+                "quoteName": "BITUSD",
+                "last": 565490,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_AMP": {
+                "baseName": "BTC",
+                "quoteName": "AMP",
+                "last": 0.0000083500000029225,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "KRM_BITCNY": {
+                "baseName": "KRM",
+                "quoteName": "BITCNY",
+                "last": 83.33333333333333,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_GRC": {
+                "baseName": "LTC",
+                "quoteName": "GRC",
+                "last": 0.00004999,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITUSD_AMP": {
+                "baseName": "BITUSD",
+                "quoteName": "AMP",
+                "last": 0.08330186716559386,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_BITEUR": {
+                "baseName": "BTC",
+                "quoteName": "BITEUR",
+                "last": 0.00011784,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_BTC": {
+                "baseName": "XEM",
+                "quoteName": "BTC",
+                "last": 980392.13,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITUSD_B2X": {
+                "baseName": "BITUSD",
+                "quoteName": "B2X",
+                "last": 2,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_ETH": {
+                "baseName": "ZEN",
+                "quoteName": "ETH",
+                "last": 27.397260273972602,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_HEAT": {
+                "baseName": "STEEM",
+                "quoteName": "HEAT",
+                "last": 0.07,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_USDT": {
+                "baseName": "XEM",
+                "quoteName": "USDT",
+                "last": 42,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOS_EOSDAC": {
+                "baseName": "EOS",
+                "quoteName": "EOSDAC",
+                "last": 0.005888859977229856,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_DGD": {
+                "baseName": "ETH",
+                "quoteName": "DGD",
+                "last": 0.0999,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CLOAK_BTC": {
+                "baseName": "CLOAK",
+                "quoteName": "BTC",
+                "last": 300300.29901461094,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETP_BITUSD": {
+                "baseName": "ETP",
+                "quoteName": "BITUSD",
+                "last": 11.266968104637908,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WARRANTBTS_BTC": {
+                "baseName": "WARRANTBTS",
+                "quoteName": "BTC",
+                "last": 1980198.01,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CLOAK_BTS": {
+                "baseName": "CLOAK",
+                "quoteName": "BTS",
+                "last": 0.047619047619047616,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SBD_ETH": {
+                "baseName": "SBD",
+                "quoteName": "ETH",
+                "last": 67842.60466666667,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CAT_BITCNY": {
+                "baseName": "CAT",
+                "quoteName": "BITCNY",
+                "last": 4.6,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HEAT_BITUSD": {
+                "baseName": "HEAT",
+                "quoteName": "BITUSD",
+                "last": 12.48439,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DOGE_BTC": {
+                "baseName": "DOGE",
+                "quoteName": "BTC",
+                "last": 4545454.545317619,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HTML_BITUSD": {
+                "baseName": "HTML",
+                "quoteName": "BITUSD",
+                "last": 4958.918782887211,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_EOS": {
+                "baseName": "STEEM",
+                "quoteName": "EOS",
+                "last": 0.3333555570371358,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPY_BITUSD": {
+                "baseName": "PPY",
+                "quoteName": "BITUSD",
+                "last": 1.3333333333333333,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "TRX_BITCNY": {
+                "baseName": "TRX",
+                "quoteName": "BITCNY",
+                "last": 2.5,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_HEAT": {
+                "baseName": "LTC",
+                "quoteName": "HEAT",
+                "last": 0.001467,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NXC_BITUSD": {
+                "baseName": "NXC",
+                "quoteName": "BITUSD",
+                "last": 14.264395168559581,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GOLOS_BITCNY": {
+                "baseName": "GOLOS",
+                "quoteName": "BITCNY",
+                "last": 2.6094850104658605,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRFT_BTC": {
+                "baseName": "GRFT",
+                "quoteName": "BTC",
+                "last": 500000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MAID_BITUSD": {
+                "baseName": "MAID",
+                "quoteName": "BITUSD",
+                "last": 6.086764001300849,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GAME_ETH": {
+                "baseName": "GAME",
+                "quoteName": "ETH",
+                "last": 462.9107086113759,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SCR_BTS": {
+                "baseName": "SCR",
+                "quoteName": "BTS",
+                "last": 5.464480874334429,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_BITSILVER": {
+                "baseName": "ZEN",
+                "quoteName": "BITSILVER",
+                "last": 0.9999,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GAS_BITUSD": {
+                "baseName": "GAS",
+                "quoteName": "BITUSD",
+                "last": 16.549,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRC_DOGE": {
+                "baseName": "GRC",
+                "quoteName": "DOGE",
+                "last": 0.6801230680123068,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "COI_BTC": {
+                "baseName": "COI",
+                "quoteName": "BTC",
+                "last": 44034144.075316,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XMR_BITCNY": {
+                "baseName": "XMR",
+                "quoteName": "BITCNY",
+                "last": 0.00010060362173038229,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LIVE_ETH": {
+                "baseName": "LIVE",
+                "quoteName": "ETH",
+                "last": 10,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOSDAC_BTS": {
+                "baseName": "EOSDAC",
+                "quoteName": "BTS",
+                "last": 33.02499,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_BITUSD": {
+                "baseName": "XEM",
+                "quoteName": "BITUSD",
+                "last": 40,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "INCNT_BITCNY": {
+                "baseName": "INCNT",
+                "quoteName": "BITCNY",
+                "last": 8.69542900531511,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "TRX_BITUSD": {
+                "baseName": "TRX",
+                "quoteName": "BITUSD",
+                "last": 11.111111251169135,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STU_BTC": {
+                "baseName": "STU",
+                "quoteName": "BTC",
+                "last": 50000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZRX_BITCNY": {
+                "baseName": "ZRX",
+                "quoteName": "BITCNY",
+                "last": 0.5,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ONZ_BITCNY": {
+                "baseName": "ONZ",
+                "quoteName": "BITCNY",
+                "last": 100000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "TUSD_BITUSD": {
+                "baseName": "TUSD",
+                "quoteName": "BITUSD",
+                "last": 1,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ICOO_BITUSD": {
+                "baseName": "ICOO",
+                "quoteName": "BITUSD",
+                "last": 4.971031286210892,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETP_BTC": {
+                "baseName": "ETP",
+                "quoteName": "BTC",
+                "last": 79744.81658,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_DOGE": {
+                "baseName": "ETH",
+                "quoteName": "DOGE",
+                "last": 0.000015,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SCR_BTC": {
+                "baseName": "SCR",
+                "quoteName": "BTC",
+                "last": 320533.3675235592,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HEAT_BITEUR": {
+                "baseName": "HEAT",
+                "quoteName": "BITEUR",
+                "last": 8.333333333333334,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ECH_BTC": {
+                "baseName": "ECH",
+                "quoteName": "BTC",
+                "last": 200000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_SBD": {
+                "baseName": "USDT",
+                "quoteName": "SBD",
+                "last": 0.8474643333958579,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DOGE_BITEUR": {
+                "baseName": "DOGE",
+                "quoteName": "BITEUR",
+                "last": 666.5,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XSD_EOS": {
+                "baseName": "XSD",
+                "quoteName": "EOS",
+                "last": 333.333333325,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_LTC": {
+                "baseName": "USDT",
+                "quoteName": "LTC",
+                "last": 140,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DGD_BTC": {
+                "baseName": "DGD",
+                "quoteName": "BTC",
+                "last": 189.954972,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DGD_BITCNY": {
+                "baseName": "DGD",
+                "quoteName": "BITCNY",
+                "last": 0.005,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XSD_BITUSD": {
+                "baseName": "XSD",
+                "quoteName": "BITUSD",
+                "last": 52.63157894736842,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOS_DASH": {
+                "baseName": "EOS",
+                "quoteName": "DASH",
+                "last": 23.076923076923077,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ICOO_BTC": {
+                "baseName": "ICOO",
+                "quoteName": "BTC",
+                "last": 50735.66000360165,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XRP_BITCNY": {
+                "baseName": "XRP",
+                "quoteName": "BITCNY",
+                "last": 0.5263112561549247,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SOL_ETH": {
+                "baseName": "SOL",
+                "quoteName": "ETH",
+                "last": 100000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EPT_BTS": {
+                "baseName": "EPT",
+                "quoteName": "BTS",
+                "last": 0.125,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_BITRUBLE": {
+                "baseName": "USDT",
+                "quoteName": "BITRUBLE",
+                "last": 0.014925373173871704,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "KRM_EOS": {
+                "baseName": "KRM",
+                "quoteName": "EOS",
+                "last": 1125,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OMG_BITCNY": {
+                "baseName": "OMG",
+                "quoteName": "BITCNY",
+                "last": 0.1111111,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DCT_BTC": {
+                "baseName": "DCT",
+                "quoteName": "BTC",
+                "last": 5847.953216374269,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XRP_ETH": {
+                "baseName": "XRP",
+                "quoteName": "ETH",
+                "last": 678.9547363509099,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NWTC_BITUSD": {
+                "baseName": "NWTC",
+                "quoteName": "BITUSD",
+                "last": 7.222304171182447,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XMR_USDT": {
+                "baseName": "XMR",
+                "quoteName": "USDT",
+                "last": 0.021523118382756532,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XRP_BITUSD": {
+                "baseName": "XRP",
+                "quoteName": "BITUSD",
+                "last": 20,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NXC_BTC": {
+                "baseName": "NXC",
+                "quoteName": "BTC",
+                "last": 990099,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NXC_DOGE": {
+                "baseName": "NXC",
+                "quoteName": "DOGE",
+                "last": 0.037037037037037035,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_EOS": {
+                "baseName": "USDT",
+                "quoteName": "EOS",
+                "last": 4.4047,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EURT_BITUSD": {
+                "baseName": "EURT",
+                "quoteName": "BITUSD",
+                "last": 0.5,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SBD_EOS": {
+                "baseName": "SBD",
+                "quoteName": "EOS",
+                "last": 6.8207413879010845,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_BITEUR": {
+                "baseName": "XEM",
+                "quoteName": "BITEUR",
+                "last": 88.88880597014925,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EXCL_EOS": {
+                "baseName": "EXCL",
+                "quoteName": "EOS",
+                "last": 11.364927832708263,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_BTC": {
+                "baseName": "WAVES",
+                "quoteName": "BTC",
+                "last": 6237.785016286645,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_CVN": {
+                "baseName": "ETH",
+                "quoteName": "CVN",
+                "last": 0.0004,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SKY_BTC": {
+                "baseName": "SKY",
+                "quoteName": "BTC",
+                "last": 934.5933956074854,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GAS_BTS": {
+                "baseName": "GAS",
+                "quoteName": "BTS",
+                "last": 0.316455596,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "INCNT_BITUSD": {
+                "baseName": "INCNT",
+                "quoteName": "BITUSD",
+                "last": 13.333333333333334,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NEO_ETH": {
+                "baseName": "NEO",
+                "quoteName": "ETH",
+                "last": 25.641025641025642,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NBT_BTC": {
+                "baseName": "NBT",
+                "quoteName": "BTC",
+                "last": 3068.324203022442,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOSDAC_BITCNY": {
+                "baseName": "EOSDAC",
+                "quoteName": "BITCNY",
+                "last": 37.03703708333333,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZRX_BTC": {
+                "baseName": "ZRX",
+                "quoteName": "BTC",
+                "last": 12345.684604147906,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RISE_BITUSD": {
+                "baseName": "RISE",
+                "quoteName": "BITUSD",
+                "last": 9009.009009,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ICOO_ETH": {
+                "baseName": "ICOO",
+                "quoteName": "ETH",
+                "last": 775.0135627373479,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_CROAT": {
+                "baseName": "ETH",
+                "quoteName": "CROAT",
+                "last": 0.000095,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IQ_EOS": {
+                "baseName": "IQ",
+                "quoteName": "EOS",
+                "last": 2564.1064245318425,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DEOS_BITUSD": {
+                "baseName": "DEOS",
+                "quoteName": "BITUSD",
+                "last": 0.11832991273034957,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HEAT_ETH": {
+                "baseName": "HEAT",
+                "quoteName": "ETH",
+                "last": 8333.333333333334,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MKR_BTS": {
+                "baseName": "MKR",
+                "quoteName": "BTS",
+                "last": 0.0099998,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_BITCNY": {
+                "baseName": "LTC",
+                "quoteName": "BITCNY",
+                "last": 0.01,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_BITEUR": {
+                "baseName": "STEEM",
+                "quoteName": "BITEUR",
+                "last": 0.7691708836123005,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MKR_ETH": {
+                "baseName": "MKR",
+                "quoteName": "ETH",
+                "last": 0.00017100155611416,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HTML_EOS": {
+                "baseName": "HTML",
+                "quoteName": "EOS",
+                "last": 1125.1125112511252,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRC_BITGOLD": {
+                "baseName": "GRC",
+                "quoteName": "BITGOLD",
+                "last": 7480.830372171311,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GOLOS_BTC": {
+                "baseName": "GOLOS",
+                "quoteName": "BTC",
+                "last": 1000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_EOS": {
+                "baseName": "XEM",
+                "quoteName": "EOS",
+                "last": 777.7771129394166,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEC_BTS": {
+                "baseName": "ZEC",
+                "quoteName": "BTS",
+                "last": 0.00040816326530612246,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_AGRS": {
+                "baseName": "ETH",
+                "quoteName": "AGRS",
+                "last": 0.0008,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_DOGE": {
+                "baseName": "WAVES",
+                "quoteName": "DOGE",
+                "last": 0.0020000198355834622,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CROAT_BTS": {
+                "baseName": "CROAT",
+                "quoteName": "BTS",
+                "last": 12.5470496015709,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NBC_BTC": {
+                "baseName": "NBC",
+                "quoteName": "BTC",
+                "last": 12820.51282051282,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTS_AMP": {
+                "baseName": "BTS",
+                "quoteName": "AMP",
+                "last": 0.9356725130094089,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OMG_BITUSD": {
+                "baseName": "OMG",
+                "quoteName": "BITUSD",
+                "last": 861.3264427215,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EMC_BITCNY": {
+                "baseName": "EMC",
+                "quoteName": "BITCNY",
+                "last": 0.04080158294442051,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EXCL_BITUSD": {
+                "baseName": "EXCL",
+                "quoteName": "BITUSD",
+                "last": 4.572478540024988,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WARRANTBTS_ETH": {
+                "baseName": "WARRANTBTS",
+                "quoteName": "ETH",
+                "last": 2567.6029159519726,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MAID_BTS": {
+                "baseName": "MAID",
+                "quoteName": "BTS",
+                "last": 0.37269225857588967,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NBT_BITUSD": {
+                "baseName": "NBT",
+                "quoteName": "BITUSD",
+                "last": 0.4589821847166459,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RMBPAY_ETH": {
+                "baseName": "RMBPAY",
+                "quoteName": "ETH",
+                "last": 3206.4898152534342,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_AGRS": {
+                "baseName": "STEEM",
+                "quoteName": "AGRS",
+                "last": 2.1916693968390253,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_DASH": {
+                "baseName": "USDT",
+                "quoteName": "DASH",
+                "last": 80,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NEO_BTC": {
+                "baseName": "NEO",
+                "quoteName": "BTC",
+                "last": 833.3333333333334,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_B2X": {
+                "baseName": "BTC",
+                "quoteName": "B2X",
+                "last": 0.0001189,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NBC_BTS": {
+                "baseName": "NBC",
+                "quoteName": "BTS",
+                "last": 0.23256462971059658,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NWTC_BTS": {
+                "baseName": "NWTC",
+                "quoteName": "BTS",
+                "last": 529100.5291,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_EXCL": {
+                "baseName": "LTC",
+                "quoteName": "EXCL",
+                "last": 0.004349,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GOLOS_BTS": {
+                "baseName": "GOLOS",
+                "quoteName": "BTS",
+                "last": 4.899559,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FCC_BTS": {
+                "baseName": "FCC",
+                "quoteName": "BTS",
+                "last": 2.7777777777777777,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ONZ_EOS": {
+                "baseName": "ONZ",
+                "quoteName": "EOS",
+                "last": 1000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTS_ARN": {
+                "baseName": "BTS",
+                "quoteName": "ARN",
+                "last": 0.00001011,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPY_BITCNY": {
+                "baseName": "PPY",
+                "quoteName": "BITCNY",
+                "last": 0.25,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LIVE_BITUSD": {
+                "baseName": "LIVE",
+                "quoteName": "BITUSD",
+                "last": 100,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_AGRS": {
+                "baseName": "BTC",
+                "quoteName": "AGRS",
+                "last": 0.00003645,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SKY_BITCNY": {
+                "baseName": "SKY",
+                "quoteName": "BITCNY",
+                "last": 0.020833333333333332,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CVN_BITUSD": {
+                "baseName": "CVN",
+                "quoteName": "BITUSD",
+                "last": 9.999000061136268,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITUSD_ATB": {
+                "baseName": "BITUSD",
+                "quoteName": "ATB",
+                "last": 0.02106149957877,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_BITRUBLE": {
+                "baseName": "WAVES",
+                "quoteName": "BITRUBLE",
+                "last": 0.33333325,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GBG_BITUSD": {
+                "baseName": "GBG",
+                "quoteName": "BITUSD",
+                "last": 20.72851022445386,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GBG_BITCNY": {
+                "baseName": "GBG",
+                "quoteName": "BITCNY",
+                "last": 2.744916698030793,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_BTC": {
+                "baseName": "ZEN",
+                "quoteName": "BTC",
+                "last": 750,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "KRM_BITUSD": {
+                "baseName": "KRM",
+                "quoteName": "BITUSD",
+                "last": 4997.5012493,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GAME_BITCNY": {
+                "baseName": "GAME",
+                "quoteName": "BITCNY",
+                "last": 0.81967213,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XRP_EOS": {
+                "baseName": "XRP",
+                "quoteName": "EOS",
+                "last": 0.0000101364364344,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_DOGE": {
+                "baseName": "LTC",
+                "quoteName": "DOGE",
+                "last": 0.00002333068549807675,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HTML_BTS": {
+                "baseName": "HTML",
+                "quoteName": "BTS",
+                "last": 357.1428025567453,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LISK_BITUSD": {
+                "baseName": "LISK",
+                "quoteName": "BITUSD",
+                "last": 11.2599932,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NEO_BTS": {
+                "baseName": "NEO",
+                "quoteName": "BTS",
+                "last": 0.00581395,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CROAT_BITUSD": {
+                "baseName": "CROAT",
+                "quoteName": "BITUSD",
+                "last": 100,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SOL_BTS": {
+                "baseName": "SOL",
+                "quoteName": "BTS",
+                "last": 8.385041652944377,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DOGE_BITRUBLE": {
+                "baseName": "DOGE",
+                "quoteName": "BITRUBLE",
+                "last": 3.5211471610660485,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZRX_STEEM": {
+                "baseName": "ZRX",
+                "quoteName": "STEEM",
+                "last": 1.4304635761589404,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IVC_BTC": {
+                "baseName": "IVC",
+                "quoteName": "BTC",
+                "last": 200000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOS_BITGOLD": {
+                "baseName": "EOS",
+                "quoteName": "BITGOLD",
+                "last": 191,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EURT_BTC": {
+                "baseName": "EURT",
+                "quoteName": "BTC",
+                "last": 100,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DASH_BITRUBLE": {
+                "baseName": "DASH",
+                "quoteName": "BITRUBLE",
+                "last": 0.0001492314028483469,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EMC_BTS": {
+                "baseName": "EMC",
+                "quoteName": "BTS",
+                "last": 0.13333333333333333,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CVN_BITCNY": {
+                "baseName": "CVN",
+                "quoteName": "BITCNY",
+                "last": 1.1108,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GBG_BTC": {
+                "baseName": "GBG",
+                "quoteName": "BTC",
+                "last": 115071.31157081814,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITUSD_AGRS": {
+                "baseName": "BITUSD",
+                "quoteName": "AGRS",
+                "last": 0.4548022151791677,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OMNI_BITUSD": {
+                "baseName": "OMNI",
+                "quoteName": "BITUSD",
+                "last": 0.06930741296915434,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITCNY_AMP": {
+                "baseName": "BITCNY",
+                "quoteName": "AMP",
+                "last": 1.0026238310356534,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EXCL_ETH": {
+                "baseName": "EXCL",
+                "quoteName": "ETH",
+                "last": 24.379013179088783,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CMDX_BTC": {
+                "baseName": "CMDX",
+                "quoteName": "BTC",
+                "last": 1000000.0151240547,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CROAT_BITCNY": {
+                "baseName": "CROAT",
+                "quoteName": "BITCNY",
+                "last": 9.99,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRC_BITCNY": {
+                "baseName": "GRC",
+                "quoteName": "BITCNY",
+                "last": 50,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOS_AGRS": {
+                "baseName": "EOS",
+                "quoteName": "AGRS",
+                "last": 0.13999999917944908,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LIVE_BTS": {
+                "baseName": "LIVE",
+                "quoteName": "BTS",
+                "last": 27.855153203342617,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DCT_BTS": {
+                "baseName": "DCT",
+                "quoteName": "BTS",
+                "last": 0.041666666666666664,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAX_BITUSD": {
+                "baseName": "WAX",
+                "quoteName": "BITUSD",
+                "last": 2,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_BITUSD": {
+                "baseName": "LTC",
+                "quoteName": "BITUSD",
+                "last": 0.013888888888888888,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CAT_BTC": {
+                "baseName": "CAT",
+                "quoteName": "BTC",
+                "last": 1000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IQ_BITCNY": {
+                "baseName": "IQ",
+                "quoteName": "BITCNY",
+                "last": 142.85714285714286,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOS_BITCNY": {
+                "baseName": "EOS",
+                "quoteName": "BITCNY",
+                "last": 0.03703702426360358,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETP_BTS": {
+                "baseName": "ETP",
+                "quoteName": "BTS",
+                "last": 0.23728733122938567,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOSDAC_BITUSD": {
+                "baseName": "EOSDAC",
+                "quoteName": "BITUSD",
+                "last": 14.571435100441327,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CROAT_BTC": {
+                "baseName": "CROAT",
+                "quoteName": "BTC",
+                "last": 2631578.947368421,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DOGE_DASH": {
+                "baseName": "DOGE",
+                "quoteName": "DASH",
+                "last": 100000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZGC_BTC": {
+                "baseName": "ZGC",
+                "quoteName": "BTC",
+                "last": 220137.9160901317,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_BTS": {
+                "baseName": "ZEN",
+                "quoteName": "BTS",
+                "last": 0.0052631,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SOL_BITUSD": {
+                "baseName": "SOL",
+                "quoteName": "BITUSD",
+                "last": 110.21882675311643,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XDRAC_BITUSD": {
+                "baseName": "XDRAC",
+                "quoteName": "BITUSD",
+                "last": 1000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DCT_BITUSD": {
+                "baseName": "DCT",
+                "quoteName": "BITUSD",
+                "last": 0.5222143133266405,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EXCL_BITCNY": {
+                "baseName": "EXCL",
+                "quoteName": "BITCNY",
+                "last": 0.6724951530035116,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XSD_BTC": {
+                "baseName": "XSD",
+                "quoteName": "BTC",
+                "last": 100000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_BITRUBLE": {
+                "baseName": "ETH",
+                "quoteName": "BITRUBLE",
+                "last": 0.00005555864214678593,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XPO_BTS": {
+                "baseName": "XPO",
+                "quoteName": "BTS",
+                "last": 0.04000016000064,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITCNY_AGRS": {
+                "baseName": "BITCNY",
+                "quoteName": "AGRS",
+                "last": 0.9999999899604678,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SOL_BTC": {
+                "baseName": "SOL",
+                "quoteName": "BTC",
+                "last": 909090.9547738694,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTS_ATM": {
+                "baseName": "BTS",
+                "quoteName": "ATM",
+                "last": 0.02229999992217647,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOSDAC_BITEUR": {
+                "baseName": "EOSDAC",
+                "quoteName": "BITEUR",
+                "last": 888.8098,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRC_ETH": {
+                "baseName": "GRC",
+                "quoteName": "ETH",
+                "last": 14538.59410430839,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HTML_ETH": {
+                "baseName": "HTML",
+                "quoteName": "ETH",
+                "last": 3245436.105476673,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_BTC": {
+                "baseName": "STEEM",
+                "quoteName": "BTC",
+                "last": 74999.79179679367,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EXCL_BTC": {
+                "baseName": "EXCL",
+                "quoteName": "BTC",
+                "last": 49213.6287963555,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_ETH": {
+                "baseName": "LTC",
+                "quoteName": "ETH",
+                "last": 0.005999386879215206,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XMR_EOS": {
+                "baseName": "XMR",
+                "quoteName": "EOS",
+                "last": 0.0425531914893617,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOS_DOGE": {
+                "baseName": "EOS",
+                "quoteName": "DOGE",
+                "last": 0.0007750006402212604,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CAT_BTS": {
+                "baseName": "CAT",
+                "quoteName": "BTS",
+                "last": 10,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_BITRUBLE": {
+                "baseName": "LTC",
+                "quoteName": "BITRUBLE",
+                "last": 0.00048060748697679746,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SCR_LTC": {
+                "baseName": "SCR",
+                "quoteName": "LTC",
+                "last": 879.245,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SCR_EXCL": {
+                "baseName": "SCR",
+                "quoteName": "EXCL",
+                "last": 2.682,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WGR_BTC": {
+                "baseName": "WGR",
+                "quoteName": "BTC",
+                "last": 32154.340836012863,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_EOS": {
+                "baseName": "ETH",
+                "quoteName": "EOS",
+                "last": 0.0249869808994535,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_BTS": {
+                "baseName": "XEM",
+                "quoteName": "BTS",
+                "last": 1.6666666666666667,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "TRX_BTC": {
+                "baseName": "TRX",
+                "quoteName": "BTC",
+                "last": 49748853.8,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPC_BTS": {
+                "baseName": "PPC",
+                "quoteName": "BTS",
+                "last": 0.12462208886280159,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SONM_BITCNY": {
+                "baseName": "SONM",
+                "quoteName": "BITCNY",
+                "last": 2,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITCNY_ATM": {
+                "baseName": "BITCNY",
+                "quoteName": "ATM",
+                "last": 0.00600000240000096,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WARRANTBTS_BITCNY": {
+                "baseName": "WARRANTBTS",
+                "quoteName": "BITCNY",
+                "last": 1,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_DOGE": {
+                "baseName": "STEEM",
+                "quoteName": "DOGE",
+                "last": 0.03181,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_EOS": {
+                "baseName": "WAVES",
+                "quoteName": "EOS",
+                "last": 1.3699425657822146,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FUNC_CVN": {
+                "baseName": "FUNC",
+                "quoteName": "CVN",
+                "last": 88.8885564697083,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_BITCNY": {
+                "baseName": "ZEN",
+                "quoteName": "BITCNY",
+                "last": 0.033333,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GAME_BITUSD": {
+                "baseName": "GAME",
+                "quoteName": "BITUSD",
+                "last": 3.184716,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_BITUSD": {
+                "baseName": "WAVES",
+                "quoteName": "BITUSD",
+                "last": 0.42735042735042733,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_ATB": {
+                "baseName": "BTC",
+                "quoteName": "ATB",
+                "last": 0.000001210000001452,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XDRAC_BTC": {
+                "baseName": "XDRAC",
+                "quoteName": "BTC",
+                "last": 60975.71182643896,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_BITGOLD": {
+                "baseName": "ZEN",
+                "quoteName": "BITGOLD",
+                "last": 53,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRC_EXCL": {
+                "baseName": "GRC",
+                "quoteName": "EXCL",
+                "last": 29.00000001294905,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IQ_EOSDAC": {
+                "baseName": "IQ",
+                "quoteName": "EOSDAC",
+                "last": 1,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GAME_BTS": {
+                "baseName": "GAME",
+                "quoteName": "BTS",
+                "last": 0.2,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ONZ_BTS": {
+                "baseName": "ONZ",
+                "quoteName": "BTS",
+                "last": 1098.430343,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MAID_EOS": {
+                "baseName": "MAID",
+                "quoteName": "EOS",
+                "last": 23,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GAME_DOGE": {
+                "baseName": "GAME",
+                "quoteName": "DOGE",
+                "last": 0.009111697843707594,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HEAT_BTS": {
+                "baseName": "HEAT",
+                "quoteName": "BTS",
+                "last": 1.6667265347174827,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SCR_BITCNY": {
+                "baseName": "SCR",
+                "quoteName": "BITCNY",
+                "last": 10,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "CMDX_BITUSD": {
+                "baseName": "CMDX",
+                "quoteName": "BITUSD",
+                "last": 250000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OMNI_BTS": {
+                "baseName": "OMNI",
+                "quoteName": "BTS",
+                "last": 0.0074074091281402755,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "TRX_BTS": {
+                "baseName": "TRX",
+                "quoteName": "BTS",
+                "last": 0.2222222222222222,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPC_GRC": {
+                "baseName": "PPC",
+                "quoteName": "GRC",
+                "last": 0.007751937984496124,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZEN_XMR": {
+                "baseName": "ZEN",
+                "quoteName": "XMR",
+                "last": 6.2,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTS_BKS": {
+                "baseName": "BTS",
+                "quoteName": "BKS",
+                "last": 145,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PURA_BTC": {
+                "baseName": "PURA",
+                "quoteName": "BTC",
+                "last": 34722.21901523925,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NXC_BTS": {
+                "baseName": "NXC",
+                "quoteName": "BTS",
+                "last": 9.803921,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LIVE_EOS": {
+                "baseName": "LIVE",
+                "quoteName": "EOS",
+                "last": 3.3333333333333335,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FCC_BITCNY": {
+                "baseName": "FCC",
+                "quoteName": "BITCNY",
+                "last": 10,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XCEL_BTS": {
+                "baseName": "XCEL",
+                "quoteName": "BTS",
+                "last": 2.50000564,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MASP_BTC": {
+                "baseName": "MASP",
+                "quoteName": "BTC",
+                "last": 9165482.74,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MAID_BTC": {
+                "baseName": "MAID",
+                "quoteName": "BTC",
+                "last": 66666.66666666667,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DOGE_BITUSD": {
+                "baseName": "DOGE",
+                "quoteName": "BITUSD",
+                "last": 380.28627195836043,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_BTC": {
+                "baseName": "LTC",
+                "quoteName": "BTC",
+                "last": 58.8235294117647,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DAO_BTS": {
+                "baseName": "DAO",
+                "quoteName": "BTS",
+                "last": 0.01,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RISE_EXCL": {
+                "baseName": "RISE",
+                "quoteName": "EXCL",
+                "last": 4,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RISE_ETH": {
+                "baseName": "RISE",
+                "quoteName": "ETH",
+                "last": 10,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SBD_BITCNY": {
+                "baseName": "SBD",
+                "quoteName": "BITCNY",
+                "last": 0.14285714285714285,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOS_BITEUR": {
+                "baseName": "EOS",
+                "quoteName": "BITEUR",
+                "last": 0.16666666666666666,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NBT_BTS": {
+                "baseName": "NBT",
+                "quoteName": "BTS",
+                "last": 0.010000001021145498,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XPO_BTC": {
+                "baseName": "XPO",
+                "quoteName": "BTC",
+                "last": 2857.11083789502,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DCT_BITCNY": {
+                "baseName": "DCT",
+                "quoteName": "BITCNY",
+                "last": 0.19036381828026278,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SKY_BTS": {
+                "baseName": "SKY",
+                "quoteName": "BTS",
+                "last": 0.007142857142857143,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RISE_BTS": {
+                "baseName": "RISE",
+                "quoteName": "BTS",
+                "last": 4.998725325042114,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTS_ARDR": {
+                "baseName": "BTS",
+                "quoteName": "ARDR",
+                "last": 19.999,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OMG_EOS": {
+                "baseName": "OMG",
+                "quoteName": "EOS",
+                "last": 3.2158064,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BITCNY_ARDR": {
+                "baseName": "BITCNY",
+                "quoteName": "ARDR",
+                "last": 3.000030000300003,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IQ_BTS": {
+                "baseName": "IQ",
+                "quoteName": "BTS",
+                "last": 20.42731904182992,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_LTC": {
+                "baseName": "WAVES",
+                "quoteName": "LTC",
+                "last": 7.692307692307692,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_ATM": {
+                "baseName": "BTC",
+                "quoteName": "ATM",
+                "last": 2e-8,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OBITS_BTC": {
+                "baseName": "OBITS",
+                "quoteName": "BTC",
+                "last": 473933.6492890995,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTS_AGRS": {
+                "baseName": "BTS",
+                "quoteName": "AGRS",
+                "last": 9,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FCC_ETH": {
+                "baseName": "FCC",
+                "quoteName": "ETH",
+                "last": 10972.758583905594,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SCR_ETH": {
+                "baseName": "SCR",
+                "quoteName": "ETH",
+                "last": 10526.315789473685,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LTC_GAME": {
+                "baseName": "LTC",
+                "quoteName": "GAME",
+                "last": 0.006589810058758652,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_DASH": {
+                "baseName": "XEM",
+                "quoteName": "DASH",
+                "last": 1137.8376533236237,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_BITCNY": {
+                "baseName": "STEEM",
+                "quoteName": "BITCNY",
+                "last": 0.7151240358459016,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_BTS": {
+                "baseName": "STEEM",
+                "quoteName": "BTS",
+                "last": 0.3067484662576687,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MKR_BITUSD": {
+                "baseName": "MKR",
+                "quoteName": "BITUSD",
+                "last": 0.9131586156515387,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XEM_SBD": {
+                "baseName": "XEM",
+                "quoteName": "SBD",
+                "last": 42,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EXCL_BTS": {
+                "baseName": "EXCL",
+                "quoteName": "BTS",
+                "last": 0.3918449234530942,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETP_BITCNY": {
+                "baseName": "ETP",
+                "quoteName": "BITCNY",
+                "last": 0.2499987,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XSD_ETH": {
+                "baseName": "XSD",
+                "quoteName": "ETH",
+                "last": 16661.112962,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_DASH": {
+                "baseName": "ETH",
+                "quoteName": "DASH",
+                "last": 0.47,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRC_BITUSD": {
+                "baseName": "GRC",
+                "quoteName": "BITUSD",
+                "last": 751.8796992481203,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SBD_BTC": {
+                "baseName": "SBD",
+                "quoteName": "BTC",
+                "last": 18518.7134715214,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IVC_BITCNY": {
+                "baseName": "IVC",
+                "quoteName": "BITCNY",
+                "last": 20,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPY_BTS": {
+                "baseName": "PPY",
+                "quoteName": "BTS",
+                "last": 0.08319467549750306,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "NWTC_BTC": {
+                "baseName": "NWTC",
+                "quoteName": "BTC",
+                "last": 5955429.873113565,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_BITSILVER": {
+                "baseName": "ETH",
+                "quoteName": "BITSILVER",
+                "last": 0.01,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DEOS_BTC": {
+                "baseName": "DEOS",
+                "quoteName": "BTC",
+                "last": 584.4522111030044,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LIF_ETH": {
+                "baseName": "LIF",
+                "quoteName": "ETH",
+                "last": 1818.1889597023196,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EMC_BTC": {
+                "baseName": "EMC",
+                "quoteName": "BTC",
+                "last": 3997.701105514643,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "WAVES_BITCNY": {
+                "baseName": "WAVES",
+                "quoteName": "BITCNY",
+                "last": 0.1,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RISE_BITCNY": {
+                "baseName": "RISE",
+                "quoteName": "BITCNY",
+                "last": 1.1764705930002652,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LIF_BTS": {
+                "baseName": "LIF",
+                "quoteName": "BTS",
+                "last": 19.9992,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SCR_BITEUR": {
+                "baseName": "SCR",
+                "quoteName": "BITEUR",
+                "last": 88.88888805970149,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ECH_BTS": {
+                "baseName": "ECH",
+                "quoteName": "BTS",
+                "last": 23752.969121,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RMBPAY_BITCNY": {
+                "baseName": "RMBPAY",
+                "quoteName": "BITCNY",
+                "last": 0.833333416666875,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "LISK_BTS": {
+                "baseName": "LISK",
+                "quoteName": "BTS",
+                "last": 0.030303030303030304,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DGD_BTS": {
+                "baseName": "DGD",
+                "quoteName": "BTS",
+                "last": 0.002,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HEAT_BITCNY": {
+                "baseName": "HEAT",
+                "quoteName": "BITCNY",
+                "last": 0.867841353074234,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "KRM_BITRUBLE": {
+                "baseName": "KRM",
+                "quoteName": "BITRUBLE",
+                "last": 1000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FUNC_BTC": {
+                "baseName": "FUNC",
+                "quoteName": "BTC",
+                "last": 3370747.005849039,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "COI_BTS": {
+                "baseName": "COI",
+                "quoteName": "BTS",
+                "last": 854.7008547008547,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SOL_BITCNY": {
+                "baseName": "SOL",
+                "quoteName": "BITCNY",
+                "last": 41.67408284971006,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FCC_BITUSD": {
+                "baseName": "FCC",
+                "quoteName": "BITUSD",
+                "last": 99.0099,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RMBPAY_BITUSD": {
+                "baseName": "RMBPAY",
+                "quoteName": "BITUSD",
+                "last": 200,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "DASH_BITCNY": {
+                "baseName": "DASH",
+                "quoteName": "BITCNY",
+                "last": 0.001,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_BITUSD": {
+                "baseName": "STEEM",
+                "quoteName": "BITUSD",
+                "last": 10,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPC_BTC": {
+                "baseName": "PPC",
+                "quoteName": "BTC",
+                "last": 5813.953488372093,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SKY_BITUSD": {
+                "baseName": "SKY",
+                "quoteName": "BITUSD",
+                "last": 0.19230769230769232,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_GRC": {
+                "baseName": "STEEM",
+                "quoteName": "GRC",
+                "last": 0.02,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_CMDX": {
+                "baseName": "ETH",
+                "quoteName": "CMDX",
+                "last": 0.0001899999900056999,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "RISE_EOS": {
+                "baseName": "RISE",
+                "quoteName": "EOS",
+                "last": 17.584271983640082,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MAID_BITCNY": {
+                "baseName": "MAID",
+                "quoteName": "BITCNY",
+                "last": 1,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "FCC_BTC": {
+                "baseName": "FCC",
+                "quoteName": "BTC",
+                "last": 165282.17636513524,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "SONM_EOS": {
+                "baseName": "SONM",
+                "quoteName": "EOS",
+                "last": 88.88556469708303,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MKR_BTC": {
+                "baseName": "MKR",
+                "quoteName": "BTC",
+                "last": 0.2891008962127782,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "XMR_ETH": {
+                "baseName": "XMR",
+                "quoteName": "ETH",
+                "last": 2.7868,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ZGC_BITUSD": {
+                "baseName": "ZGC",
+                "quoteName": "BITUSD",
+                "last": 150.14879709005112,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "STEEM_BITRUBLE": {
+                "baseName": "STEEM",
+                "quoteName": "BITRUBLE",
+                "last": 0.01,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "IVC_BITUSD": {
+                "baseName": "IVC",
+                "quoteName": "BITUSD",
+                "last": 119.26871240905761,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "TUSD_BTC": {
+                "baseName": "TUSD",
+                "quoteName": "BTC",
+                "last": 49.56652064356902,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "TUSD_BTS": {
+                "baseName": "TUSD",
+                "quoteName": "BTS",
+                "last": 0.045454545454545456,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "GRC_BTC": {
+                "baseName": "GRC",
+                "quoteName": "BTC",
+                "last": 199999999,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "HEAT_DOGE": {
+                "baseName": "HEAT",
+                "quoteName": "DOGE",
+                "last": 0.2214726631393298,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "PPY_BTC": {
+                "baseName": "PPY",
+                "quoteName": "BTC",
+                "last": 2222.13243909337,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "REALITY_BITCNY": {
+                "baseName": "REALITY",
+                "quoteName": "BITCNY",
+                "last": 1,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "ETH_COI": {
+                "baseName": "ETH",
+                "quoteName": "COI",
+                "last": 5e-8,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "MASP_BTS": {
+                "baseName": "MASP",
+                "quoteName": "BTS",
+                "last": 2.0004033333333333,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "OBITS_BITCNY": {
+                "baseName": "OBITS",
+                "quoteName": "BITCNY",
+                "last": 2.0006096631611037,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "BTC_ARDR": {
+                "baseName": "BTC",
+                "quoteName": "ARDR",
+                "last": 0.000034999975,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "KRM_BTC": {
+                "baseName": "KRM",
+                "quoteName": "BTC",
+                "last": 25000000,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "EOSDAC_BTC": {
+                "baseName": "EOSDAC",
+                "quoteName": "BTC",
+                "last": 49999999.99,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            },
+            "USDT_BITSILVER": {
+                "baseName": "USDT",
+                "quoteName": "BITSILVER",
+                "last": 1.000100010001,
+                "baseVolume": 0,
+                "quoteVolume": 0,
+                "usdVolume": 0,
+                "btsVolume": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.2",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:25 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*"
+        ]
+    }
+]

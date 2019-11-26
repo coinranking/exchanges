@@ -1,0 +1,2294 @@
+[
+    {
+        "scope": "http://api.zb.cn:80",
+        "method": "GET",
+        "path": "/data/v1/markets",
+        "body": "",
+        "status": 200,
+        "response": {
+            "zb_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "zb_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "zb_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "btc_qc": {
+                "amountScale": 4,
+                "priceScale": 2
+            },
+            "btc_usdt": {
+                "amountScale": 4,
+                "priceScale": 2
+            },
+            "eth_usdt": {
+                "amountScale": 3,
+                "priceScale": 2
+            },
+            "eth_qc": {
+                "amountScale": 3,
+                "priceScale": 2
+            },
+            "eth_btc": {
+                "amountScale": 3,
+                "priceScale": 6
+            },
+            "xrp_qc": {
+                "amountScale": 0,
+                "priceScale": 4
+            },
+            "xrp_usdt": {
+                "amountScale": 0,
+                "priceScale": 4
+            },
+            "xrp_btc": {
+                "amountScale": 0,
+                "priceScale": 8
+            },
+            "eos_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "eos_qc": {
+                "amountScale": 2,
+                "priceScale": 3
+            },
+            "eos_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "xlm_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "xlm_usdt": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "xlm_btc": {
+                "amountScale": 1,
+                "priceScale": 8
+            },
+            "ltc_usdt": {
+                "amountScale": 3,
+                "priceScale": 3
+            },
+            "ltc_qc": {
+                "amountScale": 3,
+                "priceScale": 2
+            },
+            "ltc_btc": {
+                "amountScale": 3,
+                "priceScale": 6
+            },
+            "usdt_qc": {
+                "amountScale": 4,
+                "priceScale": 4
+            },
+            "ada_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "ada_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "ada_btc": {
+                "amountScale": 1,
+                "priceScale": 8
+            },
+            "dash_usdt": {
+                "amountScale": 3,
+                "priceScale": 3
+            },
+            "dash_qc": {
+                "amountScale": 3,
+                "priceScale": 2
+            },
+            "dash_btc": {
+                "amountScale": 3,
+                "priceScale": 6
+            },
+            "neo_qc": {
+                "amountScale": 2,
+                "priceScale": 3
+            },
+            "neo_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "neo_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "etc_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "etc_qc": {
+                "amountScale": 2,
+                "priceScale": 3
+            },
+            "etc_btc": {
+                "amountScale": 2,
+                "priceScale": 6
+            },
+            "xem_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "xem_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "xem_btc": {
+                "amountScale": 1,
+                "priceScale": 8
+            },
+            "doge_qc": {
+                "amountScale": 0,
+                "priceScale": 6
+            },
+            "doge_usdt": {
+                "amountScale": 0,
+                "priceScale": 7
+            },
+            "doge_btc": {
+                "amountScale": 0,
+                "priceScale": 10
+            },
+            "omg_qc": {
+                "amountScale": 2,
+                "priceScale": 3
+            },
+            "omg_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "omg_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "zrx_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "zrx_usdt": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "zrx_btc": {
+                "amountScale": 1,
+                "priceScale": 8
+            },
+            "qtum_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "qtum_qc": {
+                "amountScale": 2,
+                "priceScale": 3
+            },
+            "qtum_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "bts_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "bts_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "bts_btc": {
+                "amountScale": 1,
+                "priceScale": 8
+            },
+            "icx_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "icx_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "icx_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "ae_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "ae_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "bat_usdt": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "bat_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "bat_btc": {
+                "amountScale": 1,
+                "priceScale": 10
+            },
+            "gnt_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "gnt_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "gnt_btc": {
+                "amountScale": 1,
+                "priceScale": 8
+            },
+            "snt_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "snt_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "snt_btc": {
+                "amountScale": 1,
+                "priceScale": 10
+            },
+            "hc_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "hsr_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "hc_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "hsr_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "hc_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "hsr_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "pax_usdt": {
+                "amountScale": 4,
+                "priceScale": 4
+            },
+            "ubtc_usdt": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "bcd_usdt": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "ubtc_qc": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "bcd_qc": {
+                "amountScale": 3,
+                "priceScale": 3
+            },
+            "sbtc_usdt": {
+                "amountScale": 3,
+                "priceScale": 2
+            },
+            "ink_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "ink_qc": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "tv_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "tv_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "tv_btc": {
+                "amountScale": 1,
+                "priceScale": 10
+            },
+            "bcx_usdt": {
+                "amountScale": 0,
+                "priceScale": 6
+            },
+            "bcx_qc": {
+                "amountScale": 0,
+                "priceScale": 6
+            },
+            "bcx_btc": {
+                "amountScale": 0,
+                "priceScale": 10
+            },
+            "bth_usdt": {
+                "amountScale": 3,
+                "priceScale": 6
+            },
+            "bth_qc": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "lbtc_usdt": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "lbtc_qc": {
+                "amountScale": 3,
+                "priceScale": 3
+            },
+            "lbtc_btc": {
+                "amountScale": 3,
+                "priceScale": 8
+            },
+            "chat_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "hlc_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "hlc_qc": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "bcw_usdt": {
+                "amountScale": 3,
+                "priceScale": 6
+            },
+            "bcw_qc": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "btp_usdt": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "btp_qc": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "bitcny_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "topc_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "topc_qc": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "entc_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "1st_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "1st_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "safe_usdt": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "safe_qc": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "qun_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "qun_qc": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "btn_usdt": {
+                "amountScale": 3,
+                "priceScale": 6
+            },
+            "btn_qc": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "true_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "true_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "true_btc": {
+                "amountScale": 2,
+                "priceScale": 10
+            },
+            "cdc_usdt": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "cdc_qc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "ddm_usdt": {
+                "amountScale": 2,
+                "priceScale": 6
+            },
+            "ddm_qc": {
+                "amountScale": 2,
+                "priceScale": 6
+            },
+            "bite_btc": {
+                "amountScale": 3,
+                "priceScale": 8
+            },
+            "hotc_usdt": {
+                "amountScale": 2,
+                "priceScale": 6
+            },
+            "hotc_qc": {
+                "amountScale": 2,
+                "priceScale": 6
+            },
+            "xuc_qc": {
+                "amountScale": 3,
+                "priceScale": 3
+            },
+            "epc_qc": {
+                "amountScale": 3,
+                "priceScale": 6
+            },
+            "epc_btc": {
+                "amountScale": 3,
+                "priceScale": 10
+            },
+            "bds_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "gram_qc": {
+                "amountScale": 0,
+                "priceScale": 8
+            },
+            "gram_usdt": {
+                "amountScale": 0,
+                "priceScale": 8
+            },
+            "gram_btc": {
+                "amountScale": 0,
+                "priceScale": 10
+            },
+            "hpy_qc": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "hpy_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "btm_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "btm_usdt": {
+                "amountScale": 2,
+                "priceScale": 6
+            },
+            "btm_btc": {
+                "amountScale": 2,
+                "priceScale": 8
+            },
+            "edo_usdt": {
+                "amountScale": 2,
+                "priceScale": 3
+            },
+            "mana_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "mana_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "mana_btc": {
+                "amountScale": 1,
+                "priceScale": 8
+            },
+            "rcn_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "mco_qc": {
+                "amountScale": 2,
+                "priceScale": 3
+            },
+            "mco_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "mith_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "knc_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "knc_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "mtl_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "sub_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "eosdac_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "eosdac_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "kan_qc": {
+                "amountScale": 0,
+                "priceScale": 6
+            },
+            "kan_btc": {
+                "amountScale": 0,
+                "priceScale": 10
+            },
+            "aaa_qc": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "xwc_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "xwc_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "pdx_qc": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "pdx_usdt": {
+                "amountScale": 1,
+                "priceScale": 8
+            },
+            "pdx_btc": {
+                "amountScale": 1,
+                "priceScale": 10
+            },
+            "slt_qc": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "slt_usdt": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "slt_btc": {
+                "amountScale": 1,
+                "priceScale": 10
+            },
+            "xtz_usdt": {
+                "amountScale": 3,
+                "priceScale": 4
+            },
+            "pax_qc": {
+                "amountScale": 4,
+                "priceScale": 4
+            },
+            "brc_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "brc_usdt": {
+                "amountScale": 1,
+                "priceScale": 5
+            },
+            "brc_btc": {
+                "amountScale": 1,
+                "priceScale": 10
+            },
+            "bchabc_qc": {
+                "amountScale": 3,
+                "priceScale": 2
+            },
+            "bchabc_usdt": {
+                "amountScale": 3,
+                "priceScale": 2
+            },
+            "bchsv_qc": {
+                "amountScale": 3,
+                "priceScale": 2
+            },
+            "bchsv_usdt": {
+                "amountScale": 3,
+                "priceScale": 3
+            },
+            "vsys_zb": {
+                "amountScale": 1,
+                "priceScale": 6
+            },
+            "vsys_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "vsys_btc": {
+                "amountScale": 1,
+                "priceScale": 9
+            },
+            "grin_qc": {
+                "amountScale": 2,
+                "priceScale": 3
+            },
+            "grin_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "trx_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "trx_usdt": {
+                "amountScale": 1,
+                "priceScale": 5
+            },
+            "trx_btc": {
+                "amountScale": 1,
+                "priceScale": 9
+            },
+            "tusd_usdt": {
+                "amountScale": 4,
+                "priceScale": 4
+            },
+            "xmr_qc": {
+                "amountScale": 3,
+                "priceScale": 2
+            },
+            "xmr_usdt": {
+                "amountScale": 3,
+                "priceScale": 3
+            },
+            "leo_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "b91_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "b91_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "ytnb_usdt": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "nwt_usdt": {
+                "amountScale": 1,
+                "priceScale": 5
+            },
+            "etz_qc": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "etz_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "bar_usdt": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "acc_usdt": {
+                "amountScale": 2,
+                "priceScale": 4
+            },
+            "hx_qc": {
+                "amountScale": 1,
+                "priceScale": 4
+            },
+            "hx_usdt": {
+                "amountScale": 1,
+                "priceScale": 5
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:44 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "CNDServer",
+            "cache_server_1"
+        ]
+    },
+    {
+        "scope": "http://api.zb.cn:80",
+        "method": "GET",
+        "path": "/data/v1/allTicker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "vsysqc": {
+                "high": "1.0739",
+                "vol": "1451229.7",
+                "last": "1.0197",
+                "low": "0.9919",
+                "buy": "1.0018",
+                "sell": "1.0196"
+            },
+            "batusdt": {
+                "high": "0.1757",
+                "vol": "1534.9",
+                "last": "0.174",
+                "low": "0.1706",
+                "buy": "0.1747",
+                "sell": "0.1749"
+            },
+            "bthusdt": {
+                "high": "0.008941",
+                "vol": "88061.414",
+                "last": "0.00855",
+                "low": "0.008407",
+                "buy": "0.008551",
+                "sell": "0.0086"
+            },
+            "zbqc": {
+                "high": "2.4498",
+                "vol": "8057062.03",
+                "last": "2.4292",
+                "low": "2.413",
+                "buy": "2.423",
+                "sell": "2.4292"
+            },
+            "topcqc": {
+                "high": "0.089916",
+                "vol": "3178768.1",
+                "last": "0.083416",
+                "low": "0.08308",
+                "buy": "0.083417",
+                "sell": "0.08471"
+            },
+            "eosbtc": {
+                "high": "0.00038115",
+                "vol": "767854.97",
+                "last": "0.0003728",
+                "low": "0.00036827",
+                "buy": "0.00037325",
+                "sell": "0.00037326"
+            },
+            "ltcqc": {
+                "high": "519.75",
+                "vol": "48897.846",
+                "last": "504.26",
+                "low": "490.7",
+                "buy": "504.26",
+                "sell": "504.27"
+            },
+            "xlmqc": {
+                "high": "0.4346",
+                "vol": "4236439.0",
+                "last": "0.4299",
+                "low": "0.4242",
+                "buy": "0.4305",
+                "sell": "0.4306"
+            },
+            "bcdqc": {
+                "high": "26.389",
+                "vol": "344.653",
+                "last": "26.0",
+                "low": "25.0",
+                "buy": "25.511",
+                "sell": "25.99"
+            },
+            "leousdt": {
+                "high": "1.0573",
+                "vol": "5108.30",
+                "last": "1.03",
+                "low": "1.0299",
+                "buy": "1.0304",
+                "sell": "1.0534"
+            },
+            "sltqc": {
+                "high": "0.017168",
+                "vol": "441425.4",
+                "last": "0.016607",
+                "low": "0.016351",
+                "buy": "0.016607",
+                "sell": "0.017157"
+            },
+            "hcusdt": {
+                "high": "2.2082",
+                "vol": "138688.94",
+                "last": "2.1449",
+                "low": "2.1",
+                "buy": "2.1484",
+                "sell": "2.1485"
+            },
+            "1stqc": {
+                "high": "0.9614",
+                "vol": "68198.0",
+                "last": "0.9614",
+                "low": "0.91",
+                "buy": "0.95",
+                "sell": "0.9614"
+            },
+            "ddmqc": {
+                "high": "0.42",
+                "vol": "1171406.82",
+                "last": "0.4098",
+                "low": "0.3811",
+                "buy": "0.4098",
+                "sell": "0.40982"
+            },
+            "manaqc": {
+                "high": "0.2436",
+                "vol": "157506.5",
+                "last": "0.224",
+                "low": "0.2221",
+                "buy": "0.2256",
+                "sell": "0.23"
+            },
+            "hxqc": {
+                "high": "0.3797",
+                "vol": "25053287.9",
+                "last": "0.3096",
+                "low": "0.3005",
+                "buy": "0.3085",
+                "sell": "0.3149"
+            },
+            "brcusdt": {
+                "high": "2.49821",
+                "vol": "1117.2",
+                "last": "2.449",
+                "low": "2.38021",
+                "buy": "2.43379",
+                "sell": "2.44777"
+            },
+            "dashqc": {
+                "high": "623.77",
+                "vol": "447438.247",
+                "last": "607.12",
+                "low": "606.5",
+                "buy": "607.18",
+                "sell": "607.19"
+            },
+            "tvbtc": {
+                "high": "0.0000039999",
+                "vol": "14.8",
+                "last": "0.0000039999",
+                "low": "0.0000039999",
+                "buy": "0.0000030242",
+                "sell": "0.0000039999"
+            },
+            "cdcqc": {
+                "high": "0.00218996",
+                "vol": "90937766.32",
+                "last": "0.00214873",
+                "low": "0.00202",
+                "buy": "0.00214886",
+                "sell": "0.00218912"
+            },
+            "vsyszb": {
+                "high": "0.439999",
+                "vol": "29550.2",
+                "last": "0.42",
+                "low": "0.423",
+                "buy": "0.410001",
+                "sell": "0.42"
+            },
+            "eosqc": {
+                "high": "28.18",
+                "vol": "14909820.55",
+                "last": "27.18",
+                "low": "27.0",
+                "buy": "27.18",
+                "sell": "27.185"
+            },
+            "hpyusdt": {
+                "high": "0.001521",
+                "vol": "3710014.4",
+                "last": "0.001403",
+                "low": "0.001301",
+                "buy": "0.001403",
+                "sell": "0.001422"
+            },
+            "pdxbtc": {
+                "high": "0.0000000546",
+                "vol": "2083.9",
+                "last": "0.0000000546",
+                "low": "0.0000000546",
+                "buy": "0.0000000554",
+                "sell": "0.0000000987"
+            },
+            "aeqc": {
+                "high": "1.543",
+                "vol": "1869733.69",
+                "last": "1.49",
+                "low": "1.4503",
+                "buy": "1.4903",
+                "sell": "1.5018"
+            },
+            "sntusdt": {
+                "high": "0.015699",
+                "vol": "717340941.2",
+                "last": "0.015253",
+                "low": "0.015185",
+                "buy": "0.0154",
+                "sell": "0.015401"
+            },
+            "zbusdt": {
+                "high": "0.3441",
+                "vol": "200397052.85",
+                "last": "0.3414",
+                "low": "0.3386",
+                "buy": "0.3413",
+                "sell": "0.3417"
+            },
+            "dashusdt": {
+                "high": "87.727",
+                "vol": "8267.605",
+                "last": "85.485",
+                "low": "84.941",
+                "buy": "85.383",
+                "sell": "85.384"
+            },
+            "qtumqc": {
+                "high": "15.1",
+                "vol": "448707.09",
+                "last": "14.7",
+                "low": "14.645",
+                "buy": "14.7",
+                "sell": "14.711"
+            },
+            "lbtcbtc": {
+                "high": "0.00023355",
+                "vol": "166.336",
+                "last": "0.00022047",
+                "low": "0.00022047",
+                "buy": "0.00022059",
+                "sell": "0.00022286"
+            },
+            "xmrqc": {
+                "high": "548.61",
+                "vol": "32.422",
+                "last": "519.0",
+                "low": "484.68",
+                "buy": "519.51",
+                "sell": "520.01"
+            },
+            "adausdt": {
+                "high": "0.048056",
+                "vol": "18818546.3",
+                "last": "0.04718",
+                "low": "0.046182",
+                "buy": "0.047157",
+                "sell": "0.047158"
+            },
+            "tvqc": {
+                "high": "0.2377",
+                "vol": "357032.3",
+                "last": "0.2289",
+                "low": "0.225",
+                "buy": "0.2289",
+                "sell": "0.232"
+            },
+            "xmrusdt": {
+                "high": "70.581",
+                "vol": "0.020",
+                "last": "70.581",
+                "low": "70.581",
+                "buy": "71.578",
+                "sell": "107.848"
+            },
+            "icxbtc": {
+                "high": "0.00001999",
+                "vol": "596.76",
+                "last": "0.00001999",
+                "low": "0.00001924",
+                "buy": "0.00002049",
+                "sell": "0.0000205"
+            },
+            "trxbtc": {
+                "high": "0.000001567",
+                "vol": "470396.8",
+                "last": "0.000001539",
+                "low": "0.000001514",
+                "buy": "0.000001538",
+                "sell": "0.000001545"
+            },
+            "bitcnyqc": {
+                "high": "0.9953",
+                "vol": "30000.07",
+                "last": "0.9953",
+                "low": "0.9919",
+                "buy": "0.9954",
+                "sell": "1.0"
+            },
+            "manausdt": {
+                "high": "0.033346",
+                "vol": "6969.9",
+                "last": "0.033217",
+                "low": "0.031054",
+                "buy": "0.032206",
+                "sell": "0.032522"
+            },
+            "aebtc": {
+                "high": "0.00002082",
+                "vol": "139509872.30",
+                "last": "0.00002052",
+                "low": "0.00001987",
+                "buy": "0.00002054",
+                "sell": "0.00002057"
+            },
+            "hsrbtc": {
+                "high": "0.00021436",
+                "vol": "58967.54",
+                "last": "0.00020888",
+                "low": "0.0002083",
+                "buy": "0.00020908",
+                "sell": "0.00020947"
+            },
+            "lbtcusdt": {
+                "high": "2.406",
+                "vol": "1213.968",
+                "last": "2.309",
+                "low": "2.2767",
+                "buy": "2.2777",
+                "sell": "2.325"
+            },
+            "grambtc": {
+                "high": "0.0000000072",
+                "vol": "1236947",
+                "last": "0.0000000071",
+                "low": "0.0000000051",
+                "buy": "0.000000006",
+                "sell": "0.0000000069"
+            },
+            "btsusdt": {
+                "high": "0.035838",
+                "vol": "3459114.7",
+                "last": "0.034734",
+                "low": "0.033483",
+                "buy": "0.034866",
+                "sell": "0.03497"
+            },
+            "ytnbusdt": {
+                "high": "0.0184",
+                "vol": "1933002.5",
+                "last": "0.0163",
+                "low": "0.0146",
+                "buy": "0.0162",
+                "sell": "0.0164"
+            },
+            "rcnusdt": {
+                "high": "0.017041",
+                "vol": "5288.5",
+                "last": "0.012507",
+                "low": "0.012503",
+                "buy": "0.012648",
+                "sell": "0.01699"
+            },
+            "etcusdt": {
+                "high": "6.7836",
+                "vol": "4375057.50",
+                "last": "6.6925",
+                "low": "6.4842",
+                "buy": "6.6926",
+                "sell": "6.6927"
+            },
+            "qunqc": {
+                "high": "0.06258",
+                "vol": "270936.2",
+                "last": "0.061001",
+                "low": "0.061",
+                "buy": "0.061001",
+                "sell": "0.06141"
+            },
+            "bchabcqc": {
+                "high": "2210.0",
+                "vol": "295.242",
+                "last": "2185.0",
+                "low": "2150.0",
+                "buy": "2173.08",
+                "sell": "2183.0"
+            },
+            "btmqc": {
+                "high": "0.566",
+                "vol": "197354.83",
+                "last": "0.5505",
+                "low": "0.5466",
+                "buy": "0.5505",
+                "sell": "0.5533"
+            },
+            "sltusdt": {
+                "high": "0.0024",
+                "vol": "123903.1",
+                "last": "0.0023",
+                "low": "0.002288",
+                "buy": "0.002319",
+                "sell": "0.002322"
+            },
+            "etzqc": {
+                "high": "0.2506",
+                "vol": "4092660.61",
+                "last": "0.2392",
+                "low": "0.2351",
+                "buy": "0.2388",
+                "sell": "0.2406"
+            },
+            "eosdacqc": {
+                "high": "0.1841",
+                "vol": "34284.4",
+                "last": "0.1728",
+                "low": "0.1711",
+                "buy": "0.1729",
+                "sell": "0.1803"
+            },
+            "bcxqc": {
+                "high": "0.037495",
+                "vol": "29768",
+                "last": "0.0357",
+                "low": "0.034314",
+                "buy": "0.0357",
+                "sell": "0.0374"
+            },
+            "dogebtc": {
+                "high": "0.0000002404",
+                "vol": "5686317",
+                "last": "0.000000238",
+                "low": "0.0000002327",
+                "buy": "0.0000002372",
+                "sell": "0.0000002373"
+            },
+            "qtumbtc": {
+                "high": "0.00020482",
+                "vol": "5404.52",
+                "last": "0.00020163",
+                "low": "0.00020019",
+                "buy": "0.00020163",
+                "sell": "0.00020187"
+            },
+            "mcoqc": {
+                "high": "23.18",
+                "vol": "51.12",
+                "last": "23.18",
+                "low": "22.277",
+                "buy": "23.18",
+                "sell": "23.181"
+            },
+            "xlmusdt": {
+                "high": "0.0612",
+                "vol": "4724586.8",
+                "last": "0.0606",
+                "low": "0.0598",
+                "buy": "0.0606",
+                "sell": "0.0607"
+            },
+            "xucqc": {
+                "high": "9.483",
+                "vol": "1834.982",
+                "last": "9.104",
+                "low": "9.03",
+                "buy": "9.03",
+                "sell": "9.377"
+            },
+            "ltcbtc": {
+                "high": "0.007061",
+                "vol": "10576.645",
+                "last": "0.006924",
+                "low": "0.006694",
+                "buy": "0.006924",
+                "sell": "0.006925"
+            },
+            "sbtcusdt": {
+                "high": "7.5",
+                "vol": "156.546",
+                "last": "5.02",
+                "low": "4.01",
+                "buy": "5.12",
+                "sell": "7.47"
+            },
+            "trueqc": {
+                "high": "2.08",
+                "vol": "298875.62",
+                "last": "2.0228",
+                "low": "1.9985",
+                "buy": "2.0228",
+                "sell": "2.023"
+            },
+            "pdxqc": {
+                "high": "0.00499",
+                "vol": "2115125.5",
+                "last": "0.004701",
+                "low": "0.00455",
+                "buy": "0.004701",
+                "sell": "0.004798"
+            },
+            "xlmbtc": {
+                "high": "0.00000593",
+                "vol": "84706.9",
+                "last": "0.00000593",
+                "low": "0.00000583",
+                "buy": "0.00000592",
+                "sell": "0.00000593"
+            },
+            "btnusdt": {
+                "high": "0.014032",
+                "vol": "51.266",
+                "last": "0.014032",
+                "low": "0.014032",
+                "buy": "0.01912",
+                "sell": "0.038938"
+            },
+            "sltbtc": {
+                "high": "0.0000003",
+                "vol": "32442.7",
+                "last": "0.000000205",
+                "low": "0.0000002",
+                "buy": "0.0000002232",
+                "sell": "0.000000291"
+            },
+            "omgqc": {
+                "high": "7.788",
+                "vol": "62971.92",
+                "last": "7.722",
+                "low": "7.45",
+                "buy": "7.704",
+                "sell": "7.705"
+            },
+            "xwcusdt": {
+                "high": "0.029853",
+                "vol": "562.6",
+                "last": "0.028715",
+                "low": "0.026717",
+                "buy": "0.027673",
+                "sell": "0.029856"
+            },
+            "gramusdt": {
+                "high": "0.00006698",
+                "vol": "51338678",
+                "last": "0.00006698",
+                "low": "0.0000521",
+                "buy": "0.00006367",
+                "sell": "0.00006698"
+            },
+            "kanbtc": {
+                "high": "0.0000002753",
+                "vol": "3188640",
+                "last": "0.0000002741",
+                "low": "0.0000002668",
+                "buy": "0.0000002736",
+                "sell": "0.0000002753"
+            },
+            "bchsvusdt": {
+                "high": "137.358",
+                "vol": "735.408",
+                "last": "127.94",
+                "low": "126.0",
+                "buy": "126.563",
+                "sell": "127.679"
+            },
+            "grinqc": {
+                "high": "14.448",
+                "vol": "14016.68",
+                "last": "13.85",
+                "low": "13.801",
+                "buy": "13.857",
+                "sell": "13.996"
+            },
+            "xtzusdt": {
+                "high": "1.1445",
+                "vol": "0.001",
+                "last": "1.1445",
+                "low": "1.1445",
+                "buy": "0.9722",
+                "sell": "1.1417"
+            },
+            "bcxusdt": {
+                "high": "0.00521",
+                "vol": "11787",
+                "last": "0.00521",
+                "low": "0.00521",
+                "buy": "0.005236",
+                "sell": "0.005442"
+            },
+            "vsysbtc": {
+                "high": "0.00001477",
+                "vol": "3095099.2",
+                "last": "0.000013685",
+                "low": "0.000013754",
+                "buy": "0.000013828",
+                "sell": "0.000014016"
+            },
+            "manabtc": {
+                "high": "0.00000316",
+                "vol": "712.8",
+                "last": "0.00000316",
+                "low": "0.00000312",
+                "buy": "0.00000316",
+                "sell": "0.00000317"
+            },
+            "etcqc": {
+                "high": "48.288",
+                "vol": "141519.31",
+                "last": "47.609",
+                "low": "46.15",
+                "buy": "47.587",
+                "sell": "47.599"
+            },
+            "kncqc": {
+                "high": "1.2844",
+                "vol": "635.42",
+                "last": "1.1746",
+                "low": "1.15",
+                "buy": "1.1748",
+                "sell": "1.2844"
+            },
+            "barusdt": {
+                "high": "0.0388",
+                "vol": "63865.1",
+                "last": "0.036",
+                "low": "0.036",
+                "buy": "0.0362",
+                "sell": "0.0384"
+            },
+            "usdtqc": {
+                "high": "7.1292",
+                "vol": "42549537.8335",
+                "last": "7.1117",
+                "low": "7.1101",
+                "buy": "7.1115",
+                "sell": "7.1116"
+            },
+            "gntusdt": {
+                "high": "0.065535",
+                "vol": "734918.2",
+                "last": "0.059517",
+                "low": "0.057551",
+                "buy": "0.058872",
+                "sell": "0.060631"
+            },
+            "btpqc": {
+                "high": "0.5259",
+                "vol": "113992.540",
+                "last": "0.51",
+                "low": "0.5011",
+                "buy": "0.51",
+                "sell": "0.515"
+            },
+            "etzusdt": {
+                "high": "0.0355",
+                "vol": "1050764.07",
+                "last": "0.0337",
+                "low": "0.033",
+                "buy": "0.0336",
+                "sell": "0.034"
+            },
+            "nwtusdt": {
+                "high": "0.079",
+                "vol": "3652789.6",
+                "last": "0.065",
+                "low": "0.06388",
+                "buy": "0.0655",
+                "sell": "0.06645"
+            },
+            "grinusdt": {
+                "high": "2.1102",
+                "vol": "268.65",
+                "last": "1.9699",
+                "low": "1.9699",
+                "buy": "1.9703",
+                "sell": "2.0271"
+            },
+            "hlcusdt": {
+                "high": "0.006238",
+                "vol": "22.9",
+                "last": "0.006238",
+                "low": "0.006238",
+                "buy": "0.006266",
+                "sell": "0.006305"
+            },
+            "bthqc": {
+                "high": "0.064",
+                "vol": "68958563.962",
+                "last": "0.0619",
+                "low": "0.0602",
+                "buy": "0.0615",
+                "sell": "0.0619"
+            },
+            "batqc": {
+                "high": "1.253",
+                "vol": "52189.1",
+                "last": "1.2451",
+                "low": "1.2",
+                "buy": "1.2451",
+                "sell": "1.2494"
+            },
+            "tusdusdt": {
+                "high": "1.0015",
+                "vol": "11930180.1497",
+                "last": "1.0006",
+                "low": "0.9998",
+                "buy": "0.9997",
+                "sell": "1.0015"
+            },
+            "truebtc": {
+                "high": "0.0000256318",
+                "vol": "54.84",
+                "last": "0.0000256318",
+                "low": "0.0000256318",
+                "buy": "0.0000264527",
+                "sell": "0.0000275814"
+            },
+            "accusdt": {
+                "high": "1.693",
+                "vol": "529395.37",
+                "last": "1.6534",
+                "low": "1.634",
+                "buy": "1.6533",
+                "sell": "1.6697"
+            },
+            "btpusdt": {
+                "high": "0.0775",
+                "vol": "2.000",
+                "last": "0.0775",
+                "low": "0.0775",
+                "buy": "0.0714",
+                "sell": "0.0769"
+            },
+            "bcwqc": {
+                "high": "0.1834",
+                "vol": "348775.614",
+                "last": "0.18",
+                "low": "0.1724",
+                "buy": "0.18",
+                "sell": "0.1804"
+            },
+            "icxusdt": {
+                "high": "0.2206",
+                "vol": "643403.12",
+                "last": "0.2021",
+                "low": "0.1968",
+                "buy": "0.2042",
+                "sell": "0.2043"
+            },
+            "bcxbtc": {
+                "high": "0.0000004503",
+                "vol": "2",
+                "last": "0.0000004503",
+                "low": "0.0000004503",
+                "buy": "0.0000004679",
+                "sell": "0.0000005267"
+            },
+            "hcqc": {
+                "high": "15.7106",
+                "vol": "2050516.40",
+                "last": "15.222",
+                "low": "15.1949",
+                "buy": "15.2224",
+                "sell": "15.2673"
+            },
+            "bchsvqc": {
+                "high": "946.28",
+                "vol": "1608.919",
+                "last": "911.04",
+                "low": "893.0",
+                "buy": "906.0",
+                "sell": "908.02"
+            },
+            "ethusdt": {
+                "high": "184.28",
+                "vol": "142080.820",
+                "last": "180.83",
+                "low": "178.5",
+                "buy": "180.9",
+                "sell": "180.91"
+            },
+            "hotcqc": {
+                "high": "0.011155",
+                "vol": "35802468.47",
+                "last": "0.010351",
+                "low": "0.010053",
+                "buy": "0.010351",
+                "sell": "0.0104"
+            },
+            "pdxusdt": {
+                "high": "0.00069",
+                "vol": "415228.5",
+                "last": "0.00069",
+                "low": "0.000681",
+                "buy": "0.00060063",
+                "sell": "0.0006999"
+            },
+            "btsbtc": {
+                "high": "0.0000035",
+                "vol": "1954861.6",
+                "last": "0.0000034",
+                "low": "0.00000324",
+                "buy": "0.0000034",
+                "sell": "0.00000341"
+            },
+            "inkqc": {
+                "high": "0.03149",
+                "vol": "1408656.8",
+                "last": "0.0313",
+                "low": "0.029",
+                "buy": "0.029725",
+                "sell": "0.031298"
+            },
+            "safeusdt": {
+                "high": "1.35",
+                "vol": "75.948",
+                "last": "0.8624",
+                "low": "0.8549",
+                "buy": "0.8658",
+                "sell": "1.2968"
+            },
+            "xwcqc": {
+                "high": "0.2035",
+                "vol": "195036.1",
+                "last": "0.1882",
+                "low": "0.1882",
+                "buy": "0.1895",
+                "sell": "0.1942"
+            },
+            "dashbtc": {
+                "high": "0.008415",
+                "vol": "397.588",
+                "last": "0.008338",
+                "low": "0.008289",
+                "buy": "0.008336",
+                "sell": "0.008337"
+            },
+            "dogeusdt": {
+                "high": "0.0024878",
+                "vol": "42709286",
+                "last": "0.0024319",
+                "low": "0.0024133",
+                "buy": "0.0024258",
+                "sell": "0.0024316"
+            },
+            "cdcusdt": {
+                "high": "0.00029489",
+                "vol": "1644523.09",
+                "last": "0.00026757",
+                "low": "0.00026757",
+                "buy": "0.000278",
+                "sell": "0.00029489"
+            },
+            "dogeqc": {
+                "high": "0.017567",
+                "vol": "159764330",
+                "last": "0.017249",
+                "low": "0.0172",
+                "buy": "0.017249",
+                "sell": "0.01729"
+            },
+            "epcbtc": {
+                "high": "0.0",
+                "vol": "0.000",
+                "last": "0.0",
+                "low": "0.0",
+                "buy": "0.0000002801",
+                "sell": "0.000000778"
+            },
+            "ubtcqc": {
+                "high": "13.6819",
+                "vol": "3363.511",
+                "last": "12.8112",
+                "low": "12.8",
+                "buy": "12.8558",
+                "sell": "13.5076"
+            },
+            "mcousdt": {
+                "high": "3.2299",
+                "vol": "35.53",
+                "last": "3.2299",
+                "low": "3.0954",
+                "buy": "3.2356",
+                "sell": "3.2357"
+            },
+            "hotcusdt": {
+                "high": "0.001559",
+                "vol": "247847.61",
+                "last": "0.001462",
+                "low": "0.001462",
+                "buy": "0.001438",
+                "sell": "0.001534"
+            },
+            "edousdt": {
+                "high": "0.31",
+                "vol": "47.14",
+                "last": "0.228",
+                "low": "0.224",
+                "buy": "0.305",
+                "sell": "0.306"
+            },
+            "neoqc": {
+                "high": "65.518",
+                "vol": "23285.51",
+                "last": "64.15",
+                "low": "64.065",
+                "buy": "64.145",
+                "sell": "64.146"
+            },
+            "tvusdt": {
+                "high": "0.031667",
+                "vol": "10937.2",
+                "last": "0.030422",
+                "low": "0.030422",
+                "buy": "0.032221",
+                "sell": "0.032295"
+            },
+            "kncusdt": {
+                "high": "0.1658",
+                "vol": "126.21",
+                "last": "0.16",
+                "low": "0.16",
+                "buy": "0.1651",
+                "sell": "0.1939"
+            },
+            "aaaqc": {
+                "high": "0.001867",
+                "vol": "37012897.1",
+                "last": "0.0018",
+                "low": "0.001692",
+                "buy": "0.0018",
+                "sell": "0.001802"
+            },
+            "xrpqc": {
+                "high": "1.872",
+                "vol": "18798762",
+                "last": "1.8664",
+                "low": "1.8338",
+                "buy": "1.8663",
+                "sell": "1.8664"
+            },
+            "xrpbtc": {
+                "high": "0.00002568",
+                "vol": "215209119",
+                "last": "0.00002564",
+                "low": "0.00002495",
+                "buy": "0.00002563",
+                "sell": "0.00002564"
+            },
+            "safeqc": {
+                "high": "6.4557",
+                "vol": "3761.379",
+                "last": "6.2301",
+                "low": "6.2",
+                "buy": "6.2301",
+                "sell": "6.3964"
+            },
+            "hcbtc": {
+                "high": "0.00021436",
+                "vol": "58967.54",
+                "last": "0.00020888",
+                "low": "0.0002083",
+                "buy": "0.00020908",
+                "sell": "0.00020947"
+            },
+            "gramqc": {
+                "high": "0.0004566",
+                "vol": "816091560",
+                "last": "0.000441",
+                "low": "0.00036958",
+                "buy": "0.00044128",
+                "sell": "0.000443"
+            },
+            "paxqc": {
+                "high": "7.1374",
+                "vol": "46787.6394",
+                "last": "7.1035",
+                "low": "7.1",
+                "buy": "7.1035",
+                "sell": "7.1129"
+            },
+            "btsqc": {
+                "high": "0.2566",
+                "vol": "61725667.5",
+                "last": "0.2483",
+                "low": "0.239",
+                "buy": "0.2483",
+                "sell": "0.2484"
+            },
+            "inkusdt": {
+                "high": "0.004149",
+                "vol": "34233.9",
+                "last": "0.004145",
+                "low": "0.004145",
+                "buy": "0.004062",
+                "sell": "0.004146"
+            },
+            "hpyqc": {
+                "high": "0.011243",
+                "vol": "4381216.3",
+                "last": "0.010229",
+                "low": "0.01",
+                "buy": "0.010229",
+                "sell": "0.010964"
+            },
+            "ethqc": {
+                "high": "1310.29",
+                "vol": "142390.625",
+                "last": "1286.88",
+                "low": "1272.0",
+                "buy": "1286.65",
+                "sell": "1286.66"
+            },
+            "xrpusdt": {
+                "high": "0.2642",
+                "vol": "60683978",
+                "last": "0.2625",
+                "low": "0.2573",
+                "buy": "0.2624",
+                "sell": "0.2625"
+            },
+            "xemusdt": {
+                "high": "0.051767",
+                "vol": "526019368.7",
+                "last": "0.045356",
+                "low": "0.043105",
+                "buy": "0.045267",
+                "sell": "0.04534"
+            },
+            "ltcusdt": {
+                "high": "73.043",
+                "vol": "700308.314",
+                "last": "70.893",
+                "low": "68.806",
+                "buy": "70.906",
+                "sell": "70.907"
+            },
+            "adaqc": {
+                "high": "0.3424",
+                "vol": "45546676.4",
+                "last": "0.3346",
+                "low": "0.3277",
+                "buy": "0.3349",
+                "sell": "0.3351"
+            },
+            "xembtc": {
+                "high": "0.00000367",
+                "vol": "0.4",
+                "last": "0.00000367",
+                "low": "0.00000367",
+                "buy": "0.00000444",
+                "sell": "0.00000445"
+            },
+            "hsrusdt": {
+                "high": "2.2082",
+                "vol": "138688.94",
+                "last": "2.1449",
+                "low": "2.1",
+                "buy": "2.1484",
+                "sell": "2.1485"
+            },
+            "btcqc": {
+                "high": "73930.04",
+                "vol": "5359.6653",
+                "last": "72815.0",
+                "low": "72559.62",
+                "buy": "72815.0",
+                "sell": "72815.5"
+            },
+            "bitebtc": {
+                "high": "0.00003326",
+                "vol": "39.224",
+                "last": "0.00003325",
+                "low": "0.00003051",
+                "buy": "0.00003325",
+                "sell": "0.00003326"
+            },
+            "sntbtc": {
+                "high": "0.0000015352",
+                "vol": "0.7",
+                "last": "0.0000015352",
+                "low": "0.0000015352",
+                "buy": "0.0000014945",
+                "sell": "0.0000015091"
+            },
+            "chatusdt": {
+                "high": "0.0037",
+                "vol": "51529.5",
+                "last": "0.003612",
+                "low": "0.003602",
+                "buy": "0.003621",
+                "sell": "0.003733"
+            },
+            "bcdusdt": {
+                "high": "4.1008",
+                "vol": "0.024",
+                "last": "3.9015",
+                "low": "2.251",
+                "buy": "3.3817",
+                "sell": "3.6517"
+            },
+            "zrxbtc": {
+                "high": "0.00001502",
+                "vol": "17.2",
+                "last": "0.00001502",
+                "low": "0.00001502",
+                "buy": "0.00001605",
+                "sell": "0.00001606"
+            },
+            "qtumusdt": {
+                "high": "2.1234",
+                "vol": "419078.13",
+                "last": "2.065",
+                "low": "2.0601",
+                "buy": "2.0655",
+                "sell": "2.0687"
+            },
+            "zrxqc": {
+                "high": "1.1724",
+                "vol": "14332.9",
+                "last": "1.1639",
+                "low": "1.1287",
+                "buy": "1.1644",
+                "sell": "1.1645"
+            },
+            "btcusdt": {
+                "high": "10384.9",
+                "vol": "26740.0801",
+                "last": "10238.83",
+                "low": "10176.22",
+                "buy": "10238.87",
+                "sell": "10238.88"
+            },
+            "neobtc": {
+                "high": "0.00089067",
+                "vol": "5732.68",
+                "last": "0.00088186",
+                "low": "0.00087664",
+                "buy": "0.00088029",
+                "sell": "0.00088045"
+            },
+            "omgusdt": {
+                "high": "1.0947",
+                "vol": "205827.79",
+                "last": "1.0829",
+                "low": "1.0278",
+                "buy": "1.0833",
+                "sell": "1.0834"
+            },
+            "ubtcusdt": {
+                "high": "1.7676",
+                "vol": "7.694",
+                "last": "1.7676",
+                "low": "1.7676",
+                "buy": "1.8435",
+                "sell": "2.5996"
+            },
+            "btmusdt": {
+                "high": "0.079242",
+                "vol": "29356.82",
+                "last": "0.076961",
+                "low": "0.07647",
+                "buy": "0.077733",
+                "sell": "0.07774"
+            },
+            "gntbtc": {
+                "high": "0.00000564",
+                "vol": "67.9",
+                "last": "0.00000564",
+                "low": "0.00000564",
+                "buy": "0.00000583",
+                "sell": "0.00000648"
+            },
+            "sntqc": {
+                "high": "0.1112",
+                "vol": "911212.8",
+                "last": "0.1098",
+                "low": "0.1073",
+                "buy": "0.1094",
+                "sell": "0.1096"
+            },
+            "paxusdt": {
+                "high": "1.0006",
+                "vol": "10512420.6181",
+                "last": "1.0006",
+                "low": "0.9987",
+                "buy": "1.0",
+                "sell": "1.0006"
+            },
+            "trxusdt": {
+                "high": "0.01611",
+                "vol": "811243.0",
+                "last": "0.0157",
+                "low": "0.01554",
+                "buy": "0.01569",
+                "sell": "0.0158"
+            },
+            "icxqc": {
+                "high": "1.56",
+                "vol": "146659.27",
+                "last": "1.4559",
+                "low": "1.4101",
+                "buy": "1.4559",
+                "sell": "1.456"
+            },
+            "btmbtc": {
+                "high": "0.00000753",
+                "vol": "0.01",
+                "last": "0.00000753",
+                "low": "0.00000753",
+                "buy": "0.00000754",
+                "sell": "0.00000768"
+            },
+            "bchabcusdt": {
+                "high": "308.33",
+                "vol": "59.200",
+                "last": "306.77",
+                "low": "302.79",
+                "buy": "305.8",
+                "sell": "306.38"
+            },
+            "adabtc": {
+                "high": "0.00000468",
+                "vol": "1392937.0",
+                "last": "0.0000046",
+                "low": "0.0000045",
+                "buy": "0.0000046",
+                "sell": "0.00000461"
+            },
+            "trueusdt": {
+                "high": "0.2938",
+                "vol": "25847.50",
+                "last": "0.281",
+                "low": "0.28",
+                "buy": "0.2815",
+                "sell": "0.2818"
+            },
+            "zbbtc": {
+                "high": "0.00003355",
+                "vol": "654070.48",
+                "last": "0.0000334",
+                "low": "0.0000327",
+                "buy": "0.00003328",
+                "sell": "0.00003336"
+            },
+            "lbtcqc": {
+                "high": "16.975",
+                "vol": "14099.435",
+                "last": "16.34",
+                "low": "16.137",
+                "buy": "16.34",
+                "sell": "16.429"
+            },
+            "ddmusdt": {
+                "high": "0.057345",
+                "vol": "202270.59",
+                "last": "0.057347",
+                "low": "0.053465",
+                "buy": "0.057349",
+                "sell": "0.057608"
+            },
+            "bcwusdt": {
+                "high": "0.023311",
+                "vol": "1064.090",
+                "last": "0.023311",
+                "low": "0.023311",
+                "buy": "0.024672",
+                "sell": "0.024767"
+            },
+            "batbtc": {
+                "high": "0.0000163437",
+                "vol": "102.6",
+                "last": "0.0000163437",
+                "low": "0.0000163437",
+                "buy": "0.0000167176",
+                "sell": "0.0000176106"
+            },
+            "trxqc": {
+                "high": "0.1149",
+                "vol": "7013686.8",
+                "last": "0.1118",
+                "low": "0.1104",
+                "buy": "0.1118",
+                "sell": "0.1123"
+            },
+            "etcbtc": {
+                "high": "0.000657",
+                "vol": "83011.33",
+                "last": "0.000653",
+                "low": "0.000635",
+                "buy": "0.000653",
+                "sell": "0.000654"
+            },
+            "bdsqc": {
+                "high": "0.0396",
+                "vol": "10950793.09",
+                "last": "0.0369",
+                "low": "0.0365",
+                "buy": "0.0369",
+                "sell": "0.0371"
+            },
+            "subqc": {
+                "high": "0.0905",
+                "vol": "2904163.3",
+                "last": "0.0761",
+                "low": "0.0618",
+                "buy": "0.0753",
+                "sell": "0.0777"
+            },
+            "neousdt": {
+                "high": "9.2037",
+                "vol": "127708.65",
+                "last": "9.0207",
+                "low": "9.0037",
+                "buy": "9.0197",
+                "sell": "9.0198"
+            },
+            "mithqc": {
+                "high": "0.13",
+                "vol": "386068.2",
+                "last": "0.1259",
+                "low": "0.1253",
+                "buy": "0.1266",
+                "sell": "0.1272"
+            },
+            "hlcqc": {
+                "high": "0.04588",
+                "vol": "1302557.3",
+                "last": "0.045",
+                "low": "0.04481",
+                "buy": "0.045",
+                "sell": "0.045772"
+            },
+            "gntqc": {
+                "high": "0.439",
+                "vol": "83716.4",
+                "last": "0.4305",
+                "low": "0.41",
+                "buy": "0.4304",
+                "sell": "0.4305"
+            },
+            "entcusdt": {
+                "high": "0.001079",
+                "vol": "8042749.1",
+                "last": "0.000925",
+                "low": "0.000912",
+                "buy": "0.000925",
+                "sell": "0.00094"
+            },
+            "eosdacusdt": {
+                "high": "0.020763",
+                "vol": "529.4",
+                "last": "0.020763",
+                "low": "0.020763",
+                "buy": "0.02085",
+                "sell": "0.025142"
+            },
+            "1stusdt": {
+                "high": "0.133967",
+                "vol": "50419.8",
+                "last": "0.133866",
+                "low": "0.130197",
+                "buy": "0.133854",
+                "sell": "0.133866"
+            },
+            "epcqc": {
+                "high": "0.022",
+                "vol": "1183238.913",
+                "last": "0.019532",
+                "low": "0.019242",
+                "buy": "0.019532",
+                "sell": "0.021999"
+            },
+            "mtlusdt": {
+                "high": "0.387",
+                "vol": "77.59",
+                "last": "0.3557",
+                "low": "0.3557",
+                "buy": "0.3692",
+                "sell": "0.3868"
+            },
+            "brcbtc": {
+                "high": "0.00024",
+                "vol": "1058.3",
+                "last": "0.00024",
+                "low": "0.00024",
+                "buy": "0.0002341713",
+                "sell": "0.0002404876"
+            },
+            "omgbtc": {
+                "high": "0.00010647",
+                "vol": "8012238.91",
+                "last": "0.00010574",
+                "low": "0.00010194",
+                "buy": "0.00010558",
+                "sell": "0.00010576"
+            },
+            "b91qc": {
+                "high": "0.6931",
+                "vol": "1225299.62",
+                "last": "0.6692",
+                "low": "0.6662",
+                "buy": "0.6692",
+                "sell": "0.6742"
+            },
+            "ethbtc": {
+                "high": "0.017821",
+                "vol": "390626.737",
+                "last": "0.017672",
+                "low": "0.017399",
+                "buy": "0.017667",
+                "sell": "0.017668"
+            },
+            "qunusdt": {
+                "high": "0.00845",
+                "vol": "0.2",
+                "last": "0.008376",
+                "low": "0.008376",
+                "buy": "0.008709",
+                "sell": "0.010097"
+            },
+            "btnqc": {
+                "high": "0.1523",
+                "vol": "73882.406",
+                "last": "0.1472",
+                "low": "0.1441",
+                "buy": "0.1472",
+                "sell": "0.1485"
+            },
+            "hsrqc": {
+                "high": "15.7106",
+                "vol": "2050516.40",
+                "last": "15.222",
+                "low": "15.1949",
+                "buy": "15.2224",
+                "sell": "15.2673"
+            },
+            "hxusdt": {
+                "high": "0.05736",
+                "vol": "2068782.4",
+                "last": "0.04541",
+                "low": "0.04175",
+                "buy": "0.0475",
+                "sell": "0.04792"
+            },
+            "xemqc": {
+                "high": "0.3345",
+                "vol": "156266.0",
+                "last": "0.3235",
+                "low": "0.3231",
+                "buy": "0.3232",
+                "sell": "0.3236"
+            },
+            "topcusdt": {
+                "high": "0.012996",
+                "vol": "524483.7",
+                "last": "0.011656",
+                "low": "0.011016",
+                "buy": "0.011674",
+                "sell": "0.011857"
+            },
+            "b91usdt": {
+                "high": "0.1104",
+                "vol": "96589.19",
+                "last": "0.095",
+                "low": "0.0947",
+                "buy": "0.0947",
+                "sell": "0.095"
+            },
+            "kanqc": {
+                "high": "0.0205",
+                "vol": "2934644",
+                "last": "0.019975",
+                "low": "0.019119",
+                "buy": "0.019964",
+                "sell": "0.020008"
+            },
+            "zrxusdt": {
+                "high": "0.1551",
+                "vol": "0.1",
+                "last": "0.1551",
+                "low": "0.1551",
+                "buy": "0.1635",
+                "sell": "0.1642"
+            },
+            "eosusdt": {
+                "high": "3.9486",
+                "vol": "27588016.34",
+                "last": "3.821",
+                "low": "3.7883",
+                "buy": "3.8205",
+                "sell": "3.821"
+            },
+            "brcqc": {
+                "high": "17.6425",
+                "vol": "38807.7",
+                "last": "17.2052",
+                "low": "17.19",
+                "buy": "17.2052",
+                "sell": "17.3067"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:45 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding"
+        ]
+    }
+]

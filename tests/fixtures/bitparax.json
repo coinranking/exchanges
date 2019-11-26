@@ -1,0 +1,646 @@
+[
+    {
+        "scope": "https://bitparax.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "id": "ethbtc",
+                "name": "ETH/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "eth"
+            },
+            {
+                "id": "btgbtc",
+                "name": "BTG/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "btg"
+            },
+            {
+                "id": "dogebtc",
+                "name": "DOGE/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "doge"
+            },
+            {
+                "id": "dgbbtc",
+                "name": "DGB/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "dgb"
+            },
+            {
+                "id": "ltcbtc",
+                "name": "LTC/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "ltc"
+            },
+            {
+                "id": "viabtc",
+                "name": "VIA/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "via"
+            },
+            {
+                "id": "dashbtc",
+                "name": "DASH/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "dash"
+            },
+            {
+                "id": "paraxbtc",
+                "name": "PARAX/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "parax"
+            },
+            {
+                "id": "nanjeth",
+                "name": "NANJ/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "nanj"
+            },
+            {
+                "id": "zileth",
+                "name": "ZIL/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "zil"
+            },
+            {
+                "id": "dcneth",
+                "name": "DCN/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "dcn"
+            },
+            {
+                "id": "drgneth",
+                "name": "DRGN/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "drgn"
+            },
+            {
+                "id": "hbxeth",
+                "name": "HBX/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "hbx"
+            },
+            {
+                "id": "enrgparax",
+                "name": "ENRG/PARAX",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "parax",
+                "ask_unit": "enrg"
+            },
+            {
+                "id": "hbxparax",
+                "name": "HBX/PARAX",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "parax",
+                "ask_unit": "hbx"
+            },
+            {
+                "id": "btcusdt",
+                "name": "BTC/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "btc"
+            },
+            {
+                "id": "ethusdt",
+                "name": "ETH/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "eth"
+            },
+            {
+                "id": "ltcusdt",
+                "name": "LTC/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "ltc"
+            },
+            {
+                "id": "dashusdt",
+                "name": "DASH/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "dash"
+            },
+            {
+                "id": "dogeusdt",
+                "name": "DOGE/USDT",
+                "ask_precision": 8,
+                "bid_precision": 6,
+                "bid_unit": "usdt",
+                "ask_unit": "doge"
+            },
+            {
+                "id": "wavesusdt",
+                "name": "WAVES/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "waves"
+            },
+            {
+                "id": "btgusdt",
+                "name": "BTG/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "btg"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Sep 2019 14:23:17 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=db371e490922036a548aa8ee851b4fe6d1568211796; expires=Thu, 10-Sep-20 14:23:16 GMT; path=/; domain=.bitparax.com; HttpOnly",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, PUT, PATCH, DELETE",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Version",
+            "HTTP/1.0",
+            "Host",
+            "bitparax.com",
+            "X-Forwarded-For",
+            "91.233.23.115, 162.158.154.81",
+            "X-Forwarded-Proto",
+            "http",
+            "X-Real-Ip",
+            "162.158.154.81",
+            "X-Forwarded-Ssl",
+            "on",
+            "Cf-Ipcountry",
+            "NL",
+            "Cf-Visitor",
+            "{\"scheme\":\"https\"}",
+            "User-Agent",
+            "Coinranking (info@coinranking.com)",
+            "Accept",
+            "application/json",
+            "Cf-Connecting-Ip",
+            "91.233.23.115",
+            "Cdn-Loop",
+            "cloudflare",
+            "ETag",
+            "W/\"de73d5de47b0f891cb774c3436c27ca1\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "f8536f77-a281-4d2d-8a22-a32465e82d90",
+            "X-Runtime",
+            "0.013479",
+            "Strict-Transport-Security",
+            "max-age=31536000",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "514a4c72e8db6a71-LHR"
+        ]
+    },
+    {
+        "scope": "https://bitparax.com:443",
+        "method": "GET",
+        "path": "/api/v2/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ethbtc": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0178",
+                    "sell": "0.018",
+                    "low": "0.0166",
+                    "high": "0.0171",
+                    "open": 0.01653318,
+                    "last": "0.0171",
+                    "volume": "0.2479977",
+                    "avg_price": "0.016746875",
+                    "price_change_percent": "+3.43%",
+                    "vol": "0.2479977"
+                }
+            },
+            "btgbtc": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.001",
+                    "sell": "0.0011",
+                    "low": "0.0011",
+                    "high": "0.0011",
+                    "open": 0.001,
+                    "last": "0.0011",
+                    "volume": "0.00010909",
+                    "avg_price": "0.0011",
+                    "price_change_percent": "+10.00%",
+                    "vol": "0.00010909"
+                }
+            },
+            "dogebtc": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.00000024",
+                    "sell": "0.00000025",
+                    "low": "0.00000024",
+                    "high": "0.00000024",
+                    "open": 2.4e-7,
+                    "last": "0.00000024",
+                    "volume": "10.0",
+                    "avg_price": "0.00000024",
+                    "price_change_percent": "+0.00%",
+                    "vol": "10.0"
+                }
+            },
+            "dgbbtc": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.00000078",
+                    "sell": "0.00000079",
+                    "low": "0.00000076",
+                    "high": "0.00000079",
+                    "open": 7.5e-7,
+                    "last": "0.00000079",
+                    "volume": "222.65822784",
+                    "avg_price": "0.000000772",
+                    "price_change_percent": "+5.33%",
+                    "vol": "222.65822784"
+                }
+            },
+            "ltcbtc": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.00709",
+                    "sell": "0.0071",
+                    "low": "0.00645",
+                    "high": "0.00709",
+                    "open": 0.00644092,
+                    "last": "0.00709",
+                    "volume": "0.05616026",
+                    "avg_price": "0.00668968085106382979",
+                    "price_change_percent": "+10.08%",
+                    "vol": "0.05616026"
+                }
+            },
+            "viabtc": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.000022",
+                    "sell": "0.0000221",
+                    "low": "0.0000207",
+                    "high": "0.000022",
+                    "open": 0.00002069,
+                    "last": "0.000022",
+                    "volume": "3.47808829",
+                    "avg_price": "0.00002125869565217391",
+                    "price_change_percent": "+6.33%",
+                    "vol": "3.47808829"
+                }
+            },
+            "dashbtc": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0084",
+                    "sell": "0.00841",
+                    "low": "0.00787",
+                    "high": "0.00799",
+                    "open": 0.00786423,
+                    "last": "0.00799",
+                    "volume": "0.19766592",
+                    "avg_price": "0.0079215625",
+                    "price_change_percent": "+1.60%",
+                    "vol": "0.19766592"
+                }
+            },
+            "paraxbtc": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.00000001",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "nanjeth": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "zileth": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "dcneth": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "drgneth": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "hbxeth": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "enrgparax": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "hbxparax": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "btcusdt": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "10200.0",
+                    "sell": "10300.0",
+                    "low": "10300.0",
+                    "high": "10408.0",
+                    "open": 10408,
+                    "last": "10300.0",
+                    "volume": "0.0123492",
+                    "avg_price": "10393.6",
+                    "price_change_percent": "-1.04%",
+                    "vol": "0.0123492"
+                }
+            },
+            "ethusdt": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "179.0",
+                    "sell": "180.0",
+                    "low": "172.0",
+                    "high": "179.0",
+                    "open": 172,
+                    "last": "179.0",
+                    "volume": "0.00775953",
+                    "avg_price": "175.0",
+                    "price_change_percent": "+4.07%",
+                    "vol": "0.00775953"
+                }
+            },
+            "ltcusdt": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "70.0",
+                    "sell": "71.0",
+                    "low": "71.0",
+                    "high": "71.0",
+                    "open": "71.0",
+                    "last": "71.0",
+                    "volume": "0.01169014",
+                    "avg_price": "71.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.01169014"
+                }
+            },
+            "dashusdt": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "84.0",
+                    "sell": "85.0",
+                    "low": "85.0",
+                    "high": "85.0",
+                    "open": "85.0",
+                    "last": "85.0",
+                    "volume": "0.034",
+                    "avg_price": "85.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.034"
+                }
+            },
+            "dogeusdt": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "wavesusdt": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "1.05",
+                    "sell": "1.06",
+                    "low": "1.06",
+                    "high": "1.06",
+                    "open": "1.06",
+                    "last": "1.06",
+                    "volume": "0.98113207",
+                    "avg_price": "1.06",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.98113207"
+                }
+            },
+            "btgusdt": {
+                "at": 1568211797,
+                "ticker": {
+                    "buy": "11.0",
+                    "sell": "12.0",
+                    "low": "12.0",
+                    "high": "12.0",
+                    "open": "12.0",
+                    "last": "12.0",
+                    "volume": "0.04333333",
+                    "avg_price": "12.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.04333333"
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 11 Sep 2019 14:23:17 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, PUT, PATCH, DELETE",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Version",
+            "HTTP/1.0",
+            "Host",
+            "bitparax.com",
+            "X-Forwarded-For",
+            "91.233.23.115, 162.158.158.71",
+            "X-Forwarded-Proto",
+            "http",
+            "X-Real-Ip",
+            "162.158.158.71",
+            "X-Forwarded-Ssl",
+            "on",
+            "Cf-Ipcountry",
+            "NL",
+            "Cf-Visitor",
+            "{\"scheme\":\"https\"}",
+            "User-Agent",
+            "Coinranking (info@coinranking.com)",
+            "Cookie",
+            "__cfduid=db371e490922036a548aa8ee851b4fe6d1568211796",
+            "Accept",
+            "application/json",
+            "Cf-Connecting-Ip",
+            "91.233.23.115",
+            "Cdn-Loop",
+            "cloudflare",
+            "ETag",
+            "W/\"50367bf1ee77cda77d35633c8fa3477c\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "8afe42ee-af70-4e53-b6fb-06599bf3a756",
+            "X-Runtime",
+            "0.112981",
+            "Strict-Transport-Security",
+            "max-age=31536000",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "514a4c7419c96b71-LHR"
+        ]
+    }
+]

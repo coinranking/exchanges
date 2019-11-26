@@ -1,0 +1,423 @@
+[
+    {
+        "scope": "https://api.litebit.eu:443",
+        "method": "GET",
+        "path": "/markets",
+        "body": "",
+        "status": 200,
+        "response": {
+            "success": true,
+            "message": null,
+            "result": {
+                "btc": {
+                    "name": "Bitcoin",
+                    "abbr": "btc",
+                    "available": 311.299331,
+                    "volume": 22.14377,
+                    "buy": 9444.86928,
+                    "sell": 9098.5653
+                },
+                "ltc": {
+                    "name": "Litecoin",
+                    "abbr": "ltc",
+                    "available": 44938.567326,
+                    "volume": 184.074212,
+                    "buy": 66.86218,
+                    "sell": 61.710023
+                },
+                "nlg": {
+                    "name": "Gulden",
+                    "abbr": "nlg",
+                    "available": 423370137.844754,
+                    "volume": 0,
+                    "buy": 0.007145,
+                    "sell": 0.006438
+                },
+                "xrp": {
+                    "name": "Ripple",
+                    "abbr": "xrp",
+                    "available": 12145867.017642,
+                    "volume": 120905.457285,
+                    "buy": 0.245083,
+                    "sell": 0.230626
+                },
+                "doge": {
+                    "name": "Dogecoin",
+                    "abbr": "doge",
+                    "available": 1324158656.093973,
+                    "volume": 1793036.970644,
+                    "buy": 0.002317,
+                    "sell": 0.002029
+                },
+                "ppc": {
+                    "name": "Peercoin",
+                    "abbr": "ppc",
+                    "available": 10141016.984042,
+                    "volume": 0,
+                    "buy": 0.302676,
+                    "sell": 0.267412
+                },
+                "ftc": {
+                    "name": "Feathercoin",
+                    "abbr": "ftc",
+                    "available": 263709301.6569,
+                    "volume": 7336.484322,
+                    "buy": 0.011698,
+                    "sell": 0.010123
+                },
+                "blk": {
+                    "name": "Blackcoin",
+                    "abbr": "blk",
+                    "available": 61074996.078323,
+                    "volume": 617.537478,
+                    "buy": 0.0503,
+                    "sell": 0.044363
+                },
+                "via": {
+                    "name": "Viacoin",
+                    "abbr": "via",
+                    "available": 13860895.461663,
+                    "volume": 0,
+                    "buy": 0.219331,
+                    "sell": 0.19756
+                },
+                "dgb": {
+                    "name": "DigiByte",
+                    "abbr": "dgb",
+                    "available": 396403986.931633,
+                    "volume": 239521.495465,
+                    "buy": 0.007628,
+                    "sell": 0.006879
+                },
+                "dash": {
+                    "name": "Dash",
+                    "abbr": "dash",
+                    "available": 37376.38694,
+                    "volume": 41.419785,
+                    "buy": 81.181567,
+                    "sell": 74.951278
+                },
+                "eth": {
+                    "name": "Ethereum",
+                    "abbr": "eth",
+                    "available": 17608.477898,
+                    "volume": 89.718244,
+                    "buy": 169.00507,
+                    "sell": 159.124004
+                },
+                "grs": {
+                    "name": "Groestlcoin",
+                    "abbr": "grs",
+                    "available": 13998070.740018,
+                    "volume": 0,
+                    "buy": 0.214828,
+                    "sell": 0.197946
+                },
+                "xmy": {
+                    "name": "MyriadCoin",
+                    "abbr": "xmy",
+                    "available": 3275564583.42807,
+                    "volume": 1778440.348919,
+                    "buy": 0.000975,
+                    "sell": 0.000794
+                },
+                "etc": {
+                    "name": "EthereumClassic",
+                    "abbr": "etc",
+                    "available": 476826.707801,
+                    "volume": 955.013557,
+                    "buy": 6.314204,
+                    "sell": 5.804075
+                },
+                "rdd": {
+                    "name": "ReddCoin",
+                    "abbr": "rdd",
+                    "available": 2305011441.611257,
+                    "volume": 1840538.436305,
+                    "buy": 0.001365,
+                    "sell": 0.001147
+                },
+                "nav": {
+                    "name": "Navcoin",
+                    "abbr": "nav",
+                    "available": 28679917.851367,
+                    "volume": 1380.100125,
+                    "buy": 0.106253,
+                    "sell": 0.096255
+                },
+                "strat": {
+                    "name": "Stratis",
+                    "abbr": "strat",
+                    "available": 8570011.247537,
+                    "volume": 5094.289707,
+                    "buy": 0.350676,
+                    "sell": 0.320153
+                },
+                "pivx": {
+                    "name": "PIVX",
+                    "abbr": "pivx",
+                    "available": 10320965.312736,
+                    "volume": 2054.19218,
+                    "buy": 0.29439,
+                    "sell": 0.268266
+                },
+                "rads": {
+                    "name": "Radium",
+                    "abbr": "rads",
+                    "available": 7671073.753109,
+                    "volume": 0,
+                    "buy": 0.400741,
+                    "sell": 0.352962
+                },
+                "crw": {
+                    "name": "Crown",
+                    "abbr": "crw",
+                    "available": 54688421.130749,
+                    "volume": 24701.225691,
+                    "buy": 0.057806,
+                    "sell": 0.048067
+                },
+                "ok": {
+                    "name": "OkCash",
+                    "abbr": "ok",
+                    "available": 78679415.331685,
+                    "volume": 5432.771681,
+                    "buy": 0.0387,
+                    "sell": 0.034749
+                },
+                "xvg": {
+                    "name": "Verge",
+                    "abbr": "xvg",
+                    "available": 699273823.55723,
+                    "volume": 384539.206632,
+                    "buy": 0.004303,
+                    "sell": 0.003962
+                },
+                "xzc": {
+                    "name": "Zcoin",
+                    "abbr": "xzc",
+                    "available": 561691.533321,
+                    "volume": 301.947699,
+                    "buy": 5.410155,
+                    "sell": 4.877263
+                },
+                "ubq": {
+                    "name": "Ubiq",
+                    "abbr": "ubq",
+                    "available": 37423584.064741,
+                    "volume": 0,
+                    "buy": 0.081758,
+                    "sell": 0.072763
+                },
+                "bch": {
+                    "name": "Bitcoin-Cash",
+                    "abbr": "bch",
+                    "available": 10426.8298,
+                    "volume": 6.576985,
+                    "buy": 291.124526,
+                    "sell": 265.795156
+                },
+                "part": {
+                    "name": "Particl",
+                    "abbr": "part",
+                    "available": 2035833.231304,
+                    "volume": 173.050379,
+                    "buy": 1.516208,
+                    "sell": 1.324358
+                },
+                "qtum": {
+                    "name": "Qtum",
+                    "abbr": "qtum",
+                    "available": 1544303.274816,
+                    "volume": 0,
+                    "buy": 1.950348,
+                    "sell": 1.791409
+                },
+                "xlm": {
+                    "name": "Stellar",
+                    "abbr": "xlm",
+                    "available": 52608137.323391,
+                    "volume": 63805.868949,
+                    "buy": 0.056609,
+                    "sell": 0.053221
+                },
+                "ada": {
+                    "name": "Cardano",
+                    "abbr": "ada",
+                    "available": 67942607.189664,
+                    "volume": 217633.785411,
+                    "buy": 0.043891,
+                    "sell": 0.04073
+                },
+                "trx": {
+                    "name": "TRON",
+                    "abbr": "trx",
+                    "available": 201409063.180418,
+                    "volume": 0,
+                    "buy": 0.014984,
+                    "sell": 0.013725
+                },
+                "powr": {
+                    "name": "PowerLedger",
+                    "abbr": "powr",
+                    "available": 59669627.307131,
+                    "volume": 253.982672,
+                    "buy": 0.050011,
+                    "sell": 0.046828
+                },
+                "omg": {
+                    "name": "OmiseGO",
+                    "abbr": "omg",
+                    "available": 2952764.719161,
+                    "volume": 4433.070989,
+                    "buy": 1.01756,
+                    "sell": 0.939197
+                },
+                "snt": {
+                    "name": "Status",
+                    "abbr": "snt",
+                    "available": 207451443.548837,
+                    "volume": 0,
+                    "buy": 0.014439,
+                    "sell": 0.013418
+                },
+                "sys": {
+                    "name": "SysCoin",
+                    "abbr": "sys",
+                    "available": 121791424.186989,
+                    "volume": 0,
+                    "buy": 0.024955,
+                    "sell": 0.02249
+                },
+                "srn": {
+                    "name": "Sirin",
+                    "abbr": "srn",
+                    "available": 319155978.8505,
+                    "volume": 2111.602411,
+                    "buy": 0.009651,
+                    "sell": 0.008467
+                },
+                "bat": {
+                    "name": "Basic-Attention-Token",
+                    "abbr": "bat",
+                    "available": 18086434.858979,
+                    "volume": 2665.29153,
+                    "buy": 0.164759,
+                    "sell": 0.154711
+                },
+                "enj": {
+                    "name": "Enjin",
+                    "abbr": "enj",
+                    "available": 41462640.498384,
+                    "volume": 14140.182476,
+                    "buy": 0.072004,
+                    "sell": 0.06736
+                },
+                "mana": {
+                    "name": "Decentraland",
+                    "abbr": "mana",
+                    "available": 98629826.735639,
+                    "volume": 9973.404255,
+                    "buy": 0.030217,
+                    "sell": 0.028367
+                },
+                "zrx": {
+                    "name": "0x",
+                    "abbr": "zrx",
+                    "available": 19424288.549011,
+                    "volume": 1314.47437,
+                    "buy": 0.153284,
+                    "sell": 0.144175
+                },
+                "poly": {
+                    "name": "Polymath",
+                    "abbr": "poly",
+                    "available": 91120666.281868,
+                    "volume": 2630.180374,
+                    "buy": 0.032799,
+                    "sell": 0.030618
+                },
+                "mco": {
+                    "name": "Crypto.com",
+                    "abbr": "mco",
+                    "available": 975048.911635,
+                    "volume": 84.910736,
+                    "buy": 3.064542,
+                    "sell": 2.861891
+                },
+                "rvn": {
+                    "name": "Ravencoin",
+                    "abbr": "rvn",
+                    "available": 102360885.466612,
+                    "volume": 28121.356012,
+                    "buy": 0.029165,
+                    "sell": 0.027145
+                },
+                "solve": {
+                    "name": "SOLVE",
+                    "abbr": "solve",
+                    "available": 27047119.89044,
+                    "volume": 0,
+                    "buy": 0.110636,
+                    "sell": 0.103021
+                },
+                "orbs": {
+                    "name": "Orbs",
+                    "abbr": "orbs",
+                    "available": 241222508.068137,
+                    "volume": 7968.317968,
+                    "buy": 0.012431,
+                    "sell": 0.011527
+                },
+                "dent": {
+                    "name": "Dent",
+                    "abbr": "dent",
+                    "available": 6915089499.007159,
+                    "volume": 251132.55301,
+                    "buy": 0.000478,
+                    "sell": 0.00036
+                },
+                "dusk": {
+                    "name": "Dusk-Network",
+                    "abbr": "dusk",
+                    "available": 28960176.85764,
+                    "volume": 4826.480273,
+                    "buy": 0.105048,
+                    "sell": 0.094561
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:04:17 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d5de759d720beb74d8ee2daacf407c5141568120657; expires=Wed, 09-Sep-20 13:04:17 GMT; path=/; domain=.litebit.eu; HttpOnly; Secure",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Set-Cookie",
+            "Masty=fgdpd0s859tgqg3u8tm7c47kci; path=/; HttpOnly",
+            "Expires",
+            "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate",
+            "Pragma",
+            "no-cache",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

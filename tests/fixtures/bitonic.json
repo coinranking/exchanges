@@ -1,0 +1,35 @@
+[
+    {
+        "scope": "https://bitonic.nl:443",
+        "method": "GET",
+        "path": "/api/price",
+        "body": "",
+        "status": 200,
+        "response": {
+            "price": 9227.85004,
+            "volume": 53.042944
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 10 Sep 2019 13:34:51 GMT",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "Accept, Date, Content-Type, Origin, Cookie",
+            "Access-Control-Max-Age",
+            "3600"
+        ]
+    }
+]

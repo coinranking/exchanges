@@ -1,0 +1,342 @@
+[
+    {
+        "scope": "https://api.go.exchange:443",
+        "method": "GET",
+        "path": "/exchange/symbols",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": [
+                {
+                    "amount_decimal_places": 2,
+                    "base_currency_code": "BAT",
+                    "min_amount": "0.01",
+                    "name": "BATBTC",
+                    "net_and_fee_decimal_places": 13,
+                    "price_decimal_places": 8,
+                    "quote_currency_code": "BTC",
+                    "total_decimal_places": 10
+                },
+                {
+                    "amount_decimal_places": 2,
+                    "base_currency_code": "BAT",
+                    "min_amount": "0.01",
+                    "name": "BATDAI",
+                    "net_and_fee_decimal_places": 9,
+                    "price_decimal_places": 4,
+                    "quote_currency_code": "DAI",
+                    "total_decimal_places": 6
+                },
+                {
+                    "amount_decimal_places": 2,
+                    "base_currency_code": "BAT",
+                    "min_amount": "0.01",
+                    "name": "BATETH",
+                    "net_and_fee_decimal_places": 13,
+                    "price_decimal_places": 8,
+                    "quote_currency_code": "ETH",
+                    "total_decimal_places": 10
+                },
+                {
+                    "amount_decimal_places": 4,
+                    "base_currency_code": "BCH",
+                    "min_amount": "0.0001",
+                    "name": "BCHBTC",
+                    "net_and_fee_decimal_places": 13,
+                    "price_decimal_places": 6,
+                    "quote_currency_code": "BTC",
+                    "total_decimal_places": 10
+                },
+                {
+                    "amount_decimal_places": 5,
+                    "base_currency_code": "BCH",
+                    "min_amount": "0.00001",
+                    "name": "BCHUSDC",
+                    "net_and_fee_decimal_places": 10,
+                    "price_decimal_places": 2,
+                    "quote_currency_code": "USDC",
+                    "total_decimal_places": 7
+                },
+                {
+                    "amount_decimal_places": 6,
+                    "base_currency_code": "BTC",
+                    "min_amount": "0.000001",
+                    "name": "BTCUSDC",
+                    "net_and_fee_decimal_places": 11,
+                    "price_decimal_places": 2,
+                    "quote_currency_code": "USDC",
+                    "total_decimal_places": 8
+                },
+                {
+                    "amount_decimal_places": 4,
+                    "base_currency_code": "ETH",
+                    "min_amount": "0.0002",
+                    "name": "ETHBTC",
+                    "net_and_fee_decimal_places": 13,
+                    "price_decimal_places": 6,
+                    "quote_currency_code": "BTC",
+                    "total_decimal_places": 10
+                },
+                {
+                    "amount_decimal_places": 5,
+                    "base_currency_code": "ETH",
+                    "min_amount": "0.00001",
+                    "name": "ETHDAI",
+                    "net_and_fee_decimal_places": 10,
+                    "price_decimal_places": 2,
+                    "quote_currency_code": "DAI",
+                    "total_decimal_places": 7
+                },
+                {
+                    "amount_decimal_places": 5,
+                    "base_currency_code": "ETH",
+                    "min_amount": "0.00002",
+                    "name": "ETHUSDC",
+                    "net_and_fee_decimal_places": 10,
+                    "price_decimal_places": 2,
+                    "quote_currency_code": "USDC",
+                    "total_decimal_places": 7
+                },
+                {
+                    "amount_decimal_places": 4,
+                    "base_currency_code": "LTC",
+                    "min_amount": "0.0005",
+                    "name": "LTCBTC",
+                    "net_and_fee_decimal_places": 13,
+                    "price_decimal_places": 6,
+                    "quote_currency_code": "BTC",
+                    "total_decimal_places": 10
+                },
+                {
+                    "amount_decimal_places": 5,
+                    "base_currency_code": "LTC",
+                    "min_amount": "0.00005",
+                    "name": "LTCUSDC",
+                    "net_and_fee_decimal_places": 10,
+                    "price_decimal_places": 2,
+                    "quote_currency_code": "USDC",
+                    "total_decimal_places": 7
+                },
+                {
+                    "amount_decimal_places": 2,
+                    "base_currency_code": "OMG",
+                    "min_amount": "0.01",
+                    "name": "OMGBTC",
+                    "net_and_fee_decimal_places": 11,
+                    "price_decimal_places": 6,
+                    "quote_currency_code": "BTC",
+                    "total_decimal_places": 8
+                },
+                {
+                    "amount_decimal_places": 2,
+                    "base_currency_code": "OMG",
+                    "min_amount": "0.01",
+                    "name": "OMGDAI",
+                    "net_and_fee_decimal_places": 9,
+                    "price_decimal_places": 4,
+                    "quote_currency_code": "DAI",
+                    "total_decimal_places": 6
+                },
+                {
+                    "amount_decimal_places": 2,
+                    "base_currency_code": "OMG",
+                    "min_amount": "0.01",
+                    "name": "OMGETH",
+                    "net_and_fee_decimal_places": 11,
+                    "price_decimal_places": 6,
+                    "quote_currency_code": "ETH",
+                    "total_decimal_places": 8
+                },
+                {
+                    "amount_decimal_places": 2,
+                    "base_currency_code": "OMG",
+                    "min_amount": "0.01",
+                    "name": "OMGUSDC",
+                    "net_and_fee_decimal_places": 9,
+                    "price_decimal_places": 4,
+                    "quote_currency_code": "USDC",
+                    "total_decimal_places": 6
+                },
+                {
+                    "amount_decimal_places": 2,
+                    "base_currency_code": "USDC",
+                    "min_amount": "0.01",
+                    "name": "USDCDAI",
+                    "net_and_fee_decimal_places": 9,
+                    "price_decimal_places": 4,
+                    "quote_currency_code": "DAI",
+                    "total_decimal_places": 6
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:46 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d1548d67772405e533cbe522b5820c2fa1568120626; expires=Wed, 09-Sep-20 13:03:46 GMT; path=/; domain=.go.exchange; HttpOnly; Secure",
+            "Vary",
+            "Accept-Encoding",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "f58fc85fb156c5ed13a4619c612d4060, f58fc85fb156c5ed13a4619c612d4060",
+            "X-Frame-Options",
+            "DENY",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.go.exchange:443",
+        "method": "GET",
+        "path": "/exchange/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": [
+                {
+                    "last_price": "",
+                    "symbol": "BATBTC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "0"
+                },
+                {
+                    "last_price": "0.1787",
+                    "symbol": "BATDAI",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "5.595271"
+                },
+                {
+                    "last_price": "0.00097653",
+                    "symbol": "BATETH",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "0.0313417544"
+                },
+                {
+                    "last_price": "",
+                    "symbol": "BCHBTC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "0"
+                },
+                {
+                    "last_price": "305.76",
+                    "symbol": "BCHUSDC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "10.4874876"
+                },
+                {
+                    "last_price": "10264.16",
+                    "symbol": "BTCUSDC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "18.13223902"
+                },
+                {
+                    "last_price": "0.01766",
+                    "symbol": "ETHBTC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "0.0124318890"
+                },
+                {
+                    "last_price": "179.48",
+                    "symbol": "ETHDAI",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "12.4256838"
+                },
+                {
+                    "last_price": "180.8",
+                    "symbol": "ETHUSDC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "12.8630216"
+                },
+                {
+                    "last_price": "",
+                    "symbol": "LTCBTC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "0"
+                },
+                {
+                    "last_price": "70.92",
+                    "symbol": "LTCUSDC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "12.0377575"
+                },
+                {
+                    "last_price": "0.000106",
+                    "symbol": "OMGBTC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "0.00235920"
+                },
+                {
+                    "last_price": "1.0743",
+                    "symbol": "OMGDAI",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "22.583167"
+                },
+                {
+                    "last_price": "0.005977",
+                    "symbol": "OMGETH",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "0.53957689"
+                },
+                {
+                    "last_price": "1.0825",
+                    "symbol": "OMGUSDC",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "246.624806"
+                },
+                {
+                    "last_price": "0.988",
+                    "symbol": "USDCDAI",
+                    "timestamp": "2019-09-10 13:03:46.680357",
+                    "volume_24h": "33.823208"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:46 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "dc7698a38b39bee40e4f6357785058ff, dc7698a38b39bee40e4f6357785058ff",
+            "X-Frame-Options",
+            "DENY",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

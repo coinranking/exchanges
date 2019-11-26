@@ -1,0 +1,1769 @@
+[
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/DIM_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567987200,
+                "open": 3e-8,
+                "close": 3e-8,
+                "low": 3e-8,
+                "high": 3e-8,
+                "volume": 1996
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:42 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"18ed06ee6c825ff9215e14c074f4ff5a\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/DIM_USD/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.0002,
+                "close": 0.0002,
+                "low": 0.0002,
+                "high": 0.0002,
+                "volume": 100000
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:42 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"90e4127e471a2934bd8ac2c680694e8e\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/DOGE_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 2.4e-7,
+                "close": 2.4e-7,
+                "low": 2.3e-7,
+                "high": 2.4e-7,
+                "volume": 60039.50000001
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"40c2e8436b3413919e2eebdf6bed0a94\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/DOGE_USDT/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567987200,
+                "open": 0.00248766,
+                "close": 0.0024145,
+                "low": 0.0024145,
+                "high": 0.00248766,
+                "volume": 757.82665337
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"5e066d2f676e295f3cb69c8e45050821\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "markets": [
+                {
+                    "id": "BTC-CLP",
+                    "name": "btc-clp",
+                    "base_currency": "BTC",
+                    "quote_currency": "CLP",
+                    "minimum_order_amount": [
+                        "0.00002",
+                        "BTC"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "BTC-COP",
+                    "name": "btc-cop",
+                    "base_currency": "BTC",
+                    "quote_currency": "COP",
+                    "minimum_order_amount": [
+                        "0.00002",
+                        "BTC"
+                    ],
+                    "disabled": false,
+                    "illiquid": true
+                },
+                {
+                    "id": "ETH-CLP",
+                    "name": "eth-clp",
+                    "base_currency": "ETH",
+                    "quote_currency": "CLP",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "ETH"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "ETH-BTC",
+                    "name": "eth-btc",
+                    "base_currency": "ETH",
+                    "quote_currency": "BTC",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "ETH"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "BTC-PEN",
+                    "name": "btc-pen",
+                    "base_currency": "BTC",
+                    "quote_currency": "PEN",
+                    "minimum_order_amount": [
+                        "0.00002",
+                        "BTC"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "ETH-PEN",
+                    "name": "eth-pen",
+                    "base_currency": "ETH",
+                    "quote_currency": "PEN",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "ETH"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "ETH-COP",
+                    "name": "eth-cop",
+                    "base_currency": "ETH",
+                    "quote_currency": "COP",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "ETH"
+                    ],
+                    "disabled": true,
+                    "illiquid": false
+                },
+                {
+                    "id": "BCH-BTC",
+                    "name": "bch-btc",
+                    "base_currency": "BCH",
+                    "quote_currency": "BTC",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "BCH"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "BCH-CLP",
+                    "name": "bch-clp",
+                    "base_currency": "BCH",
+                    "quote_currency": "CLP",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "BCH"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "BCH-COP",
+                    "name": "bch-cop",
+                    "base_currency": "BCH",
+                    "quote_currency": "COP",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "BCH"
+                    ],
+                    "disabled": true,
+                    "illiquid": false
+                },
+                {
+                    "id": "BCH-PEN",
+                    "name": "bch-pen",
+                    "base_currency": "BCH",
+                    "quote_currency": "PEN",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "BCH"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "BTC-ARS",
+                    "name": "btc-ars",
+                    "base_currency": "BTC",
+                    "quote_currency": "ARS",
+                    "minimum_order_amount": [
+                        "0.00002",
+                        "BTC"
+                    ],
+                    "disabled": false,
+                    "illiquid": true
+                },
+                {
+                    "id": "ETH-ARS",
+                    "name": "eth-ars",
+                    "base_currency": "ETH",
+                    "quote_currency": "ARS",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "ETH"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "BCH-ARS",
+                    "name": "bch-ars",
+                    "base_currency": "BCH",
+                    "quote_currency": "ARS",
+                    "minimum_order_amount": [
+                        "0.001",
+                        "BCH"
+                    ],
+                    "disabled": false,
+                    "illiquid": true
+                },
+                {
+                    "id": "LTC-BTC",
+                    "name": "ltc-btc",
+                    "base_currency": "LTC",
+                    "quote_currency": "BTC",
+                    "minimum_order_amount": [
+                        "0.003",
+                        "LTC"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "LTC-CLP",
+                    "name": "ltc-clp",
+                    "base_currency": "LTC",
+                    "quote_currency": "CLP",
+                    "minimum_order_amount": [
+                        "0.003",
+                        "LTC"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "LTC-COP",
+                    "name": "ltc-cop",
+                    "base_currency": "LTC",
+                    "quote_currency": "COP",
+                    "minimum_order_amount": [
+                        "0.003",
+                        "LTC"
+                    ],
+                    "disabled": true,
+                    "illiquid": false
+                },
+                {
+                    "id": "LTC-PEN",
+                    "name": "ltc-pen",
+                    "base_currency": "LTC",
+                    "quote_currency": "PEN",
+                    "minimum_order_amount": [
+                        "0.003",
+                        "LTC"
+                    ],
+                    "disabled": false,
+                    "illiquid": false
+                },
+                {
+                    "id": "LTC-ARS",
+                    "name": "ltc-ars",
+                    "base_currency": "LTC",
+                    "quote_currency": "ARS",
+                    "minimum_order_amount": [
+                        "0.003",
+                        "LTC"
+                    ],
+                    "disabled": false,
+                    "illiquid": true
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=deb88369cb128999a9ae33453293138bb1568120562; expires=Wed, 09-Sep-20 13:02:42 GMT; path=/; domain=.buda.com; HttpOnly",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"ed59cb3ad801865b862afc53f5beb270\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.410143",
+            "X-Request-Id",
+            "3c2f33c3-1aeb-4200-999d-08a0c32d008c",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/EOS_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.00037739,
+                "close": 0.00037739,
+                "low": 0.00037739,
+                "high": 0.00037739,
+                "volume": 0.17016428
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"ffa5df853249fc5899574ea877a6da31\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/EOS_USDT/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 3.9166,
+                "close": 3.8223,
+                "low": 3.7951,
+                "high": 3.9169,
+                "volume": 36709.29037449
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"89323d5f72127b95821d74bcc5ea51d8\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/btc-clp/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "BTC-CLP",
+                "last_price": [
+                    "7430002.0",
+                    "CLP"
+                ],
+                "min_ask": [
+                    "7430002.0",
+                    "CLP"
+                ],
+                "max_bid": [
+                    "7399403.0",
+                    "CLP"
+                ],
+                "volume": [
+                    "10.06018159",
+                    "BTC"
+                ],
+                "price_variation_24h": "-0.014",
+                "price_variation_7d": "-0.022"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"156b59fc682e33d9f0cb5c37cec3fcc8\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.116455",
+            "X-Request-Id",
+            "9a215caf-bce4-48c0-a0bd-141113dda383",
+            "X-Proxy-Cache",
+            "HIT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/btc-cop/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "BTC-COP",
+                "last_price": [
+                    "33173046.72",
+                    "COP"
+                ],
+                "min_ask": [
+                    "33499998.0",
+                    "COP"
+                ],
+                "max_bid": [
+                    "33127749.19",
+                    "COP"
+                ],
+                "volume": [
+                    "0.38572033",
+                    "BTC"
+                ],
+                "price_variation_24h": "0.192",
+                "price_variation_7d": "0.008"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"f3e647edefa6f132cfe4a904689212b0\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.028674",
+            "X-Request-Id",
+            "957bc066-0621-4165-9dce-3c6205da951e",
+            "X-Proxy-Cache",
+            "HIT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/eth-clp/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "ETH-CLP",
+                "last_price": [
+                    "132052.0",
+                    "CLP"
+                ],
+                "min_ask": [
+                    "132052.0",
+                    "CLP"
+                ],
+                "max_bid": [
+                    "131400.0",
+                    "CLP"
+                ],
+                "volume": [
+                    "28.599258166",
+                    "ETH"
+                ],
+                "price_variation_24h": "0.012",
+                "price_variation_7d": "0.019"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"d5b8bdd0f27db85df4d5671478314db8\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.032080",
+            "X-Request-Id",
+            "0774228d-e71e-4e74-9fcc-c4c59b5af92f",
+            "X-Proxy-Cache",
+            "HIT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/eth-btc/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "ETH-BTC",
+                "last_price": [
+                    "0.01752548",
+                    "BTC"
+                ],
+                "min_ask": [
+                    "0.01789716",
+                    "BTC"
+                ],
+                "max_bid": [
+                    "0.01751506",
+                    "BTC"
+                ],
+                "volume": [
+                    "1.23333227",
+                    "ETH"
+                ],
+                "price_variation_24h": "0.019",
+                "price_variation_7d": "0.019"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"1acc2c652738cb69e02151be25ebc0b1\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.032375",
+            "X-Request-Id",
+            "3a3fcfa5-6c60-4522-bf8d-5cc33a0a9261",
+            "X-Proxy-Cache",
+            "HIT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/btc-pen/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "BTC-PEN",
+                "last_price": [
+                    "34505.7",
+                    "PEN"
+                ],
+                "min_ask": [
+                    "34599.0",
+                    "PEN"
+                ],
+                "max_bid": [
+                    "34505.7",
+                    "PEN"
+                ],
+                "volume": [
+                    "1.20882858",
+                    "BTC"
+                ],
+                "price_variation_24h": "-0.006",
+                "price_variation_7d": "-0.057"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:43 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"ab06dc586832aa06b0e323e422faa60a\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.028352",
+            "X-Request-Id",
+            "b096da19-c002-4aff-b51f-0d6bd77abfd6",
+            "X-Proxy-Cache",
+            "HIT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/ETC_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567468800,
+                "open": 0.0006223,
+                "close": 0.00061,
+                "low": 0.00061,
+                "high": 0.0006223,
+                "volume": 0.33
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"d492280e32f50d24e2e0d1d9ee01ca77\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/eth-pen/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "ETH-PEN",
+                "last_price": [
+                    "620.94",
+                    "PEN"
+                ],
+                "min_ask": [
+                    "620.26",
+                    "PEN"
+                ],
+                "max_bid": [
+                    "603.19",
+                    "PEN"
+                ],
+                "volume": [
+                    "9.5701633",
+                    "ETH"
+                ],
+                "price_variation_24h": "0.016",
+                "price_variation_7d": "0.038"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"f7f5612a6037aa3ba6696cfb39daf6ff\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.049170",
+            "X-Request-Id",
+            "5fec8d75-823a-4448-9ded-8bf271eedae4",
+            "X-Proxy-Cache",
+            "STALE",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/bch-btc/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "BCH-BTC",
+                "last_price": [
+                    "0.02934671",
+                    "BTC"
+                ],
+                "min_ask": [
+                    "0.03022507",
+                    "BTC"
+                ],
+                "max_bid": [
+                    "0.02944257",
+                    "BTC"
+                ],
+                "volume": [
+                    "0.08940698",
+                    "BCH"
+                ],
+                "price_variation_24h": "0.397",
+                "price_variation_7d": "0.007"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"c43aeb98e8ee20fa77ca266af5f4bbef\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.038107",
+            "X-Request-Id",
+            "07e27bfd-e3db-47b3-96ec-3654c3b6a49a",
+            "X-Proxy-Cache",
+            "STALE",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/bch-clp/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "BCH-CLP",
+                "last_price": [
+                    "224282.6",
+                    "CLP"
+                ],
+                "min_ask": [
+                    "224282.6",
+                    "CLP"
+                ],
+                "max_bid": [
+                    "218044.0",
+                    "CLP"
+                ],
+                "volume": [
+                    "3.6118744",
+                    "BCH"
+                ],
+                "price_variation_24h": "0.031",
+                "price_variation_7d": "0.022"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"ea843ae59c678d063021aca0f96b5238\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.045971",
+            "X-Request-Id",
+            "7f749c86-43df-4bf6-98d1-a80cd99d554e",
+            "X-Proxy-Cache",
+            "HIT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/ETH_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.017523,
+                "close": 0.017674,
+                "low": 0.017522,
+                "high": 0.017808,
+                "volume": 2228.54253656
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"d6e3df687ecaea1db223c42ffb55e8d1\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/btc-ars/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "BTC-ARS",
+                "last_price": [
+                    "638951.58",
+                    "ARS"
+                ],
+                "min_ask": [
+                    "633669.83",
+                    "ARS"
+                ],
+                "max_bid": [
+                    "616851.18",
+                    "ARS"
+                ],
+                "volume": [
+                    "0.0",
+                    "BTC"
+                ],
+                "price_variation_24h": "0.0",
+                "price_variation_7d": "0.001"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"27c06fe32fafba5b8be5292f825c152e\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.031131",
+            "X-Request-Id",
+            "3f90f02a-a78a-4260-b2ba-3e6a643ce0aa",
+            "X-Proxy-Cache",
+            "STALE",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/bch-pen/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "BCH-PEN",
+                "last_price": [
+                    "1084.79",
+                    "PEN"
+                ],
+                "min_ask": [
+                    "1052.11",
+                    "PEN"
+                ],
+                "max_bid": [
+                    "1018.74",
+                    "PEN"
+                ],
+                "volume": [
+                    "0.00762129",
+                    "BCH"
+                ],
+                "price_variation_24h": "0.045",
+                "price_variation_7d": "0.103"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"3f350f5365167edf269bc7e671f3edc3\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.082437",
+            "X-Request-Id",
+            "53f6bb6c-19ca-4a90-8cd0-26756576047b",
+            "X-Proxy-Cache",
+            "HIT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/eth-ars/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "ETH-ARS",
+                "last_price": [
+                    "10400.0",
+                    "ARS"
+                ],
+                "min_ask": [
+                    "11184.6",
+                    "ARS"
+                ],
+                "max_bid": [
+                    "10400.0",
+                    "ARS"
+                ],
+                "volume": [
+                    "3.075261708",
+                    "ETH"
+                ],
+                "price_variation_24h": "-0.02",
+                "price_variation_7d": "-0.044"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"9a72ad7f37b37c41e002ec0a195f57da\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.030130",
+            "X-Request-Id",
+            "77704f6d-1b5e-4ab1-9edc-a8007809a6b6",
+            "X-Proxy-Cache",
+            "STALE",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/ETH_USD/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 180.5,
+                "close": 180.97,
+                "low": 180.42,
+                "high": 183.92,
+                "volume": 941.01541927
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"97b532d5b676d736ebb513ac388a77e3\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/bch-ars/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "BCH-ARS",
+                "last_price": [
+                    "17077.72",
+                    "ARS"
+                ],
+                "min_ask": [
+                    "18971.35",
+                    "ARS"
+                ],
+                "max_bid": [
+                    "17399.52",
+                    "ARS"
+                ],
+                "volume": [
+                    "0.0",
+                    "BCH"
+                ],
+                "price_variation_24h": "0.0",
+                "price_variation_7d": "-0.022"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"5d746355eaeb0918f26e3f9766a026e1\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.034218",
+            "X-Request-Id",
+            "14490673-c62c-46f1-bc0e-9e70980b598c",
+            "X-Proxy-Cache",
+            "HIT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/ltc-btc/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "LTC-BTC",
+                "last_price": [
+                    "0.00700975",
+                    "BTC"
+                ],
+                "min_ask": [
+                    "0.00700975",
+                    "BTC"
+                ],
+                "max_bid": [
+                    "0.00684431",
+                    "BTC"
+                ],
+                "volume": [
+                    "3.91770874",
+                    "LTC"
+                ],
+                "price_variation_24h": "0.062",
+                "price_variation_7d": "0.075"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"9059de7cd6c62470c42c8c76701bebef\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.031545",
+            "X-Request-Id",
+            "d90c585e-52b7-497b-9a32-1f539719ceb9",
+            "X-Proxy-Cache",
+            "HIT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/ltc-clp/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "LTC-CLP",
+                "last_price": [
+                    "51975.3",
+                    "CLP"
+                ],
+                "min_ask": [
+                    "51975.3",
+                    "CLP"
+                ],
+                "max_bid": [
+                    "51351.0",
+                    "CLP"
+                ],
+                "volume": [
+                    "14.82992954",
+                    "LTC"
+                ],
+                "price_variation_24h": "0.047",
+                "price_variation_7d": "0.033"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"b981dfcdd38cc31385911390bde829e0\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.031367",
+            "X-Request-Id",
+            "fb0196f5-9577-4c09-8b5f-6c0b9f6f179f",
+            "X-Proxy-Cache",
+            "STALE",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/ETH_USDQ/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 179.90611015,
+                "close": 182.7741652,
+                "low": 179.188982,
+                "high": 184.74425183,
+                "volume": 64.14246609
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"ca62e7926efdef301b0411220a1b76ec\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/ltc-pen/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "LTC-PEN",
+                "last_price": [
+                    "254.56",
+                    "PEN"
+                ],
+                "min_ask": [
+                    "244.09",
+                    "PEN"
+                ],
+                "max_bid": [
+                    "235.72",
+                    "PEN"
+                ],
+                "volume": [
+                    "2.82666314",
+                    "LTC"
+                ],
+                "price_variation_24h": "0.084",
+                "price_variation_7d": "0.097"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"5eede1abdd22e1169fba607faff95760\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.058869",
+            "X-Request-Id",
+            "dda890e0-01c5-4fb0-ac66-4e1be1c9bf94",
+            "X-Proxy-Cache",
+            "STALE",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://www.buda.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets/ltc-ars/ticker.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ticker": {
+                "market_id": "LTC-ARS",
+                "last_price": [
+                    "4250.99",
+                    "ARS"
+                ],
+                "min_ask": [
+                    "4397.05",
+                    "ARS"
+                ],
+                "max_bid": [
+                    "4034.81",
+                    "ARS"
+                ],
+                "volume": [
+                    "0.0",
+                    "LTC"
+                ],
+                "price_variation_24h": "0.0",
+                "price_variation_7d": "0.053"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:44 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "etag",
+            "W/\"e3cb35e013543b4c0a4a147514592c91\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-runtime",
+            "0.027808",
+            "X-Request-Id",
+            "8d2329b3-1d96-4f87-afb2-b3fa02ab5b95",
+            "X-Proxy-Cache",
+            "STALE",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

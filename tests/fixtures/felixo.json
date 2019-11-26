@@ -1,0 +1,145 @@
+[
+    {
+        "scope": "https://api.felixo.com:443",
+        "method": "GET",
+        "path": "/v1/ticker",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "pair": "BTCTRY",
+                "lastPrice": "59390.00000000",
+                "openPrice": "59815.00000000",
+                "highPrice": "59885.00000000",
+                "lowPrice": "59166.00000000",
+                "volume": "839269.34109515"
+            },
+            {
+                "pair": "BTCUSDC",
+                "lastPrice": "10243.85000000",
+                "openPrice": "10386.23000000",
+                "highPrice": "10394.72000000",
+                "lowPrice": "10181.97000000",
+                "volume": "484660.52771712"
+            },
+            {
+                "pair": "ETHBTC",
+                "lastPrice": "0.01766200",
+                "openPrice": "0.01758400",
+                "highPrice": "0.01781400",
+                "lowPrice": "0.01746000",
+                "volume": "15.91275342"
+            },
+            {
+                "pair": "ETHTRY",
+                "lastPrice": "1048.00000000",
+                "openPrice": "1050.00000000",
+                "highPrice": "1060.00000000",
+                "lowPrice": "1039.00000000",
+                "volume": "99657.51301600"
+            },
+            {
+                "pair": "LTCBTC",
+                "lastPrice": "0.00692400",
+                "openPrice": "0.00677200",
+                "highPrice": "0.00707000",
+                "lowPrice": "0.00670100",
+                "volume": "7.64664620"
+            },
+            {
+                "pair": "TRXBTC",
+                "lastPrice": "0.00000154",
+                "openPrice": "0.00000153",
+                "highPrice": "0.00000156",
+                "lowPrice": "0.00000152",
+                "volume": "0.04691191"
+            },
+            {
+                "pair": "XRPBTC",
+                "lastPrice": "0.00002562",
+                "openPrice": "0.00002512",
+                "highPrice": "0.00002568",
+                "lowPrice": "0.00002496",
+                "volume": "3.23346917"
+            },
+            {
+                "pair": "XRPTRY",
+                "lastPrice": "1.51000000",
+                "openPrice": "1.52000000",
+                "highPrice": "1.52000000",
+                "lowPrice": "1.51000000",
+                "volume": "8873.08700000"
+            },
+            {
+                "pair": "BCHABCBTC",
+                "lastPrice": "0.02985400",
+                "openPrice": "0.02968100",
+                "highPrice": "0.03000200",
+                "lowPrice": "0.02940000",
+                "volume": "5.75596935"
+            },
+            {
+                "pair": "MODLBTC",
+                "lastPrice": "0.00000002",
+                "openPrice": "0.00000002",
+                "highPrice": "0.00000002",
+                "lowPrice": "0.00000002",
+                "volume": "0.00000000"
+            },
+            {
+                "pair": "HOTBTC",
+                "lastPrice": "0.00000010",
+                "openPrice": "0.00000010",
+                "highPrice": "0.00000010",
+                "lowPrice": "0.00000010",
+                "volume": "0.00000000"
+            },
+            {
+                "pair": "XLMBTC",
+                "lastPrice": "0.00000591",
+                "openPrice": "0.00000587",
+                "highPrice": "0.00000595",
+                "lowPrice": "0.00000583",
+                "volume": "0.73596461"
+            },
+            {
+                "pair": "XLMTRY",
+                "lastPrice": "0.35500000",
+                "openPrice": "0.35000000",
+                "highPrice": "0.35600000",
+                "lowPrice": "0.34800000",
+                "volume": "15627.38106158"
+            },
+            {
+                "pair": "ZECBTC",
+                "lastPrice": "0.00448500",
+                "openPrice": "0.00453900",
+                "highPrice": "0.00459600",
+                "lowPrice": "0.00445200",
+                "volume": "1.32771554"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:37 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d83032735c2e6095ffcb63fbe9c6748f71568120617; expires=Wed, 09-Sep-20 13:03:37 GMT; path=/; domain=.felixo.com; HttpOnly; Secure",
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "ETag",
+            "W/\"7e2-OKviNJ9ugFbyw5RxANhdlYNHssI\"",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

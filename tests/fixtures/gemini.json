@@ -1,0 +1,505 @@
+[
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/symbols",
+        "body": "",
+        "status": 200,
+        "response": [
+            "btcusd",
+            "ethbtc",
+            "ethusd",
+            "bchusd",
+            "bchbtc",
+            "bcheth",
+            "ltcusd",
+            "ltcbtc",
+            "ltceth",
+            "ltcbch",
+            "zecusd",
+            "zecbtc",
+            "zeceth",
+            "zecbch",
+            "zecltc"
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:42 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "136",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/ethbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.01765",
+            "ask": "0.01768",
+            "volume": {
+                "ETH": "987.21497",
+                "BTC": "17.48704089305",
+                "timestamp": 1568120400000
+            },
+            "last": "0.01768"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:42 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "128",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/btcusd",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "10257.86",
+            "ask": "10257.87",
+            "volume": {
+                "BTC": "767.3649578234",
+                "USD": "7903573.730800282073",
+                "timestamp": 1568120400000
+            },
+            "last": "10257.86"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:42 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "142",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/bchusd",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "305.58",
+            "ask": "306.70",
+            "volume": {
+                "BCH": "749.23353295",
+                "USD": "228658.6513935543",
+                "timestamp": 1568120400000
+            },
+            "last": "305.58"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:43 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "131",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/ethusd",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "181.02",
+            "ask": "181.18",
+            "volume": {
+                "ETH": "8323.18562489",
+                "USD": "1508402.3818634524",
+                "timestamp": 1568120400000
+            },
+            "last": "181.29"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:43 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "133",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/bchbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.02981",
+            "ask": "0.02991",
+            "volume": {
+                "BCH": "84.280281",
+                "BTC": "2.50756328009",
+                "timestamp": 1568120400000
+            },
+            "last": "0.02983"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:43 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "127",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/ltcbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.00692",
+            "ask": "0.00694",
+            "volume": {
+                "LTC": "528.2403",
+                "BTC": "3.6794222545",
+                "timestamp": 1568120400000
+            },
+            "last": "0.00694"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:43 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "125",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/bcheth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "1.6734",
+            "ask": "1.6961",
+            "volume": {
+                "BCH": "0",
+                "ETH": "0",
+                "timestamp": 1568120400000
+            },
+            "last": "1.682"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:44 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "103",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/ltcbch",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.2307",
+            "ask": "0.2333",
+            "volume": {
+                "LTC": "0",
+                "BCH": "0",
+                "timestamp": 1568120400000
+            },
+            "last": "0.231"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:44 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "103",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/ltceth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.3906",
+            "ask": "0.3931",
+            "volume": {
+                "LTC": "11.08575",
+                "ETH": "4.321040925",
+                "timestamp": 1568120400000
+            },
+            "last": "0.39"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:44 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "119",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/ltcusd",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "70.94",
+            "ask": "71.05",
+            "volume": {
+                "LTC": "6177.7140162",
+                "USD": "437544.853312422",
+                "timestamp": 1568120400000
+            },
+            "last": "71.13"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:44 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "127",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/zeceth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.2516",
+            "ask": "0.2549",
+            "volume": {
+                "ZEC": "0",
+                "ETH": "0",
+                "timestamp": 1568120400000
+            },
+            "last": "0.2644"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:44 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "104",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/zecusd",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "45.93",
+            "ask": "46.03",
+            "volume": {
+                "ZEC": "1377.23923144",
+                "USD": "64551.5549655246",
+                "timestamp": 1568120400000
+            },
+            "last": "45.92"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:45 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "128",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/zecbch",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.1493",
+            "ask": "0.1509",
+            "volume": {
+                "ZEC": "0.217155",
+                "BCH": "0.0323343795",
+                "timestamp": 1568120400000
+            },
+            "last": "0.1489"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:45 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "122",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/zecbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.00447",
+            "ask": "0.0045",
+            "volume": {
+                "ZEC": "431.915231",
+                "BTC": "1.95723571245",
+                "timestamp": 1568120400000
+            },
+            "last": "0.00447"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:45 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "127",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    },
+    {
+        "scope": "https://api.gemini.com:443",
+        "method": "GET",
+        "path": "/v1/pubticker/zecltc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bid": "0.644",
+            "ask": "0.651",
+            "volume": {
+                "ZEC": "0",
+                "LTC": "0",
+                "timestamp": 1568120400000
+            },
+            "last": "0.666"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:45 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "101",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Origin"
+        ]
+    }
+]

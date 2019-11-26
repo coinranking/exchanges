@@ -1,0 +1,4279 @@
+[
+    {
+        "scope": "https://www.southxchange.com:443",
+        "method": "GET",
+        "path": "/api/prices",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "Market": "DASH/BTC",
+                "Bid": 0.00824244,
+                "Ask": 0.0083295,
+                "Last": 0.0083295,
+                "Variation24Hr": 0.16,
+                "Volume24Hr": 3.0435768639
+            },
+            {
+                "Market": "LTC/BTC",
+                "Bid": 0.00691,
+                "Ask": 0.00699998,
+                "Last": 0.00699999,
+                "Variation24Hr": 1.45,
+                "Volume24Hr": 20.5847257869
+            },
+            {
+                "Market": "ZEIT/LTC",
+                "Bid": 9e-8,
+                "Ask": 1e-7,
+                "Last": 1e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 3699098.079714501
+            },
+            {
+                "Market": "DOGE/BTC",
+                "Bid": 2.3e-7,
+                "Ask": 2.4e-7,
+                "Last": 2.4e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 481649.8894344319
+            },
+            {
+                "Market": "BSD/BTC",
+                "Bid": 9.7e-7,
+                "Ask": 0.00000109,
+                "Last": 9.7e-7,
+                "Variation24Hr": -4.9,
+                "Volume24Hr": 1854.8782767942
+            },
+            {
+                "Market": "NMC/BTC",
+                "Bid": 0.00006163,
+                "Ask": 0.000063,
+                "Last": 0.00006442,
+                "Variation24Hr": -1.9,
+                "Volume24Hr": 5463.2992505817
+            },
+            {
+                "Market": "PTC/BTC",
+                "Bid": 1.3e-7,
+                "Ask": 1.8e-7,
+                "Last": 1.6e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "VTC/BTC",
+                "Bid": 0.00002625,
+                "Ask": 0.00002686,
+                "Last": 0.00002676,
+                "Variation24Hr": 0.75,
+                "Volume24Hr": 631.5125700199
+            },
+            {
+                "Market": "MANNA/BTC",
+                "Bid": 5e-8,
+                "Ask": 7e-8,
+                "Last": 5e-8,
+                "Variation24Hr": -16.67,
+                "Volume24Hr": 22007.26639165
+            },
+            {
+                "Market": "BTC/USNBT",
+                "Bid": 121621.1254,
+                "Ask": 162900,
+                "Last": 122104.7428,
+                "Variation24Hr": 0.61,
+                "Volume24Hr": 0.0862295258
+            },
+            {
+                "Market": "MINT/BTC",
+                "Bid": null,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XVG/BTC",
+                "Bid": 4.5e-7,
+                "Ask": 4.5e-7,
+                "Last": 4.6e-7,
+                "Variation24Hr": 4.55,
+                "Volume24Hr": 433062.926617059
+            },
+            {
+                "Market": "USNBT/USD",
+                "Bid": 0.036,
+                "Ask": 0.0863,
+                "Last": 0.0846,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTA/BTC",
+                "Bid": 6.4e-7,
+                "Ask": 8.4e-7,
+                "Last": 8.4e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTC/USD",
+                "Bid": 10301.0003,
+                "Ask": 10498,
+                "Last": 10493.1687,
+                "Variation24Hr": -1.43,
+                "Volume24Hr": 0.0511358758
+            },
+            {
+                "Market": "PPC/BTC",
+                "Bid": 0.00003062,
+                "Ask": 0.00003128,
+                "Last": 0.00003062,
+                "Variation24Hr": -1.23,
+                "Volume24Hr": 630.8073894608
+            },
+            {
+                "Market": "LTC/USD",
+                "Bid": 70.1913,
+                "Ask": 72.9355,
+                "Last": 72,
+                "Variation24Hr": 1.56,
+                "Volume24Hr": 1.2537408945
+            },
+            {
+                "Market": "MANNA/USD",
+                "Bid": 0.0006,
+                "Ask": 0.0007,
+                "Last": 0.0007,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "NXT/BTC",
+                "Bid": 0.00000131,
+                "Ask": 0.00000135,
+                "Last": 0.00000131,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETH/BTC",
+                "Bid": 0.01749793,
+                "Ask": 0.01780956,
+                "Last": 0.01780956,
+                "Variation24Hr": -0.24,
+                "Volume24Hr": 11.466370801759645
+            },
+            {
+                "Market": "ETH/USD",
+                "Bid": 181.0051,
+                "Ask": 185.5678,
+                "Last": 185.7985,
+                "Variation24Hr": 1.05,
+                "Volume24Hr": 0.2290432439697244
+            },
+            {
+                "Market": "XMR/BTC",
+                "Bid": 0.00720371,
+                "Ask": 0.00737494,
+                "Last": 0.00720371,
+                "Variation24Hr": -3.63,
+                "Volume24Hr": 2.1980928672
+            },
+            {
+                "Market": "XMR/USD",
+                "Bid": 74.5758,
+                "Ask": 75.6617,
+                "Last": 74.6994,
+                "Variation24Hr": 0.17,
+                "Volume24Hr": 0.5305621187
+            },
+            {
+                "Market": "STRAT/BTC",
+                "Bid": 0.00003593,
+                "Ask": 0.00003688,
+                "Last": 0.00003711,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STRAT/USD",
+                "Bid": 0.3711,
+                "Ask": 0.3816,
+                "Last": 0.4353,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ICE/BTC",
+                "Bid": 2.4e-7,
+                "Ask": 3.9e-7,
+                "Last": 2e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ICE/USD",
+                "Bid": 0.0001,
+                "Ask": 0.3332,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BCH/BTC",
+                "Bid": 0.02945521,
+                "Ask": 0.03005997,
+                "Last": 0.0294552,
+                "Variation24Hr": -1.74,
+                "Volume24Hr": 1.2537715007
+            },
+            {
+                "Market": "BCH/USD",
+                "Bid": 304.2491,
+                "Ask": 313.1696,
+                "Last": 306.0042,
+                "Variation24Hr": -1.05,
+                "Volume24Hr": 0.212790302
+            },
+            {
+                "Market": "DASH/USD",
+                "Bid": 84.854,
+                "Ask": 87.4491,
+                "Last": 84.9428,
+                "Variation24Hr": -1.21,
+                "Volume24Hr": 0.1197731847
+            },
+            {
+                "Market": "MSR/BTC",
+                "Bid": 0.00000365,
+                "Ask": 0.0000047,
+                "Last": 0.0000047,
+                "Variation24Hr": 3.75,
+                "Volume24Hr": 564.0615839984
+            },
+            {
+                "Market": "MSR/USD",
+                "Bid": 0.05,
+                "Ask": 0.5,
+                "Last": 0.5,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MRN/BTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MRN/USD",
+                "Bid": null,
+                "Ask": 0.0003,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CHA/BTC",
+                "Bid": 0.0000044,
+                "Ask": 0.00000478,
+                "Last": 0.0000044,
+                "Variation24Hr": 2.33,
+                "Volume24Hr": 2823.3683317584
+            },
+            {
+                "Market": "SUP/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SUP/USD",
+                "Bid": null,
+                "Ask": 0.0001,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XGOX/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XGOX/LTC",
+                "Bid": 2.8e-7,
+                "Ask": 2.8e-7,
+                "Last": 2.8e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RESTORE/BTC",
+                "Bid": 0.00000118,
+                "Ask": 0.00000147,
+                "Last": 0.00000131,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RESTORE/LTC",
+                "Bid": 1.5e-7,
+                "Ask": 0.00048987,
+                "Last": 0.000012,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RESTORE/USD",
+                "Bid": null,
+                "Ask": 0.032,
+                "Last": 0.032,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STAR/BTC",
+                "Bid": 0.00002912,
+                "Ask": 0.00003004,
+                "Last": 0.00003106,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MBCH/BTC",
+                "Bid": 0.00001531,
+                "Ask": 0.0000329,
+                "Last": 0.00001407,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CYR/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETH/USNBT",
+                "Bid": 2179,
+                "Ask": 5990,
+                "Last": 2255.1617,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XGOX/USD",
+                "Bid": null,
+                "Ask": 0.0001,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "INXT/BTC",
+                "Bid": 0.00010678,
+                "Ask": 0.00026821,
+                "Last": 0.00010307,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "INXT/USD",
+                "Bid": 0.15,
+                "Ask": 350037,
+                "Last": 5.9999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTG/USD",
+                "Bid": 10.2939,
+                "Ask": 11.1254,
+                "Last": 12.0598,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTG/BTC",
+                "Bid": 0.00099488,
+                "Ask": 0.00104522,
+                "Last": 0.00104572,
+                "Variation24Hr": 21.48,
+                "Volume24Hr": 62.5373649646
+            },
+            {
+                "Market": "NSR/BTC",
+                "Bid": 6e-8,
+                "Ask": 7e-8,
+                "Last": 7e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 178.531457
+            },
+            {
+                "Market": "NSR/USNBT",
+                "Bid": 0.0065,
+                "Ask": 0.0098,
+                "Last": 0.0065,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMS/BTC",
+                "Bid": 0.00014205,
+                "Ask": 0.00033,
+                "Last": 0.00031,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMS/USD",
+                "Bid": 0.2223,
+                "Ask": 4000,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EGOLD/BTC",
+                "Bid": 1.8e-7,
+                "Ask": 1.9e-7,
+                "Last": 1.8e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RGC/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MTC/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MTC/USD",
+                "Bid": null,
+                "Ask": 0.0007,
+                "Last": 0.001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETH/BCH",
+                "Bid": 0.58307598,
+                "Ask": 0.59576988,
+                "Last": 0.59600264,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DASH/BCH",
+                "Bid": 0.27666235,
+                "Ask": 0.28114445,
+                "Last": 0.2856223,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XMR/BCH",
+                "Bid": 0.23859659,
+                "Ask": 0.24530063,
+                "Last": 0.26342204,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XVG/BCH",
+                "Bid": 0.00001446,
+                "Ask": 0.00001528,
+                "Last": 0.0000151,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XVG/USD",
+                "Bid": 0.0045,
+                "Ask": 0.0047,
+                "Last": 0.0045,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CHA/BCH",
+                "Bid": 1.1e-7,
+                "Ask": 0.09999999,
+                "Last": 0.09999999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LTC/BCH",
+                "Bid": 0.22752172,
+                "Ask": 0.23361695,
+                "Last": 0.23590385,
+                "Variation24Hr": 1.82,
+                "Volume24Hr": 0.0188184947
+            },
+            {
+                "Market": "BCH/USNBT",
+                "Bid": 3963,
+                "Ask": 7890,
+                "Last": 3963,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0.5990977585
+            },
+            {
+                "Market": "MLM/BTC",
+                "Bid": 3e-8,
+                "Ask": 4e-8,
+                "Last": 4e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 11210793.425933352
+            },
+            {
+                "Market": "MLM/LTC",
+                "Bid": 0.00000323,
+                "Ask": 0.000005,
+                "Last": 0.00000599,
+                "Variation24Hr": -13.06,
+                "Volume24Hr": 14.6144007403
+            },
+            {
+                "Market": "MLM/USD",
+                "Bid": 0.0003,
+                "Ask": 0.0004,
+                "Last": 0.0003,
+                "Variation24Hr": -25,
+                "Volume24Hr": 200760.3495225
+            },
+            {
+                "Market": "MNB/BTC",
+                "Bid": null,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "GCN/LTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 41186198.172715865
+            },
+            {
+                "Market": "POLIS/BTC",
+                "Bid": 0.00005901,
+                "Ask": 0.000064,
+                "Last": 0.000063,
+                "Variation24Hr": 0,
+                "Volume24Hr": 428.7566061303
+            },
+            {
+                "Market": "POLIS/LTC",
+                "Bid": 0.00041026,
+                "Ask": 0.048,
+                "Last": 0.048,
+                "Variation24Hr": 384.85,
+                "Volume24Hr": 0.7246892256
+            },
+            {
+                "Market": "POLIS/BCH",
+                "Bid": 0.00001401,
+                "Ask": 0.01335,
+                "Last": 0.000014,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "POLIS/USD",
+                "Bid": 0.0311,
+                "Ask": 1.48,
+                "Last": 0.0125,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MNB/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0004,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DOGE/USD",
+                "Bid": 0.0023,
+                "Ask": 0.0024,
+                "Last": 0.0024,
+                "Variation24Hr": 4.35,
+                "Volume24Hr": 1089.7767422635
+            },
+            {
+                "Market": "WCO/BTC",
+                "Bid": 2.3e-7,
+                "Ask": 2.5e-7,
+                "Last": 2.2e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WCO/LTC",
+                "Bid": 0.00000278,
+                "Ask": 0.0199999,
+                "Last": 0.00000201,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WCO/USD",
+                "Bid": 0.0005,
+                "Ask": 0.0092,
+                "Last": 0.0094,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WCO/BCH",
+                "Bid": 8e-8,
+                "Ask": 0.00286993,
+                "Last": 0.00288837,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STEEP/BTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STEEP/LTC",
+                "Bid": 0.00000167,
+                "Ask": 0.0000025,
+                "Last": 0.00000165,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STEEP/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0003,
+                "Last": 0.0002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STEEP/BCH",
+                "Bid": 1.8e-7,
+                "Ask": 0.00000117,
+                "Last": 0.025,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PNX/BTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PNX/LTC",
+                "Bid": 4.1e-7,
+                "Ask": 0.000018,
+                "Last": 4.2e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PNX/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0333,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PNX/BCH",
+                "Bid": 2e-8,
+                "Ask": 0.00009998,
+                "Last": 1.7e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMT/BTC",
+                "Bid": 0.00001581,
+                "Ask": 0.00001942,
+                "Last": 0.00001348,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMT/USD",
+                "Bid": 0.05,
+                "Ask": 1.25,
+                "Last": 0.05,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TWNKL/LTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TWNKL/USD",
+                "Bid": null,
+                "Ask": 0.0001,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TWNKL/BCH",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMT/LTC",
+                "Bid": 0.0007,
+                "Ask": 0.0082,
+                "Last": 0.0007,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMT/BCH",
+                "Bid": 6e-8,
+                "Ask": 499,
+                "Last": 0.00092,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RPT/BTC",
+                "Bid": null,
+                "Ask": 2e-8,
+                "Last": 3e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RPT/LTC",
+                "Bid": 0.00000101,
+                "Ask": 0.00000555,
+                "Last": 0.0000069,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RPT/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0068,
+                "Last": 0.0071,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RPT/BCH",
+                "Bid": 1.4e-7,
+                "Ask": 0.00000999,
+                "Last": 0.000005,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DGM/BTC",
+                "Bid": 2.8e-7,
+                "Ask": 3.3e-7,
+                "Last": 2.7e-7,
+                "Variation24Hr": -12.9,
+                "Volume24Hr": 390.04
+            },
+            {
+                "Market": "CBS/BTC",
+                "Bid": 2e-8,
+                "Ask": 3e-8,
+                "Last": 2e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 8778.7244982216
+            },
+            {
+                "Market": "TUN/BTC",
+                "Bid": 8e-8,
+                "Ask": 1e-7,
+                "Last": 9e-8,
+                "Variation24Hr": 28.57,
+                "Volume24Hr": 250.74
+            },
+            {
+                "Market": "BART/BTC",
+                "Bid": 3.9e-7,
+                "Ask": 4.1e-7,
+                "Last": 3.9e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BART/USD",
+                "Bid": 0.0004,
+                "Ask": 0.0977,
+                "Last": 0.0002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "JS/BTC",
+                "Bid": 1.2e-7,
+                "Ask": 1.6e-7,
+                "Last": 1.5e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "JS/USD",
+                "Bid": 0.0005,
+                "Ask": 0.01,
+                "Last": 0.0018,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ICC/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ICC/USD",
+                "Bid": null,
+                "Ask": 0.0001,
+                "Last": 0.0009,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RAP/BTC",
+                "Bid": 3e-8,
+                "Ask": 5e-8,
+                "Last": 4e-8,
+                "Variation24Hr": 33.33,
+                "Volume24Hr": 4719.6208942094
+            },
+            {
+                "Market": "SAROS/BTC",
+                "Bid": 1e-8,
+                "Ask": 3e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SAROS/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0005,
+                "Last": 0.0994,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RVC/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RVC/USD",
+                "Bid": null,
+                "Ask": 0.0002,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XSH/BTC",
+                "Bid": 6e-8,
+                "Ask": 7e-8,
+                "Last": 6e-8,
+                "Variation24Hr": -14.29,
+                "Volume24Hr": 1109320.85696384
+            },
+            {
+                "Market": "XSH/USD",
+                "Bid": 0.0005,
+                "Ask": 0.0086,
+                "Last": 0.0005,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "D/BTC",
+                "Bid": 0.00000769,
+                "Ask": 0.00000798,
+                "Last": 0.00000769,
+                "Variation24Hr": 4.06,
+                "Volume24Hr": 6303.6600536732
+            },
+            {
+                "Market": "D/USD",
+                "Bid": 0.0055,
+                "Ask": 0.2199,
+                "Last": 0.0095,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "D/LTC",
+                "Bid": 0.0009,
+                "Ask": 0.002,
+                "Last": 0.0009,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "D/BCH",
+                "Bid": 0.00009,
+                "Ask": 0.00099999,
+                "Last": 0.00009,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SPK/BTC",
+                "Bid": 5.7e-7,
+                "Ask": 7.7e-7,
+                "Last": 6.3e-7,
+                "Variation24Hr": -8.7,
+                "Volume24Hr": 803.3793601681
+            },
+            {
+                "Market": "SPK/USD",
+                "Bid": 0.0005,
+                "Ask": 1,
+                "Last": 899.999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "VEGI/USD",
+                "Bid": 0.0002,
+                "Ask": 0.002,
+                "Last": 0.0002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "VEGI/BTC",
+                "Bid": 9e-8,
+                "Ask": 1.5e-7,
+                "Last": 9e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 8671.2280971217
+            },
+            {
+                "Market": "BHD/BTC",
+                "Bid": 3e-8,
+                "Ask": 5e-8,
+                "Last": 3e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 44.340785383
+            },
+            {
+                "Market": "BHD/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0009,
+                "Last": 0.0006,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "GPA/BTC",
+                "Bid": 6e-8,
+                "Ask": 7e-8,
+                "Last": 6e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "GPA/USD",
+                "Bid": 0.0004,
+                "Ask": 0.0049,
+                "Last": 0.0114,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BBP/USD",
+                "Bid": 0.0005,
+                "Ask": 0.0006,
+                "Last": 0.0007,
+                "Variation24Hr": -12.5,
+                "Volume24Hr": 55962.7799999204
+            },
+            {
+                "Market": "BBP/BTC",
+                "Bid": 4e-8,
+                "Ask": 5e-8,
+                "Last": 5e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 30868891.39029281
+            },
+            {
+                "Market": "LMN/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LMN/USD",
+                "Bid": null,
+                "Ask": 0.0003,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ERZ/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0097,
+                "Last": 0.0101,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ERZ/BTC",
+                "Bid": 4e-8,
+                "Ask": 5e-8,
+                "Last": 4e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "FXC/BTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 3623.2272786853
+            },
+            {
+                "Market": "FXC/USD",
+                "Bid": 0.0002,
+                "Ask": 0.009,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DIN/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0132,
+                "Last": 0.0013,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DIN/BTC",
+                "Bid": 6e-8,
+                "Ask": 8e-8,
+                "Last": 6e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 6767.24375
+            },
+            {
+                "Market": "BTC/CNNBT",
+                "Bid": 71006.1118,
+                "Ask": 75000,
+                "Last": 69279.1368,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETH/CNNBT",
+                "Bid": 1254.3085,
+                "Ask": 8800,
+                "Last": 1500,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BCH/CNNBT",
+                "Bid": 2119.4465,
+                "Ask": 9300,
+                "Last": 1944.8651,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "NYX/USD",
+                "Bid": 0.0004,
+                "Ask": 0.002,
+                "Last": 0.0004,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "NYX/BTC",
+                "Bid": 3e-8,
+                "Ask": 4e-8,
+                "Last": 3e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 2708.8484090768
+            },
+            {
+                "Market": "XSG/USD",
+                "Bid": 0.003,
+                "Ask": 1.337,
+                "Last": 2.9,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XSG/BTC",
+                "Bid": 0.00000209,
+                "Ask": 0.00000276,
+                "Last": 0.00000197,
+                "Variation24Hr": -18.26,
+                "Volume24Hr": 2386.4027781206
+            },
+            {
+                "Market": "OMEGA/BTC",
+                "Bid": 5e-8,
+                "Ask": 9e-8,
+                "Last": 8e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "OMEGA/USD",
+                "Bid": 0.0002,
+                "Ask": 0.0014,
+                "Last": 0.0002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WHITE/USD",
+                "Bid": 0.0006,
+                "Ask": 0.1984,
+                "Last": 0.1,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WHITE/BTC",
+                "Bid": 8.8e-7,
+                "Ask": 0.00000112,
+                "Last": 8.6e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WHITE/LTC",
+                "Bid": 0.00001337,
+                "Ask": 0.0023,
+                "Last": 0.000012,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WHITE/BCH",
+                "Bid": 3e-8,
+                "Ask": 10000,
+                "Last": 3e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EEC/USD",
+                "Bid": 0.002,
+                "Ask": 0.035,
+                "Last": 0.059,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EEC/BTC",
+                "Bid": 7e-7,
+                "Ask": 8.3e-7,
+                "Last": 8.5e-7,
+                "Variation24Hr": 21.43,
+                "Volume24Hr": 0.023411764705882354
+            },
+            {
+                "Market": "EXUS/BTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 2e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 1481.555
+            },
+            {
+                "Market": "EXUS/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0008,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RC/USD",
+                "Bid": 0.0002,
+                "Ask": 0.025,
+                "Last": 0.0299,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RC/BTC",
+                "Bid": 4.2e-7,
+                "Ask": 4.5e-7,
+                "Last": 3.9e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RACE/USD",
+                "Bid": 0.0017,
+                "Ask": 0.0386,
+                "Last": 0.0018,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RACE/BTC",
+                "Bid": 1.9e-7,
+                "Ask": 2.5e-7,
+                "Last": 1.9e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PBS/BTC",
+                "Bid": 1.7e-7,
+                "Ask": 2.5e-7,
+                "Last": 1.7e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PBS/USD",
+                "Bid": 0.0005,
+                "Ask": 0.48,
+                "Last": 1,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LCC/BTC",
+                "Bid": 0.00000114,
+                "Ask": 0.00000121,
+                "Last": 0.00000112,
+                "Variation24Hr": 0,
+                "Volume24Hr": 4841.025692128
+            },
+            {
+                "Market": "LCC/USD",
+                "Bid": 0.01,
+                "Ask": 0.0238,
+                "Last": 0.0126,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LCC/LTC",
+                "Bid": 0.0001378,
+                "Ask": 0.000288,
+                "Last": 0.0001378,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LCC/BCH",
+                "Bid": 0.00002001,
+                "Ask": 0.00054994,
+                "Last": 0.00002001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 81.912201497
+            },
+            {
+                "Market": "USDT/USD",
+                "Bid": 0.9,
+                "Ask": 1.05,
+                "Last": 0.9,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BART/DASH",
+                "Bid": 0.00000337,
+                "Ask": 0.00008496,
+                "Last": 0.00000318,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BBP/DASH",
+                "Bid": 0.00000313,
+                "Ask": 0.0000096,
+                "Last": 0.0000096,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BHD/DASH",
+                "Bid": 0.00000105,
+                "Ask": 0.000007,
+                "Last": 0.00000599,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BSD/DASH",
+                "Bid": 0.00006668,
+                "Ask": 0.000333,
+                "Last": 7e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTA/DASH",
+                "Bid": 0.00001345,
+                "Ask": 0.00099998,
+                "Last": 0.00099998,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CBS/DASH",
+                "Bid": 0.000001,
+                "Ask": 0.000787,
+                "Last": 0.000001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CHA/DASH",
+                "Bid": 5.5e-7,
+                "Ask": 0.0745,
+                "Last": 0.0000125,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CYR/DASH",
+                "Bid": 6e-8,
+                "Ask": 1.2e-7,
+                "Last": 6e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DGM/DASH",
+                "Bid": 6.7e-7,
+                "Ask": 0.00005423,
+                "Last": 0.00005423,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DIN/DASH",
+                "Bid": 5.6e-7,
+                "Ask": 0.00008856,
+                "Last": 0.00000523,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "D/DASH",
+                "Bid": 0.00019004,
+                "Ask": 0.013,
+                "Last": 0.00019004,
+                "Variation24Hr": 0.01,
+                "Volume24Hr": 0.0445298121
+            },
+            {
+                "Market": "DOGE/DASH",
+                "Bid": 0.00002812,
+                "Ask": 0.00003498,
+                "Last": 0.00002812,
+                "Variation24Hr": -19.61,
+                "Volume24Hr": 348.2464809039
+            },
+            {
+                "Market": "DVLP/DASH",
+                "Bid": 2e-8,
+                "Ask": 4e-8,
+                "Last": 3e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EEC/DASH",
+                "Bid": 0.00000303,
+                "Ask": 0.07989924,
+                "Last": 0.07989998,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EGOLD/DASH",
+                "Bid": 0.00000231,
+                "Ask": 0.00090665,
+                "Last": 0.00090665,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ERZ/DASH",
+                "Bid": 2e-8,
+                "Ask": 0.00001531,
+                "Last": 0.00001531,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EXUS/DASH",
+                "Bid": 0.00000102,
+                "Ask": 0.0000159,
+                "Last": 0.00000105,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "FXC/DASH",
+                "Bid": 2.2e-7,
+                "Ask": 0.00000498,
+                "Last": 2.2e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "GCN/DASH",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "GPA/DASH",
+                "Bid": 3e-8,
+                "Ask": 1,
+                "Last": 0.000002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ICC/DASH",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ICE/DASH",
+                "Bid": 0.00000183,
+                "Ask": 0.0006246,
+                "Last": 0.0006246,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "INXT/DASH",
+                "Bid": 0.00101012,
+                "Ask": 0.09899898,
+                "Last": 0.05050454,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "JS/DASH",
+                "Bid": 1.5e-7,
+                "Ask": 0.0001711,
+                "Last": 0.00002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LCC/DASH",
+                "Bid": 0.00002503,
+                "Ask": 0.00024777,
+                "Last": 0.00002503,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LMN/DASH",
+                "Bid": 2e-8,
+                "Ask": 4e-8,
+                "Last": 2e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LXMI/DASH",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MANNA/DASH",
+                "Bid": 0.0000029,
+                "Ask": 0.00000999,
+                "Last": 0.00000507,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MBCH/DASH",
+                "Bid": 8.8e-7,
+                "Ask": 0.86899999,
+                "Last": 1,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MINT/DASH",
+                "Bid": 0.00000133,
+                "Ask": 0.00000133,
+                "Last": 0.00000133,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MLM/DASH",
+                "Bid": 0.00000299,
+                "Ask": 0.000005,
+                "Last": 0.0000037,
+                "Variation24Hr": -38.33,
+                "Volume24Hr": 32437.7264186152
+            },
+            {
+                "Market": "MNB/DASH",
+                "Bid": 9e-8,
+                "Ask": 0.0000015,
+                "Last": 5e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MRN/DASH",
+                "Bid": 5.1e-7,
+                "Ask": 0.0000014,
+                "Last": 0.0000012,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MSR/DASH",
+                "Bid": 0.00003793,
+                "Ask": 0.01594774,
+                "Last": 0.001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MTC/DASH",
+                "Bid": 5e-8,
+                "Ask": 9.9e-7,
+                "Last": 9.9e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "NMC/DASH",
+                "Bid": 0.00133701,
+                "Ask": 0.9999899,
+                "Last": 0.00032021,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "NXT/DASH",
+                "Bid": 0.0001,
+                "Ask": 0.0061,
+                "Last": 0.0001337,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "NYX/DASH",
+                "Bid": 4.8e-7,
+                "Ask": 0.00002789,
+                "Last": 0.0000098,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "OMEGA/DASH",
+                "Bid": 0.00000163,
+                "Ask": 0.00001,
+                "Last": 0.00000163,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PBS/DASH",
+                "Bid": 0.000002,
+                "Ask": 0.00004398,
+                "Last": 0.000002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PNX/DASH",
+                "Bid": 1e-7,
+                "Ask": 0.00000349,
+                "Last": 8e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "POLIS/DASH",
+                "Bid": 0.00050005,
+                "Ask": 0.085,
+                "Last": 0.0008,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PPC/DASH",
+                "Bid": 0.00100057,
+                "Ask": 0.01879999,
+                "Last": 0.02222221,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PTC/DASH",
+                "Bid": 0.00000511,
+                "Ask": 0.00000517,
+                "Last": 0.00000509,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RACE/DASH",
+                "Bid": 0.00000119,
+                "Ask": 0.00004999,
+                "Last": 0.00000119,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RAP/DASH",
+                "Bid": 0.00000201,
+                "Ask": 0.00000998,
+                "Last": 0.00000997,
+                "Variation24Hr": 396.02,
+                "Volume24Hr": 1823.1663599801
+            },
+            {
+                "Market": "RC/DASH",
+                "Bid": 0.000002,
+                "Ask": 0.00199999,
+                "Last": 0.09999997,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RESTORE/DASH",
+                "Bid": 2e-8,
+                "Ask": 0.99999999,
+                "Last": 0.00084,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RGC/DASH",
+                "Bid": 2e-8,
+                "Ask": 5e-8,
+                "Last": 2e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RPT/DASH",
+                "Bid": 2.1e-7,
+                "Ask": 0.00000996,
+                "Last": 2.1e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RVC/DASH",
+                "Bid": 8e-8,
+                "Ask": 3.4e-7,
+                "Last": 7e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SAROS/DASH",
+                "Bid": 5.7e-7,
+                "Ask": 0.0000048,
+                "Last": 5.7e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMS/DASH",
+                "Bid": 0.00048511,
+                "Ask": 10.000495,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMT/DASH",
+                "Bid": 0.00000102,
+                "Ask": 9995,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XSG/DASH",
+                "Bid": 0.00003576,
+                "Ask": 0.042,
+                "Last": 0.042,
+                "Variation24Hr": 117349.66,
+                "Volume24Hr": 100.2555829607
+            },
+            {
+                "Market": "SPK/DASH",
+                "Bid": 0.00000601,
+                "Ask": 0.99999995,
+                "Last": 0.00000601,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STAR/DASH",
+                "Bid": 0.00224009,
+                "Ask": 0.056,
+                "Last": 0.05599969,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STEEP/DASH",
+                "Bid": 6.3e-7,
+                "Ask": 0.00000185,
+                "Last": 0.00000195,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STRAT/DASH",
+                "Bid": 0.00048889,
+                "Ask": 0.00666665,
+                "Last": 0.0060015,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SUP/DASH",
+                "Bid": 1e-7,
+                "Ask": 6e-7,
+                "Last": 2.9e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TUN/DASH",
+                "Bid": 0.00000171,
+                "Ask": 0.0089999,
+                "Last": 0.000012,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TWNKL/DASH",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "VEGI/DASH",
+                "Bid": 3.1e-7,
+                "Ask": 0.000029,
+                "Last": 3e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "VTC/DASH",
+                "Bid": 0.00008273,
+                "Ask": 0.00422819,
+                "Last": 0.00422819,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WCO/DASH",
+                "Bid": 0.00000356,
+                "Ask": 0.00499978,
+                "Last": 0.00000306,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WHITE/DASH",
+                "Bid": 9.3e-7,
+                "Ask": 0.0099999,
+                "Last": 0.00999999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XGOX/DASH",
+                "Bid": 1.3e-7,
+                "Ask": 2.8e-7,
+                "Last": 2.7e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XMR/DASH",
+                "Bid": 0.75054376,
+                "Ask": 1.44443993,
+                "Last": 0.77177515,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XSH/DASH",
+                "Bid": 0.00000711,
+                "Ask": 0.00002218,
+                "Last": 0.00000712,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XVG/DASH",
+                "Bid": 0.00002815,
+                "Ask": 0.00008158,
+                "Last": 0.00002815,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ZEIT/DASH",
+                "Bid": 6e-8,
+                "Ask": 1e-7,
+                "Last": 1e-7,
+                "Variation24Hr": 11.11,
+                "Volume24Hr": 204655.6321777005
+            },
+            {
+                "Market": "VTAR/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "VTAR/USD",
+                "Bid": null,
+                "Ask": 0.0001,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PINK/USD",
+                "Bid": 0.0011,
+                "Ask": 0.0075,
+                "Last": 0.0075,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PINK/BTC",
+                "Bid": 1.7e-7,
+                "Ask": 1.9e-7,
+                "Last": 1.8e-7,
+                "Variation24Hr": -5.26,
+                "Volume24Hr": 4831.7870772683
+            },
+            {
+                "Market": "TIMEC/BTC",
+                "Bid": 4e-8,
+                "Ask": 5e-8,
+                "Last": 4e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TIMEC/USD",
+                "Bid": 0.0002,
+                "Ask": 0.004,
+                "Last": 0.0002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMLY/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 199000
+            },
+            {
+                "Market": "SMLY/USD",
+                "Bid": null,
+                "Ask": 0.0001,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTCF/BTC",
+                "Bid": 1e-8,
+                "Ask": 3e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTCF/USD",
+                "Bid": 0.0002,
+                "Ask": 0.0005,
+                "Last": 0.0005,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ROE/USD",
+                "Bid": null,
+                "Ask": 0.0002,
+                "Last": 0.0002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ROE/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ZACA/BTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 8469.44
+            },
+            {
+                "Market": "ZACA/USD",
+                "Bid": 0.0001,
+                "Ask": 0.001,
+                "Last": 0.0002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TUSD/USD",
+                "Bid": 0.9924,
+                "Ask": 1.0233,
+                "Last": 1.0202,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTC/TUSD",
+                "Bid": 10127.24839757,
+                "Ask": 10389.20672461,
+                "Last": 10224.89415279,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DERO/USD",
+                "Bid": 0.5,
+                "Ask": 10,
+                "Last": 0.7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DERO/BTC",
+                "Bid": 0.00005995,
+                "Ask": 0.00006714,
+                "Last": 0.00005972,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STAK/USD",
+                "Bid": 0.001,
+                "Ask": 1.9998,
+                "Last": 999998.998,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STAK/BTC",
+                "Bid": 2e-7,
+                "Ask": 2.4e-7,
+                "Last": 2e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "FTO/BTC",
+                "Bid": 0.00003966,
+                "Ask": 0.00003968,
+                "Last": 0.00003968,
+                "Variation24Hr": -1.9,
+                "Volume24Hr": 4013.2088389921
+            },
+            {
+                "Market": "FTO/USD",
+                "Bid": 0.0829,
+                "Ask": 1,
+                "Last": 1,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LTC/TUSD",
+                "Bid": 36.00000002,
+                "Ask": 109,
+                "Last": 110,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETH/TUSD",
+                "Bid": 50,
+                "Ask": 430.99999999,
+                "Last": 432.99999924,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BCH/TUSD",
+                "Bid": 81,
+                "Ask": 400,
+                "Last": 303,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "KREDS/BTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 9735.08
+            },
+            {
+                "Market": "EPC/BTC",
+                "Bid": 1e-7,
+                "Ask": 1.5e-7,
+                "Last": 1e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MON/BTC",
+                "Bid": 4.6e-7,
+                "Ask": 5.8e-7,
+                "Last": 4.6e-7,
+                "Variation24Hr": 12.2,
+                "Volume24Hr": 580.681691948
+            },
+            {
+                "Market": "BTCX/LTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 5008.83
+            },
+            {
+                "Market": "CARE/BTC",
+                "Bid": 2e-8,
+                "Ask": 3e-8,
+                "Last": 3e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BKS/BTC",
+                "Bid": 0.00005016,
+                "Ask": 0.00006,
+                "Last": 0.00005999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XHV/BTC",
+                "Bid": 0.00001202,
+                "Ask": 0.00002691,
+                "Last": 0.00001588,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RABBIT/BTC",
+                "Bid": 4e-8,
+                "Ask": 6e-8,
+                "Last": 4e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 1597.8001392715
+            },
+            {
+                "Market": "SNBL/BTC",
+                "Bid": 3e-8,
+                "Ask": 4e-8,
+                "Last": 4e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BUEN/BTC",
+                "Bid": 5e-8,
+                "Ask": 7e-8,
+                "Last": 4e-8,
+                "Variation24Hr": -20,
+                "Volume24Hr": 15851.9222741847
+            },
+            {
+                "Market": "BLAST/BTC",
+                "Bid": 1.3e-7,
+                "Ask": 2e-7,
+                "Last": 1.5e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "NPW/BTC",
+                "Bid": 0.00000102,
+                "Ask": 0.00000165,
+                "Last": 0.00000157,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LPC/BTC",
+                "Bid": 2.5e-7,
+                "Ask": 4.5e-7,
+                "Last": 2.4e-7,
+                "Variation24Hr": -35.14,
+                "Volume24Hr": 12057.322968942
+            },
+            {
+                "Market": "SWAP/BTC",
+                "Bid": 7e-8,
+                "Ask": 1.1e-7,
+                "Last": 8e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SPRK/BTC",
+                "Bid": 0.00000622,
+                "Ask": 0.00000767,
+                "Last": 0.00000719,
+                "Variation24Hr": -29.23,
+                "Volume24Hr": 748.1427708487
+            },
+            {
+                "Market": "SMLY/LTC",
+                "Bid": 2.1e-7,
+                "Ask": 2.2e-7,
+                "Last": 2.2e-7,
+                "Variation24Hr": 10,
+                "Volume24Hr": 32489418.26396103
+            },
+            {
+                "Market": "IVI/BTC",
+                "Bid": 4e-8,
+                "Ask": 5e-8,
+                "Last": 4e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 3765.3890024837
+            },
+            {
+                "Market": "IVI/LTC",
+                "Bid": 0.00000601,
+                "Ask": 0.00000618,
+                "Last": 0.00000601,
+                "Variation24Hr": -0.17,
+                "Volume24Hr": 4146.1902809202
+            },
+            {
+                "Market": "IVI/USD",
+                "Bid": 0.0004,
+                "Ask": 0.0005,
+                "Last": 0.0004,
+                "Variation24Hr": 0,
+                "Volume24Hr": 8.1732021723
+            },
+            {
+                "Market": "IVI/BCH",
+                "Bid": 0.00000133,
+                "Ask": 0.00000168,
+                "Last": 0.00000132,
+                "Variation24Hr": -0.75,
+                "Volume24Hr": 46.3464831
+            },
+            {
+                "Market": "IVI/DASH",
+                "Bid": 0.000005,
+                "Ask": 0.00000649,
+                "Last": 0.000005,
+                "Variation24Hr": 0,
+                "Volume24Hr": 28.8449075359
+            },
+            {
+                "Market": "THUG/LTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LXMI/LTC",
+                "Bid": null,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LXMI/USD",
+                "Bid": null,
+                "Ask": 0.0001,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STB/BTC",
+                "Bid": 0.00000211,
+                "Ask": 0.00000292,
+                "Last": 0.00000122,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STB/USD",
+                "Bid": 0.0042,
+                "Ask": 90,
+                "Last": 90,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "STB/TUSD",
+                "Bid": 1.1e-7,
+                "Ask": 0.4,
+                "Last": 0.5,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SFCP/BTC",
+                "Bid": 4.2e-7,
+                "Ask": 4.6e-7,
+                "Last": 4.2e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 106.76311951364026
+            },
+            {
+                "Market": "SFCP/LTC",
+                "Bid": 0.00006003,
+                "Ask": 0.000095,
+                "Last": 0.000095,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "GRC/BTC",
+                "Bid": 3.3e-7,
+                "Ask": 3.6e-7,
+                "Last": 3.6e-7,
+                "Variation24Hr": -2.7,
+                "Volume24Hr": 48087.3964932313
+            },
+            {
+                "Market": "GRC/USD",
+                "Bid": 0.003,
+                "Ask": 0.004,
+                "Last": 0.0032,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "GRC/BCH",
+                "Bid": 4.6e-7,
+                "Ask": 0.00003299,
+                "Last": 5e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ONION/BTC",
+                "Bid": 0.00001752,
+                "Ask": 0.00001975,
+                "Last": 0.00001975,
+                "Variation24Hr": 8.94,
+                "Volume24Hr": 12.8517528673
+            },
+            {
+                "Market": "TELOS/BTC",
+                "Bid": 3.6e-7,
+                "Ask": 4e-7,
+                "Last": 4e-7,
+                "Variation24Hr": -11.11,
+                "Volume24Hr": 17983.4272374672
+            },
+            {
+                "Market": "BEET/BTC",
+                "Bid": 9.5e-7,
+                "Ask": 0.00000102,
+                "Last": 0.00000102,
+                "Variation24Hr": 2,
+                "Volume24Hr": 3315.5936359674
+            },
+            {
+                "Market": "BEET/DASH",
+                "Bid": 0.00004153,
+                "Ask": 0.00095744,
+                "Last": 0.00004153,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BEET/USD",
+                "Bid": 0.0039,
+                "Ask": 0.5549,
+                "Last": 0.0039,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SNOVA/BTC",
+                "Bid": 1.1e-7,
+                "Ask": 1.4e-7,
+                "Last": 1e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BRAZ/BTC",
+                "Bid": 9e-8,
+                "Ask": 1e-7,
+                "Last": 1e-7,
+                "Variation24Hr": 11.11,
+                "Volume24Hr": 200646.9471371131
+            },
+            {
+                "Market": "COMP/LTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SNOVA/USD",
+                "Bid": 0.0008,
+                "Ask": 0.005,
+                "Last": 0.0007,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SNOVA/TUSD",
+                "Bid": 3.9e-7,
+                "Ask": 0.00888888,
+                "Last": 0.0076898,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BLTG/BTC",
+                "Bid": 2.9e-7,
+                "Ask": 4.1e-7,
+                "Last": 4.2e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 68.1501317464
+            },
+            {
+                "Market": "ETC/BTC",
+                "Bid": 0.00064663,
+                "Ask": 0.00065413,
+                "Last": 0.00065427,
+                "Variation24Hr": 1.65,
+                "Volume24Hr": 16.5926471834
+            },
+            {
+                "Market": "ETC/USD",
+                "Bid": 6.654,
+                "Ask": 6.8601,
+                "Last": 6.9616,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETC/TUSD",
+                "Bid": 6.6548025,
+                "Ask": 6.77646054,
+                "Last": 6.36553472,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTC/PAX",
+                "Bid": 10139.02585948,
+                "Ask": 10609.15156847,
+                "Last": 9793.57678283,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LTC/PAX",
+                "Bid": 42.0000001,
+                "Ask": 111,
+                "Last": 111,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DASH/PAX",
+                "Bid": 45,
+                "Ask": 268,
+                "Last": 270,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETH/PAX",
+                "Bid": 45.1,
+                "Ask": 400,
+                "Last": 45.1,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETC/PAX",
+                "Bid": 5.5555,
+                "Ask": 7.55554999,
+                "Last": 7.55555,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BCH/PAX",
+                "Bid": 110.1,
+                "Ask": 1300,
+                "Last": 110.1,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PAX/USD",
+                "Bid": 0.83,
+                "Ask": 1.23,
+                "Last": 1.23,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BLTG/USD",
+                "Bid": 0.001,
+                "Ask": 0.35,
+                "Last": 0.001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CELC/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 38060.7551766355
+            },
+            {
+                "Market": "SNOVA/DASH",
+                "Bid": 0.00000121,
+                "Ask": 0.000075,
+                "Last": 0.000075,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTC/USDC",
+                "Bid": 10187.162352,
+                "Ask": 10393.922123,
+                "Last": 9757.120801,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "USDC/USD",
+                "Bid": 0.83,
+                "Ask": 7,
+                "Last": 0.83,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LTC/USDC",
+                "Bid": 70.383999,
+                "Ask": 72.614091,
+                "Last": 68.503847,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DASH/USDC",
+                "Bid": 84.679676,
+                "Ask": 87.287307,
+                "Last": 83.631866,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETH/USDC",
+                "Bid": 180.298635,
+                "Ask": 185.65507,
+                "Last": 174.683714,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BCH/USDC",
+                "Bid": 304.553678,
+                "Ask": 314.370437,
+                "Last": 295.988561,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ETC/USDC",
+                "Bid": 6.603664,
+                "Ask": 6.794119,
+                "Last": 6.777,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PLUS1/BTC",
+                "Bid": 0.00000291,
+                "Ask": 0.00000373,
+                "Last": 0.00000271,
+                "Variation24Hr": -20.99,
+                "Volume24Hr": 202.1006225223
+            },
+            {
+                "Market": "CELC/DASH",
+                "Bid": 1.8e-7,
+                "Ask": 2.5e-7,
+                "Last": 2.6e-7,
+                "Variation24Hr": -3.7,
+                "Volume24Hr": 68068.6712748234
+            },
+            {
+                "Market": "CELC/LTC",
+                "Bid": 2.8e-7,
+                "Ask": 3.8e-7,
+                "Last": 4.4e-7,
+                "Variation24Hr": 7.32,
+                "Volume24Hr": 1700982.8642753218
+            },
+            {
+                "Market": "CELC/BCH",
+                "Bid": 5e-8,
+                "Ask": 1.1e-7,
+                "Last": 1.1e-7,
+                "Variation24Hr": 10,
+                "Volume24Hr": 79173.6682473165
+            },
+            {
+                "Market": "LIQ/BTC",
+                "Bid": 0.00003384,
+                "Ask": 0.00003395,
+                "Last": 0.00003395,
+                "Variation24Hr": 0.62,
+                "Volume24Hr": 124.7073291244
+            },
+            {
+                "Market": "BSV/BTC",
+                "Bid": 0.01227051,
+                "Ask": 0.0124895,
+                "Last": 0.01227051,
+                "Variation24Hr": -6.25,
+                "Volume24Hr": 0.8312074183
+            },
+            {
+                "Market": "BSV/DASH",
+                "Bid": 1.00000101,
+                "Ask": 1.777,
+                "Last": 1.00000005,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BSV/USD",
+                "Bid": 126.1452,
+                "Ask": 130.4062,
+                "Last": 132.131,
+                "Variation24Hr": -1.98,
+                "Volume24Hr": 0.0150607976
+            },
+            {
+                "Market": "BSV/TUSD",
+                "Bid": 126.66716895,
+                "Ask": 128.62986894,
+                "Last": 132.89477811,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BSV/PAX",
+                "Bid": 126.64144236,
+                "Ask": 130.37432516,
+                "Last": 135.92527789,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BSV/USDC",
+                "Bid": 126.628373,
+                "Ask": 129.462406,
+                "Last": 130.100951,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BSV/BCH",
+                "Bid": 0.40843924,
+                "Ask": 0.42211296,
+                "Last": 0.43072922,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SBTCT/BTC",
+                "Bid": 0.0080071,
+                "Ask": 0.023,
+                "Last": 0.02899988,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ATO/BTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTCX/BSV",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 337543.8
+            },
+            {
+                "Market": "MLM/BSV",
+                "Bid": 0.0000018,
+                "Ask": 0.0000032,
+                "Last": 0.0000023,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CELC/BSV",
+                "Bid": 8e-8,
+                "Ask": 2.4e-7,
+                "Last": 2.5e-7,
+                "Variation24Hr": -7.41,
+                "Volume24Hr": 423894.9573086089
+            },
+            {
+                "Market": "JAN/BTC",
+                "Bid": 9.5e-7,
+                "Ask": 0.000001,
+                "Last": 0.000001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 1134.651565141
+            },
+            {
+                "Market": "IVC/BTC",
+                "Bid": 2.1e-7,
+                "Ask": 2.5e-7,
+                "Last": 2.1e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "IVC/USD",
+                "Bid": 0.002,
+                "Ask": 0.1979,
+                "Last": 0.0021,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ATO/USD",
+                "Bid": 0.0001,
+                "Ask": 0.0005,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ATO/BCH",
+                "Bid": 2.3e-7,
+                "Ask": 0.00000379,
+                "Last": 2.3e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ATO/LTC",
+                "Bid": 9.9e-7,
+                "Ask": 0.00000196,
+                "Last": 0.00000196,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ATO/DASH",
+                "Bid": 6.5e-7,
+                "Ask": 0.0000015,
+                "Last": 0.0000015,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ALC/BTC",
+                "Bid": 0.00031569,
+                "Ask": 0.000345,
+                "Last": 0.000345,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "WBTC/BTC",
+                "Bid": 1.00005814,
+                "Ask": 99999,
+                "Last": 0.99271699,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "GUN/BTC",
+                "Bid": 1.3e-7,
+                "Ask": 1.4e-7,
+                "Last": 1.3e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 10370.8249212831
+            },
+            {
+                "Market": "GUN/LTC",
+                "Bid": 0.00000423,
+                "Ask": 0.0000595,
+                "Last": 0.00000423,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ORYX/BTC",
+                "Bid": 6.4e-7,
+                "Ask": 0.00000101,
+                "Last": 0.00000105,
+                "Variation24Hr": 26.51,
+                "Volume24Hr": 15511.3951991167
+            },
+            {
+                "Market": "ORYX/DASH",
+                "Bid": 0.00001202,
+                "Ask": 0.09,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ORYX/LTC",
+                "Bid": 0.00002015,
+                "Ask": 0.00499989,
+                "Last": 0.00499998,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ORYX/USD",
+                "Bid": 0.0002,
+                "Ask": 0.089,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ORYX/BCH",
+                "Bid": 0.00000801,
+                "Ask": 0.0999,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XSR/BTC",
+                "Bid": 2.4e-7,
+                "Ask": 3.3e-7,
+                "Last": 2e-7,
+                "Variation24Hr": -20,
+                "Volume24Hr": 35753.5173386454
+            },
+            {
+                "Market": "XSR/DASH",
+                "Bid": 0.00002,
+                "Ask": 0.008889,
+                "Last": 0.0088898,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XSR/LTC",
+                "Bid": 9.9e-7,
+                "Ask": 0.89,
+                "Last": 9.9e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XSR/USD",
+                "Bid": 0.0002,
+                "Ask": 0.15,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XSR/BCH",
+                "Bid": 1.5e-7,
+                "Ask": 0.00055,
+                "Last": 1.5e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 2802.8540445886
+            },
+            {
+                "Market": "SUP/LTC",
+                "Bid": 1.8e-7,
+                "Ask": 5e-7,
+                "Last": 1.6e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RVC/LTC",
+                "Bid": 1.5e-7,
+                "Ask": 5e-7,
+                "Last": 1.5e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MCM/BTC",
+                "Bid": 4.1e-7,
+                "Ask": 4.8e-7,
+                "Last": 4.2e-7,
+                "Variation24Hr": 40,
+                "Volume24Hr": 30446.9108231847
+            },
+            {
+                "Market": "MCM/LTC",
+                "Bid": 0.00001004,
+                "Ask": 0.00038006,
+                "Last": 0.00001003,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "AGVC/BTC",
+                "Bid": 0.00000418,
+                "Ask": 0.0000045,
+                "Last": 0.0000045,
+                "Variation24Hr": 8.17,
+                "Volume24Hr": 28.9807472244
+            },
+            {
+                "Market": "AGVC/LTC",
+                "Bid": 0.0003205,
+                "Ask": 0.0009,
+                "Last": 0.00082,
+                "Variation24Hr": 155.85,
+                "Volume24Hr": 19.9795999602
+            },
+            {
+                "Market": "DVLP/LTC",
+                "Bid": 5e-8,
+                "Ask": 8e-8,
+                "Last": 4e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XAX/BTC",
+                "Bid": 8e-8,
+                "Ask": 9e-8,
+                "Last": 8e-8,
+                "Variation24Hr": 14.29,
+                "Volume24Hr": 26257.7663838866
+            },
+            {
+                "Market": "XAX/DASH",
+                "Bid": 0.00000701,
+                "Ask": 0.00001401,
+                "Last": 0.00000701,
+                "Variation24Hr": 12.88,
+                "Volume24Hr": 8.176180267
+            },
+            {
+                "Market": "XAX/LTC",
+                "Bid": 0.000009,
+                "Ask": 0.00001201,
+                "Last": 0.000009,
+                "Variation24Hr": -28.12,
+                "Volume24Hr": 57.4403680544
+            },
+            {
+                "Market": "XAX/USD",
+                "Bid": 0.0006,
+                "Ask": 0.0009,
+                "Last": 0.0006,
+                "Variation24Hr": -40,
+                "Volume24Hr": 3.7406024627
+            },
+            {
+                "Market": "BTCX/DOGE",
+                "Bid": 0.000025,
+                "Ask": 0.00003,
+                "Last": 0.000025,
+                "Variation24Hr": 25,
+                "Volume24Hr": 26712.0698337577
+            },
+            {
+                "Market": "DVRS/DOGE",
+                "Bid": 0.0000013,
+                "Ask": 0.00000142,
+                "Last": 0.00000142,
+                "Variation24Hr": -1.39,
+                "Volume24Hr": 3820308.8901503715
+            },
+            {
+                "Market": "COMP/DOGE",
+                "Bid": 0.00006301,
+                "Ask": 0.000074,
+                "Last": 0.000076,
+                "Variation24Hr": 20.62,
+                "Volume24Hr": 165919501.56901237
+            },
+            {
+                "Market": "GCN/DOGE",
+                "Bid": 0.00025301,
+                "Ask": 0.00027,
+                "Last": 0.00028,
+                "Variation24Hr": 10.67,
+                "Volume24Hr": 3900701.279350674
+            },
+            {
+                "Market": "THUG/DOGE",
+                "Bid": 0.00015002,
+                "Ask": 0.00049,
+                "Last": 0.00015002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ICC/LTC",
+                "Bid": 1e-8,
+                "Ask": 2e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 2148.70449
+            },
+            {
+                "Market": "TWNKL/DOGE",
+                "Bid": 0.00005031,
+                "Ask": 0.00009,
+                "Last": 0.00005031,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MTC/LTC",
+                "Bid": 2.4e-7,
+                "Ask": 8.9e-7,
+                "Last": 2.2e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTCF/LTC",
+                "Bid": 0.00000221,
+                "Ask": 0.0000099,
+                "Last": 0.00000999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BRAZ/LTC",
+                "Bid": 0.000003,
+                "Ask": 0.00001363,
+                "Last": 0.000003,
+                "Variation24Hr": 0,
+                "Volume24Hr": 69.0147063902
+            },
+            {
+                "Market": "BTCF/DOGE",
+                "Bid": 0.05099979,
+                "Ask": 0.18099979,
+                "Last": 0.1809998,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ZEIT/DOGE",
+                "Bid": 0.00224185,
+                "Ask": 0.0027561,
+                "Last": 0.00224184,
+                "Variation24Hr": 6.75,
+                "Volume24Hr": 2630882.256740413
+            },
+            {
+                "Market": "DOGE/LTC",
+                "Bid": 0.00003305,
+                "Ask": 0.0000389,
+                "Last": 0.00003305,
+                "Variation24Hr": -15.26,
+                "Volume24Hr": 7583.7714387452
+            },
+            {
+                "Market": "CELC/DOGE",
+                "Bid": 0.00800983,
+                "Ask": 0.025,
+                "Last": 0.02799978,
+                "Variation24Hr": -6.67,
+                "Volume24Hr": 31789.0781863906
+            },
+            {
+                "Market": "ZACA/LTC",
+                "Bid": 5e-7,
+                "Ask": 0.00000157,
+                "Last": 0.00000155,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XGOX/DOGE",
+                "Bid": 0.006,
+                "Ask": 0.0101,
+                "Last": 0.005001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SMLY/DOGE",
+                "Bid": 0.008,
+                "Ask": 0.009,
+                "Last": 0.008,
+                "Variation24Hr": 1042.86,
+                "Volume24Hr": 512074.161217756
+            },
+            {
+                "Market": "MANNA/LTC",
+                "Bid": 0.0000072,
+                "Ask": 0.00001398,
+                "Last": 0.0000072,
+                "Variation24Hr": 0,
+                "Volume24Hr": 421.88
+            },
+            {
+                "Market": "MANNA/DOGE",
+                "Bid": 0.19000003,
+                "Ask": 0.289999,
+                "Last": 0.24,
+                "Variation24Hr": 26.32,
+                "Volume24Hr": 5728.18100085
+            },
+            {
+                "Market": "PBS/LTC",
+                "Bid": 0.00000101,
+                "Ask": 0.00028996,
+                "Last": 0.0003,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PBS/DOGE",
+                "Bid": 0.024002,
+                "Ask": 5.69999995,
+                "Last": 0.99999999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MON/LTC",
+                "Bid": 0.00004242,
+                "Ask": 0.00044242,
+                "Last": 0.00004242,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MLM/DOGE",
+                "Bid": 0.11000001,
+                "Ask": 0.19999999,
+                "Last": 0.11000001,
+                "Variation24Hr": -34.91,
+                "Volume24Hr": 0.199
+            },
+            {
+                "Market": "GRC/LTC",
+                "Bid": 0.000042,
+                "Ask": 0.0000585,
+                "Last": 0.000042,
+                "Variation24Hr": -2.33,
+                "Volume24Hr": 37.809005
+            },
+            {
+                "Market": "ONION/LTC",
+                "Bid": 0.00100014,
+                "Ask": 0.00368969,
+                "Last": 0.00100014,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "GUN/DOGE",
+                "Bid": 0.07452801,
+                "Ask": 0.87200152,
+                "Last": 0.07452801,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0.4102923892
+            },
+            {
+                "Market": "LXMI/DOGE",
+                "Bid": 0.0003301,
+                "Ask": 0.0009,
+                "Last": 0.0003301,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PINK/LTC",
+                "Bid": 0.00000201,
+                "Ask": 0.00008888,
+                "Last": 6.3e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PINK/DOGE",
+                "Bid": 0.35,
+                "Ask": 1.16148999,
+                "Last": 1.16148999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ATO/DOGE",
+                "Bid": 0.00100011,
+                "Ask": 0.08298,
+                "Last": 0.08299,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XAX/DOGE",
+                "Bid": 0.311,
+                "Ask": 0.54999993,
+                "Last": 0.311,
+                "Variation24Hr": 0.32,
+                "Volume24Hr": 71.584251742
+            },
+            {
+                "Market": "OMEGA/LTC",
+                "Bid": 0.0000025,
+                "Ask": 0.00009996,
+                "Last": 0.00000999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "OMEGA/DOGE",
+                "Bid": 0.0600034,
+                "Ask": 0.39999828,
+                "Last": 0.0600034,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MRN/LTC",
+                "Bid": 8e-7,
+                "Ask": 0.0000014,
+                "Last": 0.0000014,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MRN/DOGE",
+                "Bid": 0.0031,
+                "Ask": 0.049,
+                "Last": 0.049,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ERZ/LTC",
+                "Bid": 1.6e-7,
+                "Ask": 0.00099996,
+                "Last": 1e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ERZ/DOGE",
+                "Bid": 0.0112079,
+                "Ask": 0.96999,
+                "Last": 0.0112079,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RABBIT/DASH",
+                "Bid": 4.7e-7,
+                "Ask": 0.00001845,
+                "Last": 0.00000616,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RABBIT/LTC",
+                "Bid": 8.5e-7,
+                "Ask": 0.0000199,
+                "Last": 8.4e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RABBIT/DOGE",
+                "Bid": 0.0097111,
+                "Ask": 0.3297111,
+                "Last": 0.399711,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "NSR/LTC",
+                "Bid": 3.7e-7,
+                "Ask": 0.00014861,
+                "Last": 3e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "NSR/DOGE",
+                "Bid": 0.00500106,
+                "Ask": 2.64011899,
+                "Last": 0.00500104,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EXUS/LTC",
+                "Bid": 3.1e-7,
+                "Ask": 0.00000545,
+                "Last": 3.1e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EXUS/DOGE",
+                "Bid": 0.00899903,
+                "Ask": 0.20009889,
+                "Last": 0.2000989,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BBP/LTC",
+                "Bid": 0.00000386,
+                "Ask": 0.0000164,
+                "Last": 0.00001804,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BBP/DOGE",
+                "Bid": 0.100051,
+                "Ask": 0.39998999,
+                "Last": 0.39998999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "AGVC/USD",
+                "Bid": 0.0201,
+                "Ask": 0.0748,
+                "Last": 0.075,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "AGVC/TUSD",
+                "Bid": 1e-8,
+                "Ask": 0.07,
+                "Last": 0.07,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DASH/LTC",
+                "Bid": 0.80000002,
+                "Ask": 1.42,
+                "Last": 0.80000002,
+                "Variation24Hr": -43.66,
+                "Volume24Hr": 0.0035562096
+            },
+            {
+                "Market": "VTAR/LTC",
+                "Bid": 7e-8,
+                "Ask": 7e-8,
+                "Last": 7e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "VTAR/DOGE",
+                "Bid": 0.00071002,
+                "Ask": 0.005,
+                "Last": 0.00071002,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SUP/DOGE",
+                "Bid": 0.005,
+                "Ask": 0.00699776,
+                "Last": 0.005,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCA/BTC",
+                "Bid": 0.00048105,
+                "Ask": 0.00055892,
+                "Last": 0.0004804,
+                "Variation24Hr": 11.62,
+                "Volume24Hr": 150.7121890961
+            },
+            {
+                "Market": "CCA/LTC",
+                "Bid": 0.03650002,
+                "Ask": 0.07999492,
+                "Last": 0.07999492,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCA/DOGE",
+                "Bid": 1406,
+                "Ask": 8600,
+                "Last": 8800,
+                "Variation24Hr": 478.19,
+                "Volume24Hr": 7.9613518667
+            },
+            {
+                "Market": "CCA/USD",
+                "Bid": 3.7,
+                "Ask": 6.9893,
+                "Last": 6.9895,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TTN/BTC",
+                "Bid": 3e-8,
+                "Ask": 4e-8,
+                "Last": 3e-8,
+                "Variation24Hr": -40,
+                "Volume24Hr": 35136.08874
+            },
+            {
+                "Market": "TTN/LTC",
+                "Bid": 0.000003,
+                "Ask": 0.00001025,
+                "Last": 0.000003,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TTN/DOGE",
+                "Bid": 0.1337,
+                "Ask": 1.33700047,
+                "Last": 0.1337,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DASH/TUSD",
+                "Bid": 10,
+                "Ask": 180,
+                "Last": 333,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "AGVC/DASH",
+                "Bid": 0.00024005,
+                "Ask": 0.00073,
+                "Last": 0.00073,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BAT/BTC",
+                "Bid": 0.00001699,
+                "Ask": 0.00001729,
+                "Last": 0.00001728,
+                "Variation24Hr": 2.13,
+                "Volume24Hr": 22.0720718063
+            },
+            {
+                "Market": "BAT/DASH",
+                "Bid": 0.00188788,
+                "Ask": 0.00216633,
+                "Last": 0.0019718,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BAT/LTC",
+                "Bid": 0.00227873,
+                "Ask": 0.0030415,
+                "Last": 0.0030415,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BAT/USD",
+                "Bid": 0.0212,
+                "Ask": 5.5,
+                "Last": 5.5,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BAT/BCH",
+                "Bid": 0.00001338,
+                "Ask": 0.04199784,
+                "Last": 0.041999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BAT/TUSD",
+                "Bid": 0.01337,
+                "Ask": 1.337,
+                "Last": 1.337,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BAT/PAX",
+                "Bid": 0.0134,
+                "Ask": 0.88888888,
+                "Last": 0.88888888,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BAT/USDC",
+                "Bid": 0.01337,
+                "Ask": 1.337,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SC/BTC",
+                "Bid": 1.7e-7,
+                "Ask": 1.9e-7,
+                "Last": 1.9e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 5963.172961526
+            },
+            {
+                "Market": "SC/DASH",
+                "Bid": 0.00000421,
+                "Ask": 0.00329999,
+                "Last": 0.0005,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SC/LTC",
+                "Bid": 0.00000888,
+                "Ask": 0.00088887,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SC/DOGE",
+                "Bid": 0.14000154,
+                "Ask": 0.999999,
+                "Last": 0.99999997,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SC/USD",
+                "Bid": 0.0015,
+                "Ask": 0.0029,
+                "Last": 0.0015,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SC/BCH",
+                "Bid": 0.00000101,
+                "Ask": 0.00001337,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SC/TUSD",
+                "Bid": 0.00001338,
+                "Ask": 0.01337,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SC/PAX",
+                "Bid": 0.00133701,
+                "Ask": 0.0133,
+                "Last": 0.00133701,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SC/USDC",
+                "Bid": 0.001337,
+                "Ask": 0.01337,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EEC/LTC",
+                "Bid": 0.0000027,
+                "Ask": 1000.9899947,
+                "Last": 5.6e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "EEC/DOGE",
+                "Bid": 0.992,
+                "Ask": 65,
+                "Last": 0.992,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTC/DAI",
+                "Bid": 9936.57716165,
+                "Ask": 10349.08866234,
+                "Last": 10457.85639958,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DASH/DAI",
+                "Bid": 53,
+                "Ask": 8869,
+                "Last": 52,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LTC/DAI",
+                "Bid": 69.09969612,
+                "Ask": 71.27718547,
+                "Last": 69.76491114,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DOGE/DAI",
+                "Bid": 0.00053006,
+                "Ask": 0.008,
+                "Last": 0.008,
+                "Variation24Hr": -2.44,
+                "Volume24Hr": 0.0042777637
+            },
+            {
+                "Market": "BCH/DAI",
+                "Bid": 50,
+                "Ask": 750,
+                "Last": 0.60000001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BSV/DAI",
+                "Bid": 23,
+                "Ask": 399.99999999,
+                "Last": 19.99,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "IOTA/BTC",
+                "Bid": 0.00002347,
+                "Ask": 0.00002569,
+                "Last": 0.00002573,
+                "Variation24Hr": 9.44,
+                "Volume24Hr": 22.95421419
+            },
+            {
+                "Market": "IOTA/DASH",
+                "Bid": 0.00308235,
+                "Ask": 0.00777777,
+                "Last": 0.00308235,
+                "Variation24Hr": 10.29,
+                "Volume24Hr": 0.80331524
+            },
+            {
+                "Market": "IOTA/LTC",
+                "Bid": 0.00114001,
+                "Ask": 0.0132,
+                "Last": 0.013,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "IOTA/DOGE",
+                "Bid": 45.00000003,
+                "Ask": 150,
+                "Last": 71,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "IOTA/USD",
+                "Bid": 0.2427,
+                "Ask": 0.995,
+                "Last": 0.2398,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "IOTA/BCH",
+                "Bid": 0.00001039,
+                "Ask": 0.0042,
+                "Last": 0.0034,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "IOTA/TUSD",
+                "Bid": 0.00002801,
+                "Ask": 1.33499998,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "IOTA/PAX",
+                "Bid": 0.13370058,
+                "Ask": 1.337,
+                "Last": 0.13370058,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "IOTA/USDC",
+                "Bid": 0.041,
+                "Ask": 1.336,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "IOTA/DAI",
+                "Bid": 0.0089,
+                "Ask": 1,
+                "Last": 1,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MANNA/BSV",
+                "Bid": 0.0000031,
+                "Ask": 0.0000088,
+                "Last": 0.00000305,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "MANNA/DAI",
+                "Bid": 0.00002223,
+                "Ask": 0.00160972,
+                "Last": 0.0019999,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PPC/LTC",
+                "Bid": 0.00022223,
+                "Ask": 0.01337,
+                "Last": 0.01337,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PPC/DOGE",
+                "Bid": 94.00000001,
+                "Ask": 438,
+                "Last": 94,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PPC/USD",
+                "Bid": 0.3,
+                "Ask": 0.3366,
+                "Last": 0.3366,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0.1720409924
+            },
+            {
+                "Market": "PMC/BTC",
+                "Bid": 1e-8,
+                "Ask": 3e-8,
+                "Last": 1e-8,
+                "Variation24Hr": -66.67,
+                "Volume24Hr": 102.0001033466
+            },
+            {
+                "Market": "PMC/LTC",
+                "Bid": 0.000002,
+                "Ask": 0.0000065,
+                "Last": 0.000007,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PMC/DOGE",
+                "Bid": 0.18,
+                "Ask": 0.2085,
+                "Last": 0.1485,
+                "Variation24Hr": -48.62,
+                "Volume24Hr": 398
+            },
+            {
+                "Market": "MANNA/BCH",
+                "Bid": 2.2e-7,
+                "Ask": 0.0000033,
+                "Last": 0.00000193,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SCP/BTC",
+                "Bid": null,
+                "Ask": 1e-8,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 3880500
+            },
+            {
+                "Market": "SCP/LTC",
+                "Bid": 1.4e-7,
+                "Ask": 1.6e-7,
+                "Last": 1.4e-7,
+                "Variation24Hr": 7.14,
+                "Volume24Hr": 9501578.015005039
+            },
+            {
+                "Market": "SCP/DOGE",
+                "Bid": 0.00309012,
+                "Ask": 0.009,
+                "Last": 0.00309012,
+                "Variation24Hr": -31.33,
+                "Volume24Hr": 2153907.0796715687
+            },
+            {
+                "Market": "SCP/USD",
+                "Bid": null,
+                "Ask": 0.0009,
+                "Last": 0.0001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DVT/BTC",
+                "Bid": 3e-8,
+                "Ask": 4e-8,
+                "Last": 3e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 337270.52723
+            },
+            {
+                "Market": "DVT/LTC",
+                "Bid": 3.8e-7,
+                "Ask": 0.0006,
+                "Last": 3.8e-7,
+                "Variation24Hr": 26.67,
+                "Volume24Hr": 1072.61
+            },
+            {
+                "Market": "DVT/USD",
+                "Bid": 0.0002,
+                "Ask": 0.6,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DVT/BCH",
+                "Bid": 8e-8,
+                "Ask": 0.02,
+                "Last": 1e-8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TNET/BTC",
+                "Bid": 0.00001549,
+                "Ask": 0.00001893,
+                "Last": 0.00001896,
+                "Variation24Hr": -19.25,
+                "Volume24Hr": 167.0595010399
+            },
+            {
+                "Market": "TNET/DASH",
+                "Bid": 4.1e-7,
+                "Ask": 0.008,
+                "Last": 0.008,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "TNET/LTC",
+                "Bid": 0.00000348,
+                "Ask": 0.016,
+                "Last": 0.016,
+                "Variation24Hr": 465016.28,
+                "Volume24Hr": 1.8526461802
+            },
+            {
+                "Market": "TNET/USD",
+                "Bid": 0.15,
+                "Ask": 0.7999,
+                "Last": 0.2001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PRIM/BTC",
+                "Bid": 1.4e-7,
+                "Ask": 1.9e-7,
+                "Last": 2.2e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PRIM/LTC",
+                "Bid": 4.7e-7,
+                "Ask": 0.00493,
+                "Last": 0.00008,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PRIM/DOGE",
+                "Bid": 0.07100002,
+                "Ask": 1.6,
+                "Last": 1.5,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "PRIM/USD",
+                "Bid": 0.0006,
+                "Ask": 0.006,
+                "Last": 0.0005,
+                "Variation24Hr": 400,
+                "Volume24Hr": 995
+            },
+            {
+                "Market": "XST/BTC",
+                "Bid": 0.00000448,
+                "Ask": 0.00000466,
+                "Last": 0.00000452,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XST/DASH",
+                "Bid": 1e-8,
+                "Ask": null,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XST/LTC",
+                "Bid": 0.00000201,
+                "Ask": null,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XST/USD",
+                "Bid": 0.001,
+                "Ask": null,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "XST/TUSD",
+                "Bid": 5e-8,
+                "Ask": null,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "RADS/BTC",
+                "Bid": 0.00003913,
+                "Ask": 0.00005305,
+                "Last": 0.00005324,
+                "Variation24Hr": -2.06,
+                "Volume24Hr": 6.965
+            },
+            {
+                "Market": "RADS/USD",
+                "Bid": 0.0016,
+                "Ask": 0.9,
+                "Last": 0.99,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "USNBT/TUSD",
+                "Bid": 0.05,
+                "Ask": 0.15,
+                "Last": 0.05,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SPE/BTC",
+                "Bid": 2.4e-7,
+                "Ask": 2.5e-7,
+                "Last": 2.4e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SPE/DASH",
+                "Bid": 0.00000104,
+                "Ask": 0.000085,
+                "Last": 0.0007998,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SPE/LTC",
+                "Bid": 0.00001005,
+                "Ask": 0.000087,
+                "Last": 0.00001005,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ERI/BTC",
+                "Bid": 0.00010937,
+                "Ask": 0.00011862,
+                "Last": 0.00011996,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "ERI/LTC",
+                "Bid": 0.00034011,
+                "Ask": 100,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCXX/BTC",
+                "Bid": 0.00085063,
+                "Ask": 0.00109402,
+                "Last": 0.00109651,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCXX/USD",
+                "Bid": 10,
+                "Ask": null,
+                "Last": 10,
+                "Variation24Hr": 0,
+                "Volume24Hr": 4.298201
+            },
+            {
+                "Market": "CCXX/LTC",
+                "Bid": 0.0021,
+                "Ask": 10,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCXX/DASH",
+                "Bid": 0.00000503,
+                "Ask": 10,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCXX/CCU",
+                "Bid": 1e-8,
+                "Ask": 0.11,
+                "Last": 0.11,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCXX/CCE",
+                "Bid": 2e-8,
+                "Ask": 0.0899655,
+                "Last": 0.0899655,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTC/CCU",
+                "Bid": 0.0006,
+                "Ask": 99990,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCU/USD",
+                "Bid": 1.0001,
+                "Ask": 103,
+                "Last": 100,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LTC/CCU",
+                "Bid": 1e-8,
+                "Ask": 9999,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DASH/CCU",
+                "Bid": 1e-8,
+                "Ask": 9999,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCA/CCU",
+                "Bid": 0.05,
+                "Ask": 0.052,
+                "Last": 0.05,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "BTC/CCE",
+                "Bid": 0.05100001,
+                "Ask": 89999999,
+                "Last": 0.05100001,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCE/USD",
+                "Bid": 1.135,
+                "Ask": 114.9,
+                "Last": 114.9,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "LTC/CCE",
+                "Bid": 0.00000321,
+                "Ask": 9999,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "DASH/CCE",
+                "Bid": 0.00000312,
+                "Ask": 9999,
+                "Last": null,
+                "Variation24Hr": null,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CCA/CCE",
+                "Bid": 0.0000144,
+                "Ask": 5.9999999,
+                "Last": 8,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "CASH2/BTC",
+                "Bid": 0.00000251,
+                "Ask": 0.00000331,
+                "Last": 0.00000319,
+                "Variation24Hr": 93.33,
+                "Volume24Hr": 34290.6839116292
+            },
+            {
+                "Market": "CASH2/LTC",
+                "Bid": 0.00005309,
+                "Ask": 0.0018,
+                "Last": 0.00005304,
+                "Variation24Hr": 1.98,
+                "Volume24Hr": 2.002212431
+            },
+            {
+                "Market": "CASH2/USD",
+                "Bid": 0.0023,
+                "Ask": 0.0999,
+                "Last": 0.1,
+                "Variation24Hr": 0,
+                "Volume24Hr": 0
+            },
+            {
+                "Market": "SXCC/BTC",
+                "Bid": 9.9e-7,
+                "Ask": 0.000001,
+                "Last": 9.9e-7,
+                "Variation24Hr": 0,
+                "Volume24Hr": 262193.086601
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:04:27 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d7fbab0be79e953790929d413997aa7ab1568120667; expires=Wed, 09-Sep-20 13:04:27 GMT; path=/; domain=.southxchange.com; HttpOnly",
+            "Cache-Control",
+            "no-cache",
+            "Pragma",
+            "no-cache",
+            "Expires",
+            "-1",
+            "Vary",
+            "Accept-Encoding",
+            "X-AspNet-Version",
+            "4.0.30319",
+            "X-Powered-By",
+            "ASP.NET",
+            "X-Frame-Options",
+            "sameorigin",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

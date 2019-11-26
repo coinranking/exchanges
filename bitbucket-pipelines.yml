@@ -1,0 +1,19 @@
+image: node:12-buster
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Lint
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run lint
+      - step:
+          name: Test
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run test

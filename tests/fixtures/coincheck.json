@@ -1,0 +1,50 @@
+[
+    {
+        "scope": "https://coincheck.com:443",
+        "method": "GET",
+        "path": "/api/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "last": 1098501,
+            "bid": 1098501,
+            "ask": 1098880,
+            "high": 1115199,
+            "low": 1089148,
+            "volume": 1073.79008787,
+            "timestamp": 1568120566
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Request-Id",
+            "3f7197ac-b988-4a3e-ab50-7c2f4a9d7847",
+            "X-Runtime",
+            "0.008901",
+            "Date",
+            "Tue, 10 Sep 2019 13:02:56 GMT",
+            "ETag",
+            "W/\"83a081e0727d1096d239680dc01b7dd0\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Cache",
+            "Hit from cloudfront",
+            "Via",
+            "1.1 9dfe528172e388251f8e164c4585ba91.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop",
+            "LHR61-C1"
+        ]
+    }
+]

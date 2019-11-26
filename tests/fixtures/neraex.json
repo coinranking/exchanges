@@ -1,0 +1,327 @@
+[
+    {
+        "scope": "https://neraex.pro:443",
+        "method": "GET",
+        "path": "/api/v2/markets",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "id": "sntbtc",
+                "name": "SNT/BTC"
+            },
+            {
+                "id": "omgbtc",
+                "name": "OMG/BTC"
+            },
+            {
+                "id": "paybtc",
+                "name": "PAY/BTC"
+            },
+            {
+                "id": "kncbtc",
+                "name": "KNC/BTC"
+            },
+            {
+                "id": "skbbtc",
+                "name": "SKB/BTC"
+            },
+            {
+                "id": "btcusd",
+                "name": "BTC/USD"
+            },
+            {
+                "id": "ethusd",
+                "name": "ETH/USD"
+            },
+            {
+                "id": "trxbtc",
+                "name": "TRX/BTC"
+            },
+            {
+                "id": "btmbtc",
+                "name": "BTM/BTC"
+            },
+            {
+                "id": "nasbtc",
+                "name": "NAS/BTC"
+            },
+            {
+                "id": "mteth",
+                "name": "MT/ETH"
+            },
+            {
+                "id": "grsbtc",
+                "name": "GRS/BTC"
+            },
+            {
+                "id": "xrtbtc",
+                "name": "XRT/BTC"
+            },
+            {
+                "id": "ticbtc",
+                "name": "TIC/BTC"
+            },
+            {
+                "id": "btceusd",
+                "name": "BTC/EUSD"
+            },
+            {
+                "id": "etheusd",
+                "name": "ETH/EUSD"
+            },
+            {
+                "id": "usdeusd",
+                "name": "USD/EUSD"
+            }
+        ],
+        "rawHeaders": [
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "566",
+            "Connection",
+            "keep-alive",
+            "Status",
+            "200 OK",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Access-Control-Allow-Origin",
+            "*",
+            "ETag",
+            "\"7a890b8084681da491dcc4ca320587bf\"",
+            "X-Runtime",
+            "0.002036",
+            "X-Request-Id",
+            "f5f5d57f-91c6-4a55-9fe3-997c6569a836",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:23 GMT",
+            "X-Powered-By",
+            "Phusion Passenger 6.0.1",
+            "Server",
+            "nginx/1.15.8 + Phusion Passenger 6.0.1"
+        ]
+    },
+    {
+        "scope": "https://neraex.pro:443",
+        "method": "GET",
+        "path": "/api/v2/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "sntbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.0000015",
+                    "sell": "0.00000297",
+                    "low": "0.00000148",
+                    "high": "0.00000151",
+                    "last": "0.00000151",
+                    "vol": "24709.2704"
+                }
+            },
+            "omgbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.00009167",
+                    "sell": "0.00020851",
+                    "low": "0.00010225",
+                    "high": "0.00010645",
+                    "last": "0.00010556",
+                    "vol": "9341.1561"
+                }
+            },
+            "paybtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.0000101",
+                    "sell": "0.00002005",
+                    "low": "0.00001009",
+                    "high": "0.00001029",
+                    "last": "0.00001011",
+                    "vol": "9917.3576"
+                }
+            },
+            "kncbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.00001742",
+                    "sell": "0.00003463",
+                    "low": "0.00001688",
+                    "high": "0.00001759",
+                    "last": "0.00001743",
+                    "vol": "9903.1627"
+                }
+            },
+            "skbbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.00000004",
+                    "high": "0.00000004",
+                    "last": "0.00000004",
+                    "vol": "0.0"
+                }
+            },
+            "btcusd": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "10447.3",
+                    "sell": "20049.86",
+                    "low": "10412.55",
+                    "high": "10580.31",
+                    "last": "10447.45",
+                    "vol": "397.0085"
+                }
+            },
+            "ethusd": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "159.14",
+                    "sell": "0.0",
+                    "low": "180.58",
+                    "high": "182.6",
+                    "last": "181.36",
+                    "vol": "0.0661"
+                }
+            },
+            "trxbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.00000155",
+                    "sell": "0.00000298",
+                    "low": "0.00000151",
+                    "high": "0.00000157",
+                    "last": "0.00000155",
+                    "vol": "128343.5575"
+                }
+            },
+            "btmbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.00000756",
+                    "sell": "0.0",
+                    "low": "0.00000753",
+                    "high": "0.00000755",
+                    "last": "0.00000755",
+                    "vol": "0.0"
+                }
+            },
+            "nasbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.00000016",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.00000016",
+                    "vol": "0.0"
+                }
+            },
+            "mteth": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.000005",
+                    "sell": "0.0000763",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.000005",
+                    "vol": "0.0"
+                }
+            },
+            "grsbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.00004",
+                    "sell": "0.000142",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.000091",
+                    "vol": "0.0"
+                }
+            },
+            "xrtbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "1230.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.00000001",
+                    "vol": "0.0"
+                }
+            },
+            "ticbtc": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.000001",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.00000001",
+                    "vol": "0.0"
+                }
+            },
+            "btceusd": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "1.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.0",
+                    "vol": "0.0"
+                }
+            },
+            "etheusd": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.0",
+                    "vol": "0.0"
+                }
+            },
+            "usdeusd": {
+                "at": 1568120664,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "1.0",
+                    "high": "1.0",
+                    "last": "1.0",
+                    "vol": "0.0"
+                }
+            }
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "2288",
+            "Connection",
+            "keep-alive",
+            "Status",
+            "200 OK",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Access-Control-Allow-Origin",
+            "*",
+            "ETag",
+            "\"5d71851711c26f8ef93efd57b0ced41f\"",
+            "X-Runtime",
+            "0.032694",
+            "X-Request-Id",
+            "2c14a269-c823-43cf-b0c4-3fae55243559",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:24 GMT",
+            "X-Powered-By",
+            "Phusion Passenger 6.0.1",
+            "Server",
+            "nginx/1.15.8 + Phusion Passenger 6.0.1"
+        ]
+    }
+]

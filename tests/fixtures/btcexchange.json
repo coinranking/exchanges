@@ -1,0 +1,184 @@
+[
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/BTS_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1566950400,
+                "open": 0.00000301,
+                "close": 0.00000301,
+                "low": 0.00000301,
+                "high": 0.00000301,
+                "volume": 37.20231848
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:38 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"84ca1be1dd82c57c09bdad5639cde6de\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btc-exchange.com:443",
+        "method": "GET",
+        "path": "/papi/web/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "btceur": {
+                "at": 1568120559,
+                "ticker": {
+                    "buy": "9287.7",
+                    "sell": "9330.98",
+                    "low": "9235.86",
+                    "high": "9455.0",
+                    "last": "9286.04",
+                    "vol": "72.3475028",
+                    "status": "trading"
+                }
+            },
+            "etheur": {
+                "at": 1568120559,
+                "ticker": {
+                    "buy": "163.27",
+                    "sell": "165.28",
+                    "low": "159.54",
+                    "high": "168.75",
+                    "last": "163.18",
+                    "vol": "12.54214119",
+                    "status": "trading"
+                }
+            },
+            "bcheur": {
+                "at": 1568120559,
+                "ticker": {
+                    "buy": "277.26",
+                    "sell": "285.88",
+                    "low": "285.2",
+                    "high": "285.2",
+                    "last": "285.2",
+                    "vol": "0.0181",
+                    "status": "trading"
+                }
+            },
+            "xrpeur": {
+                "at": 1568120559,
+                "ticker": {
+                    "buy": "0.23667",
+                    "sell": "0.24008",
+                    "low": "0.23563",
+                    "high": "0.24126",
+                    "last": "0.23563",
+                    "vol": "791.60543697",
+                    "status": "trading"
+                }
+            },
+            "usdceur": {
+                "at": 1568120559,
+                "ticker": {
+                    "buy": "0.87",
+                    "sell": "0.91",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.8",
+                    "vol": "0.0",
+                    "status": "trading"
+                }
+            },
+            "btcusdc": {
+                "at": 1568120559,
+                "ticker": {
+                    "buy": "9901.0",
+                    "sell": "11201.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "5500.0",
+                    "vol": "0.0",
+                    "status": "trading"
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:39 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "899",
+            "Connection",
+            "keep-alive",
+            "x-amzn-RequestId",
+            "e1663b98-0049-4949-ad58-1ac5afd99d1f",
+            "X-Runtime",
+            "0.053086",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Accept",
+            "application/json",
+            "x-amzn-Remapped-Content-Length",
+            "899",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+            "X-Forwarded-Proto",
+            "https",
+            "x-amzn-Remapped-Connection",
+            "Keep-Alive",
+            "X-Request-Id",
+            "86b31222-facd-48df-a411-77f6ea310c32",
+            "x-amz-apigw-id",
+            "fzXFVEWqjoEF_0Q=",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "x-amzn-Remapped-User-Agent",
+            "Coinranking (info@coinranking.com)",
+            "ETag",
+            "W/\"e0a21a5725fd5a809eaaa04f814c412b\"",
+            "Access-Control-Allow-Methods",
+            "GET, POST, PUT, PATCH, DELETE",
+            "x-amzn-Remapped-Host",
+            "internal.svc.btc-exchange.com",
+            "Version",
+            "HTTP/1.1",
+            "Accept-Encoding",
+            "gzip, deflate",
+            "X-Amzn-Apigateway-Api-Id",
+            "sy7qyxit07",
+            "X-Amzn-Trace-Id",
+            "Root=1-5d779eee-24b0afbff45f419dcf911f40",
+            "x-amzn-Remapped-X-Forwarded-For",
+            "91.233.23.115",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "X-Forwarded-Port",
+            "443"
+        ]
+    }
+]

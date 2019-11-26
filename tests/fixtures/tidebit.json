@@ -1,0 +1,459 @@
+[
+    {
+        "scope": "https://www.tidebit.com:443",
+        "method": "GET",
+        "path": "/api/v2/tickers.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "btchkd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 80700,
+                    "sell": 80800,
+                    "low": 80600,
+                    "high": 82000,
+                    "last": 80800,
+                    "open": 82876.55,
+                    "vol": 16.299
+                }
+            },
+            "ethhkd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 1437,
+                    "sell": 1454.25,
+                    "low": 1413.39,
+                    "high": 1443.85,
+                    "last": 1437,
+                    "open": 1400.46,
+                    "vol": 64.769
+                }
+            },
+            "btcusd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 10000,
+                    "sell": 12499.99,
+                    "low": 10195.72,
+                    "high": 10458.33,
+                    "last": 10245.31,
+                    "open": 10249.44,
+                    "vol": 355.476
+                }
+            },
+            "ethusd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.09,
+                    "sell": 799,
+                    "low": 590,
+                    "high": 590,
+                    "last": 590,
+                    "open": 590,
+                    "vol": 0
+                }
+            },
+            "xpaeth": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.00002905,
+                    "sell": 0.00004799,
+                    "low": 0.00002905,
+                    "high": 0.00002905,
+                    "last": 0.00002905,
+                    "open": 0.00002905,
+                    "vol": 0
+                }
+            },
+            "neohkd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 50.11,
+                    "sell": 134.8,
+                    "low": 0,
+                    "high": 0,
+                    "last": 135,
+                    "open": 135,
+                    "vol": 0
+                }
+            },
+            "cbteth": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.00010103,
+                    "sell": 0.00028498,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0.000384,
+                    "open": 0.000384,
+                    "vol": 0
+                }
+            },
+            "hkxhkd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.9999,
+                    "sell": 1,
+                    "low": 0.9999,
+                    "high": 1,
+                    "last": 0.9999,
+                    "open": 1,
+                    "vol": 1083.7661
+                }
+            },
+            "usxusd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 1.01,
+                    "low": 1,
+                    "high": 1,
+                    "last": 1,
+                    "open": 1,
+                    "vol": 0
+                }
+            },
+            "usxhkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 7.8,
+                    "sell": 7.85,
+                    "low": 7.8,
+                    "high": 7.85,
+                    "last": 7.8,
+                    "open": 7.85,
+                    "vol": 139.0834
+                }
+            },
+            "btchkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.01,
+                    "sell": 280000,
+                    "low": 0,
+                    "high": 0,
+                    "last": 61888.88,
+                    "open": 61888.88,
+                    "vol": 0
+                }
+            },
+            "ethhkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.01,
+                    "sell": 10000,
+                    "low": 0,
+                    "high": 0,
+                    "last": 2200,
+                    "open": 2200,
+                    "vol": 0
+                }
+            },
+            "xpahkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 2,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0.59,
+                    "open": 0.59,
+                    "vol": 0
+                }
+            },
+            "cbthkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 5,
+                    "open": 5,
+                    "vol": 0
+                }
+            },
+            "btcusx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 6406.07,
+                    "open": 6406.07,
+                    "vol": 0
+                }
+            },
+            "ethusx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 200.67,
+                    "open": 200.67,
+                    "vol": 0
+                }
+            },
+            "xpausx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0.043,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0.043,
+                    "open": 0.043,
+                    "vol": 0
+                }
+            },
+            "cbtusx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0.071,
+                    "open": 0.071,
+                    "vol": 0
+                }
+            },
+            "eoshkd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 21.01,
+                    "sell": 31,
+                    "low": 20.01,
+                    "high": 31,
+                    "last": 21,
+                    "open": 21,
+                    "vol": 0
+                }
+            },
+            "eoshkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.01,
+                    "sell": 110,
+                    "low": 0,
+                    "high": 0,
+                    "last": 30,
+                    "open": 30,
+                    "vol": 0
+                }
+            },
+            "eosusx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0,
+                    "open": 0,
+                    "vol": 0
+                }
+            },
+            "likehkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.0101,
+                    "sell": 0.02,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0.0294,
+                    "open": 0.0294,
+                    "vol": 0
+                }
+            },
+            "bchhkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.01,
+                    "sell": 3750,
+                    "low": 0,
+                    "high": 0,
+                    "last": 3750,
+                    "open": 3750,
+                    "vol": 0
+                }
+            },
+            "ltchkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.01,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0,
+                    "open": 0,
+                    "vol": 0
+                }
+            },
+            "etchkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0.01,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 119.99,
+                    "open": 119.99,
+                    "vol": 0
+                }
+            },
+            "cnxhkx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0.1,
+                    "open": 0.1,
+                    "vol": 0
+                }
+            },
+            "cnxusx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0,
+                    "open": 0,
+                    "vol": 0
+                }
+            },
+            "xtpusx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 2.0099,
+                    "sell": 2.0263,
+                    "low": 1.9188,
+                    "high": 2.091,
+                    "last": 2.0263,
+                    "open": 2.0143,
+                    "vol": 2557167.5282
+                }
+            },
+            "euxusx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0,
+                    "open": 0,
+                    "vol": 0
+                }
+            },
+            "eurusx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0,
+                    "open": 0,
+                    "vol": 0
+                }
+            },
+            "tryusx": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0,
+                    "open": 0,
+                    "vol": 0
+                }
+            },
+            "pcthkd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0.1,
+                    "open": 0.1,
+                    "vol": 0
+                }
+            },
+            "sskhkd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 0,
+                    "sell": 0.1,
+                    "low": 0,
+                    "high": 0,
+                    "last": 0,
+                    "open": 0,
+                    "vol": 0
+                }
+            },
+            "tbthkd": {
+                "at": 1568120671,
+                "ticker": {
+                    "buy": 1.7603,
+                    "sell": 1.8224,
+                    "low": 1.7704,
+                    "high": 1.9,
+                    "last": 1.8224,
+                    "open": 1.8158,
+                    "vol": 239407.1334
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:04:31 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d0cf509d76bfc02b40729b8ebc1885a551568120670; expires=Wed, 09-Sep-20 13:04:30 GMT; path=/; domain=.tidebit.com; HttpOnly; Secure",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Cf-Railgun",
+            "direct (starting new WAN connection)",
+            "Etag",
+            "W/\"f4d5e201a121152db5d08a93cf3c20db\"",
+            "Status",
+            "200 OK",
+            "Strict-Transport-Security",
+            "max-age=31536000",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubDomains",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Powered-By",
+            "Phusion Passenger 6.0.2",
+            "X-Request-Id",
+            "a4629e7d-3cd8-4c7e-a69e-f658c2dfe654",
+            "X-Runtime",
+            "0.017849",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

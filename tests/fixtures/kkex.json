@@ -1,0 +1,129 @@
+[
+    {
+        "scope": "https://kkex.com:443",
+        "method": "GET",
+        "path": "/api/v1/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "date": 1568120651,
+            "tickers": [
+                {
+                    "ENUBTC": {
+                        "sell": "0.00000021",
+                        "buy": "0.00000018",
+                        "last": "0.00000021",
+                        "vol": "449107.159232",
+                        "high": "0.00000022",
+                        "low": "0.00000017",
+                        "open": "0.00000022"
+                    }
+                },
+                {
+                    "GRINBTC": {
+                        "sell": "0.0017653",
+                        "buy": "0.00009567",
+                        "last": "0.000093",
+                        "vol": "156.59729502",
+                        "high": "0.00009357",
+                        "low": "0.000093",
+                        "open": "0.00009357"
+                    }
+                },
+                {
+                    "ETHBTC": {
+                        "sell": "0.01967",
+                        "buy": "0.01476",
+                        "last": "0.02083",
+                        "vol": "7.628165903",
+                        "high": "0.02083",
+                        "low": "0.01478",
+                        "open": "0.018"
+                    }
+                },
+                {
+                    "EOSBTC": {
+                        "sell": "0.0004222",
+                        "buy": "0.00031",
+                        "last": "0.00036999",
+                        "vol": "6.678211",
+                        "high": "0.00036999",
+                        "low": "0.00036999",
+                        "open": "0.00036999"
+                    }
+                },
+                {
+                    "PINBTC": {
+                        "sell": "0.00000004",
+                        "buy": "0.00000003",
+                        "last": "0.00000003",
+                        "vol": "1382722.679213",
+                        "high": "0.00000003",
+                        "low": "0.00000003",
+                        "open": "0.00000003"
+                    }
+                },
+                {
+                    "BQTBTC": {
+                        "sell": "0.00000169",
+                        "buy": "0.000001",
+                        "last": "0.000001",
+                        "vol": "50084.819883",
+                        "high": "0.00000171",
+                        "low": "0.000001",
+                        "open": "0.00000171"
+                    }
+                },
+                {
+                    "BQTETH": {
+                        "sell": "0.00009",
+                        "buy": "0.00007203",
+                        "last": "0.00007001",
+                        "vol": "14493.911656",
+                        "high": "0.00007001",
+                        "low": "0.00007001",
+                        "open": "0.00007001"
+                    }
+                },
+                {
+                    "MPCETH": {
+                        "sell": "0.0000012",
+                        "buy": "0.00000012",
+                        "last": "0.00000122",
+                        "vol": "2332.376391",
+                        "high": "0.00000122",
+                        "low": "0.00000122",
+                        "open": "0.00000122"
+                    }
+                }
+            ],
+            "result": true
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:11 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Vary",
+            "Accept-Language, Cookie",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Content-Language",
+            "en",
+            "Set-Cookie",
+            "sessionid=63ml558iocf9j02tiigv7z4cvqb2ak81; httponly; Path=/",
+            "Set-Cookie",
+            "django_language=en; Path=/",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload"
+        ]
+    }
+]

@@ -1,0 +1,1071 @@
+[
+    {
+        "scope": "https://whitebit.com:443",
+        "method": "GET",
+        "path": "/api/v2/public/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "success": true,
+            "message": "",
+            "result": [
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "ETH_BTC",
+                    "lastPrice": "0.017669",
+                    "lowestAsk": "0.017673",
+                    "highestBid": "0.017658",
+                    "baseVolume24h": "17514.985",
+                    "quoteVolume24h": "309.070869229",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "BTC_USD",
+                    "lastPrice": "10240.4",
+                    "lowestAsk": "10249.65",
+                    "highestBid": "10232.75",
+                    "baseVolume24h": "530.168734",
+                    "quoteVolume24h": "5454667.59236639",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "ETH_USD",
+                    "lastPrice": "180.95",
+                    "lowestAsk": "180.97",
+                    "highestBid": "180.82",
+                    "baseVolume24h": "5268.38089",
+                    "quoteVolume24h": "956478.5702731",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "LTC_BTC",
+                    "lastPrice": "0.006928",
+                    "lowestAsk": "0.00693",
+                    "highestBid": "0.006923",
+                    "baseVolume24h": "6546.79",
+                    "quoteVolume24h": "44.96654625",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "LTC_ETH",
+                    "lastPrice": "0.39212",
+                    "lowestAsk": "0.39261",
+                    "highestBid": "0.39167",
+                    "baseVolume24h": "1439.222",
+                    "quoteVolume24h": "559.82331778",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "LTC_USD",
+                    "lastPrice": "70.99",
+                    "lowestAsk": "71.02",
+                    "highestBid": "70.92",
+                    "baseVolume24h": "728.82953",
+                    "quoteVolume24h": "51488.5891444",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "XLM_BTC",
+                    "lastPrice": "0.00000592",
+                    "lowestAsk": "0.00000594",
+                    "highestBid": "0.00000589",
+                    "baseVolume24h": "9875469.1",
+                    "quoteVolume24h": "58.189111364",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "XLM_ETH",
+                    "lastPrice": "0.00033505",
+                    "lowestAsk": "0.00033625",
+                    "highestBid": "0.00033356",
+                    "baseVolume24h": "824643.64",
+                    "quoteVolume24h": "275.421703763",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "XLM_USD",
+                    "lastPrice": "0.06062",
+                    "lowestAsk": "0.06081",
+                    "highestBid": "0.06038",
+                    "baseVolume24h": "1070162.1",
+                    "quoteVolume24h": "64865.319945",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "DASH_BTC",
+                    "lastPrice": "0.008323",
+                    "lowestAsk": "0.008334",
+                    "highestBid": "0.008314",
+                    "baseVolume24h": "2465.376",
+                    "quoteVolume24h": "20.611930657",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "DASH_ETH",
+                    "lastPrice": "0.47093",
+                    "lowestAsk": "0.47221",
+                    "highestBid": "0.47022",
+                    "baseVolume24h": "1647.509",
+                    "quoteVolume24h": "780.50104498",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "DASH_USD",
+                    "lastPrice": "85.33",
+                    "lowestAsk": "85.47",
+                    "highestBid": "85.21",
+                    "baseVolume24h": "361.38321",
+                    "quoteVolume24h": "31075.4481634",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "BCH_BTC",
+                    "lastPrice": "0.029848",
+                    "lowestAsk": "0.029873",
+                    "highestBid": "0.029843",
+                    "baseVolume24h": "3690.039",
+                    "quoteVolume24h": "109.756181613",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "BCH_ETH",
+                    "lastPrice": "1.6646",
+                    "lowestAsk": "1.29237",
+                    "highestBid": "1.26555",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "BCH_USD",
+                    "lastPrice": "305.93",
+                    "lowestAsk": "306.06",
+                    "highestBid": "305.78",
+                    "baseVolume24h": "1828.21339",
+                    "quoteVolume24h": "559571.1811768",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "GAS_BTC",
+                    "lastPrice": "0.000717",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "NEO_BTC",
+                    "lastPrice": "0.000879",
+                    "lowestAsk": "0.000882",
+                    "highestBid": "0.000878",
+                    "baseVolume24h": "10534.2",
+                    "quoteVolume24h": "9.30115439",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "NEO_ETH",
+                    "lastPrice": "0.049866",
+                    "lowestAsk": "0.049912",
+                    "highestBid": "0.049753",
+                    "baseVolume24h": "6520.04",
+                    "quoteVolume24h": "326.2027849",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "NEO_USD",
+                    "lastPrice": "9.022",
+                    "lowestAsk": "9.03",
+                    "highestBid": "9.017",
+                    "baseVolume24h": "3904.545",
+                    "quoteVolume24h": "35468.514554",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "ETC_BTC",
+                    "lastPrice": "0.000654",
+                    "lowestAsk": "0.000656",
+                    "highestBid": "0.000652",
+                    "baseVolume24h": "37432.23",
+                    "quoteVolume24h": "24.01459707",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "ETC_ETH",
+                    "lastPrice": "0.037",
+                    "lowestAsk": "0.037081",
+                    "highestBid": "0.036879",
+                    "baseVolume24h": "6421.67",
+                    "quoteVolume24h": "233.3519411",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:38.000Z",
+                    "tradingPairs": "ETC_USD",
+                    "lastPrice": "6.7005",
+                    "lowestAsk": "6.7069",
+                    "highestBid": "6.6961",
+                    "baseVolume24h": "11790.23",
+                    "quoteVolume24h": "77866.802149",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "OMG_BTC",
+                    "lastPrice": "0.000106",
+                    "lowestAsk": "0.000107",
+                    "highestBid": "0.000104",
+                    "baseVolume24h": "5941.9",
+                    "quoteVolume24h": "0.61966245",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "OMG_ETH",
+                    "lastPrice": "0.005992",
+                    "lowestAsk": "0.005999",
+                    "highestBid": "0.005951",
+                    "baseVolume24h": "1410.46",
+                    "quoteVolume24h": "8.32180272",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "OMG_USD",
+                    "lastPrice": "1.0853",
+                    "lowestAsk": "1.087",
+                    "highestBid": "1.0796",
+                    "baseVolume24h": "2224.17",
+                    "quoteVolume24h": "2383.061468",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "PPT_BTC",
+                    "lastPrice": "0.0000387",
+                    "lowestAsk": "0.0000388",
+                    "highestBid": "0.0000385",
+                    "baseVolume24h": "35669.39",
+                    "quoteVolume24h": "1.363987168",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "PPT_ETH",
+                    "lastPrice": "0.002192",
+                    "lowestAsk": "0.0022",
+                    "highestBid": "0.002178",
+                    "baseVolume24h": "2555.19",
+                    "quoteVolume24h": "5.53531861",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "PPT_USD",
+                    "lastPrice": "0.9144",
+                    "lowestAsk": "1.23",
+                    "highestBid": "0.6182",
+                    "baseVolume24h": "752.24",
+                    "quoteVolume24h": "687.848256",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BNB_BTC",
+                    "lastPrice": "0.002621",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BNB_ETH",
+                    "lastPrice": "0.141841",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BNB_USD",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "SNT_BTC",
+                    "lastPrice": "0.0000015",
+                    "lowestAsk": "0.00000151",
+                    "highestBid": "0.00000149",
+                    "baseVolume24h": "61273.25",
+                    "quoteVolume24h": "0.0918652357",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "SNT_ETH",
+                    "lastPrice": "0.00008529",
+                    "lowestAsk": "0.00008533",
+                    "highestBid": "0.00008434",
+                    "baseVolume24h": "6723.87",
+                    "quoteVolume24h": "0.5724251027",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "SNT_USD",
+                    "lastPrice": "0.0221",
+                    "lowestAsk": "0.0232",
+                    "highestBid": "0.022",
+                    "baseVolume24h": "2793.7",
+                    "quoteVolume24h": "61.74077",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "MKR_BTC",
+                    "lastPrice": "0.047",
+                    "lowestAsk": "0.049",
+                    "highestBid": "0.046",
+                    "baseVolume24h": "1.839",
+                    "quoteVolume24h": "0.085942626",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "MKR_ETH",
+                    "lastPrice": "2.625",
+                    "lowestAsk": "2.7",
+                    "highestBid": "2.61",
+                    "baseVolume24h": "3.905",
+                    "quoteVolume24h": "10.2269167",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "MKR_USD",
+                    "lastPrice": "485.6",
+                    "lowestAsk": "509.3",
+                    "highestBid": "480.2",
+                    "baseVolume24h": "3.641836",
+                    "quoteVolume24h": "1747.55448656",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "DGD_BTC",
+                    "lastPrice": "0.001342",
+                    "lowestAsk": "0.001344",
+                    "highestBid": "0.001337",
+                    "baseVolume24h": "76.905",
+                    "quoteVolume24h": "0.102985803",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "DGD_ETH",
+                    "lastPrice": "0.07614",
+                    "lowestAsk": "0.07625",
+                    "highestBid": "0.07552",
+                    "baseVolume24h": "139.435",
+                    "quoteVolume24h": "10.60463755",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "DGD_USD",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "AE_BTC",
+                    "lastPrice": "0.0000205",
+                    "lowestAsk": "0.0000207",
+                    "highestBid": "0.0000203",
+                    "baseVolume24h": "24162.39",
+                    "quoteVolume24h": "0.487408421",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "AE_ETH",
+                    "lastPrice": "0.001154",
+                    "lowestAsk": "0.00116",
+                    "highestBid": "0.00115",
+                    "baseVolume24h": "5311.45",
+                    "quoteVolume24h": "6.0747663",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "AE_USD",
+                    "lastPrice": "0.6515",
+                    "lowestAsk": "1.2",
+                    "highestBid": "0.4186",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "WTC_BTC",
+                    "lastPrice": "0.0001002",
+                    "lowestAsk": "0.0001004",
+                    "highestBid": "0.0000999",
+                    "baseVolume24h": "5193.46",
+                    "quoteVolume24h": "0.516183403",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "WTC_ETH",
+                    "lastPrice": "0.005641",
+                    "lowestAsk": "0.005699",
+                    "highestBid": "0.005639",
+                    "baseVolume24h": "662.21",
+                    "quoteVolume24h": "3.73683239",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "WTC_USD",
+                    "lastPrice": "3.5038",
+                    "lowestAsk": "3.5039",
+                    "highestBid": "1.1",
+                    "baseVolume24h": "768.64",
+                    "quoteVolume24h": "2693.160832",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "VERI_BTC",
+                    "lastPrice": "0.001268",
+                    "lowestAsk": "0.00199",
+                    "highestBid": "0.001267",
+                    "baseVolume24h": "534.721",
+                    "quoteVolume24h": "0.707017205",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "VERI_ETH",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "VERI_USD",
+                    "lastPrice": "23.9999",
+                    "lowestAsk": "89.9999",
+                    "highestBid": "10.2871",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ZRX_BTC",
+                    "lastPrice": "0.00001602",
+                    "lowestAsk": "0.00001606",
+                    "highestBid": "0.00001599",
+                    "baseVolume24h": "13848.21",
+                    "quoteVolume24h": "0.2200174905",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ZRX_ETH",
+                    "lastPrice": "0.00090585",
+                    "lowestAsk": "0.00090741",
+                    "highestBid": "0.00090328",
+                    "baseVolume24h": "3755.6",
+                    "quoteVolume24h": "3.3790816574",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ZRX_USD",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "R_BTC",
+                    "lastPrice": "0.00000657",
+                    "lowestAsk": "0.00000707",
+                    "highestBid": "0.00000584",
+                    "baseVolume24h": "33254.33",
+                    "quoteVolume24h": "0.2184809481",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "R_ETH",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "R_USD",
+                    "lastPrice": "0.1136",
+                    "lowestAsk": "0.1276",
+                    "highestBid": "0.1135",
+                    "baseVolume24h": "4799.52",
+                    "quoteVolume24h": "545.225472",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ZIL_BTC",
+                    "lastPrice": "0.00000067",
+                    "lowestAsk": "0.00000068",
+                    "highestBid": "0.00000066",
+                    "baseVolume24h": "219486.21772369",
+                    "quoteVolume24h": "0.1482516959074264",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ZIL_ETH",
+                    "lastPrice": "0.00003789",
+                    "lowestAsk": "0.00003806",
+                    "highestBid": "0.00003784",
+                    "baseVolume24h": "77401.66065571",
+                    "quoteVolume24h": "2.9727722836582745",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ZIL_USD",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BAT_BTC",
+                    "lastPrice": "0.00001721",
+                    "lowestAsk": "0.00001726",
+                    "highestBid": "0.0000172",
+                    "baseVolume24h": "16297.17",
+                    "quoteVolume24h": "0.2742965282",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BAT_ETH",
+                    "lastPrice": "0.00097364",
+                    "lowestAsk": "0.00097813",
+                    "highestBid": "0.00097121",
+                    "baseVolume24h": "11547.78",
+                    "quoteVolume24h": "11.0081713464",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BAT_USD",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BNB_USDT",
+                    "lastPrice": "27.9865",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ZRX_USDT",
+                    "lastPrice": "0.1639",
+                    "lowestAsk": "0.1649",
+                    "highestBid": "0.1638",
+                    "baseVolume24h": "7343.24",
+                    "quoteVolume24h": "1199.415861",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ZIL_USDT",
+                    "lastPrice": "0.00688",
+                    "lowestAsk": "0.0069",
+                    "highestBid": "0.00685",
+                    "baseVolume24h": "2547.7",
+                    "quoteVolume24h": "17.696367",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BAT_USDT",
+                    "lastPrice": "0.1763",
+                    "lowestAsk": "0.177",
+                    "highestBid": "0.1759",
+                    "baseVolume24h": "734.72",
+                    "quoteVolume24h": "127.120903",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "LOT_USDT",
+                    "lastPrice": "0.0084",
+                    "lowestAsk": "0.0105",
+                    "highestBid": "0.0084",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "LOT_BTC",
+                    "lastPrice": "0.00001121",
+                    "lowestAsk": "0.0000113",
+                    "highestBid": "0.0000007",
+                    "baseVolume24h": "18229.34",
+                    "quoteVolume24h": "0.1239410242",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "LOT_ETH",
+                    "lastPrice": "0.00004",
+                    "lowestAsk": "0.000046",
+                    "highestBid": "0.00002",
+                    "baseVolume24h": "100392.83",
+                    "quoteVolume24h": "4.0157132",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "KEY_BTC",
+                    "lastPrice": "0.00000015",
+                    "lowestAsk": "0.00000016",
+                    "highestBid": "0.00000014",
+                    "baseVolume24h": "602180.38",
+                    "quoteVolume24h": "0.0873151895",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "KEY_ETH",
+                    "lastPrice": "0.00000857",
+                    "lowestAsk": "0.00000874",
+                    "highestBid": "0.0000085",
+                    "baseVolume24h": "942751.45335972",
+                    "quoteVolume24h": "7.9038280014883997",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "KEY_USD",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "XRC_BTC",
+                    "lastPrice": "0.002349",
+                    "lowestAsk": "0.00235",
+                    "highestBid": "0.0018",
+                    "baseVolume24h": "29",
+                    "quoteVolume24h": "0.067978",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "XRC_ETH",
+                    "lastPrice": "0.13",
+                    "lowestAsk": "0.14",
+                    "highestBid": "0.08",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "XRC_USD",
+                    "lastPrice": "21.5",
+                    "lowestAsk": "21.5",
+                    "highestBid": "17",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BCCN_BTC",
+                    "lastPrice": "0.001",
+                    "lowestAsk": "0.000001",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BCCN_ETH",
+                    "lastPrice": "0.043",
+                    "lowestAsk": "0.043",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BCCN_USDT",
+                    "lastPrice": "12",
+                    "lowestAsk": "10",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "QBIT_BTC",
+                    "lastPrice": "0.003226",
+                    "lowestAsk": "0.0032522",
+                    "highestBid": "0.003212",
+                    "baseVolume24h": "1839.82",
+                    "quoteVolume24h": "5.942087573",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "QBIT_ETH",
+                    "lastPrice": "0.18278",
+                    "lowestAsk": "0.18358",
+                    "highestBid": "0.1822",
+                    "baseVolume24h": "1201.84",
+                    "quoteVolume24h": "219.9731153",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "QBIT_USDT",
+                    "lastPrice": "33.21",
+                    "lowestAsk": "33.1",
+                    "highestBid": "32.71",
+                    "baseVolume24h": "33.12",
+                    "quoteVolume24h": "1101.0876",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "DGB_BTC",
+                    "lastPrice": "0.00000079",
+                    "lowestAsk": "0.0000008",
+                    "highestBid": "0.00000078",
+                    "baseVolume24h": "544353.1564961",
+                    "quoteVolume24h": "0.43702039997813",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "DGB_ETH",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "DGB_USDT",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "WAVES_BTC",
+                    "lastPrice": "0.000103",
+                    "lowestAsk": "0.0001031",
+                    "highestBid": "0.0001027",
+                    "baseVolume24h": "3558.34",
+                    "quoteVolume24h": "0.3699495351",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "WAVES_ETH",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "WAVES_USDT",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "REM_BTC",
+                    "lastPrice": "0.00000037",
+                    "lowestAsk": "0.00000042",
+                    "highestBid": "0.00000033",
+                    "baseVolume24h": "13704188.36",
+                    "quoteVolume24h": "4.8582661527",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "SON_BTC",
+                    "lastPrice": "0.006615",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "SON_ETH",
+                    "lastPrice": "0.37026",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "SON_USD",
+                    "lastPrice": "701.81",
+                    "lowestAsk": "702.1",
+                    "highestBid": "701.1",
+                    "baseVolume24h": "221.846",
+                    "quoteVolume24h": "155756.77039",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "MB8_BTC",
+                    "lastPrice": "0.00000446",
+                    "lowestAsk": "0.00000441",
+                    "highestBid": "0.00000401",
+                    "baseVolume24h": "1218774.32",
+                    "quoteVolume24h": "5.2650462774",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "MB8_ETH",
+                    "lastPrice": "0.00024",
+                    "lowestAsk": "0.00029",
+                    "highestBid": "0.00024",
+                    "baseVolume24h": "40204.31",
+                    "quoteVolume24h": "10.6229297",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "MB8_USD",
+                    "lastPrice": "0.05",
+                    "lowestAsk": "0.06",
+                    "highestBid": "0.04",
+                    "baseVolume24h": "18145.06",
+                    "quoteVolume24h": "829.0264",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ILC_BTC",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ILC_ETH",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ILC_USDT",
+                    "lastPrice": "0",
+                    "lowestAsk": "1",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "CCOH_BTC",
+                    "lastPrice": "0.00000059",
+                    "lowestAsk": "0.0000006",
+                    "highestBid": "0.0000004",
+                    "baseVolume24h": "48715.397",
+                    "quoteVolume24h": "0.02423125599",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "CCOH_ETH",
+                    "lastPrice": "0.000037",
+                    "lowestAsk": "0.000038",
+                    "highestBid": "0.000035",
+                    "baseVolume24h": "129553.829",
+                    "quoteVolume24h": "4.857425441",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "CCOH_USDT",
+                    "lastPrice": "0",
+                    "lowestAsk": "0",
+                    "highestBid": "0",
+                    "baseVolume24h": "0",
+                    "quoteVolume24h": "0",
+                    "tradesEnabled": false
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "BTC_USDT",
+                    "lastPrice": "10240.37",
+                    "lowestAsk": "10243.43",
+                    "highestBid": "10237.84",
+                    "baseVolume24h": "322.422393",
+                    "quoteVolume24h": "3318021.25895738",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "ETH_USDT",
+                    "lastPrice": "180.92",
+                    "lowestAsk": "180.93",
+                    "highestBid": "180.83",
+                    "baseVolume24h": "1080.01939",
+                    "quoteVolume24h": "196077.1397887",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "MEXC_BTC",
+                    "lastPrice": "0.00003324",
+                    "lowestAsk": "0.00003324",
+                    "highestBid": "0.0000291",
+                    "baseVolume24h": "241000.5",
+                    "quoteVolume24h": "7.549699994001",
+                    "tradesEnabled": true
+                },
+                {
+                    "lastUpdateTimestamp": "2019-09-10T13:04:39.000Z",
+                    "tradingPairs": "MEXC_ETH",
+                    "lastPrice": "0.00188286",
+                    "lowestAsk": "0.00188571",
+                    "highestBid": "0.00170005",
+                    "baseVolume24h": "212518.0612",
+                    "quoteVolume24h": "399.534172276",
+                    "tradesEnabled": true
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:04:39 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d7746d69540e31e53746733d06647cc7b1568120678; expires=Wed, 09-Sep-20 13:04:38 GMT; path=/; domain=.whitebit.com; HttpOnly; Secure",
+            "Cache-Control",
+            "no-cache, private",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

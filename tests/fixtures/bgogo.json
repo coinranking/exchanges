@@ -1,0 +1,542 @@
+[
+    {
+        "scope": "https://bgogo.com:443",
+        "method": "GET",
+        "path": "/api/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status": "ok",
+            "BGG/BTC": {
+                "last_price": "0.0000001919",
+                "lowest_ask_price": "0.0000001920",
+                "highest_bid_price": "0.0000001865",
+                "past_24hrs_price_change": "+4.18%",
+                "past_24hrs_base_volume": "359104637.73",
+                "past_24hrs_quote_turnover": "66.45279834",
+                "past_24hrs_high_price": "0.0000002000",
+                "past_24hrs_low_price": "0.0000001758"
+            },
+            "ETH/BTC": {
+                "last_price": "0.017648",
+                "lowest_ask_price": "0.017738",
+                "highest_bid_price": "0.017611",
+                "past_24hrs_price_change": "+0.25%",
+                "past_24hrs_base_volume": "820856.0639",
+                "past_24hrs_quote_turnover": "14488.41599354",
+                "past_24hrs_high_price": "0.018574",
+                "past_24hrs_low_price": "0.017424"
+            },
+            "XRP/BTC": {
+                "last_price": "0.00002567",
+                "lowest_ask_price": "0.00002575",
+                "highest_bid_price": "0.00002545",
+                "past_24hrs_price_change": "+2.14%",
+                "past_24hrs_base_volume": "153472.82",
+                "past_24hrs_quote_turnover": "3.75292221",
+                "past_24hrs_high_price": "0.00002567",
+                "past_24hrs_low_price": "0.00002000"
+            },
+            "BCH/BTC": {
+                "last_price": "0.029886",
+                "lowest_ask_price": "0.029959",
+                "highest_bid_price": "0.029732",
+                "past_24hrs_price_change": "+0.38%",
+                "past_24hrs_base_volume": "57.0439",
+                "past_24hrs_quote_turnover": "1.69850762",
+                "past_24hrs_high_price": "0.030056",
+                "past_24hrs_low_price": "0.029328"
+            },
+            "LTC/BTC": {
+                "last_price": "0.006919",
+                "lowest_ask_price": "0.006971",
+                "highest_bid_price": "0.006896",
+                "past_24hrs_price_change": "+1.98%",
+                "past_24hrs_base_volume": "62.918",
+                "past_24hrs_quote_turnover": "0.41696300",
+                "past_24hrs_high_price": "0.007169",
+                "past_24hrs_low_price": "0.005291"
+            },
+            "NEO/BTC": {
+                "last_price": "0.000885",
+                "lowest_ask_price": "0.000885",
+                "highest_bid_price": "0.000880",
+                "past_24hrs_price_change": "+1.60%",
+                "past_24hrs_base_volume": "2211.0922",
+                "past_24hrs_quote_turnover": "1.95402216",
+                "past_24hrs_high_price": "0.000898",
+                "past_24hrs_low_price": "0.000876"
+            },
+            "ADA/BTC": {
+                "last_price": "0.0000045708",
+                "lowest_ask_price": "0.0000046000",
+                "highest_bid_price": "0.0000045500",
+                "past_24hrs_price_change": "+1.60%",
+                "past_24hrs_base_volume": "92726.50",
+                "past_24hrs_quote_turnover": "0.42407494",
+                "past_24hrs_high_price": "0.0000049387",
+                "past_24hrs_low_price": "0.0000041360"
+            },
+            "HT/BTC": {
+                "last_price": "0.00039310",
+                "lowest_ask_price": "0.00039408",
+                "highest_bid_price": "0.00038966",
+                "past_24hrs_price_change": "+1.22%",
+                "past_24hrs_base_volume": "1044.03",
+                "past_24hrs_quote_turnover": "0.42044926",
+                "past_24hrs_high_price": "0.00054377",
+                "past_24hrs_low_price": "0.00038431"
+            },
+            "ONT/BTC": {
+                "last_price": "0.00007569",
+                "lowest_ask_price": "0.00007622",
+                "highest_bid_price": "0.00007537",
+                "past_24hrs_price_change": "+3.88%",
+                "past_24hrs_base_volume": "10866.89",
+                "past_24hrs_quote_turnover": "0.81157435",
+                "past_24hrs_high_price": "0.00007811",
+                "past_24hrs_low_price": "0.00005745"
+            },
+            "OKB/BTC": {
+                "last_price": "0.000272",
+                "lowest_ask_price": "0.000274",
+                "highest_bid_price": "0.000270",
+                "past_24hrs_price_change": "+6.25%",
+                "past_24hrs_base_volume": "904.8214",
+                "past_24hrs_quote_turnover": "0.23860120",
+                "past_24hrs_high_price": "0.000282",
+                "past_24hrs_low_price": "0.000256"
+            },
+            "OMG/BTC": {
+                "last_price": "0.000105",
+                "lowest_ask_price": "0.000107",
+                "highest_bid_price": "0.000104",
+                "past_24hrs_price_change": "+2.94%",
+                "past_24hrs_base_volume": "3076.8808",
+                "past_24hrs_quote_turnover": "0.30763741",
+                "past_24hrs_high_price": "0.000107",
+                "past_24hrs_low_price": "0.000067"
+            },
+            "LTC/ETH": {
+                "last_price": "0.390732",
+                "lowest_ask_price": "0.394820",
+                "highest_bid_price": "0.389520",
+                "past_24hrs_price_change": "+0.73%",
+                "past_24hrs_base_volume": "1090.586",
+                "past_24hrs_quote_turnover": "416.36661418",
+                "past_24hrs_high_price": "0.399335",
+                "past_24hrs_low_price": "0.320069"
+            },
+            "BNB/ETH": {
+                "last_price": "0.12271",
+                "lowest_ask_price": "0.12292",
+                "highest_bid_price": "0.12151",
+                "past_24hrs_price_change": "+0.85%",
+                "past_24hrs_base_volume": "6895.94",
+                "past_24hrs_quote_turnover": "849.38378650",
+                "past_24hrs_high_price": "0.14224",
+                "past_24hrs_low_price": "0.11983"
+            },
+            "ADA/ETH": {
+                "last_price": "0.00025883",
+                "lowest_ask_price": "0.00026085",
+                "highest_bid_price": "0.00025655",
+                "past_24hrs_price_change": "+1.18%",
+                "past_24hrs_base_volume": "159704.82",
+                "past_24hrs_quote_turnover": "41.65038941",
+                "past_24hrs_high_price": "0.00027275",
+                "past_24hrs_low_price": "0.00025314"
+            },
+            "HT/ETH": {
+                "last_price": "0.02220629",
+                "lowest_ask_price": "0.02224413",
+                "highest_bid_price": "0.02200932",
+                "past_24hrs_price_change": "+0.98%",
+                "past_24hrs_base_volume": "192.01",
+                "past_24hrs_quote_turnover": "4.23111705",
+                "past_24hrs_high_price": "0.02326131",
+                "past_24hrs_low_price": "0.01944855"
+            },
+            "DOGE/ETH": {
+                "last_price": "0.00001346",
+                "lowest_ask_price": "0.00001349",
+                "highest_bid_price": "0.00001328",
+                "past_24hrs_price_change": "+2.12%",
+                "past_24hrs_base_volume": "310884.77",
+                "past_24hrs_quote_turnover": "4.17165160",
+                "past_24hrs_high_price": "0.00001369",
+                "past_24hrs_low_price": "0.00001317"
+            },
+            "OKB/ETH": {
+                "last_price": "0.015475",
+                "lowest_ask_price": "0.015521",
+                "highest_bid_price": "0.015341",
+                "past_24hrs_price_change": "+6.21%",
+                "past_24hrs_base_volume": "8440.3899",
+                "past_24hrs_quote_turnover": "126.01560972",
+                "past_24hrs_high_price": "0.016004",
+                "past_24hrs_low_price": "0.014406"
+            },
+            "OMG/ETH": {
+                "last_price": "0.006006",
+                "lowest_ask_price": "0.006020",
+                "highest_bid_price": "0.005910",
+                "past_24hrs_price_change": "+2.12%",
+                "past_24hrs_base_volume": "36585.8570",
+                "past_24hrs_quote_turnover": "215.20108501",
+                "past_24hrs_high_price": "0.006195",
+                "past_24hrs_low_price": "0.005385"
+            },
+            "BGG/USDT": {
+                "last_price": "0.001962",
+                "lowest_ask_price": "0.001990",
+                "highest_bid_price": "0.001936",
+                "past_24hrs_price_change": "+5.42%",
+                "past_24hrs_base_volume": "3792620556.02",
+                "past_24hrs_quote_turnover": "7178804.65593842",
+                "past_24hrs_high_price": "0.002093",
+                "past_24hrs_low_price": "0.001818"
+            },
+            "BTC/USDT": {
+                "last_price": "10279.89",
+                "lowest_ask_price": "10275.98",
+                "highest_bid_price": "10219.84",
+                "past_24hrs_price_change": "-1.02%",
+                "past_24hrs_base_volume": "14357.304962",
+                "past_24hrs_quote_turnover": "147735329.47280221",
+                "past_24hrs_high_price": "10410.30",
+                "past_24hrs_low_price": "9523.60"
+            },
+            "ETH/USDT": {
+                "last_price": "181.73",
+                "lowest_ask_price": "181.82",
+                "highest_bid_price": "180.65",
+                "past_24hrs_price_change": "-0.54%",
+                "past_24hrs_base_volume": "793849.435845",
+                "past_24hrs_quote_turnover": "144133040.12852894",
+                "past_24hrs_high_price": "185.68",
+                "past_24hrs_low_price": "172.53"
+            },
+            "XRP/USDT": {
+                "last_price": "0.2618",
+                "lowest_ask_price": "0.2643",
+                "highest_bid_price": "0.2616",
+                "past_24hrs_price_change": "+0.92%",
+                "past_24hrs_base_volume": "165529.75",
+                "past_24hrs_quote_turnover": "42166.03875800",
+                "past_24hrs_high_price": "0.2630",
+                "past_24hrs_low_price": "0.2238"
+            },
+            "BCH/USDT": {
+                "last_price": "306.11",
+                "lowest_ask_price": "306.99",
+                "highest_bid_price": "305.02",
+                "past_24hrs_price_change": "-0.58%",
+                "past_24hrs_base_volume": "57.4400",
+                "past_24hrs_quote_turnover": "17579.84530000",
+                "past_24hrs_high_price": "311.73",
+                "past_24hrs_low_price": "301.50"
+            },
+            "LTC/USDT": {
+                "last_price": "71.18",
+                "lowest_ask_price": "71.38",
+                "highest_bid_price": "70.64",
+                "past_24hrs_price_change": "+1.28%",
+                "past_24hrs_base_volume": "614.4424",
+                "past_24hrs_quote_turnover": "41797.27250900",
+                "past_24hrs_high_price": "73.05",
+                "past_24hrs_low_price": "51.47"
+            },
+            "NEO/USDT": {
+                "last_price": "9.10",
+                "lowest_ask_price": "9.08",
+                "highest_bid_price": "8.97",
+                "past_24hrs_price_change": "+0.44%",
+                "past_24hrs_base_volume": "1012.4008",
+                "past_24hrs_quote_turnover": "9196.20567000",
+                "past_24hrs_high_price": "9.25",
+                "past_24hrs_low_price": "8.89"
+            },
+            "ADA/USDT": {
+                "last_price": "0.047074",
+                "lowest_ask_price": "0.047230",
+                "highest_bid_price": "0.046650",
+                "past_24hrs_price_change": "+0.92%",
+                "past_24hrs_base_volume": "9891.19",
+                "past_24hrs_quote_turnover": "436.04573496",
+                "past_24hrs_high_price": "0.048182",
+                "past_24hrs_low_price": "0.025842"
+            },
+            "HT/USDT": {
+                "last_price": "4.0052",
+                "lowest_ask_price": "4.0311",
+                "highest_bid_price": "3.9891",
+                "past_24hrs_price_change": "+0.01%",
+                "past_24hrs_base_volume": "109.87",
+                "past_24hrs_quote_turnover": "451.04493400",
+                "past_24hrs_high_price": "5.3988",
+                "past_24hrs_low_price": "2.8900"
+            },
+            "DOGE/USDT": {
+                "last_price": "0.002437",
+                "lowest_ask_price": "0.002441",
+                "highest_bid_price": "0.002413",
+                "past_24hrs_price_change": "0.00%",
+                "past_24hrs_base_volume": "832223.74",
+                "past_24hrs_quote_turnover": "2025.87388500",
+                "past_24hrs_high_price": "0.002468",
+                "past_24hrs_low_price": "0.002403"
+            },
+            "OKB/USDT": {
+                "last_price": "2.7954",
+                "lowest_ask_price": "2.8043",
+                "highest_bid_price": "2.7815",
+                "past_24hrs_price_change": "+4.66%",
+                "past_24hrs_base_volume": "903.7594",
+                "past_24hrs_quote_turnover": "2446.22675921",
+                "past_24hrs_high_price": "2.9130",
+                "past_24hrs_low_price": "2.6277"
+            },
+            "OMG/USDT": {
+                "last_price": "1.0831",
+                "lowest_ask_price": "1.0917",
+                "highest_bid_price": "1.0753",
+                "past_24hrs_price_change": "+2.09%",
+                "past_24hrs_base_volume": "401.0534",
+                "past_24hrs_quote_turnover": "435.88211654",
+                "past_24hrs_high_price": "1.2998",
+                "past_24hrs_low_price": "1.0340"
+            },
+            "TXT/USDT": {
+                "last_price": "0.000315",
+                "lowest_ask_price": "0.000329",
+                "highest_bid_price": "0.000279",
+                "past_24hrs_price_change": "-2.77%",
+                "past_24hrs_base_volume": "383086195.80",
+                "past_24hrs_quote_turnover": "123589.47296519",
+                "past_24hrs_high_price": "0.000329",
+                "past_24hrs_low_price": "0.000279"
+            },
+            "VSYS/BTC": {
+                "last_price": "0.0000139457",
+                "lowest_ask_price": "0.0000145400",
+                "highest_bid_price": "0.0000133000",
+                "past_24hrs_price_change": "-1.42%",
+                "past_24hrs_base_volume": "7118752.34",
+                "past_24hrs_quote_turnover": "101.15936140",
+                "past_24hrs_high_price": "0.0000146938",
+                "past_24hrs_low_price": "0.0000136428"
+            },
+            "DACC/BTC": {
+                "last_price": "0.0000000089",
+                "lowest_ask_price": "0.0000000098",
+                "highest_bid_price": "0.0000000080",
+                "past_24hrs_price_change": "0.00%",
+                "past_24hrs_base_volume": "14416665885.0",
+                "past_24hrs_quote_turnover": "127.04814055",
+                "past_24hrs_high_price": "0.0000000095",
+                "past_24hrs_low_price": "0.0000000079"
+            },
+            "ABL/ETH": {
+                "last_price": "0.0000532470",
+                "lowest_ask_price": "0.0000532860",
+                "highest_bid_price": "0.0000518903",
+                "past_24hrs_price_change": "-0.03%",
+                "past_24hrs_base_volume": "51368613.71",
+                "past_24hrs_quote_turnover": "2683.53318853",
+                "past_24hrs_high_price": "0.0000532915",
+                "past_24hrs_low_price": "0.0000518904"
+            },
+            "HYN/USDT": {
+                "last_price": "0.056162",
+                "lowest_ask_price": "0.056425",
+                "highest_bid_price": "0.055970",
+                "past_24hrs_price_change": "+0.46%",
+                "past_24hrs_base_volume": "1199481.08",
+                "past_24hrs_quote_turnover": "65272.94333009",
+                "past_24hrs_high_price": "0.058339",
+                "past_24hrs_low_price": "0.037405"
+            },
+            "IOTX/ETH": {
+                "last_price": "0.0000234269",
+                "lowest_ask_price": "0.0000300000",
+                "highest_bid_price": "0.0000232000",
+                "past_24hrs_price_change": "-12.08%",
+                "past_24hrs_base_volume": "1992799.16",
+                "past_24hrs_quote_turnover": "54.24933293",
+                "past_24hrs_high_price": "0.0000295328",
+                "past_24hrs_low_price": "0.0000232000"
+            },
+            "CB/USDT": {
+                "last_price": "0.003527",
+                "lowest_ask_price": "0.003890",
+                "highest_bid_price": "0.002650",
+                "past_24hrs_price_change": "+14.58%",
+                "past_24hrs_base_volume": "343334.42",
+                "past_24hrs_quote_turnover": "1178.36090308",
+                "past_24hrs_high_price": "0.003890",
+                "past_24hrs_low_price": "0.002650"
+            },
+            "OGO/BTC": {
+                "last_price": "0.0000021486",
+                "lowest_ask_price": "0.0000028000",
+                "highest_bid_price": "0.0000019880",
+                "past_24hrs_price_change": "-6.04%",
+                "past_24hrs_base_volume": "3571455.25",
+                "past_24hrs_quote_turnover": "7.74306932",
+                "past_24hrs_high_price": "0.0000022832",
+                "past_24hrs_low_price": "0.0000020798"
+            },
+            "GRIN/ETH": {
+                "last_price": "0.030210",
+                "lowest_ask_price": "0.030210",
+                "highest_bid_price": "0.002710",
+                "past_24hrs_price_change": "-7.64%",
+                "past_24hrs_base_volume": "0.2602",
+                "past_24hrs_quote_turnover": "0.00786064",
+                "past_24hrs_high_price": "0.030210",
+                "past_24hrs_low_price": "0.030210"
+            },
+            "SKP/ETH": {
+                "last_price": "0.00000004",
+                "lowest_ask_price": "0.00000022",
+                "highest_bid_price": "0.00000005",
+                "past_24hrs_price_change": "-20.00%",
+                "past_24hrs_base_volume": "244918.34",
+                "past_24hrs_quote_turnover": "0.01095828",
+                "past_24hrs_high_price": "0.00000006",
+                "past_24hrs_low_price": "0.00000004"
+            },
+            "ARM/ETH": {
+                "last_price": "0.00000176",
+                "lowest_ask_price": "0.00000177",
+                "highest_bid_price": "0.00000140",
+                "past_24hrs_price_change": "+0.57%",
+                "past_24hrs_base_volume": "555141652.33",
+                "past_24hrs_quote_turnover": "842.67536770",
+                "past_24hrs_high_price": "0.00000176",
+                "past_24hrs_low_price": "0.00000129"
+            },
+            "BGT/ETH": {
+                "last_price": "0.000036",
+                "lowest_ask_price": "0.000056",
+                "highest_bid_price": "0.000033",
+                "past_24hrs_price_change": "0.00%",
+                "past_24hrs_base_volume": "7817006.19",
+                "past_24hrs_quote_turnover": "278.10137816",
+                "past_24hrs_high_price": "0.000041",
+                "past_24hrs_low_price": "0.000034"
+            },
+            "TAC/ETH": {
+                "last_price": "0.0000400",
+                "lowest_ask_price": "0.0000458",
+                "highest_bid_price": "0.0000359",
+                "past_24hrs_price_change": "-19.02%",
+                "past_24hrs_base_volume": "1082348.439",
+                "past_24hrs_quote_turnover": "49.50814317",
+                "past_24hrs_high_price": "0.0000600",
+                "past_24hrs_low_price": "0.0000400"
+            },
+            "HAZ/USDT": {
+                "last_price": "0.0185",
+                "lowest_ask_price": "0.0188",
+                "highest_bid_price": "0.0183",
+                "past_24hrs_price_change": "-1.06%",
+                "past_24hrs_base_volume": "55061062.74",
+                "past_24hrs_quote_turnover": "1005061.16441900",
+                "past_24hrs_high_price": "0.0188",
+                "past_24hrs_low_price": "0.0160"
+            },
+            "DX/ETH": {
+                "last_price": "0.00000124",
+                "lowest_ask_price": "0.00000115",
+                "highest_bid_price": "0.00000114",
+                "past_24hrs_price_change": "+8.77%",
+                "past_24hrs_base_volume": "2637.24",
+                "past_24hrs_quote_turnover": "0.00314256",
+                "past_24hrs_high_price": "0.00000124",
+                "past_24hrs_low_price": "0.00000114"
+            },
+            "ATP/USDT": {
+                "last_price": "0.013150",
+                "lowest_ask_price": "0.104400",
+                "highest_bid_price": "0.012870",
+                "past_24hrs_price_change": "-25.24%",
+                "past_24hrs_base_volume": "80607.75",
+                "past_24hrs_quote_turnover": "1180.28296490",
+                "past_24hrs_high_price": "0.104400",
+                "past_24hrs_low_price": "0.013140"
+            },
+            "ANKR/BTC": {
+                "last_price": "0.0000002200",
+                "lowest_ask_price": "0.0000012269",
+                "highest_bid_price": "0.0000002205",
+                "past_24hrs_price_change": "0.00%",
+                "past_24hrs_base_volume": "2.02",
+                "past_24hrs_quote_turnover": "0.00000044",
+                "past_24hrs_high_price": "0.0000002200",
+                "past_24hrs_low_price": "0.0000002200"
+            },
+            "BOE/USDT": {
+                "last_price": "0.0000",
+                "lowest_ask_price": "0.1900",
+                "highest_bid_price": "0.0053",
+                "past_24hrs_price_change": "0.00%",
+                "past_24hrs_base_volume": "0.00",
+                "past_24hrs_quote_turnover": "0.00000000",
+                "past_24hrs_high_price": "0.0000",
+                "past_24hrs_low_price": "0.0000"
+            },
+            "BRT/USDT": {
+                "last_price": "0.190389",
+                "lowest_ask_price": "0.190584",
+                "highest_bid_price": "0.189543",
+                "past_24hrs_price_change": "-1.28%",
+                "past_24hrs_base_volume": "794497.51",
+                "past_24hrs_quote_turnover": "152950.08023928",
+                "past_24hrs_high_price": "0.196541",
+                "past_24hrs_low_price": "0.158891"
+            },
+            "XENO/BTC": {
+                "last_price": "0.0000000380",
+                "lowest_ask_price": "0.0000001680",
+                "highest_bid_price": "0.0000000380",
+                "past_24hrs_price_change": "-69.93%",
+                "past_24hrs_base_volume": "4064.28",
+                "past_24hrs_quote_turnover": "0.00023092",
+                "past_24hrs_high_price": "0.0000000960",
+                "past_24hrs_low_price": "0.0000000380"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:01:57 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=dc2529aab2255dc51c75060e7ec8249701568120517; expires=Wed, 09-Sep-20 13:01:57 GMT; path=/; domain=.bgogo.com; HttpOnly; Secure",
+            "Vary",
+            "Accept-Encoding",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Origin",
+            "https://bggex.pro",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Authorization",
+            "Vary",
+            "Origin, Referer",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

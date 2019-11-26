@@ -1,0 +1,1129 @@
+[
+    {
+        "scope": "https://bitubu.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "id": "ltcbtc",
+                "name": "LTC/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "ltc"
+            },
+            {
+                "id": "dashbtc",
+                "name": "DASH/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "dash"
+            },
+            {
+                "id": "ethbtc",
+                "name": "ETH/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "eth"
+            },
+            {
+                "id": "btgbtc",
+                "name": "BTG/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "btg"
+            },
+            {
+                "id": "ububtc",
+                "name": "UBU/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "ubu"
+            },
+            {
+                "id": "dgbbtc",
+                "name": "DGB/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "dgb"
+            },
+            {
+                "id": "dogebtc",
+                "name": "DOGE/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "doge"
+            },
+            {
+                "id": "enrgbtc",
+                "name": "ENRG/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "enrg"
+            },
+            {
+                "id": "shmnbtc",
+                "name": "SHMN/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "shmn"
+            },
+            {
+                "id": "viabtc",
+                "name": "VIA/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "via"
+            },
+            {
+                "id": "tratbtc",
+                "name": "TRAT/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "trat"
+            },
+            {
+                "id": "wavesbtc",
+                "name": "WAVES/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "waves"
+            },
+            {
+                "id": "wecbtc",
+                "name": "WEC/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "wec"
+            },
+            {
+                "id": "clbbtc",
+                "name": "CLB/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "clb"
+            },
+            {
+                "id": "yenbtc",
+                "name": "YEN/BTC",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "btc",
+                "ask_unit": "yen"
+            },
+            {
+                "id": "ltceth",
+                "name": "LTC/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "ltc"
+            },
+            {
+                "id": "dasheth",
+                "name": "DASH/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "dash"
+            },
+            {
+                "id": "ubueth",
+                "name": "UBU/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "ubu"
+            },
+            {
+                "id": "nanjeth",
+                "name": "NANJ/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "nanj"
+            },
+            {
+                "id": "hbxeth",
+                "name": "HBX/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "hbx"
+            },
+            {
+                "id": "trateth",
+                "name": "TRAT/ETH",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "eth",
+                "ask_unit": "trat"
+            },
+            {
+                "id": "ltcubu",
+                "name": "LTC/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "ltc"
+            },
+            {
+                "id": "dogeubu",
+                "name": "DOGE/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "doge"
+            },
+            {
+                "id": "btgubu",
+                "name": "BTG/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "btg"
+            },
+            {
+                "id": "dgbubu",
+                "name": "DGB/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "dgb"
+            },
+            {
+                "id": "dashubu",
+                "name": "DASH/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "dash"
+            },
+            {
+                "id": "wavesubu",
+                "name": "WAVES/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "waves"
+            },
+            {
+                "id": "viaubu",
+                "name": "VIA/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "via"
+            },
+            {
+                "id": "enrgubu",
+                "name": "ENRG/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "enrg"
+            },
+            {
+                "id": "nanjubu",
+                "name": "NANJ/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "nanj"
+            },
+            {
+                "id": "shmnubu",
+                "name": "SHMN/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "shmn"
+            },
+            {
+                "id": "wecubu",
+                "name": "WEC/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "wec"
+            },
+            {
+                "id": "hbxubu",
+                "name": "HBX/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "hbx"
+            },
+            {
+                "id": "clbubu",
+                "name": "CLB/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "clb"
+            },
+            {
+                "id": "tratubu",
+                "name": "TRAT/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "trat"
+            },
+            {
+                "id": "yenubu",
+                "name": "YEN/UBU",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "ubu",
+                "ask_unit": "yen"
+            },
+            {
+                "id": "btcusdt",
+                "name": "BTC/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "btc"
+            },
+            {
+                "id": "ethusdt",
+                "name": "ETH/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "eth"
+            },
+            {
+                "id": "ltcusdt",
+                "name": "LTC/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "ltc"
+            },
+            {
+                "id": "dashusdt",
+                "name": "DASH/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "dash"
+            },
+            {
+                "id": "btgusdt",
+                "name": "BTG/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "btg"
+            },
+            {
+                "id": "dogeusdt",
+                "name": "DOGE/USDT",
+                "ask_precision": 8,
+                "bid_precision": 8,
+                "bid_unit": "usdt",
+                "ask_unit": "doge"
+            },
+            {
+                "id": "wavesusdt",
+                "name": "WAVES/USDT",
+                "ask_precision": 8,
+                "bid_precision": 2,
+                "bid_unit": "usdt",
+                "ask_unit": "waves"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:29 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d391d059c181e76c1900b9ab5cd32ce1f1568120549; expires=Wed, 09-Sep-20 13:02:29 GMT; path=/; domain=.bitubu.com; HttpOnly",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, PUT, PATCH, DELETE",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Version",
+            "HTTP/1.0",
+            "Host",
+            "bitubu.com",
+            "X-Forwarded-For",
+            "91.233.23.115, 162.158.154.142",
+            "X-Forwarded-Proto",
+            "http",
+            "X-Real-Ip",
+            "162.158.154.142",
+            "X-Forwarded-Ssl",
+            "on",
+            "Cf-Ipcountry",
+            "NL",
+            "Cf-Visitor",
+            "{\"scheme\":\"https\"}",
+            "User-Agent",
+            "Coinranking (info@coinranking.com)",
+            "Accept",
+            "application/json",
+            "Cf-Connecting-Ip",
+            "91.233.23.115",
+            "Cdn-Loop",
+            "cloudflare",
+            "ETag",
+            "W/\"94f214e51d1a8dd944f6cb7c2f6ac9ae\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "fc28b6c9-f601-4b12-b371-321b2bc7ebc3",
+            "X-Runtime",
+            "0.057365",
+            "Strict-Transport-Security",
+            "max-age=31536000",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "514198b8ac80dc4f-LHR"
+        ]
+    },
+    {
+        "scope": "https://bitubu.com:443",
+        "method": "GET",
+        "path": "/api/v2/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ltcbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.006759",
+                    "sell": "0.00676",
+                    "low": "0.006699",
+                    "high": "0.006829",
+                    "open": 0.0067771,
+                    "last": "0.006759",
+                    "volume": "0.00101554",
+                    "avg_price": "0.006766125",
+                    "price_change_percent": "-0.27%",
+                    "vol": "0.00101554"
+                }
+            },
+            "dashbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.00836",
+                    "sell": "0.008362",
+                    "low": "0.00827",
+                    "high": "0.008532",
+                    "open": 0.008532,
+                    "last": "0.008362",
+                    "volume": "0.00104665",
+                    "avg_price": "0.00843573333333333333",
+                    "price_change_percent": "-1.99%",
+                    "vol": "0.00104665"
+                }
+            },
+            "ethbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0177",
+                    "sell": "0.01771",
+                    "low": "0.01735",
+                    "high": "0.0178",
+                    "open": 0.01762,
+                    "last": "0.01771",
+                    "volume": "0.00163303",
+                    "avg_price": "0.01765263157894736842",
+                    "price_change_percent": "+0.51%",
+                    "vol": "0.00163303"
+                }
+            },
+            "btgbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.001055",
+                    "sell": "0.001058",
+                    "low": "0.00103",
+                    "high": "0.001059",
+                    "open": 0.00104,
+                    "last": "0.001058",
+                    "volume": "0.00747892",
+                    "avg_price": "0.00105342857142857143",
+                    "price_change_percent": "+1.73%",
+                    "vol": "0.00747892"
+                }
+            },
+            "ububtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.00000016",
+                    "sell": "0.00000017",
+                    "low": "0.00000016",
+                    "high": "0.00000016",
+                    "open": 1.6e-7,
+                    "last": "0.00000016",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "dgbbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.00000077",
+                    "sell": "0.00000078",
+                    "low": "0.00000077",
+                    "high": "0.0000008",
+                    "open": 7.9e-7,
+                    "last": "0.00000078",
+                    "volume": "79.51565101",
+                    "avg_price": "0.0000007925",
+                    "price_change_percent": "-1.27%",
+                    "vol": "79.51565101"
+                }
+            },
+            "dogebtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.00000024",
+                    "sell": "0.00000025",
+                    "low": "0.00000023",
+                    "high": "0.00000024",
+                    "open": 2.3e-7,
+                    "last": "0.00000024",
+                    "volume": "41.66666666",
+                    "avg_price": "0.00000024",
+                    "price_change_percent": "+4.35%",
+                    "vol": "41.66666666"
+                }
+            },
+            "enrgbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "shmnbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "viabtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0000215",
+                    "sell": "0.0000216",
+                    "low": "0.0000211",
+                    "high": "0.0000215",
+                    "open": 0.0000215,
+                    "last": "0.0000215",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "tratbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "wavesbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0001037",
+                    "sell": "0.0001038",
+                    "low": "0.000102",
+                    "high": "0.0001043",
+                    "open": 0.0001031,
+                    "last": "0.0001037",
+                    "volume": "0.04510529",
+                    "avg_price": "0.00010330909090909091",
+                    "price_change_percent": "+0.58%",
+                    "vol": "0.04510529"
+                }
+            },
+            "wecbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.00000043",
+                    "sell": "0.00000044",
+                    "low": "0.0000004",
+                    "high": "0.00000049",
+                    "open": 4e-7,
+                    "last": "0.00000043",
+                    "volume": "2294422.24231054",
+                    "avg_price": "0.00000043558823529412",
+                    "price_change_percent": "+7.50%",
+                    "vol": "2294422.24231054"
+                }
+            },
+            "clbbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": 0.000001,
+                    "last": "0.000001",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "yenbtc": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0000002",
+                    "sell": "0.0000035",
+                    "low": "0.0000035",
+                    "high": "0.0000035",
+                    "open": 0.0000035,
+                    "last": "0.0000035",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "ltceth": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "dasheth": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "ubueth": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.00000023",
+                    "sell": "0.00000024",
+                    "low": "0.00000022",
+                    "high": "0.00000023",
+                    "open": 2.3e-7,
+                    "last": "0.00000023",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "nanjeth": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.00000042",
+                    "sell": "0.00000045",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": 4.5e-7,
+                    "last": "0.00000045",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "hbxeth": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "trateth": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "ltcubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "dogeubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "btgubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "dgbubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "dashubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "wavesubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "viaubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "enrgubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "nanjubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "shmnubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "wecubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "3.0",
+                    "sell": "14.0",
+                    "low": "13.0",
+                    "high": "13.0",
+                    "open": 13,
+                    "last": "13.0",
+                    "volume": "2059.85777803",
+                    "avg_price": "13.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "2059.85777803"
+                }
+            },
+            "hbxubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "clbubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "tratubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "yenubu": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "1.2",
+                    "sell": "500.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": 500,
+                    "last": "500.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "btcusdt": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "10244.0",
+                    "sell": "10250.0",
+                    "low": "10250.0",
+                    "high": "10423.0",
+                    "open": 10250,
+                    "last": "10250.0",
+                    "volume": "0.00423101",
+                    "avg_price": "10281.125",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.00423101"
+                }
+            },
+            "ethusdt": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "181.33",
+                    "sell": "181.37",
+                    "low": "180.64",
+                    "high": "181.33",
+                    "open": 180.16,
+                    "last": "181.33",
+                    "volume": "0.03451868",
+                    "avg_price": "180.85875",
+                    "price_change_percent": "+0.65%",
+                    "vol": "0.03451868"
+                }
+            },
+            "ltcusdt": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "69.45",
+                    "sell": "69.47",
+                    "low": "69.47",
+                    "high": "70.0",
+                    "open": 70,
+                    "last": "69.47",
+                    "volume": "0.0136272",
+                    "avg_price": "69.65666666666666666667",
+                    "price_change_percent": "-0.76%",
+                    "vol": "0.0136272"
+                }
+            },
+            "dashusdt": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "86.0",
+                    "sell": "86.48",
+                    "low": "86.48",
+                    "high": "87.0",
+                    "open": 87,
+                    "last": "86.48",
+                    "volume": "0.00937923",
+                    "avg_price": "86.74",
+                    "price_change_percent": "-0.60%",
+                    "vol": "0.00937923"
+                }
+            },
+            "btgusdt": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "10.85",
+                    "sell": "10.9",
+                    "low": "10.49",
+                    "high": "10.85",
+                    "open": 10.49,
+                    "last": "10.85",
+                    "volume": "0.15244625",
+                    "avg_price": "10.68166666666666666667",
+                    "price_change_percent": "+3.43%",
+                    "vol": "0.15244625"
+                }
+            },
+            "dogeusdt": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "0.000024",
+                    "sell": "0.000025",
+                    "low": "0.000025",
+                    "high": "0.0000252",
+                    "open": 0.000025,
+                    "last": "0.000025",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0"
+                }
+            },
+            "wavesusdt": {
+                "at": 1568120549,
+                "ticker": {
+                    "buy": "1.06",
+                    "sell": "1.07",
+                    "low": "1.06",
+                    "high": "1.06",
+                    "open": 1.05,
+                    "last": "1.06",
+                    "volume": "0.00943394",
+                    "avg_price": "1.06",
+                    "price_change_percent": "+0.95%",
+                    "vol": "0.00943394"
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:29 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, PUT, PATCH, DELETE",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+            "Access-Control-Allow-Credentials",
+            "false",
+            "Version",
+            "HTTP/1.0",
+            "Host",
+            "bitubu.com",
+            "X-Forwarded-For",
+            "91.233.23.115, 141.101.98.115",
+            "X-Forwarded-Proto",
+            "http",
+            "X-Real-Ip",
+            "141.101.98.115",
+            "X-Forwarded-Ssl",
+            "on",
+            "Cf-Ipcountry",
+            "NL",
+            "Cf-Visitor",
+            "{\"scheme\":\"https\"}",
+            "User-Agent",
+            "Coinranking (info@coinranking.com)",
+            "Cookie",
+            "__cfduid=d391d059c181e76c1900b9ab5cd32ce1f1568120549",
+            "Accept",
+            "application/json",
+            "Cf-Connecting-Ip",
+            "91.233.23.115",
+            "Cdn-Loop",
+            "cloudflare",
+            "ETag",
+            "W/\"0fe56919e151366b5b8dbe435f578e5a\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "787549ac-de6f-425f-8ce8-9cc0dd14c91b",
+            "X-Runtime",
+            "0.254385",
+            "Strict-Transport-Security",
+            "max-age=31536000",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "514198ba0d84dbff-LHR"
+        ]
+    }
+]

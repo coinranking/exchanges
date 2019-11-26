@@ -1,0 +1,1447 @@
+[
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/BTS_USD/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567987200,
+                "open": 0.06,
+                "close": 0.06,
+                "low": 0.06,
+                "high": 0.06,
+                "volume": 3.96934032
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"291e9e0dc2858aac8a7b4644a3c138de\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/v2/market/active",
+        "body": "",
+        "status": 200,
+        "response": {
+            "success": true,
+            "errorCode": null,
+            "errorMessage": null,
+            "markets": [
+                {
+                    "instrument": "BTC",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "LTC",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "LTC",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "ETH",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "ETH",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "ETC",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "ETC",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "XRP",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "XRP",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "POWR",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "POWR",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "OMG",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "OMG",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "BCHABC",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "BCHABC",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "BCHSV",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "BCHSV",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "GNT",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "GNT",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "BAT",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "BAT",
+                    "currency": "BTC"
+                },
+                {
+                    "instrument": "XLM",
+                    "currency": "AUD"
+                },
+                {
+                    "instrument": "XLM",
+                    "currency": "BTC"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:39 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d468ecefa06a95803307643b7e7fc163d1568120559; expires=Wed, 09-Sep-20 13:02:39 GMT; path=/; domain=.btcmarkets.net; HttpOnly",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/BUZ_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567900800,
+                "open": 5.5e-7,
+                "close": 4.6e-7,
+                "low": 4.6e-7,
+                "high": 5.5e-7,
+                "volume": 3033.83461884
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"ae4b671389bb0a92ab4f5b6efb7100b9\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CARE_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1566000000,
+                "open": 3.5e-7,
+                "close": 0.000002,
+                "low": 3.1e-7,
+                "high": 0.000002,
+                "volume": 44005
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"6b7e8f0f9e7268fef7008d008c7b3563\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/LTC/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 103.2,
+            "bestAsk": 103.64,
+            "lastPrice": 103.24,
+            "currency": "AUD",
+            "instrument": "LTC",
+            "timestamp": 1568120559,
+            "volume24h": 898.67581,
+            "price24h": 0.79,
+            "low24h": 100.46,
+            "high24h": 106.08
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:39 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CBC_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.00000142,
+                "close": 0.00000121,
+                "low": 0.00000121,
+                "high": 0.00000142,
+                "volume": 10569.69607715
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"63fb337060baad6bf1362a03f75b4b7d\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/ETH/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 264.95,
+            "bestAsk": 265.38,
+            "lastPrice": 264.96,
+            "currency": "AUD",
+            "instrument": "ETH",
+            "timestamp": 1568120558,
+            "volume24h": 455.97926,
+            "price24h": -1.79,
+            "low24h": 262.15,
+            "high24h": 268.52
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CBC_USD/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.0161,
+                "close": 0.0125,
+                "low": 0.0116,
+                "high": 0.0161,
+                "volume": 155792.80325942
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"0e17e52345607463ce2718210dcc75f4\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/ETC/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 9.68,
+            "bestAsk": 9.84,
+            "lastPrice": 9.88,
+            "currency": "AUD",
+            "instrument": "ETC",
+            "timestamp": 1568120540,
+            "volume24h": 630.58803,
+            "price24h": 0.28,
+            "low24h": 9.6,
+            "high24h": 9.88
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/XRP/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.00002563,
+            "bestAsk": 0.00002578,
+            "lastPrice": 0.00002563,
+            "currency": "BTC",
+            "instrument": "XRP",
+            "timestamp": 1568120528,
+            "volume24h": 20476.867,
+            "price24h": 1.7e-7,
+            "low24h": 0.00002472,
+            "high24h": 0.00002563
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/POWR/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.0769,
+            "bestAsk": 0.0777,
+            "lastPrice": 0.0777,
+            "currency": "AUD",
+            "instrument": "POWR",
+            "timestamp": 1568120504,
+            "volume24h": 154495.39,
+            "price24h": 0.0007,
+            "low24h": 0.0752,
+            "high24h": 0.0789
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CCRB_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.00000113,
+                "close": 0.00000109,
+                "low": 8.7e-7,
+                "high": 0.00000116,
+                "volume": 631073.7386342
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"7369fee117db53c19484b89fd2405a8c\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/OMG/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 1.5666,
+            "bestAsk": 1.6038,
+            "lastPrice": 1.5661,
+            "currency": "AUD",
+            "instrument": "OMG",
+            "timestamp": 1568120553,
+            "volume24h": 1312.9896,
+            "price24h": 0.0289,
+            "low24h": 1.5337,
+            "high24h": 1.6
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/BCHABC/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 445.51,
+            "bestAsk": 451.09,
+            "lastPrice": 446.75,
+            "currency": "AUD",
+            "instrument": "BCHABC",
+            "timestamp": 1568120553,
+            "volume24h": 13.809504,
+            "price24h": 6.54,
+            "low24h": 435.67,
+            "high24h": 452.26
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CDY_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567468800,
+                "open": 1e-8,
+                "close": 1e-8,
+                "low": 1e-8,
+                "high": 1e-8,
+                "volume": 70000
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"85c3a2f8e3bafcaa462a6d27903160bf\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/BCHABC/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.02651342,
+            "bestAsk": 0.03099859,
+            "lastPrice": 0.02651145,
+            "currency": "BTC",
+            "instrument": "BCHABC",
+            "timestamp": 1568120537,
+            "volume24h": 0.47961963,
+            "price24h": -0.00448756,
+            "low24h": 0.02651145,
+            "high24h": 0.03099901
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/BCHSV/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 185,
+            "bestAsk": 189.12,
+            "lastPrice": 191.42,
+            "currency": "AUD",
+            "instrument": "BCHSV",
+            "timestamp": 1568120543,
+            "volume24h": 84.027484,
+            "price24h": 0.42,
+            "low24h": 181.03,
+            "high24h": 199.86
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CDY_USDT/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567987200,
+                "open": 0.000005,
+                "close": 0.000005,
+                "low": 0.000005,
+                "high": 0.000005,
+                "volume": 200000
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"79b5662b677f15d6700e7188a3e446e5\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/GNT/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.00000432,
+            "bestAsk": 0.00001278,
+            "lastPrice": 0.00000467,
+            "currency": "BTC",
+            "instrument": "GNT",
+            "timestamp": 1568120555,
+            "volume24h": 0,
+            "price24h": 0,
+            "low24h": 0,
+            "high24h": 0
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/BTC/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 14999.42,
+            "bestAsk": 14999.43,
+            "lastPrice": 14999.42,
+            "currency": "AUD",
+            "instrument": "BTC",
+            "timestamp": 1568120552,
+            "volume24h": 85.097082,
+            "price24h": -110.65,
+            "low24h": 14832.83,
+            "high24h": 15150.5
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/BAT/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.2549,
+            "bestAsk": 0.2594,
+            "lastPrice": 0.254,
+            "currency": "AUD",
+            "instrument": "BAT",
+            "timestamp": 1568120468,
+            "volume24h": 4948.2194,
+            "price24h": -0.0014,
+            "low24h": 0.2453,
+            "high24h": 0.2587
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/BAT/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.00001599,
+            "bestAsk": 0.00003292,
+            "lastPrice": 0.00003983,
+            "currency": "BTC",
+            "instrument": "BAT",
+            "timestamp": 1568120555,
+            "volume24h": 84.40507,
+            "price24h": 0,
+            "low24h": 0.00003983,
+            "high24h": 0.00003983
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/XLM/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.0881,
+            "bestAsk": 0.0917,
+            "lastPrice": 0.0917,
+            "currency": "AUD",
+            "instrument": "XLM",
+            "timestamp": 1568120477,
+            "volume24h": 16087.083,
+            "price24h": 0.0013,
+            "low24h": 0.0882,
+            "high24h": 0.0931
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CSCJ_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.00003339,
+                "close": 0.00003565,
+                "low": 0.00003337,
+                "high": 0.00003565,
+                "volume": 5994.53337
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:40 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"abd69a6aa345bbca58adbaf812c6f9b3\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/XLM/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.00000552,
+            "bestAsk": 0.00000691,
+            "lastPrice": 0.0000061,
+            "currency": "BTC",
+            "instrument": "XLM",
+            "timestamp": 1568120556,
+            "volume24h": 0,
+            "price24h": 0,
+            "low24h": 0,
+            "high24h": 0
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/ETH/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.01754251,
+            "bestAsk": 0.0177576,
+            "lastPrice": 0.01778717,
+            "currency": "BTC",
+            "instrument": "ETH",
+            "timestamp": 1568120560,
+            "volume24h": 17.531551,
+            "price24h": 0.00040125,
+            "low24h": 0.01738425,
+            "high24h": 0.01791171
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/LTC/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.00682311,
+            "bestAsk": 0.00692219,
+            "lastPrice": 0.00683151,
+            "currency": "BTC",
+            "instrument": "LTC",
+            "timestamp": 1568120510,
+            "volume24h": 22.972235,
+            "price24h": 0.0003987,
+            "low24h": 0.00643281,
+            "high24h": 0.00683151
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/ETC/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.00061203,
+            "bestAsk": 0.00066992,
+            "lastPrice": 0.00060701,
+            "currency": "BTC",
+            "instrument": "ETC",
+            "timestamp": 1568120543,
+            "volume24h": 1.0346275,
+            "price24h": 0,
+            "low24h": 0.00060701,
+            "high24h": 0.00060701
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/XRP/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.3826,
+            "bestAsk": 0.3852,
+            "lastPrice": 0.3841,
+            "currency": "AUD",
+            "instrument": "XRP",
+            "timestamp": 1568120559,
+            "volume24h": 460679.52,
+            "price24h": 0.0031,
+            "low24h": 0.3756,
+            "high24h": 0.3852
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CSCJ_ETH/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567641600,
+                "open": 0.0075,
+                "close": 0.000033,
+                "low": 0.000033,
+                "high": 0.0075,
+                "volume": 50.996
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"2ab7927c9bde45af74db4c7706aa5888\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CVN_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.00001232,
+                "close": 0.000012,
+                "low": 0.000012,
+                "high": 0.00001232,
+                "volume": 1139.89444547
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"b8f6c0bef69ac7f147dc8619f7115416\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/POWR/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.00000301,
+            "bestAsk": 0.00000638,
+            "lastPrice": 0.00000512,
+            "currency": "BTC",
+            "instrument": "POWR",
+            "timestamp": 1568120559,
+            "volume24h": 0,
+            "price24h": 0,
+            "low24h": 0,
+            "high24h": 0
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/OMG/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.00009455,
+            "bestAsk": 0.00013292,
+            "lastPrice": 0.0001,
+            "currency": "BTC",
+            "instrument": "OMG",
+            "timestamp": 1568120560,
+            "volume24h": 0,
+            "price24h": 0,
+            "low24h": 0,
+            "high24h": 0
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/CVN_USD/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.156,
+                "close": 0.1212,
+                "low": 0.1212,
+                "high": 0.156,
+                "volume": 246.26357318
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"510244d9b9ff9045c1e1dcff5f50e65c\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/BCHSV/BTC/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.0112664,
+            "bestAsk": 0.0158929,
+            "lastPrice": 0.01085252,
+            "currency": "BTC",
+            "instrument": "BCHSV",
+            "timestamp": 1568120555,
+            "volume24h": 0.34296369,
+            "price24h": -0.00504747,
+            "low24h": 0.01085252,
+            "high24h": 0.01589999
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.btcmarkets.net:443",
+        "method": "GET",
+        "path": "/market/GNT/AUD/tick",
+        "body": "",
+        "status": 200,
+        "response": {
+            "bestBid": 0.0862,
+            "bestAsk": 0.088,
+            "lastPrice": 0.0856,
+            "currency": "AUD",
+            "instrument": "GNT",
+            "timestamp": 1568107874,
+            "volume24h": 0,
+            "price24h": 0,
+            "low24h": 0,
+            "high24h": 0
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:41 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

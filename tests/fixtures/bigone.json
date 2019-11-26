@@ -1,0 +1,2665 @@
+[
+    {
+        "scope": "https://big.one:443",
+        "method": "GET",
+        "path": "/api/v2/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": [
+                {
+                    "volume": "12428.756",
+                    "open": "0.0003146",
+                    "market_uuid": "01e48809-b42f-4a38-96b1-c4c547365db1",
+                    "market_id": "PCX-BTC",
+                    "low": "0.0003131",
+                    "high": "0.00037",
+                    "daily_change_perc": "1.970756516211061665607120153",
+                    "daily_change": "0.0000062",
+                    "close": "0.0003208",
+                    "bid": {
+                        "price": "0.0003011",
+                        "amount": "28.492"
+                    },
+                    "ask": {
+                        "price": "0.0003414",
+                        "amount": "8.995"
+                    }
+                },
+                {
+                    "volume": "0",
+                    "open": "0",
+                    "market_uuid": "02b6c7b5-8588-4a33-8bc7-30457123e8e1",
+                    "market_id": "GXC-USDT",
+                    "low": "0",
+                    "high": "0",
+                    "daily_change_perc": "0",
+                    "daily_change": "0.71",
+                    "close": "0.71",
+                    "bid": {
+                        "price": "0.71",
+                        "amount": "471.29"
+                    },
+                    "ask": {
+                        "price": "0.8204",
+                        "amount": "15"
+                    }
+                },
+                {
+                    "volume": "482.77676",
+                    "open": "1.21",
+                    "market_uuid": "094b5303-8c84-4e19-810f-14498cf4b2b9",
+                    "market_id": "XIN-ETH",
+                    "low": "1.19",
+                    "high": "1.24",
+                    "daily_change_perc": "-1.652892561983471074380165289",
+                    "daily_change": "-0.02",
+                    "close": "1.19",
+                    "bid": {
+                        "price": "1.18",
+                        "amount": "0.25932"
+                    },
+                    "ask": {
+                        "price": "1.2",
+                        "amount": "1.21165"
+                    }
+                },
+                {
+                    "volume": "3487833",
+                    "open": "1.4E-7",
+                    "market_uuid": "0a83a075-b4c2-47e8-816e-03cdd5cf172c",
+                    "market_id": "DILI-BTC",
+                    "low": "1.4E-7",
+                    "high": "1.4E-7",
+                    "daily_change_perc": "0",
+                    "daily_change": "0E-8",
+                    "close": "1.4E-7",
+                    "bid": {
+                        "price": "1.4E-7",
+                        "amount": "57142"
+                    },
+                    "ask": {
+                        "price": "1.5E-7",
+                        "amount": "114728"
+                    }
+                },
+                {
+                    "volume": "68170.52839",
+                    "open": "0.02142",
+                    "market_uuid": "0aa6d0ac-6ff1-45fb-8911-7e6c4070b582",
+                    "market_id": "XIN-BTC",
+                    "low": "0.020908",
+                    "high": "0.021785",
+                    "daily_change_perc": "-1.223155929038281979458450047",
+                    "daily_change": "-0.000262",
+                    "close": "0.021158",
+                    "bid": {
+                        "price": "0.021146",
+                        "amount": "0.02106"
+                    },
+                    "ask": {
+                        "price": "0.021158",
+                        "amount": "1.16065"
+                    }
+                },
+                {
+                    "volume": "5665.72",
+                    "open": "0.000878",
+                    "market_uuid": "0b249078-8ad1-4f6d-a6ba-e9fb1966744c",
+                    "market_id": "NEO-BTC",
+                    "low": "0.000878",
+                    "high": "0.00089",
+                    "daily_change_perc": "0.5694760820045558086560364465",
+                    "daily_change": "0.000005",
+                    "close": "0.000883",
+                    "bid": {
+                        "price": "0.00088",
+                        "amount": "0.9"
+                    },
+                    "ask": {
+                        "price": "0.000887",
+                        "amount": "55.34"
+                    }
+                },
+                {
+                    "volume": "847615.9",
+                    "open": "0.00000404",
+                    "market_uuid": "0b50cef3-8929-4b73-be3d-265a3e70f23f",
+                    "market_id": "PRS-BTC",
+                    "low": "0.00000403",
+                    "high": "0.00000424",
+                    "daily_change_perc": "4.455445544554455445544554455",
+                    "daily_change": "1.8E-7",
+                    "close": "0.00000422",
+                    "bid": {
+                        "price": "0.00000421",
+                        "amount": "37"
+                    },
+                    "ask": {
+                        "price": "0.00000424",
+                        "amount": "15709.1"
+                    }
+                },
+                {
+                    "volume": "1900058.8",
+                    "open": "0.0157",
+                    "market_uuid": "0ba6a004-b13a-4a6a-83ce-abe98b9df159",
+                    "market_id": "TRX-USDT",
+                    "low": "0.01548",
+                    "high": "0.01616",
+                    "daily_change_perc": "0.8280254777070063694267515924",
+                    "daily_change": "0.00013",
+                    "close": "0.01583",
+                    "bid": {
+                        "price": "0.01582",
+                        "amount": "71.8"
+                    },
+                    "ask": {
+                        "price": "0.01584",
+                        "amount": "1150.9"
+                    }
+                },
+                {
+                    "volume": "3132647",
+                    "open": "0.01155",
+                    "market_uuid": "11e1c3a2-fd2a-4eef-9c36-76191370425e",
+                    "market_id": "BCAT-USDT",
+                    "low": "0.00951",
+                    "high": "0.01155",
+                    "daily_change_perc": "-14.63203463203463203463203463",
+                    "daily_change": "-0.00169",
+                    "close": "0.00986",
+                    "bid": {
+                        "price": "0.00974",
+                        "amount": "40.1"
+                    },
+                    "ask": {
+                        "price": "0.00996",
+                        "amount": "158"
+                    }
+                },
+                {
+                    "volume": "1958.64349",
+                    "open": "0.008443",
+                    "market_uuid": "124a57c0-f99c-4de6-bdda-28bb515617c0",
+                    "market_id": "DASH-BTC",
+                    "low": "0.008289",
+                    "high": "0.00847",
+                    "daily_change_perc": "-1.362075091792017055548975483",
+                    "daily_change": "-0.000115",
+                    "close": "0.008328",
+                    "bid": {
+                        "price": "0.008318",
+                        "amount": "0.09617"
+                    },
+                    "ask": {
+                        "price": "0.008339",
+                        "amount": "4.08"
+                    }
+                },
+                {
+                    "volume": "9356",
+                    "open": "0.000124",
+                    "market_uuid": "149715b5-4b5c-471a-a36f-83423eae6bce",
+                    "market_id": "IDT-ETH",
+                    "low": "0.0001116",
+                    "high": "0.0001515",
+                    "daily_change_perc": "22.17741935483870967741935484",
+                    "daily_change": "0.0000275",
+                    "close": "0.0001515",
+                    "bid": {
+                        "price": "0.0001363",
+                        "amount": "1110"
+                    },
+                    "ask": {
+                        "price": "0.00016897",
+                        "amount": "109"
+                    }
+                },
+                {
+                    "volume": "19389.81",
+                    "open": "0.000201",
+                    "market_uuid": "15bf3c65-2a87-4c1f-8ca0-46c0f9752346",
+                    "market_id": "QTUM-BTC",
+                    "low": "0.0002",
+                    "high": "0.000205",
+                    "daily_change_perc": "0.4975124378109452736318407960",
+                    "daily_change": "0.000001",
+                    "close": "0.000202",
+                    "bid": {
+                        "price": "0.000201",
+                        "amount": "108"
+                    },
+                    "ask": {
+                        "price": "0.000203",
+                        "amount": "108"
+                    }
+                },
+                {
+                    "volume": "199706.24",
+                    "open": "1.2036",
+                    "market_uuid": "17e90e40-7195-410e-b7cf-0221fe750a05",
+                    "market_id": "BEAM-USDT",
+                    "low": "1.1914",
+                    "high": "1.2483",
+                    "daily_change_perc": "1.113326686606846128281821203",
+                    "daily_change": "0.0134",
+                    "close": "1.217",
+                    "bid": {
+                        "price": "1.2129",
+                        "amount": "100"
+                    },
+                    "ask": {
+                        "price": "1.2203",
+                        "amount": "108"
+                    }
+                },
+                {
+                    "volume": "2257231728.79",
+                    "open": "0.004881",
+                    "market_uuid": "19240bdc-4fa1-47db-9dba-c3f6dbf22087",
+                    "market_id": "ONE-USDT",
+                    "low": "0.004695",
+                    "high": "0.004889",
+                    "daily_change_perc": "-0.06146281499692685925015365704",
+                    "daily_change": "-0.000003",
+                    "close": "0.004878",
+                    "bid": {
+                        "price": "0.004875",
+                        "amount": "1800"
+                    },
+                    "ask": {
+                        "price": "0.00488",
+                        "amount": "158847.69"
+                    }
+                },
+                {
+                    "volume": "778062.73",
+                    "open": "0.00012738",
+                    "market_uuid": "196bcc8f-2a8d-416a-9616-b7982ebc8284",
+                    "market_id": "SEOS-BTC",
+                    "low": "0.00012504",
+                    "high": "0.00012942",
+                    "daily_change_perc": "-0.6594441827602449364107395195",
+                    "daily_change": "-8.4E-7",
+                    "close": "0.00012654",
+                    "bid": {
+                        "price": "0.00012634",
+                        "amount": "103.669"
+                    },
+                    "ask": {
+                        "price": "0.00012648",
+                        "amount": "48.16"
+                    }
+                },
+                {
+                    "volume": "33220871",
+                    "open": "2.43E-8",
+                    "market_uuid": "1a64f0b6-f61f-461b-8fb9-83d43168332a",
+                    "market_id": "WIN-BTC",
+                    "low": "2.35E-8",
+                    "high": "2.46E-8",
+                    "daily_change_perc": "0.4115226337448559670781893004",
+                    "daily_change": "1E-10",
+                    "close": "2.44E-8",
+                    "bid": {
+                        "price": "2.42E-8",
+                        "amount": "200088"
+                    },
+                    "ask": {
+                        "price": "2.46E-8",
+                        "amount": "200088"
+                    }
+                },
+                {
+                    "volume": "30694",
+                    "open": "0.000002",
+                    "market_uuid": "1c9e201f-19dd-4823-b8de-bf814a562101",
+                    "market_id": "IDT-BTC",
+                    "low": "0.000002",
+                    "high": "0.00000256",
+                    "daily_change_perc": "2.00",
+                    "daily_change": "4E-8",
+                    "close": "0.00000204",
+                    "bid": {
+                        "price": "0.00000184",
+                        "amount": "726"
+                    },
+                    "ask": {
+                        "price": "0.00000258",
+                        "amount": "5000"
+                    }
+                },
+                {
+                    "volume": "9362005",
+                    "open": "0.00001179",
+                    "market_uuid": "211047c2-cb5a-40e3-89d7-54bc7cfce666",
+                    "market_id": "CRE-ETH",
+                    "low": "0.000011",
+                    "high": "0.00001384",
+                    "daily_change_perc": "-2.459711620016963528413910093",
+                    "daily_change": "-2.9E-7",
+                    "close": "0.0000115",
+                    "bid": {
+                        "price": "0.0000113",
+                        "amount": "6262"
+                    },
+                    "ask": {
+                        "price": "0.00001301",
+                        "amount": "10000"
+                    }
+                },
+                {
+                    "volume": "2217.49397",
+                    "open": "57.38",
+                    "market_uuid": "22a56d15-62fd-4f35-bbc0-0a61d2916dd3",
+                    "market_id": "XIN-EOS",
+                    "low": "56.17",
+                    "high": "58.3",
+                    "daily_change_perc": "-1.359358661554548623213663297",
+                    "daily_change": "-0.78",
+                    "close": "56.6",
+                    "bid": {
+                        "price": "56.42",
+                        "amount": "0.05772"
+                    },
+                    "ask": {
+                        "price": "56.79",
+                        "amount": "0.00327"
+                    }
+                },
+                {
+                    "volume": "1524961.1",
+                    "open": "0.03409",
+                    "market_uuid": "2340d71a-84aa-4f28-ba92-e1da9fc453b5",
+                    "market_id": "BIUT-USDT",
+                    "low": "0.03386",
+                    "high": "0.0341",
+                    "daily_change_perc": "-0.2346729246113229686124963332",
+                    "daily_change": "-0.00008",
+                    "close": "0.03401",
+                    "bid": {
+                        "price": "0.03399",
+                        "amount": "278.1"
+                    },
+                    "ask": {
+                        "price": "0.03405",
+                        "amount": "1804.3"
+                    }
+                },
+                {
+                    "volume": "36610035",
+                    "open": "0.037196",
+                    "market_uuid": "2617b286-1775-42a1-9534-a5e2b6864798",
+                    "market_id": "BTT-TRX",
+                    "low": "0.03637",
+                    "high": "0.037861",
+                    "daily_change_perc": "-0.9651575438219163350897946016",
+                    "daily_change": "-0.000359",
+                    "close": "0.036837",
+                    "bid": {
+                        "price": "0.036632",
+                        "amount": "26751"
+                    },
+                    "ask": {
+                        "price": "0.037093",
+                        "amount": "100088"
+                    }
+                },
+                {
+                    "volume": "271971.6",
+                    "open": "0.0002296",
+                    "market_uuid": "261a7ebc-30a5-404c-a131-d422604dc3f9",
+                    "market_id": "PRS-ETH",
+                    "low": "0.0002295",
+                    "high": "0.0002395",
+                    "daily_change_perc": "3.658536585365853658536585366",
+                    "daily_change": "0.0000084",
+                    "close": "0.000238",
+                    "bid": {
+                        "price": "0.0002366",
+                        "amount": "48"
+                    },
+                    "ask": {
+                        "price": "0.0002395",
+                        "amount": "48"
+                    }
+                },
+                {
+                    "volume": "6186.116",
+                    "open": "9.096",
+                    "market_uuid": "287d7dae-7649-488b-ac8a-9954231f9dcf",
+                    "market_id": "NEO-USDT",
+                    "low": "9.014",
+                    "high": "9.204",
+                    "daily_change_perc": "-0.7145998240985048372911169745",
+                    "daily_change": "-0.065",
+                    "close": "9.031",
+                    "bid": {
+                        "price": "9.019",
+                        "amount": "0.138"
+                    },
+                    "ask": {
+                        "price": "9.04",
+                        "amount": "0.138"
+                    }
+                },
+                {
+                    "volume": "2923.252",
+                    "open": "0.012818",
+                    "market_uuid": "2cad049f-d9bd-4047-86c8-4e499c62d225",
+                    "market_id": "BCHSV-BTC",
+                    "low": "0.012195",
+                    "high": "0.012859",
+                    "daily_change_perc": "-3.261039163676080511780308941",
+                    "daily_change": "-0.000418",
+                    "close": "0.0124",
+                    "bid": {
+                        "price": "0.01236",
+                        "amount": "3.08"
+                    },
+                    "ask": {
+                        "price": "0.012456",
+                        "amount": "3.08"
+                    }
+                },
+                {
+                    "volume": "46979.61055",
+                    "open": "182.23",
+                    "market_uuid": "2dab8bcf-cfdd-496b-8181-d670568d1daa",
+                    "market_id": "ETH-USDT",
+                    "low": "178.67",
+                    "high": "184.17",
+                    "daily_change_perc": "-0.5432694945947429073149316797",
+                    "daily_change": "-0.99",
+                    "close": "181.24",
+                    "bid": {
+                        "price": "181.24",
+                        "amount": "0.02125"
+                    },
+                    "ask": {
+                        "price": "181.42",
+                        "amount": "1.3333"
+                    }
+                },
+                {
+                    "volume": "0",
+                    "open": "0",
+                    "market_uuid": "3036c1a9-6cbd-4a73-acbe-98f89f6da440",
+                    "market_id": "SC-BTC",
+                    "low": "0",
+                    "high": "0",
+                    "daily_change_perc": "0",
+                    "daily_change": "1.7E-7",
+                    "close": "1.7E-7",
+                    "bid": {
+                        "price": "1.7E-7",
+                        "amount": "99845"
+                    },
+                    "ask": {
+                        "price": "2E-7",
+                        "amount": "10004"
+                    }
+                },
+                {
+                    "volume": "137606810",
+                    "open": "0.0005888",
+                    "market_uuid": "3119e6ab-4aca-47d4-90c0-cd5346b9ca1b",
+                    "market_id": "BTT-USDT",
+                    "low": "0.0005713",
+                    "high": "0.0006083",
+                    "daily_change_perc": "-1.069972826086956521739130435",
+                    "daily_change": "-0.0000063",
+                    "close": "0.0005825",
+                    "bid": {
+                        "price": "0.0005814",
+                        "amount": "2888"
+                    },
+                    "ask": {
+                        "price": "0.0005838",
+                        "amount": "2888"
+                    }
+                },
+                {
+                    "volume": "90068752",
+                    "open": "5.12E-8",
+                    "market_uuid": "32f5c4a4-243e-400c-8678-2aa17ef4b198",
+                    "market_id": "MAG-BTC",
+                    "low": "2.32E-8",
+                    "high": "5.68E-8",
+                    "daily_change_perc": "-11.32812500",
+                    "daily_change": "-5.8E-9",
+                    "close": "4.54E-8",
+                    "bid": {
+                        "price": "3.85E-8",
+                        "amount": "894623"
+                    },
+                    "ask": {
+                        "price": "5.16E-8",
+                        "amount": "193351"
+                    }
+                },
+                {
+                    "volume": "1733.7378",
+                    "open": "0.007423",
+                    "market_uuid": "3313a7e5-2de9-4943-86d9-0be7f06fbcc8",
+                    "market_id": "XMR-BTC",
+                    "low": "0.007019",
+                    "high": "0.007423",
+                    "daily_change_perc": "-3.098477704432170281557321838",
+                    "daily_change": "-0.000230",
+                    "close": "0.007193",
+                    "bid": {
+                        "price": "0.007178",
+                        "amount": "3.08"
+                    },
+                    "ask": {
+                        "price": "0.007207",
+                        "amount": "3.0945"
+                    }
+                },
+                {
+                    "volume": "458378",
+                    "open": "0.00000234",
+                    "market_uuid": "360ad188-bde7-4c24-94a1-ee2240e671b3",
+                    "market_id": "ATN-BTC",
+                    "low": "0.00000226",
+                    "high": "0.00000242",
+                    "daily_change_perc": "-2.991452991452991452991452991",
+                    "daily_change": "-7E-8",
+                    "close": "0.00000227",
+                    "bid": {
+                        "price": "0.00000139",
+                        "amount": "6172"
+                    },
+                    "ask": {
+                        "price": "0.00000227",
+                        "amount": "108"
+                    }
+                },
+                {
+                    "volume": "276018.8",
+                    "open": "0.04182",
+                    "market_uuid": "363d2bba-253f-4005-ae94-30c74ae2bdad",
+                    "market_id": "PRS-USDT",
+                    "low": "0.04165",
+                    "high": "0.04365",
+                    "daily_change_perc": "3.969392635102821616451458632",
+                    "daily_change": "0.00166",
+                    "close": "0.04348",
+                    "bid": {
+                        "price": "0.04344",
+                        "amount": "0.1"
+                    },
+                    "ask": {
+                        "price": "0.0435",
+                        "amount": "1500"
+                    }
+                },
+                {
+                    "volume": "420083.942",
+                    "open": "1.319",
+                    "market_uuid": "37e07afd-da6d-4770-b0b0-b85fb0417e3c",
+                    "market_id": "SEOS-USDT",
+                    "low": "1.287",
+                    "high": "1.347",
+                    "daily_change_perc": "-1.592115238817285822592873389",
+                    "daily_change": "-0.021",
+                    "close": "1.298",
+                    "bid": {
+                        "price": "1.275",
+                        "amount": "6.692"
+                    },
+                    "ask": {
+                        "price": "1.301",
+                        "amount": "11.208"
+                    }
+                },
+                {
+                    "volume": "45192.31497",
+                    "open": "0.017591",
+                    "market_uuid": "38dd30bf-76c2-4777-ae2a-a3222433eef3",
+                    "market_id": "ETH-BTC",
+                    "low": "0.017416",
+                    "high": "0.017789",
+                    "daily_change_perc": "0.5457336137797737479392871355",
+                    "daily_change": "0.000096",
+                    "close": "0.017687",
+                    "bid": {
+                        "price": "0.017671",
+                        "amount": "0.1"
+                    },
+                    "ask": {
+                        "price": "0.017706",
+                        "amount": "3.08"
+                    }
+                },
+                {
+                    "volume": "6039090129.89",
+                    "open": "0.001256",
+                    "market_uuid": "393ced3d-8ab9-4337-ba5b-c9244dc361d0",
+                    "market_id": "ONE-EOS",
+                    "low": "0.001196",
+                    "high": "0.001274",
+                    "daily_change_perc": "1.353503184713375796178343949",
+                    "daily_change": "0.000017",
+                    "close": "0.001273",
+                    "bid": {
+                        "price": "0.001271",
+                        "amount": "7776"
+                    },
+                    "ask": {
+                        "price": "0.001275",
+                        "amount": "208"
+                    }
+                },
+                {
+                    "volume": "253901.9",
+                    "open": "0.039",
+                    "market_uuid": "3a0831b9-8cee-4116-94bc-decac40f0d9b",
+                    "market_id": "CRO-USDT",
+                    "low": "0.0379",
+                    "high": "0.03942",
+                    "daily_change_perc": "-2.820512820512820512820512821",
+                    "daily_change": "-0.0011",
+                    "close": "0.0379",
+                    "bid": {
+                        "price": "0.03775",
+                        "amount": "31.6"
+                    },
+                    "ask": {
+                        "price": "0.03795",
+                        "amount": "31.4"
+                    }
+                },
+                {
+                    "volume": "908819.27",
+                    "open": "0.0213",
+                    "market_uuid": "3a7bb27c-7a4e-4aa0-95ab-87b3abae15c4",
+                    "market_id": "EOS-ETH",
+                    "low": "0.020954",
+                    "high": "0.021665",
+                    "daily_change_perc": "-0.8591549295774647887323943662",
+                    "daily_change": "-0.000183",
+                    "close": "0.021117",
+                    "bid": {
+                        "price": "0.021084",
+                        "amount": "208"
+                    },
+                    "ask": {
+                        "price": "0.021144",
+                        "amount": "208"
+                    }
+                },
+                {
+                    "volume": "0",
+                    "open": "0",
+                    "market_uuid": "3be6172f-5a3e-4092-bb28-29d95b46537d",
+                    "market_id": "UTO-ETH",
+                    "low": "0",
+                    "high": "0",
+                    "daily_change_perc": "0",
+                    "daily_change": "0.000085",
+                    "close": "0.000085",
+                    "bid": {
+                        "price": "0.000085",
+                        "amount": "287.3"
+                    },
+                    "ask": {
+                        "price": "0.0001725",
+                        "amount": "449.3"
+                    }
+                },
+                {
+                    "volume": "2551.4678",
+                    "open": "76.87",
+                    "market_uuid": "3c839a98-990c-428f-9ca2-f9095bdcb2be",
+                    "market_id": "XMR-USDT",
+                    "low": "72.01",
+                    "high": "76.87",
+                    "daily_change_perc": "-4.071809548588526082997268115",
+                    "daily_change": "-3.13",
+                    "close": "73.74",
+                    "bid": {
+                        "price": "73.66",
+                        "amount": "0.0189"
+                    },
+                    "ask": {
+                        "price": "73.8",
+                        "amount": "1.4892"
+                    }
+                },
+                {
+                    "volume": "11700.958",
+                    "open": "694.8",
+                    "market_uuid": "3d562fcb-024c-4f40-b643-8d1a5ca1b0d3",
+                    "market_id": "PCX-ONE",
+                    "low": "691.6",
+                    "high": "802.2",
+                    "daily_change_perc": "2.504317789291882556131260794",
+                    "daily_change": "17.4",
+                    "close": "712.2",
+                    "bid": {
+                        "price": "705.4",
+                        "amount": "2.05"
+                    },
+                    "ask": {
+                        "price": "719.3",
+                        "amount": "2.05"
+                    }
+                },
+                {
+                    "volume": "3533036.1",
+                    "open": "0.02754",
+                    "market_uuid": "419d5e6a-1466-46be-9a68-edf050e1a1f1",
+                    "market_id": "IRIS-USDT",
+                    "low": "0.02655",
+                    "high": "0.02831",
+                    "daily_change_perc": "-2.251270878721859114015976761",
+                    "daily_change": "-0.00062",
+                    "close": "0.02692",
+                    "bid": {
+                        "price": "0.02682",
+                        "amount": "3008"
+                    },
+                    "ask": {
+                        "price": "0.02703",
+                        "amount": "3008"
+                    }
+                },
+                {
+                    "volume": "10104265",
+                    "open": "0.0000128",
+                    "market_uuid": "4324abab-ba8e-426a-a360-185b36194964",
+                    "market_id": "AIT-ETH",
+                    "low": "0.00001243",
+                    "high": "0.00001299",
+                    "daily_change_perc": "-2.500",
+                    "daily_change": "-3.2E-7",
+                    "close": "0.00001248",
+                    "bid": {
+                        "price": "0.00001237",
+                        "amount": "115"
+                    },
+                    "ask": {
+                        "price": "0.00001249",
+                        "amount": "115"
+                    }
+                },
+                {
+                    "volume": "182737.4",
+                    "open": "0.00001676",
+                    "market_uuid": "43cdc4a8-8119-48a5-893b-16c693e02905",
+                    "market_id": "ONG-BTC",
+                    "low": "0.00001674",
+                    "high": "0.0000175",
+                    "daily_change_perc": "3.341288782816229116945107399",
+                    "daily_change": "5.6E-7",
+                    "close": "0.00001732",
+                    "bid": {
+                        "price": "0.00001728",
+                        "amount": "408"
+                    },
+                    "ask": {
+                        "price": "0.00001735",
+                        "amount": "408"
+                    }
+                },
+                {
+                    "volume": "20771.42",
+                    "open": "0.00031",
+                    "market_uuid": "458a8bd7-f6a1-4569-8498-e51b0a43fabe",
+                    "market_id": "MCO-BTC",
+                    "low": "0.000307",
+                    "high": "0.000322",
+                    "daily_change_perc": "2.580645161290322580645161290",
+                    "daily_change": "0.000008",
+                    "close": "0.000318",
+                    "bid": {
+                        "price": "0.000317",
+                        "amount": "108"
+                    },
+                    "ask": {
+                        "price": "0.00032",
+                        "amount": "108"
+                    }
+                },
+                {
+                    "volume": "9568928",
+                    "open": "3.048E-7",
+                    "market_uuid": "45c68017-7cdb-4109-bc41-538819a63133",
+                    "market_id": "TNB-BTC",
+                    "low": "3.048E-7",
+                    "high": "3.699E-7",
+                    "daily_change_perc": "12.82808398950131233595800525",
+                    "daily_change": "3.91E-8",
+                    "close": "3.439E-7",
+                    "bid": {
+                        "price": "3.311E-7",
+                        "amount": "5181"
+                    },
+                    "ask": {
+                        "price": "3.898E-7",
+                        "amount": "28772"
+                    }
+                },
+                {
+                    "volume": "677.85",
+                    "open": "0.000636",
+                    "market_uuid": "49559770-b375-45f6-9fc5-96ba9804b693",
+                    "market_id": "ETC-BTC",
+                    "low": "0.000636",
+                    "high": "0.000657",
+                    "daily_change_perc": "3.301886792452830188679245283",
+                    "daily_change": "0.000021",
+                    "close": "0.000657",
+                    "bid": {
+                        "price": "0.000649",
+                        "amount": "108.95"
+                    },
+                    "ask": {
+                        "price": "0.000658",
+                        "amount": "112.56"
+                    }
+                },
+                {
+                    "volume": "64284",
+                    "open": "2.1E-7",
+                    "market_uuid": "4ad79fce-b024-488c-8e4d-31bf0724d8ba",
+                    "market_id": "AT-BTC",
+                    "low": "2.1E-7",
+                    "high": "2.7E-7",
+                    "daily_change_perc": "28.57142857142857142857142857",
+                    "daily_change": "6E-8",
+                    "close": "2.7E-7",
+                    "bid": {
+                        "price": "1.6E-7",
+                        "amount": "3456"
+                    },
+                    "ask": {
+                        "price": "2.7E-7",
+                        "amount": "45335"
+                    }
+                },
+                {
+                    "volume": "2102663.9",
+                    "open": "0.00369",
+                    "market_uuid": "4e554284-3022-42eb-be74-8414f8bac8b8",
+                    "market_id": "IOTE-USDT",
+                    "low": "0.00344",
+                    "high": "0.00478",
+                    "daily_change_perc": "9.756097560975609756097560976",
+                    "daily_change": "0.00036",
+                    "close": "0.00405",
+                    "bid": {
+                        "price": "0.00404",
+                        "amount": "425.9"
+                    },
+                    "ask": {
+                        "price": "0.00407",
+                        "amount": "2293.1"
+                    }
+                },
+                {
+                    "volume": "31731.37",
+                    "open": "0.7547",
+                    "market_uuid": "53730d8b-d109-4a23-8f1f-0193cae49fef",
+                    "market_id": "ONT-USDT",
+                    "low": "0.7454",
+                    "high": "0.8061",
+                    "daily_change_perc": "2.862064396448920100702265801",
+                    "daily_change": "0.0216",
+                    "close": "0.7763",
+                    "bid": {
+                        "price": "0.7753",
+                        "amount": "2.08"
+                    },
+                    "ask": {
+                        "price": "0.7773",
+                        "amount": "2.08"
+                    }
+                },
+                {
+                    "volume": "4342.8721",
+                    "open": "10362.61",
+                    "market_uuid": "550b34db-696e-4434-a126-196f827d9172",
+                    "market_id": "BTC-USDT",
+                    "low": "10188.4",
+                    "high": "10376.89",
+                    "daily_change_perc": "-1.050893549019021269738029319",
+                    "daily_change": "-108.90",
+                    "close": "10253.71",
+                    "bid": {
+                        "price": "10249.06",
+                        "amount": "0.000128"
+                    },
+                    "ask": {
+                        "price": "10254.21",
+                        "amount": "0.120193"
+                    }
+                },
+                {
+                    "volume": "324340.1",
+                    "open": "7.004",
+                    "market_uuid": "5cc19643-e380-44f6-af56-c25b8ba7150c",
+                    "market_id": "BIUT-ONE",
+                    "low": "6.998",
+                    "high": "7.172",
+                    "daily_change_perc": "0.08566533409480296973158195317",
+                    "daily_change": "0.006",
+                    "close": "7.01",
+                    "bid": {
+                        "price": "7.006",
+                        "amount": "30.8"
+                    },
+                    "ask": {
+                        "price": "7.013",
+                        "amount": "100.7"
+                    }
+                },
+                {
+                    "volume": "6916778",
+                    "open": "6.7E-7",
+                    "market_uuid": "5ddc3b1f-8084-46fc-9d7c-ea6e962fdfa2",
+                    "market_id": "IOST-BTC",
+                    "low": "6.7E-7",
+                    "high": "7.1E-7",
+                    "daily_change_perc": "4.477611940298507462686567164",
+                    "daily_change": "3E-8",
+                    "close": "7E-7",
+                    "bid": {
+                        "price": "6.9E-7",
+                        "amount": "12603"
+                    },
+                    "ask": {
+                        "price": "7.1E-7",
+                        "amount": "10088"
+                    }
+                },
+                {
+                    "volume": "66680.09",
+                    "open": "1",
+                    "market_uuid": "5f528c24-a32d-4f2a-be6c-2d6ddb445056",
+                    "market_id": "PAX-USDT",
+                    "low": "0.9992",
+                    "high": "1.0005",
+                    "daily_change_perc": "0.0200",
+                    "daily_change": "0.0002",
+                    "close": "1.0002",
+                    "bid": {
+                        "price": "0.9998",
+                        "amount": "1008"
+                    },
+                    "ask": {
+                        "price": "1.0006",
+                        "amount": "86.64"
+                    }
+                },
+                {
+                    "volume": "974",
+                    "open": "0.00008582",
+                    "market_uuid": "623957da-0e50-4d4e-8770-7a0fa20746b5",
+                    "market_id": "UIP-ETH",
+                    "low": "0.00008496",
+                    "high": "0.0000871",
+                    "daily_change_perc": "-1.002097413190398508506175717",
+                    "daily_change": "-8.6E-7",
+                    "close": "0.00008496",
+                    "bid": {
+                        "price": "0.00008454",
+                        "amount": "64"
+                    },
+                    "ask": {
+                        "price": "0.00008496",
+                        "amount": "16521"
+                    }
+                },
+                {
+                    "volume": "512353.9",
+                    "open": "0.01516",
+                    "market_uuid": "6514d38b-859d-4e3b-88f0-4c19127d3f71",
+                    "market_id": "TCT-USDT",
+                    "low": "0.0142",
+                    "high": "0.01526",
+                    "daily_change_perc": "-5.408970976253298153034300792",
+                    "daily_change": "-0.00082",
+                    "close": "0.01434",
+                    "bid": {
+                        "price": "0.01434",
+                        "amount": "99"
+                    },
+                    "ask": {
+                        "price": "0.0145",
+                        "amount": "69960"
+                    }
+                },
+                {
+                    "volume": "874071.4",
+                    "open": "0.14402",
+                    "market_uuid": "66eee28b-8dfc-4304-ae95-2f2f218662fa",
+                    "market_id": "SERO-USDT",
+                    "low": "0.13842",
+                    "high": "0.14692",
+                    "daily_change_perc": "0.5346479655603388418275239550",
+                    "daily_change": "0.00077",
+                    "close": "0.14479",
+                    "bid": {
+                        "price": "0.14414",
+                        "amount": "308"
+                    },
+                    "ask": {
+                        "price": "0.14559",
+                        "amount": "308"
+                    }
+                },
+                {
+                    "volume": "2191080",
+                    "open": "0.00000237",
+                    "market_uuid": "6801872d-e7c0-4949-8eb0-3dc1e7efea7e",
+                    "market_id": "QUBE-ETH",
+                    "low": "0.00000228",
+                    "high": "0.00000348",
+                    "daily_change_perc": "35.02109704641350210970464135",
+                    "daily_change": "8.3E-7",
+                    "close": "0.0000032",
+                    "bid": {
+                        "price": "0.00000257",
+                        "amount": "57956"
+                    },
+                    "ask": {
+                        "price": "0.000004",
+                        "amount": "80822"
+                    }
+                },
+                {
+                    "volume": "7515",
+                    "open": "0.0000324",
+                    "market_uuid": "68cebe4f-53cc-4525-9ae0-0cac0ba3c07e",
+                    "market_id": "KARMA-EOS",
+                    "low": "0.0000324",
+                    "high": "0.0000324",
+                    "daily_change_perc": "0",
+                    "daily_change": "0E-7",
+                    "close": "0.0000324",
+                    "bid": {
+                        "price": "0.0000323",
+                        "amount": "7515"
+                    },
+                    "ask": {
+                        "price": "0.0000326",
+                        "amount": "7515"
+                    }
+                },
+                {
+                    "volume": "9238.54",
+                    "open": "1.067",
+                    "market_uuid": "69291e15-5bbf-4574-bedb-5abb04f3e0c8",
+                    "market_id": "YEC-USDT",
+                    "low": "1.05",
+                    "high": "1.142",
+                    "daily_change_perc": "-0.8434864104967197750702905342",
+                    "daily_change": "-0.009",
+                    "close": "1.058",
+                    "bid": {
+                        "price": "1.04",
+                        "amount": "1.391"
+                    },
+                    "ask": {
+                        "price": "1.072",
+                        "amount": "1.48"
+                    }
+                },
+                {
+                    "volume": "404071.5",
+                    "open": "0.00000377",
+                    "market_uuid": "6aa04c38-8713-4abb-b888-789fae22f3b7",
+                    "market_id": "CRO-BTC",
+                    "low": "0.00000371",
+                    "high": "0.00000384",
+                    "daily_change_perc": "-1.326259946949602122015915119",
+                    "daily_change": "-5E-8",
+                    "close": "0.00000372",
+                    "bid": {
+                        "price": "0.00000368",
+                        "amount": "2008"
+                    },
+                    "ask": {
+                        "price": "0.00000375",
+                        "amount": "2008"
+                    }
+                },
+                {
+                    "volume": "7092128.65",
+                    "open": "4.7E-7",
+                    "market_uuid": "6acf484b-2b44-4a66-b6ef-953d0a61e1ec",
+                    "market_id": "ONE-BTC",
+                    "low": "4.5E-7",
+                    "high": "4.8E-7",
+                    "daily_change_perc": "2.127659574468085106382978723",
+                    "daily_change": "1E-8",
+                    "close": "4.8E-7",
+                    "bid": {
+                        "price": "4.7E-7",
+                        "amount": "28929.3"
+                    },
+                    "ask": {
+                        "price": "4.8E-7",
+                        "amount": "7294.62"
+                    }
+                },
+                {
+                    "volume": "393732.5398",
+                    "open": "0.06078",
+                    "market_uuid": "6af98d29-5c2a-4dbd-ba91-71484503a323",
+                    "market_id": "XLM-USDT",
+                    "low": "0.0598",
+                    "high": "0.06115",
+                    "daily_change_perc": "-0.1974333662388943731490621915",
+                    "daily_change": "-0.00012",
+                    "close": "0.06066",
+                    "bid": {
+                        "price": "0.060573",
+                        "amount": "18.3947"
+                    },
+                    "ask": {
+                        "price": "0.060647",
+                        "amount": "18.7865"
+                    }
+                },
+                {
+                    "volume": "917732.4",
+                    "open": "0.00000152",
+                    "market_uuid": "6ce18be3-9c92-46aa-8670-427cd6c50ae2",
+                    "market_id": "TRX-BTC",
+                    "low": "0.00000152",
+                    "high": "0.00000156",
+                    "daily_change_perc": "1.315789473684210526315789474",
+                    "daily_change": "2E-8",
+                    "close": "0.00000154",
+                    "bid": {
+                        "price": "0.00000153",
+                        "amount": "28723.2"
+                    },
+                    "ask": {
+                        "price": "0.00000155",
+                        "amount": "3008"
+                    }
+                },
+                {
+                    "volume": "14391371",
+                    "open": "0.015994",
+                    "market_uuid": "703ec90e-a804-4384-a9ad-ff43a3246f1d",
+                    "market_id": "WIN-TRX",
+                    "low": "0.015472",
+                    "high": "0.016166",
+                    "daily_change_perc": "-1.319244716768788295610854070",
+                    "daily_change": "-0.000211",
+                    "close": "0.015783",
+                    "bid": {
+                        "price": "0.015683",
+                        "amount": "200088"
+                    },
+                    "ask": {
+                        "price": "0.015926",
+                        "amount": "200088"
+                    }
+                },
+                {
+                    "volume": "25601.32609",
+                    "open": "307.77",
+                    "market_uuid": "705eb212-0ebb-48ae-a113-a0f58fe3172a",
+                    "market_id": "BCHABC-USDT",
+                    "low": "301.77",
+                    "high": "310.94",
+                    "daily_change_perc": "-0.5945998635344575494687591383",
+                    "daily_change": "-1.83",
+                    "close": "305.94",
+                    "bid": {
+                        "price": "305.79",
+                        "amount": "0.00594"
+                    },
+                    "ask": {
+                        "price": "306.1",
+                        "amount": "0.00598"
+                    }
+                },
+                {
+                    "volume": "5884.22949",
+                    "open": "132.49",
+                    "market_uuid": "70f022e2-8102-4b6f-b6fd-9f75a337646d",
+                    "market_id": "BCHSV-USDT",
+                    "low": "125.16",
+                    "high": "133.16",
+                    "daily_change_perc": "-3.924824515057740206808060986",
+                    "daily_change": "-5.20",
+                    "close": "127.29",
+                    "bid": {
+                        "price": "127.11",
+                        "amount": "0.01891"
+                    },
+                    "ask": {
+                        "price": "127.46",
+                        "amount": "0.01813"
+                    }
+                },
+                {
+                    "volume": "1720.335",
+                    "open": "0.004546",
+                    "market_uuid": "76ea7553-a8c7-42bc-86e6-6d1583b5595e",
+                    "market_id": "ZEC-BTC",
+                    "low": "0.004461",
+                    "high": "0.004585",
+                    "daily_change_perc": "-1.297844258688957325120985482",
+                    "daily_change": "-0.000059",
+                    "close": "0.004487",
+                    "bid": {
+                        "price": "0.004481",
+                        "amount": "0.111"
+                    },
+                    "ask": {
+                        "price": "0.004496",
+                        "amount": "4.08"
+                    }
+                },
+                {
+                    "volume": "2310",
+                    "open": "0.0138",
+                    "market_uuid": "7c0218e9-1fa2-486f-9fd2-1a0de43b1aab",
+                    "market_id": "PIZZA-USDT",
+                    "low": "0.01311",
+                    "high": "0.01395",
+                    "daily_change_perc": "-1.014492753623188405797101449",
+                    "daily_change": "-0.00014",
+                    "close": "0.01366",
+                    "bid": {
+                        "price": "0.01311",
+                        "amount": "77"
+                    },
+                    "ask": {
+                        "price": "0.01398",
+                        "amount": "124"
+                    }
+                },
+                {
+                    "volume": "7922.57731",
+                    "open": "87.46",
+                    "market_uuid": "7f8ba91c-6b54-4301-a9d2-bd6c7ea90f19",
+                    "market_id": "DASH-USDT",
+                    "low": "85.13",
+                    "high": "87.64",
+                    "daily_change_perc": "-2.423965241253144294534644409",
+                    "daily_change": "-2.12",
+                    "close": "85.34",
+                    "bid": {
+                        "price": "85.22",
+                        "amount": "0.01891"
+                    },
+                    "ask": {
+                        "price": "85.48",
+                        "amount": "0.01813"
+                    }
+                },
+                {
+                    "volume": "23524.52",
+                    "open": "0.00010087",
+                    "market_uuid": "7fd38bc7-cce0-468d-9671-196e33496ab5",
+                    "market_id": "XTZ-BTC",
+                    "low": "0.00009988",
+                    "high": "0.00010206",
+                    "daily_change_perc": "0.2577575096659066124714979677",
+                    "daily_change": "2.6E-7",
+                    "close": "0.00010113",
+                    "bid": {
+                        "price": "0.0001006",
+                        "amount": "104.69"
+                    },
+                    "ask": {
+                        "price": "0.00010184",
+                        "amount": "68"
+                    }
+                },
+                {
+                    "volume": "9910322",
+                    "open": "0.00003823",
+                    "market_uuid": "804b145e-062a-4115-ac84-8ee96824f084",
+                    "market_id": "IOST-ETH",
+                    "low": "0.00003816",
+                    "high": "0.00003995",
+                    "daily_change_perc": "3.217368558723515563693434476",
+                    "daily_change": "0.00000123",
+                    "close": "0.00003946",
+                    "bid": {
+                        "price": "0.00003941",
+                        "amount": "3250"
+                    },
+                    "ask": {
+                        "price": "0.00003942",
+                        "amount": "10088"
+                    }
+                },
+                {
+                    "volume": "12007.4807",
+                    "open": "70.21",
+                    "market_uuid": "807cd971-89bb-49fd-9d89-00d22ede6d01",
+                    "market_id": "LTC-USDT",
+                    "low": "68.83",
+                    "high": "73.04",
+                    "daily_change_perc": "1.139438826378008830650904430",
+                    "daily_change": "0.80",
+                    "close": "71.01",
+                    "bid": {
+                        "price": "70.93",
+                        "amount": "0.02088"
+                    },
+                    "ask": {
+                        "price": "71.02",
+                        "amount": "0.02088"
+                    }
+                },
+                {
+                    "volume": "10172924",
+                    "open": "2.2E-7",
+                    "market_uuid": "83469b7c-b51f-47f0-a42f-a13f52d5d6e7",
+                    "market_id": "AIT-BTC",
+                    "low": "2.2E-7",
+                    "high": "2.4E-7",
+                    "daily_change_perc": "9.090909090909090909090909091",
+                    "daily_change": "2E-8",
+                    "close": "2.4E-7",
+                    "bid": {
+                        "price": "2E-7",
+                        "amount": "40843"
+                    },
+                    "ask": {
+                        "price": "2.3E-7",
+                        "amount": "12729"
+                    }
+                },
+                {
+                    "volume": "4910762",
+                    "open": "6.8E-7",
+                    "market_uuid": "83e023e3-6a62-4969-b0f0-b14810b2121a",
+                    "market_id": "TERA-BTC",
+                    "low": "6.7E-7",
+                    "high": "7.2E-7",
+                    "daily_change_perc": "5.882352941176470588235294118",
+                    "daily_change": "4E-8",
+                    "close": "7.2E-7",
+                    "bid": {
+                        "price": "7E-7",
+                        "amount": "584"
+                    },
+                    "ask": {
+                        "price": "7.3E-7",
+                        "amount": "13505"
+                    }
+                },
+                {
+                    "volume": "3254260.7",
+                    "open": "0.00585",
+                    "market_uuid": "865f6025-64c6-4e2e-910c-73153e6e1f1f",
+                    "market_id": "MTI-USDT",
+                    "low": "0.00526",
+                    "high": "0.00698",
+                    "daily_change_perc": "19.31623931623931623931623932",
+                    "daily_change": "0.00113",
+                    "close": "0.00698",
+                    "bid": {
+                        "price": "0.00698",
+                        "amount": "2321"
+                    },
+                    "ask": {
+                        "price": "0.00699",
+                        "amount": "99383.9"
+                    }
+                },
+                {
+                    "volume": "0",
+                    "open": "0",
+                    "market_uuid": "86ed13ad-4ee7-4f17-be5a-d0c2a73b695a",
+                    "market_id": "SHOW-BTC",
+                    "low": "0",
+                    "high": "0",
+                    "daily_change_perc": "0",
+                    "daily_change": "8E-8",
+                    "close": "8E-8",
+                    "bid": {
+                        "price": "8E-8",
+                        "amount": "205108"
+                    },
+                    "ask": {
+                        "price": "9E-8",
+                        "amount": "149448"
+                    }
+                },
+                {
+                    "volume": "6707919",
+                    "open": "0.00001789",
+                    "market_uuid": "879fef68-4c92-4511-8df9-dc232d6545fc",
+                    "market_id": "TNB-ETH",
+                    "low": "0.00001784",
+                    "high": "0.00002076",
+                    "daily_change_perc": "9.390721073225265511458915595",
+                    "daily_change": "0.00000168",
+                    "close": "0.00001957",
+                    "bid": {
+                        "price": "0.00001914",
+                        "amount": "13350"
+                    },
+                    "ask": {
+                        "price": "0.00001999",
+                        "amount": "2123"
+                    }
+                },
+                {
+                    "volume": "43812.89",
+                    "open": "0.00001422",
+                    "market_uuid": "888bff3b-cae4-427b-8553-63d771029881",
+                    "market_id": "VSYS-BTC",
+                    "low": "0.00001409",
+                    "high": "0.0000148",
+                    "daily_change_perc": "-0.3516174402250351617440225035",
+                    "daily_change": "-5E-8",
+                    "close": "0.00001417",
+                    "bid": {
+                        "price": "0.0000141",
+                        "amount": "1008"
+                    },
+                    "ask": {
+                        "price": "0.0000142",
+                        "amount": "1008"
+                    }
+                },
+                {
+                    "volume": "827973",
+                    "open": "8E-8",
+                    "market_uuid": "8b6ebeb6-92ea-48dc-9dbe-af50104f6918",
+                    "market_id": "HOT-BTC",
+                    "low": "8E-8",
+                    "high": "8E-8",
+                    "daily_change_perc": "0",
+                    "daily_change": "0E-8",
+                    "close": "8E-8",
+                    "bid": {
+                        "price": "8E-8",
+                        "amount": "99186"
+                    },
+                    "ask": {
+                        "price": "9E-8",
+                        "amount": "196462"
+                    }
+                },
+                {
+                    "volume": "939",
+                    "open": "0.00000312",
+                    "market_uuid": "8d21e1b3-0982-42fc-b1ec-10ef201ebb12",
+                    "market_id": "BTS-BTC",
+                    "low": "0.00000312",
+                    "high": "0.00000326",
+                    "daily_change_perc": "4.487179487179487179487179487",
+                    "daily_change": "1.4E-7",
+                    "close": "0.00000326",
+                    "bid": {
+                        "price": "0.00000332",
+                        "amount": "70"
+                    },
+                    "ask": {
+                        "price": "0.00000359",
+                        "amount": "70"
+                    }
+                },
+                {
+                    "volume": "4986.856",
+                    "open": "0.029684",
+                    "market_uuid": "8e155f30-9454-4a48-9194-50e1240f8876",
+                    "market_id": "BCHABC-BTC",
+                    "low": "0.02942",
+                    "high": "0.02996",
+                    "daily_change_perc": "0.5659614607195795714863225980",
+                    "daily_change": "0.000168",
+                    "close": "0.029852",
+                    "bid": {
+                        "price": "0.02981",
+                        "amount": "2.205"
+                    },
+                    "ask": {
+                        "price": "0.029891",
+                        "amount": "2.093"
+                    }
+                },
+                {
+                    "volume": "144529610",
+                    "open": "4.6E-7",
+                    "market_uuid": "8ea2680f-5e15-493c-90c9-78f8ca917962",
+                    "market_id": "EDS-ETH",
+                    "low": "4.5E-7",
+                    "high": "4.9E-7",
+                    "daily_change_perc": "6.521739130434782608695652174",
+                    "daily_change": "3E-8",
+                    "close": "4.9E-7",
+                    "bid": {
+                        "price": "4.8E-7",
+                        "amount": "44906"
+                    },
+                    "ask": {
+                        "price": "4.9E-7",
+                        "amount": "22453"
+                    }
+                },
+                {
+                    "volume": "539730",
+                    "open": "0.00000587",
+                    "market_uuid": "90ced55e-543a-42aa-b64b-ddbdd6abcd37",
+                    "market_id": "XLM-BTC",
+                    "low": "0.00000583",
+                    "high": "0.00000595",
+                    "daily_change_perc": "0.8517887563884156729131175468",
+                    "daily_change": "5E-8",
+                    "close": "0.00000592",
+                    "bid": {
+                        "price": "0.00000589",
+                        "amount": "1508"
+                    },
+                    "ask": {
+                        "price": "0.00000594",
+                        "amount": "2653"
+                    }
+                },
+                {
+                    "volume": "21174",
+                    "open": "0.00000829",
+                    "market_uuid": "91192ff0-b365-414e-96c5-be19c960639d",
+                    "market_id": "PST-BTC",
+                    "low": "0.00000829",
+                    "high": "0.00000849",
+                    "daily_change_perc": "1.326899879372738238841978287",
+                    "daily_change": "1.1E-7",
+                    "close": "0.0000084",
+                    "bid": {
+                        "price": "0.00000834",
+                        "amount": "50"
+                    },
+                    "ask": {
+                        "price": "0.00000894",
+                        "amount": "551"
+                    }
+                },
+                {
+                    "volume": "1126810",
+                    "open": "3.9E-7",
+                    "market_uuid": "9139de8a-d0e5-4eae-9010-881efaea7ce0",
+                    "market_id": "VET-BTC",
+                    "low": "3.8E-7",
+                    "high": "3.9E-7",
+                    "daily_change_perc": "-2.564102564102564102564102564",
+                    "daily_change": "-1E-8",
+                    "close": "3.8E-7",
+                    "bid": {
+                        "price": "3.8E-7",
+                        "amount": "10088"
+                    },
+                    "ask": {
+                        "price": "3.9E-7",
+                        "amount": "440"
+                    }
+                },
+                {
+                    "volume": "23031417",
+                    "open": "0.0002511",
+                    "market_uuid": "98588078-b60b-4d6c-b465-5bc074a50355",
+                    "market_id": "WIN-USDT",
+                    "low": "0.0002449",
+                    "high": "0.0002528",
+                    "daily_change_perc": "-0.3584229390681003584229390681",
+                    "daily_change": "-9E-7",
+                    "close": "0.0002502",
+                    "bid": {
+                        "price": "0.0002497",
+                        "amount": "5888"
+                    },
+                    "ask": {
+                        "price": "0.0002507",
+                        "amount": "5888"
+                    }
+                },
+                {
+                    "volume": "1053",
+                    "open": "0.00000151",
+                    "market_uuid": "99e1c08c-33de-48c5-b1ee-efe17fddc57b",
+                    "market_id": "UIP-BTC",
+                    "low": "0.00000151",
+                    "high": "0.00000152",
+                    "daily_change_perc": "0.6622516556291390728476821192",
+                    "daily_change": "1E-8",
+                    "close": "0.00000152",
+                    "bid": {
+                        "price": "0.0000015",
+                        "amount": "218"
+                    },
+                    "ask": {
+                        "price": "0.00000152",
+                        "amount": "960"
+                    }
+                },
+                {
+                    "volume": "210267.79",
+                    "open": "0.1736",
+                    "market_uuid": "9c59e6f8-c675-41bb-aae5-06c0658af8d3",
+                    "market_id": "ONG-USDT",
+                    "low": "0.1725",
+                    "high": "0.1807",
+                    "daily_change_perc": "2.304147465437788018433179724",
+                    "daily_change": "0.0040",
+                    "close": "0.1776",
+                    "bid": {
+                        "price": "0.177",
+                        "amount": "8.88"
+                    },
+                    "ask": {
+                        "price": "0.1775",
+                        "amount": "808"
+                    }
+                },
+                {
+                    "volume": "22067.46",
+                    "open": "0.2222",
+                    "market_uuid": "9dd6e0ee-95b1-4ae5-981b-572336225bb7",
+                    "market_id": "NB-USDT",
+                    "low": "0.2218",
+                    "high": "0.2869",
+                    "daily_change_perc": "28.89288928892889288928892889",
+                    "daily_change": "0.0642",
+                    "close": "0.2864",
+                    "bid": {
+                        "price": "0.2853",
+                        "amount": "0.01"
+                    },
+                    "ask": {
+                        "price": "0.2877",
+                        "amount": "5.08"
+                    }
+                },
+                {
+                    "volume": "1442522",
+                    "open": "2.1E-7",
+                    "market_uuid": "9e0ce8a1-9085-4e37-a07b-665eae1a2ab0",
+                    "market_id": "PPS-BTC",
+                    "low": "1.8E-7",
+                    "high": "2.6E-7",
+                    "daily_change_perc": "19.04761904761904761904761905",
+                    "daily_change": "4E-8",
+                    "close": "2.5E-7",
+                    "bid": {
+                        "price": "1.9E-7",
+                        "amount": "36122"
+                    },
+                    "ask": {
+                        "price": "2.6E-7",
+                        "amount": "20320"
+                    }
+                },
+                {
+                    "volume": "97.86",
+                    "open": "0.0000748",
+                    "market_uuid": "9f2e7772-a8df-4aac-8afa-4c6806a75547",
+                    "market_id": "GXC-BTC",
+                    "low": "0.0000748",
+                    "high": "0.0000749",
+                    "daily_change_perc": "0.1336898395721925133689839572",
+                    "daily_change": "1E-7",
+                    "close": "0.0000749",
+                    "bid": {
+                        "price": "0.0000715",
+                        "amount": "20"
+                    },
+                    "ask": {
+                        "price": "0.0000749",
+                        "amount": "30.16"
+                    }
+                },
+                {
+                    "volume": "8386.61",
+                    "open": "0.000194",
+                    "market_uuid": "a14d70e9-716d-4964-a3d4-38474533123f",
+                    "market_id": "GRIN-BTC",
+                    "low": "0.0001916",
+                    "high": "0.0001986",
+                    "daily_change_perc": "-0.4123711340206185567010309278",
+                    "daily_change": "-8E-7",
+                    "close": "0.0001932",
+                    "bid": {
+                        "price": "0.0001915",
+                        "amount": "20.8"
+                    },
+                    "ask": {
+                        "price": "0.0001952",
+                        "amount": "13.16"
+                    }
+                },
+                {
+                    "volume": "123711.78",
+                    "open": "0.00011621",
+                    "market_uuid": "a299ecaa-07c2-4668-8166-ddf0d7fc2982",
+                    "market_id": "BEAM-BTC",
+                    "low": "0.00011513",
+                    "high": "0.00012265",
+                    "daily_change_perc": "2.125462524739695379055158764",
+                    "daily_change": "0.00000247",
+                    "close": "0.00011868",
+                    "bid": {
+                        "price": "0.00011833",
+                        "amount": "108"
+                    },
+                    "ask": {
+                        "price": "0.00011916",
+                        "amount": "108"
+                    }
+                },
+                {
+                    "volume": "11477388",
+                    "open": "4E-8",
+                    "market_uuid": "a3b61987-e905-45a7-bba0-ab5e93d182ca",
+                    "market_id": "QUBE-BTC",
+                    "low": "4E-8",
+                    "high": "6E-8",
+                    "daily_change_perc": "25.00",
+                    "daily_change": "1E-8",
+                    "close": "5E-8",
+                    "bid": {
+                        "price": "3.04E-8",
+                        "amount": "65789"
+                    },
+                    "ask": {
+                        "price": "7.98E-8",
+                        "amount": "65596"
+                    }
+                },
+                {
+                    "volume": "17145.3",
+                    "open": "2.078",
+                    "market_uuid": "a3edb60b-97dc-49b8-8b1e-a93341f49987",
+                    "market_id": "QTUM-USDT",
+                    "low": "2.057",
+                    "high": "2.122",
+                    "daily_change_perc": "-0.4812319538017324350336862368",
+                    "daily_change": "-0.010",
+                    "close": "2.068",
+                    "bid": {
+                        "price": "2.066",
+                        "amount": "0.689"
+                    },
+                    "ask": {
+                        "price": "2.071",
+                        "amount": "0.689"
+                    }
+                },
+                {
+                    "volume": "415444",
+                    "open": "0.00159",
+                    "market_uuid": "a7e8b6d2-3edd-4ad1-90b6-7fa8251dc577",
+                    "market_id": "CANDYBOX-USDT",
+                    "low": "0.001477",
+                    "high": "0.0016",
+                    "daily_change_perc": "-7.106918238993710691823899371",
+                    "daily_change": "-0.000113",
+                    "close": "0.001477",
+                    "bid": {
+                        "price": "0.001476",
+                        "amount": "1909"
+                    },
+                    "ask": {
+                        "price": "0.001492",
+                        "amount": "1909"
+                    }
+                },
+                {
+                    "volume": "2018428",
+                    "open": "1.9E-7",
+                    "market_uuid": "a7f4a09a-46e8-44c7-a63e-2b0bbdab26c5",
+                    "market_id": "GCT-BTC",
+                    "low": "1.6E-7",
+                    "high": "2E-7",
+                    "daily_change_perc": "-10.52631578947368421052631579",
+                    "daily_change": "-2E-8",
+                    "close": "1.7E-7",
+                    "bid": {
+                        "price": "1.548E-7",
+                        "amount": "44336"
+                    },
+                    "ask": {
+                        "price": "1.8E-7",
+                        "amount": "3148"
+                    }
+                },
+                {
+                    "volume": "41208.37",
+                    "open": "1.0466",
+                    "market_uuid": "a852e3a4-48de-4457-9abf-f8429aa36add",
+                    "market_id": "XTZ-USDT",
+                    "low": "1.024",
+                    "high": "1.0508",
+                    "daily_change_perc": "-0.5255111790559908274412382954",
+                    "daily_change": "-0.0055",
+                    "close": "1.0411",
+                    "bid": {
+                        "price": "1.0369",
+                        "amount": "108"
+                    },
+                    "ask": {
+                        "price": "1.0451",
+                        "amount": "108"
+                    }
+                },
+                {
+                    "volume": "6850.00718",
+                    "open": "221.71",
+                    "market_uuid": "aa459dd2-b5c6-4ac8-8217-956b90339a41",
+                    "market_id": "XIN-USDT",
+                    "low": "214.82",
+                    "high": "225",
+                    "daily_change_perc": "-1.808668982003518109241802354",
+                    "daily_change": "-4.01",
+                    "close": "217.7",
+                    "bid": {
+                        "price": "216.2",
+                        "amount": "0.00631"
+                    },
+                    "ask": {
+                        "price": "217.7",
+                        "amount": "1.16065"
+                    }
+                },
+                {
+                    "volume": "9668840",
+                    "open": "0.006939",
+                    "market_uuid": "ada50652-3203-4e40-a3c2-a71ec678d932",
+                    "market_id": "TERA-USDT",
+                    "low": "0.00675",
+                    "high": "0.007399",
+                    "daily_change_perc": "5.303357832540711918143824759",
+                    "daily_change": "0.000368",
+                    "close": "0.007307",
+                    "bid": {
+                        "price": "0.007213",
+                        "amount": "208"
+                    },
+                    "ask": {
+                        "price": "0.007394",
+                        "amount": "208"
+                    }
+                },
+                {
+                    "volume": "479263",
+                    "open": "0.0008",
+                    "market_uuid": "aed0c966-9d46-48de-b306-913d8531859e",
+                    "market_id": "PTI-EOS",
+                    "low": "0.000453",
+                    "high": "0.000886",
+                    "daily_change_perc": "3.500",
+                    "daily_change": "0.000028",
+                    "close": "0.000828",
+                    "bid": {
+                        "price": "0.00075",
+                        "amount": "3917.1"
+                    },
+                    "ask": {
+                        "price": "0.000887",
+                        "amount": "1206.9"
+                    }
+                },
+                {
+                    "volume": "50673464",
+                    "open": "5.67E-8",
+                    "market_uuid": "af3cbe1e-952d-485d-94f1-12a4f3d8035a",
+                    "market_id": "BTT-BTC",
+                    "low": "5.58E-8",
+                    "high": "5.92E-8",
+                    "daily_change_perc": "0.1763668430335097001763668430",
+                    "daily_change": "1E-10",
+                    "close": "5.68E-8",
+                    "bid": {
+                        "price": "5.64E-8",
+                        "amount": "100088"
+                    },
+                    "ask": {
+                        "price": "5.73E-8",
+                        "amount": "100088"
+                    }
+                },
+                {
+                    "volume": "27076130",
+                    "open": "0.002421",
+                    "market_uuid": "b0e4d05f-cec2-4e4a-b914-c1a7b9e3567f",
+                    "market_id": "DOGE-USDT",
+                    "low": "0.00242",
+                    "high": "0.002458",
+                    "daily_change_perc": "0.4130524576621230896323833127",
+                    "daily_change": "0.000010",
+                    "close": "0.002431",
+                    "bid": {
+                        "price": "0.002428",
+                        "amount": "466"
+                    },
+                    "ask": {
+                        "price": "0.002434",
+                        "amount": "50088"
+                    }
+                },
+                {
+                    "volume": "1362090.9",
+                    "open": "0.00295",
+                    "market_uuid": "b6eeb99d-2665-4e13-ba2c-0a41889098af",
+                    "market_id": "PEOS-EOS",
+                    "low": "0.001952",
+                    "high": "0.002959",
+                    "daily_change_perc": "-32.64406779661016949152542373",
+                    "daily_change": "-0.000963",
+                    "close": "0.001987",
+                    "bid": {
+                        "price": "0.001929",
+                        "amount": "3000"
+                    },
+                    "ask": {
+                        "price": "0.00205",
+                        "amount": "0.4"
+                    }
+                },
+                {
+                    "volume": "229735",
+                    "open": "0.00000101",
+                    "market_uuid": "b7c43824-57f5-487a-8960-aa6666ea858e",
+                    "market_id": "HMC-BTC",
+                    "low": "9.9E-7",
+                    "high": "0.00000103",
+                    "daily_change_perc": "-0.9900990099009900990099009901",
+                    "daily_change": "-1E-8",
+                    "close": "0.000001",
+                    "bid": {
+                        "price": "0.000001",
+                        "amount": "20088"
+                    },
+                    "ask": {
+                        "price": "0.00000101",
+                        "amount": "164"
+                    }
+                },
+                {
+                    "volume": "97099516.8",
+                    "open": "0.001106",
+                    "market_uuid": "be3159d2-6f6f-4b2c-ad35-a3f4e10806bb",
+                    "market_id": "PVT-USDT",
+                    "low": "0.0011",
+                    "high": "0.001244",
+                    "daily_change_perc": "6.238698010849909584086799277",
+                    "daily_change": "0.000069",
+                    "close": "0.001175",
+                    "bid": {
+                        "price": "0.001173",
+                        "amount": "1288"
+                    },
+                    "ask": {
+                        "price": "0.001178",
+                        "amount": "1288"
+                    }
+                },
+                {
+                    "volume": "0",
+                    "open": "0",
+                    "market_uuid": "bebe812d-4677-4fca-8ab7-c6fe8bb206de",
+                    "market_id": "DGD-BTC",
+                    "low": "0",
+                    "high": "0",
+                    "daily_change_perc": "0",
+                    "daily_change": "0.001387",
+                    "close": "0.001387",
+                    "bid": {
+                        "price": "0.000668",
+                        "amount": "22.576"
+                    },
+                    "ask": {
+                        "price": "0.001387",
+                        "amount": "2.069"
+                    }
+                },
+                {
+                    "volume": "168897290",
+                    "open": "0.2788",
+                    "market_uuid": "bf193a96-7936-4654-ab97-8c0271775b3d",
+                    "market_id": "COCOS-ONE",
+                    "low": "0.273",
+                    "high": "0.2876",
+                    "daily_change_perc": "-1.757532281205164992826398852",
+                    "daily_change": "-0.0049",
+                    "close": "0.2739",
+                    "bid": {
+                        "price": "0.2727",
+                        "amount": "13888"
+                    },
+                    "ask": {
+                        "price": "0.275",
+                        "amount": "10088"
+                    }
+                },
+                {
+                    "volume": "14857.897",
+                    "open": "2.815",
+                    "market_uuid": "c17faf31-c035-458c-902c-9f5902970b16",
+                    "market_id": "VCASH-USDT",
+                    "low": "2.74",
+                    "high": "3.063",
+                    "daily_change_perc": "7.531083481349911190053285968",
+                    "daily_change": "0.212",
+                    "close": "3.027",
+                    "bid": {
+                        "price": "2.976",
+                        "amount": "0.88"
+                    },
+                    "ask": {
+                        "price": "3.083",
+                        "amount": "0.88"
+                    }
+                },
+                {
+                    "volume": "1801956.07",
+                    "open": "0.0003749",
+                    "market_uuid": "c4eaff30-3918-48c8-9fa1-92b62743090c",
+                    "market_id": "EOS-BTC",
+                    "low": "0.0003689",
+                    "high": "0.0003809",
+                    "daily_change_perc": "-0.4267804747932782075220058682",
+                    "daily_change": "-0.0000016",
+                    "close": "0.0003733",
+                    "bid": {
+                        "price": "0.0003728",
+                        "amount": "1.77"
+                    },
+                    "ask": {
+                        "price": "0.0003738",
+                        "amount": "428.15"
+                    }
+                },
+                {
+                    "volume": "5895.41",
+                    "open": "0.006769",
+                    "market_uuid": "c53e47b6-a339-4b0f-812a-d61a23482c51",
+                    "market_id": "LTC-BTC",
+                    "low": "0.006713",
+                    "high": "0.007064",
+                    "daily_change_perc": "2.334170483084650613089082582",
+                    "daily_change": "0.000158",
+                    "close": "0.006927",
+                    "bid": {
+                        "price": "0.006915",
+                        "amount": "5.08"
+                    },
+                    "ask": {
+                        "price": "0.006939",
+                        "amount": "5.08"
+                    }
+                },
+                {
+                    "volume": "9634.53",
+                    "open": "60.46",
+                    "market_uuid": "c68db182-d52b-4d70-8857-2115532c29c2",
+                    "market_id": "NB-ONE",
+                    "low": "60.12",
+                    "high": "60.5",
+                    "daily_change_perc": "-0.1157790274561693681773073106",
+                    "daily_change": "-0.07",
+                    "close": "60.39",
+                    "bid": {
+                        "price": "59.37",
+                        "amount": "1.88"
+                    },
+                    "ask": {
+                        "price": "61.25",
+                        "amount": "1.88"
+                    }
+                },
+                {
+                    "volume": "9324275.3",
+                    "open": "0.26032",
+                    "market_uuid": "c7d850aa-7ddf-4d30-ac38-36065f1c15ec",
+                    "market_id": "XRP-USDT",
+                    "low": "0.2575",
+                    "high": "0.2634",
+                    "daily_change_perc": "1.014136447449293177627535341",
+                    "daily_change": "0.00264",
+                    "close": "0.26296",
+                    "bid": {
+                        "price": "0.26249",
+                        "amount": "5.1"
+                    },
+                    "ask": {
+                        "price": "0.26278",
+                        "amount": "5.4"
+                    }
+                },
+                {
+                    "volume": "241699.93",
+                    "open": "0.0781",
+                    "market_uuid": "c8c133f9-5e8b-41ae-a71e-20f326785548",
+                    "market_id": "BTM-USDT",
+                    "low": "0.0767",
+                    "high": "0.0786",
+                    "daily_change_perc": "-0.3841229193341869398207426376",
+                    "daily_change": "-0.0003",
+                    "close": "0.0778",
+                    "bid": {
+                        "price": "0.0775",
+                        "amount": "2008"
+                    },
+                    "ask": {
+                        "price": "0.078",
+                        "amount": "14.49"
+                    }
+                },
+                {
+                    "volume": "15617.24",
+                    "open": "0.0002752",
+                    "market_uuid": "ca33cf47-1434-486a-8fce-3330b8858a00",
+                    "market_id": "ATOM-BTC",
+                    "low": "0.000264",
+                    "high": "0.0002856",
+                    "daily_change_perc": "-1.889534883720930232558139535",
+                    "daily_change": "-0.0000052",
+                    "close": "0.00027",
+                    "bid": {
+                        "price": "0.0002691",
+                        "amount": "108"
+                    },
+                    "ask": {
+                        "price": "0.0002712",
+                        "amount": "108"
+                    }
+                },
+                {
+                    "volume": "3196574.4",
+                    "open": "0.001652",
+                    "market_uuid": "cf714252-c2be-41e0-a207-120b4ece39a3",
+                    "market_id": "MTI-EOS",
+                    "low": "0.001203",
+                    "high": "0.001979",
+                    "daily_change_perc": "0.5447941888619854721549636804",
+                    "daily_change": "0.000009",
+                    "close": "0.001661",
+                    "bid": {
+                        "price": "0.001204",
+                        "amount": "30122.7"
+                    },
+                    "ask": {
+                        "price": "0.001978",
+                        "amount": "4195.8"
+                    }
+                },
+                {
+                    "volume": "32425.45",
+                    "open": "2.0132",
+                    "market_uuid": "d04b7d90-0e13-4f14-831a-33265eb796ed",
+                    "market_id": "GRIN-USDT",
+                    "low": "1.9711",
+                    "high": "2.0311",
+                    "daily_change_perc": "-1.604410888138287303794953308",
+                    "daily_change": "-0.0323",
+                    "close": "1.9809",
+                    "bid": {
+                        "price": "1.9627",
+                        "amount": "20.8"
+                    },
+                    "ask": {
+                        "price": "1.9968",
+                        "amount": "21.57"
+                    }
+                },
+                {
+                    "volume": "505284597",
+                    "open": "0.001361",
+                    "market_uuid": "d1f4e071-a9f4-4ded-94d4-7cb6e49cbd6e",
+                    "market_id": "COCOS-USDT",
+                    "low": "0.00131",
+                    "high": "0.001366",
+                    "daily_change_perc": "-2.351212343864805290227773696",
+                    "daily_change": "-0.000032",
+                    "close": "0.001329",
+                    "bid": {
+                        "price": "0.001329",
+                        "amount": "1088"
+                    },
+                    "ask": {
+                        "price": "0.001331",
+                        "amount": "100293"
+                    }
+                },
+                {
+                    "volume": "10445.86",
+                    "open": "2.8385",
+                    "market_uuid": "d1f87ce4-e73d-452b-b590-fa804502c503",
+                    "market_id": "ATOM-USDT",
+                    "low": "2.7281",
+                    "high": "2.9505",
+                    "daily_change_perc": "-2.522459045270389290118020081",
+                    "daily_change": "-0.0716",
+                    "close": "2.7669",
+                    "bid": {
+                        "price": "2.7641",
+                        "amount": "0.88"
+                    },
+                    "ask": {
+                        "price": "2.7704",
+                        "amount": "0.88"
+                    }
+                },
+                {
+                    "volume": "35435953",
+                    "open": "0.0008078",
+                    "market_uuid": "d2c1d969-5006-40a2-b96f-3ad4ef679f5b",
+                    "market_id": "HOT-USDT",
+                    "low": "0.0008077",
+                    "high": "0.000868",
+                    "daily_change_perc": "7.056202030205496410002475860",
+                    "daily_change": "0.0000570",
+                    "close": "0.0008648",
+                    "bid": {
+                        "price": "0.0008609",
+                        "amount": "100088"
+                    },
+                    "ask": {
+                        "price": "0.00087",
+                        "amount": "100088"
+                    }
+                },
+                {
+                    "volume": "3130",
+                    "open": "0.0006188",
+                    "market_uuid": "d38b80c4-8bb7-4ad1-8a9e-09598ecd6115",
+                    "market_id": "IQ-EOS",
+                    "low": "0.0006188",
+                    "high": "0.000635",
+                    "daily_change_perc": "2.617970265029088558500323206",
+                    "daily_change": "0.0000162",
+                    "close": "0.000635",
+                    "bid": {
+                        "price": "0.000631",
+                        "amount": "626"
+                    },
+                    "ask": {
+                        "price": "0.0006391",
+                        "amount": "626"
+                    }
+                },
+                {
+                    "volume": "10918636",
+                    "open": "0.001462",
+                    "market_uuid": "d8dd1b3a-cc8b-4b64-81f2-9224c296d1ed",
+                    "market_id": "DILI-USDT",
+                    "low": "0.001438",
+                    "high": "0.001491",
+                    "daily_change_perc": "-0.5471956224350205198358413133",
+                    "daily_change": "-0.000008",
+                    "close": "0.001454",
+                    "bid": {
+                        "price": "0.001448",
+                        "amount": "100088"
+                    },
+                    "ask": {
+                        "price": "0.001459",
+                        "amount": "101376"
+                    }
+                },
+                {
+                    "volume": "537411",
+                    "open": "0.00001651",
+                    "market_uuid": "dab192a6-ee5f-4614-8213-2a1a9bbe9393",
+                    "market_id": "FGC-ETH",
+                    "low": "0.00001649",
+                    "high": "0.0000166",
+                    "daily_change_perc": "0.3634161114476075105996365839",
+                    "daily_change": "6E-8",
+                    "close": "0.00001657",
+                    "bid": {
+                        "price": "0.00001627",
+                        "amount": "14757"
+                    },
+                    "ask": {
+                        "price": "0.00001682",
+                        "amount": "400"
+                    }
+                },
+                {
+                    "volume": "204130.7",
+                    "open": "0.00009",
+                    "market_uuid": "dc08c269-5d0b-4762-b50c-20799aa184c0",
+                    "market_id": "OCT-ETH",
+                    "low": "0.000088",
+                    "high": "0.000091",
+                    "daily_change_perc": "0",
+                    "daily_change": "0.00000",
+                    "close": "0.00009",
+                    "bid": {
+                        "price": "0.0000851",
+                        "amount": "9495"
+                    },
+                    "ask": {
+                        "price": "0.0000944",
+                        "amount": "3045.4"
+                    }
+                },
+                {
+                    "volume": "4602877",
+                    "open": "2.3E-7",
+                    "market_uuid": "dc7864f2-5cfa-436c-8b67-0957d2cc0c02",
+                    "market_id": "READ-BTC",
+                    "low": "2.3E-7",
+                    "high": "3.1E-7",
+                    "daily_change_perc": "34.78260869565217391304347826",
+                    "daily_change": "8E-8",
+                    "close": "3.1E-7",
+                    "bid": {
+                        "price": "2.6E-7",
+                        "amount": "32996"
+                    },
+                    "ask": {
+                        "price": "3E-7",
+                        "amount": "26973"
+                    }
+                },
+                {
+                    "volume": "18421929",
+                    "open": "0.00005",
+                    "market_uuid": "df6038a1-262b-474d-931b-fc7a210abc85",
+                    "market_id": "DRAGON-EOS",
+                    "low": "0.0000382",
+                    "high": "0.00005",
+                    "daily_change_perc": "-23.600",
+                    "daily_change": "-0.0000118",
+                    "close": "0.0000382",
+                    "bid": {
+                        "price": "0.0000332",
+                        "amount": "284653"
+                    },
+                    "ask": {
+                        "price": "0.0000433",
+                        "amount": "17638"
+                    }
+                },
+                {
+                    "volume": "3308002.5",
+                    "open": "0.00002511",
+                    "market_uuid": "df775815-e44b-4956-bf31-4ced8b67c62a",
+                    "market_id": "XRP-BTC",
+                    "low": "0.00002497",
+                    "high": "0.00002565",
+                    "daily_change_perc": "2.110712863401035444046196734",
+                    "daily_change": "5.3E-7",
+                    "close": "0.00002564",
+                    "bid": {
+                        "price": "0.0000256",
+                        "amount": "808"
+                    },
+                    "ask": {
+                        "price": "0.00002566",
+                        "amount": "808"
+                    }
+                },
+                {
+                    "volume": "8832.01",
+                    "open": "1.0408",
+                    "market_uuid": "e47458ea-ecfa-4643-853a-e3745ce7260a",
+                    "market_id": "LEO-USDT",
+                    "low": "1.0311",
+                    "high": "1.0552",
+                    "daily_change_perc": "0.5572636433512682551883166795",
+                    "daily_change": "0.0058",
+                    "close": "1.0466",
+                    "bid": {
+                        "price": "1.0399",
+                        "amount": "30.8"
+                    },
+                    "ask": {
+                        "price": "1.0531",
+                        "amount": "30.8"
+                    }
+                },
+                {
+                    "volume": "2864482",
+                    "open": "0.000377",
+                    "market_uuid": "e6d4b671-e987-40dd-b055-cf65d8246773",
+                    "market_id": "DILI-EOS",
+                    "low": "0.0003686",
+                    "high": "0.0003845",
+                    "daily_change_perc": "0.7692307692307692307692307692",
+                    "daily_change": "0.0000029",
+                    "close": "0.0003799",
+                    "bid": {
+                        "price": "0.000375",
+                        "amount": "30088"
+                    },
+                    "ask": {
+                        "price": "0.0003838",
+                        "amount": "30088"
+                    }
+                },
+                {
+                    "volume": "7511",
+                    "open": "6E-8",
+                    "market_uuid": "e7928155-3d8f-444c-bc48-c10cad6abfae",
+                    "market_id": "VTHO-BTC",
+                    "low": "6E-8",
+                    "high": "6E-8",
+                    "daily_change_perc": "0",
+                    "daily_change": "0E-8",
+                    "close": "6E-8",
+                    "bid": {
+                        "price": "6E-8",
+                        "amount": "322489"
+                    },
+                    "ask": {
+                        "price": "7E-8",
+                        "amount": "335694"
+                    }
+                },
+                {
+                    "volume": "13391.58",
+                    "open": "3.338",
+                    "market_uuid": "ede77d0a-7306-422f-9676-5cbcf77fd574",
+                    "market_id": "PCX-USDT",
+                    "low": "3.234",
+                    "high": "3.839",
+                    "daily_change_perc": "1.617735170760934691431995207",
+                    "daily_change": "0.054",
+                    "close": "3.392",
+                    "bid": {
+                        "price": "3.235",
+                        "amount": "129.525"
+                    },
+                    "ask": {
+                        "price": "3.516",
+                        "amount": "7.245"
+                    }
+                },
+                {
+                    "volume": "57795.7",
+                    "open": "0.0000729",
+                    "market_uuid": "ee3364d3-3921-4031-a009-c7ad7d17f07c",
+                    "market_id": "ONT-BTC",
+                    "low": "0.0000728",
+                    "high": "0.0000793",
+                    "daily_change_perc": "3.978052126200274348422496571",
+                    "daily_change": "0.0000029",
+                    "close": "0.0000758",
+                    "bid": {
+                        "price": "0.0000756",
+                        "amount": "128"
+                    },
+                    "ask": {
+                        "price": "0.0000759",
+                        "amount": "128"
+                    }
+                },
+                {
+                    "volume": "30245635.07",
+                    "open": "0.00002673",
+                    "market_uuid": "eee39949-4269-4dc6-8c82-a980b60a84de",
+                    "market_id": "ONE-ETH",
+                    "low": "0.00002578",
+                    "high": "0.00002699",
+                    "daily_change_perc": "0.4489337822671156004489337823",
+                    "daily_change": "1.2E-7",
+                    "close": "0.00002685",
+                    "bid": {
+                        "price": "0.00002682",
+                        "amount": "3400"
+                    },
+                    "ask": {
+                        "price": "0.00002685",
+                        "amount": "10055.07"
+                    }
+                },
+                {
+                    "volume": "2062.6618",
+                    "open": "46.91",
+                    "market_uuid": "f2d58cb1-237f-45a0-b9c3-5681712dfe97",
+                    "market_id": "ZEC-USDT",
+                    "low": "45.73",
+                    "high": "47.42",
+                    "daily_change_perc": "-1.961202302280963547218077169",
+                    "daily_change": "-0.92",
+                    "close": "45.99",
+                    "bid": {
+                        "price": "45.94",
+                        "amount": "0.04088"
+                    },
+                    "ask": {
+                        "price": "46.03",
+                        "amount": "0.04088"
+                    }
+                },
+                {
+                    "volume": "33773102",
+                    "open": "1.3E-7",
+                    "market_uuid": "f3ce253a-ec24-49bd-bd2b-256cd6db7fb0",
+                    "market_id": "COCOS-BTC",
+                    "low": "1.3E-7",
+                    "high": "1.3E-7",
+                    "daily_change_perc": "0",
+                    "daily_change": "0E-8",
+                    "close": "1.3E-7",
+                    "bid": {
+                        "price": "1.2E-7",
+                        "amount": "171321"
+                    },
+                    "ask": {
+                        "price": "1.3E-7",
+                        "amount": "39085"
+                    }
+                },
+                {
+                    "volume": "111420349",
+                    "open": "0.004721",
+                    "market_uuid": "f5371093-1354-46b8-bd7c-35251583aab7",
+                    "market_id": "GMAT-USDT",
+                    "low": "0.004626",
+                    "high": "0.004731",
+                    "daily_change_perc": "-0.5083668714255454352891336581",
+                    "daily_change": "-0.000024",
+                    "close": "0.004697",
+                    "bid": {
+                        "price": "0.004669",
+                        "amount": "34041"
+                    },
+                    "ask": {
+                        "price": "0.00472",
+                        "amount": "30088"
+                    }
+                },
+                {
+                    "volume": "0",
+                    "open": "0",
+                    "market_uuid": "f8d7aed2-dd03-4906-a4d9-abba7c46c6fa",
+                    "market_id": "HORUS-EOS",
+                    "low": "0",
+                    "high": "0",
+                    "daily_change_perc": "0",
+                    "daily_change": "0.0001608",
+                    "close": "0.0001608",
+                    "bid": {
+                        "price": "0.0001578",
+                        "amount": "28630"
+                    },
+                    "ask": {
+                        "price": "0.0002",
+                        "amount": "15869"
+                    }
+                },
+                {
+                    "volume": "72429.68",
+                    "open": "0.1474",
+                    "market_uuid": "f92e6558-049b-4bdd-b44b-5ca1fcf34978",
+                    "market_id": "VSYS-USDT",
+                    "low": "0.145",
+                    "high": "0.1508",
+                    "daily_change_perc": "-1.560379918588873812754409769",
+                    "daily_change": "-0.0023",
+                    "close": "0.1451",
+                    "bid": {
+                        "price": "0.145",
+                        "amount": "10.88"
+                    },
+                    "ask": {
+                        "price": "0.1452",
+                        "amount": "3033.79"
+                    }
+                },
+                {
+                    "volume": "2371305.74",
+                    "open": "3.8817",
+                    "market_uuid": "feefa85f-99d4-4eda-97c7-8de4c0c45931",
+                    "market_id": "EOS-USDT",
+                    "low": "3.7928",
+                    "high": "3.9473",
+                    "daily_change_perc": "-1.445243063606151943735991962",
+                    "daily_change": "-0.0561",
+                    "close": "3.8256",
+                    "bid": {
+                        "price": "3.8222",
+                        "amount": "0.41"
+                    },
+                    "ask": {
+                        "price": "3.8243",
+                        "amount": "0.41"
+                    }
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:01:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=dac9b58edfcaa2ad777953a3be8e671411568120517; expires=Wed, 09-Sep-20 13:01:57 GMT; path=/; domain=.big.one; HttpOnly; Secure",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "2n1hajbrjtn0jq96v49opvq1",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear",
+            "Strict-Transport-Security",
+            "max-age=2592000; includeSubDomains",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

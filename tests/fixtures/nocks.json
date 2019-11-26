@@ -1,0 +1,972 @@
+[
+    {
+        "scope": "https://api.nocks.com:443",
+        "method": "GET",
+        "path": "/api/v2/trade-market",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": [
+                {
+                    "code": "NLG-EUR",
+                    "last": {
+                        "amount": "0.0069",
+                        "currency": "EUR"
+                    },
+                    "volume": {
+                        "amount": "3115.04",
+                        "currency": "EUR"
+                    },
+                    "low": {
+                        "amount": "0.0067",
+                        "currency": "EUR"
+                    },
+                    "high": {
+                        "amount": "0.0074",
+                        "currency": "EUR"
+                    },
+                    "buy": {
+                        "amount": "0.0069",
+                        "currency": "EUR"
+                    },
+                    "change": "-2.90",
+                    "sell": {
+                        "amount": "0.0070",
+                        "currency": "EUR"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "NLG",
+                            "name": "Gulden",
+                            "type": "blockchain",
+                            "decimals": "4",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "715657.1445",
+                                "currency": "NLG"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "EUR",
+                            "name": "Euro",
+                            "type": "fiat",
+                            "decimals": "2",
+                            "use_for_balance": true,
+                            "increment": "0.01",
+                            "available": {
+                                "amount": "6739.80",
+                                "currency": "EUR"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "BTC-EUR",
+                    "last": {
+                        "amount": "9309.91",
+                        "currency": "EUR"
+                    },
+                    "volume": {
+                        "amount": "792.67",
+                        "currency": "EUR"
+                    },
+                    "low": {
+                        "amount": "9289.53",
+                        "currency": "EUR"
+                    },
+                    "high": {
+                        "amount": "9397.74",
+                        "currency": "EUR"
+                    },
+                    "buy": {
+                        "amount": "9295.49",
+                        "currency": "EUR"
+                    },
+                    "change": "-1.41",
+                    "sell": {
+                        "amount": "9301.91",
+                        "currency": "EUR"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "BTC",
+                            "name": "Bitcoin",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "2.92820544",
+                                "currency": "BTC"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "EUR",
+                            "name": "Euro",
+                            "type": "fiat",
+                            "decimals": "2",
+                            "use_for_balance": true,
+                            "increment": "0.01",
+                            "available": {
+                                "amount": "6739.80",
+                                "currency": "EUR"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "NLG-BTC",
+                    "last": {
+                        "amount": "0.00000071",
+                        "currency": "BTC"
+                    },
+                    "volume": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "low": {
+                        "amount": "0.00000071",
+                        "currency": "BTC"
+                    },
+                    "high": {
+                        "amount": "0.00000071",
+                        "currency": "BTC"
+                    },
+                    "buy": {
+                        "amount": "0.00000069",
+                        "currency": "BTC"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "0.00000094",
+                        "currency": "BTC"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "NLG",
+                            "name": "Gulden",
+                            "type": "blockchain",
+                            "decimals": "4",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "715657.1445",
+                                "currency": "NLG"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "BTC",
+                            "name": "Bitcoin",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "2.92820544",
+                                "currency": "BTC"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "ETH-EUR",
+                    "last": {
+                        "amount": "164.63",
+                        "currency": "EUR"
+                    },
+                    "volume": {
+                        "amount": "371.55",
+                        "currency": "EUR"
+                    },
+                    "low": {
+                        "amount": "163.53",
+                        "currency": "EUR"
+                    },
+                    "high": {
+                        "amount": "166.81",
+                        "currency": "EUR"
+                    },
+                    "buy": {
+                        "amount": "164.10",
+                        "currency": "EUR"
+                    },
+                    "change": "-0.94",
+                    "sell": {
+                        "amount": "164.62",
+                        "currency": "EUR"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "ETH",
+                            "name": "Ethereum",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "6.44139105",
+                                "currency": "ETH"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "EUR",
+                            "name": "Euro",
+                            "type": "fiat",
+                            "decimals": "2",
+                            "use_for_balance": true,
+                            "increment": "0.01",
+                            "available": {
+                                "amount": "6739.80",
+                                "currency": "EUR"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "ETH-BTC",
+                    "last": {
+                        "amount": "0.01500000",
+                        "currency": "BTC"
+                    },
+                    "volume": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "low": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "high": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "buy": {
+                        "amount": "0.01500000",
+                        "currency": "BTC"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "0.03100000",
+                        "currency": "BTC"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "ETH",
+                            "name": "Ethereum",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "6.44139105",
+                                "currency": "ETH"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "BTC",
+                            "name": "Bitcoin",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "2.92820544",
+                                "currency": "BTC"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "ETH-NLG",
+                    "last": {
+                        "amount": "23000.0000",
+                        "currency": "NLG"
+                    },
+                    "volume": {
+                        "amount": "3441.3750",
+                        "currency": "NLG"
+                    },
+                    "low": {
+                        "amount": "23000.0000",
+                        "currency": "NLG"
+                    },
+                    "high": {
+                        "amount": "23000.0000",
+                        "currency": "NLG"
+                    },
+                    "buy": {
+                        "amount": "16500.0000",
+                        "currency": "NLG"
+                    },
+                    "change": "28.26",
+                    "sell": {
+                        "amount": "28998.9990",
+                        "currency": "NLG"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "ETH",
+                            "name": "Ethereum",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "6.44139105",
+                                "currency": "ETH"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "NLG",
+                            "name": "Gulden",
+                            "type": "blockchain",
+                            "decimals": "4",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "715657.1445",
+                                "currency": "NLG"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "LTC-EUR",
+                    "last": {
+                        "amount": "63.90",
+                        "currency": "EUR"
+                    },
+                    "volume": {
+                        "amount": "0.00",
+                        "currency": "EUR"
+                    },
+                    "low": {
+                        "amount": "63.90",
+                        "currency": "EUR"
+                    },
+                    "high": {
+                        "amount": "63.90",
+                        "currency": "EUR"
+                    },
+                    "buy": {
+                        "amount": "60.00",
+                        "currency": "EUR"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "67.00",
+                        "currency": "EUR"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "LTC",
+                            "name": "Litecoin",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "3.72124982",
+                                "currency": "LTC"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "EUR",
+                            "name": "Euro",
+                            "type": "fiat",
+                            "decimals": "2",
+                            "use_for_balance": true,
+                            "increment": "0.01",
+                            "available": {
+                                "amount": "6739.80",
+                                "currency": "EUR"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "LTC-BTC",
+                    "last": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "volume": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "low": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "high": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "buy": {
+                        "amount": "0.00018068",
+                        "currency": "BTC"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "0.00961241",
+                        "currency": "BTC"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "LTC",
+                            "name": "Litecoin",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "3.72124982",
+                                "currency": "LTC"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "BTC",
+                            "name": "Bitcoin",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "2.92820544",
+                                "currency": "BTC"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "LTC-NLG",
+                    "last": {
+                        "amount": "6000.0000",
+                        "currency": "NLG"
+                    },
+                    "volume": {
+                        "amount": "0.0000",
+                        "currency": "NLG"
+                    },
+                    "low": {
+                        "amount": "0.0000",
+                        "currency": "NLG"
+                    },
+                    "high": {
+                        "amount": "0.0000",
+                        "currency": "NLG"
+                    },
+                    "buy": {
+                        "amount": "6000.0000",
+                        "currency": "NLG"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "14549.0000",
+                        "currency": "NLG"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "LTC",
+                            "name": "Litecoin",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "3.72124982",
+                                "currency": "LTC"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "NLG",
+                            "name": "Gulden",
+                            "type": "blockchain",
+                            "decimals": "4",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "715657.1445",
+                                "currency": "NLG"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "LTC-ETH",
+                    "last": {
+                        "amount": "0.00000000",
+                        "currency": "ETH"
+                    },
+                    "volume": {
+                        "amount": "0.00000000",
+                        "currency": "ETH"
+                    },
+                    "low": {
+                        "amount": "0.00000000",
+                        "currency": "ETH"
+                    },
+                    "high": {
+                        "amount": "0.00000000",
+                        "currency": "ETH"
+                    },
+                    "buy": {
+                        "amount": "0.00151033",
+                        "currency": "ETH"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "9.00581697",
+                        "currency": "ETH"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "LTC",
+                            "name": "Litecoin",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "3.72124982",
+                                "currency": "LTC"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "ETH",
+                            "name": "Ethereum",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "6.44139105",
+                                "currency": "ETH"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "GET-EUR",
+                    "last": {
+                        "amount": "0.3388",
+                        "currency": "EUR"
+                    },
+                    "volume": {
+                        "amount": "59.78",
+                        "currency": "EUR"
+                    },
+                    "low": {
+                        "amount": "0.3388",
+                        "currency": "EUR"
+                    },
+                    "high": {
+                        "amount": "0.3388",
+                        "currency": "EUR"
+                    },
+                    "buy": {
+                        "amount": "0.2975",
+                        "currency": "EUR"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "0.3000",
+                        "currency": "EUR"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "GET",
+                            "name": "GET Protocol",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "5051.04334945",
+                                "currency": "GET"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "EUR",
+                            "name": "Euro",
+                            "type": "fiat",
+                            "decimals": "2",
+                            "use_for_balance": true,
+                            "increment": "0.01",
+                            "available": {
+                                "amount": "6739.80",
+                                "currency": "EUR"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "GET-BTC",
+                    "last": {
+                        "amount": "0.00011248",
+                        "currency": "BTC"
+                    },
+                    "volume": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "low": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "high": {
+                        "amount": "0.00000000",
+                        "currency": "BTC"
+                    },
+                    "buy": {
+                        "amount": "0.00000169",
+                        "currency": "BTC"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "0.02357880",
+                        "currency": "BTC"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "GET",
+                            "name": "GET Protocol",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "5051.04334945",
+                                "currency": "GET"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "BTC",
+                            "name": "Bitcoin",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "2.92820544",
+                                "currency": "BTC"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "GET-NLG",
+                    "last": {
+                        "amount": "50.0000",
+                        "currency": "NLG"
+                    },
+                    "volume": {
+                        "amount": "0.0000",
+                        "currency": "NLG"
+                    },
+                    "low": {
+                        "amount": "50.0000",
+                        "currency": "NLG"
+                    },
+                    "high": {
+                        "amount": "50.0000",
+                        "currency": "NLG"
+                    },
+                    "buy": {
+                        "amount": "34.0000",
+                        "currency": "NLG"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "50.0000",
+                        "currency": "NLG"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "GET",
+                            "name": "GET Protocol",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "5051.04334945",
+                                "currency": "GET"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "NLG",
+                            "name": "Gulden",
+                            "type": "blockchain",
+                            "decimals": "4",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "715657.1445",
+                                "currency": "NLG"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "GET-ETH",
+                    "last": {
+                        "amount": "0.00200000",
+                        "currency": "ETH"
+                    },
+                    "volume": {
+                        "amount": "0.00000000",
+                        "currency": "ETH"
+                    },
+                    "low": {
+                        "amount": "0.00000000",
+                        "currency": "ETH"
+                    },
+                    "high": {
+                        "amount": "0.00000000",
+                        "currency": "ETH"
+                    },
+                    "buy": {
+                        "amount": "0.00140000",
+                        "currency": "ETH"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "0.00200000",
+                        "currency": "ETH"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "GET",
+                            "name": "GET Protocol",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "5051.04334945",
+                                "currency": "GET"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "ETH",
+                            "name": "Ethereum",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "6.44139105",
+                                "currency": "ETH"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                },
+                {
+                    "code": "NCKS-EUR",
+                    "last": {
+                        "amount": "0.0579",
+                        "currency": "EUR"
+                    },
+                    "volume": {
+                        "amount": "0.00",
+                        "currency": "EUR"
+                    },
+                    "low": {
+                        "amount": "0.0579",
+                        "currency": "EUR"
+                    },
+                    "high": {
+                        "amount": "0.0579",
+                        "currency": "EUR"
+                    },
+                    "buy": {
+                        "amount": "0.0400",
+                        "currency": "EUR"
+                    },
+                    "change": "0.00",
+                    "sell": {
+                        "amount": "0.0561",
+                        "currency": "EUR"
+                    },
+                    "is_active": true,
+                    "resource": "trade-market",
+                    "base_currency": {
+                        "data": {
+                            "code": "NCKS",
+                            "name": "Nocks Utility",
+                            "type": "blockchain",
+                            "decimals": "8",
+                            "use_for_balance": true,
+                            "increment": "0.00000001",
+                            "available": {
+                                "amount": "265005.16756484",
+                                "currency": "NCKS"
+                            },
+                            "resource": "currency"
+                        }
+                    },
+                    "quote_currency": {
+                        "data": {
+                            "code": "EUR",
+                            "name": "Euro",
+                            "type": "fiat",
+                            "decimals": "2",
+                            "use_for_balance": true,
+                            "increment": "0.01",
+                            "available": {
+                                "amount": "6739.80",
+                                "currency": "EUR"
+                            },
+                            "resource": "currency"
+                        }
+                    }
+                }
+            ],
+            "meta": {
+                "pagination": {
+                    "total": 18,
+                    "count": 15,
+                    "per_page": 15,
+                    "current_page": 1,
+                    "total_pages": 2,
+                    "links": {
+                        "next": "https://api.nocks.com/api/v2/trade-market?page=2"
+                    }
+                }
+            },
+            "status": 200
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:04:24 GMT",
+            "Content-Type",
+            "1172",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d1d4b75ca8d77b584da1a14dddc68cc581568120664; expires=Wed, 09-Sep-20 13:04:24 GMT; path=/; domain=.nocks.com; HttpOnly; Secure",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Cache-Control",
+            "no-cache, private",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS, PUT, DELETE",
+            "X-RateLimit-Limit",
+            "240",
+            "X-RateLimit-Remaining",
+            "239",
+            "Content-Security-Policy",
+            "default-src 'self' https://player.vimeo.com https://nocksapp.objects.frb.io https://*.pusher.com https://*.pusherapp.com wss://*.pusher.com wss://*.pusherapp.com https://*.trustpilot.com; connect-src 'self' https://nocksapp.objects.frb.io https://*.pusher.com https://*.pusherapp.com wss://*.pusher.com wss://*.pusherapp.com https://www.google-analytics.com; font-src 'self' https://nocksapp.objects.frb.io https://fonts.gstatic.com data: https:; frame-ancestors 'none'; img-src 'self' https://nocksapp.objects.frb.io https://www.google-analytics.com https://*.trustpilot.com data: https:; object-src https://nocksapp.objects.frb.io https://*.pusher.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://nocksapp.objects.frb.io https://ajax.googleapis.com https://code.jquery.com https://www.googletagmanager.com https://www.google-analytics.com https://js-agent.newrelic.com https://bam.nr-data.net https://ipinfo.io https://*.pusher.com https://*.pusherapp.com wss://*.pusher.com wss://*.pusherapp.com https://ajax.cloudflare.com https://*.trustpilot.com; style-src 'self' 'unsafe-inline' https://nocksapp.objects.frb.io https://fonts.googleapis.com https://*.trustpilot.com; upgrade-insecure-requests; report-uri https://nocks.report-uri.com/r/d/csp/enforce",
+            "Feature-Policy",
+            "accelerometer 'self'; ambient-light-sensor 'self'; camera 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture *; speaker 'self'; usb 'self'; vr 'self'",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "deny",
+            "X-Permitted-Cross-Domain-Policies",
+            "none",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Referrer-Policy",
+            "no-referrer",
+            "Vary",
+            "Accept-Encoding",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "51419b8a49cbdc17-LHR"
+        ]
+    }
+]

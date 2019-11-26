@@ -1,0 +1,165 @@
+[
+    {
+        "scope": "https://v1-1.api.token.store:443",
+        "method": "GET",
+        "path": "/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ETH_ETCC": {
+                "symbol": "ETCC",
+                "tokenAddr": "0x4add749fcd5a44ecad43dc6f3dafdd306bd931f8",
+                "quoteVolume": 1.58,
+                "baseVolume": 0.0003737964,
+                "ask": 0.00023658,
+                "bid": 0.00023658,
+                "last": null,
+                "percentChange": 0
+            },
+            "ETH_XCHF": {
+                "symbol": "XCHF",
+                "tokenAddr": "0xb4272071ecadd69d933adcd19ca99fe80664fc08",
+                "quoteVolume": 11.64,
+                "baseVolume": 0.795594,
+                "ask": 0.06835,
+                "bid": 0.06835,
+                "last": 0.06835,
+                "percentChange": 0
+            },
+            "ETH_TKP": {
+                "symbol": "TKP",
+                "tokenAddr": "0xd31695a1d35e489252ce57b129fd4b1b05e6acac",
+                "quoteVolume": 92300,
+                "baseVolume": 0.60918,
+                "ask": 0.0000066,
+                "bid": 0.0000066,
+                "last": 0.0000066,
+                "percentChange": 1.53846153846154
+            },
+            "ETH_ERC OLD": {
+                "symbol": "ERC OLD",
+                "tokenAddr": "0x26d5bd2dfeda983ecd6c39899e69dae6431dffbb",
+                "quoteVolume": 50,
+                "baseVolume": 2.0000000007e-8,
+                "ask": 4.0000000014e-10,
+                "bid": 4.0000000014e-10,
+                "last": null,
+                "percentChange": 0
+            },
+            "ETH_A": {
+                "symbol": "A",
+                "tokenAddr": "0xffc63b9146967a1ba33066fb057ee3722221acf0",
+                "quoteVolume": 5179,
+                "baseVolume": 0.5644428,
+                "ask": 0.00007401,
+                "bid": 0.0001259,
+                "last": 0.00007401,
+                "percentChange": -41.7244094488189
+            },
+            "ETH_IZI": {
+                "symbol": "IZI",
+                "tokenAddr": "0xdf59c8ba19b4d1437d80836b45f1319d9a429eed",
+                "quoteVolume": 11879,
+                "baseVolume": 0.135431854,
+                "ask": 0.000007026,
+                "bid": 0.000012223,
+                "last": 0.000007026,
+                "percentChange": -50.5280946345585
+            },
+            "ETH_EVN": {
+                "symbol": "EVN",
+                "tokenAddr": "0xd780ae2bf04cd96e577d3d014762f831d97129d0",
+                "quoteVolume": 1415.90067,
+                "baseVolume": 0.830460599893169,
+                "ask": 0.00031,
+                "bid": 0.0006679,
+                "last": 0.00031,
+                "percentChange": -53.5928143712575
+            },
+            "ETH_ETA": {
+                "symbol": "ETA",
+                "tokenAddr": "0x9195e00402abe385f2d00a32af40b271f2e87925",
+                "quoteVolume": 12500000,
+                "baseVolume": 0.49825,
+                "ask": 3.97e-8,
+                "bid": 4e-8,
+                "last": 4e-8,
+                "percentChange": 0
+            },
+            "ETH_BTR": {
+                "symbol": "BTR",
+                "tokenAddr": "0x945192524c6605d20be6c529dd318666b74078bc",
+                "quoteVolume": 2799999,
+                "baseVolume": 5.3199981,
+                "ask": 0.0000019,
+                "bid": 0.0000019,
+                "last": 0.0000019,
+                "percentChange": 0
+            },
+            "ETH_INO": {
+                "symbol": "INO",
+                "tokenAddr": "0xc9859fccc876e6b4b3c749c5d29ea04f48acb74f",
+                "quoteVolume": 1500,
+                "baseVolume": 15.274365,
+                "ask": 0.01018291,
+                "bid": 0.01018291,
+                "last": 0.01018291,
+                "percentChange": 0.00373188195860437
+            },
+            "ETH_EOST": {
+                "symbol": "EOST",
+                "tokenAddr": "0x87210f1d3422ba75b6c40c63c78d79324dabcd55",
+                "quoteVolume": 99843592.7075566,
+                "baseVolume": 37.17635859724,
+                "ask": 2.7e-7,
+                "bid": 3.900000000156e-7,
+                "last": 3.900000000156e-7,
+                "percentChange": 0
+            },
+            "ETH_TRXC": {
+                "symbol": "TRXC",
+                "tokenAddr": "0xad5fe5b0b8ec8ff4565204990e4405b2da117d8e",
+                "quoteVolume": 400406300,
+                "baseVolume": 0.544242132050298,
+                "ask": 1.33801501051542e-9,
+                "bid": 1.8100000002e-9,
+                "last": 1.8100000002e-9,
+                "percentChange": 19.8675496821192
+            },
+            "ETH_FREE": {
+                "symbol": "FREE",
+                "tokenAddr": "0x2f141ce366a2462f02cea3d12cf93e4dca49e4fd",
+                "quoteVolume": 17822126111,
+                "baseVolume": 12.98255233269,
+                "ask": 7e-10,
+                "bid": 1e-8,
+                "last": 1.2e-9,
+                "percentChange": 62.1842981631711
+            },
+            "ETH_EMPR": {
+                "symbol": "EMPR",
+                "tokenAddr": "0xe7d7b37e72510309db27c460378f957b1b04bd5d",
+                "quoteVolume": 100,
+                "baseVolume": 2.1697e-9,
+                "ask": 2.1697e-11,
+                "bid": 2.1697e-11,
+                "last": null,
+                "percentChange": 0
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.14.0",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:38 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Origin"
+        ]
+    }
+]

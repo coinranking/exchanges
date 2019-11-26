@@ -1,0 +1,213 @@
+[
+    {
+        "scope": "https://thoreexchange.com:443",
+        "method": "GET",
+        "path": "/api/public/tradeInstruments",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "symbol": "BTC-USD",
+                "baseCurrency": "BTC",
+                "quoteCurrency": "USD",
+                "feeCurrency": "USD",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "221.10000000",
+                "Lastprice": "10,314.00000000"
+            },
+            {
+                "symbol": "ETH-USD",
+                "baseCurrency": "ETH",
+                "quoteCurrency": "USD",
+                "feeCurrency": "USD",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "4,462.90000000",
+                "Lastprice": "180.00000000"
+            },
+            {
+                "symbol": "THE-BTC",
+                "baseCurrency": "THE",
+                "quoteCurrency": "BTC",
+                "feeCurrency": "BTC",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "127,030.00000000",
+                "Lastprice": "0.00027435"
+            },
+            {
+                "symbol": "THE-ETH",
+                "baseCurrency": "THE",
+                "quoteCurrency": "ETH",
+                "feeCurrency": "ETH",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "189,784.00000000",
+                "Lastprice": "0.00472300"
+            },
+            {
+                "symbol": "THR-BTC",
+                "baseCurrency": "THR",
+                "quoteCurrency": "BTC",
+                "feeCurrency": "BTC",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "5,119.00000000",
+                "Lastprice": "0.18580000"
+            },
+            {
+                "symbol": "THR-ETH",
+                "baseCurrency": "THR",
+                "quoteCurrency": "ETH",
+                "feeCurrency": "ETH",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "4,687.30000000",
+                "Lastprice": "11.50000000"
+            },
+            {
+                "symbol": "TCH-BTC",
+                "baseCurrency": "TCH",
+                "quoteCurrency": "BTC",
+                "feeCurrency": "BTC",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "530,598.00000000",
+                "Lastprice": "0.00050987"
+            },
+            {
+                "symbol": "TCH-ETH",
+                "baseCurrency": "TCH",
+                "quoteCurrency": "ETH",
+                "feeCurrency": "ETH",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "947,238.00000000",
+                "Lastprice": "0.02700000"
+            },
+            {
+                "symbol": "THX-BTC",
+                "baseCurrency": "THX",
+                "quoteCurrency": "BTC",
+                "feeCurrency": "BTC",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "161,425.00000000",
+                "Lastprice": "0.01879000"
+            },
+            {
+                "symbol": "TCHTRX-BTC",
+                "baseCurrency": "TCHTRX",
+                "quoteCurrency": "BTC",
+                "feeCurrency": "BTC",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "1,590,874.00000000",
+                "Lastprice": "0.00003912"
+            },
+            {
+                "symbol": "THORECOIN-BTC",
+                "baseCurrency": "THORECOIN",
+                "quoteCurrency": "BTC",
+                "feeCurrency": "BTC",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "0.00000000",
+                "Lastprice": "0.14000000"
+            },
+            {
+                "symbol": "THEX-ETH",
+                "baseCurrency": "THEX",
+                "quoteCurrency": "ETH",
+                "feeCurrency": "ETH",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "200,033.00000000",
+                "Lastprice": "0.04710000"
+            },
+            {
+                "symbol": "BTT-BTC",
+                "baseCurrency": "BTT",
+                "quoteCurrency": "BTC",
+                "feeCurrency": "BTC",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "0.00000000",
+                "Lastprice": "0.00000008"
+            },
+            {
+                "symbol": "THR-USD",
+                "baseCurrency": "THR",
+                "quoteCurrency": "USD",
+                "feeCurrency": "USD",
+                "supportedOrderTypes": [
+                    "limit",
+                    "market"
+                ],
+                "state": "active",
+                "Volume (24H)": "1,594.20000000",
+                "Lastprice": "1,879.00000000"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:04:30 GMT",
+            "Server",
+            "Apache",
+            "Cache-Control",
+            "no-cache, private",
+            "X-RateLimit-Limit",
+            "60",
+            "X-RateLimit-Remaining",
+            "59",
+            "Keep-Alive",
+            "timeout=5, max=100",
+            "Connection",
+            "Keep-Alive",
+            "Transfer-Encoding",
+            "chunked",
+            "Content-Type",
+            "application/json"
+        ]
+    }
+]

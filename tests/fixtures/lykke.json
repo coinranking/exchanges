@@ -1,0 +1,2061 @@
+[
+    {
+        "scope": "https://public-api.lykke.com:443",
+        "method": "GET",
+        "path": "/api/Market",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "assetPair": "LKK1YLKK",
+                "volume24H": 0,
+                "lastPrice": 0.98,
+                "bid": 0.97601,
+                "ask": 0.9998
+            },
+            {
+                "assetPair": "CLNBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000002,
+                "bid": 0.000001,
+                "ask": 0.000078
+            },
+            {
+                "assetPair": "WAXETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000086,
+                "ask": 0.000854
+            },
+            {
+                "assetPair": "VEEBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000001,
+                "bid": 0.000001,
+                "ask": 0.000002
+            },
+            {
+                "assetPair": "GNOETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.024325,
+                "ask": 0.247
+            },
+            {
+                "assetPair": "DEBBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000001,
+                "ask": 0.000008
+            },
+            {
+                "assetPair": "IOSTBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000001,
+                "bid": 4e-7,
+                "ask": 0.00003775
+            },
+            {
+                "assetPair": "USDJPY",
+                "volume24H": 0,
+                "lastPrice": 107.094,
+                "bid": 107.132,
+                "ask": 107.457
+            },
+            {
+                "assetPair": "AGIETH",
+                "volume24H": 0,
+                "lastPrice": 0.000163,
+                "bid": 0.000112,
+                "ask": 0.000198
+            },
+            {
+                "assetPair": "AMLTETH",
+                "volume24H": 0,
+                "lastPrice": 0.000002,
+                "bid": 0.000002,
+                "ask": 0.00003
+            },
+            {
+                "assetPair": "AGIBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000002,
+                "bid": 0.000002,
+                "ask": 0.000012
+            },
+            {
+                "assetPair": "XAGUSD",
+                "volume24H": 49.9759,
+                "lastPrice": 18.30622,
+                "bid": 17.75561,
+                "ask": 18.12139
+            },
+            {
+                "assetPair": "BTGBTC",
+                "volume24H": 0,
+                "lastPrice": 0.0014,
+                "bid": 0.0007627,
+                "ask": 0.0013464
+            },
+            {
+                "assetPair": "SLRGBP",
+                "volume24H": 1.9998,
+                "lastPrice": 0.02,
+                "bid": 0.019,
+                "ask": 0.0219
+            },
+            {
+                "assetPair": "REPETH",
+                "volume24H": 0,
+                "lastPrice": 0.062439,
+                "bid": 0.059153,
+                "ask": 0.065725
+            },
+            {
+                "assetPair": "LKKUSD",
+                "volume24H": 4.1644000000000005,
+                "lastPrice": 0.01039,
+                "bid": 0.01029,
+                "ask": 0.01094
+            },
+            {
+                "assetPair": "PLYCIUSD",
+                "volume24H": 0,
+                "lastPrice": 222.37,
+                "bid": 219.76,
+                "ask": 219.92
+            },
+            {
+                "assetPair": "LTCCHF",
+                "volume24H": 127.53999999999999,
+                "lastPrice": 71.31700326,
+                "bid": 70.131798,
+                "ask": 70.429359
+            },
+            {
+                "assetPair": "APPCETH",
+                "volume24H": 0,
+                "lastPrice": 0.000237,
+                "bid": 0.000236,
+                "ask": 0.000286
+            },
+            {
+                "assetPair": "NEOEUR",
+                "volume24H": 0,
+                "lastPrice": 10.7,
+                "bid": 2.6006,
+                "ask": 11.2
+            },
+            {
+                "assetPair": "SLRCHF",
+                "volume24H": 1.2248,
+                "lastPrice": 0.02450001,
+                "bid": 0.02431,
+                "ask": 0.02458778
+            },
+            {
+                "assetPair": "AEETH",
+                "volume24H": 0,
+                "lastPrice": 0.002,
+                "bid": 0.001438,
+                "ask": 0.002465
+            },
+            {
+                "assetPair": "HCPBTC",
+                "volume24H": 0,
+                "lastPrice": 0.00003,
+                "bid": 0.00003,
+                "ask": 0.000033
+            },
+            {
+                "assetPair": "BCHBTC",
+                "volume24H": 0.00288612,
+                "lastPrice": 0.029656,
+                "bid": 0.029795,
+                "ask": 0.029917
+            },
+            {
+                "assetPair": "BNTETH",
+                "volume24H": 0,
+                "lastPrice": 0.002322,
+                "bid": 0.001997,
+                "ask": 0.002494
+            },
+            {
+                "assetPair": "ZRXBTC",
+                "volume24H": 0,
+                "lastPrice": 0.00004863,
+                "bid": 0.000014,
+                "ask": 0.00006137
+            },
+            {
+                "assetPair": "BTCUSD",
+                "volume24H": 29920.182999999997,
+                "lastPrice": 10247.238,
+                "bid": 10242.746,
+                "ask": 10267.257
+            },
+            {
+                "assetPair": "KINBTC",
+                "volume24H": 0.06174607000000004,
+                "lastPrice": 1.3e-9,
+                "bid": 1.1e-9,
+                "ask": 1.4e-9
+            },
+            {
+                "assetPair": "USDCZK",
+                "volume24H": 0,
+                "lastPrice": 22.84819,
+                "bid": 23.39025,
+                "ask": 23.46775
+            },
+            {
+                "assetPair": "STORJETH",
+                "volume24H": 0,
+                "lastPrice": 0.000824,
+                "bid": 0.000783,
+                "ask": 0.000868
+            },
+            {
+                "assetPair": "USDSGD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 1.37732,
+                "ask": 1.38157
+            },
+            {
+                "assetPair": "CVCETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000072,
+                "ask": 0.000742
+            },
+            {
+                "assetPair": "LTCUSD",
+                "volume24H": 0,
+                "lastPrice": 69.746677,
+                "bid": 70.814115,
+                "ask": 71.107036
+            },
+            {
+                "assetPair": "PASSBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 2.4e-7,
+                "ask": 0.00000279
+            },
+            {
+                "assetPair": "PCLcoinBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0.289
+            },
+            {
+                "assetPair": "ETHCHF",
+                "volume24H": 722.6534,
+                "lastPrice": 180.62919,
+                "bid": 178.89093,
+                "ask": 179.69952
+            },
+            {
+                "assetPair": "LKK1YGBP",
+                "volume24H": 0,
+                "lastPrice": 0.0088,
+                "bid": 0.008,
+                "ask": 0.00888
+            },
+            {
+                "assetPair": "GBPJPY",
+                "volume24H": 0,
+                "lastPrice": 130,
+                "bid": 132.051,
+                "ask": 133.389
+            },
+            {
+                "assetPair": "HBZBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000001,
+                "ask": 0.000002
+            },
+            {
+                "assetPair": "USDMXN",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 19.49698,
+                "ask": 19.55982
+            },
+            {
+                "assetPair": "WPRBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 1.4e-7,
+                "ask": 0.00000276
+            },
+            {
+                "assetPair": "LKK1YUSD",
+                "volume24H": 0,
+                "lastPrice": 0.01131,
+                "bid": 0.01019,
+                "ask": 0.01131
+            },
+            {
+                "assetPair": "ZILETH",
+                "volume24H": 0,
+                "lastPrice": 0.000051,
+                "bid": 0.000032,
+                "ask": 0.000048
+            },
+            {
+                "assetPair": "BTCEUR",
+                "volume24H": 11994.2826,
+                "lastPrice": 9281.158,
+                "bid": 9274.617,
+                "ask": 9301.793
+            },
+            {
+                "assetPair": "HCPUSD",
+                "volume24H": 0,
+                "lastPrice": 0.35,
+                "bid": 0.31,
+                "ask": 0.36
+            },
+            {
+                "assetPair": "XPDUSD",
+                "volume24H": 0,
+                "lastPrice": 1340,
+                "bid": 1340,
+                "ask": 2987
+            },
+            {
+                "assetPair": "XRPCHF",
+                "volume24H": 49.9942,
+                "lastPrice": 0.25773,
+                "bid": 0.25955,
+                "ask": 0.26069
+            },
+            {
+                "assetPair": "VETcoinETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.00002585,
+                "ask": 0.00003184
+            },
+            {
+                "assetPair": "XLMUSD",
+                "volume24H": 4.1645,
+                "lastPrice": 0.069,
+                "bid": 0.0621001,
+                "ask": 0.069
+            },
+            {
+                "assetPair": "ETHOSETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000313,
+                "ask": 0.000555
+            },
+            {
+                "assetPair": "ENGETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.00042,
+                "ask": 0.01
+            },
+            {
+                "assetPair": "ETHBTC",
+                "volume24H": 0.45027750999999994,
+                "lastPrice": 0.01775,
+                "bid": 0.01763,
+                "ask": 0.01771
+            },
+            {
+                "assetPair": "VEEETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000007,
+                "ask": 0.000033
+            },
+            {
+                "assetPair": "TIMEGBP",
+                "volume24H": 36.0928,
+                "lastPrice": 1.5,
+                "bid": 1.4,
+                "ask": 1.9
+            },
+            {
+                "assetPair": "DATBTC",
+                "volume24H": 0,
+                "lastPrice": 2.2e-7,
+                "bid": 2.1e-7,
+                "ask": 2.6e-7
+            },
+            {
+                "assetPair": "EOScoinETH",
+                "volume24H": 0,
+                "lastPrice": 0.020278,
+                "bid": 0.015274,
+                "ask": 0.026877
+            },
+            {
+                "assetPair": "USDZAR",
+                "volume24H": 0,
+                "lastPrice": 15.31092,
+                "bid": 14.64081,
+                "ask": 14.69327
+            },
+            {
+                "assetPair": "EURJPY",
+                "volume24H": 0,
+                "lastPrice": 116.398,
+                "bid": 118.273,
+                "ask": 118.635
+            },
+            {
+                "assetPair": "DENTETH",
+                "volume24H": 0,
+                "lastPrice": 0.000002,
+                "bid": 0.000002,
+                "ask": 0.00002
+            },
+            {
+                "assetPair": "AMLTBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000001,
+                "bid": 0.000001,
+                "ask": 0.000028
+            },
+            {
+                "assetPair": "DCRBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.00088536,
+                "ask": 0.00796821
+            },
+            {
+                "assetPair": "SLRUSD",
+                "volume24H": 0,
+                "lastPrice": 0.0268,
+                "bid": 0.0241,
+                "ask": 0.02689999
+            },
+            {
+                "assetPair": "PASSETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.00001332,
+                "ask": 0.00015656
+            },
+            {
+                "assetPair": "DASHUSD",
+                "volume24H": 0,
+                "lastPrice": 80,
+                "bid": 80,
+                "ask": 100
+            },
+            {
+                "assetPair": "XEMUSD",
+                "volume24H": 0,
+                "lastPrice": 0.999999,
+                "bid": 0.017915,
+                "ask": 0.161238
+            },
+            {
+                "assetPair": "LTCBTC",
+                "volume24H": 0.02110122,
+                "lastPrice": 0.00690548,
+                "bid": 0.00691268,
+                "ask": 0.00693814
+            },
+            {
+                "assetPair": "KINETH",
+                "volume24H": 0.006,
+                "lastPrice": 1.2e-7,
+                "bid": 7e-8,
+                "ask": 1.4e-7
+            },
+            {
+                "assetPair": "USDHKD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 7.82837,
+                "ask": 7.8522
+            },
+            {
+                "assetPair": "HBZETH",
+                "volume24H": 0,
+                "lastPrice": 0.000004,
+                "bid": 0.000001,
+                "ask": 0.000004
+            },
+            {
+                "assetPair": "EURZAR",
+                "volume24H": 0,
+                "lastPrice": 16.21286,
+                "bid": 16.16551,
+                "ask": 16.21929
+            },
+            {
+                "assetPair": "XRPBTC",
+                "volume24H": 0.057337149999999996,
+                "lastPrice": 0.00002568,
+                "bid": 0.00002557,
+                "ask": 0.00002569
+            },
+            {
+                "assetPair": "TIMEETH",
+                "volume24H": 0.0119988,
+                "lastPrice": 0.012,
+                "bid": 0.009,
+                "ask": 0.014
+            },
+            {
+                "assetPair": "USDTRY",
+                "volume24H": 0,
+                "lastPrice": 5.7045,
+                "bid": 5.76399,
+                "ask": 5.78465
+            },
+            {
+                "assetPair": "KINUSD",
+                "volume24H": 1527.321999999999,
+                "lastPrice": 0.00001362,
+                "bid": 0.00001337,
+                "ask": 0.00001387
+            },
+            {
+                "assetPair": "ETHGBP",
+                "volume24H": 0,
+                "lastPrice": 139.3492,
+                "bid": 146.02383,
+                "ask": 146.66652
+            },
+            {
+                "assetPair": "EURUSD",
+                "volume24H": 760.3906000000001,
+                "lastPrice": 1.10241,
+                "bid": 1.10232,
+                "ask": 1.10556
+            },
+            {
+                "assetPair": "BTCLKK",
+                "volume24H": 3015.3,
+                "lastPrice": 975000,
+                "bid": 1000000,
+                "ask": 1058000
+            },
+            {
+                "assetPair": "AEBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000035,
+                "bid": 0.000034,
+                "ask": 0.000061
+            },
+            {
+                "assetPair": "EURCHF",
+                "volume24H": 562.4765,
+                "lastPrice": 1.09782,
+                "bid": 1.09167,
+                "ask": 1.09499
+            },
+            {
+                "assetPair": "CHFJPY",
+                "volume24H": 2529.8199999999997,
+                "lastPrice": 107.857,
+                "bid": 108.174,
+                "ask": 108.508
+            },
+            {
+                "assetPair": "USDILS",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 3.53368,
+                "ask": 3.54732
+            },
+            {
+                "assetPair": "HCPCHF",
+                "volume24H": 0,
+                "lastPrice": 0.32,
+                "bid": 0.3,
+                "ask": 0.32
+            },
+            {
+                "assetPair": "NEOBTC",
+                "volume24H": 0,
+                "lastPrice": 0.00116153,
+                "bid": 0.00081001,
+                "ask": 0.00109999
+            },
+            {
+                "assetPair": "IOSTETH",
+                "volume24H": 0,
+                "lastPrice": 0.0004599,
+                "bid": 0.0000148,
+                "ask": 0.0001685
+            },
+            {
+                "assetPair": "BTCLKK1Y",
+                "volume24H": 0,
+                "lastPrice": 985001,
+                "bid": 901000,
+                "ask": 1001111
+            },
+            {
+                "assetPair": "USDHUF",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 299.83951,
+                "ask": 300.81349
+            },
+            {
+                "assetPair": "HCPEUR",
+                "volume24H": 0,
+                "lastPrice": 0.3,
+                "bid": 0.28,
+                "ask": 0.3
+            },
+            {
+                "assetPair": "GATETH",
+                "volume24H": 0,
+                "lastPrice": 0.000005,
+                "bid": 0.000002,
+                "ask": 0.000017
+            },
+            {
+                "assetPair": "RBTCUSD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.01,
+                "ask": 0
+            },
+            {
+                "assetPair": "BNTBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000044,
+                "bid": 0.000028,
+                "ask": 0.000055
+            },
+            {
+                "assetPair": "STORJBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000016,
+                "bid": 0.000005,
+                "ask": 0.000017
+            },
+            {
+                "assetPair": "XLMBTC",
+                "volume24H": 0,
+                "lastPrice": 0.0000059,
+                "bid": 0.000006,
+                "ask": 0.0000061
+            },
+            {
+                "assetPair": "DTHBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000001,
+                "bid": 0.000001,
+                "ask": 0.000003
+            },
+            {
+                "assetPair": "GLXUSD",
+                "volume24H": 66.8046,
+                "lastPrice": 1.1137,
+                "bid": 1.074,
+                "ask": 1.1137
+            },
+            {
+                "assetPair": "DATETH",
+                "volume24H": 0,
+                "lastPrice": 0.00000971,
+                "bid": 0.00000971,
+                "ask": 0.00002087
+            },
+            {
+                "assetPair": "TIMEUSD",
+                "volume24H": 3.9981,
+                "lastPrice": 2,
+                "bid": 1.8,
+                "ask": 2.5
+            },
+            {
+                "assetPair": "STEEMUSD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.15,
+                "ask": 0.4
+            },
+            {
+                "assetPair": "PPTETH",
+                "volume24H": 0,
+                "lastPrice": 0.0027098,
+                "bid": 0.00156817,
+                "ask": 0.00278843
+            },
+            {
+                "assetPair": "USDPLN",
+                "volume24H": 0,
+                "lastPrice": 3.93261,
+                "bid": 3.9193,
+                "ask": 3.93202
+            },
+            {
+                "assetPair": "GASBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.00005776,
+                "ask": 0
+            },
+            {
+                "assetPair": "SLYCIUSD",
+                "volume24H": 0,
+                "lastPrice": 126.64,
+                "bid": 126.38,
+                "ask": 126.54
+            },
+            {
+                "assetPair": "VETcoinBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 1.4e-7,
+                "ask": 0.00000133
+            },
+            {
+                "assetPair": "DENTBTC",
+                "volume24H": 0,
+                "lastPrice": 1e-8,
+                "bid": 1e-8,
+                "ask": 0.00000119
+            },
+            {
+                "assetPair": "SLRBTC",
+                "volume24H": 0.0066796200000000016,
+                "lastPrice": 0.0000022,
+                "bid": 0.0000021,
+                "ask": 0.0000024
+            },
+            {
+                "assetPair": "EURGBP",
+                "volume24H": 0,
+                "lastPrice": 0.89521,
+                "bid": 0.88905,
+                "ask": 0.89672
+            },
+            {
+                "assetPair": "BMCBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000013,
+                "ask": 0
+            },
+            {
+                "assetPair": "LKKGBP",
+                "volume24H": 0,
+                "lastPrice": 0.00855,
+                "bid": 0.00815,
+                "ask": 0.00899
+            },
+            {
+                "assetPair": "LKK2YCHF",
+                "volume24H": 0,
+                "lastPrice": 0.01,
+                "bid": 0.0095,
+                "ask": 0.01
+            },
+            {
+                "assetPair": "LRCBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000001,
+                "ask": 0.000012
+            },
+            {
+                "assetPair": "ETCBTC",
+                "volume24H": 0,
+                "lastPrice": 0.00065,
+                "bid": 0.00045,
+                "ask": 0.00075
+            },
+            {
+                "assetPair": "USDCAD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 1.3141,
+                "ask": 1.3181
+            },
+            {
+                "assetPair": "AUDUSD",
+                "volume24H": 0,
+                "lastPrice": 0.67916,
+                "bid": 0.68505,
+                "ask": 0.68714
+            },
+            {
+                "assetPair": "SNMETH",
+                "volume24H": 0,
+                "lastPrice": 0.000037,
+                "bid": 0.000041,
+                "ask": 0.000072
+            },
+            {
+                "assetPair": "DTHETH",
+                "volume24H": 0,
+                "lastPrice": 0.00007,
+                "bid": 0.000005,
+                "ask": 0.000063
+            },
+            {
+                "assetPair": "DCRUSD",
+                "volume24H": 0,
+                "lastPrice": 16.5,
+                "bid": 8.38,
+                "ask": 75.42
+            },
+            {
+                "assetPair": "ZRXETH",
+                "volume24H": 0,
+                "lastPrice": 0.00105051,
+                "bid": 0.00084979,
+                "ask": 0.00105066
+            },
+            {
+                "assetPair": "USDDKK",
+                "volume24H": 0,
+                "lastPrice": 6.69989,
+                "bid": 6.74793,
+                "ask": 6.76846
+            },
+            {
+                "assetPair": "SLRJPY",
+                "volume24H": 0,
+                "lastPrice": 2.75,
+                "bid": 2.61,
+                "ask": 2.8
+            },
+            {
+                "assetPair": "GNTBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000007,
+                "bid": 0.000005,
+                "ask": 0.000008
+            },
+            {
+                "assetPair": "BTCGBP",
+                "volume24H": 1858.8165999999999,
+                "lastPrice": 8289.582,
+                "bid": 8270.022,
+                "ask": 8302.595
+            },
+            {
+                "assetPair": "MANAETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.00006,
+                "ask": 0.0006490000000000001
+            },
+            {
+                "assetPair": "OMGBTC",
+                "volume24H": 0.0000147,
+                "lastPrice": 0.000147,
+                "bid": 0.000095,
+                "ask": 0.000199
+            },
+            {
+                "assetPair": "BCHCHF",
+                "volume24H": 52.9079,
+                "lastPrice": 305.826,
+                "bid": 302.287,
+                "ask": 303.694
+            },
+            {
+                "assetPair": "MKRETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.91888713,
+                "ask": 8.60985136
+            },
+            {
+                "assetPair": "WPRETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.00000791,
+                "ask": 0.00015478
+            },
+            {
+                "assetPair": "ICONBTC",
+                "volume24H": 0,
+                "lastPrice": 0.00002099,
+                "bid": 0.000017,
+                "ask": 0.00002099
+            },
+            {
+                "assetPair": "GASUSD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.5467,
+                "ask": 0
+            },
+            {
+                "assetPair": "ZECUSD",
+                "volume24H": 0,
+                "lastPrice": 45,
+                "bid": 31,
+                "ask": 50
+            },
+            {
+                "assetPair": "GLXETH",
+                "volume24H": 0,
+                "lastPrice": 0.006,
+                "bid": 0.0055,
+                "ask": 0.0065
+            },
+            {
+                "assetPair": "DASHBTC",
+                "volume24H": 0,
+                "lastPrice": 0.00775,
+                "bid": 0.0075,
+                "ask": 0.00875
+            },
+            {
+                "assetPair": "GBPUSD",
+                "volume24H": 0,
+                "lastPrice": 1.22199,
+                "bid": 1.23074,
+                "ask": 1.24295
+            },
+            {
+                "assetPair": "AIONBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000234,
+                "bid": 0.000007,
+                "ask": 0.000032
+            },
+            {
+                "assetPair": "XRPETH",
+                "volume24H": 0,
+                "lastPrice": 0.0014562,
+                "bid": 0.0014477,
+                "ask": 0.0014539
+            },
+            {
+                "assetPair": "GASEUR",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.4937,
+                "ask": 0
+            },
+            {
+                "assetPair": "GNTETH",
+                "volume24H": 0,
+                "lastPrice": 0.000383,
+                "bid": 0.000301,
+                "ask": 0.000403
+            },
+            {
+                "assetPair": "USDNOK",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 8.95105,
+                "ask": 8.98025
+            },
+            {
+                "assetPair": "EOScoinUSD",
+                "volume24H": 0,
+                "lastPrice": 4.3,
+                "bid": 3.32,
+                "ask": 4
+            },
+            {
+                "assetPair": "ZECBTC",
+                "volume24H": 0.0005,
+                "lastPrice": 0.005,
+                "bid": 0.00012,
+                "ask": 0.00514
+            },
+            {
+                "assetPair": "APPCBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000006,
+                "bid": 0.000001,
+                "ask": 0.000007
+            },
+            {
+                "assetPair": "USDSEK",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 9.71061,
+                "ask": 9.74199
+            },
+            {
+                "assetPair": "REPBTC",
+                "volume24H": 0,
+                "lastPrice": 0.001259,
+                "bid": 0.000553,
+                "ask": 0.001629
+            },
+            {
+                "assetPair": "TIMECHF",
+                "volume24H": 196.6591,
+                "lastPrice": 2,
+                "bid": 1.9,
+                "ask": 2.1
+            },
+            {
+                "assetPair": "POWRETH",
+                "volume24H": 0,
+                "lastPrice": 0.0043,
+                "bid": 0.000211,
+                "ask": 0.000373
+            },
+            {
+                "assetPair": "LKKCHF",
+                "volume24H": 383.21220000000005,
+                "lastPrice": 0.0105,
+                "bid": 0.0105,
+                "ask": 0.0106
+            },
+            {
+                "assetPair": "BCHUSD",
+                "volume24H": 0,
+                "lastPrice": 300.421,
+                "bid": 305.234,
+                "ask": 306.617
+            },
+            {
+                "assetPair": "GLXBTC",
+                "volume24H": 0.016845999999999996,
+                "lastPrice": 0.000108,
+                "bid": 0.000096,
+                "ask": 0.000108
+            },
+            {
+                "assetPair": "ZILBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000001,
+                "bid": 0.000001,
+                "ask": 0.000002
+            },
+            {
+                "assetPair": "XEMBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.00000189,
+                "ask": 0.00001703
+            },
+            {
+                "assetPair": "OMGETH",
+                "volume24H": 0,
+                "lastPrice": 0.007396,
+                "bid": 0.006038,
+                "ask": 0.007396
+            },
+            {
+                "assetPair": "LKKEUR",
+                "volume24H": 0,
+                "lastPrice": 0.0098,
+                "bid": 0.0094,
+                "ask": 0.0098
+            },
+            {
+                "assetPair": "EOScoinBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000392,
+                "bid": 0.000301,
+                "ask": 0.000477
+            },
+            {
+                "assetPair": "TIMEBTC",
+                "volume24H": 0.00022989,
+                "lastPrice": 0.00023,
+                "bid": 0.00016,
+                "ask": 0.00024
+            },
+            {
+                "assetPair": "BMCETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000747,
+                "ask": 0
+            },
+            {
+                "assetPair": "XRPUSD",
+                "volume24H": 864.6048,
+                "lastPrice": 0.26066,
+                "bid": 0.26207,
+                "ask": 0.2632
+            },
+            {
+                "assetPair": "MKRBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.01636748,
+                "ask": 0.15336111
+            },
+            {
+                "assetPair": "TIMEEUR",
+                "volume24H": 11.3184,
+                "lastPrice": 1.6,
+                "bid": 1.6,
+                "ask": 2.1
+            },
+            {
+                "assetPair": "BTGUSD",
+                "volume24H": 0,
+                "lastPrice": 10.6,
+                "bid": 10,
+                "ask": 13
+            },
+            {
+                "assetPair": "REQETH",
+                "volume24H": 0,
+                "lastPrice": 0.0001,
+                "bid": 0.00002,
+                "ask": 0.000389
+            },
+            {
+                "assetPair": "USDRUB",
+                "volume24H": 0,
+                "lastPrice": 65.44502,
+                "bid": 65.33434,
+                "ask": 65.54366
+            },
+            {
+                "assetPair": "NEOUSD",
+                "volume24H": 0,
+                "lastPrice": 15.9,
+                "bid": 7.5501,
+                "ask": 15.89
+            },
+            {
+                "assetPair": "GLXEUR",
+                "volume24H": 50.204299999999996,
+                "lastPrice": 1.01,
+                "bid": 0.97,
+                "ask": 1.0086
+            },
+            {
+                "assetPair": "CVCBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000001,
+                "ask": 0.000027
+            },
+            {
+                "assetPair": "GNOBTC",
+                "volume24H": 0,
+                "lastPrice": 0.0014,
+                "bid": 0.00015,
+                "ask": 0.01141
+            },
+            {
+                "assetPair": "GBPCHF",
+                "volume24H": 36.5418,
+                "lastPrice": 1.23057,
+                "bid": 1.22,
+                "ask": 1.23122
+            },
+            {
+                "assetPair": "USDCHF",
+                "volume24H": 814.0625,
+                "lastPrice": 0.98991,
+                "bid": 0.98882,
+                "ask": 0.99188
+            },
+            {
+                "assetPair": "ETHUSD",
+                "volume24H": 2292.0687,
+                "lastPrice": 180.42775,
+                "bid": 180.6192,
+                "ask": 181.42124
+            },
+            {
+                "assetPair": "AIONETH",
+                "volume24H": 0,
+                "lastPrice": 0.0006,
+                "bid": 0.0006,
+                "ask": 0.00177
+            },
+            {
+                "assetPair": "DNTETH",
+                "volume24H": 0,
+                "lastPrice": 0.000048,
+                "bid": 0.000039,
+                "ask": 0.000051
+            },
+            {
+                "assetPair": "LKKJPY",
+                "volume24H": 0,
+                "lastPrice": 1.12,
+                "bid": 1.1,
+                "ask": 1.15
+            },
+            {
+                "assetPair": "BTCCHF",
+                "volume24H": 6746.2871000000005,
+                "lastPrice": 10158.83,
+                "bid": 10125.864,
+                "ask": 10159
+            },
+            {
+                "assetPair": "KEYETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000003,
+                "ask": 0.00045
+            },
+            {
+                "assetPair": "REQBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000002,
+                "bid": 0.000001,
+                "ask": 0.000007
+            },
+            {
+                "assetPair": "STEEMBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.00001,
+                "ask": 0.00017985
+            },
+            {
+                "assetPair": "TIMEJPY",
+                "volume24H": 1249.38,
+                "lastPrice": 250,
+                "bid": 112,
+                "ask": 293
+            },
+            {
+                "assetPair": "LRCETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0.000057,
+                "ask": 0.000677
+            },
+            {
+                "assetPair": "ETHEUR",
+                "volume24H": 180.0597,
+                "lastPrice": 165.06491,
+                "bid": 163.60623,
+                "ask": 164.34418
+            },
+            {
+                "assetPair": "LKK1YEUR",
+                "volume24H": 0,
+                "lastPrice": 0.00756,
+                "bid": 0.00633,
+                "ask": 0.00972
+            },
+            {
+                "assetPair": "VLDETH",
+                "volume24H": 0,
+                "lastPrice": 0.00001087,
+                "bid": 0.0000065,
+                "ask": 0.000011
+            },
+            {
+                "assetPair": "MANABTC",
+                "volume24H": 0,
+                "lastPrice": 0.000004,
+                "bid": 0.000002,
+                "ask": 0.000012
+            },
+            {
+                "assetPair": "XRPEUR",
+                "volume24H": 9.9988,
+                "lastPrice": 0.23728,
+                "bid": 0.23738,
+                "ask": 0.23842
+            },
+            {
+                "assetPair": "WAXBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000004,
+                "bid": 0.000003,
+                "ask": 0.000014
+            },
+            {
+                "assetPair": "BTCJPY",
+                "volume24H": 0,
+                "lastPrice": 1100699.6,
+                "bid": 1097101.8,
+                "ask": 1101700.6
+            },
+            {
+                "assetPair": "BTSUSD",
+                "volume24H": 0.2266,
+                "lastPrice": 0.045321,
+                "bid": 0.034957,
+                "ask": 0.050356
+            },
+            {
+                "assetPair": "BTSBTC",
+                "volume24H": 0.0000203,
+                "lastPrice": 0.00000406,
+                "bid": 0.00000366,
+                "ask": 0.00000534
+            },
+            {
+                "assetPair": "VLDBTC",
+                "volume24H": 0,
+                "lastPrice": 2e-7,
+                "bid": 6e-8,
+                "ask": 2.4e-7
+            },
+            {
+                "assetPair": "LYCIUSD",
+                "volume24H": 160.6597,
+                "lastPrice": 255.63,
+                "bid": 255.73,
+                "ask": 255.89
+            },
+            {
+                "assetPair": "XAUUSD",
+                "volume24H": 481.6252,
+                "lastPrice": 1504.2427,
+                "bid": 1478.43549,
+                "ask": 1508.4645
+            },
+            {
+                "assetPair": "ETHLKK",
+                "volume24H": 14298.649999999994,
+                "lastPrice": 17022,
+                "bid": 16951,
+                "ask": 17244
+            },
+            {
+                "assetPair": "SLREUR",
+                "volume24H": 17.9299,
+                "lastPrice": 0.02232,
+                "bid": 0.02232,
+                "ask": 0.0235
+            },
+            {
+                "assetPair": "ETCUSD",
+                "volume24H": 0,
+                "lastPrice": 6.5,
+                "bid": 5.1,
+                "ask": 7
+            },
+            {
+                "assetPair": "LKK1YCHF",
+                "volume24H": 0,
+                "lastPrice": 0.0106,
+                "bid": 0.01036,
+                "ask": 0.01148
+            },
+            {
+                "assetPair": "AIRBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "AIRETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "BSVBTC",
+                "volume24H": 0,
+                "lastPrice": 0.015498,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "BSVUSD",
+                "volume24H": 0,
+                "lastPrice": 190,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "CANBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "CANETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "CLNETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "DEBETH",
+                "volume24H": 0,
+                "lastPrice": 0.000049,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "DNTBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000001,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "ENGBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000035,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "EOSBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "EOSETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "ETHOSBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "ETMETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "ETMcoinBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "ETMcoinETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "EVXBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "EVXETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "FDZBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "FDZETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "FRECBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "FRECETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "GATBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "GB032548USD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "GCPBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "GCPETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "GCPcoinBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000001,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "GCPcoinETH",
+                "volume24H": 0,
+                "lastPrice": 0.00005,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "GVTBTC",
+                "volume24H": 0,
+                "lastPrice": 0.00035,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "GVTETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "HCPGBP",
+                "volume24H": 0,
+                "lastPrice": 0.27,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "HGTBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "HGTETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "HMQBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "HOTBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "HOTETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "HVNBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "HVNETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "ICXBTC",
+                "volume24H": 0,
+                "lastPrice": 0.00005,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "ICXETH",
+                "volume24H": 0,
+                "lastPrice": 0.00123,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "ICXEUR",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "ICXUSD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "INDBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "INDETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "IPSBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "IPSETH",
+                "volume24H": 0,
+                "lastPrice": 0.001,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "KEYBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000001,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "LCBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "LCDBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "LCDETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "LCETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "LGLBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "LGLETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "LKK1YJPY",
+                "volume24H": 0,
+                "lastPrice": 1.398,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "LOCBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "LOCETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "MCOBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "MSPBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "MSPETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "MTLBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "MTLETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "MWATBTC",
+                "volume24H": 0,
+                "lastPrice": 0.000002,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "MWATETH",
+                "volume24H": 0,
+                "lastPrice": 0.00006,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "MYSTBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "MYSTETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "PCLBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "PCLETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "PCLcoinETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "PKTBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "PKTETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "POWRBTC",
+                "volume24H": 0,
+                "lastPrice": 0.00002,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "PPTBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "QNTUBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "QNTUETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "RBTCBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "RBTCETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "RRBCHF",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "RRBEUR",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "RRBGBP",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "RRBUSD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "SHEELA",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "SHORTLYCITESTUSD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "SNMBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "SUBBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "SUBETH",
+                "volume24H": 0,
+                "lastPrice": 0.000005,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "TLCItestUSD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "USDNZD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "VAA017427USD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "VAA022325USD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "VAA025876USD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "VETBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "VETETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "VIBBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "VIBETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "WTCBTC",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "WTCETH",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "XPTUSD",
+                "volume24H": 0,
+                "lastPrice": 850,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "testPUSD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            },
+            {
+                "assetPair": "testSCUSD",
+                "volume24H": 0,
+                "lastPrice": 0,
+                "bid": 0,
+                "ask": 0
+            }
+        ],
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.0 (Ubuntu)",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:18 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Request-Context",
+            "appId=cid-v1:f3d21ed7-805d-4d78-b43f-15f9702ec589",
+            "X-Rate-Limit-Limit",
+            "10s",
+            "X-Rate-Limit-Remaining",
+            "0",
+            "X-Rate-Limit-Reset",
+            "2019-09-10T13:04:28.2474423Z"
+        ]
+    }
+]

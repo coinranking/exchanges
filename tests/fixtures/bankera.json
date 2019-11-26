@@ -1,0 +1,397 @@
+[
+    {
+        "scope": "https://api-exchange.bankera.com:443",
+        "method": "GET",
+        "path": "/tickers",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "ticker": {
+                    "id": 1,
+                    "high": "0.02180900",
+                    "low": "0.02159100",
+                    "bid": "0.02187500",
+                    "ask": "0.02187700",
+                    "last": "0.02180800",
+                    "volume": "0.721868000000000000",
+                    "timestamp": "1570439612833"
+                },
+                "market": "eth-btc"
+            },
+            {
+                "ticker": {
+                    "id": 2,
+                    "high": "0.00000016",
+                    "low": "0.00000016",
+                    "bid": "0.00000015",
+                    "ask": "0.00000016",
+                    "last": "0.00000016",
+                    "volume": "0.00000000",
+                    "timestamp": "1570439612838"
+                },
+                "market": "bnk-btc"
+            },
+            {
+                "ticker": {
+                    "id": 3,
+                    "high": "0.000007400000000000",
+                    "low": "0.000007400000000000",
+                    "bid": "0.000007150000000000",
+                    "ask": "0.000007500000000000",
+                    "last": "0.000007400000000000",
+                    "volume": "0.00000000",
+                    "timestamp": "1570439612842"
+                },
+                "market": "bnk-eth"
+            },
+            {
+                "ticker": {
+                    "id": 4,
+                    "high": "0.00000498",
+                    "low": "0.00000498",
+                    "bid": "0.00000495",
+                    "ask": "0.00000501",
+                    "last": "0.00000498",
+                    "volume": "1884.811370",
+                    "timestamp": "1570439612847"
+                },
+                "market": "xem-btc"
+            },
+            {
+                "ticker": {
+                    "id": 5,
+                    "high": "0.00880500",
+                    "low": "0.00867300",
+                    "bid": "0.00875000",
+                    "ask": "0.00875100",
+                    "last": "0.00877400",
+                    "volume": "3.67042700",
+                    "timestamp": "1570439612852"
+                },
+                "market": "dash-btc"
+            },
+            {
+                "ticker": {
+                    "id": 6,
+                    "high": "8008.110000",
+                    "low": "7813.990000",
+                    "bid": "7878.440000",
+                    "ask": "7880.090000",
+                    "last": "7916.130000",
+                    "volume": "0.02596200",
+                    "timestamp": "1570439612856"
+                },
+                "market": "btc-usdt"
+            },
+            {
+                "ticker": {
+                    "id": 7,
+                    "high": "0.001261",
+                    "low": "0.001215",
+                    "bid": "0.001207",
+                    "ask": "0.001358",
+                    "last": "0.001215",
+                    "volume": "4755.00000000",
+                    "timestamp": "1570439612861"
+                },
+                "market": "bnk-usdt"
+            },
+            {
+                "ticker": {
+                    "id": 8,
+                    "high": "70.550000",
+                    "low": "69.440000",
+                    "bid": "68.900000",
+                    "ask": "68.910000",
+                    "last": "69.440000",
+                    "volume": "0.74700000",
+                    "timestamp": "1570439612865"
+                },
+                "market": "dash-usdt"
+            },
+            {
+                "ticker": {
+                    "id": 9,
+                    "high": "173.130000",
+                    "low": "169.520000",
+                    "bid": "171.410000",
+                    "ask": "173.480000",
+                    "last": "173.130000",
+                    "volume": "0.309420000000000000",
+                    "timestamp": "1570439612870"
+                },
+                "market": "eth-usdt"
+            },
+            {
+                "ticker": {
+                    "id": 10,
+                    "high": "0.039753",
+                    "low": "0.038842",
+                    "bid": "0.039179",
+                    "ask": "0.039332",
+                    "last": "0.038842",
+                    "volume": "1639.000000",
+                    "timestamp": "1570439612875"
+                },
+                "market": "xem-usdt"
+            },
+            {
+                "ticker": {
+                    "id": 11,
+                    "high": "212.00000000",
+                    "low": "203.00000000",
+                    "bid": "204.00000000",
+                    "ask": "225.00000000",
+                    "last": "203.00000000",
+                    "volume": "63.622350",
+                    "timestamp": "1570439612879"
+                },
+                "market": "xrp-bnk"
+            },
+            {
+                "ticker": {
+                    "id": 12,
+                    "high": "0.00003182",
+                    "low": "0.00003182",
+                    "bid": "0.00003372",
+                    "ask": "0.00003410",
+                    "last": "0.00003182",
+                    "volume": "15.000000",
+                    "timestamp": "1570439612884"
+                },
+                "market": "xrp-btc"
+            },
+            {
+                "ticker": {
+                    "id": 13,
+                    "high": "0.001505510000000000",
+                    "low": "0.001498790000000000",
+                    "bid": "0.001546730000000000",
+                    "ask": "0.001552370000000000",
+                    "last": "0.001505510000000000",
+                    "volume": "114.000000",
+                    "timestamp": "1570439612888"
+                },
+                "market": "xrp-eth"
+            },
+            {
+                "ticker": {
+                    "id": 14,
+                    "high": "0.266160",
+                    "low": "0.251810",
+                    "bid": "0.265940",
+                    "ask": "0.268760",
+                    "last": "0.266160",
+                    "volume": "97.700000",
+                    "timestamp": "1570439612893"
+                },
+                "market": "xrp-usdt"
+            },
+            {
+                "ticker": {
+                    "id": 15,
+                    "high": "45.00000000",
+                    "low": "45.00000000",
+                    "bid": "46.00000000",
+                    "ask": "50.00000000",
+                    "last": "45.00000000",
+                    "volume": "157.6781300",
+                    "timestamp": "1570439612897"
+                },
+                "market": "xlm-bnk"
+            },
+            {
+                "ticker": {
+                    "id": 16,
+                    "high": "0.00000724",
+                    "low": "0.00000724",
+                    "bid": "0.00000760",
+                    "ask": "0.00000769",
+                    "last": "0.00000724",
+                    "volume": "0.0000000",
+                    "timestamp": "1570439612902"
+                },
+                "market": "xlm-btc"
+            },
+            {
+                "ticker": {
+                    "id": 17,
+                    "high": "0.000343620000000000",
+                    "low": "0.000340210000000000",
+                    "bid": "0.000349110000000000",
+                    "ask": "0.000350720000000000",
+                    "last": "0.000343620000000000",
+                    "volume": "366.0000000",
+                    "timestamp": "1570439612906"
+                },
+                "market": "xlm-eth"
+            },
+            {
+                "ticker": {
+                    "id": 18,
+                    "high": "0.058860",
+                    "low": "0.058860",
+                    "bid": "0.060210",
+                    "ask": "0.060260",
+                    "last": "0.058860",
+                    "volume": "0.0000000",
+                    "timestamp": "1570439612910"
+                },
+                "market": "xlm-usdt"
+            },
+            {
+                "ticker": {
+                    "id": 19,
+                    "high": "45608.00000000",
+                    "low": "45608.00000000",
+                    "bid": "42700.00000000",
+                    "ask": "46252.00000000",
+                    "last": "45608.00000000",
+                    "volume": "0.00000000",
+                    "timestamp": "1570439612915"
+                },
+                "market": "ltc-bnk"
+            },
+            {
+                "ticker": {
+                    "id": 20,
+                    "high": "0.00701700",
+                    "low": "0.00701700",
+                    "bid": "0.00694200",
+                    "ask": "0.00701800",
+                    "last": "0.00701700",
+                    "volume": "0.28000000",
+                    "timestamp": "1570439612920"
+                },
+                "market": "ltc-btc"
+            },
+            {
+                "ticker": {
+                    "id": 21,
+                    "high": "0.319870000000000000",
+                    "low": "0.318690000000000000",
+                    "bid": "0.318420000000000000",
+                    "ask": "0.319450000000000000",
+                    "last": "0.318690000000000000",
+                    "volume": "0.15400000",
+                    "timestamp": "1570439612924"
+                },
+                "market": "ltc-eth"
+            },
+            {
+                "ticker": {
+                    "id": 22,
+                    "high": "56.610000",
+                    "low": "56.610000",
+                    "bid": "55.000000",
+                    "ask": "55.030000",
+                    "last": "56.610000",
+                    "volume": "0.00000000",
+                    "timestamp": "1570439612929"
+                },
+                "market": "ltc-usdt"
+            },
+            {
+                "ticker": {
+                    "id": 23,
+                    "high": "29980.00000000",
+                    "low": "29980.00000000",
+                    "bid": "27742.00000000",
+                    "ask": "30607.00000000",
+                    "last": "29980.00000000",
+                    "volume": "0.00000000",
+                    "timestamp": "1570439612933"
+                },
+                "market": "zec-bnk"
+            },
+            {
+                "ticker": {
+                    "id": 24,
+                    "high": "0.00455100",
+                    "low": "0.00451700",
+                    "bid": "0.00461400",
+                    "ask": "0.00462100",
+                    "last": "0.00453500",
+                    "volume": "0.66000000",
+                    "timestamp": "1570439612938"
+                },
+                "market": "zec-btc"
+            },
+            {
+                "ticker": {
+                    "id": 25,
+                    "high": "0.213260000000000000",
+                    "low": "0.213260000000000000",
+                    "bid": "0.210430000000000000",
+                    "ask": "0.211690000000000000",
+                    "last": "0.213260000000000000",
+                    "volume": "0.07100000",
+                    "timestamp": "1570439612942"
+                },
+                "market": "zec-eth"
+            },
+            {
+                "ticker": {
+                    "id": 26,
+                    "high": "36.800000",
+                    "low": "36.800000",
+                    "bid": "36.340000",
+                    "ask": "36.430000",
+                    "last": "36.800000",
+                    "volume": "0.00000000",
+                    "timestamp": "1570439612947"
+                },
+                "market": "zec-usdt"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Mon, 07 Oct 2019 09:13:33 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d80365dbdc41d130e7ec149e07e836d331570439612; expires=Tue, 06-Oct-20 09:13:32 GMT; path=/; domain=.bankera.com; HttpOnly; Secure",
+            "Access-Control-Max-Age",
+            "-1",
+            "Allow",
+            "GET",
+            "X-Kong-Upstream-Latency",
+            "140",
+            "X-Kong-Proxy-Latency",
+            "0",
+            "Via",
+            "kong/1.2.1",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Cache-Control",
+            "no-cache, no-store, max-age=0, must-revalidate",
+            "Pragma",
+            "no-cache",
+            "Expires",
+            "0",
+            "X-Frame-Options",
+            "DENY",
+            "X-Frame-Options",
+            "DENY",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains; preload",
+            "Alt-Svc",
+            "h3-23=\":443\"; ma=86400",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

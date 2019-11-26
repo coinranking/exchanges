@@ -1,0 +1,242 @@
+[
+    {
+        "scope": "https://ice3x.com:443",
+        "method": "GET",
+        "path": "/api/v1/stats/marketdepthfull",
+        "body": "",
+        "status": 200,
+        "response": {
+            "errors": false,
+            "response": {
+                "entities": [
+                    {
+                        "pair_id": "3",
+                        "min": "160027.00",
+                        "max": "164019.00",
+                        "avg": "163644.80813823",
+                        "vol": "1.5806462",
+                        "pair_name": "btc/zar",
+                        "last_price": "160550.4473961"
+                    },
+                    {
+                        "pair_id": "4",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "btc/ngn",
+                        "last_price": "31000000.00"
+                    },
+                    {
+                        "pair_id": "6",
+                        "min": "1000.00",
+                        "max": "1100.00",
+                        "avg": "1010.69091803",
+                        "vol": "6.90162221",
+                        "pair_name": "ltc/zar",
+                        "last_price": "1000.0001"
+                    },
+                    {
+                        "pair_id": "11",
+                        "min": "2695.00",
+                        "max": "2921.4917658",
+                        "avg": "2707.96121196",
+                        "vol": "7.09408751",
+                        "pair_name": "eth/zar",
+                        "last_price": "2750.00"
+                    },
+                    {
+                        "pair_id": "12",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "eth/ngn",
+                        "last_price": "96333.00"
+                    },
+                    {
+                        "pair_id": "13",
+                        "min": "0.017502",
+                        "max": "0.0182",
+                        "avg": "0.01764452",
+                        "vol": "9.01314347",
+                        "pair_name": "eth/btc",
+                        "last_price": "0.017682"
+                    },
+                    {
+                        "pair_id": "14",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "bch/btc",
+                        "last_price": "0.17"
+                    },
+                    {
+                        "pair_id": "15",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "bch/zar",
+                        "last_price": "5000.00"
+                    },
+                    {
+                        "pair_id": "16",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "ltc/btc",
+                        "last_price": "0.0149"
+                    },
+                    {
+                        "pair_id": "17",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "zec/btc",
+                        "last_price": "0.01"
+                    },
+                    {
+                        "pair_id": "18",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "dash/btc",
+                        "last_price": "0.06"
+                    },
+                    {
+                        "pair_id": "19",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "doge/btc",
+                        "last_price": "0.00000037"
+                    },
+                    {
+                        "pair_id": "20",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "xmr/btc",
+                        "last_price": "0.0075"
+                    },
+                    {
+                        "pair_id": "21",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "xmr/zar",
+                        "last_price": "1250.00"
+                    },
+                    {
+                        "pair_id": "23",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "neo/btc",
+                        "last_price": "0.00699999"
+                    },
+                    {
+                        "pair_id": "24",
+                        "min": "0.69066197",
+                        "max": "0.71",
+                        "avg": "0.69660874",
+                        "vol": "2317.23254639",
+                        "pair_name": "ada/zar",
+                        "last_price": "0.69066197"
+                    },
+                    {
+                        "pair_id": "25",
+                        "min": "0.0000045",
+                        "max": "0.0000047",
+                        "avg": "0.00000458",
+                        "vol": "15033.4821647",
+                        "pair_name": "ada/btc",
+                        "last_price": "0.0000046"
+                    },
+                    {
+                        "pair_id": "26",
+                        "min": "3.70026739",
+                        "max": "4.15",
+                        "avg": "3.91527979",
+                        "vol": "1032.4394452",
+                        "pair_name": "xrp/zar",
+                        "last_price": "3.96452489"
+                    },
+                    {
+                        "pair_id": "27",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "xrp/btc",
+                        "last_price": "0.0000352"
+                    },
+                    {
+                        "pair_id": "28",
+                        "min": "0.00",
+                        "max": "0.00",
+                        "avg": "0.00",
+                        "vol": "0.00",
+                        "pair_name": "demo/fiat",
+                        "last_price": "0.00"
+                    }
+                ]
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:51 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d81cd778d2450661e9fd99b667e8b36a31568120631; expires=Wed, 09-Sep-20 13:03:51 GMT; path=/; domain=.ice3x.com; HttpOnly; Secure",
+            "X-Powered-By",
+            "PHP/7.2.19",
+            "Cache-Control",
+            "max-age=0, must-revalidate, no-cache, no-store, private",
+            "Pragma",
+            "no-cache",
+            "Expires",
+            "Fri, 01 Jan 1990 00:00:00 GMT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "origin, content-type, accept, Sign",
+            "Access-Control-Allow-Methods",
+            "GET,POST,PUT,DELETE,OPTIONS",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "X-RateLimit-Limit",
+            "60",
+            "X-RateLimit-Remaining",
+            "59",
+            "Set-Cookie",
+            "session=eyJpdiI6IkxHVUpkVjE1S0ZOdFwveWhqRWFWQnBnPT0iLCJ2YWx1ZSI6ImxKVTFOUnJhK2p3OEVmZk0rWmtmYU5jOElxZ2JJTmFPRm9vdzZDSktxVEd2eThkd1doTkdtQjRkN0tnbDdTZkgiLCJtYWMiOiIzY2JhNjRkMDkyYjQ2NmNmYTM0MDQ4ZTQ5YjdhZTVlZmUzMGJhZTRjMjZiNzE1ZDM1NTcyYjg1MWY5NGU5YWRhIn0%3D; path=/; httponly",
+            "Request-Id",
+            "8aa0c52013bad94797a93c01c283ceef",
+            "X-Forwarded-Host",
+            "ice3x.com",
+            "X-Forwarded-Proto",
+            "http",
+            "X-Forwarded-For",
+            "91.233.23.115, 141.101.98.65",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+const request = require('../lib/request');
+const Ticker = require('../models/ticker');
+const { parseToFloat } = require('../lib/utils.js');
+
+module.exports = async () => {
+  const { result: tickers } = await request('https://trade.coss.io/v1/getmarketsummaries');
+
+  return tickers.map((ticker) => {
+    const [base, quote] = ticker.MarketName.split('-');
+
+    // Warning: COSS inverts base and quote
+
+    return new Ticker({
+      base,
+      quote,
+      baseVolume: parseToFloat(ticker.Volume),
+      quoteVolume: parseToFloat(ticker.BaseVolume),
+      high: parseToFloat(ticker.High),
+      low: parseToFloat(ticker.Low),
+      close: parseToFloat(ticker.Last),
+    });
+  });
+};

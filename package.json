@@ -1,0 +1,70 @@
+{
+  "name": "exchanges",
+  "version": "1.0.0",
+  "description": "A Javascript library for getting up to date cryptocurrency exchange data and tickers.",
+  "main": "lib/exchanges.js",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coinranking/exchanges.git"
+  },
+  "readme": "README.md",
+  "scripts": {
+    "tickers": "node -e 'require(\"./lib/cli\").tickers()'",
+    "list": "node -e 'require(\"./lib/cli\").list()'",
+    "cm": "git-cz",
+    "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
+    "test": "npx jest"
+  },
+  "bugs": {
+    "url": "https://github.com/coinranking/exchanges/issues"
+  },
+  "homepage": "https://coinranking.com",
+  "keywords": [
+    "cryptocurrencies",
+    "cryptocurrency",
+    "crypto",
+    "altcoin",
+    "bitcoin",
+    "ethereum",
+    "coin",
+    "exchanges",
+    "decentralized exchanges",
+    "DEX",
+    "markets",
+    "tickers",
+    "prices",
+    "coinranking"
+  ],
+  "author": "Coinranking B.V.",
+  "license": "MIT",
+  "dependencies": {
+    "cloudscraper": "^4.3.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.3",
+    "@commitlint/config-conventional": "^8.3.3",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.1.0",
+    "jest": "^25.0.0",
+    "nock": "^11.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-push": "npm run lint && npm run test"
+    }
+  }
+}

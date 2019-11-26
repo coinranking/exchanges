@@ -1,0 +1,82 @@
+[
+    {
+        "scope": "https://api.bl3p.eu:443",
+        "method": "GET",
+        "path": "/1/LTCEUR/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "currency": "LTC",
+            "last": 63.97,
+            "bid": 64.17,
+            "ask": 64.59999,
+            "high": 65.36,
+            "low": 62,
+            "timestamp": 1568120550,
+            "volume": {
+                "24h": 465.11023576,
+                "30d": 9197.68997946
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 10 Sep 2019 13:02:30 GMT",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Content-Length",
+            "153",
+            "Connection",
+            "keep-alive",
+            "Expires",
+            "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "Pragma",
+            "no-cache",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubdomains"
+        ]
+    },
+    {
+        "scope": "https://api.bl3p.eu:443",
+        "method": "GET",
+        "path": "/1/BTCEUR/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "currency": "BTC",
+            "last": 9324.69,
+            "bid": 9285,
+            "ask": 9320.98,
+            "high": 9549.86,
+            "low": 9118.54,
+            "timestamp": 1568120550,
+            "volume": {
+                "24h": 45.70263077,
+                "30d": 2346.6193981
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 10 Sep 2019 13:02:31 GMT",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Content-Length",
+            "158",
+            "Connection",
+            "keep-alive",
+            "Expires",
+            "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "Pragma",
+            "no-cache",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubdomains"
+        ]
+    }
+]

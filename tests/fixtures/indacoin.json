@@ -1,0 +1,89 @@
+[
+    {
+        "scope": "https://indacoin.com:443",
+        "method": "GET",
+        "path": "/api/market_ticker",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "pair": "USD_BTC",
+                "price": 8592.48,
+                "quote": "USD",
+                "base": "BTC",
+                "volume_change_24": 4311.48,
+                "percent_price_change_24": 5.03,
+                "volume": 17517.56
+            },
+            {
+                "pair": "USD_ETH",
+                "price": 175.14,
+                "quote": "USD",
+                "base": "ETH",
+                "volume_change_24": -1609.83,
+                "percent_price_change_24": 12.87,
+                "volume": 252.73
+            },
+            {
+                "pair": "USD_XLM",
+                "price": 0.06,
+                "quote": "USD",
+                "base": "XLM",
+                "volume_change_24": -924,
+                "percent_price_change_24": 0,
+                "volume": 0
+            },
+            {
+                "pair": "USD_XRP",
+                "price": 0.27,
+                "quote": "USD",
+                "base": "XRP",
+                "volume_change_24": 523.06,
+                "percent_price_change_24": -0.19,
+                "volume": 672.57
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Fri, 04 Oct 2019 15:09:33 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "538",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d92b75cb57ce1b761e2eb4524a82680221570201773; expires=Sat, 03-Oct-20 15:09:33 GMT; path=/; domain=.indacoin.com; HttpOnly",
+            "Cache-Control",
+            "no-transform, must-revalidate, max-age=0, private",
+            "Last-Modified",
+            "Fri, 04 Oct 2019 15:09:29 GMT",
+            "ETag",
+            "\"34566386b6af4336990868ec4df86bb9\"",
+            "X-Powered-By",
+            "ARR/3.0",
+            "X-Powered-By",
+            "PHP/5.2.17",
+            "Strict-Transport-Security",
+            "max-age=0; includeSubDomains; preload",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type",
+            "Set-Cookie",
+            "uid=rBMAAl2XYK0jiwLLEGJTAg==; expires=Sat, 03-Oct-20 15:09:33 GMT; path=/",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "520813da7fbace2f-LHR"
+        ]
+    }
+]

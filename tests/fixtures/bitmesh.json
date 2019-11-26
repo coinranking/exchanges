@@ -1,0 +1,782 @@
+[
+    {
+        "scope": "https://api.bitmesh.com:443",
+        "method": "GET",
+        "path": "/?api=market.ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "success": true,
+            "data": {
+                "eth_bch": {
+                    "name": "eth_bch",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_atom": {
+                    "name": "btc_atom",
+                    "price": "0.00054745",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_tera": {
+                    "name": "btc_tera",
+                    "price": "0.00000068",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_rvn": {
+                    "name": "btc_rvn",
+                    "price": "0.0000086",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_bch": {
+                    "name": "btc_bch",
+                    "price": "0.03711111",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_rif": {
+                    "name": "btc_rif",
+                    "price": "0.00002994",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_vls": {
+                    "name": "btc_vls",
+                    "price": "0.000015",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_zano": {
+                    "name": "btc_zano",
+                    "price": "0.0001189",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_beam": {
+                    "name": "btc_beam",
+                    "price": "0.00011559",
+                    "change": "2.46",
+                    "volume": "198.49719297",
+                    "value": "0.02266528",
+                    "max": "0.0001159",
+                    "min": "0.00011099"
+                },
+                "btc_orbs": {
+                    "name": "btc_orbs",
+                    "price": "0.00001",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_ltc": {
+                    "name": "usdt_ltc",
+                    "price": "99",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdc_bsv": {
+                    "name": "usdc_bsv",
+                    "price": "62",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_zel": {
+                    "name": "btc_zel",
+                    "price": "0.00002601",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdc_grin": {
+                    "name": "usdc_grin",
+                    "price": "4",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_ankr": {
+                    "name": "btc_ankr",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_path": {
+                    "name": "eth_path",
+                    "price": "0.0000115",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_beam": {
+                    "name": "usdt_beam",
+                    "price": "1.4",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_bsv": {
+                    "name": "usdt_bsv",
+                    "price": "200",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_usdc": {
+                    "name": "usdt_usdc",
+                    "price": "0.01",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_veil": {
+                    "name": "btc_veil",
+                    "price": "0.000028",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_orbs": {
+                    "name": "eth_orbs",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_dero": {
+                    "name": "usdt_dero",
+                    "price": "2.5",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_vsys": {
+                    "name": "eth_vsys",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_yinbi": {
+                    "name": "usdt_yinbi",
+                    "price": "0.00008",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_nyzo": {
+                    "name": "btc_nyzo",
+                    "price": "0.00003",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_xrp": {
+                    "name": "btc_xrp",
+                    "price": "0.00004101",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_grin": {
+                    "name": "usdt_grin",
+                    "price": "1.75",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_btc": {
+                    "name": "usdt_btc",
+                    "price": "7800",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_ban": {
+                    "name": "btc_ban",
+                    "price": "0.00000016",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_dcr": {
+                    "name": "usdt_dcr",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_vcash": {
+                    "name": "btc_vcash",
+                    "price": "0.00022002",
+                    "change": "-4.35",
+                    "volume": "380.431248",
+                    "value": "0.0867775",
+                    "max": "0.00025",
+                    "min": "0.00022002"
+                },
+                "btc_vbk": {
+                    "name": "btc_vbk",
+                    "price": "0.0000029",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdc_btc": {
+                    "name": "usdc_btc",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_geek": {
+                    "name": "btc_geek",
+                    "price": "0.0000001",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_tusd": {
+                    "name": "usdt_tusd",
+                    "price": "1",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_grin": {
+                    "name": "btc_grin",
+                    "price": "0.000188",
+                    "change": "-6.00",
+                    "volume": "18.306611",
+                    "value": "0.00360027",
+                    "max": "0.00020995",
+                    "min": "0.000188"
+                },
+                "btc_xbg": {
+                    "name": "btc_xbg",
+                    "price": "0.00001301",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_xlm": {
+                    "name": "btc_xlm",
+                    "price": "0.000024",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_grin": {
+                    "name": "eth_grin",
+                    "price": "0.0096",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_bch": {
+                    "name": "usdt_bch",
+                    "price": "3450",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_tera": {
+                    "name": "usdt_tera",
+                    "price": "0.009",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_eth": {
+                    "name": "usdt_eth",
+                    "price": "190",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdc_eth": {
+                    "name": "usdc_eth",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_eth": {
+                    "name": "btc_eth",
+                    "price": "0.017026",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_iris": {
+                    "name": "btc_iris",
+                    "price": "0.000055",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_bsv": {
+                    "name": "btc_bsv",
+                    "price": "0.01305",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_beam": {
+                    "name": "eth_beam",
+                    "price": "0.00633",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_xrp": {
+                    "name": "eth_xrp",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_xrd": {
+                    "name": "btc_xrd",
+                    "price": "0.00000033",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_xlm": {
+                    "name": "eth_xlm",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_vsys": {
+                    "name": "usdt_vsys",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_path": {
+                    "name": "btc_path",
+                    "price": "0.000003",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_bitc": {
+                    "name": "btc_bitc",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_rito": {
+                    "name": "btc_rito",
+                    "price": "0.00000005",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_etc": {
+                    "name": "eth_etc",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_rif": {
+                    "name": "eth_rif",
+                    "price": "0.00126582",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_bln": {
+                    "name": "usdt_bln",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_stx": {
+                    "name": "btc_stx",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_atom": {
+                    "name": "eth_atom",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_xrp": {
+                    "name": "usdt_xrp",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_pax": {
+                    "name": "usdt_pax",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdc_beam": {
+                    "name": "usdc_beam",
+                    "price": "0.8",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdc_vsys": {
+                    "name": "usdc_vsys",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_atom": {
+                    "name": "usdt_atom",
+                    "price": "6",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_zls": {
+                    "name": "btc_zls",
+                    "price": "0.0000001",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_doge": {
+                    "name": "btc_doge",
+                    "price": "0.00000042",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_dero": {
+                    "name": "btc_dero",
+                    "price": "0.00010001",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_etc": {
+                    "name": "btc_etc",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_ltc": {
+                    "name": "btc_ltc",
+                    "price": "0.00934263",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_ankr": {
+                    "name": "eth_ankr",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "eth_ltc": {
+                    "name": "eth_ltc",
+                    "price": "0.09",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_etc": {
+                    "name": "usdt_etc",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_xlm": {
+                    "name": "usdt_xlm",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_chi": {
+                    "name": "btc_chi",
+                    "price": "0.0000042",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_dcr": {
+                    "name": "btc_dcr",
+                    "price": "0.11496429",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_vsys": {
+                    "name": "btc_vsys",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_iris": {
+                    "name": "usdt_iris",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_chi": {
+                    "name": "usdt_chi",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_bsha3": {
+                    "name": "btc_bsha3",
+                    "price": "0.00000013",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "btc_ixi": {
+                    "name": "btc_ixi",
+                    "price": "0.00000003",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_rif": {
+                    "name": "usdt_rif",
+                    "price": "0.7",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "usdt_gusd": {
+                    "name": "usdt_gusd",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                },
+                "bsv_bch": {
+                    "name": "bsv_bch",
+                    "price": "0",
+                    "volume": "0",
+                    "value": "0",
+                    "max": "0",
+                    "min": "0",
+                    "change": "0"
+                }
+            },
+            "t": 1568120544762
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:24 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "8863",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-readtime",
+            "3"
+        ]
+    }
+]

@@ -1,0 +1,237 @@
+[
+    {
+        "scope": "https://api.lakebtc.com:443",
+        "method": "GET",
+        "path": "/api_v2/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "btcusd": {
+                "high": "10720.16",
+                "low": "10534.14",
+                "volume": "762.272808",
+                "last": "10589.17",
+                "bid": "10587.23",
+                "ask": "10595.35"
+            },
+            "btceur": {
+                "high": "9689.98",
+                "low": "9539.26",
+                "volume": "54.319736",
+                "last": "9574.65",
+                "bid": "9574.27",
+                "ask": "9604.2"
+            },
+            "btcjpy": {
+                "high": "1155721.0",
+                "low": "1135956.0",
+                "volume": "73.971625",
+                "last": "1140245.0",
+                "bid": "1140245.0",
+                "ask": "1141120.0"
+            },
+            "btcgbp": {
+                "high": "8789.58",
+                "low": "8663.21",
+                "volume": "9.2643",
+                "last": "8668.43",
+                "bid": "8668.43",
+                "ask": "8713.29"
+            },
+            "btcaud": {
+                "high": "15586.15",
+                "low": "15395.66",
+                "volume": "2.996222",
+                "last": "15429.44",
+                "bid": "15410.81",
+                "ask": "15467.67"
+            },
+            "btccad": {
+                "high": "14127.97",
+                "low": "13918.7",
+                "volume": "13.923495",
+                "last": "13969.51",
+                "bid": "13969.51",
+                "ask": "13981.63"
+            },
+            "btcsgd": {
+                "high": "14765.66",
+                "low": "14575.69",
+                "volume": "1.684799",
+                "last": "14607.13",
+                "bid": "14591.32",
+                "ask": "14627.95"
+            },
+            "btcchf": {
+                "high": "10633.46",
+                "low": "10481.98",
+                "volume": "0.1847",
+                "last": "10481.98",
+                "bid": "10469.71",
+                "ask": "10507.41"
+            },
+            "btcnzd": {
+                "high": null,
+                "low": null,
+                "volume": null,
+                "last": "8340.98",
+                "bid": "16444.9",
+                "ask": "16529.41"
+            },
+            "btcngn": {
+                "high": null,
+                "low": null,
+                "volume": null,
+                "last": "600000.0",
+                "bid": null,
+                "ask": null
+            },
+            "eurusd": {
+                "high": "1.1063",
+                "low": "1.0998",
+                "volume": "1862.805047",
+                "last": "1.1037",
+                "bid": "1.1032",
+                "ask": "1.1058"
+            },
+            "gbpusd": {
+                "high": "1.2147",
+                "low": "1.2027",
+                "volume": "347.569199",
+                "last": "1.2145",
+                "bid": "1.216",
+                "ask": "1.2223"
+            },
+            "usdjpy": {
+                "high": "108.07",
+                "low": "106.51",
+                "volume": "50584.7238",
+                "last": "107.71",
+                "bid": "107.68",
+                "ask": "107.7"
+            },
+            "usdhkd": {
+                "high": null,
+                "low": null,
+                "volume": null,
+                "last": "7.851",
+                "bid": "7.8384",
+                "ask": "7.8426"
+            },
+            "usdcad": {
+                "high": "1.3213",
+                "low": "1.3058",
+                "volume": "5831.9532",
+                "last": "1.3206",
+                "bid": "1.3184",
+                "ask": "1.3196"
+            },
+            "usdsgd": {
+                "high": "1.3821",
+                "low": "1.3752",
+                "volume": "1156.5752",
+                "last": "1.3809",
+                "bid": "1.3782",
+                "ask": "1.3806"
+            },
+            "audusd": {
+                "high": "0.6914",
+                "low": "0.6846",
+                "volume": "797.64597",
+                "last": "0.6849",
+                "bid": "0.685",
+                "ask": "0.687"
+            },
+            "nzdusd": {
+                "high": null,
+                "low": null,
+                "volume": null,
+                "last": "0.6758",
+                "bid": "0.641",
+                "ask": "0.6438"
+            },
+            "usdchf": {
+                "high": "0.994",
+                "low": "0.9903",
+                "volume": "172.5563",
+                "last": "0.994",
+                "bid": "0.9889",
+                "ask": "0.9917"
+            },
+            "usdngn": {
+                "high": null,
+                "low": null,
+                "volume": null,
+                "last": "200.0",
+                "bid": null,
+                "ask": null
+            },
+            "ethbtc": {
+                "high": "0.0172",
+                "low": "0.0172",
+                "volume": null,
+                "last": "0.0172",
+                "bid": "0.0173",
+                "ask": "0.018"
+            },
+            "ltcbtc": {
+                "high": "0.0072",
+                "low": "0.0072",
+                "volume": null,
+                "last": "0.0072",
+                "bid": "0.0061",
+                "ask": "0.0078"
+            },
+            "bchbtc": {
+                "high": null,
+                "low": null,
+                "volume": null,
+                "last": "0.0544",
+                "bid": "0.0275",
+                "ask": "0.0322"
+            },
+            "xrpbtc": {
+                "high": null,
+                "low": null,
+                "volume": null,
+                "last": "0.000024",
+                "bid": "0.000024",
+                "ask": "0.000035"
+            },
+            "baceth": {
+                "high": null,
+                "low": null,
+                "volume": null,
+                "last": "0.000035",
+                "bid": null,
+                "ask": "0.0014"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:14 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "2645",
+            "Connection",
+            "keep-alive",
+            "Status",
+            "200 OK",
+            "Access-Control-Allow-Origin",
+            "*",
+            "X-Request-Id",
+            "de4458c3-9809-49c9-b1aa-dd86f7c00a5c",
+            "ETag",
+            "\"341971c94d087a1bb0d44f97694757b1\"",
+            "X-Runtime",
+            "0.965187",
+            "Strict-Transport-Security",
+            "max-age=31536000",
+            "Cache-Control",
+            "public"
+        ]
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "scope": "https://api.mybitx.com:443",
+        "method": "GET",
+        "path": "/api/1/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "tickers": [
+                {
+                    "pair": "XBTNGN",
+                    "timestamp": 1568120658120,
+                    "bid": "3646695.00",
+                    "ask": "3646696.00",
+                    "last_trade": "3646695.00",
+                    "rolling_24_hour_volume": "35.238387",
+                    "status": "ACTIVE"
+                },
+                {
+                    "pair": "XBTZMW",
+                    "timestamp": 1568120658143,
+                    "bid": "141700.00",
+                    "ask": "141813.00",
+                    "last_trade": "143043.00",
+                    "rolling_24_hour_volume": "0.001398",
+                    "status": "ACTIVE"
+                },
+                {
+                    "pair": "XBTUGX",
+                    "timestamp": 1568120658146,
+                    "bid": "37714000.00",
+                    "ask": "37744000.00",
+                    "rolling_24_hour_volume": "0.00",
+                    "status": "ACTIVE"
+                },
+                {
+                    "pair": "XBTIDR",
+                    "timestamp": 1568120658154,
+                    "bid": "145418000.00",
+                    "ask": "145419000.00",
+                    "last_trade": "145500000.00",
+                    "rolling_24_hour_volume": "0.850282",
+                    "status": "ACTIVE"
+                },
+                {
+                    "pair": "BCHXBT",
+                    "timestamp": 1568120658158,
+                    "bid": "0.0297",
+                    "ask": "0.0298",
+                    "last_trade": "0.0297",
+                    "rolling_24_hour_volume": "2.24",
+                    "status": "ACTIVE"
+                },
+                {
+                    "pair": "ETHZAR",
+                    "timestamp": 1568120658161,
+                    "bid": "2846.00",
+                    "ask": "2853.00",
+                    "last_trade": "2841.00",
+                    "rolling_24_hour_volume": "229.462098",
+                    "status": "ACTIVE"
+                },
+                {
+                    "pair": "XBTMYR",
+                    "timestamp": 1568120658164,
+                    "bid": "10260.00",
+                    "ask": "10379.00",
+                    "last_trade": "10257.00",
+                    "rolling_24_hour_volume": "1.096105",
+                    "status": "ACTIVE"
+                },
+                {
+                    "pair": "XBTZAR",
+                    "timestamp": 1568120658169,
+                    "bid": "161749.00",
+                    "ask": "161750.00",
+                    "last_trade": "161749.00",
+                    "rolling_24_hour_volume": "335.735504",
+                    "status": "ACTIVE"
+                },
+                {
+                    "pair": "ETHXBT",
+                    "timestamp": 1568120658173,
+                    "bid": "0.0176",
+                    "ask": "0.0178",
+                    "last_trade": "0.0178",
+                    "rolling_24_hour_volume": "218.80",
+                    "status": "ACTIVE"
+                },
+                {
+                    "pair": "XBTEUR",
+                    "timestamp": 1568120658176,
+                    "bid": "9275.00",
+                    "ask": "9549.99",
+                    "last_trade": "9549.99",
+                    "rolling_24_hour_volume": "0.1293",
+                    "status": "ACTIVE"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Cache-Control",
+            "public, max-age=1",
+            "Content-Type",
+            "application/json",
+            "Date",
+            "Tue, 10 Sep 2019 13:04:18 GMT",
+            "Last-Modified",
+            "Tue, 10 Sep 2019 13:04:18 GMT",
+            "Server",
+            "nginx",
+            "Set-Cookie",
+            "device=ZHQxi8CZU/4TLmrurj3KsNIDGA==:ST4CAYhF+1Tt2xTZ0Sqvb/xH/Og=; Path=/; Max-Age=31536000; HttpOnly; Secure",
+            "X-Luno-Device-Id-Token",
+            "ZHQxi8CZU/4TLmrurj3KsNIDGA==:ST4CAYhF+1Tt2xTZ0Sqvb/xH/Og=",
+            "X-Luno-Trace-Id",
+            "438",
+            "Connection",
+            "keep-alive"
+        ]
+    }
+]

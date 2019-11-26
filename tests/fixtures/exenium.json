@@ -1,0 +1,407 @@
+[
+    {
+        "scope": "https://api.exenium.io:443",
+        "method": "GET",
+        "path": "/trade/pair/listfull",
+        "body": "",
+        "status": 200,
+        "response": {
+            "items": [
+                {
+                    "volume24h": 0.4775112797950956,
+                    "price": 0.01737622716023641,
+                    "change1h": 0.97018581,
+                    "change24h": 0.98694618,
+                    "change1w": 1.0311446,
+                    "high24h": 0.01810475396229791,
+                    "low24h": 0.017107718745720937,
+                    "currency_codes": [
+                        "ETH",
+                        "BTC"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": 0.01867,
+                    "ask_amount": 2.56754,
+                    "bid_price": 0.01664,
+                    "bid_amount": 1.46107
+                },
+                {
+                    "volume24h": 0.0000118526269486,
+                    "price": null,
+                    "change1h": 1,
+                    "change24h": 1,
+                    "change1w": 1,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "XNT",
+                        "BTC"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": 0.001,
+                    "ask_amount": 100.9881473730514,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": null,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "XNT",
+                        "DASH"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": 153545.8676883833,
+                    "price": 10134.916886528381,
+                    "change1h": 1.00223538,
+                    "change24h": 0.99628668,
+                    "change1w": 0.96819039,
+                    "high24h": 10346.337312937349,
+                    "low24h": 9854.71232991142,
+                    "currency_codes": [
+                        "BTC",
+                        "USD"
+                    ],
+                    "is_active": true,
+                    "is_main": true,
+                    "ask_price": 10585.54201,
+                    "ask_amount": 0.45361,
+                    "bid_price": 9517.06942,
+                    "bid_amount": 0.62194
+                },
+                {
+                    "volume24h": null,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "DASH",
+                        "USD"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": null,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "XNT",
+                        "USD"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": 15,
+                    "ask_amount": 0.88771,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": 0.8,
+                    "price": 1.219887724569998,
+                    "change1h": 0.99999996,
+                    "change24h": 0.99999996,
+                    "change1w": 0.99999996,
+                    "high24h": 1.219887724569998,
+                    "low24h": 1.219887724569998,
+                    "currency_codes": [
+                        "XNTB",
+                        "XNT"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": 1.22,
+                    "ask_amount": 1,
+                    "bid_price": 1,
+                    "bid_amount": 1958.4669999999996
+                },
+                {
+                    "volume24h": 0.085,
+                    "price": 0.008908579820560208,
+                    "change1h": 1,
+                    "change24h": 1,
+                    "change1w": 1,
+                    "high24h": 0.008908579820560208,
+                    "low24h": 0.008908579820560208,
+                    "currency_codes": [
+                        "XNT",
+                        "ETH"
+                    ],
+                    "is_active": true,
+                    "is_main": true,
+                    "ask_price": 0.009,
+                    "ask_amount": 2.090000000000005,
+                    "bid_price": 0.0011,
+                    "bid_amount": 178.515639818
+                },
+                {
+                    "volume24h": 17584.06870674636,
+                    "price": 70.6669694575403,
+                    "change1h": 1.01155033,
+                    "change24h": 1.03127594,
+                    "change1w": 1.05596225,
+                    "high24h": 72.36178478129213,
+                    "low24h": 66.6159945145922,
+                    "currency_codes": [
+                        "LTC",
+                        "USD"
+                    ],
+                    "is_active": true,
+                    "is_main": true,
+                    "ask_price": 74.0153,
+                    "ask_amount": 3.53261,
+                    "bid_price": 65.25089,
+                    "bid_amount": 5.71416
+                },
+                {
+                    "volume24h": null,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "BCH",
+                        "USD"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": 0.1624,
+                    "price": 67.09399308556613,
+                    "change1h": 1.85054735,
+                    "change24h": 1.85054735,
+                    "change1w": 1.85054735,
+                    "high24h": 67.09399308556613,
+                    "low24h": 67.09399308556613,
+                    "currency_codes": [
+                        "ETKN",
+                        "XNT"
+                    ],
+                    "is_active": false,
+                    "is_main": false,
+                    "ask_price": 67.21,
+                    "ask_amount": 0.4,
+                    "bid_price": 0.1,
+                    "bid_amount": 231
+                },
+                {
+                    "volume24h": 0.01,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "DEEX",
+                        "XNT"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": 0.001,
+                    "bid_amount": 11000
+                },
+                {
+                    "volume24h": 0.0012009001,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "MMT",
+                        "BTC"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": 0.001,
+                    "ask_amount": 1,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": null,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "MMT",
+                        "XNT"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": null,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "USDTE",
+                        "USD"
+                    ],
+                    "is_active": false,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": null,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "MMT",
+                        "USDTE"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": null,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "USDT",
+                        "USD"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": null,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "MMT",
+                        "USDT"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": 10.01,
+                    "price": null,
+                    "change1h": 1,
+                    "change24h": 1,
+                    "change1w": 1,
+                    "high24h": 0.01,
+                    "low24h": 0.01,
+                    "currency_codes": [
+                        "AGR",
+                        "USDT"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                },
+                {
+                    "volume24h": 0.002,
+                    "price": null,
+                    "change1h": null,
+                    "change24h": null,
+                    "change1w": null,
+                    "high24h": null,
+                    "low24h": null,
+                    "currency_codes": [
+                        "AGR",
+                        "XNT"
+                    ],
+                    "is_active": true,
+                    "is_main": false,
+                    "ask_price": null,
+                    "ask_amount": null,
+                    "bid_price": null,
+                    "bid_amount": null
+                }
+            ],
+            "start": 0,
+            "total": 116
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.12.2",
+            "Date",
+            "Tue, 10 Sep 2019 13:03:28 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "6367",
+            "Connection",
+            "keep-alive"
+        ]
+    }
+]

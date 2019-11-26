@@ -1,0 +1,5893 @@
+[
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/QBIC_USD/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567728000,
+                "open": 0.0016,
+                "close": 0.0016,
+                "low": 0.0016,
+                "high": 0.0016,
+                "volume": 1932.76437491
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:57 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"60c23e396bea3924779c5e96d1456bbe\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/QDAO_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.00439359,
+                "close": 0.0042,
+                "low": 0.00352599,
+                "high": 0.0043936,
+                "volume": 157.67241391
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:57 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"b97c338a3e1cf7462330384f1c045c1a\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/BCH-BTC/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 2215545,
+            "price": "0.02980000",
+            "size": "0.07221289",
+            "time": "2019-09-10T13:02:16.567Z",
+            "bid": "0.02981",
+            "ask": "0.02985",
+            "volume": "1155.85946902"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:57 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"98-fwabMvuXKBMAn3RjT2jxX9BHzSU\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "HIT",
+            "Age",
+            "0",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/XLM-USD/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 1627610,
+            "price": "0.060504",
+            "size": "24.00000000",
+            "time": "2019-09-10T13:02:32.790Z",
+            "bid": "0.060504",
+            "ask": "0.060625",
+            "volume": "6344604.00000000"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:57 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"9c-bktVEeIYQEk9pxdOVBRvi3UQokE\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "REVALIDATED",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/QDAO_ETH/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.251236,
+                "close": 0.2396,
+                "low": 0.225254,
+                "high": 0.258194,
+                "volume": 77.07936127
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:57 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"1360e096a5b567d9cc9f9d6e669e2151\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/QDAO_USDQ/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 40.7213,
+                "close": 45.637,
+                "low": 40.7213,
+                "high": 46.6215,
+                "volume": 70.74336951
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"4ea5841988e1b43479774b9e5ddde047\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/BAT-USDC/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 2058668,
+            "price": "0.17646400",
+            "size": "58.00000000",
+            "time": "2019-09-10T13:02:23.706Z",
+            "bid": "0.176269",
+            "ask": "0.177179",
+            "volume": "2503246.00000000"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"9e-5R1k3tS+kVazbvL4MhH2GyyF3JA\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "EXPIRED",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/QDAO_USDT/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 34.7831,
+                "close": 44.6268,
+                "low": 20.1182,
+                "high": 45.5616,
+                "volume": 141.08528842
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"c5b3f993ad2793d493f20138b729ca97\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/R_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.00000663,
+                "close": 0.00000653,
+                "low": 0.00000653,
+                "high": 0.00000666,
+                "volume": 416778.7731005
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"2d0719d64c9ad1658262ebd5e9747257\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/ETH-DAI/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 173597,
+            "price": "180.18",
+            "size": "0.03220000",
+            "time": "2019-09-10T13:00:12.530Z",
+            "bid": "179.07",
+            "ask": "179.93",
+            "volume": "921.90320000"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"90-eZSOmauSgw6HYT0dvcq1itOEog8\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "EXPIRED",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/REM_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 3.5e-7,
+                "close": 3.8e-7,
+                "low": 3.4e-7,
+                "high": 3.9e-7,
+                "volume": 2585108.9574179
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"50720296bd50091e0e52c0cd3de73127\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/ETC-USD/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 2516582,
+            "price": "6.695",
+            "size": "7.77882157",
+            "time": "2019-09-10T13:02:54.525Z",
+            "bid": "6.681",
+            "ask": "6.69",
+            "volume": "136275.43600064"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"90-umCQcHO8XadC8q2x34as0/feRE0\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "EXPIRED",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/REM_USDT/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.0034,
+                "close": 0.0037,
+                "low": 0.0033,
+                "high": 0.0038,
+                "volume": 7712411.545641
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"63b7d84b2c1698cf0a1db6ab45b9ac88\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/R_USDT/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.06799357,
+                "close": 0.06964703,
+                "low": 0.06711067,
+                "high": 0.06984741,
+                "volume": 684889.3320526
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:59 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"0c1264abcda69d9e53b1b369f87e4c81\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/ZEC-USDC/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 496379,
+            "price": "46.02",
+            "size": "4.34000000",
+            "time": "2019-09-10T13:02:26.879Z",
+            "bid": "45.97",
+            "ask": "46.02",
+            "volume": "3710.27280519"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:59 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"8e-LCayUeDizfgJ2PbKuIiD95cT/4A\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "REVALIDATED",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/common/symbols",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": [
+                {
+                    "symbol": "btcusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 5,
+                    "base_coin": "btc",
+                    "price_precision": 2
+                },
+                {
+                    "symbol": "ethusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 4,
+                    "base_coin": "eth",
+                    "price_precision": 2
+                },
+                {
+                    "symbol": "eosusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 2,
+                    "base_coin": "eos",
+                    "price_precision": 4
+                },
+                {
+                    "symbol": "eosbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 2,
+                    "base_coin": "eos",
+                    "price_precision": 7
+                },
+                {
+                    "symbol": "ethbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 4,
+                    "base_coin": "eth",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "ltcbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 4,
+                    "base_coin": "ltc",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "etcbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 4,
+                    "base_coin": "etc",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "trxbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "trx",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "eoseth",
+                    "count_coin": "eth",
+                    "amount_precision": 2,
+                    "base_coin": "eos",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "omgeth",
+                    "count_coin": "eth",
+                    "amount_precision": 2,
+                    "base_coin": "omg",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "trxeth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "trx",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "mteth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "mt",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "nealusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "neal",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "zrxbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "zrx",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "zilbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "zil",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "manabtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "mana",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "poebtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "poe",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "pptbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 2,
+                    "base_coin": "ppt",
+                    "price_precision": 7
+                },
+                {
+                    "symbol": "sntbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "snt",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "engbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "eng",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "kncbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "knc",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "lunbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 2,
+                    "base_coin": "lun",
+                    "price_precision": 7
+                },
+                {
+                    "symbol": "zrxeth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "zrx",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "zileth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "zil",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "manaeth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "mana",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "reqeth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "req",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "poeeth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "poe",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "ppteth",
+                    "count_coin": "eth",
+                    "amount_precision": 2,
+                    "base_coin": "ppt",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "snteth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "snt",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "engeth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "eng",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "knceth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "knc",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "luneth",
+                    "count_coin": "eth",
+                    "amount_precision": 2,
+                    "base_coin": "lun",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "qkceth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "qkc",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "dgdeth",
+                    "count_coin": "eth",
+                    "amount_precision": 3,
+                    "base_coin": "dgd",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "iotxeth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "iotx",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "stormeth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "storm",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "loometh",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "loom",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "gnteth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "gnt",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "cmteth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "cmt",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "esteth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "est",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "tclbusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 2,
+                    "base_coin": "tclb",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "dcaeth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "dca",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "ivousdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "ivo",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "bhdusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "bhd",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "alieth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "ali",
+                    "price_precision": 10
+                },
+                {
+                    "symbol": "afdtusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 2,
+                    "base_coin": "afdt",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "o2pusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "o2p",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "brcusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 2,
+                    "base_coin": "brc",
+                    "price_precision": 3
+                },
+                {
+                    "symbol": "ifxusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "ifx",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "lambusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "lamb",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "kdhusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "kdh",
+                    "price_precision": 4
+                },
+                {
+                    "symbol": "stccusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "stcc",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "tfceth",
+                    "count_coin": "eth",
+                    "amount_precision": 2,
+                    "base_coin": "tfc",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "vssusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "vss",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "vsseth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "vss",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "vssbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "vss",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "clbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "cl",
+                    "price_precision": 10
+                },
+                {
+                    "symbol": "oausdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "oa",
+                    "price_precision": 4
+                },
+                {
+                    "symbol": "bvesusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "bves",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "minbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "min",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "derieth",
+                    "count_coin": "eth",
+                    "amount_precision": 2,
+                    "base_coin": "deri",
+                    "price_precision": 4
+                },
+                {
+                    "symbol": "ttteth",
+                    "count_coin": "eth",
+                    "amount_precision": 1,
+                    "base_coin": "ttt",
+                    "price_precision": 7
+                },
+                {
+                    "symbol": "xhceth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "xhc",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "xpveth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "xpv",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "levlbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "levl",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "xscusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 2,
+                    "base_coin": "xsc",
+                    "price_precision": 3
+                },
+                {
+                    "symbol": "xsceth",
+                    "count_coin": "eth",
+                    "amount_precision": 2,
+                    "base_coin": "xsc",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "xscbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 2,
+                    "base_coin": "xsc",
+                    "price_precision": 7
+                },
+                {
+                    "symbol": "zbusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "zb",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "tooleth",
+                    "count_coin": "eth",
+                    "amount_precision": 2,
+                    "base_coin": "tool",
+                    "price_precision": 9
+                },
+                {
+                    "symbol": "fysbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 0,
+                    "base_coin": "fys",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "fyseth",
+                    "count_coin": "eth",
+                    "amount_precision": 0,
+                    "base_coin": "fys",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "atusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "at",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "ateth",
+                    "count_coin": "eth",
+                    "amount_precision": 1,
+                    "base_coin": "at",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "ipwtusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "ipwt",
+                    "price_precision": 3
+                },
+                {
+                    "symbol": "kgtbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "kgt",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "xconbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "xcon",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "mallusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "mall",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "rfoxusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "rfox",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "kbcbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "kbc",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "fnusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "fn",
+                    "price_precision": 4
+                },
+                {
+                    "symbol": "zcoeth",
+                    "count_coin": "eth",
+                    "amount_precision": 1,
+                    "base_coin": "zco",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "zcobtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "zco",
+                    "price_precision": 9
+                },
+                {
+                    "symbol": "iziusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "izi",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "nvlusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "nvl",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "ytausdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "yta",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "ilceth",
+                    "count_coin": "eth",
+                    "amount_precision": 1,
+                    "base_coin": "ilc",
+                    "price_precision": 7
+                },
+                {
+                    "symbol": "ilcbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "ilc",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "gobbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "gob",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "torusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "tor",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "gtpbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "gtp",
+                    "price_precision": 10
+                },
+                {
+                    "symbol": "vcusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "vc",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "ltcusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 5,
+                    "base_coin": "ltc",
+                    "price_precision": 2
+                },
+                {
+                    "symbol": "pdatabtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "pdata",
+                    "price_precision": 9
+                },
+                {
+                    "symbol": "dphbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "dph",
+                    "price_precision": 9
+                },
+                {
+                    "symbol": "retbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "ret",
+                    "price_precision": 10
+                },
+                {
+                    "symbol": "bokbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "bok",
+                    "price_precision": 9
+                },
+                {
+                    "symbol": "kicksbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "kicks",
+                    "price_precision": 7
+                },
+                {
+                    "symbol": "resusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "res",
+                    "price_precision": 4
+                },
+                {
+                    "symbol": "bbxusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 0,
+                    "base_coin": "bbx",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "kickseth",
+                    "count_coin": "eth",
+                    "amount_precision": 1,
+                    "base_coin": "kicks",
+                    "price_precision": 6
+                },
+                {
+                    "symbol": "bnbusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 2,
+                    "base_coin": "bnb",
+                    "price_precision": 4
+                },
+                {
+                    "symbol": "cttbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 1,
+                    "base_coin": "ctt",
+                    "price_precision": 8
+                },
+                {
+                    "symbol": "adkbtc",
+                    "count_coin": "btc",
+                    "amount_precision": 2,
+                    "base_coin": "adk",
+                    "price_precision": 7
+                },
+                {
+                    "symbol": "ngtusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "ngt",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "xusbusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "xusb",
+                    "price_precision": 4
+                },
+                {
+                    "symbol": "cxcusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 2,
+                    "base_coin": "cxc",
+                    "price_precision": 4
+                },
+                {
+                    "symbol": "tyusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "ty",
+                    "price_precision": 5
+                },
+                {
+                    "symbol": "tepusdt",
+                    "count_coin": "usdt",
+                    "amount_precision": 1,
+                    "base_coin": "tep",
+                    "price_precision": 4
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:59 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/RWC_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567900800,
+                "open": 0.00000122,
+                "close": 0.0000012,
+                "low": 0.0000012,
+                "high": 0.00000122,
+                "volume": 2000.0001
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:59 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"4ead3e710e9154f3f9910ac280bd630b\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/SLD_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1559088000,
+                "open": 0.00000302,
+                "close": 0.00000302,
+                "low": 0.00000302,
+                "high": 0.00000302,
+                "volume": 34.79498306
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:59 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"26dded6fe179617ed9646227477c8fbb\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/SMS_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567036800,
+                "open": 0.000042,
+                "close": 0.000042,
+                "low": 0.000042,
+                "high": 0.000042,
+                "volume": 6.19124358
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:59 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"399feac9ca6171495f73692ba8672535\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/LOOM-USDC/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 69096,
+            "price": "0.0276",
+            "size": "40.00000000",
+            "time": "2019-09-10T13:01:45.707Z",
+            "bid": "0.027213",
+            "ask": "0.0276",
+            "volume": "236696.00000000"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:59 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"95-REUPGv5p4xiDsnWKIGa6VrnkxN4\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "REVALIDATED",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/SPA_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1566950400,
+                "open": 1e-8,
+                "close": 1e-8,
+                "low": 1e-8,
+                "high": 1e-8,
+                "volume": 400000
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:02:59 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"168d9bd79e75bf995d1c8c95eba54e26\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/DAI-USDC/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 356107,
+            "price": "1.0115",
+            "size": "19.94644000",
+            "time": "2019-09-10T13:02:26.620Z",
+            "bid": "1.0115",
+            "ask": "1.012691",
+            "volume": "623896.76709000"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"96-2VEOiycE+UOSlP0m5Xp3XWaq1/A\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "REVALIDATED",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/SPA_USD/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.00001,
+                "close": 0.00001,
+                "low": 0.00001,
+                "high": 0.00001,
+                "volume": 9980
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"5783f6a4940d5800e44555eb13a1a3c9\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/LTC-USD/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 41620171,
+            "price": "71.00000000",
+            "size": "10.18839194",
+            "time": "2019-09-10T13:02:38.660Z",
+            "bid": "70.95",
+            "ask": "70.99",
+            "volume": "135151.19048062"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"99-w8K4/Jg3+JpnZIehQWkoy0ehtQY\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "MISS",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/SPD_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 3e-8,
+                "close": 4e-8,
+                "low": 3e-8,
+                "high": 4e-8,
+                "volume": 201682.47766199
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"41ae4df8b5c4405a27e3e3c49173495a\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/ETH-GBP/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 855582,
+            "price": "146.90000000",
+            "size": "0.23104712",
+            "time": "2019-09-10T13:01:41.660Z",
+            "bid": "146.49",
+            "ask": "146.74",
+            "volume": "1876.42964153"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"97-LYLLc/C8B5NvpwJeJo1r1qjSg6s\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "HIT",
+            "Age",
+            "1",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/SPD_ETH/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1568073600,
+                "open": 0.00000216,
+                "close": 0.00000216,
+                "low": 0.00000216,
+                "high": 0.00000216,
+                "volume": 12839.51139546
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"ac3a3f9920e41877601f99cf25e7c6df\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=etcbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 1857.8414520373,
+                "high": 0.000658,
+                "vol": 2881852.46820547,
+                "last": 0.000653,
+                "low": 0.000634,
+                "buy": "0.000651",
+                "sell": "0.000655",
+                "time": 1568120480865
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=zilbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 6.60177189,
+                "high": 7e-7,
+                "vol": 9780284,
+                "last": 6.7e-7,
+                "low": 6.5e-7,
+                "buy": "5.5E-7",
+                "sell": "9.1E-7",
+                "time": 1568120556391
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=omgeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 125.22439617,
+                "high": 0.005999,
+                "vol": 21241.81,
+                "last": 0.005974,
+                "low": 0.005809,
+                "buy": "0.005053",
+                "sell": "0.006838",
+                "time": 1568116418080
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=zrxeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 11.24099062,
+                "high": 0.00091282,
+                "vol": 12487,
+                "last": 0.00090785,
+                "low": 0.00088472,
+                "buy": "0.00076974",
+                "sell": "0.00103826",
+                "time": 1568116528200
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=mteth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 5.84250798,
+                "high": 0.00001699,
+                "vol": 529488,
+                "last": 0.00001699,
+                "low": 0.00000525,
+                "buy": "0.00000530",
+                "sell": "0.00001600",
+                "time": 1567248823251
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=snteth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 235.61818449,
+                "high": 0.0000862,
+                "vol": 2774338,
+                "last": 0.00008529,
+                "low": 0.00008398,
+                "buy": "0.00008000",
+                "sell": "0.00009788",
+                "time": 1568118201817
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=kncbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 11.54276082,
+                "high": 0.00001759,
+                "vol": 667669,
+                "last": 0.00001745,
+                "low": 0.00001673,
+                "buy": "0.00001473",
+                "sell": "0.00001969",
+                "time": 1568120543758
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ethbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 5303.565818391,
+                "high": 0.01782,
+                "vol": 300888.4458,
+                "last": 0.01768,
+                "low": 0.01742,
+                "buy": "0.01764",
+                "sell": "0.01768",
+                "time": 1568120540263
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=dgdeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 298.08371375,
+                "high": 0.07809,
+                "vol": 3929.841,
+                "last": 0.07614,
+                "low": 0.07429,
+                "buy": "0.06422",
+                "sell": "0.08779",
+                "time": 1568120251368
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=btcusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 333457039.42170185,
+                "high": 10390.19,
+                "vol": 32396.02951625,
+                "last": 10247.31,
+                "low": 10182.98,
+                "buy": "10244.75",
+                "sell": "10249.55",
+                "time": 1568120564582
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ltcbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 14194.0963270873,
+                "high": 0.007053,
+                "vol": 2068254.6661,
+                "last": 0.006926,
+                "low": 0.006705,
+                "buy": "0.006907",
+                "sell": "0.006939",
+                "time": 1568120543407
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=trxeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.99189795,
+                "high": 0.00008812,
+                "vol": 11394,
+                "last": 0.00008732,
+                "low": 0.00008604,
+                "buy": "0.00008297",
+                "sell": "0.00010050",
+                "time": 1568118853469
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=zrxbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.80740373,
+                "high": 0.00001619,
+                "vol": 50682,
+                "last": 0.00001602,
+                "low": 0.00001547,
+                "buy": "0.00001360",
+                "sell": "0.00001839",
+                "time": 1568120251781
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=reqeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 4.13787927,
+                "high": 0.00006149,
+                "vol": 70681,
+                "last": 0.00005862,
+                "low": 0.0000568,
+                "buy": "0.00005027",
+                "sell": "0.00006892",
+                "time": 1568120532626
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=gnteth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 14.29001325,
+                "high": 0.00034118,
+                "vol": 42984,
+                "last": 0.00033567,
+                "low": 0.00032564,
+                "buy": "0.00028284",
+                "sell": "0.00038738",
+                "time": 1568120563083
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=zileth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 13.90137688,
+                "high": 0.00003981,
+                "vol": 364419,
+                "last": 0.00003795,
+                "low": 0.00003711,
+                "buy": "0.00003202",
+                "sell": "0.00004323",
+                "time": 1568120533979
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ethusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 140492808.1497031,
+                "high": 184.31,
+                "vol": 773283.83833907,
+                "last": 180.99,
+                "low": 178.53,
+                "buy": "180.75",
+                "sell": "181.18",
+                "time": 1568120557439
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=nealusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 57010.849,
+                "high": 0.005107,
+                "vol": 11563878,
+                "last": 0.004757,
+                "low": 0.004744,
+                "buy": "0.004744",
+                "sell": "0.004999",
+                "time": 1568120575272
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=eosbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 1374.258045349,
+                "high": 0.0003815,
+                "vol": 3653579.09,
+                "last": 0.0003736,
+                "low": 0.0003687,
+                "buy": "0.0003727",
+                "sell": "0.0003742",
+                "time": 1568120577156
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=alieth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 5.7010351898,
+                "high": 0.0000012854,
+                "vol": 8566976,
+                "last": 0.0000012854,
+                "low": 6.5e-7,
+                "buy": "2.550E-7",
+                "sell": "0.0000010851",
+                "time": 1566284904392
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=stormeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 11.04644724,
+                "high": 0.00000965,
+                "vol": 1245149,
+                "last": 0.00000906,
+                "low": 0.00000852,
+                "buy": "0.00000760",
+                "sell": "0.00001053",
+                "time": 1568117577517
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=o2pusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 39.279,
+                "high": 0.00018,
+                "vol": 221200,
+                "last": 0.00018,
+                "low": 0.00017,
+                "buy": "0.00018",
+                "sell": "0.00019",
+                "time": 1568113969691
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=eosusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 34091704.422325,
+                "high": 3.9487,
+                "vol": 8810390.39,
+                "last": 3.8249,
+                "low": 3.7858,
+                "buy": "3.8148",
+                "sell": "3.8304",
+                "time": 1568120576746
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ppteth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 248.8046704,
+                "high": 0.002312,
+                "vol": 114686.11,
+                "last": 0.002192,
+                "low": 0.002049,
+                "buy": "0.001840",
+                "sell": "0.002531",
+                "time": 1568119652098
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=loometh",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "last": 0.000274,
+                "sell": "0.00065000",
+                "time": 1564285978502
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=sntbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 18.83447934,
+                "high": 0.00000152,
+                "vol": 12543100,
+                "last": 0.0000015,
+                "low": 0.00000148,
+                "buy": "0.00000126",
+                "sell": "0.00000173",
+                "time": 1568120329396
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=dcaeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 2.03637811,
+                "high": 0.00001511,
+                "vol": 284211,
+                "last": 0.00001511,
+                "low": 0.00000152,
+                "buy": "0.00001151",
+                "sell": "0.00001432",
+                "time": 1567953239444
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ivousdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 370.783349,
+                "high": 0.008518,
+                "vol": 45985,
+                "last": 0.007669,
+                "low": 0.007669,
+                "buy": "0.007677",
+                "sell": "0.007691",
+                "time": 1568015107824
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=qkceth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 5.27822504,
+                "high": 0.00006525,
+                "vol": 92614,
+                "last": 0.00005555,
+                "low": 0.00005481,
+                "buy": "0.00004721",
+                "sell": "0.00006437",
+                "time": 1568120505819
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=poeeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 185.74435513,
+                "high": 0.0000206,
+                "vol": 10409649,
+                "last": 0.00001707,
+                "low": 0.00001457,
+                "buy": "0.00001519",
+                "sell": "0.00001954",
+                "time": 1568120503209
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ifxusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 38208.749129,
+                "high": 0.016768,
+                "vol": 2479703,
+                "last": 0.015558,
+                "low": 0.01427,
+                "buy": "0.014900",
+                "sell": "0.016880",
+                "time": 1568120580312
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=iotxeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 2.69351911,
+                "high": 0.00002398,
+                "vol": 116900,
+                "last": 0.00002266,
+                "low": 0.00002176,
+                "buy": "0.00001924",
+                "sell": "0.00002632",
+                "time": 1568115871391
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=manaeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 761.66364567,
+                "high": 0.00018484,
+                "vol": 4263169,
+                "last": 0.0001784,
+                "low": 0.00017519,
+                "buy": "0.00015118",
+                "sell": "0.00020560",
+                "time": 1568120564631
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=tclbusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 121862.4629471369,
+                "high": 2.485979,
+                "vol": 49480.69451202,
+                "last": 2.470825,
+                "low": 2.426226,
+                "buy": "2.457189",
+                "sell": "2.485979",
+                "time": 1568120553968
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=knceth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 342.53246284,
+                "high": 0.000996,
+                "vol": 348950,
+                "last": 0.0009857,
+                "low": 0.0009593,
+                "buy": "0.0008357",
+                "sell": "0.0011317",
+                "time": 1568120524303
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=engeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 6.304636,
+                "high": 0.001817,
+                "vol": 3537,
+                "last": 0.0018,
+                "low": 0.001766,
+                "buy": "0.0014913",
+                "sell": "0.0020470",
+                "time": 1568077952637
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=trxbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.16549954,
+                "high": 0.00000156,
+                "vol": 108482,
+                "last": 0.00000154,
+                "low": 0.00000151,
+                "buy": "0.00000129",
+                "sell": "0.00000178",
+                "time": 1568120430567
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=afdtusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 55.5659425,
+                "high": 0.00025,
+                "vol": 226257.77,
+                "last": 0.00025,
+                "low": 0.0002,
+                "buy": "0.000115",
+                "sell": "0.000240",
+                "time": 1567571857515
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=brcusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 54.9525,
+                "high": 2.55,
+                "vol": 21.55,
+                "last": 2.55,
+                "low": 2.55,
+                "buy": "2.550",
+                "sell": "4.400",
+                "time": 1567608245495
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=lambusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 4.478,
+                "high": 0.17912,
+                "vol": 25,
+                "last": 0.17912,
+                "low": 0.17912,
+                "buy": "0.055000",
+                "sell": "0.199000",
+                "time": 1566290608449
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=poebtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 30.85111573,
+                "high": 3.7e-7,
+                "vol": 96683460,
+                "last": 3e-7,
+                "low": 2.5e-7,
+                "buy": "2.6E-7",
+                "sell": "3.5E-7",
+                "time": 1568120516879
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=cmteth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 39.03679084,
+                "high": 0.00012814,
+                "vol": 312280,
+                "last": 0.00012584,
+                "low": 0.00012153,
+                "buy": "0.00012200",
+                "sell": "0.00014568",
+                "time": 1568120551997
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=engbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 5.41572455,
+                "high": 0.00003209,
+                "vol": 173571,
+                "last": 0.00003123,
+                "low": 0.00003073,
+                "buy": "0.00002625",
+                "sell": "0.00003585",
+                "time": 1568120486607
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=luneth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 76.58962989,
+                "high": 0.00575,
+                "vol": 14372.45,
+                "last": 0.005572,
+                "low": 0.004803,
+                "buy": "0.004665",
+                "sell": "0.006417",
+                "time": 1568120535307
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=lunbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 1.89137899,
+                "high": 0.0001,
+                "vol": 19992.52,
+                "last": 0.000098,
+                "low": 0.000084,
+                "buy": "0.0000782",
+                "sell": "0.0001019",
+                "time": 1568120533114
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=eoseth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 9742.71717344,
+                "high": 0.021699,
+                "vol": 457309.22,
+                "last": 0.021113,
+                "low": 0.020925,
+                "buy": "0.021079",
+                "sell": "0.021180",
+                "time": 1568120562324
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=esteth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 269.3516836,
+                "high": 0.00000372,
+                "vol": 73490414,
+                "last": 0.00000372,
+                "low": 0.00000362,
+                "buy": "0.00000369",
+                "sell": "0.00000372",
+                "time": 1567952764799
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=pptbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 123.19045373,
+                "high": 0.0000435,
+                "vol": 3253770.12,
+                "last": 0.0000387,
+                "low": 0.000032,
+                "buy": "0.0000320",
+                "sell": "0.0000430",
+                "time": 1568120574123
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=bhdusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 367102.5913744,
+                "high": 15.034426,
+                "vol": 26691.7,
+                "last": 14.872313,
+                "low": 12.361859,
+                "buy": "14.850000",
+                "sell": "15.073763",
+                "time": 1568120569164
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=manabtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.00154567,
+                "high": 0.00000497,
+                "vol": 311,
+                "last": 0.00000497,
+                "low": 0.00000497,
+                "buy": "0.00000285",
+                "sell": "0.00000357",
+                "time": 1562794209945
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/SPD_USD/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1567987200,
+                "open": 0.0003,
+                "close": 0.0006,
+                "low": 0.0003,
+                "high": 0.0006,
+                "volume": 27030.01446312
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"368089378cdf1fd083de8bb7a3a58767\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=kdhusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 2297.90737,
+                "high": 0.1222,
+                "vol": 18909,
+                "last": 0.122,
+                "low": 0.1208,
+                "buy": "0.1212000",
+                "sell": "0.1222000",
+                "time": 1568120414252
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=tfceth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 1.8509284,
+                "high": 0.00008,
+                "vol": 23386.23,
+                "last": 0.00008,
+                "low": 0.00004,
+                "buy": "0.00001",
+                "sell": "0.00008",
+                "time": 1566959286711
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=stccusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 28623.438184,
+                "high": 0.005085,
+                "vol": 7089989,
+                "last": 0.00365,
+                "low": "0.0036500000000000",
+                "buy": "0.002815",
+                "sell": "0.003500",
+                "time": 1558675547516
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=vssusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.00027,
+                "high": 0.00003,
+                "vol": 9,
+                "last": 0.00003,
+                "low": 0.00003,
+                "buy": "0.000030",
+                "sell": "0.000137",
+                "time": 1568026581636
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=vssbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 9e-8,
+                "high": 1e-8,
+                "vol": 9,
+                "last": 1e-8,
+                "low": 1e-8,
+                "sell": "1E-8",
+                "time": 1568026518860
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://api.pro.coinbase.com:443",
+        "method": "GET",
+        "path": "/products/XRP-USD/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "trade_id": 3281924,
+            "price": "0.26260000",
+            "size": "106.00000000",
+            "time": "2019-09-10T13:02:55.475Z",
+            "bid": "0.2625",
+            "ask": "0.2626",
+            "volume": "20042775.00000000"
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Headers",
+            "Content-Type, Accept, cb-session, cb-fp, cb-form-factor",
+            "Access-Control-Allow-Methods",
+            "GET,POST,DELETE,PUT",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Expose-Headers",
+            "cb-before, cb-after, cb-gdpr",
+            "Access-Control-Max-Age",
+            "7200",
+            "Cache-Control",
+            "public, max-age=1, must-revalidate",
+            "ETag",
+            "W/\"9c-koFS5ul23sKKnlZuLKASHVtwA4w\"",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "Vary",
+            "Accept-Encoding",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Download-Options",
+            "noopen",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "CF-Cache-Status",
+            "HIT",
+            "Age",
+            "1",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=vsseth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.01592,
+                "high": 8e-7,
+                "vol": 19900,
+                "last": 8e-7,
+                "low": 8e-7,
+                "buy": "2.0E-7",
+                "sell": "8.0E-7",
+                "time": 1568026704001
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=clbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 7.0379444669,
+                "high": 5.399e-7,
+                "vol": 13862204,
+                "last": 5.075e-7,
+                "low": 5.001e-7,
+                "buy": "5.000E-7",
+                "sell": "5.400E-7",
+                "time": 1568120579502
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=bvesusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 323397.82453,
+                "high": 0.03314,
+                "vol": 10470497,
+                "last": 0.03048,
+                "low": 0.02966,
+                "buy": "0.03045",
+                "sell": "0.03066",
+                "time": 1568120553868
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=oausdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 324745.40289,
+                "high": 0.933,
+                "vol": 362730.7,
+                "last": 0.8496,
+                "low": 0.8476,
+                "buy": "0.8480",
+                "sell": "0.8514",
+                "time": 1568120580384
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=minbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 26.991564,
+                "high": 0.00002388,
+                "vol": 1130300,
+                "last": 0.00002388,
+                "low": 0.00002388,
+                "buy": "0.00000250",
+                "sell": "0.00002388",
+                "time": 1568092081112
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=levlbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 6.046488195,
+                "high": 0.0000365,
+                "vol": 191101.7,
+                "last": 0.00003523,
+                "low": 0.00002651,
+                "buy": "0.00003356",
+                "sell": "0.00003650",
+                "time": 1568120571394
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=derieth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.03,
+                "high": 0.01,
+                "vol": 3,
+                "last": 0.01,
+                "low": 0.01,
+                "buy": "0.0020",
+                "sell": "0.0500",
+                "time": 1567821469695
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=xpveth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 4.860593,
+                "high": 0.00001265,
+                "vol": 442724,
+                "last": 0.00001175,
+                "low": 0.000006,
+                "buy": "0.00000215",
+                "sell": "0.00001180",
+                "time": 1567066210882
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ttteth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 55.3397469,
+                "high": 0.0002499,
+                "vol": 221586,
+                "last": 0.0002498,
+                "low": 0.0002496,
+                "buy": "0.0001200",
+                "sell": "0.0002500",
+                "time": 1568120536843
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=xhceth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 511.4477031,
+                "high": 0.00001982,
+                "vol": 26839139,
+                "last": 0.00001861,
+                "low": 0.00001846,
+                "buy": "0.00001860",
+                "sell": "0.00001863",
+                "time": 1557302736925
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=xscusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 25829.9488,
+                "high": 0.849,
+                "vol": 30883.91,
+                "last": 0.824,
+                "low": 0.772,
+                "buy": "0.772",
+                "sell": "0.827",
+                "time": 1568120559131
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=xscbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 11.94039954,
+                "high": 0.0000835,
+                "vol": 146149.85,
+                "last": 0.0000805,
+                "low": 0.0000725,
+                "buy": "0.0000798",
+                "sell": "0.0000808",
+                "time": 1568120533932
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=xsceth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 710.019685,
+                "high": 0.00469,
+                "vol": 153703.53,
+                "last": 0.00461,
+                "low": 0.0043,
+                "buy": "0.00434",
+                "sell": "0.00463",
+                "time": 1568120576412
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=zbusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 4.320324,
+                "high": 0.028,
+                "vol": 223.8,
+                "last": 0.01518,
+                "low": 0.01518,
+                "buy": "0.01518",
+                "sell": "0.02800",
+                "time": 1567616540956
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=tooleth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 13.5178226649,
+                "high": 0.000027,
+                "vol": 2097131.36,
+                "last": 0.000007988,
+                "low": 0.00000485,
+                "buy": "0.000008000",
+                "sell": "0.000049989",
+                "time": 1568104348672
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=fysbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.00077701,
+                "high": 6e-8,
+                "vol": 15047,
+                "last": 5e-8,
+                "low": 5e-8,
+                "buy": "1E-8",
+                "sell": "6E-8",
+                "time": 1565861765712
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ipwtusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 1287.5099,
+                "high": 0.32,
+                "vol": 6679.8,
+                "last": 0.243,
+                "low": 0.126,
+                "buy": "0.210",
+                "sell": "0.255",
+                "time": 1568120523631
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=fyseth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.000088,
+                "high": 0.000008,
+                "vol": 11,
+                "last": 0.000008,
+                "low": 0.000008,
+                "buy": "8.1E-7",
+                "sell": "0.00000800",
+                "time": 1560037036421
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=kgtbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 1.4e-7,
+                "high": 7e-7,
+                "vol": 0.2,
+                "last": 7e-7,
+                "low": 7e-7,
+                "buy": "7E-8",
+                "sell": "0.00000489",
+                "time": 1567812958058
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=xconbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.00181923,
+                "high": 0.00000554,
+                "vol": 346.5,
+                "last": 0.00000501,
+                "low": 0.00000501,
+                "buy": "0.00000501",
+                "sell": "0.00000554",
+                "time": 1566906018793
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=mallusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0,
+                "high": 0.013633,
+                "vol": 0,
+                "last": 0.013633,
+                "low": 0.013633,
+                "buy": "0.013000",
+                "sell": "0.017236",
+                "time": 1558171290000
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ateth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 42.532305064,
+                "high": 0.0002883,
+                "vol": 148616.5,
+                "last": 0.00028444,
+                "low": 0.00028399,
+                "buy": "0.00028000",
+                "sell": "0.00028830",
+                "time": 1568120538089
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=kbcbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 16.247575751,
+                "high": 0.0000043,
+                "vol": 4082609.9,
+                "last": 0.000004,
+                "low": 0.00000389,
+                "buy": "0.00000200",
+                "sell": "0.00000470",
+                "time": 1568096070343
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=rfoxusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 443.925798,
+                "high": 0.02289,
+                "vol": 19446.3,
+                "last": 0.02289,
+                "low": 0.01685,
+                "buy": "0.01689",
+                "sell": "0.02289",
+                "time": 1567994813462
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=atusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 7981.203219,
+                "high": 0.0535,
+                "vol": 153222.1,
+                "last": 0.05195,
+                "low": 0.05,
+                "buy": "0.05000",
+                "sell": "0.05344",
+                "time": 1568120510710
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=fnusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 774556.81055,
+                "high": 0.7702,
+                "vol": 1093808.9,
+                "last": 0.697,
+                "low": 0.5517,
+                "buy": "0.6881",
+                "sell": "0.6975",
+                "time": 1568120552219
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://btc-alpha.com:443",
+        "method": "GET",
+        "path": "/api/charts/SUP_BTC/D/chart/?limit=1",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1566604800,
+                "open": 1e-8,
+                "close": 1e-8,
+                "low": 1e-8,
+                "high": 1e-8,
+                "volume": 1897.697
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept, Accept-Language, Cookie",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "Content-Language",
+            "en",
+            "ETag",
+            "W/\"8c68ac7da16109b1925143c566091440\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=zcobtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.00321692,
+                "high": 4e-7,
+                "vol": 8042.3,
+                "last": 4e-7,
+                "low": 4e-7,
+                "buy": "6.1E-8",
+                "sell": "7.00E-7",
+                "time": 1567961634926
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=nvlusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 564381.7338111,
+                "high": 0.007586,
+                "vol": 75061063.2,
+                "last": 0.007527,
+                "low": 0.007402,
+                "buy": "0.006890",
+                "sell": "0.007587",
+                "time": 1568120543253
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=zcoeth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.01123308,
+                "high": 0.0000054,
+                "vol": 2080.2,
+                "last": 0.0000054,
+                "low": 0.0000054,
+                "buy": "0.00000680",
+                "sell": "0.00005366",
+                "time": 1566139819984
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=iziusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 38296.61814,
+                "high": 0.2199,
+                "vol": 182066,
+                "last": 0.2077,
+                "low": 0.1273,
+                "buy": "0.15560",
+                "sell": "0.20820",
+                "time": 1568120577703
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ilceth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 27.17152806,
+                "high": 0.0002391,
+                "vol": 116749.3,
+                "last": 0.0002383,
+                "low": 0.000209,
+                "buy": "0.0002090",
+                "sell": "0.0002319",
+                "time": 1568120552657
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ytausdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 2208828.887095,
+                "high": 0.08448,
+                "vol": 26380827.1,
+                "last": 0.08305,
+                "low": 0.08268,
+                "buy": "0.08300",
+                "sell": "0.08307",
+                "time": 1568120556682
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ilcbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 3.58713509,
+                "high": 0.00000406,
+                "vol": 903076.2,
+                "last": 0.00000394,
+                "low": 0.00000377,
+                "buy": "0.00000389",
+                "sell": "0.00000395",
+                "time": 1568120247491
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=gobbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.29076102,
+                "high": 0.00000231,
+                "vol": 158072,
+                "last": 0.00000201,
+                "low": 0.00000165,
+                "buy": "0.00000171",
+                "sell": "0.00000231",
+                "time": 1568120261248
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=torusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 810.257769,
+                "high": 0.00079,
+                "vol": 1418279.5,
+                "last": 0.00057,
+                "low": 0.00043,
+                "buy": "0.00044",
+                "sell": "0.00077",
+                "time": 1568120564666
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=gtpbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.0128882827,
+                "high": 1.5e-7,
+                "vol": 354800.1,
+                "last": 1.5e-7,
+                "low": 3.3e-8,
+                "buy": "3.40E-8",
+                "sell": "1.500E-7",
+                "time": 1568119386917
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=vcusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 22.565946,
+                "high": 0.00211,
+                "vol": 10707.3,
+                "last": 0.0021,
+                "low": 0.0021,
+                "buy": "0.00210",
+                "sell": "0.00850",
+                "time": 1567816093746
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=dphbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.00042,
+                "high": 0.000001,
+                "vol": 420,
+                "last": 0.000001,
+                "low": 0.000001,
+                "buy": "1.20E-7",
+                "sell": "8.70E-7",
+                "time": 1566393499094
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=pdatabtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 2.2187678863,
+                "high": 3.28e-7,
+                "vol": 6892385.1,
+                "last": 3.24e-7,
+                "low": 2.99e-7,
+                "buy": "3.07E-7",
+                "sell": "3.24E-7",
+                "time": 1568120563139
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ltcusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 69936515.7141064,
+                "high": 73,
+                "vol": 987378.21344,
+                "last": 70.97,
+                "low": 68.78,
+                "buy": "70.81000",
+                "sell": "73.91000",
+                "time": 1568120538042
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=bokbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.0372663696,
+                "high": 3.04e-7,
+                "vol": 124646.5,
+                "last": 2.98e-7,
+                "low": 2.92e-7,
+                "buy": "8.7E-8",
+                "sell": "2.98E-7",
+                "time": 1566981279582
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=retbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 5.9129133325,
+                "high": 1.799e-7,
+                "vol": 32883990.4,
+                "last": 1.798e-7,
+                "low": 1.798e-7,
+                "buy": "1.600E-7",
+                "sell": "1.798E-7",
+                "time": 1568120067482
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=resusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 1568341.93185,
+                "high": 0.1899,
+                "vol": 8890707.5,
+                "last": 0.1744,
+                "low": 0.1705,
+                "buy": "0.1712",
+                "sell": "0.1780",
+                "time": 1568120577988
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=kicksbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.05219638,
+                "high": 0.0000459,
+                "vol": 1339,
+                "last": 0.0000398,
+                "low": 0.0000297,
+                "buy": "0.0000297",
+                "sell": "0.0000489",
+                "time": 1568120473212
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=bbxusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 170.87,
+                "high": 0.00000519,
+                "vol": 33000000,
+                "last": 0.00000499,
+                "low": 0.00000499,
+                "buy": "0.00000230",
+                "sell": "0.00000499",
+                "time": 1568043289824
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=kickseth",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 6.1580366,
+                "high": 0.002693,
+                "vol": 2442.2,
+                "last": 0.00243,
+                "low": 0.002287,
+                "buy": "0.002234",
+                "sell": "0.002688",
+                "time": 1568120564429
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=bnbusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 129995.708086,
+                "high": 22.3257,
+                "vol": 5872.66,
+                "last": 22.1641,
+                "low": 21.8789,
+                "buy": "22.1414",
+                "sell": "22.1848",
+                "time": 1568120568976
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:00 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=cttbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 103.891777294,
+                "high": 0.0000301,
+                "vol": 3489555.5,
+                "last": 0.00002972,
+                "low": 0.0000294,
+                "buy": "0.00002970",
+                "sell": "0.00003000",
+                "time": 1568120508064
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:01 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=adkbtc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 0.002390472,
+                "high": 0.0003213,
+                "vol": 7.44,
+                "last": 0.0003213,
+                "low": 0.0003213,
+                "buy": "0.0003216",
+                "sell": "0.0009974",
+                "time": 1567840136002
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:01 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=ngtusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 6937015.304259,
+                "high": 0.4198,
+                "vol": 19285973.8,
+                "last": 0.40626,
+                "low": 0.2947,
+                "buy": "0.40540",
+                "sell": "0.41564",
+                "time": 1568120569924
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:01 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=cxcusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 2761.680815,
+                "high": 4.4342,
+                "vol": 626.96,
+                "last": 4.4342,
+                "low": 4.3682,
+                "buy": "4.4121",
+                "sell": "4.4418",
+                "time": 1568104958594
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:01 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=xusbusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 3686,
+                "high": 1,
+                "vol": 3686,
+                "last": 1,
+                "low": 1,
+                "buy": "0.9000",
+                "sell": "1.0000",
+                "time": 1568110696675
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:01 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=tyusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 25907058.020777,
+                "high": 0.4413,
+                "vol": 59666835,
+                "last": 0.43347,
+                "low": 0.43033,
+                "buy": "0.43190",
+                "sell": "0.43823",
+                "time": 1568120560811
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:01 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    },
+    {
+        "scope": "https://exchange-open-api.coineal.com:443",
+        "method": "GET",
+        "path": "/open/api/get_ticker?symbol=tepusdt",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": "0",
+            "msg": "suc",
+            "data": {
+                "amount": 708959.05959,
+                "high": 3.685,
+                "vol": 207368.4,
+                "last": 3.6796,
+                "low": 3.351,
+                "buy": "3.4500",
+                "sell": "3.6850",
+                "time": 1568120560967
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 10 Sep 2019 13:03:01 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.5.0"
+        ]
+    }
+]
