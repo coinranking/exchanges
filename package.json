@@ -41,7 +41,8 @@
   "author": "Coinranking B.V.",
   "license": "MIT",
   "dependencies": {
-    "cloudscraper": "^4.4.0"
+    "cloudscraper": "^4.4.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.3",
