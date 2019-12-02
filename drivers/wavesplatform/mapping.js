@@ -842,4 +842,9 @@ module.exports = [
     symbol: 'NEEDY',
     address: 'FzvMbxHiWWvGBXEH6Hg1sG2q6LMU2ZU8oMPJxMHsRP5y',
   },
+  {
+    name: 'USD Neutrino',
+    symbol: 'USDN',
+    address: 'DG2xFkPdDwKUoBkzGAhQtLpSGzfXLiCYPEzeKH2Ad24p',
+  },
 ];
