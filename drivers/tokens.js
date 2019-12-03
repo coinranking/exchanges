@@ -12,8 +12,8 @@ module.exports = async () => {
     const ticker = data[pair];
 
     return new Ticker({
-      base: currencies[pair] ? currencies[pair].baseCurrency : '',
-      quote: currencies[pair] ? currencies[pair].counterCurrency : '',
+      base: currencies[pair].baseCurrency,
+      quote: currencies[pair].counterCurrency,
       open: parseToFloat(ticker.open),
       high: parseToFloat(ticker.high),
       low: parseToFloat(ticker.low),
