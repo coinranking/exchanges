@@ -21,8 +21,8 @@ module.exports = async () => {
       bid: parseToFloat(ticker.bid),
       ask: parseToFloat(ticker.ask),
       vwap: parseToFloat(ticker.vwap),
-      baseVolume: parseToFloat(ticker[`volume_${ticker.counterCurrency}`]),
-      quoteVolume: parseToFloat(ticker.volume),
+      baseVolume: parseToFloat(ticker.volume),
+      quoteVolume: parseToFloat(ticker[`volume_${ticker.counterCurrency}`]),
     });
   });
 };
