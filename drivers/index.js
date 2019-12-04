@@ -150,6 +150,7 @@ exports.paymium = require('./paymium');
 exports.prizmbit = require('./prizmbit');
 exports.poloniex = require('./poloniex');
 exports.remitano = require('./remitano');
+exports.resfinex = require('./resfinex');
 exports.rightbtc = require('./rightbtc');
 exports.simex = require('./simex');
 exports.sistemkoin = require('./sistemkoin');
