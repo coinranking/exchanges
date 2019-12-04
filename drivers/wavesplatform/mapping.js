@@ -847,4 +847,19 @@ module.exports = [
     symbol: 'USDN',
     address: 'DG2xFkPdDwKUoBkzGAhQtLpSGzfXLiCYPEzeKH2Ad24p',
   },
+  {
+    name: 'USD Neutrino Bond',
+    symbol: 'USDNB',
+    address: '975akZBfnMj513U7MZaHKzQrmsEx5aE3wdWKTrHBhbjF',
+  },
+  {
+    name: 'TORcorp',
+    symbol: 'TORR',
+    address: '51LxAtwBXapvvTFSbbh4nLyWFxH6x8ocfNvrXxbTChze',
+  },
+  {
+    name: 'Eggs Crypto Invest',
+    symbol: 'EGCI',
+    address: '14YPnnmjhnztajhQQ8fo1cEru15XjE1ikXsbzUeDTkG3',
+  },
 ];
