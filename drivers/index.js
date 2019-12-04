@@ -147,6 +147,7 @@ exports.okex = require('./okex');
 exports.openledger = require('./openledger');
 exports.p2pb2b = require('./p2pb2b');
 exports.paymium = require('./paymium');
+exports.prizmbit = require('./prizmbit');
 exports.poloniex = require('./poloniex');
 exports.remitano = require('./remitano');
 exports.rightbtc = require('./rightbtc');
