@@ -154,6 +154,7 @@ exports.rightbtc = require('./rightbtc');
 exports.simex = require('./simex');
 exports.sistemkoin = require('./sistemkoin');
 exports.southxchange = require('./southxchange');
+exports.sparkdex = require('./sparkdex');
 exports.stellarport = require('./stellarport');
 exports.stex = require('./stex');
 exports.switcheo = require('./switcheo');
