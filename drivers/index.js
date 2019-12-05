@@ -126,6 +126,7 @@ exports.korbit = require('./korbit');
 exports.kraken = require('./kraken');
 exports.kucoin = require('./kucoin');
 exports.kuna = require('./kuna');
+exports.kyber = require('./kyber');
 exports.lakebtc = require('./lakebtc');
 exports.latoken = require('./latoken');
 exports.lbank = require('./lbank');
