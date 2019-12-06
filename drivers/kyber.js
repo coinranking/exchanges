@@ -15,7 +15,7 @@ module.exports = async () => {
       quote,
       quoteName: ticker.quote_name,
       high: parseToFloat(ticker.past_24h_high),
-      low: parseToFloat(ticker.past_24hh_low),
+      low: parseToFloat(ticker.past_24h_low),
       close: parseToFloat(ticker.last_traded),
       bid: parseToFloat(ticker.current_bid),
       ask: parseToFloat(ticker.current_ask),
