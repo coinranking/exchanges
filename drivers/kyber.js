@@ -7,7 +7,8 @@ module.exports = async () => {
   const markets = tickers.data;
 
   return markets.map((ticker) => {
-    const [base, quote] = ticker.pair.split('_');
+    const base = ticker.base_symbol;
+    const quote = ticker.quote_symbol;
 
     return new Ticker({
       base,
