@@ -1,0 +1,177 @@
+[
+    {
+        "scope": "https://api.resfinex.com:443",
+        "method": "GET",
+        "path": "/engine/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status": "ok",
+            "data": [
+                {
+                    "pair": "ETH_USDT",
+                    "timestamp": 1575476172000,
+                    "last": 149.41,
+                    "volume": 5835678.090603113,
+                    "volumeBase": 39889.649289505556,
+                    "change": 1.4099999999999966,
+                    "high": 151.27,
+                    "low": 143.34
+                },
+                {
+                    "pair": "OMG_USDT",
+                    "timestamp": 1575476173000,
+                    "last": 0.7447,
+                    "volume": 108016.65672825277,
+                    "volumeBase": 147616.8200000599,
+                    "change": 0.00990000000000002,
+                    "high": 0.7721,
+                    "low": 0.7125
+                },
+                {
+                    "pair": "RES_ETH",
+                    "timestamp": 1575476172000,
+                    "last": 0.00073607,
+                    "volume": 2656.3657522363355,
+                    "volumeBase": 3536110,
+                    "change": -0.0000071099999999999506,
+                    "high": 0.00076753,
+                    "low": 0.00072485
+                },
+                {
+                    "pair": "BAT_USDT",
+                    "timestamp": 1575476173000,
+                    "last": 0.1858,
+                    "volume": 285862.7710405141,
+                    "volumeBase": 1509614.5100050569,
+                    "change": -0.008700000000000013,
+                    "high": 0.1964,
+                    "low": 0.1827
+                },
+                {
+                    "pair": "ZRX_USDT",
+                    "timestamp": 1575476172000,
+                    "last": 0.2413,
+                    "volume": 74587.53883747756,
+                    "volumeBase": 309644.7300003171,
+                    "change": -0.00520000000000001,
+                    "high": 0.2484,
+                    "low": 0.233417
+                },
+                {
+                    "pair": "LINK_USDT",
+                    "timestamp": 1575476173000,
+                    "last": 2.092099,
+                    "volume": 1685820.6222903728,
+                    "volumeBase": 811344.2700003088,
+                    "change": -0.06570099999999979,
+                    "high": 2.1741,
+                    "low": 2
+                },
+                {
+                    "pair": "NPXS_USDT",
+                    "timestamp": 1575476173000,
+                    "last": 0.0001558,
+                    "volume": 105479.22593340278,
+                    "volumeBase": 690714004,
+                    "change": 0.000002599999999999982,
+                    "high": 0.0001583,
+                    "low": 0.0001496
+                },
+                {
+                    "pair": "CVC_USDT",
+                    "timestamp": 1575476172000,
+                    "last": 0.0277304,
+                    "volume": 76876.75850011222,
+                    "volumeBase": 2825065.0999993086,
+                    "change": 0.00017039999999999764,
+                    "high": 0.0285,
+                    "low": 0.02643
+                },
+                {
+                    "pair": "OMG_ETH",
+                    "timestamp": 1575476172000,
+                    "last": 0.004999,
+                    "volume": 70.13761609997891,
+                    "volumeBase": 14050.010000015609,
+                    "change": 0.000053000000000000096,
+                    "high": 0.005109,
+                    "low": 0.004941
+                },
+                {
+                    "pair": "BAT_ETH",
+                    "timestamp": 1575476172000,
+                    "last": 0.001248,
+                    "volume": 167.96955476015137,
+                    "volumeBase": 130288.83000010252,
+                    "change": -0.00006499999999999995,
+                    "high": 0.001341,
+                    "low": 0.001226
+                },
+                {
+                    "pair": "ZRX_ETH",
+                    "timestamp": 1575476172000,
+                    "last": 0.001613,
+                    "volume": 98.4675213601513,
+                    "volumeBase": 59821.709999937564,
+                    "change": -0.00005299999999999988,
+                    "high": 0.001671,
+                    "low": 0.0016
+                },
+                {
+                    "pair": "NPXS_ETH",
+                    "timestamp": 1575476172000,
+                    "last": 0.00000104,
+                    "volume": 337.40441410877975,
+                    "volumeBase": 324871796,
+                    "change": 0,
+                    "high": 0.00000106,
+                    "low": 0.00000102
+                },
+                {
+                    "pair": "CVC_ETH",
+                    "timestamp": 1575476172000,
+                    "last": 0.000184,
+                    "volume": 123.02109893007946,
+                    "volumeBase": 663988.2000005245,
+                    "change": -0.0000017999999999999895,
+                    "high": 0.00019,
+                    "low": 0.0001806
+                },
+                {
+                    "pair": "BTB_ETH",
+                    "timestamp": 1575476172000,
+                    "last": 0.00000842,
+                    "volume": 8.721004190243548,
+                    "volumeBase": 1015236,
+                    "change": -7.999999999999923e-8,
+                    "high": 0.00000878,
+                    "low": 0.00000836
+                }
+            ]
+        },
+        "rawHeaders": [
+            "X-Powered-By",
+            "Express",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Authorization, Account, Token, Signature, Nonce, Sub",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "2520",
+            "ETag",
+            "W/\"9d8-OnPymXRyPLbUtDPySPT5IxJ/d3Q\"",
+            "Date",
+            "Wed, 04 Dec 2019 16:16:14 GMT",
+            "Via",
+            "1.1 google",
+            "Alt-Svc",
+            "clear"
+        ],
+        "responseIsBinary": false
+    }
+]
