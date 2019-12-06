@@ -58,6 +58,7 @@ exports.bw = require('./bw');
 exports.bxinth = require('./bxinth');
 exports.cashpayz = require('./cashpayz');
 exports.catex = require('./catex');
+exports.cbx = require('./cbx');
 exports.ccxcanada = require('./ccxcanada');
 exports.cex = require('./cex');
 exports.cobinhood = require('./cobinhood');
