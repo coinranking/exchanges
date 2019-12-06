@@ -13,6 +13,7 @@ module.exports = async () => {
     return new Ticker({
       base,
       baseName: ticker.base_name,
+      baseReference: ticker.base_address,
       quote,
       quoteName: ticker.quote_name,
       high: parseToFloat(ticker.past_24h_high),
