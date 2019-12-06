@@ -20,7 +20,7 @@ module.exports = async () => {
       bid: parseToFloat(ticker.current_bid),
       ask: parseToFloat(ticker.current_ask),
       baseVolume: parseToFloat(ticker.token_24h_volume),
-      quoteVolume: parseToFloat(ticker.eth_24h_volume),
+      quoteVolume: quote === 'ETH' ? parseToFloat(ticker.eth_24h_volume) : undefined,
     });
   });
 };
