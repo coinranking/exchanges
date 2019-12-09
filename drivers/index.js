@@ -12,6 +12,7 @@ exports.bequant = require('./bequant');
 exports.bgogo = require('./bgogo');
 exports.bibox = require('./bibox');
 exports.bigone = require('./bigone');
+exports.biki = require('./biki');
 exports.binance = require('./binance');
 exports.binancedex = require('./binancedex');
 exports.bisq = require('./bisq');
