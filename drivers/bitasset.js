@@ -6,6 +6,7 @@ module.exports = async () => {
   const { data: tickers } = await request({
     url: 'https://api.bitasset.com/spot/v2/public/AllTicker',
     headers: { Accept: 'application/json' },
+    rejectUnauthorized: false,
   });
 
   return tickers.map((ticker) => {
