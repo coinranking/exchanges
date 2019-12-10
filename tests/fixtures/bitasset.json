@@ -1,0 +1,1338 @@
+[
+    {
+        "scope": "https://api.bitasset.com:443",
+        "method": "GET",
+        "path": "/spot/v2/public/AllTicker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "data": [
+                {
+                    "pair": "usdt-cnyt",
+                    "lastPrice": "7.03850000",
+                    "priceChange24hr": "0.00246397",
+                    "volume24hr": "3706330.00000000",
+                    "isBuyer": true,
+                    "high24hr": "7.04180000",
+                    "low24hr": "7.01550000"
+                },
+                {
+                    "pair": "btc-cnyt",
+                    "lastPrice": "52244.63000000",
+                    "priceChange24hr": "-0.00799929",
+                    "volume24hr": "1457.63600000",
+                    "isBuyer": true,
+                    "high24hr": "53519.96000000",
+                    "low24hr": "51997.32000000"
+                },
+                {
+                    "pair": "eth-cnyt",
+                    "lastPrice": "1039.62000000",
+                    "priceChange24hr": "-0.01447544",
+                    "volume24hr": "61606.61600000",
+                    "isBuyer": true,
+                    "high24hr": "1059.69000000",
+                    "low24hr": "1034.22000000"
+                },
+                {
+                    "pair": "bch-cnyt",
+                    "lastPrice": "1464.98000000",
+                    "priceChange24hr": "-0.01750409",
+                    "volume24hr": "33.83300000",
+                    "isBuyer": true,
+                    "high24hr": "1507.24000000",
+                    "low24hr": "1456.49000000"
+                },
+                {
+                    "pair": "ltc-cnyt",
+                    "lastPrice": "314.42000000",
+                    "priceChange24hr": "-0.01583824",
+                    "volume24hr": "210560.06000000",
+                    "isBuyer": true,
+                    "high24hr": "321.67000000",
+                    "low24hr": "311.29000000"
+                },
+                {
+                    "pair": "btc-usdt",
+                    "lastPrice": "7432.70000000",
+                    "priceChange24hr": "-0.01021782",
+                    "volume24hr": "6391.57260000",
+                    "isBuyer": true,
+                    "high24hr": "7640.08000000",
+                    "low24hr": "7404.80000000"
+                },
+                {
+                    "pair": "eth-usdt",
+                    "lastPrice": "147.89000000",
+                    "priceChange24hr": "-0.01662345",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "150.98000000",
+                    "low24hr": "147.41000000"
+                },
+                {
+                    "pair": "bch-usdt",
+                    "lastPrice": "208.35000000",
+                    "priceChange24hr": "-0.01985228",
+                    "volume24hr": "2925.78300000",
+                    "isBuyer": true,
+                    "high24hr": "214.83000000",
+                    "low24hr": "207.32000000"
+                },
+                {
+                    "pair": "ltc-usdt",
+                    "lastPrice": "44.72000000",
+                    "priceChange24hr": "-0.01800615",
+                    "volume24hr": "264402.01000000",
+                    "isBuyer": true,
+                    "high24hr": "45.77000000",
+                    "low24hr": "44.35000000"
+                },
+                {
+                    "pair": "eth-btc",
+                    "lastPrice": "0.01990000",
+                    "priceChange24hr": "-0.00649026",
+                    "volume24hr": "10827.07100000",
+                    "isBuyer": true,
+                    "high24hr": "0.02007000",
+                    "low24hr": "0.01976700"
+                },
+                {
+                    "pair": "bch-btc",
+                    "lastPrice": "0.02804000",
+                    "priceChange24hr": "-0.00988701",
+                    "volume24hr": "5418.10100000",
+                    "isBuyer": true,
+                    "high24hr": "0.02854000",
+                    "low24hr": "0.02796000"
+                },
+                {
+                    "pair": "ltc-btc",
+                    "lastPrice": "0.00601800",
+                    "priceChange24hr": "-0.00823995",
+                    "volume24hr": "36902.84000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00611900",
+                    "low24hr": "0.00598000"
+                },
+                {
+                    "pair": "usdt-twd",
+                    "lastPrice": "30.40000000",
+                    "priceChange24hr": "0.00197759",
+                    "volume24hr": "16076.20000000",
+                    "isBuyer": true,
+                    "high24hr": "30.43000000",
+                    "low24hr": "30.25000000"
+                },
+                {
+                    "pair": "btc-twd",
+                    "lastPrice": "226249.00000000",
+                    "priceChange24hr": "-0.00762324",
+                    "volume24hr": "69.16160000",
+                    "isBuyer": true,
+                    "high24hr": "230986.00000000",
+                    "low24hr": "225324.00000000"
+                },
+                {
+                    "pair": "eth-twd",
+                    "lastPrice": "4502.45000000",
+                    "priceChange24hr": "-0.01437356",
+                    "volume24hr": "7454.20300000",
+                    "isBuyer": true,
+                    "high24hr": "4592.96000000",
+                    "low24hr": "4487.92000000"
+                },
+                {
+                    "pair": "bch-twd",
+                    "lastPrice": "6344.69000000",
+                    "priceChange24hr": "-0.01746048",
+                    "volume24hr": "36802.70200000",
+                    "isBuyer": true,
+                    "high24hr": "6540.68000000",
+                    "low24hr": "6308.37000000"
+                },
+                {
+                    "pair": "ltc-twd",
+                    "lastPrice": "1361.80000000",
+                    "priceChange24hr": "-0.01562082",
+                    "volume24hr": "183353.34000000",
+                    "isBuyer": true,
+                    "high24hr": "1395.31000000",
+                    "low24hr": "1348.13000000"
+                },
+                {
+                    "pair": "dash-usdt",
+                    "lastPrice": "51.80000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "1730.83900000",
+                    "isBuyer": true,
+                    "high24hr": "53.10000000",
+                    "low24hr": "51.00000000"
+                },
+                {
+                    "pair": "etc-usdt",
+                    "lastPrice": "3.82800000",
+                    "priceChange24hr": "-0.01795793",
+                    "volume24hr": "45858.70000000",
+                    "isBuyer": true,
+                    "high24hr": "3.92200000",
+                    "low24hr": "3.80000000"
+                },
+                {
+                    "pair": "neo-usdt",
+                    "lastPrice": "8.82000000",
+                    "priceChange24hr": "-0.02325581",
+                    "volume24hr": "10979.84000000",
+                    "isBuyer": true,
+                    "high24hr": "9.09000000",
+                    "low24hr": "8.77000000"
+                },
+                {
+                    "pair": "omg-btc",
+                    "lastPrice": "0.00010010",
+                    "priceChange24hr": "0.00907258",
+                    "volume24hr": "50136.20000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00010109",
+                    "low24hr": "0.00009895"
+                },
+                {
+                    "pair": "wtc-btc",
+                    "lastPrice": "0.00006744",
+                    "priceChange24hr": "0.00059347",
+                    "volume24hr": "9634.10000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00006869",
+                    "low24hr": "0.00006586"
+                },
+                {
+                    "pair": "gxc-btc",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "mkr-btc",
+                    "lastPrice": "0.06700000",
+                    "priceChange24hr": "-0.01470588",
+                    "volume24hr": "110.05800000",
+                    "isBuyer": true,
+                    "high24hr": "0.06800000",
+                    "low24hr": "0.06600000"
+                },
+                {
+                    "pair": "zrx-btc",
+                    "lastPrice": "0.00003128",
+                    "priceChange24hr": "-0.00698413",
+                    "volume24hr": "35761.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00003166",
+                    "low24hr": "0.00003101"
+                },
+                {
+                    "pair": "ont-usdt",
+                    "lastPrice": "0.61990000",
+                    "priceChange24hr": "-0.03170884",
+                    "volume24hr": "293336.40000000",
+                    "isBuyer": true,
+                    "high24hr": "0.65310000",
+                    "low24hr": "0.61440000"
+                },
+                {
+                    "pair": "bat-btc",
+                    "lastPrice": "0.00002523",
+                    "priceChange24hr": "0.00517928",
+                    "volume24hr": "100654.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00002565",
+                    "low24hr": "0.00002492"
+                },
+                {
+                    "pair": "ae-btc",
+                    "lastPrice": "0.00002178",
+                    "priceChange24hr": "0.01067285",
+                    "volume24hr": "431144.30000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00002214",
+                    "low24hr": "0.00002131"
+                },
+                {
+                    "pair": "link-btc",
+                    "lastPrice": "0.00027600",
+                    "priceChange24hr": "0.01098901",
+                    "volume24hr": "68302.50000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00027773",
+                    "low24hr": "0.00027100"
+                },
+                {
+                    "pair": "rep-btc",
+                    "lastPrice": "0.00137500",
+                    "priceChange24hr": "-0.00650289",
+                    "volume24hr": "3542.34000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00139700",
+                    "low24hr": "0.00136400"
+                },
+                {
+                    "pair": "gnt-btc",
+                    "lastPrice": "0.00000480",
+                    "priceChange24hr": "-0.02040816",
+                    "volume24hr": "24301.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000490",
+                    "low24hr": "0.00000480"
+                },
+                {
+                    "pair": "ae-cnyt",
+                    "lastPrice": "1.13870000",
+                    "priceChange24hr": "0.00246501",
+                    "volume24hr": "187395.50000000",
+                    "isBuyer": true,
+                    "high24hr": "1.16520000",
+                    "low24hr": "1.12730000"
+                },
+                {
+                    "pair": "ae-twd",
+                    "lastPrice": "4.92000000",
+                    "priceChange24hr": "0.00408163",
+                    "volume24hr": "187495.90000000",
+                    "isBuyer": true,
+                    "high24hr": "5.06000000",
+                    "low24hr": "4.86000000"
+                },
+                {
+                    "pair": "ae-usdt",
+                    "lastPrice": "0.16200000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "188120.10000000",
+                    "isBuyer": true,
+                    "high24hr": "0.16600000",
+                    "low24hr": "0.16000000"
+                },
+                {
+                    "pair": "bsv-cnyt",
+                    "lastPrice": "669.73000000",
+                    "priceChange24hr": "-0.01568195",
+                    "volume24hr": "22936.51000000",
+                    "isBuyer": true,
+                    "high24hr": "683.75000000",
+                    "low24hr": "666.90000000"
+                },
+                {
+                    "pair": "bsv-twd",
+                    "lastPrice": "2900.48000000",
+                    "priceChange24hr": "-0.01577219",
+                    "volume24hr": "22631.92000000",
+                    "isBuyer": true,
+                    "high24hr": "2960.44000000",
+                    "low24hr": "2888.18000000"
+                },
+                {
+                    "pair": "bsv-usdt",
+                    "lastPrice": "95.25000000",
+                    "priceChange24hr": "-0.01814246",
+                    "volume24hr": "22655.20100000",
+                    "isBuyer": true,
+                    "high24hr": "97.43000000",
+                    "low24hr": "94.90000000"
+                },
+                {
+                    "pair": "bsv-btc",
+                    "lastPrice": "0.01283200",
+                    "priceChange24hr": "-0.00650356",
+                    "volume24hr": "71268.93500000",
+                    "isBuyer": true,
+                    "high24hr": "0.01293600",
+                    "low24hr": "0.01271500"
+                },
+                {
+                    "pair": "gxc-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "gxc-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "gxc-usdt",
+                    "lastPrice": "0.00010000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "loom-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "loom-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "loom-usdt",
+                    "lastPrice": "0.02077800",
+                    "priceChange24hr": "-0.03734248",
+                    "volume24hr": "5151648.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.02189800",
+                    "low24hr": "0.02057200"
+                },
+                {
+                    "pair": "zil-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "zil-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "zil-usdt",
+                    "lastPrice": "0.00626100",
+                    "priceChange24hr": "-0.03155452",
+                    "volume24hr": "53712960.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00681300",
+                    "low24hr": "0.00617600"
+                },
+                {
+                    "pair": "qkc-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "qkc-usdt",
+                    "lastPrice": "0.00410400",
+                    "priceChange24hr": "-0.00121684",
+                    "volume24hr": "2907722.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00432900",
+                    "low24hr": "0.00404400"
+                },
+                {
+                    "pair": "qkc-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "mana-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "mana-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "mana-usdt",
+                    "lastPrice": "0.02732700",
+                    "priceChange24hr": "0.02405846",
+                    "volume24hr": "4470891.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.02894900",
+                    "low24hr": "0.02587500"
+                },
+                {
+                    "pair": "cvc-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "cvc-usdt",
+                    "lastPrice": "0.02702000",
+                    "priceChange24hr": "-0.02044664",
+                    "volume24hr": "1060835.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.02797000",
+                    "low24hr": "0.02685500"
+                },
+                {
+                    "pair": "cvc-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "snt-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "snt-usdt",
+                    "lastPrice": "0.01059600",
+                    "priceChange24hr": "-0.01460058",
+                    "volume24hr": "988561.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.01091700",
+                    "low24hr": "0.01053500"
+                },
+                {
+                    "pair": "snt-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "lrc-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "lrc-usdt",
+                    "lastPrice": "0.02507500",
+                    "priceChange24hr": "0.01239503",
+                    "volume24hr": "515486.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.02528100",
+                    "low24hr": "0.02435700"
+                },
+                {
+                    "pair": "lrc-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "pps-usdt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "storj-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "storj-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "storj-usdt",
+                    "lastPrice": "0.11760000",
+                    "priceChange24hr": "-0.02325581",
+                    "volume24hr": "287413.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.12120000",
+                    "low24hr": "0.11710000"
+                },
+                {
+                    "pair": "enj-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "enj-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "enj-usdt",
+                    "lastPrice": "0.08404700",
+                    "priceChange24hr": "-0.07189867",
+                    "volume24hr": "5074985.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.09246600",
+                    "low24hr": "0.08380800"
+                },
+                {
+                    "pair": "knc-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "knc-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "knc-usdt",
+                    "lastPrice": "0.22630000",
+                    "priceChange24hr": "-0.07557190",
+                    "volume24hr": "588470.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.24900000",
+                    "low24hr": "0.22000000"
+                },
+                {
+                    "pair": "req-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "req-twd",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "req-usdt",
+                    "lastPrice": "0.01373800",
+                    "priceChange24hr": "-0.00751337",
+                    "volume24hr": "226983.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.01404600",
+                    "low24hr": "0.01343800"
+                },
+                {
+                    "pair": "bnb-cnyt",
+                    "lastPrice": "108.67000000",
+                    "priceChange24hr": "-0.00585491",
+                    "volume24hr": "138646.74000000",
+                    "isBuyer": true,
+                    "high24hr": "110.76000000",
+                    "low24hr": "107.97000000"
+                },
+                {
+                    "pair": "bnb-twd",
+                    "lastPrice": "470.75000000",
+                    "priceChange24hr": "-0.00727541",
+                    "volume24hr": "154726.54000000",
+                    "isBuyer": true,
+                    "high24hr": "479.73000000",
+                    "low24hr": "467.68000000"
+                },
+                {
+                    "pair": "bnb-usdt",
+                    "lastPrice": "15.45670000",
+                    "priceChange24hr": "-0.00878560",
+                    "volume24hr": "173219.71000000",
+                    "isBuyer": true,
+                    "high24hr": "15.79800000",
+                    "low24hr": "15.36390000"
+                },
+                {
+                    "pair": "ont-cnyt",
+                    "lastPrice": "4.35940000",
+                    "priceChange24hr": "-0.02992946",
+                    "volume24hr": "343786.90000000",
+                    "isBuyer": true,
+                    "high24hr": "4.58060000",
+                    "low24hr": "4.31710000"
+                },
+                {
+                    "pair": "ont-twd",
+                    "lastPrice": "18.86000000",
+                    "priceChange24hr": "-0.03083248",
+                    "volume24hr": "342301.70000000",
+                    "isBuyer": true,
+                    "high24hr": "19.84000000",
+                    "low24hr": "18.70000000"
+                },
+                {
+                    "pair": "ong-cnyt",
+                    "lastPrice": "0.79650000",
+                    "priceChange24hr": "-0.04163157",
+                    "volume24hr": "81769.60000000",
+                    "isBuyer": true,
+                    "high24hr": "0.83490000",
+                    "low24hr": "0.78600000"
+                },
+                {
+                    "pair": "ong-twd",
+                    "lastPrice": "3.45000000",
+                    "priceChange24hr": "-0.04166667",
+                    "volume24hr": "83139.20000000",
+                    "isBuyer": true,
+                    "high24hr": "3.61000000",
+                    "low24hr": "3.40000000"
+                },
+                {
+                    "pair": "clc-btc",
+                    "lastPrice": "0.00000075",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000075",
+                    "low24hr": "0.00000075"
+                },
+                {
+                    "pair": "ht-cnyt",
+                    "lastPrice": "19.58030000",
+                    "priceChange24hr": "-0.00433752",
+                    "volume24hr": "153796.20000000",
+                    "isBuyer": true,
+                    "high24hr": "19.93770000",
+                    "low24hr": "19.37810000"
+                },
+                {
+                    "pair": "ht-twd",
+                    "lastPrice": "84.79000000",
+                    "priceChange24hr": "-0.00632837",
+                    "volume24hr": "153287.00000000",
+                    "isBuyer": true,
+                    "high24hr": "86.38000000",
+                    "low24hr": "83.92000000"
+                },
+                {
+                    "pair": "ht-usdt",
+                    "lastPrice": "2.78370000",
+                    "priceChange24hr": "-0.00709802",
+                    "volume24hr": "152135.80000000",
+                    "isBuyer": true,
+                    "high24hr": "2.83850000",
+                    "low24hr": "2.75810000"
+                },
+                {
+                    "pair": "fet-cnyt",
+                    "lastPrice": "0.47340000",
+                    "priceChange24hr": "0.02823632",
+                    "volume24hr": "406420.40000000",
+                    "isBuyer": true,
+                    "high24hr": "0.49040000",
+                    "low24hr": "0.43890000"
+                },
+                {
+                    "pair": "fet-twd",
+                    "lastPrice": "2.04940000",
+                    "priceChange24hr": "0.02690785",
+                    "volume24hr": "420988.60000000",
+                    "isBuyer": true,
+                    "high24hr": "2.12470000",
+                    "low24hr": "1.89970000"
+                },
+                {
+                    "pair": "fet-usdt",
+                    "lastPrice": "0.06730000",
+                    "priceChange24hr": "0.02435312",
+                    "volume24hr": "404212.50000000",
+                    "isBuyer": true,
+                    "high24hr": "0.06980000",
+                    "low24hr": "0.06240000"
+                },
+                {
+                    "pair": "ktn-usdt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "hkt-btc",
+                    "lastPrice": "0.00000073",
+                    "priceChange24hr": "-0.06410256",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000080",
+                    "low24hr": "0.00000071"
+                },
+                {
+                    "pair": "like-btc",
+                    "lastPrice": "0.00000060",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "ela-usdt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "vollar-btc",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "celr-cnyt",
+                    "lastPrice": "0.03670000",
+                    "priceChange24hr": "-0.03926702",
+                    "volume24hr": "4686706.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.03910000",
+                    "low24hr": "0.03650000"
+                },
+                {
+                    "pair": "celr-twd",
+                    "lastPrice": "0.15900000",
+                    "priceChange24hr": "-0.04043452",
+                    "volume24hr": "5755551.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.16980000",
+                    "low24hr": "0.15830000"
+                },
+                {
+                    "pair": "celr-usdt",
+                    "lastPrice": "0.00523000",
+                    "priceChange24hr": "-0.04387569",
+                    "volume24hr": "5753833.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00558000",
+                    "low24hr": "0.00520000"
+                },
+                {
+                    "pair": "usdt-usd",
+                    "lastPrice": "1.01010000",
+                    "priceChange24hr": "-0.00158150",
+                    "volume24hr": "768590.80000000",
+                    "isBuyer": true,
+                    "high24hr": "1.01260000",
+                    "low24hr": "1.00980000"
+                },
+                {
+                    "pair": "btc-usd",
+                    "lastPrice": "7504.16000000",
+                    "priceChange24hr": "-0.01214259",
+                    "volume24hr": "15328.11260000",
+                    "isBuyer": true,
+                    "high24hr": "7730.06000000",
+                    "low24hr": "7465.75000000"
+                },
+                {
+                    "pair": "eth-usd",
+                    "lastPrice": "149.45000000",
+                    "priceChange24hr": "-0.01742275",
+                    "volume24hr": "329088.39900000",
+                    "isBuyer": true,
+                    "high24hr": "152.86000000",
+                    "low24hr": "148.84000000"
+                },
+                {
+                    "pair": "trx-usdt",
+                    "lastPrice": "0.01437000",
+                    "priceChange24hr": "-0.01642710",
+                    "volume24hr": "34399691.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.01470000",
+                    "low24hr": "0.01434000"
+                },
+                {
+                    "pair": "iost-usdt",
+                    "lastPrice": "0.00599000",
+                    "priceChange24hr": "0.00977748",
+                    "volume24hr": "30832877.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00622500",
+                    "low24hr": "0.00590200"
+                },
+                {
+                    "pair": "btt-usdt",
+                    "lastPrice": "0.00030900",
+                    "priceChange24hr": "-0.03437500",
+                    "volume24hr": "83702062.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00032100",
+                    "low24hr": "0.00030662"
+                },
+                {
+                    "pair": "trx-cnyt",
+                    "lastPrice": "0.10110000",
+                    "priceChange24hr": "-0.01269531",
+                    "volume24hr": "31677745.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.10290000",
+                    "low24hr": "0.10060000"
+                },
+                {
+                    "pair": "trx-twd",
+                    "lastPrice": "0.43790000",
+                    "priceChange24hr": "-0.01262683",
+                    "volume24hr": "34357034.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.44670000",
+                    "low24hr": "0.43560000"
+                },
+                {
+                    "pair": "btt-cnyt",
+                    "lastPrice": "0.00217100",
+                    "priceChange24hr": "-0.03166815",
+                    "volume24hr": "84121107.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00225100",
+                    "low24hr": "0.00215200"
+                },
+                {
+                    "pair": "btt-twd",
+                    "lastPrice": "0.00940900",
+                    "priceChange24hr": "-0.03209546",
+                    "volume24hr": "84885565.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00975100",
+                    "low24hr": "0.00933000"
+                },
+                {
+                    "pair": "npxs-usdt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "iost-cnyt",
+                    "lastPrice": "0.04200000",
+                    "priceChange24hr": "0.00961538",
+                    "volume24hr": "15066504.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.04360000",
+                    "low24hr": "0.04140000"
+                },
+                {
+                    "pair": "iost-twd",
+                    "lastPrice": "0.18210000",
+                    "priceChange24hr": "0.01054384",
+                    "volume24hr": "30623637.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.18910000",
+                    "low24hr": "0.17940000"
+                },
+                {
+                    "pair": "eos-usdt",
+                    "lastPrice": "2.66000000",
+                    "priceChange24hr": "-0.02919708",
+                    "volume24hr": "2644327.60000000",
+                    "isBuyer": true,
+                    "high24hr": "2.75000000",
+                    "low24hr": "2.65300000"
+                },
+                {
+                    "pair": "eos-cnyt",
+                    "lastPrice": "18.70340000",
+                    "priceChange24hr": "-0.02689850",
+                    "volume24hr": "2693525.40000000",
+                    "isBuyer": true,
+                    "high24hr": "19.29220000",
+                    "low24hr": "18.65490000"
+                },
+                {
+                    "pair": "eos-twd",
+                    "lastPrice": "81.00000000",
+                    "priceChange24hr": "-0.02679322",
+                    "volume24hr": "2650017.10000000",
+                    "isBuyer": true,
+                    "high24hr": "83.53000000",
+                    "low24hr": "80.78000000"
+                },
+                {
+                    "pair": "leo-usdt",
+                    "lastPrice": "0.91900000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "hx-cnyt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "hx-usdt",
+                    "lastPrice": "0.00000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "est-usdt",
+                    "lastPrice": "0.02379000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.02379000",
+                    "low24hr": "0.00000100"
+                },
+                {
+                    "pair": "ioex-usdt",
+                    "lastPrice": "0.01370000",
+                    "priceChange24hr": "-0.08053691",
+                    "volume24hr": "398897.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.01570000",
+                    "low24hr": "0.01020000"
+                },
+                {
+                    "pair": "isas-usdt",
+                    "lastPrice": "0.00010000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00010000",
+                    "low24hr": "0.00010000"
+                },
+                {
+                    "pair": "leo-twd",
+                    "lastPrice": "28.23000000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "leo-cnyt",
+                    "lastPrice": "6.55450000",
+                    "priceChange24hr": "0.00000000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000000",
+                    "low24hr": "0.00000000"
+                },
+                {
+                    "pair": "algo-twd",
+                    "lastPrice": "9.43000000",
+                    "priceChange24hr": "0.06074241",
+                    "volume24hr": "602662.17000000",
+                    "isBuyer": true,
+                    "high24hr": "11.69000000",
+                    "low24hr": "8.87000000"
+                },
+                {
+                    "pair": "algo-cnyt",
+                    "lastPrice": "2.17270000",
+                    "priceChange24hr": "0.05748077",
+                    "volume24hr": "604140.93000000",
+                    "isBuyer": true,
+                    "high24hr": "2.67160000",
+                    "low24hr": "2.05450000"
+                },
+                {
+                    "pair": "algo-usdt",
+                    "lastPrice": "0.30900000",
+                    "priceChange24hr": "0.05460751",
+                    "volume24hr": "605858.90000000",
+                    "isBuyer": true,
+                    "high24hr": "0.38150000",
+                    "low24hr": "0.29300000"
+                },
+                {
+                    "pair": "osc-usdt",
+                    "lastPrice": "0.02420000",
+                    "priceChange24hr": "-0.43589744",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.04480000",
+                    "low24hr": "0.02420000"
+                },
+                {
+                    "pair": "osc-btc",
+                    "lastPrice": "0.00000388",
+                    "priceChange24hr": "-0.28413284",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00000542",
+                    "low24hr": "0.00000388"
+                },
+                {
+                    "pair": "vgo-usdt",
+                    "lastPrice": "0.02460000",
+                    "priceChange24hr": "0.02500000",
+                    "volume24hr": "325.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.03300000",
+                    "low24hr": "0.02330000"
+                },
+                {
+                    "pair": "pt-twd",
+                    "lastPrice": "2.09950000",
+                    "priceChange24hr": "0.04975000",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "2.09950000",
+                    "low24hr": "2.00000000"
+                },
+                {
+                    "pair": "xrp-usdt",
+                    "lastPrice": "0.22500000",
+                    "priceChange24hr": "-0.01789612",
+                    "volume24hr": "3827755.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.23060000",
+                    "low24hr": "0.22440000"
+                },
+                {
+                    "pair": "xrp-cnyt",
+                    "lastPrice": "1.58250000",
+                    "priceChange24hr": "-0.01506193",
+                    "volume24hr": "2831275.00000000",
+                    "isBuyer": true,
+                    "high24hr": "1.61770000",
+                    "low24hr": "1.57620000"
+                },
+                {
+                    "pair": "xrp-twd",
+                    "lastPrice": "6.84000000",
+                    "priceChange24hr": "-0.01582734",
+                    "volume24hr": "2831889.00000000",
+                    "isBuyer": true,
+                    "high24hr": "7.00000000",
+                    "low24hr": "6.82000000"
+                },
+                {
+                    "pair": "xlm-usdt",
+                    "lastPrice": "0.05480000",
+                    "priceChange24hr": "-0.01792115",
+                    "volume24hr": "1218337.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.05620000",
+                    "low24hr": "0.05480000"
+                },
+                {
+                    "pair": "dcr-usdt",
+                    "lastPrice": "19.62000000",
+                    "priceChange24hr": "-0.03870652",
+                    "volume24hr": "66.97000000",
+                    "isBuyer": true,
+                    "high24hr": "20.50000000",
+                    "low24hr": "19.62000000"
+                },
+                {
+                    "pair": "vet-usdt",
+                    "lastPrice": "0.00693200",
+                    "priceChange24hr": "-0.02736074",
+                    "volume24hr": "8055968.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00737200",
+                    "low24hr": "0.00690000"
+                },
+                {
+                    "pair": "zec-usdt",
+                    "lastPrice": "31.20000000",
+                    "priceChange24hr": "0.06484642",
+                    "volume24hr": "3350.60100000",
+                    "isBuyer": true,
+                    "high24hr": "32.20000000",
+                    "low24hr": "28.90000000"
+                },
+                {
+                    "pair": "doge-usdt",
+                    "lastPrice": "0.00218100",
+                    "priceChange24hr": "-0.00728266",
+                    "volume24hr": "999572.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00221800",
+                    "low24hr": "0.00216300"
+                },
+                {
+                    "pair": "doge-cnyt",
+                    "lastPrice": "0.01534400",
+                    "priceChange24hr": "-0.00421831",
+                    "volume24hr": "668639.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.01554800",
+                    "low24hr": "0.01520500"
+                },
+                {
+                    "pair": "doge-twd",
+                    "lastPrice": "0.06640000",
+                    "priceChange24hr": "-0.00449775",
+                    "volume24hr": "691744.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.06730000",
+                    "low24hr": "0.06580000"
+                },
+                {
+                    "pair": "atom-usdt",
+                    "lastPrice": "3.78000000",
+                    "priceChange24hr": "-0.03571429",
+                    "volume24hr": "30764.10000000",
+                    "isBuyer": true,
+                    "high24hr": "3.94000000",
+                    "low24hr": "3.74000000"
+                },
+                {
+                    "pair": "like-twd",
+                    "lastPrice": "0.12080000",
+                    "priceChange24hr": "0.11029412",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.15000000",
+                    "low24hr": "0.09750000"
+                },
+                {
+                    "pair": "ctxc-usdt",
+                    "lastPrice": "0.08180000",
+                    "priceChange24hr": "-0.00607533",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.08320000",
+                    "low24hr": "0.08100000"
+                },
+                {
+                    "pair": "ctxc-btc",
+                    "lastPrice": "0.00001104",
+                    "priceChange24hr": "-0.02902375",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00001137",
+                    "low24hr": "0.00001079"
+                },
+                {
+                    "pair": "dash-cnyt",
+                    "lastPrice": "363.84000000",
+                    "priceChange24hr": "0.00278367",
+                    "volume24hr": "107.63200000",
+                    "isBuyer": true,
+                    "high24hr": "372.97000000",
+                    "low24hr": "357.89000000"
+                },
+                {
+                    "pair": "dash-twd",
+                    "lastPrice": "1574.33000000",
+                    "priceChange24hr": "0.00130384",
+                    "volume24hr": "73.72200000",
+                    "isBuyer": true,
+                    "high24hr": "1616.83000000",
+                    "low24hr": "1555.44000000"
+                },
+                {
+                    "pair": "self-usdt",
+                    "lastPrice": "0.09270000",
+                    "priceChange24hr": "0.11956522",
+                    "volume24hr": "12981.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.09760000",
+                    "low24hr": "0.08260000"
+                },
+                {
+                    "pair": "self-btc",
+                    "lastPrice": "0.00001600",
+                    "priceChange24hr": "0.06666667",
+                    "volume24hr": "0.00000000",
+                    "isBuyer": true,
+                    "high24hr": "0.00001600",
+                    "low24hr": "0.00001500"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Mon, 09 Dec 2019 19:12:23 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Content-Length",
+            "24657",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]

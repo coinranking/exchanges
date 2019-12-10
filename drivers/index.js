@@ -17,6 +17,7 @@ exports.biki = require('./biki');
 exports.binance = require('./binance');
 exports.binancedex = require('./binancedex');
 exports.bisq = require('./bisq');
+exports.bitasset = require('./bitasset');
 exports.bitbank = require('./bitbank');
 exports.bit2c = require('./bit2c');
 exports.bitbay = require('./bitbay');
