@@ -10,6 +10,7 @@ exports.barginex = require('./barginex');
 exports.bcex = require('./bcex');
 exports.bequant = require('./bequant');
 exports.bgogo = require('./bgogo');
+exports.bhex = require('./bhex');
 exports.bibox = require('./bibox');
 exports.bigone = require('./bigone');
 exports.binance = require('./binance');

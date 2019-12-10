@@ -1,0 +1,3274 @@
+[
+    {
+        "scope": "https://www.bhex.com:443",
+        "method": "GET",
+        "path": "/openapi/v1/brokerInfo",
+        "body": "",
+        "status": 200,
+        "response": {
+            "timezone": "UTC",
+            "serverTime": "1575909456187",
+            "brokerFilters": [],
+            "symbols": [
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.00005",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.000001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTCUSDT",
+                    "symbolName": "BTCUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "BTC",
+                    "baseAssetPrecision": "0.000001",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ETHBTC",
+                    "symbolName": "ETHBTC",
+                    "status": "TRADING",
+                    "baseAsset": "ETH",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ETHUSDT",
+                    "symbolName": "ETHUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "ETH",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.0001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ETCUSDT",
+                    "symbolName": "ETCUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "ETC",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.0001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "EOSUSDT",
+                    "symbolName": "EOSUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "EOS",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LTCUSDT",
+                    "symbolName": "LTCUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "LTC",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.0001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ETCBTC",
+                    "symbolName": "ETCBTC",
+                    "status": "TRADING",
+                    "baseAsset": "ETC",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.0001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "EOSBTC",
+                    "symbolName": "EOSBTC",
+                    "status": "TRADING",
+                    "baseAsset": "EOS",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LTCBTC",
+                    "symbolName": "LTCBTC",
+                    "status": "TRADING",
+                    "baseAsset": "LTC",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "50",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0002",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BHTBTC",
+                    "symbolName": "BHTBTC",
+                    "status": "TRADING",
+                    "baseAsset": "BHT",
+                    "baseAssetPrecision": "0.1",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.00000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "GRINUSDT",
+                    "symbolName": "GRINUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "GRIN",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.5",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BEAMUSDT",
+                    "symbolName": "BEAMUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "BEAM",
+                    "baseAssetPrecision": "0.1",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BEAMBTC",
+                    "symbolName": "BEAMBTC",
+                    "status": "TRADING",
+                    "baseAsset": "BEAM",
+                    "baseAssetPrecision": "0.1",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "GRINBTC",
+                    "symbolName": "GRINBTC",
+                    "status": "TRADING",
+                    "baseAsset": "GRIN",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "50",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "2",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BHTUSDT",
+                    "symbolName": "BHTUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "BHT",
+                    "baseAssetPrecision": "0.1",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.0001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.2",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BCHUSDT",
+                    "symbolName": "BCHUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "BCH",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.5",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTMUSDT",
+                    "symbolName": "BTMUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "BTM",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "XRPUSDT",
+                    "symbolName": "XRPUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "XRP",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LAMBUSDT",
+                    "symbolName": "LAMBUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "LAMB",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ATUSDT",
+                    "symbolName": "ATUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "AT",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BHDUSDT",
+                    "symbolName": "BHDUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "BHD",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.03",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "F-WJ101AT",
+                    "symbolName": "F-WJ101AT",
+                    "status": "TRADING",
+                    "baseAsset": "F-WJ101",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "AT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ALGOUSDT",
+                    "symbolName": "ALGOUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "ALGO",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LAMBBTC",
+                    "symbolName": "LAMBBTC",
+                    "status": "TRADING",
+                    "baseAsset": "LAMB",
+                    "baseAssetPrecision": "0.001",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.00000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ALGOBTC",
+                    "symbolName": "ALGOBTC",
+                    "status": "TRADING",
+                    "baseAsset": "ALGO",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.0001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BCHBTC",
+                    "symbolName": "BCHBTC",
+                    "status": "TRADING",
+                    "baseAsset": "BCH",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTMBTC",
+                    "symbolName": "BTMBTC",
+                    "status": "TRADING",
+                    "baseAsset": "BTM",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "XRPBTC",
+                    "symbolName": "XRPBTC",
+                    "status": "TRADING",
+                    "baseAsset": "XRP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "2",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "S-J165AT",
+                    "symbolName": "S-J165AT",
+                    "status": "TRADING",
+                    "baseAsset": "S-J165",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "AT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "QTUMUSDT",
+                    "symbolName": "QTUMUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "QTUM",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "QTUMBTC",
+                    "symbolName": "QTUMBTC",
+                    "status": "TRADING",
+                    "baseAsset": "QTUM",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.5",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "DRINKUSDT",
+                    "symbolName": "DRINKUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "DRINK",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.5",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "TRXUSDT",
+                    "symbolName": "TRXUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "TRX",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0000000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0000000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "10",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "TRXBTC",
+                    "symbolName": "TRXBTC",
+                    "status": "TRADING",
+                    "baseAsset": "TRX",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "HTUSDT",
+                    "symbolName": "HTUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "HT",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "HTBTC",
+                    "symbolName": "HTBTC",
+                    "status": "TRADING",
+                    "baseAsset": "HT",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "10",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "VOLUSDT",
+                    "symbolName": "VOLUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "VOL",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "10",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.00005",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LXTBTC",
+                    "symbolName": "LXTBTC",
+                    "status": "TRADING",
+                    "baseAsset": "LXT",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "10",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.5",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LXTUSDT",
+                    "symbolName": "LXTUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "LXT",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "50",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.00005",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "HPTBTC",
+                    "symbolName": "HPTBTC",
+                    "status": "TRADING",
+                    "baseAsset": "HPT",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "50",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.5",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "HPTUSDT",
+                    "symbolName": "HPTUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "HPT",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "100",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.5",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BUTUSDT",
+                    "symbolName": "BUTUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "BUT",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ONGBTC",
+                    "symbolName": "ONGBTC",
+                    "status": "TRADING",
+                    "baseAsset": "ONG",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ONGUSDT",
+                    "symbolName": "ONGUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "ONG",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.5",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ONTBTC",
+                    "symbolName": "ONTBTC",
+                    "status": "TRADING",
+                    "baseAsset": "ONT",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.5",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ONTUSDT",
+                    "symbolName": "ONTUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "ONT",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ALGOETH",
+                    "symbolName": "ALGOETH",
+                    "status": "TRADING",
+                    "baseAsset": "ALGO",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "ETH",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTMETH",
+                    "symbolName": "BTMETH",
+                    "status": "TRADING",
+                    "baseAsset": "BTM",
+                    "baseAssetPrecision": "0.001",
+                    "quoteAsset": "ETH",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.0001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "EOSETH",
+                    "symbolName": "EOSETH",
+                    "status": "TRADING",
+                    "baseAsset": "EOS",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "ETH",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ETCETH",
+                    "symbolName": "ETCETH",
+                    "status": "TRADING",
+                    "baseAsset": "ETC",
+                    "baseAssetPrecision": "0.001",
+                    "quoteAsset": "ETH",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.0001",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LTCETH",
+                    "symbolName": "LTCETH",
+                    "status": "TRADING",
+                    "baseAsset": "LTC",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "ETH",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "QTUMETH",
+                    "symbolName": "QTUMETH",
+                    "status": "TRADING",
+                    "baseAsset": "QTUM",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "ETH",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "10",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "TRXETH",
+                    "symbolName": "TRXETH",
+                    "status": "TRADING",
+                    "baseAsset": "TRX",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "ETH",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "10",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "XRPETH",
+                    "symbolName": "XRPETH",
+                    "status": "TRADING",
+                    "baseAsset": "XRP",
+                    "baseAssetPrecision": "0.001",
+                    "quoteAsset": "ETH",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false
+                }
+            ],
+            "rateLimits": [
+                {
+                    "rateLimitType": "REQUEST_WEIGHT",
+                    "interval": "MINUTE",
+                    "intervalUnit": 1,
+                    "limit": 3000
+                },
+                {
+                    "rateLimitType": "ORDERS",
+                    "interval": "SECOND",
+                    "intervalUnit": 2,
+                    "limit": 40
+                }
+            ],
+            "options": [
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTC0501CS8500",
+                    "symbolName": "BTC0501CS8500",
+                    "status": "TRADING",
+                    "baseAsset": "BTC0501CS8500",
+                    "baseAssetPrecision": "0.001",
+                    "quoteAsset": "BUSDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTC0501PS6500",
+                    "symbolName": "BTC0501PS6500",
+                    "status": "TRADING",
+                    "baseAsset": "BTC0501PS6500",
+                    "baseAssetPrecision": "0.001",
+                    "quoteAsset": "BUSDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTC1213CS7700",
+                    "symbolName": "BTC1213CS7700",
+                    "status": "TRADING",
+                    "baseAsset": "BTC1213CS7700",
+                    "baseAssetPrecision": "0.001",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTC1213PS7100",
+                    "symbolName": "BTC1213PS7100",
+                    "status": "TRADING",
+                    "baseAsset": "BTC1213PS7100",
+                    "baseAssetPrecision": "0.001",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "HT1213CS280",
+                    "symbolName": "HT1213CS280",
+                    "status": "TRADING",
+                    "baseAsset": "HT1213CS280",
+                    "baseAssetPrecision": "0.1",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "HT1213PS280",
+                    "symbolName": "HT1213PS280",
+                    "status": "TRADING",
+                    "baseAsset": "HT1213PS280",
+                    "baseAssetPrecision": "0.1",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "OKB1213CS260",
+                    "symbolName": "OKB1213CS260",
+                    "status": "TRADING",
+                    "baseAsset": "OKB1213CS260",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "OKB1213PS260",
+                    "symbolName": "OKB1213PS260",
+                    "status": "TRADING",
+                    "baseAsset": "OKB1213PS260",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BNB1213CS15",
+                    "symbolName": "BNB1213CS15",
+                    "status": "TRADING",
+                    "baseAsset": "BNB1213CS15",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BNB1213PS15",
+                    "symbolName": "BNB1213PS15",
+                    "status": "TRADING",
+                    "baseAsset": "BNB1213PS15",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false
+                }
+            ],
+            "contracts": [
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.1",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.1",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTC-PERP-REV",
+                    "symbolName": "BTC-PERP-REV",
+                    "status": "TRADING",
+                    "baseAsset": "BTC-PERP-REV",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.1",
+                    "icebergAllowed": false,
+                    "inverse": true,
+                    "index": "BTCUSDT",
+                    "marginToken": "TBTC",
+                    "marginPrecision": "0.00000001",
+                    "contractMultiplier": "1.0",
+                    "underlying": "TBTC",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "200000001",
+                            "quantity": "1000000.0",
+                            "initialMargin": "0.01",
+                            "maintMargin": "0.005"
+                        },
+                        {
+                            "riskLimitId": "200000002",
+                            "quantity": "2000000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "200000003",
+                            "quantity": "3000000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "200000004",
+                            "quantity": "4000000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.02"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.1",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.1",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTC-SWAP",
+                    "symbolName": "BTC-SWAP",
+                    "status": "TRADING",
+                    "baseAsset": "BTC-SWAP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.1",
+                    "icebergAllowed": false,
+                    "inverse": true,
+                    "index": "BTCUSDT",
+                    "marginToken": "BTC",
+                    "marginPrecision": "0.00000001",
+                    "contractMultiplier": "1.0",
+                    "underlying": "BTC",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "500000001",
+                            "quantity": "1000000.0",
+                            "initialMargin": "0.01",
+                            "maintMargin": "0.005"
+                        },
+                        {
+                            "riskLimitId": "500000002",
+                            "quantity": "2000000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "500000003",
+                            "quantity": "3000000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "500000004",
+                            "quantity": "4000000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.02"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "EOS-SWAP-USDT",
+                    "symbolName": "EOS-SWAP-USDT",
+                    "status": "TRADING",
+                    "baseAsset": "EOS-SWAP-USDT",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.001",
+                    "icebergAllowed": false,
+                    "inverse": false,
+                    "index": "EOSUSDT",
+                    "marginToken": "USDT",
+                    "marginPrecision": "0.00001",
+                    "contractMultiplier": "1.0",
+                    "underlying": "EOS",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000031",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000032",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000033",
+                            "quantity": "500000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000034",
+                            "quantity": "700000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LTC-SWAP-USDT",
+                    "symbolName": "LTC-SWAP-USDT",
+                    "status": "TRADING",
+                    "baseAsset": "LTC-SWAP-USDT",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.01",
+                    "icebergAllowed": false,
+                    "inverse": false,
+                    "index": "LTCUSDT",
+                    "marginToken": "USDT",
+                    "marginPrecision": "0.0001",
+                    "contractMultiplier": "0.01",
+                    "underlying": "LTC",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000019",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000020",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000021",
+                            "quantity": "500000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000022",
+                            "quantity": "700000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ETH-SWAP-USDT",
+                    "symbolName": "ETH-SWAP-USDT",
+                    "status": "TRADING",
+                    "baseAsset": "ETH-SWAP-USDT",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.01",
+                    "icebergAllowed": false,
+                    "inverse": false,
+                    "index": "ETHUSDT",
+                    "marginToken": "USDT",
+                    "marginPrecision": "0.0001",
+                    "contractMultiplier": "0.01",
+                    "underlying": "ETH",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000023",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000024",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000025",
+                            "quantity": "500000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000026",
+                            "quantity": "700000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.1",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.1",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTC-SWAP-USDT",
+                    "symbolName": "BTC-SWAP-USDT",
+                    "status": "TRADING",
+                    "baseAsset": "BTC-SWAP-USDT",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.1",
+                    "icebergAllowed": false,
+                    "inverse": false,
+                    "index": "BTCUSDT",
+                    "marginToken": "USDT",
+                    "marginPrecision": "0.0001",
+                    "contractMultiplier": "0.0001",
+                    "underlying": "BTC",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000027",
+                            "quantity": "1000000.0",
+                            "initialMargin": "0.01",
+                            "maintMargin": "0.005"
+                        },
+                        {
+                            "riskLimitId": "600000028",
+                            "quantity": "2000000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000029",
+                            "quantity": "3000000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000030",
+                            "quantity": "4000000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.02"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "XRP-SWAP-USDT",
+                    "symbolName": "XRP-SWAP-USDT",
+                    "status": "TRADING",
+                    "baseAsset": "XRP-SWAP-USDT",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.0001",
+                    "icebergAllowed": false,
+                    "inverse": false,
+                    "index": "XRPUSDT",
+                    "marginToken": "USDT",
+                    "marginPrecision": "0.0001",
+                    "contractMultiplier": "1.0",
+                    "underlying": "XRP",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000063",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000064",
+                            "quantity": "200000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000065",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000066",
+                            "quantity": "400000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BCH-SWAP-USDT",
+                    "symbolName": "BCH-SWAP-USDT",
+                    "status": "TRADING",
+                    "baseAsset": "BCH-SWAP-USDT",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.01",
+                    "icebergAllowed": false,
+                    "inverse": false,
+                    "index": "BCHUSDT",
+                    "marginToken": "USDT",
+                    "marginPrecision": "0.0001",
+                    "contractMultiplier": "0.01",
+                    "underlying": "BCH",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000067",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000068",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000069",
+                            "quantity": "500000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000070",
+                            "quantity": "700000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "XRP-SWAP",
+                    "symbolName": "XRP-SWAP",
+                    "status": "TRADING",
+                    "baseAsset": "XRP-SWAP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.0001",
+                    "icebergAllowed": false,
+                    "inverse": true,
+                    "index": "XRPUSDT",
+                    "marginToken": "XRP",
+                    "marginPrecision": "0.00001",
+                    "contractMultiplier": "1.0",
+                    "underlying": "XRP",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000094",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000095",
+                            "quantity": "200000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000096",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000097",
+                            "quantity": "400000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BCH-SWAP",
+                    "symbolName": "BCH-SWAP",
+                    "status": "TRADING",
+                    "baseAsset": "BCH-SWAP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.01",
+                    "icebergAllowed": false,
+                    "inverse": true,
+                    "index": "BCHUSDT",
+                    "marginToken": "BCH",
+                    "marginPrecision": "0.000001",
+                    "contractMultiplier": "1.0",
+                    "underlying": "BCH",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000098",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000099",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000100",
+                            "quantity": "500000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000101",
+                            "quantity": "700000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LTC-SWAP",
+                    "symbolName": "LTC-SWAP",
+                    "status": "TRADING",
+                    "baseAsset": "LTC-SWAP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.01",
+                    "icebergAllowed": false,
+                    "inverse": true,
+                    "index": "LTCUSDT",
+                    "marginToken": "LTC",
+                    "marginPrecision": "0.000001",
+                    "contractMultiplier": "1.0",
+                    "underlying": "LTC",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000102",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000103",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000104",
+                            "quantity": "500000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000105",
+                            "quantity": "700000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "EOS-SWAP",
+                    "symbolName": "EOS-SWAP",
+                    "status": "TRADING",
+                    "baseAsset": "EOS-SWAP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.001",
+                    "icebergAllowed": false,
+                    "inverse": true,
+                    "index": "EOSUSDT",
+                    "marginToken": "EOS",
+                    "marginPrecision": "0.0001",
+                    "contractMultiplier": "1.0",
+                    "underlying": "EOS",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000106",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000107",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000108",
+                            "quantity": "500000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000109",
+                            "quantity": "700000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.000000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ETH-SWAP",
+                    "symbolName": "ETH-SWAP",
+                    "status": "TRADING",
+                    "baseAsset": "ETH-SWAP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetPrecision": "0.01",
+                    "icebergAllowed": false,
+                    "inverse": true,
+                    "index": "ETHUSDT",
+                    "marginToken": "ETH",
+                    "marginPrecision": "0.000001",
+                    "contractMultiplier": "1.0",
+                    "underlying": "ETH",
+                    "riskLimits": [
+                        {
+                            "riskLimitId": "600000110",
+                            "quantity": "100000.0",
+                            "initialMargin": "0.02",
+                            "maintMargin": "0.01"
+                        },
+                        {
+                            "riskLimitId": "600000111",
+                            "quantity": "300000.0",
+                            "initialMargin": "0.025",
+                            "maintMargin": "0.015"
+                        },
+                        {
+                            "riskLimitId": "600000112",
+                            "quantity": "500000.0",
+                            "initialMargin": "0.03",
+                            "maintMargin": "0.02"
+                        },
+                        {
+                            "riskLimitId": "600000113",
+                            "quantity": "700000.0",
+                            "initialMargin": "0.04",
+                            "maintMargin": "0.025"
+                        }
+                    ]
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Date",
+            "Mon, 09 Dec 2019 16:37:36 GMT",
+            "Vary",
+            "Accept-Encoding",
+            "Strict-Transport-Security",
+            "max-age=15724800; includeSubDomains",
+            "X-Cache",
+            "Miss from cloudfront",
+            "Via",
+            "1.1 87459a7837f980cdc57ba8a2c23a55ae.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop",
+            "VIE50-C1"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://www.bhex.com:443",
+        "method": "GET",
+        "path": "/openapi/quote/v1/ticker/24hr",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1575909456026,
+                "symbol": "EOSUSDT",
+                "volume": "3798924.9794",
+                "quoteVolume": "10536168.11345466",
+                "lastPrice": "2.6765",
+                "highPrice": "2.777",
+                "lowPrice": "2.6523",
+                "openPrice": "2.7286"
+            },
+            {
+                "time": 1575909455653,
+                "symbol": "BHTUSDT",
+                "volume": "11893275.1",
+                "quoteVolume": "331599.13616",
+                "lastPrice": "0.0264",
+                "highPrice": "0.0277",
+                "lowPrice": "0.0261",
+                "openPrice": "0.0273"
+            },
+            {
+                "time": 1575909455889,
+                "symbol": "LAMBUSDT",
+                "volume": "63038159.79",
+                "quoteVolume": "2237535.61771724",
+                "lastPrice": "0.032905",
+                "highPrice": "0.034219",
+                "lowPrice": "0.032702",
+                "openPrice": "0.033525"
+            },
+            {
+                "time": 1575909420389,
+                "symbol": "LAMBBTC",
+                "volume": "6277377.494",
+                "quoteVolume": "28.02795549041",
+                "lastPrice": "0.00000445",
+                "highPrice": "0.00000455",
+                "lowPrice": "0.0000043",
+                "openPrice": "0.00000449"
+            },
+            {
+                "time": 1575909455473,
+                "symbol": "XRPBTC",
+                "volume": "10388480",
+                "quoteVolume": "317.6034488",
+                "lastPrice": "0.00003043",
+                "highPrice": "0.00003072",
+                "lowPrice": "0.00003014",
+                "openPrice": "0.00003064"
+            },
+            {
+                "time": 1575909445424,
+                "symbol": "HPTBTC",
+                "volume": "52139754.2",
+                "quoteVolume": "37.7399807108",
+                "lastPrice": "0.00000069",
+                "highPrice": "0.00000072",
+                "lowPrice": "0.00000068",
+                "openPrice": "0.00000071"
+            },
+            {
+                "time": 1575909453248,
+                "symbol": "GRINBTC",
+                "volume": "119532.48",
+                "quoteVolume": "18.55196785",
+                "lastPrice": "0.000166",
+                "highPrice": "0.00017",
+                "lowPrice": "0.000151",
+                "openPrice": "0.000152"
+            },
+            {
+                "time": 1575909456675,
+                "symbol": "QTUMUSDT",
+                "volume": "708676.07",
+                "quoteVolume": "1261865.127407",
+                "lastPrice": "1.7392",
+                "highPrice": "1.7855",
+                "lowPrice": "1.72",
+                "openPrice": "1.7567"
+            },
+            {
+                "time": 1575909457166,
+                "symbol": "EOSBTC",
+                "volume": "932642.153",
+                "quoteVolume": "339.37517177311",
+                "lastPrice": "0.00035999",
+                "highPrice": "0.0003682",
+                "lowPrice": "0.000358",
+                "openPrice": "0.00036316"
+            },
+            {
+                "time": 1575909454200,
+                "symbol": "BCHUSDT",
+                "volume": "33158.3597",
+                "quoteVolume": "7514546.590367",
+                "lastPrice": "209.53",
+                "highPrice": "214.93",
+                "lowPrice": "208.95",
+                "openPrice": "213.66"
+            },
+            {
+                "time": 1575909455159,
+                "symbol": "VOLUSDT",
+                "volume": "8435681.2",
+                "quoteVolume": "129637.35686291",
+                "lastPrice": "0.015879",
+                "highPrice": "0.016031",
+                "lowPrice": "0.01305",
+                "openPrice": "0.013645"
+            },
+            {
+                "time": 1575909455217,
+                "symbol": "TRXETH",
+                "volume": "22711848.23",
+                "quoteVolume": "2206.8769003083",
+                "lastPrice": "0.00009715",
+                "highPrice": "0.0000976",
+                "lowPrice": "0.00009649",
+                "openPrice": "0.00009745"
+            },
+            {
+                "time": 1575909451788,
+                "symbol": "BHTBTC",
+                "volume": "11693683.9",
+                "quoteVolume": "50.379804369",
+                "lastPrice": "0.00000357",
+                "highPrice": "0.00000369",
+                "lowPrice": "0.00000348",
+                "openPrice": "0.00000366"
+            },
+            {
+                "time": 1575909455518,
+                "symbol": "HTUSDT",
+                "volume": "900819.29",
+                "quoteVolume": "2548015.23227",
+                "lastPrice": "2.7694",
+                "highPrice": "2.8386",
+                "lowPrice": "2.7591",
+                "openPrice": "2.7971"
+            },
+            {
+                "time": 1575909455235,
+                "symbol": "ETCUSDT",
+                "volume": "872939.6604",
+                "quoteVolume": "3474384.63081603",
+                "lastPrice": "3.8284",
+                "highPrice": "3.94",
+                "lowPrice": "3.8154",
+                "openPrice": "3.9295"
+            },
+            {
+                "time": 1575909420652,
+                "symbol": "S-J165AT",
+                "volume": "6262.53",
+                "quoteVolume": "162571.724918",
+                "lastPrice": "27.4014",
+                "highPrice": "27.9995",
+                "lowPrice": "27.2502",
+                "openPrice": "27.8494"
+            },
+            {
+                "time": 1575909456865,
+                "symbol": "QTUMETH",
+                "volume": "20323.0088",
+                "quoteVolume": "238.3932647559",
+                "lastPrice": "0.011777",
+                "highPrice": "0.011881",
+                "lowPrice": "0.011491",
+                "openPrice": "0.011703"
+            },
+            {
+                "time": 1575909454142,
+                "symbol": "BUTUSDT",
+                "volume": "12453076",
+                "quoteVolume": "19755.419883",
+                "lastPrice": "0.00168",
+                "highPrice": "0.00171",
+                "lowPrice": "0.001474",
+                "openPrice": "0.001564"
+            },
+            {
+                "time": 1575909456857,
+                "symbol": "ETHUSDT",
+                "volume": "364817.1329",
+                "quoteVolume": "55354592.245146",
+                "lastPrice": "147.99",
+                "highPrice": "151.59",
+                "lowPrice": "147.12",
+                "openPrice": "150.24"
+            },
+            {
+                "time": 1575909450873,
+                "symbol": "ALGOUSDT",
+                "volume": "1216788.12",
+                "quoteVolume": "399030.416172",
+                "lastPrice": "0.3132",
+                "highPrice": "0.3367",
+                "lowPrice": "0.2872",
+                "openPrice": "0.2982"
+            },
+            {
+                "time": 1575909455810,
+                "symbol": "TRXUSDT",
+                "volume": "113592353.41",
+                "quoteVolume": "1660021.71106713",
+                "lastPrice": "0.01441",
+                "highPrice": "0.014709",
+                "lowPrice": "0.01433",
+                "openPrice": "0.014645"
+            },
+            {
+                "time": 1575909455045,
+                "symbol": "LTCETH",
+                "volume": "15471.3756",
+                "quoteVolume": "4685.451764786",
+                "lastPrice": "0.302",
+                "highPrice": "0.30555",
+                "lowPrice": "0.3003",
+                "openPrice": "0.30469"
+            },
+            {
+                "time": 1575909435023,
+                "symbol": "F-WJ101AT",
+                "volume": "485.33",
+                "quoteVolume": "978798.585238",
+                "lastPrice": "1205.2236",
+                "highPrice": "1214.1474",
+                "lowPrice": "1202.2454",
+                "openPrice": "1208.6242"
+            },
+            {
+                "time": 1575909453965,
+                "symbol": "BEAMUSDT",
+                "volume": "1641189.1",
+                "quoteVolume": "960739.91917",
+                "lastPrice": "0.5725",
+                "highPrice": "0.606",
+                "lowPrice": "0.5479",
+                "openPrice": "0.57"
+            },
+            {
+                "time": 1575909452032,
+                "symbol": "HTBTC",
+                "volume": "604278.2",
+                "quoteVolume": "227.3737748317",
+                "lastPrice": "0.00037294",
+                "highPrice": "0.000379",
+                "lowPrice": "0.00037132",
+                "openPrice": "0.00037232"
+            },
+            {
+                "time": 1575909451277,
+                "symbol": "LXTUSDT",
+                "volume": "20462312.5",
+                "quoteVolume": "76173.9538602",
+                "lastPrice": "0.003652",
+                "highPrice": "0.003997",
+                "lowPrice": "0.003601",
+                "openPrice": "0.003745"
+            },
+            {
+                "time": 1575909421869,
+                "symbol": "BTMETH",
+                "volume": "130194.412",
+                "quoteVolume": "68.361907584",
+                "lastPrice": "0.000528",
+                "highPrice": "0.000533",
+                "lowPrice": "0.000519",
+                "openPrice": "0.00053"
+            },
+            {
+                "time": 1575909454184,
+                "symbol": "ETCBTC",
+                "volume": "423424.9336",
+                "quoteVolume": "222.2181554959",
+                "lastPrice": "0.000516",
+                "highPrice": "0.000527",
+                "lowPrice": "0.000512",
+                "openPrice": "0.000523"
+            },
+            {
+                "time": 1575909453731,
+                "symbol": "ONGUSDT",
+                "volume": "1642200.16",
+                "quoteVolume": "192104.36696",
+                "lastPrice": "0.1128",
+                "highPrice": "0.1235",
+                "lowPrice": "0.1128",
+                "openPrice": "0.1235"
+            },
+            {
+                "time": 1575909454581,
+                "symbol": "LXTBTC",
+                "volume": "6873003.88",
+                "quoteVolume": "3.1492614504",
+                "lastPrice": "0.00000048",
+                "highPrice": "0.00000054",
+                "lowPrice": "0.00000048",
+                "openPrice": "0.00000051"
+            },
+            {
+                "time": 1575909454789,
+                "symbol": "GRINUSDT",
+                "volume": "132021.78",
+                "quoteVolume": "193614.348681",
+                "lastPrice": "1.236",
+                "highPrice": "1.2832",
+                "lowPrice": "1.1459",
+                "openPrice": "1.164"
+            },
+            {
+                "time": 1575909456186,
+                "symbol": "ALGOBTC",
+                "volume": "454589.9",
+                "quoteVolume": "19.0182096531",
+                "lastPrice": "0.00004215",
+                "highPrice": "0.00004486",
+                "lowPrice": "0.00003827",
+                "openPrice": "0.00003975"
+            },
+            {
+                "time": 1575909456179,
+                "symbol": "EOSETH",
+                "volume": "247145.3023",
+                "quoteVolume": "4500.469045664",
+                "lastPrice": "0.018086",
+                "highPrice": "0.018328",
+                "lowPrice": "0.017988",
+                "openPrice": "0.018167"
+            },
+            {
+                "time": 1575909456973,
+                "symbol": "ONGBTC",
+                "volume": "1089625.14",
+                "quoteVolume": "17.024272982",
+                "lastPrice": "0.0000152",
+                "highPrice": "0.00001645",
+                "lowPrice": "0.00001511",
+                "openPrice": "0.00001632"
+            },
+            {
+                "time": 1575909422472,
+                "symbol": "ATUSDT",
+                "volume": "570205.2",
+                "quoteVolume": "22902.271879",
+                "lastPrice": "0.0179",
+                "highPrice": "0.0188",
+                "lowPrice": "0.0168",
+                "openPrice": "0.0169"
+            },
+            {
+                "time": 1575909455136,
+                "symbol": "TRXBTC",
+                "volume": "47327335.06",
+                "quoteVolume": "91.868703999549",
+                "lastPrice": "0.0000019384",
+                "highPrice": "0.0000019547",
+                "lowPrice": "0.0000019184",
+                "openPrice": "0.0000019489"
+            },
+            {
+                "time": 1575909456930,
+                "symbol": "BTCUSDT",
+                "volume": "42541.07915",
+                "quoteVolume": "320487678.40949589",
+                "lastPrice": "7433.79",
+                "highPrice": "7647.48",
+                "lowPrice": "7396.26",
+                "openPrice": "7516.4"
+            },
+            {
+                "time": 1575909422538,
+                "symbol": "QTUMBTC",
+                "volume": "178815.65",
+                "quoteVolume": "43.01388822",
+                "lastPrice": "0.000233",
+                "highPrice": "0.000238",
+                "lowPrice": "0.000229",
+                "openPrice": "0.000235"
+            },
+            {
+                "time": 1575909455673,
+                "symbol": "BCHBTC",
+                "volume": "11705.6406",
+                "quoteVolume": "332.5731805319",
+                "lastPrice": "0.028184",
+                "highPrice": "0.028539",
+                "lowPrice": "0.02811",
+                "openPrice": "0.028429"
+            },
+            {
+                "time": 1575909455849,
+                "symbol": "LTCUSDT",
+                "volume": "228011.1824",
+                "quoteVolume": "10798819.508363",
+                "lastPrice": "44.68",
+                "highPrice": "45.99",
+                "lowPrice": "44.3",
+                "openPrice": "45.77"
+            },
+            {
+                "time": 1575909455555,
+                "symbol": "XRPUSDT",
+                "volume": "58574007.09",
+                "quoteVolume": "13590248.704186",
+                "lastPrice": "0.2262",
+                "highPrice": "0.2309",
+                "lowPrice": "0.2245",
+                "openPrice": "0.2302"
+            },
+            {
+                "time": 1575909453034,
+                "symbol": "ETHBTC",
+                "volume": "177966.2751",
+                "quoteVolume": "3576.5549209914",
+                "lastPrice": "0.019907",
+                "highPrice": "0.020105",
+                "lowPrice": "0.01978",
+                "openPrice": "0.019996"
+            },
+            {
+                "time": 1575909451973,
+                "symbol": "ONTUSDT",
+                "volume": "630311.06",
+                "quoteVolume": "401248.886877",
+                "lastPrice": "0.6228",
+                "highPrice": "0.6517",
+                "lowPrice": "0.6151",
+                "openPrice": "0.6462"
+            },
+            {
+                "time": 1575909433411,
+                "symbol": "XRPETH",
+                "volume": "976971.391",
+                "quoteVolume": "1488.7544120883",
+                "lastPrice": "0.001528",
+                "highPrice": "0.0015341",
+                "lowPrice": "0.001517",
+                "openPrice": "0.001533"
+            },
+            {
+                "time": 1575909454572,
+                "symbol": "DRINKUSDT",
+                "volume": "2188666.5",
+                "quoteVolume": "2362082.144346",
+                "lastPrice": "0.956",
+                "highPrice": "0.969",
+                "lowPrice": "0.947",
+                "openPrice": "0.957"
+            },
+            {
+                "time": 1575909452649,
+                "symbol": "HPTUSDT",
+                "volume": "67493734.68",
+                "quoteVolume": "359799.69199224",
+                "lastPrice": "0.005102",
+                "highPrice": "0.005369",
+                "lowPrice": "0.004976",
+                "openPrice": "0.005277"
+            },
+            {
+                "time": 1575909434706,
+                "symbol": "BHDUSDT",
+                "volume": "113735.3946",
+                "quoteVolume": "423511.444576",
+                "lastPrice": "2.97",
+                "highPrice": "3.04",
+                "lowPrice": "2.88",
+                "openPrice": "2.91"
+            },
+            {
+                "time": 1575909453197,
+                "symbol": "BEAMBTC",
+                "volume": "2170346.3",
+                "quoteVolume": "163.9559036",
+                "lastPrice": "0.000078",
+                "highPrice": "0.000081",
+                "lowPrice": "0.000073",
+                "openPrice": "0.000076"
+            },
+            {
+                "time": 1575909442543,
+                "symbol": "ALGOETH",
+                "volume": "986358.5619",
+                "quoteVolume": "2102.5037524281",
+                "lastPrice": "0.00212",
+                "highPrice": "0.002243",
+                "lowPrice": "0.001915",
+                "openPrice": "0.00199"
+            },
+            {
+                "time": 1575909453262,
+                "symbol": "BTMBTC",
+                "volume": "3111445.83",
+                "quoteVolume": "32.670721988",
+                "lastPrice": "0.00001056",
+                "highPrice": "0.00001071",
+                "lowPrice": "0.00001032",
+                "openPrice": "0.00001061"
+            },
+            {
+                "time": 1575909422766,
+                "symbol": "ETCETH",
+                "volume": "16925.55",
+                "quoteVolume": "441.240627607",
+                "lastPrice": "0.0259",
+                "highPrice": "0.026319",
+                "lowPrice": "0.0258",
+                "openPrice": "0.026176"
+            },
+            {
+                "time": 1575909450771,
+                "symbol": "LTCBTC",
+                "volume": "93106.4298",
+                "quoteVolume": "571.9433005551",
+                "lastPrice": "0.006008",
+                "highPrice": "0.00612",
+                "lowPrice": "0.005982",
+                "openPrice": "0.00609"
+            },
+            {
+                "time": 1575909454641,
+                "symbol": "ONTBTC",
+                "volume": "507523.17",
+                "quoteVolume": "43.1901522852",
+                "lastPrice": "0.00008381",
+                "highPrice": "0.00008697",
+                "lowPrice": "0.00008271",
+                "openPrice": "0.00008598"
+            },
+            {
+                "time": 1575909451125,
+                "symbol": "BTMUSDT",
+                "volume": "7809395.59",
+                "quoteVolume": "655860.76958022",
+                "lastPrice": "0.0773",
+                "highPrice": "0.0802",
+                "lowPrice": "0.0772",
+                "openPrice": "0.079"
+            }
+        ],
+        "rawHeaders": [
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Date",
+            "Mon, 09 Dec 2019 16:37:37 GMT",
+            "Vary",
+            "Accept-Encoding",
+            "Strict-Transport-Security",
+            "max-age=15724800; includeSubDomains",
+            "X-Cache",
+            "Miss from cloudfront",
+            "Via",
+            "1.1 f78fee2989d34e40cb45ddfbcb9ba346.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop",
+            "VIE50-C1"
+        ],
+        "responseIsBinary": false
+    }
+]
