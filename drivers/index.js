@@ -113,6 +113,7 @@ exports.hotbit = require('./hotbit');
 exports.huobiglobal = require('./huobiglobal');
 exports.ice3x = require('./ice3x');
 exports.icoinbay = require('./icoinbay');
+exports.idcm = require('./idcm');
 exports.latoken = require('./latoken');
 exports.idax = require('./idax');
 exports.idex = require('./idex');
