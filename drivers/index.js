@@ -173,6 +173,7 @@ exports.tidex = require('./tidex');
 exports.tokenmom = require('./tokenmom');
 exports.tokens = require('./tokens');
 exports.tokenstore = require('./tokenstore');
+exports.tokok = require('./tokok');
 exports.tradesatoshi = require('./tradesatoshi');
 exports.turtlenetwork = require('./turtlenetwork');
 exports.upbit = require('./upbit');
