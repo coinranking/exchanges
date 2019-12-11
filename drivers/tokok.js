@@ -6,7 +6,7 @@ module.exports = async () => {
   const { ticker: tickers } = await request('https://www.tokok.com/api/v1/tickers');
 
   return tickers.map((ticker) => {
-    const [quote, base] = ticker.symbol.split('_');
+    const [base, quote] = ticker.symbol.split('_');
 
     return new Ticker({
       base,
