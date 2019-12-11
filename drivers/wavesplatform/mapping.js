@@ -862,4 +862,9 @@ module.exports = [
     symbol: 'EGCI',
     address: '14YPnnmjhnztajhQQ8fo1cEru15XjE1ikXsbzUeDTkG3',
   },
+  {
+    name: 'Waves',
+    symbol: 'WAVES',
+    address: 'WAVES',
+  },
 ];
