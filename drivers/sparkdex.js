@@ -9,9 +9,10 @@ module.exports = async () => {
     const tickerMarket = Object.keys(ticker)[0];
     const tickerDetails = ticker[tickerMarket];
 
+    // Warning: Sparkdex inverts base and quote only in the pair
     return new Ticker({
-      base: tickerDetails.baseName,
-      quote: tickerDetails.quoteName,
+      base: tickerDetails.quoteName,
+      quote: tickerDetails.baseName,
       close: parseToFloat(tickerDetails.last),
       baseVolume: parseToFloat(tickerDetails.baseVolume),
       quoteVolume: parseToFloat(tickerDetails.quoteVolume),
