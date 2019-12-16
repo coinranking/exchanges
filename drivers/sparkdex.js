@@ -14,8 +14,8 @@ module.exports = async () => {
       base: tickerDetails.quoteName,
       quote: tickerDetails.baseName,
       close: parseToFloat(tickerDetails.last),
-      baseVolume: parseToFloat(tickerDetails.baseVolume),
-      quoteVolume: parseToFloat(tickerDetails.quoteVolume),
+      baseVolume: parseToFloat(tickerDetails.quoteVolume),
+      quoteVolume: parseToFloat(tickerDetails.baseVolume),
     });
   });
 };
