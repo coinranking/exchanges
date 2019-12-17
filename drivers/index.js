@@ -155,6 +155,7 @@ exports.openledger = require('./openledger');
 exports.p2pb2b = require('./p2pb2b');
 exports.paymium = require('./paymium');
 exports.prizmbit = require('./prizmbit');
+exports.probit = require('./probit');
 exports.poloniex = require('./poloniex');
 exports.remitano = require('./remitano');
 exports.resfinex = require('./resfinex');
