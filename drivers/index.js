@@ -56,6 +56,7 @@ exports.btcexchange = require('./btcexchange');
 exports.btcmarkets = require('./btcmarkets');
 exports.btctradeua = require('./btctradeua');
 exports.btcturk = require('./btcturk');
+exports.btse = require('./btse');
 exports.buda = require('./buda');
 exports.bw = require('./bw');
 exports.bxinth = require('./bxinth');
