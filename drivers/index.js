@@ -106,6 +106,7 @@ exports.fcoin = require('./fcoin');
 exports.felixo = require('./felixo');
 exports.finexbox = require('./finexbox');
 exports.forkdelta = require('./forkdelta');
+exports.ftx = require('./ftx');
 exports.gateio = require('./gateio');
 exports.gdac = require('./gdac');
 exports.gemini = require('./gemini');
