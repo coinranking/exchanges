@@ -13,7 +13,7 @@ module.exports = async () => {
       quote,
       high: parseToFloat(ticker.high),
       low: parseToFloat(ticker.low),
-      close: parseToFloat(ticker.high),
+      close: parseToFloat(ticker.last),
       baseVolume: parseToFloat(ticker.base_volume),
       quoteVolume: parseToFloat(ticker.quote_volume),
     });
