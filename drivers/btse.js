@@ -18,7 +18,7 @@ module.exports = async () => {
       close: parseToFloat(ticker.last),
       bid: parseToFloat(ticker.highest_bid),
       ask: parseToFloat(ticker.lowest_ask),
-      baseVolume: parseToFloat(ticker.volume),
+      quoteVolume: parseToFloat(ticker.volume),
     });
   });
 };
