@@ -144,6 +144,7 @@ exports.livecoin = require('./livecoin');
 exports.localbitcoins = require('./localbitcoins');
 exports.luno = require('./luno');
 exports.lykke = require('./lykke');
+exports.maxmaincoin = require('./maxmaincoin');
 exports.mercado = require('./mercado');
 exports.mercatox = require('./mercatox');
 exports.mxc = require('./mxc');

@@ -1,0 +1,412 @@
+[
+    {
+        "scope": "https://max-api.maicoin.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "id": "maxtwd",
+                "name": "MAX/TWD",
+                "base_unit": "max",
+                "base_unit_precision": 2,
+                "quote_unit": "twd",
+                "quote_unit_precision": 2
+            },
+            {
+                "id": "btctwd",
+                "name": "BTC/TWD",
+                "base_unit": "btc",
+                "base_unit_precision": 8,
+                "quote_unit": "twd",
+                "quote_unit_precision": 1
+            },
+            {
+                "id": "ethtwd",
+                "name": "ETH/TWD",
+                "base_unit": "eth",
+                "base_unit_precision": 6,
+                "quote_unit": "twd",
+                "quote_unit_precision": 1
+            },
+            {
+                "id": "ltctwd",
+                "name": "LTC/TWD",
+                "base_unit": "ltc",
+                "base_unit_precision": 4,
+                "quote_unit": "twd",
+                "quote_unit_precision": 1
+            },
+            {
+                "id": "mithtwd",
+                "name": "MITH/TWD",
+                "base_unit": "mith",
+                "base_unit_precision": 2,
+                "quote_unit": "twd",
+                "quote_unit_precision": 3
+            },
+            {
+                "id": "bchtwd",
+                "name": "BCH/TWD",
+                "base_unit": "bch",
+                "base_unit_precision": 6,
+                "quote_unit": "twd",
+                "quote_unit_precision": 1
+            },
+            {
+                "id": "usdttwd",
+                "name": "USDT/TWD",
+                "base_unit": "usdt",
+                "base_unit_precision": 2,
+                "quote_unit": "twd",
+                "quote_unit_precision": 2
+            },
+            {
+                "id": "ethbtc",
+                "name": "ETH/BTC",
+                "base_unit": "eth",
+                "base_unit_precision": 4,
+                "quote_unit": "btc",
+                "quote_unit_precision": 6
+            },
+            {
+                "id": "maxusdt",
+                "name": "MAX/USDT",
+                "base_unit": "max",
+                "base_unit_precision": 2,
+                "quote_unit": "usdt",
+                "quote_unit_precision": 3
+            },
+            {
+                "id": "btcusdt",
+                "name": "BTC/USDT",
+                "base_unit": "btc",
+                "base_unit_precision": 6,
+                "quote_unit": "usdt",
+                "quote_unit_precision": 2
+            },
+            {
+                "id": "ethusdt",
+                "name": "ETH/USDT",
+                "base_unit": "eth",
+                "base_unit_precision": 5,
+                "quote_unit": "usdt",
+                "quote_unit_precision": 2
+            },
+            {
+                "id": "bchusdt",
+                "name": "BCH/USDT",
+                "base_unit": "bch",
+                "base_unit_precision": 5,
+                "quote_unit": "usdt",
+                "quote_unit_precision": 2
+            },
+            {
+                "id": "ltcusdt",
+                "name": "LTC/USDT",
+                "base_unit": "ltc",
+                "base_unit_precision": 5,
+                "quote_unit": "usdt",
+                "quote_unit_precision": 2
+            },
+            {
+                "id": "mithusdt",
+                "name": "MITH/USDT",
+                "base_unit": "mith",
+                "base_unit_precision": 2,
+                "quote_unit": "usdt",
+                "quote_unit_precision": 5
+            },
+            {
+                "id": "xrptwd",
+                "name": "XRP/TWD",
+                "base_unit": "xrp",
+                "base_unit_precision": 2,
+                "quote_unit": "twd",
+                "quote_unit_precision": 3
+            },
+            {
+                "id": "xrpusdt",
+                "name": "XRP/USDT",
+                "base_unit": "xrp",
+                "base_unit_precision": 2,
+                "quote_unit": "usdt",
+                "quote_unit_precision": 5
+            },
+            {
+                "id": "bcnttwd",
+                "name": "BCNT/TWD",
+                "base_unit": "bcnt",
+                "base_unit_precision": 1,
+                "quote_unit": "twd",
+                "quote_unit_precision": 4
+            },
+            {
+                "id": "bcntusdt",
+                "name": "BCNT/USDT",
+                "base_unit": "bcnt",
+                "base_unit_precision": 1,
+                "quote_unit": "usdt",
+                "quote_unit_precision": 5
+            }
+        ],
+        "rawHeaders": [
+            "Etag",
+            "W/\"8bd157746c50b320be80435eecabdfd6\"",
+            "Content-Type",
+            "357",
+            "Cache-Control",
+            "max-age=3, public, must-revalidate",
+            "Expires",
+            "Thu, 19 Dec 2019 18:09:58 GMT",
+            "Set-Cookie",
+            "nlbi_1933879=kGkSffcIjj8dwBDUA9uHcQAAAAD8vH32Z8K1zUAz2LA0Hdxe; path=/; Domain=.maicoin.com",
+            "Date",
+            "Thu, 19 Dec 2019 18:09:55 GMT",
+            "Set-Cookie",
+            "visid_incap_1933879=thKq1R00Stiuc/0D8xytn/O8+10AAAAAQUIPAAAAAAAtZvPniFHfEOHiglBg/ijY; expires=Fri, 18 Dec 2020 11:13:45 GMT; path=/; Domain=.maicoin.com",
+            "Set-Cookie",
+            "incap_ses_1097_1933879=EstgFUj3kmHnU6jONFQ5D/O8+10AAAAApNaGVleH7CGT4Tw42J6ctg==; path=/; Domain=.maicoin.com",
+            "X-CDN",
+            "Incapsula",
+            "X-Iinfo",
+            "6-12473893-12470327 2VNN RT(1576778994793 138) q(0 0 0 -1) r(7 7)"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://max-api.maicoin.com:443",
+        "method": "GET",
+        "path": "/api/v2/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "maxtwd": {
+                "at": 1576778997,
+                "buy": "2.31",
+                "sell": "2.32",
+                "open": "2.3",
+                "low": "2.3",
+                "high": "2.33",
+                "last": "2.31",
+                "vol": "66100.39",
+                "vol_in_btc": "0.70748729334863488"
+            },
+            "btctwd": {
+                "at": 1576778997,
+                "buy": "214888.0",
+                "sell": "215316.2",
+                "open": "207500.0",
+                "low": "207500.0",
+                "high": "223000.0",
+                "last": "215000.0",
+                "vol": "29.84946966",
+                "vol_in_btc": "29.84946966"
+            },
+            "ethtwd": {
+                "at": 1576778997,
+                "buy": "3814.4",
+                "sell": "3833.0",
+                "open": "3869.0",
+                "low": "3800.0",
+                "high": "4038.0",
+                "last": "3821.9",
+                "vol": "478.686977",
+                "vol_in_btc": "8.5244112568602997274605"
+            },
+            "ltctwd": {
+                "at": 1576778997,
+                "buy": "1197.5",
+                "sell": "1227.0",
+                "open": "1198.0",
+                "low": "1172.6",
+                "high": "1269.1",
+                "last": "1203.0",
+                "vol": "424.3635",
+                "vol_in_btc": "2.3665426317381927078"
+            },
+            "mithtwd": {
+                "at": 1576778997,
+                "buy": "0.253",
+                "sell": "0.288",
+                "open": "0.25",
+                "low": "0.244",
+                "high": "0.289",
+                "last": "0.288",
+                "vol": "13835.11",
+                "vol_in_btc": "0.017007945685040798"
+            },
+            "bchtwd": {
+                "at": 1576778997,
+                "buy": "5628.8",
+                "sell": "5665.2",
+                "open": "5300.0",
+                "low": "5300.0",
+                "high": "5703.5",
+                "last": "5703.5",
+                "vol": "0.08784",
+                "vol_in_btc": "0.002303634181394251584"
+            },
+            "usdttwd": {
+                "at": 1576778997,
+                "buy": "30.11",
+                "sell": "30.14",
+                "open": "30.18",
+                "low": "30.05",
+                "high": "30.19",
+                "last": "30.11",
+                "vol": "525114.48",
+                "vol_in_btc": "73.598908941585687264"
+            },
+            "ethbtc": {
+                "at": 1576778997,
+                "buy": "0.017103",
+                "sell": "0.0209",
+                "open": "0.0185",
+                "low": "0.018",
+                "high": "0.0185",
+                "last": "0.018",
+                "vol": "50.2556",
+                "vol_in_btc": "0.8949468503302701694"
+            },
+            "maxusdt": {
+                "at": 1576778997,
+                "buy": "0.076",
+                "sell": "0.077",
+                "open": "0.076",
+                "low": "0.076",
+                "high": "0.077",
+                "last": "0.077",
+                "vol": "211899.66",
+                "vol_in_btc": "2.26800956718857472"
+            },
+            "btcusdt": {
+                "at": 1576778997,
+                "buy": "7122.87",
+                "sell": "7143.37",
+                "open": "6865.94",
+                "low": "6800.0",
+                "high": "7403.53",
+                "last": "7142.97",
+                "vol": "11.829701",
+                "vol_in_btc": "11.829701"
+            },
+            "ethusdt": {
+                "at": 1576778997,
+                "buy": "126.7",
+                "sell": "127.15",
+                "open": "128.19",
+                "low": "125.9",
+                "high": "134.15",
+                "last": "127.7",
+                "vol": "29056.54583",
+                "vol_in_btc": "517.436149842716947234795"
+            },
+            "bchusdt": {
+                "at": 1576778997,
+                "buy": "186.94",
+                "sell": "187.96",
+                "open": "177.07",
+                "low": "177.07",
+                "high": "177.07",
+                "last": "177.07",
+                "vol": "0.0",
+                "vol_in_btc": "0.0"
+            },
+            "ltcusdt": {
+                "at": 1576778997,
+                "buy": "39.78",
+                "sell": "39.96",
+                "open": "39.66",
+                "low": "39.46",
+                "high": "41.41",
+                "last": "40.08",
+                "vol": "81.01682",
+                "vol_in_btc": "0.451805488497147953896"
+            },
+            "mithusdt": {
+                "at": 1576778997,
+                "buy": "0.00602",
+                "sell": "0.01442",
+                "open": "0.003",
+                "low": "0.0",
+                "high": "0.0",
+                "last": "0.003",
+                "vol": "0.0",
+                "vol_in_btc": "0.0"
+            },
+            "xrptwd": {
+                "at": 1576778997,
+                "buy": "5.664",
+                "sell": "5.798",
+                "open": "5.7",
+                "low": "5.62",
+                "high": "5.849",
+                "last": "5.796",
+                "vol": "10665.83",
+                "vol_in_btc": "0.282065808614007348"
+            },
+            "xrpusdt": {
+                "at": 1576778997,
+                "buy": "0.18802",
+                "sell": "0.18918",
+                "open": "0.18115",
+                "low": "0.17821",
+                "high": "0.20002",
+                "last": "0.18967",
+                "vol": "8363.44",
+                "vol_in_btc": "0.221177392326216864"
+            },
+            "bcnttwd": {
+                "at": 1576778997,
+                "buy": "0.4",
+                "sell": "0.428",
+                "open": "0.413",
+                "low": "0.3988",
+                "high": "0.43",
+                "last": "0.4061",
+                "vol": "1300637.8",
+                "vol_in_btc": "2.51495486034462516"
+            },
+            "bcntusdt": {
+                "at": 1576778997,
+                "buy": "0.0136",
+                "sell": "0.01451",
+                "open": "0.01363",
+                "low": "0.01204",
+                "high": "0.01545",
+                "last": "0.01426",
+                "vol": "1777633.3",
+                "vol_in_btc": "3.43728861928006026"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 19 Dec 2019 18:09:57 GMT",
+            "Content-Type",
+            "application/json",
+            "Connection",
+            "keep-alive",
+            "ETag",
+            "W/\"a5018f8379f37d128a186935f755a1e5\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "6e6b834f-c272-4603-a694-a064cad74d97",
+            "Content-Security-Policy-Report-Only",
+            "child-src 'self'; connect-src 'self' https://*.facebook.com https://*.g.doubleclick.net https://*.google-analytics.com https://*.hotjar.com https://*.hotjar.io https://*.maicoin.com https://*.pusher.com https://*.rollbar.com wss://*.hotjar.com wss://*.maicoin.com wss://*.maicoin.com:8080; default-src 'self' https://*.maicoin.com wss://*.maicoin.com; font-src 'self' data: https://*.gstatic.com; frame-src 'self' https://*.facebook.com https://*.g.doubleclick.net https://*.google.com https://*.hotjar.com https://*.maicoin.com https://maicoin.webpush.freshchat.com https://wchat.freshchat.com wss://*.hotjar.com wss://*.maicoin.com; img-src 'self' data: https://*.facebook.com https://*.g.doubleclick.net https://*.google-analytics.com https://*.google.com https://*.google.com.tw https://*.googletagmanager.com https://*.gstatic.com https://*.hotjar.com https://*.maicoin.com https://*.s3-ap-southeast-1.amazonaws.com wss://*.hotjar.com wss://*.maicoin.com; manifest-src 'self'; media-src 'self'; object-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.cloudflare.com https://*.facebook.net https://*.g.doubleclick.net https://*.google-analytics.com https://*.google.com https://*.googleadservices.com https://*.googletagmanager.com https://*.gstatic.com https://*.hotjar.com https://*.maicoin.com https://*.newrelic.com https://*.pusher.com https://wchat.freshchat.com wss://*.hotjar.com wss://*.maicoin.com; style-src 'self' 'unsafe-inline' https://*.googleapis.com https://*.maicoin.com https://wchat.freshchat.com wss://*.maicoin.com; worker-src 'self'; prefetch-src 'self'; report-uri https://reports-api.sqreen.io/browser/v0/csp-violations/csp_9456307cf9274644bfc380ceaf12e88d",
+            "X-Protected-By",
+            "Sqreen",
+            "X-Runtime",
+            "0.030019",
+            "Vary",
+            "Origin",
+            "X-CDN",
+            "Incapsula",
+            "Transfer-Encoding",
+            "chunked"
+        ],
+        "responseIsBinary": false
+    }
+]
