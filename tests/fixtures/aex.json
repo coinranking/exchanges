@@ -1,0 +1,1573 @@
+[
+    {
+        "scope": "https://api.aex.zone:443",
+        "method": "GET",
+        "path": "/v2/alltickers.php",
+        "body": "",
+        "status": 200,
+        "response": {
+            "eno": 0,
+            "emsg": "",
+            "data": [
+                {
+                    "market": "usdt",
+                    "coin": "btc",
+                    "ticker": {
+                        "high": 7405,
+                        "low": 6721.16,
+                        "last": 7168.3,
+                        "vol": 10.362274,
+                        "buy": 7143.98,
+                        "sell": 7168.29,
+                        "range": 0.0544
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "gat",
+                    "ticker": {
+                        "high": 0.0014,
+                        "low": 0.00132,
+                        "last": 0.00136,
+                        "vol": 285010666.97909,
+                        "buy": 0.00133,
+                        "sell": 0.00138,
+                        "range": 0.0225
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "ltc",
+                    "ticker": {
+                        "high": 45.9,
+                        "low": 36.1,
+                        "last": 39.6,
+                        "vol": 19836.241673,
+                        "buy": 39.6,
+                        "sell": 40,
+                        "range": 0.0153
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "eth",
+                    "ticker": {
+                        "high": 134.25,
+                        "low": 118.83,
+                        "last": 128.13,
+                        "vol": 6948.253087,
+                        "buy": 126.12,
+                        "sell": 129.96,
+                        "range": 0.01
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "etc",
+                    "ticker": {
+                        "high": 4.19,
+                        "low": 3.39,
+                        "last": 3.74,
+                        "vol": 204503.603693,
+                        "buy": 3.63,
+                        "sell": 3.76,
+                        "range": 0.0163
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "bts",
+                    "ticker": {
+                        "high": 0.0169,
+                        "low": 0.0102,
+                        "last": 0.0165,
+                        "vol": 49774825.40071,
+                        "buy": 0.0157,
+                        "sell": 0.0166,
+                        "range": 0.006
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "dash",
+                    "ticker": {
+                        "high": 49.9,
+                        "low": 40.1,
+                        "last": 49.2,
+                        "vol": 7789.424224,
+                        "buy": 40,
+                        "sell": 50,
+                        "range": 0.1131
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "eos",
+                    "ticker": {
+                        "high": 2.8,
+                        "low": 2.27,
+                        "last": 2.39,
+                        "vol": 347324.524839,
+                        "buy": 2.36,
+                        "sell": 2.43,
+                        "range": -0.0807
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "xrp",
+                    "ticker": {
+                        "high": 0.197,
+                        "low": 0.156,
+                        "last": 0.185,
+                        "vol": 4706767.070373,
+                        "buy": 0.155,
+                        "sell": 0.197,
+                        "range": 0.1419
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "wicc",
+                    "ticker": {
+                        "high": 0.109,
+                        "low": 0.109,
+                        "last": 0.109,
+                        "vol": 386.59844,
+                        "buy": 0.1,
+                        "sell": 0.14,
+                        "range": -0.009
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "gnx",
+                    "ticker": {
+                        "high": 0.007,
+                        "low": 0.0049,
+                        "last": 0.0063,
+                        "vol": 28395271.79497,
+                        "buy": 0.0048,
+                        "sell": 0.0065,
+                        "range": 0.0161
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "ignis",
+                    "ticker": {
+                        "high": 0.0221,
+                        "low": 0.017,
+                        "last": 0.0211,
+                        "vol": 19413326.255237,
+                        "buy": 0.0206,
+                        "sell": 0.0221,
+                        "range": 0.1722
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "xlm",
+                    "ticker": {
+                        "high": 0.0487,
+                        "low": 0.0412,
+                        "last": 0.0435,
+                        "vol": 8777410.438738,
+                        "buy": 0.0438,
+                        "sell": 0.0467,
+                        "range": -0.0136
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "knc",
+                    "ticker": {
+                        "high": 0.222,
+                        "low": 0.172,
+                        "last": 0.201,
+                        "vol": 1911488.008361,
+                        "buy": 0.199,
+                        "sell": 0.204,
+                        "range": -0.0518
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "eosdac",
+                    "ticker": {
+                        "high": 0.0031,
+                        "low": 0.0022,
+                        "last": 0.0022,
+                        "vol": 188866712.6244,
+                        "buy": 0.0021,
+                        "sell": 0.0032,
+                        "range": -0.0434
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "bnt",
+                    "ticker": {
+                        "high": 0.27,
+                        "low": 0.22,
+                        "last": 0.27,
+                        "vol": 1739023.446504,
+                        "buy": 0.21,
+                        "sell": 0.28,
+                        "range": 0.2272
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "nxt",
+                    "ticker": {
+                        "high": 0.0109,
+                        "low": 0.0089,
+                        "last": 0.0092,
+                        "vol": 44581764.522544,
+                        "buy": 0.0089,
+                        "sell": 0.011,
+                        "range": -0.1153
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "doge",
+                    "ticker": {
+                        "high": 0.00219,
+                        "low": 0.00186,
+                        "last": 0.00206,
+                        "vol": 391731085.01091,
+                        "buy": 0.00192,
+                        "sell": 0.00212,
+                        "range": 0.0957
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "cnet",
+                    "ticker": {
+                        "high": 0.00332,
+                        "low": 0.00323,
+                        "last": 0.00329,
+                        "vol": 122745096.19534,
+                        "buy": 0.00325,
+                        "sell": 0.00331,
+                        "range": 0.0092
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "ae",
+                    "ticker": {
+                        "high": 0.13,
+                        "low": 0.11,
+                        "last": 0.13,
+                        "vol": 1188870.906832,
+                        "buy": 0.13,
+                        "sell": 0.14,
+                        "range": 0
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "grin",
+                    "ticker": {
+                        "high": 1.25,
+                        "low": 0.77,
+                        "last": 0.77,
+                        "vol": 419538.168397,
+                        "buy": 0.76,
+                        "sell": 1.26,
+                        "range": -0.172
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "upb",
+                    "ticker": {
+                        "high": 0.000577,
+                        "low": 0.000544,
+                        "last": 0.000552,
+                        "vol": 676043716.06184,
+                        "buy": 0.00055,
+                        "sell": 0.000556,
+                        "range": 0.0091
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "pld",
+                    "ticker": {
+                        "high": 0.00704,
+                        "low": 0.00634,
+                        "last": 0.00645,
+                        "vol": 52548584.250731,
+                        "buy": 0.00634,
+                        "sell": 0.00705,
+                        "range": -0.0416
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "nss",
+                    "ticker": {
+                        "high": 0.0319,
+                        "low": 0.0311,
+                        "last": 0.0313,
+                        "vol": 16100413.603581,
+                        "buy": 0.031,
+                        "sell": 0.032,
+                        "range": 0.0064
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "boom",
+                    "ticker": {
+                        "high": 0.001438,
+                        "low": 0.000765,
+                        "last": 0.00098,
+                        "vol": 386531506.05135,
+                        "buy": 0.000979,
+                        "sell": 0.000992,
+                        "range": -0.0604
+                    }
+                },
+                {
+                    "market": "usdt",
+                    "coin": "wusd",
+                    "ticker": {
+                        "high": 1.06,
+                        "low": 0.9948,
+                        "last": 1.0004,
+                        "vol": 53229.186035,
+                        "buy": 0.9976,
+                        "sell": 1.0024,
+                        "range": 0.0056
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "gat",
+                    "ticker": {
+                        "high": 0.00974,
+                        "low": 0.00935,
+                        "last": 0.00971,
+                        "vol": 119928408.61145,
+                        "buy": 0.00967,
+                        "sell": 0.00973,
+                        "range": 0.0329
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "btc",
+                    "ticker": {
+                        "high": 51948,
+                        "low": 47887,
+                        "last": 50351,
+                        "vol": 1731.412509,
+                        "buy": 50348,
+                        "sell": 50389,
+                        "range": 0.0475
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "eth",
+                    "ticker": {
+                        "high": 937.4,
+                        "low": 888.4,
+                        "last": 894.5,
+                        "vol": 44944.687697,
+                        "buy": 894,
+                        "sell": 895,
+                        "range": -0.0011
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "usdt",
+                    "ticker": {
+                        "high": 7.07,
+                        "low": 7.03,
+                        "last": 7.034,
+                        "vol": 1547063.335639,
+                        "buy": 7.031,
+                        "sell": 7.034,
+                        "range": -0.0041
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "bts",
+                    "ticker": {
+                        "high": 0.1177,
+                        "low": 0.11,
+                        "last": 0.1117,
+                        "vol": 24864696.31536,
+                        "buy": 0.1112,
+                        "sell": 0.1125,
+                        "range": -0.0115
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "inf",
+                    "ticker": {
+                        "high": 0.0028,
+                        "low": 0.00215,
+                        "last": 0.00267,
+                        "vol": 358420711.54686,
+                        "buy": 0.0026,
+                        "sell": 0.0027,
+                        "range": 0.2304
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "eac",
+                    "ticker": {
+                        "high": 0.000599,
+                        "low": 0.000502,
+                        "last": 0.000591,
+                        "vol": 1890589419.5097,
+                        "buy": 0.000555,
+                        "sell": 0.000599,
+                        "range": 0.0824
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "doge",
+                    "ticker": {
+                        "high": 0.01456,
+                        "low": 0.0136,
+                        "last": 0.01417,
+                        "vol": 198216125.03904,
+                        "buy": 0.01413,
+                        "sell": 0.01417,
+                        "range": 0.0238
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "xlm",
+                    "ticker": {
+                        "high": 0.3345,
+                        "low": 0.3135,
+                        "last": 0.3169,
+                        "vol": 4494550.20933,
+                        "buy": 0.3163,
+                        "sell": 0.3181,
+                        "range": -0.0106
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ignis",
+                    "ticker": {
+                        "high": 0.157,
+                        "low": 0.149,
+                        "last": 0.155,
+                        "vol": 5771800.068075,
+                        "buy": 0.154,
+                        "sell": 0.158,
+                        "range": 0.0264
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "xrp",
+                    "ticker": {
+                        "high": 1.386,
+                        "low": 1.291,
+                        "last": 1.315,
+                        "vol": 2253990.314996,
+                        "buy": 1.308,
+                        "sell": 1.318,
+                        "range": -0.0037
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "xyt",
+                    "ticker": {
+                        "high": 0.00214,
+                        "low": 0.00149,
+                        "last": 0.00214,
+                        "vol": 55950.525579,
+                        "buy": 0.00152,
+                        "sell": 0.00214,
+                        "range": 0.1888
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ae",
+                    "ticker": {
+                        "high": 0.982,
+                        "low": 0.928,
+                        "last": 0.958,
+                        "vol": 2010358.947304,
+                        "buy": 0.953,
+                        "sell": 0.959,
+                        "range": 0.0126
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "eos",
+                    "ticker": {
+                        "high": 17.44,
+                        "low": 16.31,
+                        "last": 17.01,
+                        "vol": 253126.020393,
+                        "buy": 16.99,
+                        "sell": 17.02,
+                        "range": 0.0403
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "bcx",
+                    "ticker": {
+                        "high": 0.000488,
+                        "low": 0.0004,
+                        "last": 0.000472,
+                        "vol": 1389951192.9253,
+                        "buy": 0.000469,
+                        "sell": 0.000473,
+                        "range": -0.0187
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "etc",
+                    "ticker": {
+                        "high": 26.63,
+                        "low": 25.35,
+                        "last": 26.2,
+                        "vol": 85280.112565,
+                        "buy": 26.13,
+                        "sell": 26.18,
+                        "range": 0.0319
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "idt",
+                    "ticker": {
+                        "high": 0.028,
+                        "low": 0.0268,
+                        "last": 0.0276,
+                        "vol": 40034783.265813,
+                        "buy": 0.0274,
+                        "sell": 0.0279,
+                        "range": 0.026
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ltc",
+                    "ticker": {
+                        "high": 289.9,
+                        "low": 275.5,
+                        "last": 278.8,
+                        "vol": 32144.377302,
+                        "buy": 278.5,
+                        "sell": 278.8,
+                        "range": 0.0101
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "nxt",
+                    "ticker": {
+                        "high": 0.0678,
+                        "low": 0.0623,
+                        "last": 0.067,
+                        "vol": 12666723.657451,
+                        "buy": 0.0665,
+                        "sell": 0.0677,
+                        "range": 0.0323
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ardr",
+                    "ticker": {
+                        "high": 0.3018,
+                        "low": 0.2871,
+                        "last": 0.2932,
+                        "vol": 4705857.216394,
+                        "buy": 0.2909,
+                        "sell": 0.293,
+                        "range": 0.0191
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "dat",
+                    "ticker": {
+                        "high": 0.0084,
+                        "low": 0.0067,
+                        "last": 0.0077,
+                        "vol": 127054504.09218,
+                        "buy": 0.0069,
+                        "sell": 0.0081,
+                        "range": 0.0694
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "wicc",
+                    "ticker": {
+                        "high": 0.795,
+                        "low": 0.76,
+                        "last": 0.78,
+                        "vol": 730545.329733,
+                        "buy": 0.78,
+                        "sell": 0.785,
+                        "range": 0.0196
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "xem",
+                    "ticker": {
+                        "high": 0.2602,
+                        "low": 0.2231,
+                        "last": 0.227,
+                        "vol": 6169339.825758,
+                        "buy": 0.2265,
+                        "sell": 0.2451,
+                        "range": -0.0052
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "xzc",
+                    "ticker": {
+                        "high": 21.61,
+                        "low": 20.7,
+                        "last": 21.47,
+                        "vol": 65714.993028,
+                        "buy": 21.43,
+                        "sell": 21.53,
+                        "range": 0.0332
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "snt",
+                    "ticker": {
+                        "high": 0.0672,
+                        "low": 0.0633,
+                        "last": 0.0652,
+                        "vol": 18411889.116386,
+                        "buy": 0.0645,
+                        "sell": 0.0652,
+                        "range": 0.0171
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "omg",
+                    "ticker": {
+                        "high": 4.7,
+                        "low": 4.33,
+                        "last": 4.48,
+                        "vol": 198532.102392,
+                        "buy": 4.45,
+                        "sell": 4.51,
+                        "range": 0.0158
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "dash",
+                    "ticker": {
+                        "high": 319.4,
+                        "low": 298,
+                        "last": 301.3,
+                        "vol": 6484.551431,
+                        "buy": 301.6,
+                        "sell": 301.8,
+                        "range": -0.0271
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "bcv",
+                    "ticker": {
+                        "high": 0.0693,
+                        "low": 0.0666,
+                        "last": 0.068,
+                        "vol": 18871841.303048,
+                        "buy": 0.0677,
+                        "sell": 0.0684,
+                        "range": 0
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "atn",
+                    "ticker": {
+                        "high": 0.071,
+                        "low": 0.021,
+                        "last": 0.05,
+                        "vol": 13592721.122316,
+                        "buy": 0.041,
+                        "sell": 0.053,
+                        "range": -0.2957
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "bite",
+                    "ticker": {
+                        "high": 0.35,
+                        "low": 0.321,
+                        "last": 0.331,
+                        "vol": 3891780.560349,
+                        "buy": 0.326,
+                        "sell": 0.331,
+                        "range": -0.0377
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "lxt",
+                    "ticker": {
+                        "high": 0.019,
+                        "low": 0.0174,
+                        "last": 0.0179,
+                        "vol": 58719325.558852,
+                        "buy": 0.0177,
+                        "sell": 0.0181,
+                        "range": -0.0164
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "yoyo",
+                    "ticker": {
+                        "high": 0.0708,
+                        "low": 0.0652,
+                        "last": 0.0665,
+                        "vol": 15812953.708467,
+                        "buy": 0.066,
+                        "sell": 0.069,
+                        "range": 0.0168
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "stb",
+                    "ticker": {
+                        "high": 0.0139,
+                        "low": 0.0124,
+                        "last": 0.0129,
+                        "vol": 79398011.746971,
+                        "buy": 0.0123,
+                        "sell": 0.0138,
+                        "range": 0.0157
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "btm",
+                    "ticker": {
+                        "high": 0.503,
+                        "low": 0.469,
+                        "last": 0.477,
+                        "vol": 2089347.175362,
+                        "buy": 0.476,
+                        "sell": 0.482,
+                        "range": 0.0127
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "seer",
+                    "ticker": {
+                        "high": 0.00617,
+                        "low": 0.00521,
+                        "last": 0.00602,
+                        "vol": 134968350.20401,
+                        "buy": 0.00572,
+                        "sell": 0.00618,
+                        "range": 0.0925
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "fgc",
+                    "ticker": {
+                        "high": 0.0148,
+                        "low": 0.0109,
+                        "last": 0.0147,
+                        "vol": 84266506.338266,
+                        "buy": 0.0115,
+                        "sell": 0.0149,
+                        "range": 0.2457
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "lend",
+                    "ticker": {
+                        "high": 0.0707,
+                        "low": 0.0658,
+                        "last": 0.0684,
+                        "vol": 17498000.69984,
+                        "buy": 0.0682,
+                        "sell": 0.0689,
+                        "range": 0.0332
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "qash",
+                    "ticker": {
+                        "high": 0.346,
+                        "low": 0.333,
+                        "last": 0.343,
+                        "vol": 2955559.285051,
+                        "buy": 0.341,
+                        "sell": 0.345,
+                        "range": 0.0208
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "mgc",
+                    "ticker": {
+                        "high": 0.064,
+                        "low": 0.0342,
+                        "last": 0.0502,
+                        "vol": 29256019.722195,
+                        "buy": 0.0482,
+                        "sell": 0.0508,
+                        "range": 0.4466
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "can",
+                    "ticker": {
+                        "high": 0.138,
+                        "low": 0.13,
+                        "last": 0.134,
+                        "vol": 9135947.30497,
+                        "buy": 0.132,
+                        "sell": 0.135,
+                        "range": 0
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "vash",
+                    "ticker": {
+                        "high": 0.0045,
+                        "low": 0.00421,
+                        "last": 0.00443,
+                        "vol": 244242837.76321,
+                        "buy": 0.00449,
+                        "sell": 0.0045,
+                        "range": 0.0522
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ela",
+                    "ticker": {
+                        "high": 10.56,
+                        "low": 10.09,
+                        "last": 10.53,
+                        "vol": 121627.027407,
+                        "buy": 10.44,
+                        "sell": 10.55,
+                        "range": 0.0273
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "tyt",
+                    "ticker": {
+                        "high": 0.0016,
+                        "low": 0.00135,
+                        "last": 0.00158,
+                        "vol": 704111459.26389,
+                        "buy": 0.00158,
+                        "sell": 0.00159,
+                        "range": 0.0896
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "bchabc",
+                    "ticker": {
+                        "high": 1336.9,
+                        "low": 1269.5,
+                        "last": 1309.3,
+                        "vol": 4420.154324,
+                        "buy": 1306.8,
+                        "sell": 1308.8,
+                        "range": 0.0225
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "bchsv",
+                    "ticker": {
+                        "high": 609.8,
+                        "low": 576.4,
+                        "last": 592.4,
+                        "vol": 3109.8012,
+                        "buy": 590.8,
+                        "sell": 592.9,
+                        "range": 0.0124
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "bhd",
+                    "ticker": {
+                        "high": 21.9,
+                        "low": 20.9,
+                        "last": 21.9,
+                        "vol": 49318.175735,
+                        "buy": 21.4,
+                        "sell": 21.9,
+                        "range": 0.0379
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ftn",
+                    "ticker": {
+                        "high": 0.0959,
+                        "low": 0.0861,
+                        "last": 0.0894,
+                        "vol": 10782879.6606,
+                        "buy": 0.086,
+                        "sell": 0.096,
+                        "range": -0.0628
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "key",
+                    "ticker": {
+                        "high": 0.0091,
+                        "low": 0.0083,
+                        "last": 0.0087,
+                        "vol": 110042788.18182,
+                        "buy": 0.0084,
+                        "sell": 0.0092,
+                        "range": -0.0113
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "grin",
+                    "ticker": {
+                        "high": 7.31,
+                        "low": 6.77,
+                        "last": 6.87,
+                        "vol": 212084.198431,
+                        "buy": 6.83,
+                        "sell": 6.91,
+                        "range": 0.0132
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "lfc",
+                    "ticker": {
+                        "high": 0.00256,
+                        "low": 0.0021,
+                        "last": 0.00256,
+                        "vol": 84425.906203,
+                        "buy": 0.0021,
+                        "sell": 0.00256,
+                        "range": 0.2736
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "fo",
+                    "ticker": {
+                        "high": 0.073,
+                        "low": 0.0685,
+                        "last": 0.0721,
+                        "vol": 6536659.046631,
+                        "buy": 0.0719,
+                        "sell": 0.0723,
+                        "range": 0.0434
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "pld",
+                    "ticker": {
+                        "high": 0.051,
+                        "low": 0.0499,
+                        "last": 0.0501,
+                        "vol": 19259669.610526,
+                        "buy": 0.05,
+                        "sell": 0.0501,
+                        "range": -0.0098
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "gt",
+                    "ticker": {
+                        "high": 2.45,
+                        "low": 2.28,
+                        "last": 2.43,
+                        "vol": 453225.482775,
+                        "buy": 2.38,
+                        "sell": 2.44,
+                        "range": 0.0474
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ett",
+                    "ticker": {
+                        "high": 0.00117,
+                        "low": 0.00108,
+                        "last": 0.00113,
+                        "vol": 957850259.70902,
+                        "buy": 0.00111,
+                        "sell": 0.00114,
+                        "range": 0.0089
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "atom",
+                    "ticker": {
+                        "high": 31.78,
+                        "low": 27.64,
+                        "last": 30.2,
+                        "vol": 62241.493497,
+                        "buy": 30.22,
+                        "sell": 30.31,
+                        "range": 0.0648
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "xff",
+                    "ticker": {
+                        "high": 0.29,
+                        "low": 0.269,
+                        "last": 0.271,
+                        "vol": 3743592.281564,
+                        "buy": 0.271,
+                        "sell": 0.275,
+                        "range": -0.039
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "enu",
+                    "ticker": {
+                        "high": 0.00501,
+                        "low": 0.00501,
+                        "last": 0.00501,
+                        "vol": 202.455095,
+                        "buy": 0.00426,
+                        "sell": 0.00501,
+                        "range": 0.176
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "beet",
+                    "ticker": {
+                        "high": 0.0394,
+                        "low": 0.0352,
+                        "last": 0.0376,
+                        "vol": 38987590.084153,
+                        "buy": 0.0352,
+                        "sell": 0.0385,
+                        "range": 0.0134
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "upb",
+                    "ticker": {
+                        "high": 0.00393,
+                        "low": 0.00379,
+                        "last": 0.00385,
+                        "vol": 256005926.93309,
+                        "buy": 0.00384,
+                        "sell": 0.00388,
+                        "range": -0.0203
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "algo",
+                    "ticker": {
+                        "high": 1.779,
+                        "low": 1.621,
+                        "last": 1.642,
+                        "vol": 1001171.020575,
+                        "buy": 1.641,
+                        "sell": 1.649,
+                        "range": -0.0084
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "dapp",
+                    "ticker": {
+                        "high": 0.0479,
+                        "low": 0.0431,
+                        "last": 0.0465,
+                        "vol": 26312374.112965,
+                        "buy": 0.044,
+                        "sell": 0.0477,
+                        "range": 0.031
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "btsucn",
+                    "ticker": {
+                        "high": 0.00279,
+                        "low": 0.00266,
+                        "last": 0.00279,
+                        "vol": 103211.716339,
+                        "buy": 0.00198,
+                        "sell": 0.00279,
+                        "range": 0.0035
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "vsys",
+                    "ticker": {
+                        "high": 0.3,
+                        "low": 0.278,
+                        "last": 0.288,
+                        "vol": 2632447.261962,
+                        "buy": 0.287,
+                        "sell": 0.29,
+                        "range": 0.0069
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "bkbt",
+                    "ticker": {
+                        "high": 0.00273,
+                        "low": 0.0026,
+                        "last": 0.00267,
+                        "vol": 382798814.42254,
+                        "buy": 0.00262,
+                        "sell": 0.00268,
+                        "range": 0
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "safe",
+                    "ticker": {
+                        "high": 2.77,
+                        "low": 2.7,
+                        "last": 2.72,
+                        "vol": 822.198539,
+                        "buy": 2.7,
+                        "sell": 2.8,
+                        "range": -0.0144
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "qrk",
+                    "ticker": {
+                        "high": 0.0589,
+                        "low": 0.0581,
+                        "last": 0.0589,
+                        "vol": 22820909.377238,
+                        "buy": 0.0588,
+                        "sell": 0.059,
+                        "range": 0.0034
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "bln",
+                    "ticker": {
+                        "high": 0.01,
+                        "low": 0.0094,
+                        "last": 0.0096,
+                        "vol": 80445556.853787,
+                        "buy": 0.0095,
+                        "sell": 0.0099,
+                        "range": -0.0303
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ltk",
+                    "ticker": {
+                        "high": 0.344,
+                        "low": 0.286,
+                        "last": 0.311,
+                        "vol": 3706659.253916,
+                        "buy": 0.285,
+                        "sell": 0.345,
+                        "range": 0.0032
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "b360",
+                    "ticker": {
+                        "high": 0.0016,
+                        "low": 0.00141,
+                        "last": 0.00147,
+                        "vol": 10121996.091281,
+                        "buy": 0.00141,
+                        "sell": 0.0015,
+                        "range": -0.0696
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "hzt",
+                    "ticker": {
+                        "high": 0.218,
+                        "low": 0.216,
+                        "last": 0.218,
+                        "vol": 4083614.601125,
+                        "buy": 0.216,
+                        "sell": 0.217,
+                        "range": 0.0046
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ont",
+                    "ticker": {
+                        "high": 3.983,
+                        "low": 3.746,
+                        "last": 3.805,
+                        "vol": 453681.533233,
+                        "buy": 3.788,
+                        "sell": 3.815,
+                        "range": -0.0015
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ht",
+                    "ticker": {
+                        "high": 19.2,
+                        "low": 18,
+                        "last": 19.1,
+                        "vol": 59457.937761,
+                        "buy": 18.8,
+                        "sell": 19.2,
+                        "range": 0.038
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "okb",
+                    "ticker": {
+                        "high": 18,
+                        "low": 16.9,
+                        "last": 17.4,
+                        "vol": 62902.224824,
+                        "buy": 17.1,
+                        "sell": 17.4,
+                        "range": 0.0175
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "xyz",
+                    "ticker": {
+                        "high": 0.00379,
+                        "low": 0.00341,
+                        "last": 0.00358,
+                        "vol": 283065973.79681,
+                        "buy": 0.0034,
+                        "sell": 0.0038,
+                        "range": 0.0141
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "nss",
+                    "ticker": {
+                        "high": 0.219,
+                        "low": 0.211,
+                        "last": 0.214,
+                        "vol": 4182602.840375,
+                        "buy": 0.21,
+                        "sell": 0.22,
+                        "range": 0.0046
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "xtz",
+                    "ticker": {
+                        "high": 11.24,
+                        "low": 10.68,
+                        "last": 10.72,
+                        "vol": 167811.264542,
+                        "buy": 10.69,
+                        "sell": 10.75,
+                        "range": -0.0227
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "fbt",
+                    "ticker": {
+                        "high": 0.0476,
+                        "low": 0.0463,
+                        "last": 0.0468,
+                        "vol": 21153547.852545,
+                        "buy": 0.0466,
+                        "sell": 0.0474,
+                        "range": 0.0042
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "ybc",
+                    "ticker": {
+                        "high": 46.14,
+                        "low": 43.74,
+                        "last": 43.79,
+                        "vol": 36476.866562,
+                        "buy": 43.6,
+                        "sell": 43.9,
+                        "range": -0.0284
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "zgt",
+                    "ticker": {
+                        "high": 0.90896,
+                        "low": 0.88623,
+                        "last": 0.89451,
+                        "vol": 1167240.501194,
+                        "buy": 0.88606,
+                        "sell": 0.90897,
+                        "range": -0.0121
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "uni",
+                    "ticker": {
+                        "high": 0.045129,
+                        "low": 0.035724,
+                        "last": 0.03907,
+                        "vol": 31837374.227217,
+                        "buy": 0.0357,
+                        "sell": 0.045305,
+                        "range": -0.0405
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "boom",
+                    "ticker": {
+                        "high": 0.007399,
+                        "low": 0.005643,
+                        "last": 0.006816,
+                        "vol": 188874815.30792,
+                        "buy": 0.006785,
+                        "sell": 0.007064,
+                        "range": 0.1415
+                    }
+                },
+                {
+                    "market": "cnc",
+                    "coin": "wusd",
+                    "ticker": {
+                        "high": 7.048,
+                        "low": 6.992,
+                        "last": 7.031,
+                        "vol": 29977.29996,
+                        "buy": 7.016,
+                        "sell": 7.048,
+                        "range": 0.0055
+                    }
+                },
+                {
+                    "market": "btc",
+                    "coin": "zcc",
+                    "ticker": {
+                        "high": 1.6e-7,
+                        "low": 1.4e-7,
+                        "last": 1.4e-7,
+                        "vol": 119034.498469,
+                        "buy": 1.3e-7,
+                        "sell": 1.8e-7,
+                        "range": -0.2222
+                    }
+                },
+                {
+                    "market": "btc",
+                    "coin": "bcd",
+                    "ticker": {
+                        "high": 0.000054,
+                        "low": 0.000053,
+                        "last": 0.000053,
+                        "vol": 561.119259,
+                        "buy": 0.000047,
+                        "sell": 0.000053,
+                        "range": -0.0185
+                    }
+                },
+                {
+                    "market": "btc",
+                    "coin": "lbtc",
+                    "ticker": {
+                        "high": 0.000257,
+                        "low": 0.000217,
+                        "last": 0.000257,
+                        "vol": 26.836,
+                        "buy": 0.000218,
+                        "sell": 0.000256,
+                        "range": 0.1473
+                    }
+                },
+                {
+                    "market": "btc",
+                    "coin": "bash",
+                    "ticker": {
+                        "high": 4e-8,
+                        "low": 4e-8,
+                        "last": 4e-8,
+                        "vol": 4050,
+                        "buy": 3e-8,
+                        "sell": 4e-8,
+                        "range": -0.2
+                    }
+                },
+                {
+                    "market": "btc",
+                    "coin": "gat",
+                    "ticker": {
+                        "high": 1.9e-7,
+                        "low": 1.8e-7,
+                        "last": 1.9e-7,
+                        "vol": 2101587.8566422,
+                        "buy": 1.9e-7,
+                        "sell": 2e-7,
+                        "range": 0
+                    }
+                },
+                {
+                    "market": "eth",
+                    "coin": "gat",
+                    "ticker": {
+                        "high": 0.0000099,
+                        "low": 0.0000098,
+                        "last": 0.0000098,
+                        "vol": 11,
+                        "buy": 0.0000099,
+                        "sell": 0.0000112,
+                        "range": -0.125
+                    }
+                },
+                {
+                    "market": "eth",
+                    "coin": "lv",
+                    "ticker": {
+                        "high": 0.00000487,
+                        "low": 0.00000487,
+                        "last": 0.00000487,
+                        "vol": 20513.34702,
+                        "buy": 0.00000305,
+                        "sell": 0.00000487,
+                        "range": 0
+                    }
+                },
+                {
+                    "market": "eth",
+                    "coin": "oct",
+                    "ticker": {
+                        "high": 0.000248,
+                        "low": 0.000248,
+                        "last": 0.000248,
+                        "vol": 402.822576,
+                        "buy": 0.000128,
+                        "sell": 0.000248,
+                        "range": 0
+                    }
+                },
+                {
+                    "market": "eth",
+                    "coin": "jrc",
+                    "ticker": {
+                        "high": 0.00000467,
+                        "low": 0.00000316,
+                        "last": 0.00000467,
+                        "vol": 1301829.191013,
+                        "buy": 0.00000428,
+                        "sell": 0.00000466,
+                        "range": 0.1199
+                    }
+                },
+                {
+                    "market": "eth",
+                    "coin": "mts",
+                    "ticker": {
+                        "high": 9.7e-7,
+                        "low": 7.5e-7,
+                        "last": 9.7e-7,
+                        "vol": 659875.788844,
+                        "buy": 7.3e-7,
+                        "sell": 9.7e-7,
+                        "range": -0.0102
+                    }
+                },
+                {
+                    "market": "eth",
+                    "coin": "sac",
+                    "ticker": {
+                        "high": 0.000069,
+                        "low": 0.00006,
+                        "last": 0.000069,
+                        "vol": 34368.813123,
+                        "buy": 0.000061,
+                        "sell": 0.000069,
+                        "range": 0.0147
+                    }
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 19 Dec 2019 15:44:03 GMT",
+            "Content-Type",
+            "4372",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "swoole-http-server"
+        ],
+        "responseIsBinary": false
+    }
+]

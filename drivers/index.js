@@ -1,6 +1,7 @@
 exports['3xbit'] = require('./3xbit');
 exports.abcc = require('./abcc');
 exports.acx = require('./acx');
+exports.aex = require('./aex');
 exports.aidosmarket = require('./aidosmarket');
 exports.allcoin = require('./allcoin');
 exports.bancor = require('./bancor');
