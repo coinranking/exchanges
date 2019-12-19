@@ -1,0 +1,91 @@
+[
+    {
+        "scope": "https://api.btse.com:443",
+        "method": "GET",
+        "path": "/spot/v2/market_summary",
+        "body": "",
+        "status": 200,
+        "response": {
+            "BTC-USD": {
+                "last": "6901.0",
+                "lowest_ask": "6901.5",
+                "highest_bid": "6900.5",
+                "percent_change": "-2.500706414",
+                "volume": "9586407",
+                "high24hr": "7138.7",
+                "low24hr": "6835.4"
+            },
+            "LTC-USD": {
+                "last": "39.60",
+                "lowest_ask": "39.60",
+                "highest_bid": "39.50",
+                "percent_change": "-7.649253731",
+                "volume": "174140",
+                "high24hr": "43.15",
+                "low24hr": "39.13"
+            },
+            "ETH-USD": {
+                "last": "131.95",
+                "lowest_ask": "131.95",
+                "highest_bid": "130.95",
+                "percent_change": "-6.058664388",
+                "volume": "243518",
+                "high24hr": "141.72",
+                "low24hr": "129.49"
+            },
+            "XMR-USD": {
+                "last": "48.75",
+                "lowest_ask": "49.20",
+                "highest_bid": "48.70",
+                "percent_change": "-3.503562945",
+                "volume": "59019",
+                "high24hr": "51.2",
+                "low24hr": "48.08"
+            },
+            "USDT-USD": {
+                "last": "0.9978",
+                "lowest_ask": "0.9998",
+                "highest_bid": "0.9986",
+                "percent_change": "-0.050085145",
+                "volume": "285987",
+                "high24hr": "0.9999",
+                "low24hr": "0.997"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 17 Dec 2019 12:27:46 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "Set-Cookie",
+            "XSRF-TOKEN=b584be0a-bc9b-4e5f-ad90-634267e5c1ba; Path=/",
+            "Cache-Control",
+            "no-cache",
+            "Set-Cookie",
+            "visid_incap_1816178=aFLsEmRLSheGMZKiuN90rsLJ+F0AAAAAQUIPAAAAAADFTgyqFFFtjDFat83sSa4J; expires=Tue, 15 Dec 2020 16:39:38 GMT; path=/; Domain=.btse.com",
+            "Set-Cookie",
+            "nlbi_1816178=fYdhaHiGuHNn34B8CV6+vwAAAACh6OMZFbsxv/nL6x9ZubjW; path=/; Domain=.btse.com",
+            "Set-Cookie",
+            "incap_ses_472_1816178=+89lSDPud0TyIV7jm+KMBsLJ+F0AAAAAJT7r4PAVzyyInyQRioB7JA==; path=/; Domain=.btse.com",
+            "Set-Cookie",
+            "___utmvmXEusslSB=orsQqQQEwxg; path=/; Max-Age=900",
+            "Set-Cookie",
+            "___utmvaXEusslSB=UMs\u0001fWjs; path=/; Max-Age=900",
+            "Set-Cookie",
+            "___utmvbXEusslSB=eZO    XakOealS: MtN; path=/; Max-Age=900",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-CDN",
+            "Incapsula"
+        ],
+        "responseIsBinary": false
+    }
+]
