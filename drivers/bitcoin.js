@@ -9,11 +9,14 @@ module.exports = async () => {
 
   // set symbol as key
   symbols.forEach((el) => {
-    pairs[el.id] = el;
+    pairs[el.id] = {
+      base: el.baseCurrency,
+      quote: el.quoteCurrency,
+    };
   });
 
   return tickers.map((ticker) => {
-    const { baseCurrency: base, quoteCurrency: quote } = pairs[ticker.symbol];
+    const { base, quote } = pairs[ticker.symbol];
 
     return new Ticker({
       base,
