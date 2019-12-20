@@ -114,6 +114,7 @@ exports.ftx = require('./ftx');
 exports.gateio = require('./gateio');
 exports.gdac = require('./gdac');
 exports.gemini = require('./gemini');
+exports.gmojapan = require('./gmojapan');
 exports.goexchange = require('./goexchange');
 exports.graviex = require('./graviex');
 exports.hitbtc = require('./hitbtc');
