@@ -154,6 +154,7 @@ exports.mxc = require('./mxc');
 exports.nanuexchange = require('./nanuexchange');
 exports.neraex = require('./neraex');
 exports.nocks = require('./nocks');
+exports.novadex = require('./novadex');
 exports.oceanex = require('./oceanex');
 exports.okcoin = require('./okcoin');
 exports.okex = require('./okex');
