@@ -22,6 +22,7 @@ exports.bitasset = require('./bitasset');
 exports.bitbank = require('./bitbank');
 exports.bit2c = require('./bit2c');
 exports.bitbay = require('./bitbay');
+exports.bitcoin = require('./bitcoin');
 exports.bitcratic = require('./bitcratic');
 exports.bitebtc = require('./bitebtc');
 exports.bitfinex = require('./bitfinex');
