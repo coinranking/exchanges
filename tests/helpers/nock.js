@@ -9,6 +9,7 @@ nock.back.setMode('record');
 nock.enableNetConnect();
 
 const makeCompressedResponsesReadable = (scope) => {
+  console.log(scope);
   if (scope.rawHeaders.indexOf('gzip') > -1) {
     while (scope.rawHeaders.indexOf('gzip') > -1) {
       const gzipIndex = scope.rawHeaders.indexOf('gzip');
@@ -26,7 +27,7 @@ const makeCompressedResponsesReadable = (scope) => {
         zlib.gunzipSync(Buffer.from(fullResponseBody, 'hex')).toString('utf8'),
       );
     } catch (e) {
-      scope.response = '';
+      // do nothing
     }
   }
   return scope;
