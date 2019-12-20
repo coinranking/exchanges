@@ -5,10 +5,10 @@ const { parseToFloat } = require('../lib/utils.js');
 module.exports = async () => {
   const pairs = await request('https://www.ovex.io/api/v2/tickers');
 
-  return Object.keys(pairs).map((pair) => {
-    const { ticker } = pairs[pair];
-    const base = pairs[pair].ask_unit;
-    const quote = pairs[pair].bid_unit;
+  return Object.values(pairs).map((pair) => {
+    const { ticker } = pair;
+    const base = pair.ask_unit;
+    const quote = pair.bid_unit;
 
     return new Ticker({
       base,
