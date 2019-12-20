@@ -158,6 +158,7 @@ exports.oceanex = require('./oceanex');
 exports.okcoin = require('./okcoin');
 exports.okex = require('./okex');
 exports.openledger = require('./openledger');
+exports.ovex = require('./ovex');
 exports.p2pb2b = require('./p2pb2b');
 exports.paymium = require('./paymium');
 exports.prizmbit = require('./prizmbit');
