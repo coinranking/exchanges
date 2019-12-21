@@ -3,24 +3,20 @@ const Ticker = require('../models/ticker');
 const { parseToFloat } = require('../lib/utils.js');
 
 module.exports = async () => {
-  const tickers = await request('https://xapi.finexbox.com/v1/cmcpublicticker');
-  const markets = Object.keys(tickers);
+  const { result: tickers } = await request('https://xapi.finexbox.com/v1/market');
 
-  return markets.map((market) => {
-    const [base, quote] = market.split('_');
-    const ticker = tickers[market];
+  return tickers.map((ticker) => {
+    const [base, quote] = ticker.market.split('_');
 
     return new Ticker({
       base,
+      baseName: ticker.currency,
       quote,
       // Warning: Finexbox inverts base and quote
-      baseVolume: parseToFloat(ticker.quoteVolume),
-      quoteVolume: parseToFloat(ticker.baseVolume),
-      high: parseToFloat(ticker.high24hr),
-      low: parseToFloat(ticker.low24hr),
-      close: parseToFloat(ticker.last),
-      bid: parseToFloat(ticker.highestBid),
-      ask: parseToFloat(ticker.lowestAsk),
+      baseVolume: parseToFloat(ticker.volume),
+      high: parseToFloat(ticker.high),
+      low: parseToFloat(ticker.low),
+      close: parseToFloat(ticker.price),
     });
   });
 };
