@@ -160,6 +160,7 @@ exports.okcoin = require('./okcoin');
 exports.okex = require('./okex');
 exports.openledger = require('./openledger');
 exports.p2pb2b = require('./p2pb2b');
+exports.paribu = require('./paribu');
 exports.paymium = require('./paymium');
 exports.prizmbit = require('./prizmbit');
 exports.probit = require('./probit');
