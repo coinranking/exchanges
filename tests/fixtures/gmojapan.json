@@ -1,0 +1,140 @@
+[
+    {
+        "scope": "https://api.coin.z.com:443",
+        "method": "GET",
+        "path": "/public/v1/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status": 0,
+            "data": [
+                {
+                    "ask": "787641",
+                    "bid": "787352",
+                    "high": "789540",
+                    "last": "787300",
+                    "low": "773220",
+                    "symbol": "BTC_JPY",
+                    "timestamp": "2019-12-20T19:57:33.371Z",
+                    "volume": "7471.12"
+                },
+                {
+                    "ask": "14044",
+                    "bid": "14000",
+                    "high": "14153",
+                    "last": "14039",
+                    "low": "13776",
+                    "symbol": "ETH_JPY",
+                    "timestamp": "2019-12-20T19:57:32.568Z",
+                    "volume": "181.2"
+                },
+                {
+                    "ask": "20589",
+                    "bid": "20536",
+                    "high": "20840",
+                    "last": "20621",
+                    "low": "20055",
+                    "symbol": "BCH_JPY",
+                    "timestamp": "2019-12-20T19:57:32.879Z",
+                    "volume": "202.2"
+                },
+                {
+                    "ask": "4390",
+                    "bid": "4361",
+                    "high": "4426",
+                    "last": "4371",
+                    "low": "4300",
+                    "symbol": "LTC_JPY",
+                    "timestamp": "2019-12-20T19:57:32.784Z",
+                    "volume": "950"
+                },
+                {
+                    "ask": "21.209",
+                    "bid": "21.172",
+                    "high": "21.435",
+                    "last": "21.101",
+                    "low": "20.095",
+                    "symbol": "XRP_JPY",
+                    "timestamp": "2019-12-20T19:57:33.161Z",
+                    "volume": "6198020"
+                },
+                {
+                    "ask": "787294",
+                    "bid": "786890",
+                    "high": "789470",
+                    "last": "787294",
+                    "low": "774072",
+                    "symbol": "BTC",
+                    "timestamp": "2019-12-20T19:57:32.604Z",
+                    "volume": "272.0547"
+                },
+                {
+                    "ask": "14042",
+                    "bid": "14020",
+                    "high": "14100",
+                    "last": "14015",
+                    "low": "13800",
+                    "symbol": "ETH",
+                    "timestamp": "2019-12-20T19:57:32.467Z",
+                    "volume": "724.34"
+                },
+                {
+                    "ask": "20605",
+                    "bid": "20530",
+                    "high": "20685",
+                    "last": "20575",
+                    "low": "20210",
+                    "symbol": "BCH",
+                    "timestamp": "2019-12-20T19:57:32.252Z",
+                    "volume": "56.81"
+                },
+                {
+                    "ask": "4399",
+                    "bid": "4350",
+                    "high": "4417",
+                    "last": "4411",
+                    "low": "4278",
+                    "symbol": "LTC",
+                    "timestamp": "2019-12-20T19:57:33.354Z",
+                    "volume": "237.4"
+                },
+                {
+                    "ask": "21.199",
+                    "bid": "21.125",
+                    "high": "21.48",
+                    "last": "21.189",
+                    "low": "20.095",
+                    "symbol": "XRP",
+                    "timestamp": "2019-12-20T19:57:32.363Z",
+                    "volume": "2017342"
+                }
+            ],
+            "responsetime": "2019-12-20T19:57:33.765Z"
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Content-Length",
+            "1550",
+            "Connection",
+            "keep-alive",
+            "Date",
+            "Fri, 20 Dec 2019 19:57:34 GMT",
+            "x-amzn-RequestId",
+            "bc0be9d8-cd31-425e-b3ff-bac4bd94af88",
+            "x-amz-apigw-id",
+            "FBMjOHRBtjMFt2w=",
+            "X-Amzn-Trace-Id",
+            "Root=1-5dfd27ae-db6d673f8ca84b8f43d91fa5",
+            "X-Cache",
+            "Miss from cloudfront",
+            "Via",
+            "1.1 aa98922692c099827cdae6a16b894745.cloudfront.net (CloudFront)",
+            "X-Amz-Cf-Pop",
+            "VIE50-C1",
+            "X-Amz-Cf-Id",
+            "0ME9tNBh53iMfGo3mjDgytnahQeqKrNUz67oVgvhc_dbpY2yaBLxhQ=="
+        ],
+        "responseIsBinary": false
+    }
+]
