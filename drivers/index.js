@@ -42,6 +42,7 @@ exports.bitopro = require('./bitopro');
 exports.bitpanda = require('./bitpanda');
 exports.bitparax = require('./bitparax');
 exports.bitrue = require('./bitrue');
+exports.bitsdaq = require('./bitsdaq');
 exports.bitso = require('./bitso');
 exports.bitstamp = require('./bitstamp');
 exports.bittrex = require('./bittrex');
