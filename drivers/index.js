@@ -169,6 +169,7 @@ exports.resfinex = require('./resfinex');
 exports.rightbtc = require('./rightbtc');
 exports.simex = require('./simex');
 exports.sistemkoin = require('./sistemkoin');
+exports.shortex = require('./shortex');
 exports.southxchange = require('./southxchange');
 exports.sparkdex = require('./sparkdex');
 exports.stellarport = require('./stellarport');
