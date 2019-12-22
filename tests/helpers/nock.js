@@ -10,21 +10,21 @@ nock.enableNetConnect();
 
 const makeCompressedResponsesReadable = (scope) => {
   if (scope.rawHeaders.indexOf('gzip') > -1) {
-    while (scope.rawHeaders.indexOf('gzip') > -1) {
-      const gzipIndex = scope.rawHeaders.indexOf('gzip');
-      scope.rawHeaders.splice(gzipIndex - 1, 2);
-    }
-
-    const contentLengthIndex = scope.rawHeaders.indexOf('Content-Length');
-    scope.rawHeaders.splice(contentLengthIndex - 1, 2);
-
-    const fullResponseBody = scope.response && scope.response.reduce
-      && scope.response.reduce((previous, current) => previous + current);
-
     try {
+      const fullResponseBody = scope.response && scope.response.reduce
+        && scope.response.reduce((previous, current) => previous + current);
+
       scope.response = JSON.parse(
         zlib.gunzipSync(Buffer.from(fullResponseBody, 'hex')).toString('utf8'),
       );
+
+      while (scope.rawHeaders.indexOf('gzip') > -1) {
+        const gzipIndex = scope.rawHeaders.indexOf('gzip');
+        scope.rawHeaders.splice(gzipIndex - 1, 2);
+      }
+
+      const contentLengthIndex = scope.rawHeaders.indexOf('Content-Length');
+      scope.rawHeaders.splice(contentLengthIndex - 1, 2);
     } catch (e) {
       // do nothing
     }
