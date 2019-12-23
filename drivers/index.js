@@ -193,6 +193,7 @@ exports.tokok = require('./tokok');
 exports.tradesatoshi = require('./tradesatoshi');
 exports.turtlenetwork = require('./turtlenetwork');
 exports.upbit = require('./upbit');
+exports.vinex = require('./vinex');
 exports.vitex = require('./vitex');
 exports.vindax = require('./vindax');
 exports.whitebit = require('./whitebit');
