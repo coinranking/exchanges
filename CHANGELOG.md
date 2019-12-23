@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/coinranking/exchanges/compare/v1.1.0...v1.2.0) (2019-12-23)
+
+
+### Features
+
+* change homepage to coinranking.com ([73f82db](https://github.com/coinranking/exchanges/commit/73f82db3b081d7aded5f371aeb16a319d431b155))
+
 # [1.1.0](https://github.com/coinranking/exchanges/compare/v1.0.0...v1.1.0) (2019-12-23)
 
 
