@@ -17,6 +17,7 @@ module.exports = async (isMocked) => {
       high: parseToFloat(ticker.h),
       low: parseToFloat(ticker.l),
       close: parseToFloat(ticker.c),
+      baseVolume: parseToFloat(ticker.a),
       quoteVolume: parseToFloat(ticker.v),
     });
   }, isMocked ? 0 : 50); // Limited to 20 requests a second
