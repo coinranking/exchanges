@@ -18,4 +18,8 @@ env.yml
 # tests
 coverage
 
+# gifs
 exchange.webp
+
+# test files
+/tests/fixtures
