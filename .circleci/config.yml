@@ -36,14 +36,14 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/repo
-      - run: npm lint
+      - run: npm run lint
 
   test:
     <<: *defaults
     steps:
       - attach_workspace:
           at: ~/repo
-      - run: npm test
+      - run: npm run test
 
   release:
     <<: *defaults
