@@ -16,7 +16,8 @@
     "list": "node -e 'require(\"./lib/cli\").list()'",
     "cm": "git-cz",
     "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
-    "test": "npx jest"
+    "test": "npx jest",
+    "semantic-release": "semantic-release"
   },
   "bugs": {
     "url": "https://github.com/coinranking/exchanges/issues"
@@ -47,6 +48,8 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.3",
     "@commitlint/config-conventional": "^8.3.3",
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/git": "^7.0.18",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.7.1",
@@ -54,12 +57,28 @@
     "eslint-plugin-import": "^2.18.2",
     "husky": "^3.1.0",
     "jest": "^25.0.0",
-    "nock": "^11.7.0"
+    "nock": "^11.7.0",
+    "semantic-release": "^15.14.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "release": {
+    "prepare": [
+       "@semantic-release/changelog",
+       "@semantic-release/npm",
+       {
+        "path": "@semantic-release/git",
+         "assets": [
+          "package.json",
+          "package-lock.json",
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]nn${nextRelease.notes}"
+      }
+    ]
   },
   "husky": {
     "hooks": {
