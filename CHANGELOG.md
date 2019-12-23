@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/coinranking/exchanges/compare/v1.0.0...v1.1.0) (2019-12-23)
+
+
+### Features
+
+* dont include fixtures in the npm package ([612829f](https://github.com/coinranking/exchanges/commit/612829f99a0e9ad831600f54e3dca6eb14ce6ffe))
+* include a npmignore file to ingore the webp file ([e28e350](https://github.com/coinranking/exchanges/commit/e28e3500eb9ec81c7787cf6f727d3683dc4eb775))
+
 # 1.0.0 (2019-12-23)
 
 
