@@ -30,6 +30,21 @@ jobs:
           root: ~/repo
           paths:
             - node_modules
+
+  lint:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - run: npm lint
+
+  test:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - run: npm test
+
   release:
     <<: *defaults
     steps:
@@ -46,9 +61,17 @@ workflows:
       - build:
           requires:
             - checkout_code
+      - lint:
+          requires:
+            - build
+      - test:
+          requires:
+            - build
       - release:
           requires:
             - build
+            - lint
+            - test
           filters:
             branches:
               only: master
