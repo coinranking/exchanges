@@ -3,20 +3,20 @@ const Ticker = require('../models/ticker');
 const { parseToFloat } = require('../lib/utils.js');
 
 module.exports = async () => {
-  const { result: tickers } = await request('https://xapi.finexbox.com/v1/market');
+  const { data: tickers } = await request('https://api.coin.z.com/public/v1/ticker');
 
   return tickers.map((ticker) => {
-    const [base, quote] = ticker.market.split('_');
+    const [base, quote] = ticker.symbol.split('_');
 
     return new Ticker({
       base,
-      baseName: ticker.currency,
       quote,
-      // Warning: Finexbox inverts base and quote
-      baseVolume: parseToFloat(ticker.volume),
       high: parseToFloat(ticker.high),
       low: parseToFloat(ticker.low),
-      close: parseToFloat(ticker.price),
+      close: parseToFloat(ticker.last),
+      bid: parseToFloat(ticker.bid),
+      ask: parseToFloat(ticker.ask),
+      baseVolume: parseToFloat(ticker.volume),
     });
   });
 };
