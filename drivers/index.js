@@ -196,6 +196,7 @@ exports.turtlenetwork = require('./turtlenetwork');
 exports.upbit = require('./upbit');
 exports.vitex = require('./vitex');
 exports.vindax = require('./vindax');
+exports.wazirx = require('./wazirx');
 exports.whitebit = require('./whitebit');
 exports.wtzex = require('./wtzex');
 exports.xbts = require('./xbts');
