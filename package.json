@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/exchanges",
-  "version": "0.0.0-dev",
+  "version": "1.0.0",
   "description": "A Javascript library for getting up to date cryptocurrency exchange data and tickers.",
   "main": "lib/exchanges.js",
   "engines": {
