@@ -42,7 +42,7 @@
   "author": "Coinranking B.V.",
   "license": "MIT",
   "dependencies": {
-    "cloudscraper": "^4.4.0",
+    "cloudscraper": "^4.5.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
@@ -67,11 +67,11 @@
   },
   "release": {
     "prepare": [
-       "@semantic-release/changelog",
-       "@semantic-release/npm",
-       {
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      {
         "path": "@semantic-release/git",
-         "assets": [
+        "assets": [
           "package.json",
           "package-lock.json",
           "CHANGELOG.md"
