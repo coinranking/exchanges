@@ -1,0 +1,54 @@
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/node:12.14
+
+version: 2
+jobs:
+  checkout_code:
+    <<: *defaults
+    steps:
+      - checkout
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - .
+
+  build:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - restore-cache:
+          key: npm-{{ checksum "package-lock.json" }}
+      - run: npm install
+      - save-cache:
+          key: npm-{{ checksum "package-lock.json"}}
+          paths:
+            - ~/repo/node_modules
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - node_modules
+  release:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - checkout
+      - run: npm run semantic-release
+
+workflows:
+  version: 2
+  build-and-release:
+    jobs:
+      - checkout_code
+      - build:
+          requires:
+            - checkout_code
+      - release:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
