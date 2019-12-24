@@ -16,8 +16,8 @@ module.exports = async () => {
       high: parseToFloat(ticker.high24h),
       low: parseToFloat(ticker.low24h),
       close: parseToFloat(ticker.lastPrice),
-      baseVolume: parseToFloat(ticker.volume24h),
-
+      baseVolume: parseToFloat(ticker.asset2Volume24h),
+      quoteVolume: parseToFloat(ticker.volume24h),
     });
   });
 };
