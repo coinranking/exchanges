@@ -1,3 +1,24 @@
+# [1.3.0](https://github.com/coinranking/exchanges/compare/v1.2.0...v1.3.0) (2019-12-24)
+
+
+### Bug Fixes
+
+* again run test for driver ovex ([4f048fb](https://github.com/coinranking/exchanges/commit/4f048fbd7eac5e2da3f32692b81b0813c75821b4))
+* new test for driver ovex ([d32015e](https://github.com/coinranking/exchanges/commit/d32015e3aff7c2a705fcf1feb83871dcb246a1a6))
+* return changes from first commit ([484108a](https://github.com/coinranking/exchanges/commit/484108a4453ce613c02f7d7279c5cec8502fe415))
+* run test again for ovex ([65105ad](https://github.com/coinranking/exchanges/commit/65105adca1b3773ce50b6666d76ff742041e5c3e))
+* try somethign else to pass the commit ([315f692](https://github.com/coinranking/exchanges/commit/315f692222b68cba47060d8dbfcb3d1e1283d172))
+
+
+### Features
+
+* atomars driver ([ff30e6e](https://github.com/coinranking/exchanges/commit/ff30e6ed25f8086c7e88c4fc1f979bb36d398d77))
+* atomars driver without test ([3b3ffbc](https://github.com/coinranking/exchanges/commit/3b3ffbcd619c4522d096885459f6ca114340a269))
+* citex driver ([abaa5d3](https://github.com/coinranking/exchanges/commit/abaa5d3e29e50773262a909c9ea6439f84b31d1b))
+* driver eterbase ([8f7c65c](https://github.com/coinranking/exchanges/commit/8f7c65c30a884efb7045051a5832c1527f93fb39))
+* ovex driver ([cd65c49](https://github.com/coinranking/exchanges/commit/cd65c498eddc062b8cba7643883ef90ed2f474c8))
+* wazirx driver ([52091b4](https://github.com/coinranking/exchanges/commit/52091b4a1bb3791bb60a51057baefe745ec67bfc))
+
 # [1.2.0](https://github.com/coinranking/exchanges/compare/v1.1.0...v1.2.0) (2019-12-23)
 
 
