@@ -7,7 +7,7 @@ module.exports = async () => {
 
   return pairs.map((pair) => {
     const key = Object.keys(pair);
-    const [base, quote] = key[0].split('_');
+    const [base, quote] = key[0].split('_').reverse();
     const ticker = pair[key];
 
     return new Ticker({
