@@ -6,8 +6,9 @@ module.exports = async () => {
   const pairs = await request('https://api.coinhe.io/v1/market-summary');
 
   return pairs.map((pair) => {
-    const key = Object.keys(pair);
-    const [base, quote] = key[0].split('_').reverse();
+    const [key] = Object.keys(pair);
+    // Warning: Coinhe inverts base and quote
+    const [quote, base] = key.split('_');
     const ticker = pair[key];
 
     return new Ticker({
