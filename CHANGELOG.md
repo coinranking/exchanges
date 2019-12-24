@@ -1,3 +1,19 @@
+# [1.4.0](https://github.com/coinranking/exchanges/compare/v1.3.0...v1.4.0) (2019-12-24)
+
+
+### Bug Fixes
+
+* reverse base and quote name ([1427e18](https://github.com/coinranking/exchanges/commit/1427e184c760075eb9c57195ab7ec0bb25c9d8fe))
+* reverse base and quote name ([4f5ec6d](https://github.com/coinranking/exchanges/commit/4f5ec6d6a17cf353118691559ca0c8e0e31fb208))
+* reverse base and quote volume ([047c01a](https://github.com/coinranking/exchanges/commit/047c01a896d92e6851662d587ee189ad0e192fb8))
+* reverse base and quote volume ([9b900dc](https://github.com/coinranking/exchanges/commit/9b900dc12f0259b5cd41adb64bac9c545a4b6afe))
+
+
+### Features
+
+* coinhe driver ([9ed8d49](https://github.com/coinranking/exchanges/commit/9ed8d49b40a9cbf92c4d24d877ad178d9be2ae85))
+* vinex driver ([d9bea42](https://github.com/coinranking/exchanges/commit/d9bea42cfe5e1b1e5faa8c466cedfd876869189e))
+
 # [1.3.0](https://github.com/coinranking/exchanges/compare/v1.2.0...v1.3.0) (2019-12-24)
 
 
