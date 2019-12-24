@@ -96,6 +96,7 @@ exports.crex24 = require('./crex24');
 exports.coss = require('./coss');
 exports.cryptobridge = require('./cryptobridge');
 exports.cryptonex = require('./cryptonex');
+exports.currency = require('./currency');
 exports.dcoin = require('./dcoin');
 exports.ddex = require('./ddex');
 exports.digifinex = require('./digifinex');

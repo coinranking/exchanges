@@ -1,0 +1,142 @@
+[
+    {
+        "scope": "https://marketcap.backend.currency.com:443",
+        "method": "GET",
+        "path": "/api/v1/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "BTC/BYN": {
+                "base_currency": "BTC",
+                "quote_currency": "BYN",
+                "last_price": 15225.9,
+                "quote_volume": 1172.23645,
+                "base_volume": 0.077,
+                "isFrozen": false
+            },
+            "ETH/USD": {
+                "base_currency": "ETH",
+                "quote_currency": "USD",
+                "last_price": 127.49,
+                "quote_volume": 10575.2336,
+                "base_volume": 82.93,
+                "isFrozen": false
+            },
+            "BCH/USD": {
+                "base_currency": "BCH",
+                "quote_currency": "USD",
+                "last_price": 186.65,
+                "quote_volume": 37.31,
+                "base_volume": 0.2,
+                "isFrozen": false
+            },
+            "LTC/USD": {
+                "base_currency": "LTC",
+                "quote_currency": "USD",
+                "last_price": 40.1,
+                "quote_volume": 2335.1064,
+                "base_volume": 58.48,
+                "isFrozen": false
+            },
+            "BCH/EUR": {
+                "base_currency": "BCH",
+                "quote_currency": "EUR",
+                "last_price": 168.55,
+                "quote_volume": 0,
+                "base_volume": 0,
+                "isFrozen": false
+            },
+            "ETH/BTC": {
+                "base_currency": "ETH",
+                "quote_currency": "BTC",
+                "last_price": 0.01753,
+                "quote_volume": 0.3516264,
+                "base_volume": 20.07,
+                "isFrozen": false
+            },
+            "LTC/BTC": {
+                "base_currency": "LTC",
+                "quote_currency": "BTC",
+                "last_price": 0.0055,
+                "quote_volume": 0,
+                "base_volume": 0,
+                "isFrozen": false
+            },
+            "BTC/USD": {
+                "base_currency": "BTC",
+                "quote_currency": "USD",
+                "last_price": 7264.2,
+                "quote_volume": 241988.607,
+                "base_volume": 33.285,
+                "isFrozen": false
+            },
+            "ETH/BYN": {
+                "base_currency": "ETH",
+                "quote_currency": "BYN",
+                "last_price": 267.08,
+                "quote_volume": 2007.5392,
+                "base_volume": 7.52,
+                "isFrozen": false
+            },
+            "BCH/BTC": {
+                "base_currency": "BCH",
+                "quote_currency": "BTC",
+                "last_price": 0.02568,
+                "quote_volume": 0,
+                "base_volume": 0,
+                "isFrozen": false
+            },
+            "BTC/RUB": {
+                "base_currency": "BTC",
+                "quote_currency": "RUB",
+                "last_price": 450044.5,
+                "quote_volume": 140866.7455,
+                "base_volume": 0.313,
+                "isFrozen": false
+            },
+            "LTC/EUR": {
+                "base_currency": "LTC",
+                "quote_currency": "EUR",
+                "last_price": 36.23,
+                "quote_volume": 1940.566,
+                "base_volume": 53.8,
+                "isFrozen": false
+            },
+            "ETH/RUB": {
+                "base_currency": "ETH",
+                "quote_currency": "RUB",
+                "last_price": 7894.3,
+                "quote_volume": 0,
+                "base_volume": 0,
+                "isFrozen": false
+            },
+            "BTC/EUR": {
+                "base_currency": "BTC",
+                "quote_currency": "EUR",
+                "last_price": 6552.95,
+                "quote_volume": 10539.91125,
+                "base_volume": 1.607,
+                "isFrozen": false
+            },
+            "ETH/EUR": {
+                "base_currency": "ETH",
+                "quote_currency": "EUR",
+                "last_price": 115.03,
+                "quote_volume": 922.3,
+                "base_volume": 8.02,
+                "isFrozen": false
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 24 Dec 2019 15:28:41 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
