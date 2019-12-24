@@ -6,8 +6,8 @@ module.exports = async () => {
   const { data: tickers } = await request('https://api.vinex.network/api/v2/markets');
 
   return tickers.map((ticker) => {
-    // base and quote are switched !
-    const [base, quote] = ticker.symbol.split('_').reverse();
+    // Warning: base and quote are switched!
+    const [quote, base] = ticker.symbol.split('_');
 
     return new Ticker({
       base,
