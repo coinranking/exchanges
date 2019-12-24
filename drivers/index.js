@@ -86,6 +86,7 @@ exports.coinexchange = require('./coinexchange');
 exports.coinfalcon = require('./coinfalcon');
 exports.coinfield = require('./coinfield');
 exports.coinfloor = require('./coinfloor');
+exports.coinhe = require('./coinhe');
 exports.coinjar = require('./coinjar');
 exports.coinmate = require('./coinmate');
 exports.coinone = require('./coinone');
