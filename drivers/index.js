@@ -69,6 +69,7 @@ exports.catex = require('./catex');
 exports.cbx = require('./cbx');
 exports.ccxcanada = require('./ccxcanada');
 exports.cex = require('./cex');
+exports.citex = require('./citex');
 exports.cobinhood = require('./cobinhood');
 exports.codex = require('./codex');
 exports.coinall = require('./coinall');
