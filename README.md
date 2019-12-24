@@ -4,7 +4,7 @@
 
 # Exchanges 📉📈
 
-A Javascript library for getting up to date cryptocurrency exchange tickers.
+A JavaScript library for getting up to date cryptocurrency exchange tickers.
 
 ![](exchange.webp)
 
@@ -30,7 +30,7 @@ npm i @coinranking/exchanges
 
 List all supported drivers
 
-```Javascript
+```JavaScript
 const exchanges = require('@coinranking/exchanges');
 
 console.log(exchanges.list());
@@ -38,7 +38,7 @@ console.log(exchanges.list());
 
 Get the tickers of a specific exchange
 
-```Javascript
+```JavaScript
 const exchanges = require('@coinranking/exchanges');
 
 exchanges
