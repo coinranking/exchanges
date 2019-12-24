@@ -11,20 +11,27 @@ A Javascript library for getting up to date cryptocurrency exchange tickers.
 ## Getting started
 
 1. Node.js 12.13 or higher is required
+2. Install using [NPM](https://www.npmjs.com/package/@coinranking/exchanges)
 
 ## Installation
 
-Coinranking Exchanges is a [Node.js](https://nodejs.org/) module.
+Coinranking Exchanges is a [Node.js](https://nodejs.org/) module available through the [npm registry](https://www.npmjs.com/package/@coinranking/exchanges).
 
 Before installing, [download and install Node.js](https://nodejs.org/en/download/).
 Node.js 12.13 or higher is required.
+
+Installation is done using the npm install command:
+
+```shell
+npm i @coinranking/exchanges
+```
 
 ## Usage
 
 List all supported drivers
 
 ```Javascript
-const exchanges = require('exchanges');
+const exchanges = require('@coinranking/exchanges');
 
 console.log(exchanges.list());
 ```
@@ -32,7 +39,7 @@ console.log(exchanges.list());
 Get the tickers of a specific exchange
 
 ```Javascript
-const exchanges = require('exchanges');
+const exchanges = require('@coinranking/exchanges');
 
 exchanges
   .tickers('binance')
@@ -47,17 +54,23 @@ exchanges
 
 Install dependencies
 
-    $ npm run install
+```shell
+npm run install
+```
 
 ### Usage
 
 List all supported drivers
 
-    $ npm run list
+```shell
+npm run list
+```
 
 Get the tickers of a specific exchange
 
-    $ npm run tickers [name of the exchange]
+```shell
+npm run tickers [name of the exchange]
+```
 
 ## Contributing
 
