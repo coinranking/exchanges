@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/coinranking/exchanges/compare/v1.4.0...v1.5.0) (2019-12-24)
+
+
+### Features
+
+* currency driver ([63fe65b](https://github.com/coinranking/exchanges/commit/63fe65b274e67ac75d451b9e1fe3677cd8cda8fc))
+
 # [1.4.0](https://github.com/coinranking/exchanges/compare/v1.3.0...v1.4.0) (2019-12-24)
 
 
