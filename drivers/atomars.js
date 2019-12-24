@@ -25,7 +25,7 @@ module.exports = async (isMocked) => {
       close: parseToFloat(ticker.last),
       baseVolume: parseToFloat(ticker.volume_24H),
     });
-  }, isMocked ? 0 : 100); // 20 requests per second
+  }, isMocked ? 0 : 50); // 20 requests per second
 
   return Promise.all(tickers);
 };
