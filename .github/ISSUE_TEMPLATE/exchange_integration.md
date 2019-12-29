@@ -2,7 +2,7 @@
 name: Exchange integration
 about: Provide information to integrate an exchange
 title: 'Integration: [exchange name]'
-labels: ''
+labels: exchange integration
 assignees: ''
 
 ---
