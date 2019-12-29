@@ -13,8 +13,8 @@ module.exports = async () => {
       return new Ticker({
         base,
         quote,
-        quoteVolume: parseToFloat(ticker.volume),
-        baseVolume: parseToFloat(ticker.baseVolume),
+        quoteVolume: parseToFloat(ticker.baseVolume),
+        baseVolume: parseToFloat(ticker.volume),
         close: parseToFloat(ticker.close),
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
