@@ -6,7 +6,6 @@ module.exports = async () => {
   const { result: tickers } = await request('https://api.unnamed.exchange/v1/Public/Ticker');
 
   return tickers
-    .filter((ticker) => ticker.marketStatus === 'OK')
     .map((ticker) => {
       const [base, quote] = ticker.market.split('_');
 
