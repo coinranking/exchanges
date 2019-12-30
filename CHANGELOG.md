@@ -1,3 +1,16 @@
+# [2.6.0](https://github.com/coinranking/exchanges/compare/v2.5.0...v2.6.0) (2019-12-30)
+
+
+### Bug Fixes
+
+* **novadex:** update fixture ([14b1749](https://github.com/coinranking/exchanges/commit/14b17496a188b90cce65ca06f946bfe18353467b))
+* **unnamed:** reverse bid and ask ([259a0e4](https://github.com/coinranking/exchanges/commit/259a0e4e808327e2d5b9f54d4237de6114ea0118))
+
+
+### Features
+
+* **tests:** test bid and ask ([c17ad09](https://github.com/coinranking/exchanges/commit/c17ad0940666ac11ad7c165a0b2086f19c95af64))
+
 # [2.5.0](https://github.com/coinranking/exchanges/compare/v2.4.0...v2.5.0) (2019-12-30)
 
 
