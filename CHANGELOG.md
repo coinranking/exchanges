@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/coinranking/exchanges/compare/v2.1.0...v2.2.0) (2019-12-30)
+
+
+### Features
+
+* newcapital driver ([ae65d2c](https://github.com/coinranking/exchanges/commit/ae65d2c2a6be292ec751d063056e91174da81dcc))
+
 # [2.1.0](https://github.com/coinranking/exchanges/compare/v2.0.0...v2.1.0) (2019-12-30)
 
 
