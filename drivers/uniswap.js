@@ -13,6 +13,7 @@ module.exports = async () => {
       baseName: ticker.base_name,
       quote: ticker.quote_symbol,
       quoteName: ticker.quote_name,
+      quoteReference: ticker.quote_token_address,
       close: parseToFloat(ticker.last_price),
       baseVolume: parseToFloat(ticker.base_volume),
       quoteVolume: parseToFloat(ticker.quote_volume),
