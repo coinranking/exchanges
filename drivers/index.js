@@ -14,6 +14,7 @@ exports.bequant = require('./bequant');
 exports.bgogo = require('./bgogo');
 exports.bhex = require('./bhex');
 exports.bibox = require('./bibox');
+exports.bibull = require('./bibull');
 exports.bigone = require('./bigone');
 exports.biki = require('./biki');
 exports.binance = require('./binance');
