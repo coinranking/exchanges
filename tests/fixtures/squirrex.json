@@ -1,0 +1,43 @@
+[
+    {
+        "scope": "https://squirrex.com:443",
+        "method": "GET",
+        "path": "/api/v1/ticker",
+        "body": "",
+        "status": 200,
+        "response": [
+            "31201700206b6ba57cf5a4e58195c7ec362f09d5e5e6ff960098758b05745dd48bca0a308bee7bbb693a1bfed1f052d937b7c68d49541f092c779ece5fe61d9e7f42a7cc097eff9efefe7fa183771c48f0a3cb2be8ee303ecdfac169088e9dde130840078c2c35775d8604948c7ea49fa0035174d6ca0609c40f35bf6554f55ca53648f0fc3b11d4f7011d3f5230f2f371f4049186b5543d1e602cd92be08b35c6dcb2b7d6eca41a9f0f8c0ddd72bb59d0d8ff5e43b0887196ec7e7e701a8e0c3c176ec826f966c058b566f851a3a0972aee254aa27142dc83a6c5ec8c7a335812b56031cd2e17e0717fb8f5e3d36c6988553c12e224cccdcad5a66744dae5f3ed912fea1e576c476319fab7ae2fddcc4fde2866696949c8b7fa12e2a2d3e196d245cd1dcdf561ab31c7dca15dd7742aec2394ef8adb262b59087b5a023ce152f48ccd1360f622584203a5947a51028d328ddc177616dbcaf82a361dcdc763"
+        ],
+        "rawHeaders": [
+            "Date",
+            "Mon, 30 Dec 2019 17:35:18 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d0eb05b3f0c1415e83cee08e14f8b88c01577727318; expires=Wed, 29-Jan-20 17:35:18 GMT; path=/; domain=.squirrex.com; HttpOnly; SameSite=Lax; Secure",
+            "Cache-Control",
+            "no-cache, private",
+            "X-RateLimit-Limit",
+            "60",
+            "X-RateLimit-Remaining",
+            "59",
+            "Set-Cookie",
+            "squirrex_session=M5qYQ7eHI5ccCO8OwRcJ0IGlPIVoITGkdhM9qyHR; expires=Mon, 30-Dec-2019 19:35:18 GMT; Max-Age=7200; path=/; httponly",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "54d5c4fbbf8cc2bd-FRA",
+            "Content-Encoding",
+            "br"
+        ],
+        "responseIsBinary": false
+    }
+]
