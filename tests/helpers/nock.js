@@ -3,10 +3,16 @@ const nock = require('nock');
 const path = require('path');
 const zlib = require('zlib');
 
-nock.back.fixtures = path.join(__dirname, '..', 'fixtures');
-nock.back.setMode('record');
+const { CI } = process.env;
 
-nock.enableNetConnect();
+nock.back.fixtures = path.join(__dirname, '..', 'fixtures');
+
+if (!CI) {
+  nock.back.setMode('record');
+  nock.enableNetConnect();
+} else {
+  nock.back.setMode('lockdown');
+}
 
 const makeCompressedResponsesReadable = (scope) => {
   if (scope.rawHeaders.indexOf('gzip') > -1) {
