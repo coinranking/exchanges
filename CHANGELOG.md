@@ -1,3 +1,15 @@
+# [2.7.0](https://github.com/coinranking/exchanges/compare/v2.6.0...v2.7.0) (2019-12-30)
+
+
+### Bug Fixes
+
+* **bibull:** reverse bid and ask ([ef77238](https://github.com/coinranking/exchanges/commit/ef77238cbb60ac68e2063118325696b2545ab0cc))
+
+
+### Features
+
+* bibull driver ([dbf0a11](https://github.com/coinranking/exchanges/commit/dbf0a11132aa46842aabf8683b96065dafc53dcf))
+
 # [2.6.0](https://github.com/coinranking/exchanges/compare/v2.5.0...v2.6.0) (2019-12-30)
 
 
