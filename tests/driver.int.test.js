@@ -36,15 +36,32 @@ test('All drivers are added to the index.js file in alphabetical order', () => {
   expect(driverNames).toEqual(driverFiles);
 });
 
-describe('Drivers', () => {
-  driverNames.forEach((driverName) => {
-    test(`${driverName} has atleast one valid ticker`, async () => {
-      const tickers = await getTickers(driverName);
+driverNames.forEach((driverName) => {
+  describe(driverName, () => {
+    let tickers = [];
+
+    beforeAll(async () => {
+      tickers = await getTickers(driverName);
+    });
+
+    test('Has atleast one valid ticker', () => {
       const validatedTickers = tickers
         .filter((ticker) => typeof ticker !== 'undefined')
         .map((ticker) => ticker.isValid());
 
       expect(validatedTickers).toContain(true);
+    });
+
+    test('Ask should be greater than or equal to bid', () => {
+      tickers
+        .filter((ticker) => typeof ticker !== 'undefined')
+        .filter((ticker) => typeof ticker.bid !== 'undefined' && typeof ticker.ask !== 'undefined')
+        .forEach((ticker) => {
+          if (typeof ticker.bid !== 'undefined'
+           && typeof ticker.ask !== 'undefined') {
+            expect(ticker.ask).toBeGreaterThanOrEqual(ticker.bid);
+          }
+        });
     });
   });
 });
