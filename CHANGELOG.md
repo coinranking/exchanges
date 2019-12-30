@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/coinranking/exchanges/compare/v1.5.0...v2.0.0) (2019-12-30)
+
+
+### Features
+
+* **tests:** add test to check index.js ([cdb85b0](https://github.com/coinranking/exchanges/commit/cdb85b08f6af6d4f289278219b5dd91f2dd15ccf))
+* **waves:** remove mapping and rename waves platform to waves exchange ([4938a84](https://github.com/coinranking/exchanges/commit/4938a8445a9cc6ade1b4c180e92ebc496165c5f2))
+
+
+### BREAKING CHANGES
+
+* **waves:** Wavesplatform is renamed, this could cause applications to fail that depend on this
+particular exchange
+
 # [1.5.0](https://github.com/coinranking/exchanges/compare/v1.4.0...v1.5.0) (2019-12-24)
 
 
