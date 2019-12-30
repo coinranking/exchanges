@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/coinranking/exchanges/compare/v2.4.0...v2.5.0) (2019-12-30)
+
+
+### Features
+
+* hoo driver ([16cf135](https://github.com/coinranking/exchanges/commit/16cf1351d1ffaacdd0f9d0b0006543b018942693))
+
 # [2.4.0](https://github.com/coinranking/exchanges/compare/v2.3.0...v2.4.0) (2019-12-30)
 
 
