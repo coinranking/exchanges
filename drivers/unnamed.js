@@ -16,7 +16,8 @@ module.exports = async () => {
       close: parseToFloat(ticker.close),
       bid: parseToFloat(ticker.lowestSell), // yes, they made reverse with ask
       ask: parseToFloat(ticker.highestBuy),
-      baseVolume: parseToFloat(ticker.volume), // and yes they also made reverse of quote and base volume
+      // and yes they also made reverse of quote and base volume
+      baseVolume: parseToFloat(ticker.volume),
       quoteVolume: parseToFloat(ticker.baseVolume),
     });
   });
