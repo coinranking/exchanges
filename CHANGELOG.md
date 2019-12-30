@@ -1,3 +1,36 @@
+# [2.5.0](https://github.com/coinranking/exchanges/compare/v2.4.0...v2.5.0) (2019-12-30)
+
+
+### Features
+
+* hoo driver ([16cf135](https://github.com/coinranking/exchanges/commit/16cf1351d1ffaacdd0f9d0b0006543b018942693))
+
+# [2.4.0](https://github.com/coinranking/exchanges/compare/v2.3.0...v2.4.0) (2019-12-30)
+
+
+### Features
+
+* squirrex driver ([4d341fc](https://github.com/coinranking/exchanges/commit/4d341fc4d56b1ef8719a98515beae61a14eb6d7c))
+
+# [2.3.0](https://github.com/coinranking/exchanges/compare/v2.2.0...v2.3.0) (2019-12-30)
+
+
+### Bug Fixes
+
+* unnamed line lenght ([1f45d29](https://github.com/coinranking/exchanges/commit/1f45d29de33fadf72a1a4b0563dcdbf10e9341df))
+
+
+### Features
+
+* unnamed driver ([10a1a54](https://github.com/coinranking/exchanges/commit/10a1a542baa77174f42612b1f02ded632483faf6))
+
+# [2.2.0](https://github.com/coinranking/exchanges/compare/v2.1.0...v2.2.0) (2019-12-30)
+
+
+### Features
+
+* newcapital driver ([ae65d2c](https://github.com/coinranking/exchanges/commit/ae65d2c2a6be292ec751d063056e91174da81dcc))
+
 # [2.1.0](https://github.com/coinranking/exchanges/compare/v2.0.0...v2.1.0) (2019-12-30)
 
 
