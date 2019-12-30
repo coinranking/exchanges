@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/coinranking/exchanges/compare/v2.0.0...v2.1.0) (2019-12-30)
+
+
+### Features
+
+* **tests:** disable network requests in CI ([b1cacb0](https://github.com/coinranking/exchanges/commit/b1cacb0736ecbe5720ca6d37eb14d70971e2e081))
+
 # [2.0.0](https://github.com/coinranking/exchanges/compare/v1.5.0...v2.0.0) (2019-12-30)
 
 
