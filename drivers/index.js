@@ -198,6 +198,7 @@ exports.tokenstore = require('./tokenstore');
 exports.tokok = require('./tokok');
 exports.tradesatoshi = require('./tradesatoshi');
 exports.turtlenetwork = require('./turtlenetwork');
+exports.unnamed = require('./unnamed');
 exports.upbit = require('./upbit');
 exports.vindax = require('./vindax');
 exports.vinex = require('./vinex');
