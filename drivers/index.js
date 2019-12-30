@@ -161,6 +161,7 @@ exports.mercatox = require('./mercatox');
 exports.mxc = require('./mxc');
 exports.nanuexchange = require('./nanuexchange');
 exports.neraex = require('./neraex');
+exports.newcapital = require('./newcapital');
 exports.nocks = require('./nocks');
 exports.novadex = require('./novadex');
 exports.oceanex = require('./oceanex');

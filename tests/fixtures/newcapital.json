@@ -1,0 +1,44 @@
+[
+    {
+        "scope": "https://api.new.capital:443",
+        "method": "GET",
+        "path": "/v1/ticker",
+        "body": "",
+        "status": 200,
+        "response": [
+            "03e90e00442b9b15e51bfba624353bbb4702bf6fef3b1b1997a8565c4e8cebcd1515bafd0ae6edfe47a95d06649bb9b3bf2fa516f58850d81cac01f9ad7989026311322ae5746a3b2ab073019d62c85e3b7cf7ef36a3f36dfbedc8b5a30f8f5d3c79fce8b6db2660487bcbb6dff0eeec4bcfbf3c7dfee19b71cfc2dd9e6df76ff76dbc34e4baddd6301c7df2fad9a1854f8555c5e3af6f4f75780d4b338647404b84f78fbdfbf873acd53315865e33532d959275065dbef586f91734926b289f514c96ba659e6dcfa8ca48d1761b39dcd434c952c0d695a79f6d7bc9d00b6cdf2a15ecbf6ff6b56d1fff77a43efdc4e95b5f7315ee3631c4d65a2dbf9bea935c1edd81cb6e26c08516f5a9a3b844a54724fc3b5b5dc92ebc01bf246c61aea115251dc1e4ca481b4f7d4f61c5de583ebf6d8d554f99f3eeb4cf8857af5d397e78fed70bc245cc4632f759142c33305ef3804e5a011095f66d4ea33d0a9132ba01a49991970bceb2415516686a6667787e1c3ef5b52bd7aeadda51648d09d1c50c6e608349e185164e1a3bca5b27482ddeb126744baed703e45893405fa215dbe7d7afdd3c7de12aa373e5ce811bafbf8b58d22803fc3ce895adf3b5c7dcd6bdc0d76c3abc6d7a12bbdc58c817b02df214f891e35074aef118c5571a0a132bc261d1f81c8833594faa6df7b2695b41307ad6c323d7025228d09b0c115be3dd8508654f4f258b77d62ef0bed00df051427760cd05e8167843bf1f410abb0816dee21dbf4c1fe86a4f8b6f7deacc22faa9c9c5f0bbc95edc2e0aee757924553efbc4e95b3add7630d143ec7aee16f12f1ea896ea9b4d195535c11e06621f084391ed4e2065d84d894d11ef1120c7e161123e",
+            "0ce49cde878590c1408a9cd7e2369ff4c4f7474e00bb86e713314f17a8c71cfc375d3cdba5cc3ed09a6eaf3ed1ee6b5a3125f4af690195eb4eae1598512bab4203c7612d8e354431d2c2d4be287ab7e7633f61d233550bc5f4332d9ce509e5b9d1d209817e065ef0dc844773eb783676110bb45d7e8addd8f24be4262df692b85d3c7341f893d01677af32188c4967d55bba885c33a09eb102700fc9011749f69c535d8bcc85adcd949928b0b0f09e219b980509433cc55e58d361555305905a3e154e3cfd59d56e781efe4259929e68e04309ca31aa529403699294c7907f583228b70e18c76a22e818879024094f63979c315b76072353165bf16e0147d11fc02a3a0280f7003886d4ff118f5a7475143d5a5d0c59afbaef1d965eec2fa33d3aac49a29dec5412f1a9e46e1b115cdf8f1e89cb67a96626bdd38f8784b9f36918293e8f33714c683e75ec96cda897430ca42239176045d18a3eb8b2f08af1effe580f9a3ed3374fa62dbb30f718c7d10e14282c51d3c6dc3fdcea15c3a4ba4d9216f8fb1828b99c128bdef02a2f6ea35b076252e759be207297b04fa3657d89954568530840825eee81166fe4fd23f5451b2a95ec39e6b9b1e13f839b2a036d94cff4664b7ab15bf92167667ba20cda3a48da1bb2f685b4ff05c8db39c709e0b09d534c36bdd9cd363302c2d911e8db6ccdcb5fe08d00b85182effd7e044b40300ab40b219266b0e2db86bf5e003c134e8ea9cd7f540aee9e8b43f13ef3d6f1f35e392d2c46aa5c2393e8a69861e408d8d00a793a712a690bb93c26c23258e16d8b651155dedea045547a4b39b73590b38624b6f1fe"
+        ],
+        "rawHeaders": [
+            "Date",
+            "Mon, 30 Dec 2019 16:30:31 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=dc0b302d87d7fecb125ba8e210e4e06001577723431; expires=Wed, 29-Jan-20 16:30:31 GMT; path=/; domain=.new.capital; HttpOnly; SameSite=Lax; Secure",
+            "Access-Control-Allow-Origin",
+            "https://win.win",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Cache-Control",
+            "Access-Control-Allow-Methods",
+            "GET, OPTIONS",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "54d56615b8b98cc2-VIE",
+            "Content-Encoding",
+            "br"
+        ],
+        "responseIsBinary": false
+    }
+]
