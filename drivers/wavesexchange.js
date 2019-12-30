@@ -1,19 +1,21 @@
-const request = require('../../lib/request');
-const Ticker = require('../../models/ticker');
-const mapping = require('./mapping');
-const { parseToFloat } = require('../../lib/utils.js');
+const request = require('../lib/request');
+const Ticker = require('../models/ticker');
+const { parseToFloat } = require('../lib/utils.js');
 
 module.exports = async () => {
   const { data: markets } = await request('https://api.wavesplatform.com/v0/pairs?limit=1000&matcher=3PEjHv3JGjcWNpYEEkif2w8NXV4kbhnoGgu');
   const { data: assets } = await request('https://api.wavesplatform.com/v0/assets?ticker=*&matcher=3PEjHv3JGjcWNpYEEkif2w8NXV4kbhnoGgu');
 
-  let currencies = assets.map((asset) => ({
+  const currencies = assets.map((asset) => ({
     symbol: asset.data.ticker.trim(),
     name: asset.data.name,
     address: asset.data.id,
   }));
 
-  currencies = currencies.concat(mapping);
+  currencies.push({
+    symbol: 'WAVES',
+    address: 'WAVES',
+  });
 
   return markets.map((market) => {
     const baseCurrency = currencies.find((currency) => (market.amountAsset === currency.address));
