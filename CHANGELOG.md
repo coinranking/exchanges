@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/coinranking/exchanges/compare/v2.3.0...v2.4.0) (2019-12-30)
+
+
+### Features
+
+* squirrex driver ([4d341fc](https://github.com/coinranking/exchanges/commit/4d341fc4d56b1ef8719a98515beae61a14eb6d7c))
+
 # [2.3.0](https://github.com/coinranking/exchanges/compare/v2.2.0...v2.3.0) (2019-12-30)
 
 
