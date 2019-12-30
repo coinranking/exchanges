@@ -24,8 +24,8 @@ module.exports = async () => {
       high: parseToFloat(ticker.high),
       low: parseToFloat(ticker.low),
       close: parseToFloat(ticker.last),
-      bid: parseToFloat(ticker.sell),
-      ask: parseToFloat(ticker.buy),
+      bid: parseToFloat(ticker.buy),
+      ask: parseToFloat(ticker.sell),
       baseVolume: parseToFloat(ticker.vol),
     });
   });
