@@ -12,26 +12,43 @@ module.exports = async () => {
     address: asset.data.id,
   }));
 
-  currencies.push({
-    symbol: 'WAVES',
-    address: 'WAVES',
-  });
-
   return markets.map((market) => {
     const baseCurrency = currencies.find((currency) => (market.amountAsset === currency.address));
     const quoteCurrency = currencies.find((currency) => (market.priceAsset === currency.address));
 
-    if (!baseCurrency || !quoteCurrency) return undefined;
+    let base;
+    let baseName;
+    let baseReference;
+    if (baseCurrency) {
+      base = baseCurrency.symbol;
+      baseName = baseCurrency.name;
+      baseReference = baseCurrency.address;
+    } else {
+      base = market.amountAsset;
+      baseReference = market.amountAsset;
+    }
+
+    let quote;
+    let quoteName;
+    let quoteReference;
+    if (quoteCurrency) {
+      quote = quoteCurrency.symbol;
+      quoteName = quoteCurrency.name;
+      quoteReference = quoteCurrency.address;
+    } else {
+      quote = market.priceAsset;
+      quoteReference = market.priceAsset;
+    }
 
     const ticker = market.data;
 
     return new Ticker({
-      base: baseCurrency.symbol,
-      baseName: baseCurrency.name,
-      baseReference: baseCurrency.address,
-      quote: quoteCurrency.symbol,
-      quoteName: quoteCurrency.name,
-      quoteReference: quoteCurrency.address,
+      base,
+      baseName,
+      baseReference,
+      quote,
+      quoteName,
+      quoteReference,
       open: parseToFloat(ticker.firstPrice),
       high: parseToFloat(ticker.high),
       low: parseToFloat(ticker.low),
