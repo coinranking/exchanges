@@ -1,3 +1,18 @@
+# [2.8.0](https://github.com/coinranking/exchanges/compare/v2.7.1...v2.8.0) (2019-12-31)
+
+
+### Bug Fixes
+
+* add quote reference name ([825d213](https://github.com/coinranking/exchanges/commit/825d213066988bada31351907b325aa09287de2d))
+* **wavesexchange:** sent all tickers, even if the asset is not known ([828564c](https://github.com/coinranking/exchanges/commit/828564c1f45cda0a128f419553067e893bdab763))
+
+
+### Features
+
+* altmarkets driver ([a7fa3fa](https://github.com/coinranking/exchanges/commit/a7fa3fab0cf30960e1c1173004be69fdf6c0ed7d))
+* uniswap driver ([b7a0751](https://github.com/coinranking/exchanges/commit/b7a07510ae0f300824cb9172bc2c01f7db77cea5))
+* **tokenomica:** add support for tokenomica ([402f0c4](https://github.com/coinranking/exchanges/commit/402f0c454ffcfc5a2c81b8fec8341d5fcf821b74))
+
 ## [2.7.1](https://github.com/coinranking/exchanges/compare/v2.7.0...v2.7.1) (2019-12-31)
 
 
