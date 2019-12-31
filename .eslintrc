@@ -1,9 +1,15 @@
 {
-  "extends": "airbnb-base",
+  "extends": [
+    "airbnb-base",
+    "plugin:jsdoc/recommended"
+  ],
   "rules": {
     "no-console": 0,
     "no-param-reassign": 0,
   },
+  "plugins": [
+    "jsdoc"
+  ],
   "overrides": [
     {
       "files": [
