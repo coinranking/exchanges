@@ -16,7 +16,7 @@ module.exports = async () => {
       close: parseToFloat(ticker.last),
       bid: parseToFloat(ticker.ask), // yes, they reversed ask and bid!
       ask: parseToFloat(ticker.bid),
-      baseVolume: parseToFloat(ticker.volume),
+      quoteVolume: parseToFloat(ticker.volume),
     });
   });
 };
