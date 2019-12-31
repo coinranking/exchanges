@@ -1,3 +1,17 @@
+# [2.9.0](https://github.com/coinranking/exchanges/compare/v2.8.0...v2.9.0) (2019-12-31)
+
+
+### Bug Fixes
+
+* **parsxc:** add fixture for parsxc ([6ad55fe](https://github.com/coinranking/exchanges/commit/6ad55fefd5cde65c3e95fa988ae6f20b70f496f5))
+* **parsxc:** small typo from parsxs to parsxc ([f249566](https://github.com/coinranking/exchanges/commit/f249566b52cbb233b3247f5ba126f66c51f1cac9))
+
+
+### Features
+
+* **parsxc:** add the base name to the ticker ([3088132](https://github.com/coinranking/exchanges/commit/3088132b41df4f0b561a54605dbf5dbc13f1024f))
+* parsxc driver ([5e79b1d](https://github.com/coinranking/exchanges/commit/5e79b1d3e766b26b709333958093bc481146de19))
+
 # [2.8.0](https://github.com/coinranking/exchanges/compare/v2.7.1...v2.8.0) (2019-12-31)
 
 
