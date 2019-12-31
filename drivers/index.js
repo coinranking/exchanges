@@ -66,6 +66,7 @@ exports.btse = require('./btse');
 exports.buda = require('./buda');
 exports.bw = require('./bw');
 exports.bxinth = require('./bxinth');
+exports.cashfinex = require('./cashfinex');
 exports.cashpayz = require('./cashpayz');
 exports.catex = require('./catex');
 exports.cbx = require('./cbx');
