@@ -196,6 +196,7 @@ exports.tidebit = require('./tidebit');
 exports.tidex = require('./tidex');
 exports.tokenize = require('./tokenize');
 exports.tokenmom = require('./tokenmom');
+exports.tokenomica = require('./tokenomica');
 exports.tokens = require('./tokens');
 exports.tokenstore = require('./tokenstore');
 exports.tokok = require('./tokok');
