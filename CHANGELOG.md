@@ -1,3 +1,19 @@
+# [2.10.0](https://github.com/coinranking/exchanges/compare/v2.9.0...v2.10.0) (2019-12-31)
+
+
+### Bug Fixes
+
+* **cashfinex:** changed baseVolume to quoteVolume and added the open ([efb934b](https://github.com/coinranking/exchanges/commit/efb934bad84be37da8712c04501ee752ee505593))
+* add test for cashfinex driver ([809bd87](https://github.com/coinranking/exchanges/commit/809bd87bcbccca674ecaab9e7f2c549a99becf88))
+* **exnce:** change baseVolume to quoteVolume ([509c100](https://github.com/coinranking/exchanges/commit/509c100fb4ce49f57fd6bf005b5e49775148248f))
+
+
+### Features
+
+* cashfinex driver without test ([f058a55](https://github.com/coinranking/exchanges/commit/f058a55f6a98dd71c1d8f32c98cedf4c70236403))
+* exnce driver ([f652591](https://github.com/coinranking/exchanges/commit/f652591f802615d2b89faf4e5216e4c671a35489))
+* **jsdoc:** eslint validation on JSDoc ([0774ca0](https://github.com/coinranking/exchanges/commit/0774ca0baeed5abf9d27e24168e4a68a59eb5581))
+
 # [2.9.0](https://github.com/coinranking/exchanges/compare/v2.8.0...v2.9.0) (2019-12-31)
 
 
