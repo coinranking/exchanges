@@ -112,6 +112,7 @@ exports.ethfinex = require('./ethfinex');
 exports.exenium = require('./exenium');
 exports.exmarkets = require('./exmarkets');
 exports.exmo = require('./exmo');
+exports.exnce = require('./exnce');
 exports.exrates = require('./exrates');
 exports.exx = require('./exx');
 exports.fatbtc = require('./fatbtc');
