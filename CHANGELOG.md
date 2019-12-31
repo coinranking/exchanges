@@ -1,3 +1,10 @@
+## [2.7.1](https://github.com/coinranking/exchanges/compare/v2.7.0...v2.7.1) (2019-12-31)
+
+
+### Bug Fixes
+
+* **models:** remove the exchange model ([253661c](https://github.com/coinranking/exchanges/commit/253661c9de5dd9f73223fe66c0d8064152a4f891))
+
 # [2.7.0](https://github.com/coinranking/exchanges/compare/v2.6.0...v2.7.0) (2019-12-30)
 
 
