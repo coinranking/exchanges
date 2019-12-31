@@ -173,6 +173,7 @@ exports.openledger = require('./openledger');
 exports.ovex = require('./ovex');
 exports.p2pb2b = require('./p2pb2b');
 exports.paribu = require('./paribu');
+exports.parsxs = require('./parsxs');
 exports.paymium = require('./paymium');
 exports.poloniex = require('./poloniex');
 exports.prizmbit = require('./prizmbit');
