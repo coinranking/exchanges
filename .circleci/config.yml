@@ -22,10 +22,10 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/repo
-      - restore-cache:
+      - restore_cache:
           key: npm-{{ checksum "package-lock.json" }}
       - run: npm install
-      - save-cache:
+      - save_cache:
           key: npm-{{ checksum "package-lock.json"}}
           paths:
             - ~/repo/node_modules
