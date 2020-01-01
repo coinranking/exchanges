@@ -1,6 +1,7 @@
 [![code-style](https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg?style=shield)](https://github.com/airbnb/javascript)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=shield)](http://commitizen.github.io/cz-cli/)
 [![npm (scoped)](https://img.shields.io/npm/v/@coinranking/exchanges)](https://www.npmjs.com/package/@coinranking/exchanges)
+[![codecov](https://img.shields.io/codecov/c/github/coinranking/exchanges/master.svg?style=shield)](https://codecov.io/gh/coinranking/exchanges)
 
 # Exchanges 📉📈
 
