@@ -3,7 +3,10 @@ defaults: &defaults
   docker:
     - image: circleci/node:12.14
 
-version: 2
+version: 2.1
+orbs:
+  codecov: codecov/codecov@1.0.5
+
 jobs:
   checkout_code:
     <<: *defaults
@@ -44,6 +47,8 @@ jobs:
       - attach_workspace:
           at: ~/repo
       - run: npm run test
+      - codecov/upload:
+          file: coverage/*.json
 
   release:
     <<: *defaults
