@@ -1,3 +1,11 @@
+# [2.11.0](https://github.com/coinranking/exchanges/compare/v2.10.0...v2.11.0) (2020-01-01)
+
+
+### Features
+
+* **coverage:** create a coverage dir after running tests ([12953c0](https://github.com/coinranking/exchanges/commit/12953c0582db93880c60db73dc670e30010111cf))
+* **coverage:** send coverage to codecov ([2f94b34](https://github.com/coinranking/exchanges/commit/2f94b342ec83f76acf2b8d76c93c70c89db6470d))
+
 # [2.10.0](https://github.com/coinranking/exchanges/compare/v2.9.0...v2.10.0) (2019-12-31)
 
 
