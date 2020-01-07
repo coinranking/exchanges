@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/exchanges",
-  "version": "2.11.0",
+  "version": "2.12.0",
   "description": "An open source JavaScript library for fetching tickers from cryptocurrency exchanges",
   "main": "lib/exchanges.js",
   "engines": {
@@ -83,7 +83,11 @@
       "/tests/helpers/"
     ],
     "coverageDirectory": "./coverage/",
-    "coverageReporters": ["json", "lcov", "clover"],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "clover"
+    ],
     "collectCoverage": true
   },
   "release": {

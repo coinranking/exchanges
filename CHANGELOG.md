@@ -1,3 +1,10 @@
+# [2.12.0](https://github.com/coinranking/exchanges/compare/v2.11.0...v2.12.0) (2020-01-07)
+
+
+### Features
+
+* **altilly:** added support for Altilly ([be71390](https://github.com/coinranking/exchanges/commit/be713907380452f67f54c66776844e486755df69))
+
 # [2.11.0](https://github.com/coinranking/exchanges/compare/v2.10.0...v2.11.0) (2020-01-01)
 
 
