@@ -98,6 +98,7 @@ exports.coinsbit = require('./coinsbit');
 exports.cointiger = require('./cointiger');
 exports.coss = require('./coss');
 exports.crex24 = require('./crex24');
+exports.cryptlocex = require('./cryptlocex');
 exports.cryptobridge = require('./cryptobridge');
 exports.cryptonex = require('./cryptonex');
 exports.currency = require('./currency');
