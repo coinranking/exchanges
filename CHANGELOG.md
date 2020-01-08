@@ -1,3 +1,11 @@
+# [2.13.0](https://github.com/coinranking/exchanges/compare/v2.12.0...v2.13.0) (2020-01-08)
+
+
+### Features
+
+* **needjex:** add the base name ([db3286b](https://github.com/coinranking/exchanges/commit/db3286bd2da6fdd42031e377cdd8b7f922f0bf38))
+* needyex driver ([57e306f](https://github.com/coinranking/exchanges/commit/57e306f8d2348342c2d91cd3467a06cc7d586f90))
+
 # [2.12.0](https://github.com/coinranking/exchanges/compare/v2.11.0...v2.12.0) (2020-01-07)
 
 
