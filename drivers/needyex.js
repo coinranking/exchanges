@@ -9,8 +9,11 @@ module.exports = async () => {
     const [base, quote] = market.ticker.split('_');
     const ticker = market;
 
+    const [, baseName] = ticker.name.match(/(.*)\(.*\)/);
+
     return new Ticker({
       base,
+      baseName,
       quote,
       high: parseToFloat(ticker.max_price),
       low: parseToFloat(ticker.min_price),
