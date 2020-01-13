@@ -1,3 +1,10 @@
+# [2.14.0](https://github.com/coinranking/exchanges/compare/v2.13.0...v2.14.0) (2020-01-13)
+
+
+### Features
+
+* cryptlocex driver ([faebe70](https://github.com/coinranking/exchanges/commit/faebe70e64cb2ff4a3c3b0bcebe5cefaf5d77ee3))
+
 # [2.13.0](https://github.com/coinranking/exchanges/compare/v2.12.0...v2.13.0) (2020-01-08)
 
 
