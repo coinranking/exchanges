@@ -68,7 +68,7 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jsdoc": "^20.3.0",
-    "husky": "^4.0.8",
+    "husky": "^4.0.9",
     "jest": "^25.0.0",
     "nock": "^11.7.2",
     "semantic-release": "^16.0.1"
