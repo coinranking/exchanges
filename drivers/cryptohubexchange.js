@@ -6,7 +6,7 @@ module.exports = async () => {
   const markets = await request('https://cryptohubexchange.com/api/market/ticker/');
 
   return Object.keys(markets).map((market) => {
-    const [base, quote] = market.split('_');
+    const [quote, base] = market.split('_'); // they reversed base with quote
     const ticker = markets[market];
 
     return new Ticker({
@@ -17,8 +17,8 @@ module.exports = async () => {
       close: parseToFloat(ticker.last),
       bid: parseToFloat(ticker.highestBid),
       ask: parseToFloat(ticker.lowestAsk),
-      baseVolume: parseToFloat(ticker.baseVolume),
-      quoteVolume: parseToFloat(ticker.quoteVolume),
+      baseVolume: parseToFloat(ticker.quoteVolume), // they reversed baseVolume with quoteVolume
+      quoteVolume: parseToFloat(ticker.baseVolume),
     });
   });
 };
