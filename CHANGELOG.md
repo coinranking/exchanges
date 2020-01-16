@@ -1,3 +1,15 @@
+# [2.15.0](https://github.com/coinranking/exchanges/compare/v2.14.0...v2.15.0) (2020-01-16)
+
+
+### Bug Fixes
+
+* reverse base and quote values ([43c5209](https://github.com/coinranking/exchanges/commit/43c52094f58b2e82b799deb87b628cd4e2fa8cce))
+
+
+### Features
+
+* crypto hub exchange driver ([d993b03](https://github.com/coinranking/exchanges/commit/d993b03ab2a0c496c01da0d5a4ae2cd7545a01d7))
+
 # [2.14.0](https://github.com/coinranking/exchanges/compare/v2.13.0...v2.14.0) (2020-01-13)
 
 
