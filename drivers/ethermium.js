@@ -3,9 +3,9 @@ const Ticker = require('../models/ticker');
 const { parseToFloat } = require('../lib/utils.js');
 
 module.exports = async () => {
-  const data = await request('https://api.ethermium.com/v1/tokenTickers');
+  const tickers = await request('https://api.ethermium.com/v1/tokenTickers');
 
-  return data.map(
+  return tickers.map(
     (ticker) => new Ticker({
       base: ticker.baseSymbol,
       baseReference: ticker.baseAddress,
