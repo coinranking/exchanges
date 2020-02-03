@@ -18,6 +18,7 @@ exports.bhex = require('./bhex');
 exports.bibox = require('./bibox');
 exports.bibull = require('./bibull');
 exports.bigone = require('./bigone');
+exports.bihodl = require('./bihodl');
 exports.biki = require('./biki');
 exports.binance = require('./binance');
 exports.binancedex = require('./binancedex');
