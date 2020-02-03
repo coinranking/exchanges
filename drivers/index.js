@@ -113,6 +113,7 @@ exports.dragonex = require('./dragonex');
 exports.dsx = require('./dsx');
 exports.eterbase = require('./eterbase');
 exports.etherflyer = require('./etherflyer');
+exports.ethermium = require('./ethermium');
 exports.ethfinex = require('./ethfinex');
 exports.exenium = require('./exenium');
 exports.exmarkets = require('./exmarkets');
