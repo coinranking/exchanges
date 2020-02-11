@@ -1,3 +1,15 @@
+# [2.16.0](https://github.com/coinranking/exchanges/compare/v2.15.0...v2.16.0) (2020-02-11)
+
+
+### Bug Fixes
+
+* small change for consistency ([0c20035](https://github.com/coinranking/exchanges/commit/0c20035237bafcbeb5ccd7da0407c61ffb7d3c3e))
+
+
+### Features
+
+* ethermium driver ([f7c1583](https://github.com/coinranking/exchanges/commit/f7c15839f95c24abd652548302d390b53311607f))
+
 # [2.15.0](https://github.com/coinranking/exchanges/compare/v2.14.0...v2.15.0) (2020-01-16)
 
 
