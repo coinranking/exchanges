@@ -1,3 +1,10 @@
+# [2.17.0](https://github.com/coinranking/exchanges/compare/v2.16.0...v2.17.0) (2020-02-11)
+
+
+### Features
+
+* bihodl driver ([769d225](https://github.com/coinranking/exchanges/commit/769d2250e406f251cfb137ceb2e6608b8c269dd4))
+
 # [2.16.0](https://github.com/coinranking/exchanges/compare/v2.15.0...v2.16.0) (2020-02-11)
 
 
