@@ -127,6 +127,7 @@ exports.exnce = require('./exnce');
 exports.exrates = require('./exrates');
 exports.exx = require('./exx');
 exports.fatbtc = require('./fatbtc');
+exports.fcexchange = require('./fcexchange');
 exports.fcoin = require('./fcoin');
 exports.felixo = require('./felixo');
 exports.finexbox = require('./finexbox');
