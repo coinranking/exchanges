@@ -205,6 +205,7 @@ exports.therock = require('./therock');
 exports.thoreexchange = require('./thoreexchange');
 exports.tidebit = require('./tidebit');
 exports.tidex = require('./tidex');
+exports.timex = require('./timex');
 exports.tokenize = require('./tokenize');
 exports.tokenmom = require('./tokenmom');
 exports.tokenomica = require('./tokenomica');
