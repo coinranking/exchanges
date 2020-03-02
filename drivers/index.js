@@ -52,6 +52,7 @@ exports.bitso = require('./bitso');
 exports.bitstamp = require('./bitstamp');
 exports.bittrex = require('./bittrex');
 exports.bitubu = require('./bitubu');
+exports.bitvast = require('./bitvast');
 exports.bitvavo = require('./bitvavo');
 exports.bitz = require('./bitz');
 exports.bkex = require('./bkex');
