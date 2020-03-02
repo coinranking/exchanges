@@ -75,6 +75,7 @@ exports.cashfinex = require('./cashfinex');
 exports.cashpayz = require('./cashpayz');
 exports.catex = require('./catex');
 exports.cbx = require('./cbx');
+exports.ccryptoex = require('./ccryptoex');
 exports.ccxcanada = require('./ccxcanada');
 exports.cex = require('./cex');
 exports.citex = require('./citex');
