@@ -4,6 +4,7 @@ exports.acx = require('./acx');
 exports.aex = require('./aex');
 exports.aidosmarket = require('./aidosmarket');
 exports.allcoin = require('./allcoin');
+exports.altcointrader = require('./altcointrader');
 exports.altilly = require('./altilly');
 exports.altmarkets = require('./altmarkets');
 exports.atomars = require('./atomars');
