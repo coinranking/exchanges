@@ -1,0 +1,1942 @@
+[
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_pairs",
+        "status": 200,
+        "response": {
+            "ETH_BTC": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "ETH_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "GUSD_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "LTC_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "BTC_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "XRP_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "VIRTU_ETH": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "GUSD_BTC": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "XMR_BTC": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "XMR_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "SPY_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "SPY_GUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "DBC_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "DBC_GUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "GLD_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "GLD_GUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "SLV_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "SLV_GUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "PPLT_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "PPLT_GUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "JO_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "JO_GUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "USO_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "USO_GUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "PAX_BTC": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "PAX_USDT": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "BTC_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "LTC_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "XMR_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "GUSD_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "PAX_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "ETH_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "XRP_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "DBC_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "GLD_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "JO_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "PPLT_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "SLV_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "SPY_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "USO_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "USDT_HUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "BTC_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "LTC_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "XMR_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "GUSD_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "PAX_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "ETH_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "XRP_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "DBC_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "GLD_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "JO_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "PPLT_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "SLV_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "SPY_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "USO_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "USDT_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            },
+            "HUSD_BUSD": {
+                "is_active": true,
+                "min_amount": "0.001",
+                "min_price": "0.00000001",
+                "price_step": "0.00000001",
+                "amount_step": "0.00000001"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "7358",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"1cbe-TH4CAe1nuRd/pVizSc72Y8llaYA\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=ETH_BTC",
+        "status": 200,
+        "response": {
+            "ETH_BTC": {
+                "open": "0.025601",
+                "last": "0.026098",
+                "volume": {
+                    "base": "714.06704946",
+                    "quote": "18.25795295206809"
+                },
+                "high": "0.026315",
+                "low": "0.025381",
+                "base": "ETH",
+                "quote": "BTC",
+                "type": "crypto"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "188",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"bc-gku8X+PtUEGZ22CjmtoAOePDxIY\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=ETH_USDT",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=GUSD_USDT",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=LTC_USDT",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=BTC_USDT",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=XRP_USDT",
+        "status": 200,
+        "response": {
+            "XRP_USDT": {
+                "open": "0.226838",
+                "last": "0.240205",
+                "volume": {
+                    "base": "505714.85807827",
+                    "quote": "116697.92064477444006"
+                },
+                "high": "0.241254",
+                "low": "0.225624",
+                "base": "XRP",
+                "quote": "USDT",
+                "type": "crypto"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "197",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"c5-gkj4RTR6uIG8GMwVdQtoBMbn470\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=VIRTU_ETH",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=GUSD_BTC",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=XMR_BTC",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:19 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=XMR_USDT",
+        "status": 200,
+        "response": {
+            "XMR_USDT": {
+                "open": "64.446133",
+                "last": "68.195705",
+                "volume": {
+                    "base": "870.29745947",
+                    "quote": "57258.14276134194809"
+                },
+                "high": "69.174251",
+                "low": "64.173873",
+                "base": "XMR",
+                "quote": "USDT",
+                "type": "crypto"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "197",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"c5-VGfZp7774Gn4PeQG49SbXDLRZDw\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=SPY_USDT",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=SPY_GUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=DBC_USDT",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=DBC_GUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=GLD_USDT",
+        "status": 200,
+        "response": {
+            "GLD_USDT": {
+                "open": "148.852543",
+                "last": "149.86624",
+                "volume": {
+                    "base": "7.53393395",
+                    "quote": "1131.79913740993533"
+                },
+                "high": "150.992731",
+                "low": "148.852543",
+                "base": "GLD",
+                "quote": "USDT",
+                "type": "digital asset"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "204",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"cc-b/tAPeA4RHTrR4zb+OMPkyxLYgI\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=GLD_GUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=SLV_USDT",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=SLV_GUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=PPLT_USDT",
+        "status": 200,
+        "response": {
+            "PPLT_USDT": {
+                "open": "80.617383",
+                "last": "80.965122",
+                "volume": {
+                    "base": "21.93466091",
+                    "quote": "1775.9612639157382"
+                },
+                "high": "81.685019",
+                "low": "80.561436",
+                "base": "PPLT",
+                "quote": "USDT",
+                "type": "digital asset"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "203",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"cb-mnxjPKIZLs55tRHlZTPEWez1bRU\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=PPLT_GUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=JO_USDT",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=JO_GUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=USO_USDT",
+        "status": 200,
+        "response": {
+            "USO_USDT": {
+                "open": "9.435697",
+                "last": "9.813296",
+                "volume": {
+                    "base": "146.55434435",
+                    "quote": "1425.20687143618264"
+                },
+                "high": "9.887429",
+                "low": "9.435697",
+                "base": "USO",
+                "quote": "USDT",
+                "type": "digital asset"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "199",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"c7-FTmBXodnWkd7OBaJ7MukQBBVIpA\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=USO_GUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=PAX_BTC",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=PAX_USDT",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=BTC_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=LTC_HUSD",
+        "status": 200,
+        "response": {
+            "LTC_HUSD": {
+                "open": "0",
+                "last": "0",
+                "volume": {
+                    "base": "0",
+                    "quote": "0"
+                },
+                "high": "0",
+                "low": "0",
+                "base": "LTC",
+                "quote": "HUSD",
+                "type": "crypto"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:20 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "135",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"87-XvRu1oiqi73SqfXu1tyYorAgnRk\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=XMR_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=GUSD_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=PAX_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=ETH_HUSD",
+        "status": 200,
+        "response": {
+            "ETH_HUSD": {
+                "open": "0",
+                "last": "0",
+                "volume": {
+                    "base": "0",
+                    "quote": "0"
+                },
+                "high": "0",
+                "low": "0",
+                "base": "ETH",
+                "quote": "HUSD",
+                "type": "crypto"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "135",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"87-XiAnLgBp2fSPoFQKL8M9CML6yTY\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=XRP_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=DBC_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=GLD_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=JO_HUSD",
+        "status": 200,
+        "response": {
+            "JO_HUSD": {
+                "open": "0",
+                "last": "0",
+                "volume": {
+                    "base": "0",
+                    "quote": "0"
+                },
+                "high": "0",
+                "low": "0",
+                "base": "JO",
+                "quote": "HUSD",
+                "type": "digital asset"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "140",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"8c-gMbXsqCMYDGIr/bn58jKbr9qUvQ\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=PPLT_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=SLV_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=SPY_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=USO_HUSD",
+        "status": 200,
+        "response": {
+            "USO_HUSD": {
+                "open": "0",
+                "last": "0",
+                "volume": {
+                    "base": "0",
+                    "quote": "0"
+                },
+                "high": "0",
+                "low": "0",
+                "base": "USO",
+                "quote": "HUSD",
+                "type": "digital asset"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "142",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"8e-3YN8YyFqHSS9mOZaFOxpskm0emY\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=USDT_HUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=BTC_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=LTC_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=XMR_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=GUSD_BUSD",
+        "status": 200,
+        "response": {
+            "GUSD_BUSD": {
+                "open": "0",
+                "last": "0",
+                "volume": {
+                    "base": "0",
+                    "quote": "0"
+                },
+                "high": "0",
+                "low": "0",
+                "base": "GUSD",
+                "quote": "BUSD",
+                "type": "crypto"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "137",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"89-qep8pkp42OIVJkZwPj2lm/Eh8u0\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=PAX_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=ETH_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=XRP_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:21 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=DBC_BUSD",
+        "status": 200,
+        "response": {
+            "DBC_BUSD": {
+                "open": "0",
+                "last": "0",
+                "volume": {
+                    "base": "0",
+                    "quote": "0"
+                },
+                "high": "0",
+                "low": "0",
+                "base": "DBC",
+                "quote": "BUSD",
+                "type": "digital asset"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:22 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "142",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"8e-hkPqSXtJHg52WjsQGj/b0hV2pko\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=GLD_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:22 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=JO_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:22 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=PPLT_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:22 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=SLV_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:22 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=SPY_BUSD",
+        "status": 200,
+        "response": {
+            "SPY_BUSD": {
+                "open": "0",
+                "last": "0",
+                "volume": {
+                    "base": "0",
+                    "quote": "0"
+                },
+                "high": "0",
+                "low": "0",
+                "base": "SPY",
+                "quote": "BUSD",
+                "type": "digital asset"
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:22 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "142",
+            "Connection",
+            "keep-alive",
+            "X-Powered-By",
+            "Express",
+            "ETag",
+            "W/\"8e-mv3zmvFsZ3ySgEX6fxn6/ioPBU8\"",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubdomains; preload",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=USO_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:22 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=USDT_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:22 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://virtuse.exchange:443",
+        "method": "post",
+        "path": "/api/v1",
+        "body": "method=public%2Fget_ticker&pair=HUSD_BUSD",
+        "status": 503,
+        "response": "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>nginx/1.10.3 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n",
+        "rawHeaders": [
+            "Server",
+            "nginx/1.10.3 (Ubuntu)",
+            "Date",
+            "Mon, 02 Mar 2020 18:56:22 GMT",
+            "Content-Type",
+            "text/html",
+            "Content-Length",
+            "624",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
