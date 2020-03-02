@@ -190,6 +190,7 @@ exports.p2pb2b = require('./p2pb2b');
 exports.paribu = require('./paribu');
 exports.parsxc = require('./parsxc');
 exports.paymium = require('./paymium');
+exports.payrue = require('./payrue');
 exports.poloniex = require('./poloniex');
 exports.primebit = require('./primebit');
 exports.prizmbit = require('./prizmbit');
