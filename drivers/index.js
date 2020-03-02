@@ -232,6 +232,7 @@ exports.unnamed = require('./unnamed');
 exports.upbit = require('./upbit');
 exports.vindax = require('./vindax');
 exports.vinex = require('./vinex');
+exports.virtuse = require('./virtuse');
 exports.vitex = require('./vitex');
 exports.wavesexchange = require('./wavesexchange');
 exports.wazirx = require('./wazirx');
