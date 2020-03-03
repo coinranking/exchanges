@@ -1,6 +1,6 @@
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
-const { parseToFloat, flatMap } = require('../lib/utils');
+const { parseToFloat } = require('../lib/utils');
 
 module.exports = async () => {
   const symbols = await request(
