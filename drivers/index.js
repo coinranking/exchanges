@@ -187,6 +187,7 @@ exports.paribu = require('./paribu');
 exports.parsxc = require('./parsxc');
 exports.paymium = require('./paymium');
 exports.poloniex = require('./poloniex');
+exports.primebit = require('./primebit');
 exports.prizmbit = require('./prizmbit');
 exports.probit = require('./probit');
 exports.remitano = require('./remitano');
