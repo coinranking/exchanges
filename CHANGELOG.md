@@ -1,3 +1,10 @@
+## [2.18.1](https://github.com/coinranking/exchanges/compare/v2.18.0...v2.18.1) (2020-03-10)
+
+
+### Bug Fixes
+
+* make npm scripts work on Windows ([2564604](https://github.com/coinranking/exchanges/commit/2564604250ca0026b33cd74044e3975d251abedf))
+
 # [2.18.0](https://github.com/coinranking/exchanges/compare/v2.17.0...v2.18.0) (2020-02-14)
 
 
