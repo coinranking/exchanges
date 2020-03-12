@@ -1,3 +1,10 @@
+# [2.19.0](https://github.com/coinranking/exchanges/compare/v2.18.1...v2.19.0) (2020-03-12)
+
+
+### Features
+
+* satoexchange driver ([e14756b](https://github.com/coinranking/exchanges/commit/e14756be8b6f4a5699016114cfa403ecece1e369))
+
 ## [2.18.1](https://github.com/coinranking/exchanges/compare/v2.18.0...v2.18.1) (2020-03-10)
 
 
