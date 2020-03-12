@@ -1,3 +1,15 @@
+# [2.20.0](https://github.com/coinranking/exchanges/compare/v2.19.0...v2.20.0) (2020-03-12)
+
+
+### Bug Fixes
+
+* remove flatMap ([ee4c25b](https://github.com/coinranking/exchanges/commit/ee4c25bccfcde0e7233f5ad55b0007998fe72481))
+
+
+### Features
+
+* eurobtc driver ([ad1d0ef](https://github.com/coinranking/exchanges/commit/ad1d0ef480cee4e49736f1fc53fd9fc03d9abbbf))
+
 # [2.19.0](https://github.com/coinranking/exchanges/compare/v2.18.1...v2.19.0) (2020-03-12)
 
 
