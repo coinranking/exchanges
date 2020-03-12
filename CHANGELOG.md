@@ -1,3 +1,10 @@
+# [2.22.0](https://github.com/coinranking/exchanges/compare/v2.21.0...v2.22.0) (2020-03-12)
+
+
+### Features
+
+* nami driver ([d6a057b](https://github.com/coinranking/exchanges/commit/d6a057b526586557f7e606ffaf67e67c27cf4d57))
+
 # [2.21.0](https://github.com/coinranking/exchanges/compare/v2.20.0...v2.21.0) (2020-03-12)
 
 
