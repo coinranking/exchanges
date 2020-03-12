@@ -1,3 +1,10 @@
+# [2.21.0](https://github.com/coinranking/exchanges/compare/v2.20.0...v2.21.0) (2020-03-12)
+
+
+### Features
+
+* primebit driver ([4b3fc77](https://github.com/coinranking/exchanges/commit/4b3fc77b5f7480ab67be07eb3a5fefda2e79517c))
+
 # [2.20.0](https://github.com/coinranking/exchanges/compare/v2.19.0...v2.20.0) (2020-03-12)
 
 
