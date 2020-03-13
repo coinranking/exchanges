@@ -1,3 +1,10 @@
+# [2.23.0](https://github.com/coinranking/exchanges/compare/v2.22.0...v2.23.0) (2020-03-13)
+
+
+### Features
+
+* bitvast driver ([5ff6c6b](https://github.com/coinranking/exchanges/commit/5ff6c6b98b4a3b63cf6a69b2174da9c43d59b062))
+
 # [2.22.0](https://github.com/coinranking/exchanges/compare/v2.21.0...v2.22.0) (2020-03-12)
 
 
