@@ -1,3 +1,10 @@
+# [2.24.0](https://github.com/coinranking/exchanges/compare/v2.23.0...v2.24.0) (2020-03-13)
+
+
+### Features
+
+* ccryptoex driver ([f5ea9d0](https://github.com/coinranking/exchanges/commit/f5ea9d03f264f147f69bc9c89b5ac34116b8162b))
+
 # [2.23.0](https://github.com/coinranking/exchanges/compare/v2.22.0...v2.23.0) (2020-03-13)
 
 
