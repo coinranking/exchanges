@@ -230,6 +230,7 @@ exports.wazirx = require('./wazirx');
 exports.whitebit = require('./whitebit');
 exports.wtzex = require('./wtzex');
 exports.xbts = require('./xbts');
+exports.yoobtc = require('./yoobtc');
 exports.zaif = require('./zaif');
 exports.zb = require('./zb');
 exports.zbg = require('./zbg');
