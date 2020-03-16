@@ -8,7 +8,7 @@ module.exports = async () => {
   );
 
   return tickers.map((ticker) => {
-    const [base, quote] = ticker.symbol.split('/').reverse();
+    const [quote, base] = ticker.symbol.split('/');
 
     return new Ticker({
       base,
