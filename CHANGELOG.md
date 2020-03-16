@@ -1,3 +1,57 @@
+# [2.24.0](https://github.com/coinranking/exchanges/compare/v2.23.0...v2.24.0) (2020-03-13)
+
+
+### Features
+
+* ccryptoex driver ([f5ea9d0](https://github.com/coinranking/exchanges/commit/f5ea9d03f264f147f69bc9c89b5ac34116b8162b))
+
+# [2.23.0](https://github.com/coinranking/exchanges/compare/v2.22.0...v2.23.0) (2020-03-13)
+
+
+### Features
+
+* bitvast driver ([5ff6c6b](https://github.com/coinranking/exchanges/commit/5ff6c6b98b4a3b63cf6a69b2174da9c43d59b062))
+
+# [2.22.0](https://github.com/coinranking/exchanges/compare/v2.21.0...v2.22.0) (2020-03-12)
+
+
+### Features
+
+* nami driver ([d6a057b](https://github.com/coinranking/exchanges/commit/d6a057b526586557f7e606ffaf67e67c27cf4d57))
+
+# [2.21.0](https://github.com/coinranking/exchanges/compare/v2.20.0...v2.21.0) (2020-03-12)
+
+
+### Features
+
+* primebit driver ([4b3fc77](https://github.com/coinranking/exchanges/commit/4b3fc77b5f7480ab67be07eb3a5fefda2e79517c))
+
+# [2.20.0](https://github.com/coinranking/exchanges/compare/v2.19.0...v2.20.0) (2020-03-12)
+
+
+### Bug Fixes
+
+* remove flatMap ([ee4c25b](https://github.com/coinranking/exchanges/commit/ee4c25bccfcde0e7233f5ad55b0007998fe72481))
+
+
+### Features
+
+* eurobtc driver ([ad1d0ef](https://github.com/coinranking/exchanges/commit/ad1d0ef480cee4e49736f1fc53fd9fc03d9abbbf))
+
+# [2.19.0](https://github.com/coinranking/exchanges/compare/v2.18.1...v2.19.0) (2020-03-12)
+
+
+### Features
+
+* satoexchange driver ([e14756b](https://github.com/coinranking/exchanges/commit/e14756be8b6f4a5699016114cfa403ecece1e369))
+
+## [2.18.1](https://github.com/coinranking/exchanges/compare/v2.18.0...v2.18.1) (2020-03-10)
+
+
+### Bug Fixes
+
+* make npm scripts work on Windows ([2564604](https://github.com/coinranking/exchanges/commit/2564604250ca0026b33cd74044e3975d251abedf))
+
 # [2.18.0](https://github.com/coinranking/exchanges/compare/v2.17.0...v2.18.0) (2020-02-14)
 
 
