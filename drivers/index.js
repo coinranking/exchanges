@@ -174,6 +174,7 @@ exports.mercado = require('./mercado');
 exports.mercatox = require('./mercatox');
 exports.mxc = require('./mxc');
 exports.nami = require('./nami');
+exports.nanu = require('./nanu');
 exports.nanuexchange = require('./nanuexchange');
 exports.needyex = require('./needyex');
 exports.neraex = require('./neraex');
