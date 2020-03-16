@@ -4,7 +4,7 @@ const { parseToFloat, flatMap } = require('../lib/utils.js');
 
 module.exports = async () => {
   const tickers = await request(
-    'https://plasma-relay-backend.timex.io/public/tickers?period=H1',
+    'https://plasma-relay-backend.timex.io/public/tickers24?useCache=true',
   );
   const markets = await request(
     'https://plasma-relay-backend.timex.io/public/markets',

@@ -2,15 +2,15 @@
     {
         "scope": "https://plasma-relay-backend.timex.io:443",
         "method": "GET",
-        "path": "/public/tickers?period=H1",
+        "path": "/public/tickers24?useCache=true",
         "body": "",
         "status": 200,
         "response": [
-            "83f3020064632d533efa9a015e57e4ad028487f9bf9cdd4bac170674c00185815eb4e8cfa6958dc96b61ffa84563da580364538801a59b8c417f71e9007925973ec7fe5ff0f970f90103cc8f4b33e32c4c20882c1860896102c5e48001f654dc14e91449557e4b3410c1044edfef61004292601375f49cdd5ea8e55492825e6d6c32737714321760e674973e3c7f074c5d87f7f4fd03f62e53f245efc300c628a12e552b81edcfe78fe5bf3252ba7836ab9b473bfc9f903ead71797d7e7e5c6a12dec28cd5c17c8a2c447b061979d881f70aa54b9e314d3a303d22465ac5894d098a3e97f95247c4945e480da01848dabd12086da10934da4d12d8bdac13fb8825aa1b455c04bb5446ab1a5dcd991f97f676e7c60c51c112aa48d5c29e739328a35a5dc8caaa154a18324674326092d60f2da2066fa042ae2aa5a5ba99711620c28ce62254d58ae142552d18cdafeac06ac68882018b3944ae96b05f5ba2aba6674657d6f41e4fbd916c423d51b612d6898801b414522562933ca68521fe5bf451d4cc93de428edd9ab9e3b3893525b0ce206b780541efcdac498cb2bf82acc9e24878417454a309b2ea411892acaaa9f56763fe3bc6b519fc3f1c"
+            "036e0200c42c5b16e5139f552d688db49991d7113d73f4e5896b12bf4519bd3ef0f77953f40277a33dae30cab36d56810399d8081e9f666ecdc1ad06412f55dcaecbecfdffb1e6cbbbbf6319fbebd1ceba3b36433ed9b18cbfe8675bf02dcd55b9000b3036e3d59f2f6319109825583e36e3f5a7b7dd109566d266aac3eeaa946ad3e7026dd10a39d286352dd954c640eefadf8fbfa37f8564f92cb3cc2ac2623c6fd2bffe7a7cbebfbf1ef92bed2528e0ac610f261a27c19edd38096ff3c609a4b91ae226e932b566d55d30ca9c27dc25050da4a2bbe41f028acafd0c28a6a9ef039ad4cb737be816bba2e902aac3f24f4445235aad6791306be2da5f8fee6ef7d66a5597cac631551377c63135976911d2aa5947bc97cc4ad1e848c040734a38b3ab2f2a77d65d1ac25b3a8a6e8a44558be84891956a4c8452badc72650ff069605804dfaeaab08ea697ccf65db1f64297fc742ac55bd592a2ded17289c0b4268d5f23fbf48ca7215488ae84b71152a898ac769e274109b2baac21694e533a2135a7ad3d3f435959fdb3409167c5e74a93f0f288f1fc38"
         ],
         "rawHeaders": [
             "Date",
-            "Mon, 02 Mar 2020 21:12:42 GMT",
+            "Mon, 16 Mar 2020 15:22:54 GMT",
             "Content-Type",
             "application/json;charset=UTF-8",
             "Transfer-Encoding",
@@ -18,7 +18,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=dee210c6c53208a0c2e2d65f38594934d1583183562; expires=Wed, 01-Apr-20 21:12:42 GMT; path=/; domain=.timex.io; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=df91db8dc854bd505f139b3903cc202991584372174; expires=Wed, 15-Apr-20 15:22:54 GMT; path=/; domain=.timex.io; HttpOnly; SameSite=Lax; Secure",
             "X-Content-Type-Options",
             "nosniff",
             "X-XSS-Protection",
@@ -40,7 +40,7 @@
             "Server",
             "cloudflare",
             "CF-RAY",
-            "56de1e0fba1a9109-ZAG",
+            "574f78e97f591752-FRA",
             "Content-Encoding",
             "br"
         ],
@@ -57,7 +57,7 @@
         ],
         "rawHeaders": [
             "Date",
-            "Mon, 02 Mar 2020 21:12:42 GMT",
+            "Mon, 16 Mar 2020 15:22:54 GMT",
             "Content-Type",
             "application/json;charset=UTF-8",
             "Transfer-Encoding",
@@ -85,7 +85,7 @@
             "Server",
             "cloudflare",
             "CF-RAY",
-            "56de1e139e1090df-ZAG",
+            "574f78eb9a5edfa5-FRA",
             "Content-Encoding",
             "br"
         ],
