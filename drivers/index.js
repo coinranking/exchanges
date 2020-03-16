@@ -196,6 +196,7 @@ exports.probit = require('./probit');
 exports.remitano = require('./remitano');
 exports.resfinex = require('./resfinex');
 exports.rightbtc = require('./rightbtc');
+exports.rudex = require('./rudex');
 exports.satoexchange = require('./satoexchange');
 exports.shortex = require('./shortex');
 exports.simex = require('./simex');
