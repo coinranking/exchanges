@@ -1,0 +1,46 @@
+[
+    {
+        "scope": "https://ticker.rudex.org:443",
+        "method": "GET",
+        "path": "/api/v1/ticker",
+        "body": "",
+        "status": 200,
+        "response": [
+            "61b4ac00205a8dd5bff2a3f7ba9234af7c4c1f0815f9ffbf96466e5c5c2223648c402a9002760161fe1f38655455d3a85d57fc73df7bf38b048aad5870b5621a357265eb5656c87a591d232bb3bd1e9a41409dfb52e3df73ebcdedcf82d7e7faeff9919ff8ec87afcf35ca2f8730bd58cacb7fa96ff66752cb7e7cbcca41a314ccc4f9bc53c8b4733d3056da41cd9ccb4ff6dffe78b82483e00b7cfdd33ffcf5ed9fbffdf3cdafe78acbf9f5888cbffefeec8bbf7e12f561d7b4f576683b922aa1faccac2f73f6d9e39d09196742e8856ba2e67c56549d99c1e1b99c52a77ffdd9177f9febb10b6937f01b5655f934fcea6b003e3cff5f0819fdedeb3b5ad5b9eb80f244a96e391beac35cdc6084df669281a580c34f406db5ed3818532bbd880e0fbcf5f0cded671fec4fbf142b559850a962b6c80dc9b0e17475306dccd95d0b1feb9f885c1fe4eef31ab2db4d447ea814a69c8a5a5ff55a2a8f2aafe1cbc8894a6d9ddae9d1870ad5abda746a9673597d23932f58548682d76feede7d5a31767c83d147793239d828519878087f14f0107edb82161c34c62c081840b8fc04aa32a849788a9d42a1a857c6065b24d4881ed85cc291ab0b55c9ce7077252b0b81c91636716677df3cf01527839a8ddc0f1bb65dae9e5cacdf8a7224006faa372dd3bdb7500c2023f7e31eb6930b4f4f8b6595353ac8fc04713c038ddbc75b2519a5166f8c61d191300e4008f297f94298af776b562546ac4ae826082e16d1cfb332742f3e4c42420019e73c401b8170e09bdbbb3de14639f4475017a84b8a7dde88d81800454f8596a09a4abb6cf3d867293554fe215abb20f09044f9135c6182f7d15db01e24ac26becc395075604e64a5f494e58755a6fae02e680f7f234db07044cf5fbb05c202e4604dd24c57301094ccc3fb518b60b2dcba03f670f6af5216aacd000f28131893e8c66a9a228f",
+            "008fc9cd5aa0a7f321094fb0499a6227641d6ca840332973039800f543fec25df76e2f2d822dd45dfc82434401dbf853bbbe003e44851b001846b3818fc701786350f619fa20f36acb525acfb77d10b318ad72a0a213edb2a9f25773adcea837a7fc2c6bf39c4aa84aff1a6cc35dbba1f02c762244b670da44a2689838ccda90fc941bb07d7d5759efe04d29d676674bfbb3bc869c966ff1e0ca3f9cd876f1510e67411606d3adc26423b5cc8e0dac05c2009860e13f9006af2454693b7e1420d51dbacd0e3ff2255540e5e1900aac49a3dfe240f537eea9e04a206dff69a8b6f993cabd360c1cd9fd27a18f5321d0e211c9e16c37e1aa04db60bb5124bcd99cb222291d783472aae9673307187bcec0071c44a08feb802c67fc6c802f815082673c49ecd4007d9059000607455b48b3dcd7d350436cb1586ab04f9cc9afce45ebd1f03b1cd7c9156ebff8a2f88773755a66b10547f9e755786517fbe23de3b70eda2cc68e004302c6310c6afec192b0805f6fdafb6fdb2dfe3d78fdf4f9e3bb537f583ab72a755ab57f04b0b0287a88f14821b7678a81383d74abc05dbe81d189b0e0f98a7790260490e774ade33e42116cf83ec33b0da5a0aa42f476e08fa37b2a959aac64c3fff9b91ca2ede019bd78f1c1627c6c6e8e2803bd14c5c0abb68f89bdbd5d35e31a2cbd3a722e955bd901e2e5613732f6bfaa651013b2c63f71fc37c2aa1af08a004d0910dbf54f89811e089bfe0407c9553d68a512c735bbe54f4e7f85097877e5098932f68e28d8e033db9dc5322fc83403ae7c8c231686c10f9a510304a33e2c1692080d88b315341838925b6f82606d12c9d28f45ed786630c880391b990ce3a4aad351670cb877e73886bb6f1ee8213ed97506947cd05c0e58038cb9232498c579616be189c7d873b7fe00fce15e06c6de1c38a2070800638182a52f85c0aceefa6fd9afaa1b0abae7139c7547a7001944d373ce0b04d4bb0f008605d834b8424807b888ac618733aa04d2ae7f049105a4d117fac09dafc34345734418b428b267f80a8711aa701bf4cce9027a74060a5548653bcdacff07"
+        ],
+        "rawHeaders": [
+            "Date",
+            "Mon, 16 Mar 2020 16:09:33 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=df1c5f1e111030709d9d37371176277f81584374973; expires=Wed, 15-Apr-20 16:09:33 GMT; path=/; domain=.rudex.org; HttpOnly; SameSite=Lax; Secure",
+            "X-Powered-By",
+            "Express",
+            "Etag",
+            "W/\"2b2e-MXU+ItgYaET+pnj0uD6wq93cQag\"",
+            "Via",
+            "1.1 vegur",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Strict-Transport-Security",
+            "max-age=15552000",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "574fbd3e084c5976-VIE",
+            "Content-Encoding",
+            "br"
+        ],
+        "responseIsBinary": false
+    }
+]
