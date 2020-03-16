@@ -1,0 +1,270 @@
+[
+    {
+        "scope": "https://www.euro-btc.exchange:443",
+        "method": "GET",
+        "path": "//api/v2/markets.json",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "id": "lioecpay",
+                "current_price": "1.611638",
+                "price_change": "-5.197955010224948875460122699386503068",
+                "base_currency": "Lio",
+                "base_decimals": 6,
+                "quote_currency": "Ec Pay",
+                "quote_decimals": 2,
+                "name": "LIO/ECPAY",
+                "base_unit": "lio",
+                "quote_unit": "ecpay",
+                "icon": "/icon-lio.png"
+            },
+            {
+                "id": "btcecpay",
+                "current_price": "8000.0",
+                "price_change": "0.578325370882574805",
+                "base_currency": "Bitcoin",
+                "base_decimals": 6,
+                "quote_currency": "Ec Pay",
+                "quote_decimals": 2,
+                "name": "BTC/ECPAY",
+                "base_unit": "btc",
+                "quote_unit": "ecpay",
+                "icon": "/icon-btc.png"
+            },
+            {
+                "id": "ethecpay",
+                "current_price": "200.88",
+                "price_change": "-0.835186557944156165060538671",
+                "base_currency": "Ethereum",
+                "base_decimals": 6,
+                "quote_currency": "Ec Pay",
+                "quote_decimals": 2,
+                "name": "ETH/ECPAY",
+                "base_unit": "eth",
+                "quote_unit": "ecpay",
+                "icon": "/icon-eth.png"
+            },
+            {
+                "id": "ltcecpay",
+                "current_price": "54.73",
+                "price_change": "1.747536716861870236103364938",
+                "base_currency": "Litecoin",
+                "base_decimals": 6,
+                "quote_currency": "Ec Pay",
+                "quote_decimals": 2,
+                "name": "LTC/ECPAY",
+                "base_unit": "ltc",
+                "quote_unit": "ecpay",
+                "icon": "/icon-ltc.png"
+            },
+            {
+                "id": "dashecpay",
+                "current_price": "79.21",
+                "price_change": "-0.452431821038067167579718617326526025",
+                "base_currency": "Dash",
+                "base_decimals": 6,
+                "quote_currency": "Ec Pay",
+                "quote_decimals": 2,
+                "name": "DASH/ECPAY",
+                "base_unit": "dash",
+                "quote_unit": "ecpay",
+                "icon": "/icon-dash.png"
+            },
+            {
+                "id": "usdtecpay",
+                "current_price": "0.89945",
+                "price_change": "0.0",
+                "base_currency": "USDT",
+                "base_decimals": 6,
+                "quote_currency": "Ec Pay",
+                "quote_decimals": 2,
+                "name": "USDT/ECPAY",
+                "base_unit": "usdt",
+                "quote_unit": "ecpay",
+                "icon": "/icon-usdt.png"
+            },
+            {
+                "id": "xmrecpay",
+                "current_price": "0.0",
+                "price_change": "0.0",
+                "base_currency": "Monero",
+                "base_decimals": 6,
+                "quote_currency": "Ec Pay",
+                "quote_decimals": 2,
+                "name": "XMR/ECPAY",
+                "base_unit": "xmr",
+                "quote_unit": "ecpay",
+                "icon": "/icon-xmr.png"
+            },
+            {
+                "id": "xrpecpay",
+                "current_price": "0.203843",
+                "price_change": "0.0",
+                "base_currency": "Ripple",
+                "base_decimals": 6,
+                "quote_currency": "Ec Pay",
+                "quote_decimals": 2,
+                "name": "XRP/ECPAY",
+                "base_unit": "xrp",
+                "quote_unit": "ecpay",
+                "icon": "/icon-xrp.png"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 03 Mar 2020 19:03:23 GMT",
+            "Server",
+            "Apache/2.4.29 (Ubuntu)",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Access-Control-Allow-Origin",
+            "*",
+            "X-Request-Id",
+            "963d14a6-2718-4748-ac3e-f924d4f1ed3c",
+            "X-Runtime",
+            "0.036142",
+            "X-Powered-By",
+            "Phusion Passenger 6.0.2",
+            "ETag",
+            "W/\"ba6bbdd33b3c0170251e9efb4f5f07db\"",
+            "Content-Length",
+            "2013",
+            "Status",
+            "200 OK",
+            "Keep-Alive",
+            "timeout=5, max=100",
+            "Connection",
+            "Keep-Alive",
+            "Content-Type",
+            "application/json"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://www.euro-btc.exchange:443",
+        "method": "GET",
+        "path": "//api/v2/tickers.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "lioecpay": {
+                "at": 1583262203,
+                "ticker": {
+                    "last": "1.54527333333333333333",
+                    "buy": "1.5166",
+                    "sell": "1.55",
+                    "vol": "209757.076216",
+                    "low": "0.1",
+                    "high": "1.85"
+                }
+            },
+            "btcecpay": {
+                "at": 1583262203,
+                "ticker": {
+                    "last": "8000.0",
+                    "buy": "9666.666001",
+                    "sell": "0.0",
+                    "vol": "0.005",
+                    "low": "8000.0",
+                    "high": "8000.0"
+                }
+            },
+            "ethecpay": {
+                "at": 1583262203,
+                "ticker": {
+                    "last": "200.66",
+                    "buy": "600.754444",
+                    "sell": "17500.0",
+                    "vol": "2.340831",
+                    "low": "200.35",
+                    "high": "205.93"
+                }
+            },
+            "ltcecpay": {
+                "at": 1583262203,
+                "ticker": {
+                    "last": "54.73",
+                    "buy": "200.000001",
+                    "sell": "9000.0",
+                    "vol": "2.568819",
+                    "low": "54.65",
+                    "high": "54.96"
+                }
+            },
+            "dashecpay": {
+                "at": 1583262203,
+                "ticker": {
+                    "last": "79.21",
+                    "buy": "150.000001",
+                    "sell": "0.0",
+                    "vol": "2.703659",
+                    "low": "79.21",
+                    "high": "80.73"
+                }
+            },
+            "usdtecpay": {
+                "at": 1583262203,
+                "ticker": {
+                    "last": "0.89945",
+                    "buy": "0.900001",
+                    "sell": "0.0",
+                    "vol": "0.0",
+                    "low": "0.0",
+                    "high": "0.0"
+                }
+            },
+            "xmrecpay": {
+                "at": 1583262203,
+                "ticker": {
+                    "last": "0.0",
+                    "buy": "50.0",
+                    "sell": "0.0",
+                    "vol": "0.0",
+                    "low": "0.0",
+                    "high": "0.0"
+                }
+            },
+            "xrpecpay": {
+                "at": 1583262203,
+                "ticker": {
+                    "last": "0.203843",
+                    "buy": "0.203843",
+                    "sell": "0.0",
+                    "vol": "0.0",
+                    "low": "0.0",
+                    "high": "0.0"
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 03 Mar 2020 19:03:23 GMT",
+            "Server",
+            "Apache/2.4.29 (Ubuntu)",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Access-Control-Allow-Origin",
+            "*",
+            "X-Request-Id",
+            "d83d1a18-2100-4a79-9118-aa07cbeb395e",
+            "X-Runtime",
+            "0.019704",
+            "X-Powered-By",
+            "Phusion Passenger 6.0.2",
+            "ETag",
+            "W/\"24e56d743d3b55d2d66b052bedf43351\"",
+            "Content-Length",
+            "1060",
+            "Status",
+            "200 OK",
+            "Keep-Alive",
+            "timeout=5, max=100",
+            "Connection",
+            "Keep-Alive",
+            "Content-Type",
+            "application/json"
+        ],
+        "responseIsBinary": false
+    }
+]
