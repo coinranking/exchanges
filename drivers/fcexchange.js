@@ -13,14 +13,14 @@ module.exports = async () => {
 
     return tickers.map(
       (ticker) => new Ticker({
-        base: baseCoin.symbol,
-        baseName: baseCoin.name,
-        quote: ticker.symbol,
-        quoteName: ticker.name,
+        base: ticker.symbol, // reversed
+        baseName: ticker.name, // reversed
+        quote: baseCoin.symbol, // reversed
+        quoteName: baseCoin.name, // reversed
         high: parseToFloat(ticker.info.high),
         low: parseToFloat(ticker.info.low),
         close: parseToFloat(ticker.info.lastPrice),
-        baseVolume: parseToFloat(ticker.info.amount),
+        quoteVolume: parseToFloat(ticker.info.amount),
       }),
     );
   });
