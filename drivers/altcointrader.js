@@ -7,10 +7,11 @@ module.exports = async () => {
 
   return Object.keys(markets).map((market) => {
     const ticker = markets[market];
+    const [base, quote] = market.split('_');
 
     return new Ticker({
-      base: market,
-      quote: 'ZAR',
+      base,
+      quote: quote || 'ZAR',
       high: parseToFloat(ticker.High),
       low: parseToFloat(ticker.Low),
       close: parseToFloat(ticker.Close),
