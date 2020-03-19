@@ -6,7 +6,7 @@ module.exports = async () => {
   const markets = await request('https://ticker.rudex.org/api/v1/ticker');
 
   return Object.keys(markets).map((market) => {
-    const [quote, base] = market.split('_'); // reversed
+    const [base, quote] = market.split('_'); // reversed
     const ticker = markets[market];
 
     return new Ticker({
