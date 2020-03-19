@@ -1,3 +1,10 @@
+# [2.25.0](https://github.com/coinranking/exchanges/compare/v2.24.0...v2.25.0) (2020-03-19)
+
+
+### Features
+
+* qtrade exchange ([ff52748](https://github.com/coinranking/exchanges/commit/ff527487f569a927d8aecf9c4a3d4b6ce6998960))
+
 # [2.24.0](https://github.com/coinranking/exchanges/compare/v2.23.0...v2.24.0) (2020-03-13)
 
 
