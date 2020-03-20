@@ -1,3 +1,15 @@
+# [2.27.0](https://github.com/coinranking/exchanges/compare/v2.26.0...v2.27.0) (2020-03-20)
+
+
+### Bug Fixes
+
+* reverse base and quote ([5612cdc](https://github.com/coinranking/exchanges/commit/5612cdc9f30763713b061ba287de9d6208ca868e))
+
+
+### Features
+
+* payrue driver ([a6e90a3](https://github.com/coinranking/exchanges/commit/a6e90a321c374ad292a18d0faf54d0bd10e3bccf))
+
 # [2.26.0](https://github.com/coinranking/exchanges/compare/v2.25.0...v2.26.0) (2020-03-20)
 
 
