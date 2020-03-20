@@ -1,3 +1,19 @@
+# [2.28.0](https://github.com/coinranking/exchanges/compare/v2.27.0...v2.28.0) (2020-03-20)
+
+
+### Bug Fixes
+
+* base and quote value ([d20e405](https://github.com/coinranking/exchanges/commit/d20e4054a1ec72b92cb14662c44fc68428957299))
+* change url ([dd5cd6e](https://github.com/coinranking/exchanges/commit/dd5cd6eba448d31bab85bee497e5c743051ff17c))
+* reverse quote and base ([3d14f37](https://github.com/coinranking/exchanges/commit/3d14f37879c040fdd7ad0f5f9ac0723d4422f4f5))
+
+
+### Features
+
+* altcointrader driver ([c74f262](https://github.com/coinranking/exchanges/commit/c74f262f741cc7a1986a3e7e0dd502bb9d2326c1))
+* fcexchange driver ([6d3c080](https://github.com/coinranking/exchanges/commit/6d3c080c40262d3fa08022e1bfc0723451a94de2))
+* timex driver ([89b64fe](https://github.com/coinranking/exchanges/commit/89b64fed9acbbaa592b3ff05f71cb774b949174b))
+
 # [2.27.0](https://github.com/coinranking/exchanges/compare/v2.26.0...v2.27.0) (2020-03-20)
 
 
