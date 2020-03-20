@@ -225,6 +225,7 @@ exports.tokens = require('./tokens');
 exports.tokenstore = require('./tokenstore');
 exports.tokok = require('./tokok');
 exports.tradesatoshi = require('./tradesatoshi');
+exports.trexexchange = require('./trexexchange');
 exports.turtlenetwork = require('./turtlenetwork');
 exports.uniswap = require('./uniswap');
 exports.unnamed = require('./unnamed');
