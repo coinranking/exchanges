@@ -1,0 +1,46 @@
+[
+    {
+        "scope": "https://ccryptoex.com:443",
+        "method": "GET",
+        "path": "/api/tickers",
+        "body": "",
+        "status": 200,
+        "response": [
+            "5104540020662d3344b786faacea96f231e290d2bf5f8dbd4e1ca0ca4426c2c5464820c52823e4c16e08dc8f03aacc4455bddb6caf8014025740d7caba3af9eb6a4374fde94e7453e06564b47fffb74edfcf8e3edececfd67efb5b27ef6bbf31da585d3ebb6d456ff6e295e177a71f3f6bbfadf62e51c7e3acb5dbd6dbc5fdfdc2f6e3e02fef9fbed67e6b00c2d86deb0726d67e6bee339244f36b52bc5623f5f0c9dbfbcef9ed4fd77ed3194861d816b5dbd6c9e7d59117c287ad6347968e1f7558e6e76d38a428974ef1f205feffbfdbd6c5fbb527765342fcb0a419b208cb8caa04942334205687adaa2a79601a979fb2ca5d4a1361fe0b2a8b28cb0b14f451d068eb35bdcf855dd224a6ec582116872d05091eb69489e781387c2112c47f1dbba4a3bbbfe4984f02baf2a20b34fa813a8b16fc7e7d9e87a80d4282e9c74334001e3c37dc0df10185dd81cbdf610fd14fe458c43e28d4536be80490d2dd4b9aa8d33e9fe5f9c95b23d8a5208614381515021c2f00fa4c4a68da80173c051ec94346082266a2f3e405548fd483121eaaf36d3f66e60f969062eb887673b7a0c2f383f14752a5e86d1fb8bc0780c8cfa4f98468b876f69c404217ff362dc1409ff5414dfe5eec5c2e99a1bf00d1363cd8da3d89e041f06098aef1929ae5c4a98bb4c93a80d3632dacd42fa3edd291d776c925185f5bf2bcbcc9b6e6a57bcb4525ce01d29efdf083d563addeda9df482c32a88815724f118ce9175bb3eb046ef1f3a41782550790dd10f11cef648b01f628a44646c70a3458c7142e747ec2af439504963652e3fdee9c9e7c59bf58fee64f3df8912397dde560aa04da12d2582481e04c67f242c48c91ed78c618f445478f8a0d1f0258dd603cff4f4e4fd34cb1af8a4c83fca86ad633b44d1e3dec3ec3eb86e108aa3c190ff31f01174780c778e5d",
+            "d7e33d48c9a40765aebfbbb7afdf768fcd7ce65cf1b0961feb7ba5a3011c18eb19562daefb318632de89a8d0e720052e287441afc1b3eb931b4bd8e8104f16036922e9b71a5cacb56f35a5cc60e734821398c6c8357ca0b4f61033d4b384ce070f5232eb437d3cc7bf77a7ef1dddc0aad41948ab23e6343235a16ed76cd523f141252a7ba130a3db6cbdd864a2c722bafc6fe3621d28e4b96e4c2f0c0e807a875972d1c04c6c5ee4c52156f30c392b693507414f04e642916c379557f7d43487404e9711ed4c2204adbcca13d52533c54621e2910d4f8a9751110743bcb841154060e4d3f811ced069ea9164b433808b3812041a61de1fd70f0d77f80857a645d4cf18cb1882a80002e3df44d80826606afe47323a6ca9919863a8925702a2ee0724c77b09542e01d89b900d54b012b012701b408150ed365d23238868f3a13a000a79ae1cb97fe804f031936800b0db46194c95cdeed209f3e22630c10e96008aa94d872b673ab62b5dbe01e23a94d44d74e39c31aea746d843c8781551992e965b0091110404019074f7420b6096bac12c108b923282529e44c672c865b1be7833b16980481e045e3b7600532d845562c716c5b43382ffffff0f"
+        ],
+        "rawHeaders": [
+            "Date",
+            "Mon, 02 Mar 2020 19:52:30 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d8b3746b360904e7886d7e8bda80f30631583178748; expires=Wed, 01-Apr-20 19:52:28 GMT; path=/; domain=.ccryptoex.com; HttpOnly; SameSite=Lax",
+            "X-Frame-Options",
+            "DENY",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Access-Control-Allow-Origin",
+            "*",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "56dda88b2fc1fc69-ZAG",
+            "Content-Encoding",
+            "br"
+        ],
+        "responseIsBinary": false
+    }
+]
