@@ -1,3 +1,20 @@
+# [2.26.0](https://github.com/coinranking/exchanges/compare/v2.25.0...v2.26.0) (2020-03-20)
+
+
+### Bug Fixes
+
+* change url to fetch tickers ([d18d2bc](https://github.com/coinranking/exchanges/commit/d18d2bceb903b25ffe273388ee18cbc8a1e814ea))
+* chnage ticker.low ([8ee3eae](https://github.com/coinranking/exchanges/commit/8ee3eaeabf5dc4facf0440874de4305e9820b330))
+* remove reversed base and quote ([6c645d7](https://github.com/coinranking/exchanges/commit/6c645d75842c904a7e09f0d6194bdd995f86fad8))
+* reverse base and quote volume ([0a486a5](https://github.com/coinranking/exchanges/commit/0a486a5d337941ad3ed4865c35751d1e84328766))
+
+
+### Features
+
+* nanu exchange ([6529131](https://github.com/coinranking/exchanges/commit/6529131efe06c4e9e61a61d0676a4ac4b084a0c7))
+* rudex exchange ([cc27a7d](https://github.com/coinranking/exchanges/commit/cc27a7d9252c314ba8b01cf7fa4bf426feeae0a3))
+* yoobtc exchange ([358eeb0](https://github.com/coinranking/exchanges/commit/358eeb0f264efd68a83cfb8c209d706c644e6bce))
+
 # [2.25.0](https://github.com/coinranking/exchanges/compare/v2.24.0...v2.25.0) (2020-03-19)
 
 
