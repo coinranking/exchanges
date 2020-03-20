@@ -1,0 +1,50 @@
+[
+    {
+        "scope": "https://nami.exchange:443",
+        "method": "GET",
+        "path": "/api/v1.0/market/summaries",
+        "body": "",
+        "status": 200,
+        "response": [
+            "51ac230020a6ac51ca576f1a98e2ba437e02bc5a5b257ecff79144f3e9ec615e321e492f5ac589aacd2451fb4554561309775b67d642b0d7ece75ffafaedf1b7ef5f69a58f6f69a137b63469bdfb97b2ff95563addd8ba7eb57d8d96bfd5577c68f913adc2229aba90d67d0fcd5fd12acf4bdf0dcfa5309039a6a7a67ddf7dfc7954a980b0055350795890d2435e1bb48e1cd5780a70937df81d74383b6b16daa4bf30a1f5f437ad54b8ac4666dc79bab145ff172ee876aeedaf670063d9631aac869d06e700769a823500da15bdcfa81122fd08e769af15",
+            "be13f96ab28b3d51da4e0562e7dafe0857e707a76dc27c28bcd2018f9c84870f805fc7146c4e081b2771ab086e0f03e6058e10faa562020aceb1d3ddbcd63312d7a3c63d913a6cd8327c8f0723c2b7a77127fb792ad525289c1d8c918013f20715aed3ec405b6bdbd0dabcd64568374f37935e1320c587abb6f3da5cdd3c4081b3dd6809afcde165ece729559510564ed013e0ea29e4d3728133606de6109ba79bc18e0f4e8f12e66c65080577d69c333c1ac81cb805d8e16ca319327a84f878280cc245c270936291c20c9c50740e3286b973703c83984f00196d5ae928449b627b4442b12a41fe021aead96ce3e72d8a184bc0bc5d20ee1c1c0fb1bb738d0ee8d522451336766a214403b6b81106ac468804aa51dd01f83df10cd3c3d5291209b1bb736d94ad9de3cb566101222161ee85a884825901",
+            "283f0040549b24e22f7e8a1dfb92c0ad9bd4071ba8aae9c910fc9fee27e9908755fe077a0936a001255fbc45a627453944c2b3ed25dc62b093fb0b27f448353336f60591303363a308eb93c5e9d55e55f2de40d0fa153acfcfc7fd6cb1ec27c21306dd8dd8ea013daa42ec0fe20a42e4006c143bd606b9872e2056ab387f4c40a17ddcd7ebf11fb55975e70e99866a8b858d0aa2324b067c41eefd51a38a58667223c39d4b1c634d9674b9afd793d7953696110837e0d8581131645e56d1343b866216c22577f0285e40c87a658cf5beeff3eff7eb90ddd9c0688f558e81768c15b6543e80183b4c451bdacc32f70591041af0cfa15bc290b3a412a796d0856a45dd85f7fabc0f2ec7640c09741c48560799c50e95780229f6b18b1aa33253d10c17956d16f804850cbc15fd7b8912c245ae546712522bda615a4483a68da7332b3af30966297f50570212f211c7414c6028ea99c610aa66924dd6fa7130290a6cadf379ed50f2b632682049512ef2b9240ac30cccb28bff2062e26243caeb2102ed442dbf5024e1c7f97cbcffdf",
+            "03"
+        ],
+        "rawHeaders": [
+            "Date",
+            "Mon, 02 Mar 2020 21:26:13 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d2b2f7377eb3bc84358062ae57217ae021583184372; expires=Wed, 01-Apr-20 21:26:12 GMT; path=/; domain=.nami.exchange; HttpOnly; SameSite=Lax; Secure",
+            "X-Powered-By",
+            "Express",
+            "set-cookie",
+            "nami-game-session=b9c0cf31bccc8252c404adb1cf3fc839RvA13TTnVzO33dQ6kaNbzTkUKMJIl2XTJ%2FPrvvPITDnILwR%2BizPtsFoqyC0lTe7uGJwY5kG%2Bk3nqdLhzwjpojDQH3yK9tLSM15jCtIwoayuBKCtGhJPggNBhBjY9e5zB; Path=/; Expires=Mon, 16 Mar 2020 21:26:12 GMT; HttpOnly",
+            "x-ratelimit-limit",
+            "60",
+            "x-ratelimit-remaining",
+            "59",
+            "Strict-Transport-Security",
+            "max-age=63072000; includeSubDomains; preload",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "set-cookie",
+            "nami-game-session-values=3bdcdd0b692bd5b0aeb210f3b9de4a1c%2Fqa6QMeVgmi1k7odXFl8NhNIIPTa0Dr93QM9HijgRnABkY5%2BW7FWZDf9RQcaVckYJ%2F36eza3tjYQD%2FWEb1P5Aw%3D%3D; Path=/; Expires=Mon, 16 Mar 2020 21:26:12 GMT; HttpOnly",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "56de31d9f876fc71-ZAG",
+            "Content-Encoding",
+            "br"
+        ],
+        "responseIsBinary": false
+    }
+]

@@ -1,0 +1,256 @@
+[
+    {
+        "scope": "https://api.altcointrader.co.za:443",
+        "method": "GET",
+        "path": "/v3/live-stats",
+        "body": "",
+        "status": 200,
+        "response": {
+            "BTC": {
+                "Price": "144292.00",
+                "Sell": "144292.00",
+                "Buy": "144002.00",
+                "High": "144987.00",
+                "Low": "139750.00",
+                "Volume": "71.47",
+                "Close": "139950.00"
+            },
+            "LTC": {
+                "Price": "1000.00",
+                "Sell": "1014.99",
+                "Buy": "998.00",
+                "High": "1015.00",
+                "Low": "926.74",
+                "Volume": "175.91",
+                "Close": "950.00"
+            },
+            "NMC": {
+                "Price": "8.05",
+                "Sell": "8.44",
+                "Buy": "8.05",
+                "High": "8.48",
+                "Low": "7.61",
+                "Volume": "257.30",
+                "Close": "8.47"
+            },
+            "XRP": {
+                "Price": "3.83",
+                "Sell": "3.89",
+                "Buy": "3.83",
+                "High": "3.90",
+                "Low": "3.68",
+                "Volume": "56654.89",
+                "Close": "3.73"
+            },
+            "ETH": {
+                "Price": "3848.99",
+                "Sell": "3848.99",
+                "Buy": "3702.00",
+                "High": "3849.00",
+                "Low": "3515.00",
+                "Volume": "77.31",
+                "Close": "3618.99"
+            },
+            "DASH": {
+                "Price": "1560.00",
+                "Sell": "1559.99",
+                "Buy": "1352.00",
+                "High": "1560.00",
+                "Low": "1300.00",
+                "Volume": "10.58",
+                "Close": "1546.99"
+            },
+            "ZEC": {
+                "Price": "850.00",
+                "Sell": "999.99",
+                "Buy": "850.00",
+                "High": "999.99",
+                "Low": "804.00",
+                "Volume": "9.06",
+                "Close": "844.00"
+            },
+            "BCC": {
+                "Price": "5797.99",
+                "Sell": "5800.09",
+                "Buy": "5420.00",
+                "High": "5797.99",
+                "Low": "5100.00",
+                "Volume": "5.83",
+                "Close": "5100.00"
+            },
+            "BTG": {
+                "Price": "161.99",
+                "Sell": "164.00",
+                "Buy": "161.99",
+                "High": "166.99",
+                "Low": "140.01",
+                "Volume": "103.83",
+                "Close": "139950.00"
+            },
+            "BTCP": {
+                "Price": "4.04",
+                "Sell": "4.08",
+                "Buy": "4.04",
+                "High": "4.08",
+                "Low": "4.00",
+                "Volume": "3822.68",
+                "Close": "139950.00"
+            },
+            "USDT": {
+                "Price": "16.12",
+                "Sell": "16.95",
+                "Buy": "16.12",
+                "High": "17.48",
+                "Low": "16.00",
+                "Volume": "315.49",
+                "Close": "17.10"
+            },
+            "ADA": {
+                "Price": "0.8197",
+                "Sell": "0.8195",
+                "Buy": "0.7756",
+                "High": "0.8290",
+                "Low": "0.7501",
+                "Volume": "77232.32",
+                "Close": "0.7584"
+            },
+            "USDT_BTC": {
+                "Price": "12700.00",
+                "Sell": "11300.00",
+                "Buy": "6550.00",
+                "High": "0.00",
+                "Low": "0.00",
+                "Volume": "0.00",
+                "Close": "0.00"
+            },
+            "NEO": {
+                "Price": "195.00",
+                "Sell": "199.99",
+                "Buy": "184.00",
+                "High": "195.00",
+                "Low": "178.01",
+                "Volume": "87.01",
+                "Close": "181.00"
+            },
+            "GAS": {
+                "Price": "29.50",
+                "Sell": "29.48",
+                "Buy": "27.00",
+                "High": "29.98",
+                "Low": "25.00",
+                "Volume": "548.93",
+                "Close": "28.00"
+            },
+            "XLM": {
+                "Price": "0.99",
+                "Sell": "0.99",
+                "Buy": "0.95",
+                "High": "0.99",
+                "Low": "0.91",
+                "Volume": "23105.37",
+                "Close": "0.93"
+            },
+            "TRX": {
+                "Price": "0.2968",
+                "Sell": "0.2968",
+                "Buy": "0.2815",
+                "High": "0.2975",
+                "Low": "0.2641",
+                "Volume": "100582.91",
+                "Close": "0.2759"
+            },
+            "BSV": {
+                "Price": "3900.01",
+                "Sell": "4099.99",
+                "Buy": "3900.01",
+                "High": "4098.99",
+                "Low": "3440.00",
+                "Volume": "23.07",
+                "Close": "3610.00"
+            },
+            "XMR": {
+                "Price": "1100.89",
+                "Sell": "1150.00",
+                "Buy": "1075.00",
+                "High": "1200.00",
+                "Low": "1100.89",
+                "Volume": "2.99",
+                "Close": "1200.00"
+            },
+            "DOGE": {
+                "Price": "0.0410",
+                "Sell": "0.0410",
+                "Buy": "0.0388",
+                "High": "0.0410",
+                "Low": "0.0356",
+                "Volume": "72686.56",
+                "Close": "0.0386"
+            },
+            "BTT": {
+                "Price": "0.0064",
+                "Sell": "0.0064",
+                "Buy": "0.0063",
+                "High": "0.0067",
+                "Low": "0.0060",
+                "Volume": "16715489.97",
+                "Close": "0.0060"
+            },
+            "XAU": {
+                "Price": "26500.00",
+                "Sell": "26500.00",
+                "Buy": "26100.00",
+                "High": "26987.93",
+                "Low": "26500.00",
+                "Volume": "0.56",
+                "Close": "26987.93"
+            },
+            "XAG": {
+                "Price": "388.99",
+                "Sell": "388.00",
+                "Buy": "378.99",
+                "High": "388.99",
+                "Low": "367.01",
+                "Volume": "0.93",
+                "Close": "367.01"
+            },
+            "BAT": {
+                "Price": "3.69",
+                "Sell": "3.69",
+                "Buy": "3.69",
+                "High": "3.69",
+                "Low": "3.26",
+                "Volume": "4709.85",
+                "Close": "3.40"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Mon, 02 Mar 2020 20:08:00 GMT",
+            "Server",
+            "Apache",
+            "Expires",
+            "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate",
+            "Pragma",
+            "no-cache",
+            "Set-Cookie",
+            "PHPSESSID=80bff29921567b9d6a7553d5c9223684; path=/",
+            "Vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, content-type",
+            "Access-Control-Allow-Methods",
+            "936",
+            "Keep-Alive",
+            "timeout=5, max=100",
+            "Connection",
+            "Keep-Alive",
+            "Content-Type",
+            "application/json"
+        ],
+        "responseIsBinary": false
+    }
+]

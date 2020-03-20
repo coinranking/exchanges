@@ -1,0 +1,1141 @@
+[
+    {
+        "scope": "https://payrue.com:8090",
+        "method": "GET",
+        "path": "/api/v1/public/volumes",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status_response": {
+                "http_status_code": 200,
+                "status": true,
+                "response_message": "status:ok",
+                "response_internal_code": 0
+            },
+            "total_xlm_volume": "1076262.2441865",
+            "total_xlm_volume_usd": "63912.92",
+            "total_eth_volume": "0.000000000000000000",
+            "total_eth_volume_usd": "0.00",
+            "total_volume_usd": "63912.92",
+            "pairs": [
+                {
+                    "symbol": "XLM/ABDT",
+                    "base_volume": "1140.5051466",
+                    "quote_volume": "50692.652675",
+                    "price": "0.02",
+                    "last_price": "0.02"
+                },
+                {
+                    "symbol": "XLM/Abra",
+                    "base_volume": "0.6720992",
+                    "quote_volume": "6.1099987",
+                    "price": "0.1099998899",
+                    "last_price": "0.1099998899"
+                },
+                {
+                    "symbol": "XLM/ACU",
+                    "base_volume": "120.00222010000002",
+                    "quote_volume": "210314.54613610002",
+                    "price": "0.0008999",
+                    "last_price": "0.0008999"
+                },
+                {
+                    "symbol": "XLM/ADSX",
+                    "base_volume": "4.8024034",
+                    "quote_volume": "165.5999984",
+                    "price": "0.029",
+                    "last_price": "0.029"
+                },
+                {
+                    "symbol": "XLM/ALEXA",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000171",
+                    "last_price": "0.00000171"
+                },
+                {
+                    "symbol": "XLM/AngelXYZ",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.003",
+                    "last_price": "0.003"
+                },
+                {
+                    "symbol": "XLM/ATC",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "17.09998016402301",
+                    "last_price": "17.09998016402301"
+                },
+                {
+                    "symbol": "XLM/ATMANT",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "1.5e-7",
+                    "last_price": "1.5e-7"
+                },
+                {
+                    "symbol": "XLM/ATOMBOMB",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "100",
+                    "last_price": "100"
+                },
+                {
+                    "symbol": "XLM/AZGL",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0078658",
+                    "last_price": "0.0078658"
+                },
+                {
+                    "symbol": "XLM/BAT",
+                    "base_volume": "268.3425953",
+                    "quote_volume": "80.62608730000001",
+                    "price": "3.80529998",
+                    "last_price": "3.80529998"
+                },
+                {
+                    "symbol": "XLM/BCH",
+                    "base_volume": "0.34852340000000004",
+                    "quote_volume": "0.00006260000000000002",
+                    "price": "5657.748049052397",
+                    "last_price": "5657.748049052397"
+                },
+                {
+                    "symbol": "XLM/BEER",
+                    "base_volume": "0.0034499999999999995",
+                    "quote_volume": "0.000023000000000000007",
+                    "price": "150",
+                    "last_price": "150"
+                },
+                {
+                    "symbol": "XLM/Bellsprout",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00098",
+                    "last_price": "0.00098"
+                },
+                {
+                    "symbol": "XLM/BILL",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "1.2e-7",
+                    "last_price": "1.2e-7"
+                },
+                {
+                    "symbol": "XLM/BILLEX",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.09",
+                    "last_price": "0.09"
+                },
+                {
+                    "symbol": "XLM/BILLEX1",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.1248981",
+                    "last_price": "0.1248981"
+                },
+                {
+                    "symbol": "XLM/BIZZNERD",
+                    "base_volume": "0.25",
+                    "quote_volume": "3.6231883",
+                    "price": "0.069",
+                    "last_price": "0.069"
+                },
+                {
+                    "symbol": "XLM/BLAC",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.001000001000001",
+                    "last_price": "0.001000001000001"
+                },
+                {
+                    "symbol": "XLM/BONUS",
+                    "base_volume": "49.19319719999999",
+                    "quote_volume": "7354.6979274",
+                    "price": "0.0073",
+                    "last_price": "0.0073"
+                },
+                {
+                    "symbol": "XLM/BOT",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.000015",
+                    "last_price": "0.000015"
+                },
+                {
+                    "symbol": "XLM/BTC",
+                    "base_volume": "132209.48317989998",
+                    "quote_volume": "0.8820660999999992",
+                    "price": "149253.73134328358",
+                    "last_price": "149253.73134328358"
+                },
+                {
+                    "symbol": "XLM/BTZ",
+                    "base_volume": "5.8322521",
+                    "quote_volume": "8800.0000052",
+                    "price": "0.0009999",
+                    "last_price": "0.0009999"
+                },
+                {
+                    "symbol": "XLM/CASS",
+                    "base_volume": "2857.5606331999998",
+                    "quote_volume": "1858.3811191",
+                    "price": "1.5899666",
+                    "last_price": "1.5899666"
+                },
+                {
+                    "symbol": "XLM/Caterpie",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.01",
+                    "last_price": "0.01"
+                },
+                {
+                    "symbol": "XLM/CENTUS",
+                    "base_volume": "888.7761979",
+                    "quote_volume": "5055.0968847",
+                    "price": "0.1895",
+                    "last_price": "0.1895"
+                },
+                {
+                    "symbol": "XLM/CNY",
+                    "base_volume": "10579.074726199997",
+                    "quote_volume": "4409.170989199999",
+                    "price": "2.3532665830168202",
+                    "last_price": "2.3532665830168202"
+                },
+                {
+                    "symbol": "XLM/COMETX",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0000015",
+                    "last_price": "0.0000015"
+                },
+                {
+                    "symbol": "XLM/CT",
+                    "base_volume": "0.6200000999999999",
+                    "quote_volume": "38.2716111",
+                    "price": "0.0162",
+                    "last_price": "0.0162"
+                },
+                {
+                    "symbol": "XLM/Cubone",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "812",
+                    "last_price": "812"
+                },
+                {
+                    "symbol": "XLM/Cyndaquil",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.3256",
+                    "last_price": "0.3256"
+                },
+                {
+                    "symbol": "XLM/DBC",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.006",
+                    "last_price": "0.006"
+                },
+                {
+                    "symbol": "XLM/DEV",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0200011",
+                    "last_price": "0.0200011"
+                },
+                {
+                    "symbol": "XLM/Diamond",
+                    "base_volume": "809.0555267",
+                    "quote_volume": "147101004.8545453",
+                    "price": "0.0000055",
+                    "last_price": "0.0000055"
+                },
+                {
+                    "symbol": "XLM/DMC",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.05",
+                    "last_price": "0.05"
+                },
+                {
+                    "symbol": "XLM/Dogecoin DOGE",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.04080053",
+                    "last_price": "0.04080053"
+                },
+                {
+                    "symbol": "XLM/DOGET",
+                    "base_volume": "4001.6893076999995",
+                    "quote_volume": "66828510.116947204",
+                    "price": "0.0000601",
+                    "last_price": "0.0000601"
+                },
+                {
+                    "symbol": "XLM/DRA",
+                    "base_volume": "2162.7820823",
+                    "quote_volume": "19831119.844398703",
+                    "price": "0.0001086",
+                    "last_price": "0.0001086"
+                },
+                {
+                    "symbol": "XLM/Drowzee",
+                    "base_volume": "6.6478813",
+                    "quote_volume": "3.9638978",
+                    "price": "2",
+                    "last_price": "2"
+                },
+                {
+                    "symbol": "XLM/Eevee",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.02000002000006",
+                    "last_price": "0.02000002000006"
+                },
+                {
+                    "symbol": "XLM/Electabuzz",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.06532106532147772",
+                    "last_price": "0.06532106532147772"
+                },
+                {
+                    "symbol": "XLM/Elekid",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0075107",
+                    "last_price": "0.0075107"
+                },
+                {
+                    "symbol": "XLM/ETH",
+                    "base_volume": "5726.362084399999",
+                    "quote_volume": "1.4772672000000002",
+                    "price": "3881.9875776397516",
+                    "last_price": "3881.9875776397516"
+                },
+                {
+                    "symbol": "XLM/ETHER",
+                    "base_volume": "1613.9999999",
+                    "quote_volume": "1075.9999999000001",
+                    "price": "1.5",
+                    "last_price": "1.5"
+                },
+                {
+                    "symbol": "XLM/ETX",
+                    "base_volume": "1596.5064391",
+                    "quote_volume": "671353.7455969",
+                    "price": "0.0024448",
+                    "last_price": "0.0024448"
+                },
+                {
+                    "symbol": "XLM/EUR",
+                    "base_volume": "20129.839943599996",
+                    "quote_volume": "1081.7236479",
+                    "price": "18.7419531",
+                    "last_price": "18.7419531"
+                },
+                {
+                    "symbol": "XLM/EVER",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0117912",
+                    "last_price": "0.0117912"
+                },
+                {
+                    "symbol": "XLM/FIDR",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.41669",
+                    "last_price": "0.41669"
+                },
+                {
+                    "symbol": "XLM/FRAS",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.1147217",
+                    "last_price": "0.1147217"
+                },
+                {
+                    "symbol": "XLM/FRED",
+                    "base_volume": "628.5596163999999",
+                    "quote_volume": "311570.74542570004",
+                    "price": "0.00215",
+                    "last_price": "0.00215"
+                },
+                {
+                    "symbol": "XLM/FUNT",
+                    "base_volume": "1651.4334204000006",
+                    "quote_volume": "74.49950789999998",
+                    "price": "21.45",
+                    "last_price": "21.45"
+                },
+                {
+                    "symbol": "XLM/GOLD",
+                    "base_volume": "7559.585468500001",
+                    "quote_volume": "9.737497900000001",
+                    "price": "849.9999",
+                    "last_price": "849.9999"
+                },
+                {
+                    "symbol": "XLM/GRIN",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "18",
+                    "last_price": "18"
+                },
+                {
+                    "symbol": "XLM/GTN",
+                    "base_volume": "46727.6971276",
+                    "quote_volume": "6909.788554000001",
+                    "price": "6.498748",
+                    "last_price": "6.498748"
+                },
+                {
+                    "symbol": "XLM/GTshare",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "2.622014",
+                    "last_price": "2.622014"
+                },
+                {
+                    "symbol": "XLM/GVUSD",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "14.27",
+                    "last_price": "14.27"
+                },
+                {
+                    "symbol": "XLM/Haunter",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.12000012000156002",
+                    "last_price": "0.12000012000156002"
+                },
+                {
+                    "symbol": "XLM/HLP",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0021064",
+                    "last_price": "0.0021064"
+                },
+                {
+                    "symbol": "XLM/HOPE",
+                    "base_volume": "0.35851",
+                    "quote_volume": "1021.6949172",
+                    "price": "0.0005899992999999998",
+                    "last_price": "0.0005899992999999998"
+                },
+                {
+                    "symbol": "XLM/Horsea",
+                    "base_volume": "7.999909",
+                    "quote_volume": "1000",
+                    "price": "0.007999909",
+                    "last_price": "0.007999909"
+                },
+                {
+                    "symbol": "XLM/HOT",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0100000010000001",
+                    "last_price": "0.0100000010000001"
+                },
+                {
+                    "symbol": "XLM/INR",
+                    "base_volume": "2.9787461",
+                    "quote_volume": "12.409695600000001",
+                    "price": "0.232",
+                    "last_price": "0.232"
+                },
+                {
+                    "symbol": "XLM/Jigglypuff",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "1.5002749",
+                    "last_price": "1.5002749"
+                },
+                {
+                    "symbol": "XLM/KAVA",
+                    "base_volume": "4.89",
+                    "quote_volume": "66894.6648426",
+                    "price": "0.0000731",
+                    "last_price": "0.0000731"
+                },
+                {
+                    "symbol": "XLM/KES",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.3",
+                    "last_price": "0.3"
+                },
+                {
+                    "symbol": "XLM/KFIN",
+                    "base_volume": "375.9978999",
+                    "quote_volume": "5.5114886",
+                    "price": "70.5",
+                    "last_price": "70.5"
+                },
+                {
+                    "symbol": "XLM/KIN",
+                    "base_volume": "6003.0268045",
+                    "quote_volume": "72787697.49538939",
+                    "price": "0.0000833",
+                    "last_price": "0.0000833"
+                },
+                {
+                    "symbol": "XLM/Krabby",
+                    "base_volume": "0.3612002",
+                    "quote_volume": "60.999981",
+                    "price": "0.0089999909",
+                    "last_price": "0.0089999909"
+                },
+                {
+                    "symbol": "XLM/KTO/IDC/INDO",
+                    "base_volume": "7.300000000000001",
+                    "quote_volume": "3000000",
+                    "price": "0.0000026",
+                    "last_price": "0.0000026"
+                },
+                {
+                    "symbol": "XLM/LEVELG",
+                    "base_volume": "3082.7098323000005",
+                    "quote_volume": "5594.747440200004",
+                    "price": "0.5398373",
+                    "last_price": "0.5398373"
+                },
+                {
+                    "symbol": "XLM/LFEC",
+                    "base_volume": "21539.966904400004",
+                    "quote_volume": "68648.5955514",
+                    "price": "0.3199999",
+                    "last_price": "0.3199999"
+                },
+                {
+                    "symbol": "XLM/LLion",
+                    "base_volume": "1.0011",
+                    "quote_volume": "585.4283259",
+                    "price": "0.00171003",
+                    "last_price": "0.00171003"
+                },
+                {
+                    "symbol": "XLM/LTC",
+                    "base_volume": "1089.0268579999995",
+                    "quote_volume": "1.0592659999999996",
+                    "price": "1038.3137784238397",
+                    "last_price": "1038.3137784238397"
+                },
+                {
+                    "symbol": "XLM/MAG",
+                    "base_volume": "0.10038350000000001",
+                    "quote_volume": "9.6013548",
+                    "price": "0.0131996",
+                    "last_price": "0.0131996"
+                },
+                {
+                    "symbol": "XLM/Magnemite",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0543298",
+                    "last_price": "0.0543298"
+                },
+                {
+                    "symbol": "XLM/MEGA",
+                    "base_volume": "29.9999993",
+                    "quote_volume": "0.8848836999999999",
+                    "price": "30",
+                    "last_price": "30"
+                },
+                {
+                    "symbol": "XLM/Meowth",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.15",
+                    "last_price": "0.15"
+                },
+                {
+                    "symbol": "XLM/MOBI",
+                    "base_volume": "28956.374927500005",
+                    "quote_volume": "271650.1157538",
+                    "price": "0.10887999407257314",
+                    "last_price": "0.10887999407257314"
+                },
+                {
+                    "symbol": "XLM/MXRT",
+                    "base_volume": "0.7556328",
+                    "quote_volume": "1499.9999598000002",
+                    "price": "0.00127969",
+                    "last_price": "0.00127969"
+                },
+                {
+                    "symbol": "XLM/NGN",
+                    "base_volume": "23642.1936396",
+                    "quote_volume": "502943.7890961002",
+                    "price": "0.046072349059117626",
+                    "last_price": "0.046072349059117626"
+                },
+                {
+                    "symbol": "XLM/NYT",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00006",
+                    "last_price": "0.00006"
+                },
+                {
+                    "symbol": "XLM/Oddish",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.255",
+                    "last_price": "0.255"
+                },
+                {
+                    "symbol": "XLM/OMG",
+                    "base_volume": "0.0005773999999999999",
+                    "quote_volume": "0.000022",
+                    "price": "16.4971509",
+                    "last_price": "16.4971509"
+                },
+                {
+                    "symbol": "XLM/PALL",
+                    "base_volume": "126.11327649999998",
+                    "quote_volume": "0.0847238",
+                    "price": "1407.17",
+                    "last_price": "1407.17"
+                },
+                {
+                    "symbol": "XLM/Paras",
+                    "base_volume": "2.7996432999999996",
+                    "quote_volume": "3499.9999371",
+                    "price": "0.0007998981000000001",
+                    "last_price": "0.0007998981000000001"
+                },
+                {
+                    "symbol": "XLM/PEDI",
+                    "base_volume": "100.0798289",
+                    "quote_volume": "2501156.9405797",
+                    "price": "0.00004",
+                    "last_price": "0.00004"
+                },
+                {
+                    "symbol": "XLM/Pidgeot",
+                    "base_volume": "0.4999999",
+                    "quote_volume": "9.999996",
+                    "price": "0.05000001",
+                    "last_price": "0.05000001"
+                },
+                {
+                    "symbol": "XLM/PLAT",
+                    "base_volume": "353.62882199999996",
+                    "quote_volume": "0.7230002000000001",
+                    "price": "507",
+                    "last_price": "507"
+                },
+                {
+                    "symbol": "XLM/Propel",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.001",
+                    "last_price": "0.001"
+                },
+                {
+                    "symbol": "XLM/Psyduck",
+                    "base_volume": "0.111177",
+                    "quote_volume": "1.010699",
+                    "price": "0.11000011000132001",
+                    "last_price": "0.11000011000132001"
+                },
+                {
+                    "symbol": "XLM/PYBC",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.01204",
+                    "last_price": "0.01204"
+                },
+                {
+                    "symbol": "XLM/RAIN",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.2093511",
+                    "last_price": "0.2093511"
+                },
+                {
+                    "symbol": "XLM/RCK",
+                    "base_volume": "1",
+                    "quote_volume": "8087.3563887",
+                    "price": "0.00012364980000000042",
+                    "last_price": "0.00012364980000000042"
+                },
+                {
+                    "symbol": "XLM/REPO",
+                    "base_volume": "174637.77454500008",
+                    "quote_volume": "194041.97178909995",
+                    "price": "0.9",
+                    "last_price": "0.9"
+                },
+                {
+                    "symbol": "XLM/RIFT",
+                    "base_volume": "16.286591299999998",
+                    "quote_volume": "81667886.9987525",
+                    "price": "1.9999900000499997e-7",
+                    "last_price": "1.9999900000499997e-7"
+                },
+                {
+                    "symbol": "XLM/RIO",
+                    "base_volume": "5599.1537161",
+                    "quote_volume": "1092.5884935",
+                    "price": "4.9",
+                    "last_price": "4.9"
+                },
+                {
+                    "symbol": "XLM/SB",
+                    "base_volume": "3389.7138853999986",
+                    "quote_volume": "3014.5887175999987",
+                    "price": "1.3",
+                    "last_price": "1.3"
+                },
+                {
+                    "symbol": "XLM/SCOP",
+                    "base_volume": "6265.409771700003",
+                    "quote_volume": "39789.7062992",
+                    "price": "0.15749",
+                    "last_price": "0.15749"
+                },
+                {
+                    "symbol": "XLM/SHX",
+                    "base_volume": "127.43339259999999",
+                    "quote_volume": "21238.9999865",
+                    "price": "0.0052316",
+                    "last_price": "0.0052316"
+                },
+                {
+                    "symbol": "XLM/SIX",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.03160260008496043",
+                    "last_price": "0.03160260008496043"
+                },
+                {
+                    "symbol": "XLM/SKN1",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "20",
+                    "last_price": "20"
+                },
+                {
+                    "symbol": "XLM/SKY",
+                    "base_volume": "0.308351",
+                    "quote_volume": "2339.535653",
+                    "price": "0.0001318",
+                    "last_price": "0.0001318"
+                },
+                {
+                    "symbol": "XLM/Slowpoke",
+                    "base_volume": "8",
+                    "quote_volume": "100",
+                    "price": "0.08",
+                    "last_price": "0.08"
+                },
+                {
+                    "symbol": "XLM/SLT",
+                    "base_volume": "100134.90767740003",
+                    "quote_volume": "17357.385867499997",
+                    "price": "5.9987043",
+                    "last_price": "5.9987043"
+                },
+                {
+                    "symbol": "XLM/SLVR",
+                    "base_volume": "385.6710572",
+                    "quote_volume": "40.6215232",
+                    "price": "7.1",
+                    "last_price": "7.1"
+                },
+                {
+                    "symbol": "XLM/SMLS",
+                    "base_volume": "357.6003441",
+                    "quote_volume": "518210.2621009",
+                    "price": "0.00069",
+                    "last_price": "0.00069"
+                },
+                {
+                    "symbol": "XLM/Smoochum",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0078572",
+                    "last_price": "0.0078572"
+                },
+                {
+                    "symbol": "XLM/Staryu",
+                    "base_volume": "10",
+                    "quote_volume": "10000",
+                    "price": "0.001",
+                    "last_price": "0.001"
+                },
+                {
+                    "symbol": "XLM/STM",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.007100007100010365",
+                    "last_price": "0.007100007100010365"
+                },
+                {
+                    "symbol": "XLM/SUNSHINE",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.000027",
+                    "last_price": "0.000027"
+                },
+                {
+                    "symbol": "XLM/TERN",
+                    "base_volume": "25253.69417619999",
+                    "quote_volume": "207824.23267559992",
+                    "price": "0.1203012",
+                    "last_price": "0.1203012"
+                },
+                {
+                    "symbol": "XLM/TFC",
+                    "base_volume": "205.14094409999998",
+                    "quote_volume": "203.1388574",
+                    "price": "2.2",
+                    "last_price": "2.2"
+                },
+                {
+                    "symbol": "XLM/THB",
+                    "base_volume": "4.997997000000001",
+                    "quote_volume": "8.979419500000002",
+                    "price": "0.54",
+                    "last_price": "0.54"
+                },
+                {
+                    "symbol": "XLM/THORE",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00001008",
+                    "last_price": "0.00001008"
+                },
+                {
+                    "symbol": "XLM/TOX",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00145",
+                    "last_price": "0.00145"
+                },
+                {
+                    "symbol": "XLM/TROLL",
+                    "base_volume": "0.00043750000000000006",
+                    "quote_volume": "1.399902",
+                    "price": "0.0005151",
+                    "last_price": "0.0005151"
+                },
+                {
+                    "symbol": "XLM/UBI",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "8e-10",
+                    "last_price": "8e-10"
+                },
+                {
+                    "symbol": "XLM/UGX",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0003252",
+                    "last_price": "0.0003252"
+                },
+                {
+                    "symbol": "XLM/ULT",
+                    "base_volume": "19880.005362199998",
+                    "quote_volume": "47526.42283600001",
+                    "price": "0.4123",
+                    "last_price": "0.4123"
+                },
+                {
+                    "symbol": "XLM/USD",
+                    "base_volume": "261735.1657001999",
+                    "quote_volume": "14704.789457500006",
+                    "price": "16.872466",
+                    "last_price": "16.872466"
+                },
+                {
+                    "symbol": "XLM/USDX",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "3.318771",
+                    "last_price": "3.318771"
+                },
+                {
+                    "symbol": "XLM/UVU",
+                    "base_volume": "1124.5374526",
+                    "quote_volume": "102230.5999915",
+                    "price": "0.011",
+                    "last_price": "0.011"
+                },
+                {
+                    "symbol": "XLM/VBLD",
+                    "base_volume": "276.9617354",
+                    "quote_volume": "54788115.4337657",
+                    "price": "0.00000332",
+                    "last_price": "0.00000332"
+                },
+                {
+                    "symbol": "XLM/VEN",
+                    "base_volume": "7.7942126",
+                    "quote_volume": "1574518.5910977",
+                    "price": "0.0000241",
+                    "last_price": "0.0000241"
+                },
+                {
+                    "symbol": "XLM/VNT",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0000026000026000026",
+                    "last_price": "0.0000026000026000026"
+                },
+                {
+                    "symbol": "XLM/VOID",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "1.11e-7",
+                    "last_price": "1.11e-7"
+                },
+                {
+                    "symbol": "XLM/Vulpix",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "300",
+                    "last_price": "300"
+                },
+                {
+                    "symbol": "XLM/VZT",
+                    "base_volume": "523.2016476000001",
+                    "quote_volume": "20000.0009964",
+                    "price": "0.02981104",
+                    "last_price": "0.02981104"
+                },
+                {
+                    "symbol": "XLM/WAMPUM",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.000027",
+                    "last_price": "0.000027"
+                },
+                {
+                    "symbol": "XLM/Weedle",
+                    "base_volume": "2.1208104",
+                    "quote_volume": "222",
+                    "price": "0.0095532",
+                    "last_price": "0.0095532"
+                },
+                {
+                    "symbol": "XLM/Weepinbell",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.03510099",
+                    "last_price": "0.03510099"
+                },
+                {
+                    "symbol": "XLM/WLO",
+                    "base_volume": "519.829676",
+                    "quote_volume": "6507.289440300001",
+                    "price": "0.07663442393340267",
+                    "last_price": "0.07663442393340267"
+                },
+                {
+                    "symbol": "XLM/WXT",
+                    "base_volume": "28996.860639499995",
+                    "quote_volume": "171511.3931206",
+                    "price": "0.1685129",
+                    "last_price": "0.1685129"
+                },
+                {
+                    "symbol": "XLM/XAF",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.011",
+                    "last_price": "0.011"
+                },
+                {
+                    "symbol": "XLM/XCN",
+                    "base_volume": "93989.58158139997",
+                    "quote_volume": "37627.6473212",
+                    "price": "2.3493324",
+                    "last_price": "2.3493324"
+                },
+                {
+                    "symbol": "XLM/XCT",
+                    "base_volume": "5243.3916353",
+                    "quote_volume": "11948.899562300001",
+                    "price": "0.4399837400066626",
+                    "last_price": "0.4399837400066626"
+                },
+                {
+                    "symbol": "XLM/XEL",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0251011",
+                    "last_price": "0.0251011"
+                },
+                {
+                    "symbol": "XLM/XFF",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.425531914893617",
+                    "last_price": "0.425531914893617"
+                },
+                {
+                    "symbol": "XLM/XH5",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0699999299",
+                    "last_price": "0.0699999299"
+                },
+                {
+                    "symbol": "XLM/XIM",
+                    "base_volume": "23.4631369",
+                    "quote_volume": "312499.9993196",
+                    "price": "0.00006929979999999937",
+                    "last_price": "0.00006929979999999937"
+                },
+                {
+                    "symbol": "XLM/XIR",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.259",
+                    "last_price": "0.259"
+                },
+                {
+                    "symbol": "XLM/XLM",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "1818",
+                    "last_price": "1818"
+                },
+                {
+                    "symbol": "XLM/XLMG",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.0056",
+                    "last_price": "0.0056"
+                },
+                {
+                    "symbol": "XLM/XLPG",
+                    "base_volume": "10912.736910599999",
+                    "quote_volume": "3576.7347034000004",
+                    "price": "3.2999999",
+                    "last_price": "3.2999999"
+                },
+                {
+                    "symbol": "XLM/XRP",
+                    "base_volume": "7422.612609700005",
+                    "quote_volume": "1846.5645325000003",
+                    "price": "4.016064257028113",
+                    "last_price": "4.016064257028113"
+                },
+                {
+                    "symbol": "XLM/XYZ",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.008294171022488816",
+                    "last_price": "0.008294171022488816"
+                },
+                {
+                    "symbol": "XLM/Zi",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.8444958085561782",
+                    "last_price": "0.8444958085561782"
+                },
+                {
+                    "symbol": "XLM/ZRX",
+                    "base_volume": "3138.9869949",
+                    "quote_volume": "790.0090972",
+                    "price": "3.9711220008101087",
+                    "last_price": "3.9711220008101087"
+                },
+                {
+                    "symbol": "DENT/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                },
+                {
+                    "symbol": "IXT/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                },
+                {
+                    "symbol": "USDT/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                },
+                {
+                    "symbol": "USDC/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                },
+                {
+                    "symbol": "ZRX/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                },
+                {
+                    "symbol": "BAT/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                },
+                {
+                    "symbol": "DAI/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                },
+                {
+                    "symbol": "GRG/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                },
+                {
+                    "symbol": "LEND/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                },
+                {
+                    "symbol": "BUSD/ETH",
+                    "base_volume": "0",
+                    "quote_volume": "0",
+                    "price": "0.00000000",
+                    "last_price": "0.00000000"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Origin",
+            "*",
+            "Content-Type",
+            "application/json",
+            "Date",
+            "Mon, 02 Mar 2020 21:46:18 GMT",
+            "Transfer-Encoding",
+            "chunked"
+        ],
+        "responseIsBinary": false
+    }
+]
