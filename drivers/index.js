@@ -115,6 +115,7 @@ exports.dinarexchanger = require('./dinarexchanger');
 exports.dobitrade = require('./dobitrade');
 exports.dovewallet = require('./dovewallet');
 exports.dragonex = require('./dragonex');
+exports.drgx = require('./drgx');
 exports.dsx = require('./dsx');
 exports.eterbase = require('./eterbase');
 exports.etherflyer = require('./etherflyer');
