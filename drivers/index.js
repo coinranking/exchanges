@@ -211,6 +211,7 @@ exports.sparkdex = require('./sparkdex');
 exports.squirrex = require('./squirrex');
 exports.stellarport = require('./stellarport');
 exports.stex = require('./stex');
+exports.surface = require('./surface');
 exports.switcheo = require('./switcheo');
 exports.tchapp = require('./tchapp');
 exports.therock = require('./therock');
