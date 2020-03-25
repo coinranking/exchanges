@@ -1,3 +1,16 @@
+# [2.31.0](https://github.com/coinranking/exchanges/compare/v2.30.0...v2.31.0) (2020-03-25)
+
+
+### Bug Fixes
+
+* **bitsten:** used basevolume as quotevolume ([e9a22d9](https://github.com/coinranking/exchanges/commit/e9a22d95fd7bc4c72f0301821c33583dcdc686e1))
+* remove base volume ([9676e82](https://github.com/coinranking/exchanges/commit/9676e82d01350b7c3f3df6cf9abbd194818d0b32))
+
+
+### Features
+
+* bitsten driver ([8c0731d](https://github.com/coinranking/exchanges/commit/8c0731d35553545013660c75b2ccbba09a127f3a))
+
 # [2.30.0](https://github.com/coinranking/exchanges/compare/v2.29.0...v2.30.0) (2020-03-25)
 
 
