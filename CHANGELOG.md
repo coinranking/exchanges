@@ -1,3 +1,11 @@
+# [2.29.0](https://github.com/coinranking/exchanges/compare/v2.28.0...v2.29.0) (2020-03-25)
+
+
+### Features
+
+* add bid and ask ([734d5c6](https://github.com/coinranking/exchanges/commit/734d5c668ea6f8595080c0fbd5610f22f40660b3))
+* drgx driver ([36fb07d](https://github.com/coinranking/exchanges/commit/36fb07dbbb4c3660ee748f6ec7c3db360c7c1845))
+
 # [2.28.0](https://github.com/coinranking/exchanges/compare/v2.27.0...v2.28.0) (2020-03-20)
 
 
