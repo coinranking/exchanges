@@ -1,3 +1,15 @@
+# [2.30.0](https://github.com/coinranking/exchanges/compare/v2.29.0...v2.30.0) (2020-03-25)
+
+
+### Bug Fixes
+
+* virtuse exchange with new logic of getting tickers ([f5df628](https://github.com/coinranking/exchanges/commit/f5df62884dfbb17f0481e930d5b203e88b58210b))
+
+
+### Features
+
+* virtuse driver ([4d75084](https://github.com/coinranking/exchanges/commit/4d75084887c3d9a7736f58d4f7c402ea03703c95))
+
 # [2.29.0](https://github.com/coinranking/exchanges/compare/v2.28.0...v2.29.0) (2020-03-25)
 
 
