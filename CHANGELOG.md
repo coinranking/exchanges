@@ -1,3 +1,10 @@
+# [2.32.0](https://github.com/coinranking/exchanges/compare/v2.31.0...v2.32.0) (2020-03-25)
+
+
+### Features
+
+* abit driver ([a74693f](https://github.com/coinranking/exchanges/commit/a74693f9cb827bf4dfc2602e6f40568a62774268))
+
 # [2.31.0](https://github.com/coinranking/exchanges/compare/v2.30.0...v2.31.0) (2020-03-25)
 
 
