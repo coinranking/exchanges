@@ -206,6 +206,7 @@ exports.resfinex = require('./resfinex');
 exports.rightbtc = require('./rightbtc');
 exports.rudex = require('./rudex');
 exports.satoexchange = require('./satoexchange');
+exports.saturn = require('./saturn');
 exports.shortex = require('./shortex');
 exports.simex = require('./simex');
 exports.sistemkoin = require('./sistemkoin');
