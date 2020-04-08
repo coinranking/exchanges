@@ -9,6 +9,7 @@ exports.altcointrader = require('./altcointrader');
 exports.altilly = require('./altilly');
 exports.altmarkets = require('./altmarkets');
 exports.atomars = require('./atomars');
+exports.bamboo = require('./bamboo');
 exports.bancor = require('./bancor');
 exports.bancor = require('./bancor');
 exports.bankera = require('./bankera');
