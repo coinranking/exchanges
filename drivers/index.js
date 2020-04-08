@@ -135,6 +135,7 @@ exports.fcexchange = require('./fcexchange');
 exports.fcoin = require('./fcoin');
 exports.felixo = require('./felixo');
 exports.finexbox = require('./finexbox');
+exports.fivestar = require('./fivestar');
 exports.forkdelta = require('./forkdelta');
 exports.ftx = require('./ftx');
 exports.gateio = require('./gateio');
