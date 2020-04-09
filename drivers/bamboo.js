@@ -17,8 +17,6 @@ module.exports = async (isMocked) => {
       quote,
       quoteReference: market.quoteTokenAddress,
       close: parseToFloat(ticker.price),
-      bid: parseToFloat(ticker.bestBid), // reversed with ask
-      ask: parseToFloat(ticker.bestAsk),
       baseVolume: parseToFloat(stats.quoteVolume24Hour), // reversed with quote volume
       quoteVolume: parseToFloat(stats.volume24Hour),
 
