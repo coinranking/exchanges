@@ -1,3 +1,10 @@
+# [2.35.0](https://github.com/coinranking/exchanges/compare/v2.34.0...v2.35.0) (2020-04-14)
+
+
+### Features
+
+* extstock driver ([ecb9193](https://github.com/coinranking/exchanges/commit/ecb91936366f98e5613145d1e9f97d6510d8886e))
+
 # [2.34.0](https://github.com/coinranking/exchanges/compare/v2.33.0...v2.34.0) (2020-04-14)
 
 
