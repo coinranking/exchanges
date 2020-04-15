@@ -3,7 +3,7 @@ const Ticker = require('../models/ticker');
 const { parseToFloat } = require('../lib/utils.js');
 
 module.exports = async () => {
-  const { data: { pairs: markets } } = await request(' https://sigen.pro/v1/web-public/exchange/summary');
+  const { data: { pairs: markets } } = await request('https://sigen.pro/v1/web-public/exchange/summary');
 
   return Object.keys(markets).map((market) => {
     const [base, quote] = market.split('_');
