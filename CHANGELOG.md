@@ -1,3 +1,24 @@
+# [2.35.0](https://github.com/coinranking/exchanges/compare/v2.34.0...v2.35.0) (2020-04-14)
+
+
+### Features
+
+* extstock driver ([ecb9193](https://github.com/coinranking/exchanges/commit/ecb91936366f98e5613145d1e9f97d6510d8886e))
+
+# [2.34.0](https://github.com/coinranking/exchanges/compare/v2.33.0...v2.34.0) (2020-04-14)
+
+
+### Bug Fixes
+
+* remove bid and ask price ([81f4e41](https://github.com/coinranking/exchanges/commit/81f4e41bdf2889ee6daca977e08d38d21e39c915))
+* remove bid and ask price ([81c72cc](https://github.com/coinranking/exchanges/commit/81c72ccaab5e0d0d19a55f49e6acdc9e9783ab0b))
+
+
+### Features
+
+* bamboo driver (Test is failed) ([9ab7657](https://github.com/coinranking/exchanges/commit/9ab7657bf7e4f280ff680d0c43e72e584075ee06))
+* five-start driver (test is failed) ([ce37314](https://github.com/coinranking/exchanges/commit/ce3731454d63034f5281329cc20adef4a0d765dc))
+
 # [2.33.0](https://github.com/coinranking/exchanges/compare/v2.32.0...v2.33.0) (2020-03-25)
 
 

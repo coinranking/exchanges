@@ -91,6 +91,22 @@ A driver should at least support `base`, `quote`, `close` and `baseVolume` or `q
 1. [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 2. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
 
+## Links
+
+### Reach out to us
+
+- [Telegram](https://t.me/CoinrankingOfficial)
+- [Forum](https://community.coinranking.com/c/developers/20)
+- [Twitter](https://twitter.com/coinranking)
+- [info@coinranking.com](mailto:info@coinranking.com)
+
+### Other
+
+- [Coinranking API](https://coinranking.com/page/cryptocurrency-api)
+- [API docs](https://docs.coinranking.com/)
+- [Supplies library](https://github.com/coinranking/supplies)
+
+
 ## License
 
 [MIT](LICENSE)
