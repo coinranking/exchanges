@@ -6,13 +6,14 @@ module.exports = async () => {
   const markets = await request('https://ticker.saturn.network/returnTicker.json');
 
   return Object.keys(markets).map((market) => {
-    const [base] = market.split('_');
+    const [quote, baseReference] = market.split('_');
     const ticker = markets[market];
 
     return new Ticker({
-      base,
-      quote: ticker.symbol,
-      quoteName: ticker.name,
+      base: ticker.symbol,
+      baseReference,
+      baseName: ticker.name,
+      quote,
       close: parseToFloat(ticker.last),
       baseVolume: parseToFloat(ticker.quoteVolume), // reversed with quote
       quoteVolume: parseToFloat(ticker.baseVolume),
