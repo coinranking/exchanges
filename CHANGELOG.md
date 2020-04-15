@@ -1,3 +1,15 @@
+# [2.37.0](https://github.com/coinranking/exchanges/compare/v2.36.0...v2.37.0) (2020-04-15)
+
+
+### Bug Fixes
+
+* typo ([3a869be](https://github.com/coinranking/exchanges/commit/3a869be93d40a3ba63f4ca9b9b06d87a1308f9df))
+
+
+### Features
+
+* sigen pro driver ([b8f40fc](https://github.com/coinranking/exchanges/commit/b8f40fc90ca8b56fc1d35b00232cdb777c0bc1bb))
+
 # [2.36.0](https://github.com/coinranking/exchanges/compare/v2.35.0...v2.36.0) (2020-04-15)
 
 
