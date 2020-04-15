@@ -1,3 +1,16 @@
+# [2.36.0](https://github.com/coinranking/exchanges/compare/v2.35.0...v2.36.0) (2020-04-15)
+
+
+### Bug Fixes
+
+* remove bid and ask price ([81be6c2](https://github.com/coinranking/exchanges/commit/81be6c2d299e0ca7daa96bd3f934a8c9901d9555))
+* reverse base with quote ([5d723a6](https://github.com/coinranking/exchanges/commit/5d723a6618262e0dc17e9ba0fe823da4fc7aaf56))
+
+
+### Features
+
+* saturn driver (test is failed ([4b3b0b9](https://github.com/coinranking/exchanges/commit/4b3b0b97c7b01a7ecd382ec8d264c9ed44e10c82))
+
 # [2.35.0](https://github.com/coinranking/exchanges/compare/v2.34.0...v2.35.0) (2020-04-14)
 
 
