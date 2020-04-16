@@ -242,6 +242,7 @@ exports.vindax = require('./vindax');
 exports.vinex = require('./vinex');
 exports.virtuse = require('./virtuse');
 exports.vitex = require('./vitex');
+exports.walkex = require('./walkex');
 exports.wavesexchange = require('./wavesexchange');
 exports.wazirx = require('./wazirx');
 exports.whitebit = require('./whitebit');
