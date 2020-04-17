@@ -188,6 +188,7 @@ exports.needyex = require('./needyex');
 exports.neraex = require('./neraex');
 exports.newcapital = require('./newcapital');
 exports.nocks = require('./nocks');
+exports.nominex = require('./nominex');
 exports.novadex = require('./novadex');
 exports.oceanex = require('./oceanex');
 exports.okcoin = require('./okcoin');
