@@ -1,6 +1,6 @@
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
-const { throttleMap, parseToFloat } = require('../lib/utils');
+const { parseToFloat } = require('../lib/utils');
 
 module.exports = async () => {
   const pairs = await request('https://trade.zeroexcoin.com/api/v2/peatio/public/markets/tickers');
