@@ -251,4 +251,5 @@ exports.yoobtc = require('./yoobtc');
 exports.zaif = require('./zaif');
 exports.zb = require('./zb');
 exports.zbg = require('./zbg');
+exports.zeroex = require('./zeroex');
 exports.zloadr = require('./zloadr');

@@ -1,0 +1,49 @@
+[
+    {
+        "scope": "https://trade.zeroexcoin.com:443",
+        "method": "GET",
+        "path": "/api/v2/peatio/public/markets/tickers",
+        "body": "",
+        "status": 200,
+        "response": [
+            "21580f002036b351d5937c7586ec0c705df3623effd7b47ba7a972744085279a899178c0914b9b0e37fa1b96c89ea7ead95c734e9c53fbd1051db8befdf42be76f57276fa7b2ffcaf19bec86cae81cedb3242e387fb9fbdec9fbb7eca2ab3a86b7ccf27a7e77a745a2d2bbc7cf56b9c92c2f039505054e704ec86ecfbfe9191a92a2f4527689d1eb7099e5f8e3f290ac0afe235d9345501360b5059b95324bb30e69da875fabbaec32e9da7ae0a1379ee9ff7f96bbb753fa7c457b0d9873154d40a9ca2e2a074b7e4c9d677455eb32720e3f78a1648a66844dd7edfb09a8464f11d4876d244fa8598b80dbed05aa215214f3bdecdea648ae966c175b0d8d4225ba2ad2a3d339dc2e36d6a2e2408e032de76f5747883edc3c25475f527a479ef72108026c58e5d93fdcd70a6b3002cbcb013618a48dd148847a7598159221db0fffffff07"
+        ],
+        "rawHeaders": [
+            "Date",
+            "Mon, 20 Apr 2020 15:44:52 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=dee672dcf86abf04f72c09a9e50a2481d1587397491; expires=Wed, 20-May-20 15:44:51 GMT; path=/; domain=.zeroexcoin.com; HttpOnly; SameSite=Lax; Secure",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Etag",
+            "W/\"d01e70c903b63d77755ccbc6266e1789\"",
+            "Vary",
+            "Origin",
+            "X-Envoy-Upstream-Service-Time",
+            "11",
+            "X-Request-Id",
+            "bddf3441-0c7c-4df9-848c-c437f248c43d",
+            "X-Runtime",
+            "0.008532",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "586ffd325a349121-ZAG",
+            "Content-Encoding",
+            "br",
+            "cf-request-id",
+            "0239dc93730000912145244200000001"
+        ],
+        "responseIsBinary": false
+    }
+]
