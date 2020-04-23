@@ -1,3 +1,19 @@
+# [2.38.0](https://github.com/coinranking/exchanges/compare/v2.37.0...v2.38.0) (2020-04-23)
+
+
+### Bug Fixes
+
+* remove unused variables ([0524104](https://github.com/coinranking/exchanges/commit/0524104c45e92045943dc6dff5a0203f0083b6d7))
+* rename base to quote volume ([3235fe8](https://github.com/coinranking/exchanges/commit/3235fe85bd1721a8bf9b008dde066955e0f6997b))
+
+
+### Features
+
+* luxtrade driver ([4bcbbc4](https://github.com/coinranking/exchanges/commit/4bcbbc4f2304cec6e5d38d68131d4810ca829fa8))
+* nominex driver ([9120970](https://github.com/coinranking/exchanges/commit/9120970a31b4255b4dbfac8f79e98a997576d7db))
+* walkex driver ([4e5fbfb](https://github.com/coinranking/exchanges/commit/4e5fbfb963af50c038ba5bd62114bfdfbfa74d68))
+* zeroex driver ([5b8288e](https://github.com/coinranking/exchanges/commit/5b8288eb4a43478e9c4c475cc6a31de17e16822d))
+
 # [2.37.0](https://github.com/coinranking/exchanges/compare/v2.36.0...v2.37.0) (2020-04-15)
 
 
