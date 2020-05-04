@@ -147,6 +147,7 @@ exports.gmojapan = require('./gmojapan');
 exports.goexchange = require('./goexchange');
 exports.graviex = require('./graviex');
 exports.hitbtc = require('./hitbtc');
+exports.hollaex = require('./hollaex');
 exports.hoo = require('./hoo');
 exports.hotbit = require('./hotbit');
 exports.huobiglobal = require('./huobiglobal');
