@@ -181,6 +181,7 @@ exports.lykke = require('./lykke');
 exports.maxmaincoin = require('./maxmaincoin');
 exports.mercado = require('./mercado');
 exports.mercatox = require('./mercatox');
+exports.morcrypto = require('./morcrypto');
 exports.mxc = require('./mxc');
 exports.nami = require('./nami');
 exports.nanu = require('./nanu');
