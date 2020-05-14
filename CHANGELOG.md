@@ -1,3 +1,10 @@
+# [2.39.0](https://github.com/coinranking/exchanges/compare/v2.38.1...v2.39.0) (2020-05-14)
+
+
+### Features
+
+* hollaex driver ([1c077bc](https://github.com/coinranking/exchanges/commit/1c077bc129121edecb6a375c91b7d57ea9dab7a7))
+
 ## [2.38.1](https://github.com/coinranking/exchanges/compare/v2.38.0...v2.38.1) (2020-05-14)
 
 
