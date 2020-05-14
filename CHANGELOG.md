@@ -1,3 +1,10 @@
+## [2.38.1](https://github.com/coinranking/exchanges/compare/v2.38.0...v2.38.1) (2020-05-14)
+
+
+### Bug Fixes
+
+* remove nanu.js - duplication ([4f6cdef](https://github.com/coinranking/exchanges/commit/4f6cdefbc4037d1d7d264d9096b281cc4cd40383))
+
 # [2.38.0](https://github.com/coinranking/exchanges/compare/v2.37.0...v2.38.0) (2020-04-23)
 
 
