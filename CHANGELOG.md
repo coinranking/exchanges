@@ -1,3 +1,10 @@
+# [2.40.0](https://github.com/coinranking/exchanges/compare/v2.39.0...v2.40.0) (2020-05-14)
+
+
+### Features
+
+* morcrypto driver ([f2eb682](https://github.com/coinranking/exchanges/commit/f2eb682e94d66691d4294d2a851ad231a7685d5e))
+
 # [2.39.0](https://github.com/coinranking/exchanges/compare/v2.38.1...v2.39.0) (2020-05-14)
 
 
