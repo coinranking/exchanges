@@ -14,6 +14,7 @@ exports.bancor = require('./bancor');
 exports.bancor = require('./bancor');
 exports.bankera = require('./bankera');
 exports.barginex = require('./barginex');
+exports.bcbitcoin = require('./bcbitcoin');
 exports.bcex = require('./bcex');
 exports.bequant = require('./bequant');
 exports.bgogo = require('./bgogo');
