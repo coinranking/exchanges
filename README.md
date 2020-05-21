@@ -64,13 +64,13 @@ npm run install
 List all supported drivers
 
 ```shell
-npm run list
+node lib/cli.js list
 ```
 
 Get the tickers of a specific exchange
 
 ```shell
-npm run tickers [name of the exchange]
+node lib/cli.js tickers [name of the exchange]
 ```
 
 ## Contributing

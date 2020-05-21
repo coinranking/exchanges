@@ -12,8 +12,6 @@
   },
   "readme": "README.md",
   "scripts": {
-    "tickers": "node -e \"require('./lib/cli').tickers()\"",
-    "list": "node -e \"require('./lib/cli').list()\"",
     "cm": "git-cz",
     "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
     "test": "npx jest",
