@@ -1,3 +1,10 @@
+# [2.41.0](https://github.com/coinranking/exchanges/compare/v2.40.0...v2.41.0) (2020-05-21)
+
+
+### Features
+
+* add support for BC Bitcoin ([db140ed](https://github.com/coinranking/exchanges/commit/db140edab2b9afd0630ffaf08eb9057042d05222))
+
 # [2.40.0](https://github.com/coinranking/exchanges/compare/v2.39.0...v2.40.0) (2020-05-14)
 
 
