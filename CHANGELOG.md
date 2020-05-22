@@ -1,3 +1,10 @@
+# [2.42.0](https://github.com/coinranking/exchanges/compare/v2.41.0...v2.42.0) (2020-05-22)
+
+
+### Features
+
+* update abit with new url ([c04fe68](https://github.com/coinranking/exchanges/commit/c04fe684644573d7b143773d5034dae20215e2d8))
+
 # [2.41.0](https://github.com/coinranking/exchanges/compare/v2.40.0...v2.41.0) (2020-05-21)
 
 
