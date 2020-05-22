@@ -61,17 +61,23 @@ npm run install
 
 ### Usage
 
-List all supported drivers
+#### List all supported drivers
 
 ```shell
 node lib/cli.js list
 ```
 
-Get the tickers of a specific exchange
+#### Get the tickers of a specific exchange
 
 ```shell
 node lib/cli.js tickers [name of the exchange]
 ```
+
+##### Flags
+
+| Name      | Flag                    | Description
+| ----------| ------------------------| ---
+| Record    | `-R`, `--record`        | Record the requests, and save them as fixtures.
 
 ## Contributing
 
