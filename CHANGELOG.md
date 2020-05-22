@@ -1,3 +1,11 @@
+## [2.42.1](https://github.com/coinranking/exchanges/compare/v2.42.0...v2.42.1) (2020-05-22)
+
+
+### Bug Fixes
+
+* fix the base and quote volumes of ABIT ([c379097](https://github.com/coinranking/exchanges/commit/c37909767d390a0a21c90850c5245684b81235d7))
+* fix the bcbitcoin test, because it failed after 24 hours ([52884fa](https://github.com/coinranking/exchanges/commit/52884fa9c97f183c5395676c616a8926c271f5e1))
+
 # [2.42.0](https://github.com/coinranking/exchanges/compare/v2.41.0...v2.42.0) (2020-05-22)
 
 
