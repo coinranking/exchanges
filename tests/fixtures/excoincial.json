@@ -1,0 +1,2030 @@
+[
+    {
+        "scope": "https://excoincial.com:443",
+        "method": "GET",
+        "path": "/api/v2/markets",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "id": "btcusd",
+                "name": "BTC/USD"
+            },
+            {
+                "id": "ethusd",
+                "name": "ETH/USD"
+            },
+            {
+                "id": "btxusd",
+                "name": "BTX/USD"
+            },
+            {
+                "id": "reexusd",
+                "name": "REEX/USD"
+            },
+            {
+                "id": "hotusd",
+                "name": "HOT/USD"
+            },
+            {
+                "id": "cbcusd",
+                "name": "CBC/USD"
+            },
+            {
+                "id": "tusdusd",
+                "name": "TUSD/USD"
+            },
+            {
+                "id": "usdtusd",
+                "name": "USDT/USD"
+            },
+            {
+                "id": "ethbtc",
+                "name": "ETH/BTC"
+            },
+            {
+                "id": "afcashbtc",
+                "name": "AFCASH/BTC"
+            },
+            {
+                "id": "btxbtc",
+                "name": "BTX/BTC"
+            },
+            {
+                "id": "reexbtc",
+                "name": "REEX/BTC"
+            },
+            {
+                "id": "tusdbtc",
+                "name": "TUSD/BTC"
+            },
+            {
+                "id": "hotbtc",
+                "name": "HOT/BTC"
+            },
+            {
+                "id": "cbcbtc",
+                "name": "CBC/BTC"
+            },
+            {
+                "id": "anncbtc",
+                "name": "ANNC/BTC"
+            },
+            {
+                "id": "ltcbtc",
+                "name": "LTC/BTC"
+            },
+            {
+                "id": "exlbtc",
+                "name": "EXL/BTC"
+            },
+            {
+                "id": "usdtbtc",
+                "name": "USDT/BTC"
+            },
+            {
+                "id": "rubxbtc",
+                "name": "RUBX/BTC"
+            },
+            {
+                "id": "yotbtc",
+                "name": "YOT/BTC"
+            },
+            {
+                "id": "bnbbtc",
+                "name": "BNB/BTC"
+            },
+            {
+                "id": "probbtc",
+                "name": "PROB/BTC"
+            },
+            {
+                "id": "cnbbtc",
+                "name": "CNB/BTC"
+            },
+            {
+                "id": "cattbtc",
+                "name": "CATT/BTC"
+            },
+            {
+                "id": "cetbtc",
+                "name": "CET/BTC"
+            },
+            {
+                "id": "bfbtc",
+                "name": "BF/BTC"
+            },
+            {
+                "id": "htbtc",
+                "name": "HT/BTC"
+            },
+            {
+                "id": "akabtc",
+                "name": "AKA/BTC"
+            },
+            {
+                "id": "crobtc",
+                "name": "CRO/BTC"
+            },
+            {
+                "id": "afcasheth",
+                "name": "AFCASH/ETH"
+            },
+            {
+                "id": "gmceth",
+                "name": "GMC/ETH"
+            },
+            {
+                "id": "btxeth",
+                "name": "BTX/ETH"
+            },
+            {
+                "id": "reexeth",
+                "name": "REEX/ETH"
+            },
+            {
+                "id": "kiteth",
+                "name": "KIT/ETH"
+            },
+            {
+                "id": "etaeth",
+                "name": "ETA/ETH"
+            },
+            {
+                "id": "tusdeth",
+                "name": "TUSD/ETH"
+            },
+            {
+                "id": "ntceth",
+                "name": "NTC/ETH"
+            },
+            {
+                "id": "hoteth",
+                "name": "HOT/ETH"
+            },
+            {
+                "id": "cbceth",
+                "name": "CBC/ETH"
+            },
+            {
+                "id": "evreth",
+                "name": "EVR/ETH"
+            },
+            {
+                "id": "annceth",
+                "name": "ANNC/ETH"
+            },
+            {
+                "id": "exleth",
+                "name": "EXL/ETH"
+            },
+            {
+                "id": "ltceth",
+                "name": "LTC/ETH"
+            },
+            {
+                "id": "usdteth",
+                "name": "USDT/ETH"
+            },
+            {
+                "id": "rubxeth",
+                "name": "RUBX/ETH"
+            },
+            {
+                "id": "yoteth",
+                "name": "YOT/ETH"
+            },
+            {
+                "id": "bnbeth",
+                "name": "BNB/ETH"
+            },
+            {
+                "id": "probeth",
+                "name": "PROB/ETH"
+            },
+            {
+                "id": "cnbeth",
+                "name": "CNB/ETH"
+            },
+            {
+                "id": "catteth",
+                "name": "CATT/ETH"
+            },
+            {
+                "id": "ceteth",
+                "name": "CET/ETH"
+            },
+            {
+                "id": "bfeth",
+                "name": "BF/ETH"
+            },
+            {
+                "id": "hteth",
+                "name": "HT/ETH"
+            },
+            {
+                "id": "akaeth",
+                "name": "AKA/ETH"
+            },
+            {
+                "id": "croeth",
+                "name": "CRO/ETH"
+            },
+            {
+                "id": "gmctusd",
+                "name": "GMC/TUSD"
+            },
+            {
+                "id": "xrptusd",
+                "name": "XRP/TUSD"
+            },
+            {
+                "id": "cbctusd",
+                "name": "CBC/TUSD"
+            },
+            {
+                "id": "btcngn",
+                "name": "BTC/NGN"
+            },
+            {
+                "id": "ethngn",
+                "name": "ETH/NGN"
+            },
+            {
+                "id": "xrpngn",
+                "name": "XRP/NGN"
+            },
+            {
+                "id": "usdngn",
+                "name": "USD/NGN"
+            },
+            {
+                "id": "btxexl",
+                "name": "BTX/EXL"
+            },
+            {
+                "id": "xrpexl",
+                "name": "XRP/EXL"
+            },
+            {
+                "id": "hotexl",
+                "name": "HOT/EXL"
+            },
+            {
+                "id": "rubxexl",
+                "name": "RUBX/EXL"
+            },
+            {
+                "id": "yotexl",
+                "name": "YOT/EXL"
+            },
+            {
+                "id": "bnbexl",
+                "name": "BNB/EXL"
+            },
+            {
+                "id": "probexl",
+                "name": "PROB/EXL"
+            },
+            {
+                "id": "cnbexl",
+                "name": "CNB/EXL"
+            },
+            {
+                "id": "cattexl",
+                "name": "CATT/EXL"
+            },
+            {
+                "id": "cetexl",
+                "name": "CET/EXL"
+            },
+            {
+                "id": "bfexl",
+                "name": "BF/EXL"
+            },
+            {
+                "id": "htexl",
+                "name": "HT/EXL"
+            },
+            {
+                "id": "akaexl",
+                "name": "AKA/EXL"
+            },
+            {
+                "id": "croexl",
+                "name": "CRO/EXL"
+            },
+            {
+                "id": "ethusdt",
+                "name": "ETH/USDT"
+            },
+            {
+                "id": "btxusdt",
+                "name": "BTX/USDT"
+            },
+            {
+                "id": "xrpusdt",
+                "name": "XRP/USDT"
+            },
+            {
+                "id": "tusdusdt",
+                "name": "TUSD/USDT"
+            },
+            {
+                "id": "ntcusdt",
+                "name": "NTC/USDT"
+            },
+            {
+                "id": "hotusdt",
+                "name": "HOT/USDT"
+            },
+            {
+                "id": "exlusdt",
+                "name": "EXL/USDT"
+            },
+            {
+                "id": "rubxusdt",
+                "name": "RUBX/USDT"
+            },
+            {
+                "id": "yotusdt",
+                "name": "YOT/USDT"
+            },
+            {
+                "id": "bnbusdt",
+                "name": "BNB/USDT"
+            },
+            {
+                "id": "probusdt",
+                "name": "PROB/USDT"
+            },
+            {
+                "id": "cnbusdt",
+                "name": "CNB/USDT"
+            },
+            {
+                "id": "cattusdt",
+                "name": "CATT/USDT"
+            },
+            {
+                "id": "cetusdt",
+                "name": "CET/USDT"
+            },
+            {
+                "id": "bfusdt",
+                "name": "BF/USDT"
+            },
+            {
+                "id": "htusdt",
+                "name": "HT/USDT"
+            },
+            {
+                "id": "akausdt",
+                "name": "AKA/USDT"
+            },
+            {
+                "id": "crousdt",
+                "name": "CRO/USDT"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 26 May 2020 22:11:06 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "3222",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.17.7",
+            "Access-Control-Allow-Origin",
+            "https://excoincial.com,https://vendasity.com,https://petstore.swagger.io",
+            "Access-Control-Allow-Methods",
+            "GET, POST, PUT, PATCH, DELETE",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Vary",
+            "Origin",
+            "Version",
+            "HTTP/1.0",
+            "Host",
+            "excoincial.com",
+            "X-Forwarded-Proto",
+            "https",
+            "X-Real-Ip",
+            "93.142.3.116",
+            "X-Forwarded-For",
+            "93.142.3.116, 172.31.35.100",
+            "X-Forwarded-Port",
+            "443",
+            "X-Amzn-Trace-Id",
+            "Root=1-5ecd93fa-b64ccb3033d3b160046dbc10",
+            "Upgrade-Insecure-Requests",
+            "1",
+            "User-Agent",
+            "Mozilla/5.0 (Linux; Android 5.0; XT1092 Build/LXE22.46-19) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.85 Mobile Safari/537.36",
+            "Accept",
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Encoding",
+            "gzip, deflate, br",
+            "Accept-Language",
+            "en-GB,en-US;q=0.9,en;q=0.8",
+            "ETag",
+            "W/\"e8fc4cc6678b35b25589a81cc4ed75c9\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "5094ea6d-9e8e-4b17-9a40-95ba0b8ad6b7",
+            "X-Runtime",
+            "0.041399"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://excoincial.com:443",
+        "method": "GET",
+        "path": "/api/v2/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "btcusd": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "9041.87",
+                    "sell": "9640.60902953",
+                    "low": "9284.62999999",
+                    "high": "9639.06125368",
+                    "open": 9284.62999999,
+                    "last": "9284.62999999",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "ethusd": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "211.88945709",
+                    "sell": "211.91358836",
+                    "low": "211.6246456",
+                    "high": "212.11858988",
+                    "open": 211.99667189,
+                    "last": "211.87798822",
+                    "volume": "0.0",
+                    "avg_price": "211.92561038308866045615",
+                    "price_change_percent": "-0.06%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "btxusd": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "reexusd": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "hotusd": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.00054477",
+                    "sell": "0.00054474",
+                    "low": "0.00054452",
+                    "high": "0.00054486",
+                    "open": 0.00054468,
+                    "last": "0.00054467",
+                    "volume": "51.48089391",
+                    "avg_price": "0.00054469685621589736",
+                    "price_change_percent": "-0.00%",
+                    "vol": "51.48089391",
+                    "quote_volume": "0.02804148"
+                }
+            },
+            "cbcusd": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "tusdusd": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "usdtusd": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "ethbtc": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.021891",
+                    "sell": "0.02189429",
+                    "low": "0.021891",
+                    "high": "0.021899",
+                    "open": 0.021894,
+                    "last": "0.02189429",
+                    "volume": "0.0",
+                    "avg_price": "0.02189560546479135618",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "afcashbtc": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.00000034",
+                    "sell": "0.00000112",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": 6.8e-7,
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "-100.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "btxbtc": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "reexbtc": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "tusdbtc": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.00000001",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "hotbtc": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.00005",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cbcbtc": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "anncbtc": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.00000042",
+                    "sell": "0.00000045",
+                    "low": "0.00000044",
+                    "high": "0.00000045",
+                    "open": 4.4e-7,
+                    "last": "0.00000045",
+                    "volume": "14312.00605884",
+                    "avg_price": "0.00000045",
+                    "price_change_percent": "+2.27%",
+                    "vol": "14312.00605884",
+                    "quote_volume": "0.0064404"
+                }
+            },
+            "ltcbtc": {
+                "at": 1590531064,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "exlbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "usdtbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "rubxbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "yotbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "bnbbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "probbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cnbbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cattbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cetbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "bfbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "htbtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "akabtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "crobtc": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "afcasheth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0000242",
+                    "sell": "0.00002421",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": 0.00002421,
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "-100.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "gmceth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.001",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": 0.001,
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "-100.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "btxeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.005",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "reexeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "kiteth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.00001798",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": 6e-8,
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "-100.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "etaeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.00000002",
+                    "sell": "0.00000006",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": 6e-8,
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "-100.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "tusdeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "ntceth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "hoteth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.00000251",
+                    "sell": "0.00000252",
+                    "low": "0.00000251",
+                    "high": "0.00000251",
+                    "open": 0.00000251,
+                    "last": "0.00000251",
+                    "volume": "0.93016077",
+                    "avg_price": "0.00000251",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.93016077",
+                    "quote_volume": "2.33e-06"
+                }
+            },
+            "cbceth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.006",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "evreth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "annceth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0000193",
+                    "sell": "0.0000196",
+                    "low": "0.0000193",
+                    "high": "0.0000196",
+                    "open": 0.0000196,
+                    "last": "0.0000193",
+                    "volume": "10.2762",
+                    "avg_price": "0.0000193",
+                    "price_change_percent": "-1.53%",
+                    "vol": "10.2762",
+                    "quote_volume": "0.00019833"
+                }
+            },
+            "exleth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "ltceth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "usdteth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0045",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "rubxeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "yoteth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "bnbeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.07988",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "probeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cnbeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "catteth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "ceteth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "bfeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "hteth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "akaeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.00000075",
+                    "low": "0.00000075",
+                    "high": "0.00000077",
+                    "open": "0.00000075",
+                    "last": "0.00000075",
+                    "volume": "11747.75324675",
+                    "avg_price": "0.0000007575",
+                    "price_change_percent": "+0.00%",
+                    "vol": "11747.75324675",
+                    "quote_volume": "0.00889892"
+                }
+            },
+            "croeth": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "gmctusd": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "1.22",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "xrptusd": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.19463",
+                    "sell": "0.19481",
+                    "low": "0.19187",
+                    "high": "0.1969",
+                    "open": 0.19506,
+                    "last": "0.19463",
+                    "volume": "56.41565057",
+                    "avg_price": "0.19436951526032315978",
+                    "price_change_percent": "-0.22%",
+                    "vol": "56.41565057",
+                    "quote_volume": "10.96548265"
+                }
+            },
+            "cbctusd": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "btcngn": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "ethngn": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "xrpngn": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "usdngn": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "btxexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "xrpexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "hotexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "rubxexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "yotexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "bnbexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "probexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cnbexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cattexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cetexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "bfexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "htexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "akaexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "croexl": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "ethusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "btxusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "xrpusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "tusdusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "ntcusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "hotusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "exlusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "rubxusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "yotusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "bnbusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "probusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cnbusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cattusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "cetusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "bfusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "htusdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "akausdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            },
+            "crousdt": {
+                "at": 1590531065,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "open": "0.0",
+                    "last": "0.0",
+                    "volume": "0.0",
+                    "avg_price": "0.0",
+                    "price_change_percent": "+0.00%",
+                    "vol": "0.0",
+                    "quote_volume": "0.0"
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 26 May 2020 22:11:08 GMT",
+            "Content-Type",
+            "application/json",
+            "Content-Length",
+            "20861",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx/1.17.7",
+            "Access-Control-Allow-Origin",
+            "https://excoincial.com,https://vendasity.com,https://petstore.swagger.io",
+            "Access-Control-Allow-Methods",
+            "GET, POST, PUT, PATCH, DELETE",
+            "Access-Control-Allow-Headers",
+            "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Vary",
+            "Origin",
+            "Version",
+            "HTTP/1.0",
+            "Host",
+            "excoincial.com",
+            "X-Forwarded-Proto",
+            "https",
+            "X-Real-Ip",
+            "93.142.3.116",
+            "X-Forwarded-For",
+            "93.142.3.116, 172.31.35.100",
+            "X-Forwarded-Port",
+            "443",
+            "X-Amzn-Trace-Id",
+            "Root=1-5ecd93fa-848509e6d1f745bbb310dbb8",
+            "Upgrade-Insecure-Requests",
+            "1",
+            "User-Agent",
+            "Mozilla/5.0 (Linux; Android 5.0; XT1092 Build/LXE22.46-19) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.85 Mobile Safari/537.36",
+            "Accept",
+            "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Encoding",
+            "gzip, deflate, br",
+            "Accept-Language",
+            "en-GB,en-US;q=0.9,en;q=0.8",
+            "ETag",
+            "W/\"6beef37fa77d50e4781daeeeb5d8d76e\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "48bca75c-b52f-4845-b738-b63bbcbc73ad",
+            "X-Runtime",
+            "1.483690"
+        ],
+        "responseIsBinary": false
+    }
+]

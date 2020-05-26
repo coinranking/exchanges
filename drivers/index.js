@@ -125,6 +125,7 @@ exports.etherflyer = require('./etherflyer');
 exports.ethermium = require('./ethermium');
 exports.ethfinex = require('./ethfinex');
 exports.eurobtc = require('./eurobtc');
+exports.excoincial = require('./excoincial');
 exports.exenium = require('./exenium');
 exports.exmarkets = require('./exmarkets');
 exports.exmo = require('./exmo');
