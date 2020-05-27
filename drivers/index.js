@@ -1,4 +1,4 @@
-exports['3xbit'] = require('./3xbit');
+exports._3xbit = require('./_3xbit');
 exports.abcc = require('./abcc');
 exports.abit = require('./abit');
 exports.acx = require('./acx');

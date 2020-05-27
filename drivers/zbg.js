@@ -1,23 +1,36 @@
+const Driver = require('../models/driver');
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
 const { parseToFloat } = require('../lib/utils.js');
 
-module.exports = async () => {
-  const data = await request('https://kline.zbg.com/api/data/v1/tickers?isUseMarketName=true');
-  const tickers = data.datas;
-  const pairs = Object.keys(tickers);
+/**
+ * @memberof Driver
+ * @augments Driver
+ */
+class Zbg extends Driver {
+  /**
+   * @augments Driver.fetchTickers
+   * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
+   */
+  async fetchTickers() {
+    const data = await request('https://kline.zbg.com/api/data/v1/tickers?isUseMarketName=true');
+    const tickers = data.datas;
+    const pairs = Object.keys(tickers);
 
-  return pairs.map((pair) => {
-    const [base, quote] = pair.split('_');
-    const ticker = tickers[pair];
+    return pairs.map((pair) => {
+      const [base, quote] = pair.split('_');
+      const ticker = tickers[pair];
 
-    return new Ticker({
-      base,
-      quote,
-      baseVolume: parseToFloat(ticker[4]),
-      close: parseToFloat(ticker[1]),
-      high: parseToFloat(ticker[2]),
-      low: parseToFloat(ticker[3]),
+      return new Ticker({
+        base,
+        quote,
+        baseVolume: parseToFloat(ticker[4]),
+        close: parseToFloat(ticker[1]),
+        high: parseToFloat(ticker[2]),
+        low: parseToFloat(ticker[3]),
+      });
     });
-  });
-};
+  }
+}
+
+module.exports = Zbg;
