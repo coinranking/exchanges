@@ -1,3 +1,10 @@
+# [2.43.0](https://github.com/coinranking/exchanges/compare/v2.42.1...v2.43.0) (2020-05-27)
+
+
+### Features
+
+* excoincial driver ([4b2e508](https://github.com/coinranking/exchanges/commit/4b2e50811fe885bd9d59c047c0eec5b388b39be7))
+
 ## [2.42.1](https://github.com/coinranking/exchanges/compare/v2.42.0...v2.42.1) (2020-05-22)
 
 
