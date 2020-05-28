@@ -13,11 +13,11 @@ const driverNames = Object.keys(drivers);
 const driversDir = path.join(__dirname, '..', 'drivers');
 
 const getTickers = async (driverName) => {
-  const driver = drivers[driverName];
+  const driver = new drivers[driverName]();
 
   await nock.back(`${driverName}.json`);
 
-  return driver(true);
+  return driver.fetchTickers(true);
 };
 
 test('All drivers are added to the index.js file in alphabetical order', () => {
@@ -26,7 +26,10 @@ test('All drivers are added to the index.js file in alphabetical order', () => {
   const driverFiles = files
     .filter((file) => file.substr(-3) === '.js')
     .filter((file) => file !== 'index.js')
-    .map((file) => file.replace('.js', ''));
+    .map((file) => file.replace('_', ''))
+    .map((file) => file.charAt(0).toUpperCase() + file.slice(1))
+    .map((file) => file.replace('.js', ''))
+    .sort();
 
   expect(driverNames).toEqual(driverFiles);
 });

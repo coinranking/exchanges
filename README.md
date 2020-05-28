@@ -40,13 +40,15 @@ console.log(exchanges.list());
 Get the tickers of a specific exchange
 
 ```JavaScript
-const exchanges = require('@coinranking/exchanges');
+const { Binance } = require('@coinranking/exchanges');
 
-exchanges
-  .tickers('binance')
+const driver = new Binance();
+
+driver
+  .fetchTickers()
   .then((tickers) => {
     console.log(tickers);
-  })
+  });
 ```
 
 ## Development
