@@ -1,5 +1,3 @@
-const { isUndefined, isGreaterThanZero } = require('../lib/utils');
-
 /**
  * Ticker class
  *
@@ -81,77 +79,5 @@ module.exports = class Ticker {
     if (params.vwap) this.vwap = params.vwap;
     if (params.baseVolume) this.baseVolume = params.baseVolume;
     if (params.quoteVolume) this.quoteVolume = params.quoteVolume;
-  }
-
-  /**
-   * Combines the base and quote symbols of traded currencies (in that order)
-   * divided by an underscore to represent a pair.
-   *
-   * @type {string}
-   *
-   * @example
-   * const ticker = new Ticker({
-   *   base: 'ETH',
-   *   quote: 'BTC',
-   *   close: 0.3,
-   *   baseVolume: 10,
-   * });
-   *
-   * ticker.pair; // ETH_BTC
-   */
-
-  get pair() {
-    const base = this
-      .base
-      .replace(/[^A-Za-z0-9*]/g, '')
-      .toUpperCase();
-    const quote = this
-      .quote
-      .replace(/[^A-Za-z0-9*]/g, '')
-      .toUpperCase();
-
-    return `${base}_${quote}`;
-  }
-
-  /**
-   * Check the validity of the ticker
-   *
-   * @function
-   * @returns {boolean}
-   *
-   * @example
-   * const ticker = new Ticker({
-   *   base: 'ETH',
-   *   quote: 'BTC',
-   *   close: 0.3,
-   *   baseVolume: 10,
-   * });
-   *
-   * ticker.isValid(); // true
-   */
-
-  isValid() {
-    if (!this.base || !this.quote) {
-      if (process.env.NODE_ENV === 'development') {
-        console.warn(`${this.pair} is being filtered. Base or quote is not set`);
-      }
-      return false;
-    }
-
-    if (isUndefined(this.baseVolume) && isUndefined(this.quoteVolume)) {
-      if (process.env.NODE_ENV === 'development') {
-        console.warn(`${this.pair} is being filtered. Both base and quote volume are undefined.`);
-      }
-      return false;
-    }
-
-    if (!isGreaterThanZero(this.close)) {
-      if (process.env.NODE_ENV === 'development') {
-        console.warn(`${this.pair} is being filtered. Close is not greater than zero.`);
-      }
-      return false;
-    }
-
-    return true;
   }
 };

@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { nock } = require('./helpers/nock.js');
+const { isUndefined, isGreaterThanZero } = require('../lib/utils');
 const drivers = require('../drivers');
 
 jest.setTimeout(60 * 1000); // Same timeout as Lambda
@@ -39,26 +40,37 @@ driverNames.forEach((driverName) => {
     let tickers = [];
 
     beforeAll(async () => {
-      tickers = await getTickers(driverName);
+      const rawTickers = await getTickers(driverName);
+      tickers = rawTickers.filter((ticker) => typeof ticker !== 'undefined');
     });
 
     test('Has atleast one valid ticker', () => {
       const validatedTickers = tickers
-        .filter((ticker) => typeof ticker !== 'undefined')
-        .map((ticker) => ticker.isValid());
+        // Check if  valid
+        .map((ticker) => {
+          if (!ticker.base || !ticker.quote) {
+            return false;
+          }
+
+          if (isUndefined(ticker.baseVolume) && isUndefined(ticker.quoteVolume)) {
+            return false;
+          }
+
+          if (!isGreaterThanZero(ticker.close)) {
+            return false;
+          }
+
+          return true;
+        });
 
       expect(validatedTickers).toContain(true);
     });
 
     test('Ask should be greater than or equal to bid', () => {
       tickers
-        .filter((ticker) => typeof ticker !== 'undefined')
         .filter((ticker) => typeof ticker.bid !== 'undefined' && typeof ticker.ask !== 'undefined')
         .forEach((ticker) => {
-          if (typeof ticker.bid !== 'undefined'
-           && typeof ticker.ask !== 'undefined') {
-            expect(ticker.ask).toBeGreaterThanOrEqual(ticker.bid);
-          }
+          expect(ticker.ask).toBeGreaterThanOrEqual(ticker.bid);
         });
     });
   });

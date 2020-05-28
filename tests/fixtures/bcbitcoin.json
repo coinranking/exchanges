@@ -1,0 +1,2360 @@
+[
+    {
+        "scope": "https://www.bcbitcoin.co.uk:443",
+        "method": "GET",
+        "path": "/api/products/",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "id": "BTC-GBP",
+                "fromSymbol": "BTC",
+                "toSymbol": "GBP",
+                "price": 7490.6120798626
+            },
+            {
+                "id": "BTC-USD",
+                "fromSymbol": "BTC",
+                "toSymbol": "USD",
+                "price": 9119.9893830358
+            },
+            {
+                "id": "BTC-EUR",
+                "fromSymbol": "BTC",
+                "toSymbol": "EUR",
+                "price": 8370.3992156653
+            },
+            {
+                "id": "ETH-GBP",
+                "fromSymbol": "ETH",
+                "toSymbol": "GBP",
+                "price": 166.23189724905
+            },
+            {
+                "id": "ETH-USD",
+                "fromSymbol": "ETH",
+                "toSymbol": "USD",
+                "price": 202.39108925543
+            },
+            {
+                "id": "ETH-EUR",
+                "fromSymbol": "ETH",
+                "toSymbol": "EUR",
+                "price": 185.75616084735
+            },
+            {
+                "id": "XRP-GBP",
+                "fromSymbol": "XRP",
+                "toSymbol": "GBP",
+                "price": 0.16379180006492
+            },
+            {
+                "id": "XRP-USD",
+                "fromSymbol": "XRP",
+                "toSymbol": "USD",
+                "price": 0.19942021582404
+            },
+            {
+                "id": "XRP-EUR",
+                "fromSymbol": "XRP",
+                "toSymbol": "EUR",
+                "price": 0.18302946944503
+            },
+            {
+                "id": "BSV-GBP",
+                "fromSymbol": "BSV",
+                "toSymbol": "GBP",
+                "price": 158.98001917926
+            },
+            {
+                "id": "BSV-USD",
+                "fromSymbol": "BSV",
+                "toSymbol": "USD",
+                "price": 193.56176392147
+            },
+            {
+                "id": "BSV-EUR",
+                "fromSymbol": "BSV",
+                "toSymbol": "EUR",
+                "price": 177.65253542123
+            },
+            {
+                "id": "LTC-GBP",
+                "fromSymbol": "LTC",
+                "toSymbol": "GBP",
+                "price": 35.722395079744
+            },
+            {
+                "id": "LTC-USD",
+                "fromSymbol": "LTC",
+                "toSymbol": "USD",
+                "price": 43.492822801451
+            },
+            {
+                "id": "LTC-EUR",
+                "fromSymbol": "LTC",
+                "toSymbol": "EUR",
+                "price": 39.918060709754
+            },
+            {
+                "id": "BCH-GBP",
+                "fromSymbol": "BCH",
+                "toSymbol": "GBP",
+                "price": 190.47349127155
+            },
+            {
+                "id": "BCH-USD",
+                "fromSymbol": "BCH",
+                "toSymbol": "USD",
+                "price": 231.90577747528
+            },
+            {
+                "id": "BCH-EUR",
+                "fromSymbol": "BCH",
+                "toSymbol": "EUR",
+                "price": 212.84497781303
+            },
+            {
+                "id": "EOS-GBP",
+                "fromSymbol": "EOS",
+                "toSymbol": "GBP",
+                "price": 2.0700826921748
+            },
+            {
+                "id": "EOS-USD",
+                "fromSymbol": "EOS",
+                "toSymbol": "USD",
+                "price": 2.5203724306314
+            },
+            {
+                "id": "EOS-EUR",
+                "fromSymbol": "EOS",
+                "toSymbol": "EUR",
+                "price": 2.313217979813
+            },
+            {
+                "id": "ADA-GBP",
+                "fromSymbol": "ADA",
+                "toSymbol": "GBP",
+                "price": 0.04425321958563
+            },
+            {
+                "id": "ADA-USD",
+                "fromSymbol": "ADA",
+                "toSymbol": "USD",
+                "price": 0.053879294306414
+            },
+            {
+                "id": "ADA-EUR",
+                "fromSymbol": "ADA",
+                "toSymbol": "EUR",
+                "price": 0.049450847348781
+            },
+            {
+                "id": "XLM-GBP",
+                "fromSymbol": "XLM",
+                "toSymbol": "GBP",
+                "price": 0.055821344459785
+            },
+            {
+                "id": "XLM-USD",
+                "fromSymbol": "XLM",
+                "toSymbol": "USD",
+                "price": 0.067963747607307
+            },
+            {
+                "id": "XLM-EUR",
+                "fromSymbol": "XLM",
+                "toSymbol": "EUR",
+                "price": 0.062377671263967
+            },
+            {
+                "id": "NEO-GBP",
+                "fromSymbol": "NEO",
+                "toSymbol": "GBP",
+                "price": 8.2907136278954
+            },
+            {
+                "id": "NEO-USD",
+                "fromSymbol": "NEO",
+                "toSymbol": "USD",
+                "price": 10.094131088094
+            },
+            {
+                "id": "NEO-EUR",
+                "fromSymbol": "NEO",
+                "toSymbol": "EUR",
+                "price": 9.2644742657017
+            },
+            {
+                "id": "TRX-GBP",
+                "fromSymbol": "TRX",
+                "toSymbol": "GBP",
+                "price": 0.011951642303503
+            },
+            {
+                "id": "TRX-USD",
+                "fromSymbol": "TRX",
+                "toSymbol": "USD",
+                "price": 0.014551394432882
+            },
+            {
+                "id": "TRX-EUR",
+                "fromSymbol": "TRX",
+                "toSymbol": "EUR",
+                "price": 0.013355386221654
+            },
+            {
+                "id": "USDT-GBP",
+                "fromSymbol": "USDT",
+                "toSymbol": "GBP",
+                "price": 0.81956206411132
+            },
+            {
+                "id": "USDT-USD",
+                "fromSymbol": "USDT",
+                "toSymbol": "USD",
+                "price": 0.99783532290077
+            },
+            {
+                "id": "USDT-EUR",
+                "fromSymbol": "USDT",
+                "toSymbol": "EUR",
+                "price": 0.91582124204091
+            },
+            {
+                "id": "XEM-GBP",
+                "fromSymbol": "XEM",
+                "toSymbol": "GBP",
+                "price": 0.032455982218023
+            },
+            {
+                "id": "XEM-USD",
+                "fromSymbol": "XEM",
+                "toSymbol": "USD",
+                "price": 0.039515891370227
+            },
+            {
+                "id": "XEM-EUR",
+                "fromSymbol": "XEM",
+                "toSymbol": "EUR",
+                "price": 0.036268001226726
+            },
+            {
+                "id": "BNB-GBP",
+                "fromSymbol": "BNB",
+                "toSymbol": "GBP",
+                "price": 13.471368254143
+            },
+            {
+                "id": "BNB-USD",
+                "fromSymbol": "BNB",
+                "toSymbol": "USD",
+                "price": 16.401695100863
+            },
+            {
+                "id": "BNB-EUR",
+                "fromSymbol": "BNB",
+                "toSymbol": "EUR",
+                "price": 15.053606977133
+            },
+            {
+                "id": "ETC-GBP",
+                "fromSymbol": "ETC",
+                "toSymbol": "GBP",
+                "price": 5.2465359634212
+            },
+            {
+                "id": "ETC-USD",
+                "fromSymbol": "ETC",
+                "toSymbol": "USD",
+                "price": 6.3877760287107
+            },
+            {
+                "id": "ETC-EUR",
+                "fromSymbol": "ETC",
+                "toSymbol": "EUR",
+                "price": 5.8627519413589
+            },
+            {
+                "id": "VET-GBP",
+                "fromSymbol": "VET",
+                "toSymbol": "GBP",
+                "price": 0.0036775637384181
+            },
+            {
+                "id": "VET-USD",
+                "fromSymbol": "VET",
+                "toSymbol": "USD",
+                "price": 0.0044775169094627
+            },
+            {
+                "id": "VET-EUR",
+                "fromSymbol": "VET",
+                "toSymbol": "EUR",
+                "price": 0.0041095008396401
+            },
+            {
+                "id": "QTUM-GBP",
+                "fromSymbol": "QTUM",
+                "toSymbol": "GBP",
+                "price": 1.3287611738153
+            },
+            {
+                "id": "QTUM-USD",
+                "fromSymbol": "QTUM",
+                "toSymbol": "USD",
+                "price": 1.6177967392496
+            },
+            {
+                "id": "QTUM-EUR",
+                "fromSymbol": "QTUM",
+                "toSymbol": "EUR",
+                "price": 1.4848267896572
+            },
+            {
+                "id": "OMG-GBP",
+                "fromSymbol": "OMG",
+                "toSymbol": "GBP",
+                "price": 1.4270987101702
+            },
+            {
+                "id": "OMG-USD",
+                "fromSymbol": "OMG",
+                "toSymbol": "USD",
+                "price": 1.7375249107193
+            },
+            {
+                "id": "OMG-EUR",
+                "fromSymbol": "OMG",
+                "toSymbol": "EUR",
+                "price": 1.5947142632575
+            },
+            {
+                "id": "LSK-GBP",
+                "fromSymbol": "LSK",
+                "toSymbol": "GBP",
+                "price": 0.9645563152631
+            },
+            {
+                "id": "LSK-USD",
+                "fromSymbol": "LSK",
+                "toSymbol": "USD",
+                "price": 1.1743690983796
+            },
+            {
+                "id": "LSK-EUR",
+                "fromSymbol": "LSK",
+                "toSymbol": "EUR",
+                "price": 1.0778453534456
+            },
+            {
+                "id": "ONT-GBP",
+                "fromSymbol": "ONT",
+                "toSymbol": "GBP",
+                "price": 0.40518271776999
+            },
+            {
+                "id": "ONT-USD",
+                "fromSymbol": "ONT",
+                "toSymbol": "USD",
+                "price": 0.49331910995445
+            },
+            {
+                "id": "ONT-EUR",
+                "fromSymbol": "ONT",
+                "toSymbol": "EUR",
+                "price": 0.45277222566908
+            },
+            {
+                "id": "ICX-GBP",
+                "fromSymbol": "ICX",
+                "toSymbol": "GBP",
+                "price": 0.25935046512886
+            },
+            {
+                "id": "ICX-USD",
+                "fromSymbol": "ICX",
+                "toSymbol": "USD",
+                "price": 0.31576504873604
+            },
+            {
+                "id": "ICX-EUR",
+                "fromSymbol": "ICX",
+                "toSymbol": "EUR",
+                "price": 0.28981168785033
+            },
+            {
+                "id": "BTG-GBP",
+                "fromSymbol": "BTG",
+                "toSymbol": "GBP",
+                "price": 7.1702346739768
+            },
+            {
+                "id": "BTG-USD",
+                "fromSymbol": "BTG",
+                "toSymbol": "USD",
+                "price": 8.729922655632
+            },
+            {
+                "id": "BTG-EUR",
+                "fromSymbol": "BTG",
+                "toSymbol": "EUR",
+                "price": 8.0123928527203
+            },
+            {
+                "id": "NANO-GBP",
+                "fromSymbol": "NANO",
+                "toSymbol": "GBP",
+                "price": 0.78434085099583
+            },
+            {
+                "id": "NANO-USD",
+                "fromSymbol": "NANO",
+                "toSymbol": "USD",
+                "price": 0.95495270046001
+            },
+            {
+                "id": "NANO-EUR",
+                "fromSymbol": "NANO",
+                "toSymbol": "EUR",
+                "price": 0.8764632281038
+            },
+            {
+                "id": "PPT-GBP",
+                "fromSymbol": "PPT",
+                "toSymbol": "GBP",
+                "price": 0.24188567964143
+            },
+            {
+                "id": "PPT-USD",
+                "fromSymbol": "PPT",
+                "toSymbol": "USD",
+                "price": 0.29450127796215
+            },
+            {
+                "id": "PPT-EUR",
+                "fromSymbol": "PPT",
+                "toSymbol": "EUR",
+                "price": 0.27029562892389
+            },
+            {
+                "id": "SC-GBP",
+                "fromSymbol": "SC",
+                "toSymbol": "GBP",
+                "price": 0.0016546236743165
+            },
+            {
+                "id": "SC-USD",
+                "fromSymbol": "SC",
+                "toSymbol": "USD",
+                "price": 0.0020145416932288
+            },
+            {
+                "id": "SC-EUR",
+                "fromSymbol": "SC",
+                "toSymbol": "EUR",
+                "price": 0.0018489624823789
+            },
+            {
+                "id": "MIOTA-GBP",
+                "fromSymbol": "MIOTA",
+                "toSymbol": "GBP",
+                "price": 0.16069624885743
+            },
+            {
+                "id": "MIOTA-USD",
+                "fromSymbol": "MIOTA",
+                "toSymbol": "USD",
+                "price": 0.19565131231576
+            },
+            {
+                "id": "MIOTA-EUR",
+                "fromSymbol": "MIOTA",
+                "toSymbol": "EUR",
+                "price": 0.1795703396539
+            },
+            {
+                "id": "STEEM-GBP",
+                "fromSymbol": "STEEM",
+                "toSymbol": "GBP",
+                "price": 0.16637475454475
+            },
+            {
+                "id": "STEEM-USD",
+                "fromSymbol": "STEEM",
+                "toSymbol": "USD",
+                "price": 0.20256502123938
+            },
+            {
+                "id": "STEEM-EUR",
+                "fromSymbol": "STEEM",
+                "toSymbol": "EUR",
+                "price": 0.18591579701367
+            },
+            {
+                "id": "ETN-GBP",
+                "fromSymbol": "ETN",
+                "toSymbol": "GBP",
+                "price": 0.0054859672769212
+            },
+            {
+                "id": "ETN-USD",
+                "fromSymbol": "ETN",
+                "toSymbol": "USD",
+                "price": 0.0066792890604636
+            },
+            {
+                "id": "ETN-EUR",
+                "fromSymbol": "ETN",
+                "toSymbol": "EUR",
+                "price": 0.006130304934006
+            },
+            {
+                "id": "NXS-GBP",
+                "fromSymbol": "NXS",
+                "toSymbol": "GBP",
+                "price": 0.14007880478427
+            },
+            {
+                "id": "NXS-USD",
+                "fromSymbol": "NXS",
+                "toSymbol": "USD",
+                "price": 0.17054910851081
+            },
+            {
+                "id": "NXS-EUR",
+                "fromSymbol": "NXS",
+                "toSymbol": "EUR",
+                "price": 0.15653133618409
+            },
+            {
+                "id": "USDC-GBP",
+                "fromSymbol": "USDC",
+                "toSymbol": "GBP",
+                "price": 0.82099509959027
+            },
+            {
+                "id": "USDC-USD",
+                "fromSymbol": "USDC",
+                "toSymbol": "USD",
+                "price": 0.99958007596156
+            },
+            {
+                "id": "USDC-EUR",
+                "fromSymbol": "USDC",
+                "toSymbol": "EUR",
+                "price": 0.91742259035813
+            },
+            {
+                "id": "MKR-GBP",
+                "fromSymbol": "MKR",
+                "toSymbol": "GBP",
+                "price": 259.18506553431
+            },
+            {
+                "id": "MKR-USD",
+                "fromSymbol": "MKR",
+                "toSymbol": "USD",
+                "price": 315.56367099412
+            },
+            {
+                "id": "MKR-EUR",
+                "fromSymbol": "MKR",
+                "toSymbol": "EUR",
+                "price": 289.62686174777
+            },
+            {
+                "id": "WAVES-GBP",
+                "fromSymbol": "WAVES",
+                "toSymbol": "GBP",
+                "price": 0.84718712738302
+            },
+            {
+                "id": "WAVES-USD",
+                "fromSymbol": "WAVES",
+                "toSymbol": "USD",
+                "price": 1.0314694613473
+            },
+            {
+                "id": "WAVES-EUR",
+                "fromSymbol": "WAVES",
+                "toSymbol": "EUR",
+                "price": 0.94669092338027
+            },
+            {
+                "id": "XTZ-GBP",
+                "fromSymbol": "XTZ",
+                "toSymbol": "GBP",
+                "price": 2.2856583461787
+            },
+            {
+                "id": "XTZ-USD",
+                "fromSymbol": "XTZ",
+                "toSymbol": "USD",
+                "price": 2.7828406581668
+            },
+            {
+                "id": "XTZ-EUR",
+                "fromSymbol": "XTZ",
+                "toSymbol": "EUR",
+                "price": 2.5541134187907
+            },
+            {
+                "id": "DOGE-GBP",
+                "fromSymbol": "DOGE",
+                "toSymbol": "GBP",
+                "price": 0.0020657053626673
+            },
+            {
+                "id": "DOGE-USD",
+                "fromSymbol": "DOGE",
+                "toSymbol": "USD",
+                "price": 0.0025150429330938
+            },
+            {
+                "id": "DOGE-EUR",
+                "fromSymbol": "DOGE",
+                "toSymbol": "EUR",
+                "price": 0.002308326524337
+            },
+            {
+                "id": "TUSD-GBP",
+                "fromSymbol": "TUSD",
+                "toSymbol": "GBP",
+                "price": 0.81875160894911
+            },
+            {
+                "id": "TUSD-USD",
+                "fromSymbol": "TUSD",
+                "toSymbol": "USD",
+                "price": 0.99684857543661
+            },
+            {
+                "id": "TUSD-EUR",
+                "fromSymbol": "TUSD",
+                "toSymbol": "EUR",
+                "price": 0.91491559732433
+            },
+            {
+                "id": "HOT-GBP",
+                "fromSymbol": "HOT",
+                "toSymbol": "GBP",
+                "price": 0.0004340241692483
+            },
+            {
+                "id": "HOT-USD",
+                "fromSymbol": "HOT",
+                "toSymbol": "USD",
+                "price": 0.00052843422851474
+            },
+            {
+                "id": "HOT-EUR",
+                "fromSymbol": "HOT",
+                "toSymbol": "EUR",
+                "price": 0.00048500116240466
+            },
+            {
+                "id": "ZIL-GBP",
+                "fromSymbol": "ZIL",
+                "toSymbol": "GBP",
+                "price": 0.0079283960290393
+            },
+            {
+                "id": "ZIL-USD",
+                "fromSymbol": "ZIL",
+                "toSymbol": "USD",
+                "price": 0.0096530012285281
+            },
+            {
+                "id": "ZIL-EUR",
+                "fromSymbol": "ZIL",
+                "toSymbol": "EUR",
+                "price": 0.0088596017515529
+            },
+            {
+                "id": "DCR-GBP",
+                "fromSymbol": "DCR",
+                "toSymbol": "GBP",
+                "price": 11.284530332528
+            },
+            {
+                "id": "DCR-USD",
+                "fromSymbol": "DCR",
+                "toSymbol": "USD",
+                "price": 13.739170541467
+            },
+            {
+                "id": "DCR-EUR",
+                "fromSymbol": "DCR",
+                "toSymbol": "EUR",
+                "price": 12.609920636323
+            },
+            {
+                "id": "BAT-GBP",
+                "fromSymbol": "BAT",
+                "toSymbol": "GBP",
+                "price": 0.1657950871486
+            },
+            {
+                "id": "BAT-USD",
+                "fromSymbol": "BAT",
+                "toSymbol": "USD",
+                "price": 0.20185926309275
+            },
+            {
+                "id": "BAT-EUR",
+                "fromSymbol": "BAT",
+                "toSymbol": "EUR",
+                "price": 0.18526804654063
+            },
+            {
+                "id": "LINK-GBP",
+                "fromSymbol": "LINK",
+                "toSymbol": "GBP",
+                "price": 3.2500581300555
+            },
+            {
+                "id": "LINK-USD",
+                "fromSymbol": "LINK",
+                "toSymbol": "USD",
+                "price": 3.9570191760483
+            },
+            {
+                "id": "LINK-EUR",
+                "fromSymbol": "LINK",
+                "toSymbol": "EUR",
+                "price": 3.6317838559305
+            },
+            {
+                "id": "PAX-GBP",
+                "fromSymbol": "PAX",
+                "toSymbol": "GBP",
+                "price": 0.82104800805172
+            },
+            {
+                "id": "PAX-USD",
+                "fromSymbol": "PAX",
+                "toSymbol": "USD",
+                "price": 0.99964449320832
+            },
+            {
+                "id": "PAX-EUR",
+                "fromSymbol": "PAX",
+                "toSymbol": "EUR",
+                "price": 0.91748171302254
+            },
+            {
+                "id": "REP-GBP",
+                "fromSymbol": "REP",
+                "toSymbol": "GBP",
+                "price": 10.195583551068
+            },
+            {
+                "id": "REP-USD",
+                "fromSymbol": "REP",
+                "toSymbol": "USD",
+                "price": 12.413353241128
+            },
+            {
+                "id": "REP-EUR",
+                "fromSymbol": "REP",
+                "toSymbol": "EUR",
+                "price": 11.393074911534
+            },
+            {
+                "id": "DGB-GBP",
+                "fromSymbol": "DGB",
+                "toSymbol": "GBP",
+                "price": 0.015243377770353
+            },
+            {
+                "id": "DGB-USD",
+                "fromSymbol": "DGB",
+                "toSymbol": "USD",
+                "price": 0.018559156707761
+            },
+            {
+                "id": "DGB-EUR",
+                "fromSymbol": "DGB",
+                "toSymbol": "EUR",
+                "price": 0.017033742499637
+            },
+            {
+                "id": "BTT-GBP",
+                "fromSymbol": "BTT",
+                "toSymbol": "GBP",
+                "price": 0.00021539099776112
+            },
+            {
+                "id": "BTT-USD",
+                "fromSymbol": "BTT",
+                "toSymbol": "USD",
+                "price": 0.00026224340438932
+            },
+            {
+                "id": "BTT-EUR",
+                "fromSymbol": "BTT",
+                "toSymbol": "EUR",
+                "price": 0.00024068909449575
+            },
+            {
+                "id": "BCD-GBP",
+                "fromSymbol": "BCD",
+                "toSymbol": "GBP",
+                "price": 0.44451482240831
+            },
+            {
+                "id": "BCD-USD",
+                "fromSymbol": "BCD",
+                "toSymbol": "USD",
+                "price": 0.54120683566892
+            },
+            {
+                "id": "BCD-EUR",
+                "fromSymbol": "BCD",
+                "toSymbol": "EUR",
+                "price": 0.49672396343162
+            },
+            {
+                "id": "NPXS-GBP",
+                "fromSymbol": "NPXS",
+                "toSymbol": "GBP",
+                "price": 0.000099003077683167
+            },
+            {
+                "id": "NPXS-USD",
+                "fromSymbol": "NPXS",
+                "toSymbol": "USD",
+                "price": 0.00012053848306812
+            },
+            {
+                "id": "NPXS-EUR",
+                "fromSymbol": "NPXS",
+                "toSymbol": "EUR",
+                "price": 0.00011063118406778
+            },
+            {
+                "id": "BTS-GBP",
+                "fromSymbol": "BTS",
+                "toSymbol": "GBP",
+                "price": 0.015612589926345
+            },
+            {
+                "id": "BTS-USD",
+                "fromSymbol": "BTS",
+                "toSymbol": "USD",
+                "price": 0.019008680846355
+            },
+            {
+                "id": "BTS-EUR",
+                "fromSymbol": "BTS",
+                "toSymbol": "EUR",
+                "price": 0.017446319350231
+            },
+            {
+                "id": "AE-GBP",
+                "fromSymbol": "AE",
+                "toSymbol": "GBP",
+                "price": 0.091090874871472
+            },
+            {
+                "id": "AE-USD",
+                "fromSymbol": "AE",
+                "toSymbol": "USD",
+                "price": 0.11090519744743
+            },
+            {
+                "id": "AE-EUR",
+                "fromSymbol": "AE",
+                "toSymbol": "EUR",
+                "price": 0.10178967745883
+            },
+            {
+                "id": "STRAT-GBP",
+                "fromSymbol": "STRAT",
+                "toSymbol": "GBP",
+                "price": 0.26391718463252
+            },
+            {
+                "id": "STRAT-USD",
+                "fromSymbol": "STRAT",
+                "toSymbol": "USD",
+                "price": 0.32132513287131
+            },
+            {
+                "id": "STRAT-EUR",
+                "fromSymbol": "STRAT",
+                "toSymbol": "EUR",
+                "price": 0.29491477755035
+            },
+            {
+                "id": "BTM-GBP",
+                "fromSymbol": "BTM",
+                "toSymbol": "GBP",
+                "price": 0.052657096697682
+            },
+            {
+                "id": "BTM-USD",
+                "fromSymbol": "BTM",
+                "toSymbol": "USD",
+                "price": 0.064111204492272
+            },
+            {
+                "id": "BTM-EUR",
+                "fromSymbol": "BTM",
+                "toSymbol": "EUR",
+                "price": 0.058841776372643
+            },
+            {
+                "id": "IOST-GBP",
+                "fromSymbol": "IOST",
+                "toSymbol": "GBP",
+                "price": 0.003220292959222
+            },
+            {
+                "id": "IOST-USD",
+                "fromSymbol": "IOST",
+                "toSymbol": "USD",
+                "price": 0.0039207794083108
+            },
+            {
+                "id": "IOST-EUR",
+                "fromSymbol": "IOST",
+                "toSymbol": "EUR",
+                "price": 0.0035985227071829
+            },
+            {
+                "id": "SNT-GBP",
+                "fromSymbol": "SNT",
+                "toSymbol": "GBP",
+                "price": 0.02063901130854
+            },
+            {
+                "id": "SNT-USD",
+                "fromSymbol": "SNT",
+                "toSymbol": "USD",
+                "price": 0.025128462401125
+            },
+            {
+                "id": "SNT-EUR",
+                "fromSymbol": "SNT",
+                "toSymbol": "EUR",
+                "price": 0.023063103819452
+            },
+            {
+                "id": "GNT-GBP",
+                "fromSymbol": "GNT",
+                "toSymbol": "GBP",
+                "price": 0.039816099209547
+            },
+            {
+                "id": "GNT-USD",
+                "fromSymbol": "GNT",
+                "toSymbol": "USD",
+                "price": 0.048477000035974
+            },
+            {
+                "id": "GNT-EUR",
+                "fromSymbol": "GNT",
+                "toSymbol": "EUR",
+                "price": 0.044492578449018
+            },
+            {
+                "id": "FCT-GBP",
+                "fromSymbol": "FCT",
+                "toSymbol": "GBP",
+                "price": 1.5138980493016
+            },
+            {
+                "id": "FCT-USD",
+                "fromSymbol": "FCT",
+                "toSymbol": "USD",
+                "price": 1.8432050664787
+            },
+            {
+                "id": "FCT-EUR",
+                "fromSymbol": "FCT",
+                "toSymbol": "EUR",
+                "price": 1.6917083556547
+            },
+            {
+                "id": "MAID-GBP",
+                "fromSymbol": "MAID",
+                "toSymbol": "GBP",
+                "price": 0.076986532945928
+            },
+            {
+                "id": "MAID-USD",
+                "fromSymbol": "MAID",
+                "toSymbol": "USD",
+                "price": 0.093732842605897
+            },
+            {
+                "id": "MAID-EUR",
+                "fromSymbol": "MAID",
+                "toSymbol": "EUR",
+                "price": 0.086028752806433
+            },
+            {
+                "id": "ARDR-GBP",
+                "fromSymbol": "ARDR",
+                "toSymbol": "GBP",
+                "price": 0.054347777536171
+            },
+            {
+                "id": "ARDR-USD",
+                "fromSymbol": "ARDR",
+                "toSymbol": "USD",
+                "price": 0.066169646597233
+            },
+            {
+                "id": "ARDR-EUR",
+                "fromSymbol": "ARDR",
+                "toSymbol": "EUR",
+                "price": 0.060731031004113
+            },
+            {
+                "id": "HT-GBP",
+                "fromSymbol": "HT",
+                "toSymbol": "GBP",
+                "price": 3.247659016525
+            },
+            {
+                "id": "HT-USD",
+                "fromSymbol": "HT",
+                "toSymbol": "USD",
+                "price": 3.9540982011409
+            },
+            {
+                "id": "HT-EUR",
+                "fromSymbol": "HT",
+                "toSymbol": "EUR",
+                "price": 3.6291029617927
+            },
+            {
+                "id": "LRC-GBP",
+                "fromSymbol": "LRC",
+                "toSymbol": "GBP",
+                "price": 0.033922148688194
+            },
+            {
+                "id": "LRC-USD",
+                "fromSymbol": "LRC",
+                "toSymbol": "USD",
+                "price": 0.041300982161095
+            },
+            {
+                "id": "LRC-EUR",
+                "fromSymbol": "LRC",
+                "toSymbol": "EUR",
+                "price": 0.037906371835311
+            },
+            {
+                "id": "ARK-GBP",
+                "fromSymbol": "ARK",
+                "toSymbol": "GBP",
+                "price": 0.17349521579013
+            },
+            {
+                "id": "ARK-USD",
+                "fromSymbol": "ARK",
+                "toSymbol": "USD",
+                "price": 0.21123434362155
+            },
+            {
+                "id": "ARK-EUR",
+                "fromSymbol": "ARK",
+                "toSymbol": "EUR",
+                "price": 0.19387257045061
+            },
+            {
+                "id": "WTC-GBP",
+                "fromSymbol": "WTC",
+                "toSymbol": "GBP",
+                "price": 0.22910261916174
+            },
+            {
+                "id": "WTC-USD",
+                "fromSymbol": "WTC",
+                "toSymbol": "USD",
+                "price": 0.27893761312214
+            },
+            {
+                "id": "WTC-EUR",
+                "fromSymbol": "WTC",
+                "toSymbol": "EUR",
+                "price": 0.2560111728244
+            },
+            {
+                "id": "MANA-GBP",
+                "fromSymbol": "MANA",
+                "toSymbol": "GBP",
+                "price": 0.030383402065664
+            },
+            {
+                "id": "MANA-USD",
+                "fromSymbol": "MANA",
+                "toSymbol": "USD",
+                "price": 0.036992478225417
+            },
+            {
+                "id": "MANA-EUR",
+                "fromSymbol": "MANA",
+                "toSymbol": "EUR",
+                "price": 0.033951992455114
+            },
+            {
+                "id": "THETA-GBP",
+                "fromSymbol": "THETA",
+                "toSymbol": "GBP",
+                "price": 0.21508758350034
+            },
+            {
+                "id": "THETA-USD",
+                "fromSymbol": "THETA",
+                "toSymbol": "USD",
+                "price": 0.26187399067419
+            },
+            {
+                "id": "THETA-EUR",
+                "fromSymbol": "THETA",
+                "toSymbol": "EUR",
+                "price": 0.2403500436327
+            },
+            {
+                "id": "RDD-GBP",
+                "fromSymbol": "RDD",
+                "toSymbol": "GBP",
+                "price": 0.0012557274138381
+            },
+            {
+                "id": "RDD-USD",
+                "fromSymbol": "RDD",
+                "toSymbol": "USD",
+                "price": 0.0015288764870067
+            },
+            {
+                "id": "RDD-EUR",
+                "fromSymbol": "RDD",
+                "toSymbol": "EUR",
+                "price": 0.0014032150707867
+            },
+            {
+                "id": "AION-GBP",
+                "fromSymbol": "AION",
+                "toSymbol": "GBP",
+                "price": 0.077803445744792
+            },
+            {
+                "id": "AION-USD",
+                "fromSymbol": "AION",
+                "toSymbol": "USD",
+                "price": 0.094727452388526
+            },
+            {
+                "id": "AION-EUR",
+                "fromSymbol": "AION",
+                "toSymbol": "EUR",
+                "price": 0.086941613621808
+            },
+            {
+                "id": "GXC-GBP",
+                "fromSymbol": "GXC",
+                "toSymbol": "GBP",
+                "price": 0.39309676994879
+            },
+            {
+                "id": "GXC-USD",
+                "fromSymbol": "GXC",
+                "toSymbol": "USD",
+                "price": 0.47860419552048
+            },
+            {
+                "id": "GXC-EUR",
+                "fromSymbol": "GXC",
+                "toSymbol": "EUR",
+                "price": 0.43926675948226
+            },
+            {
+                "id": "RVN-GBP",
+                "fromSymbol": "RVN",
+                "toSymbol": "GBP",
+                "price": 0.015522196711035
+            },
+            {
+                "id": "RVN-USD",
+                "fromSymbol": "RVN",
+                "toSymbol": "USD",
+                "price": 0.018898625065181
+            },
+            {
+                "id": "RVN-EUR",
+                "fromSymbol": "RVN",
+                "toSymbol": "EUR",
+                "price": 0.017345309273823
+            },
+            {
+                "id": "POWR-GBP",
+                "fromSymbol": "POWR",
+                "toSymbol": "GBP",
+                "price": 0.074559512426052
+            },
+            {
+                "id": "POWR-USD",
+                "fromSymbol": "POWR",
+                "toSymbol": "USD",
+                "price": 0.090777890308583
+            },
+            {
+                "id": "POWR-EUR",
+                "fromSymbol": "POWR",
+                "toSymbol": "EUR",
+                "price": 0.08331667394834
+            },
+            {
+                "id": "ZEN-GBP",
+                "fromSymbol": "ZEN",
+                "toSymbol": "GBP",
+                "price": 4.6986303209969
+            },
+            {
+                "id": "ZEN-USD",
+                "fromSymbol": "ZEN",
+                "toSymbol": "USD",
+                "price": 5.7206885345861
+            },
+            {
+                "id": "ZEN-EUR",
+                "fromSymbol": "ZEN",
+                "toSymbol": "EUR",
+                "price": 5.2504937025514
+            },
+            {
+                "id": "HBAR-GBP",
+                "fromSymbol": "HBAR",
+                "toSymbol": "GBP",
+                "price": 0.030522116145582
+            },
+            {
+                "id": "HBAR-USD",
+                "fromSymbol": "HBAR",
+                "toSymbol": "USD",
+                "price": 0.037161365750581
+            },
+            {
+                "id": "HBAR-EUR",
+                "fromSymbol": "HBAR",
+                "toSymbol": "EUR",
+                "price": 0.034106998776809
+            },
+            {
+                "id": "WAN-GBP",
+                "fromSymbol": "WAN",
+                "toSymbol": "GBP",
+                "price": 0.14589852250951
+            },
+            {
+                "id": "WAN-USD",
+                "fromSymbol": "WAN",
+                "toSymbol": "USD",
+                "price": 0.17763474627987
+            },
+            {
+                "id": "WAN-EUR",
+                "fromSymbol": "WAN",
+                "toSymbol": "EUR",
+                "price": 0.16303459121364
+            },
+            {
+                "id": "CRPT-GBP",
+                "fromSymbol": "CRPT",
+                "toSymbol": "GBP",
+                "price": 0.37421782124536
+            },
+            {
+                "id": "CRPT-USD",
+                "fromSymbol": "CRPT",
+                "toSymbol": "USD",
+                "price": 0.45561864909216
+            },
+            {
+                "id": "CRPT-EUR",
+                "fromSymbol": "CRPT",
+                "toSymbol": "EUR",
+                "price": 0.41817044108598
+            },
+            {
+                "id": "TNT-GBP",
+                "fromSymbol": "TNT",
+                "toSymbol": "GBP",
+                "price": 0.027510001703606
+            },
+            {
+                "id": "TNT-USD",
+                "fromSymbol": "TNT",
+                "toSymbol": "USD",
+                "price": 0.033494048388738
+            },
+            {
+                "id": "TNT-EUR",
+                "fromSymbol": "TNT",
+                "toSymbol": "EUR",
+                "price": 0.030741105563571
+            },
+            {
+                "id": "MONA-GBP",
+                "fromSymbol": "MONA",
+                "toSymbol": "GBP",
+                "price": 1.3266553833068
+            },
+            {
+                "id": "MONA-USD",
+                "fromSymbol": "MONA",
+                "toSymbol": "USD",
+                "price": 1.6152328917462
+            },
+            {
+                "id": "MONA-EUR",
+                "fromSymbol": "MONA",
+                "toSymbol": "EUR",
+                "price": 1.4824736699078
+            },
+            {
+                "id": "RCN-GBP",
+                "fromSymbol": "RCN",
+                "toSymbol": "GBP",
+                "price": 0.064664887202806
+            },
+            {
+                "id": "RCN-USD",
+                "fromSymbol": "RCN",
+                "toSymbol": "USD",
+                "price": 0.078730960628736
+            },
+            {
+                "id": "RCN-EUR",
+                "fromSymbol": "RCN",
+                "toSymbol": "EUR",
+                "price": 0.072259905512739
+            },
+            {
+                "id": "CS-GBP",
+                "fromSymbol": "CS",
+                "toSymbol": "GBP",
+                "price": 0.031635714647307
+            },
+            {
+                "id": "CS-USD",
+                "fromSymbol": "CS",
+                "toSymbol": "USD",
+                "price": 0.038517197077101
+            },
+            {
+                "id": "CS-EUR",
+                "fromSymbol": "CS",
+                "toSymbol": "EUR",
+                "price": 0.03535139161494
+            },
+            {
+                "id": "ZRX-GBP",
+                "fromSymbol": "ZRX",
+                "toSymbol": "GBP",
+                "price": 0.27601535497203
+            },
+            {
+                "id": "ZRX-USD",
+                "fromSymbol": "ZRX",
+                "toSymbol": "USD",
+                "price": 0.33605492849737
+            },
+            {
+                "id": "ZRX-EUR",
+                "fromSymbol": "ZRX",
+                "toSymbol": "EUR",
+                "price": 0.30843390181431
+            },
+            {
+                "id": "QNT-GBP",
+                "fromSymbol": "QNT",
+                "toSymbol": "GBP",
+                "price": 4.1681217281408
+            },
+            {
+                "id": "QNT-USD",
+                "fromSymbol": "QNT",
+                "toSymbol": "USD",
+                "price": 5.0747823412238
+            },
+            {
+                "id": "QNT-EUR",
+                "fromSymbol": "QNT",
+                "toSymbol": "EUR",
+                "price": 4.657675831034
+            },
+            {
+                "id": "WAXP-GBP",
+                "fromSymbol": "WAXP",
+                "toSymbol": "GBP",
+                "price": 0.036444777967
+            },
+            {
+                "id": "WAXP-USD",
+                "fromSymbol": "WAXP",
+                "toSymbol": "USD",
+                "price": 0.044372340281734
+            },
+            {
+                "id": "WAXP-EUR",
+                "fromSymbol": "WAXP",
+                "toSymbol": "EUR",
+                "price": 0.040725288889298
+            },
+            {
+                "id": "PPC-GBP",
+                "fromSymbol": "PPC",
+                "toSymbol": "GBP",
+                "price": 0.21518180913876
+            },
+            {
+                "id": "PPC-USD",
+                "fromSymbol": "PPC",
+                "toSymbol": "USD",
+                "price": 0.26198871251706
+            },
+            {
+                "id": "PPC-EUR",
+                "fromSymbol": "PPC",
+                "toSymbol": "EUR",
+                "price": 0.24045533625785
+            },
+            {
+                "id": "SYS-GBP",
+                "fromSymbol": "SYS",
+                "toSymbol": "GBP",
+                "price": 0.020996598973233
+            },
+            {
+                "id": "SYS-USD",
+                "fromSymbol": "SYS",
+                "toSymbol": "USD",
+                "price": 0.025563833459021
+            },
+            {
+                "id": "SYS-EUR",
+                "fromSymbol": "SYS",
+                "toSymbol": "EUR",
+                "price": 0.023462690859358
+            },
+            {
+                "id": "VTC-GBP",
+                "fromSymbol": "VTC",
+                "toSymbol": "GBP",
+                "price": 0.22700505314063
+            },
+            {
+                "id": "VTC-USD",
+                "fromSymbol": "VTC",
+                "toSymbol": "USD",
+                "price": 0.27638377911782
+            },
+            {
+                "id": "VTC-EUR",
+                "fromSymbol": "VTC",
+                "toSymbol": "EUR",
+                "price": 0.25366724354457
+            },
+            {
+                "id": "NEBL-GBP",
+                "fromSymbol": "NEBL",
+                "toSymbol": "GBP",
+                "price": 0.37619869292649
+            },
+            {
+                "id": "NEBL-USD",
+                "fromSymbol": "NEBL",
+                "toSymbol": "USD",
+                "price": 0.45803040510202
+            },
+            {
+                "id": "NEBL-EUR",
+                "fromSymbol": "NEBL",
+                "toSymbol": "EUR",
+                "price": 0.42038397004587
+            },
+            {
+                "id": "MUE-GBP",
+                "fromSymbol": "MUE",
+                "toSymbol": "GBP",
+                "price": 0.0043465335657007
+            },
+            {
+                "id": "MUE-USD",
+                "fromSymbol": "MUE",
+                "toSymbol": "USD",
+                "price": 0.0052920027828923
+            },
+            {
+                "id": "MUE-EUR",
+                "fromSymbol": "MUE",
+                "toSymbol": "EUR",
+                "price": 0.0048570424901608
+            },
+            {
+                "id": "GBYTE-GBP",
+                "fromSymbol": "GBYTE",
+                "toSymbol": "GBP",
+                "price": 14.901637667069
+            },
+            {
+                "id": "GBYTE-USD",
+                "fromSymbol": "GBYTE",
+                "toSymbol": "USD",
+                "price": 18.143080413798
+            },
+            {
+                "id": "GBYTE-EUR",
+                "fromSymbol": "GBYTE",
+                "toSymbol": "EUR",
+                "price": 16.651864348427
+            },
+            {
+                "id": "BFT-GBP",
+                "fromSymbol": "BFT",
+                "toSymbol": "GBP",
+                "price": 0.0048692996805812
+            },
+            {
+                "id": "BFT-USD",
+                "fromSymbol": "BFT",
+                "toSymbol": "USD",
+                "price": 0.005928482334455
+            },
+            {
+                "id": "BFT-EUR",
+                "fromSymbol": "BFT",
+                "toSymbol": "EUR",
+                "price": 0.0054412085144214
+            },
+            {
+                "id": "LOKI-GBP",
+                "fromSymbol": "LOKI",
+                "toSymbol": "GBP",
+                "price": 0.25856939034342
+            },
+            {
+                "id": "LOKI-USD",
+                "fromSymbol": "LOKI",
+                "toSymbol": "USD",
+                "price": 0.31481407254416
+            },
+            {
+                "id": "LOKI-EUR",
+                "fromSymbol": "LOKI",
+                "toSymbol": "EUR",
+                "price": 0.28893887429361
+            },
+            {
+                "id": "NMR-GBP",
+                "fromSymbol": "NMR",
+                "toSymbol": "GBP",
+                "price": 20.93707568443
+            },
+            {
+                "id": "NMR-USD",
+                "fromSymbol": "NMR",
+                "toSymbol": "USD",
+                "price": 25.491362510568
+            },
+            {
+                "id": "NMR-EUR",
+                "fromSymbol": "NMR",
+                "toSymbol": "EUR",
+                "price": 23.396176443099
+            },
+            {
+                "id": "ENJ-GBP",
+                "fromSymbol": "ENJ",
+                "toSymbol": "GBP",
+                "price": 0.14188534837043
+            },
+            {
+                "id": "ENJ-USD",
+                "fromSymbol": "ENJ",
+                "toSymbol": "USD",
+                "price": 0.17274861612782
+            },
+            {
+                "id": "ENJ-EUR",
+                "fromSymbol": "ENJ",
+                "toSymbol": "EUR",
+                "price": 0.15855006187105
+            },
+            {
+                "id": "SOLVE-GBP",
+                "fromSymbol": "SOLVE",
+                "toSymbol": "GBP",
+                "price": 0.13514408049412
+            },
+            {
+                "id": "SOLVE-USD",
+                "fromSymbol": "SOLVE",
+                "toSymbol": "USD",
+                "price": 0.16454097023658
+            },
+            {
+                "id": "SOLVE-EUR",
+                "fromSymbol": "SOLVE",
+                "toSymbol": "EUR",
+                "price": 0.1510170188109
+            },
+            {
+                "id": "MCO-GBP",
+                "fromSymbol": "MCO",
+                "toSymbol": "GBP",
+                "price": 4.4783099025597
+            },
+            {
+                "id": "MCO-USD",
+                "fromSymbol": "MCO",
+                "toSymbol": "USD",
+                "price": 5.4524434491924
+            },
+            {
+                "id": "MCO-EUR",
+                "fromSymbol": "MCO",
+                "toSymbol": "EUR",
+                "price": 5.0042962172164
+            },
+            {
+                "id": "DATA-GBP",
+                "fromSymbol": "DATA",
+                "toSymbol": "GBP",
+                "price": 0.05720857633189
+            },
+            {
+                "id": "DATA-USD",
+                "fromSymbol": "DATA",
+                "toSymbol": "USD",
+                "price": 0.069652733742287
+            },
+            {
+                "id": "DATA-EUR",
+                "fromSymbol": "DATA",
+                "toSymbol": "EUR",
+                "price": 0.063927836250541
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Fri, 22 May 2020 14:10:09 GMT",
+            "Server",
+            "Apache",
+            "Expires",
+            "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "Pragma",
+            "no-cache",
+            "X-Powered-By",
+            "ProcessWire CMS",
+            "Set-Cookie",
+            "wires=vlb93icr1umhnu6ukmm33ob1i3; path=/; secure; HttpOnly",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Upgrade",
+            "h2,h2c",
+            "Connection",
+            "Upgrade, Keep-Alive",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Keep-Alive",
+            "timeout=5, max=100",
+            "Transfer-Encoding",
+            "chunked",
+            "Content-Type",
+            "text/html; charset=utf-8"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://www.bcbitcoin.co.uk:443",
+        "method": "GET",
+        "path": "/api/trades/?today=24",
+        "body": "",
+        "status": 200,
+        "response": {
+            "Trades": [
+                {
+                    "id": "13184",
+                    "pair": "NXS-EUR",
+                    "timestamp": "1590155688",
+                    "price": "0.1500",
+                    "amount": "1606.67",
+                    "type": "buy"
+                },
+                {
+                    "id": "13183",
+                    "pair": "NXS-EUR",
+                    "timestamp": "1590155645",
+                    "price": "0.1500",
+                    "amount": "1606.67",
+                    "type": "buy"
+                },
+                {
+                    "id": "13182",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590154629",
+                    "price": "7504.8000",
+                    "amount": "0.0493",
+                    "type": "buy"
+                },
+                {
+                    "id": "13181",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590153511",
+                    "price": "7530.8200",
+                    "amount": "0.0491",
+                    "type": "buy"
+                },
+                {
+                    "id": "13180",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590153064",
+                    "price": "166.9800",
+                    "amount": "2.7428",
+                    "type": "buy"
+                },
+                {
+                    "id": "13179",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590152590",
+                    "price": "7541.8500",
+                    "amount": "0.0123",
+                    "type": "buy"
+                },
+                {
+                    "id": "13178",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590152274",
+                    "price": "157.2127",
+                    "amount": "4.09",
+                    "type": "sell"
+                },
+                {
+                    "id": "13177",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590152020",
+                    "price": "157.3418",
+                    "amount": "4.093",
+                    "type": "sell"
+                },
+                {
+                    "id": "13176",
+                    "pair": "BTC-EUR",
+                    "timestamp": "1590151469",
+                    "price": "8427.7900",
+                    "amount": "0.0516",
+                    "type": "buy"
+                },
+                {
+                    "id": "13175",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590151468",
+                    "price": "7547.3000",
+                    "amount": "0.0123",
+                    "type": "buy"
+                },
+                {
+                    "id": "13174",
+                    "pair": "LINK-GBP",
+                    "timestamp": "1590148277",
+                    "price": "3.2600",
+                    "amount": "142.025",
+                    "type": "buy"
+                },
+                {
+                    "id": "13173",
+                    "pair": "OMG-GBP",
+                    "timestamp": "1590147882",
+                    "price": "1.3189",
+                    "amount": "1295",
+                    "type": "sell"
+                },
+                {
+                    "id": "13172",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590146969",
+                    "price": "166.6200",
+                    "amount": "0.2761",
+                    "type": "buy"
+                },
+                {
+                    "id": "13171",
+                    "pair": "VET-GBP",
+                    "timestamp": "1590146536",
+                    "price": "0.0036",
+                    "amount": "99444.4",
+                    "type": "buy"
+                },
+                {
+                    "id": "13170",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590145759",
+                    "price": "167.0300",
+                    "amount": "2.772",
+                    "type": "buy"
+                },
+                {
+                    "id": "13169",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590143262",
+                    "price": "7547.0500",
+                    "amount": "0.0886",
+                    "type": "buy"
+                },
+                {
+                    "id": "13168",
+                    "pair": "OMG-GBP",
+                    "timestamp": "1590143006",
+                    "price": "1.4031",
+                    "amount": "1295",
+                    "type": "sell"
+                },
+                {
+                    "id": "13167",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590142768",
+                    "price": "7530.2700",
+                    "amount": "1.2417",
+                    "type": "buy"
+                },
+                {
+                    "id": "13166",
+                    "pair": "OMG-GBP",
+                    "timestamp": "1590142599",
+                    "price": "1.3977",
+                    "amount": "1295",
+                    "type": "sell"
+                },
+                {
+                    "id": "13165",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590141253",
+                    "price": "165.7000",
+                    "amount": "1.3941",
+                    "type": "buy"
+                },
+                {
+                    "id": "13164",
+                    "pair": "THETA-GBP",
+                    "timestamp": "1590140760",
+                    "price": "0.2100",
+                    "amount": "833.333",
+                    "type": "buy"
+                },
+                {
+                    "id": "13163",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590140002",
+                    "price": "165.4300",
+                    "amount": "0.5622",
+                    "type": "buy"
+                },
+                {
+                    "id": "13162",
+                    "pair": "OMG-GBP",
+                    "timestamp": "1590139760",
+                    "price": "1.4741",
+                    "amount": "1295",
+                    "type": "sell"
+                },
+                {
+                    "id": "13161",
+                    "pair": "XRP-GBP",
+                    "timestamp": "1590139727",
+                    "price": "0.1637",
+                    "amount": "592.547",
+                    "type": "buy"
+                },
+                {
+                    "id": "13160",
+                    "pair": "OMG-GBP",
+                    "timestamp": "1590139412",
+                    "price": "1.5800",
+                    "amount": "114.557",
+                    "type": "buy"
+                },
+                {
+                    "id": "13159",
+                    "pair": "XRP-GBP",
+                    "timestamp": "1590138953",
+                    "price": "0.1639",
+                    "amount": "561.318",
+                    "type": "buy"
+                },
+                {
+                    "id": "13158",
+                    "pair": "OMG-GBP",
+                    "timestamp": "1590138947",
+                    "price": "1.4517",
+                    "amount": "1295",
+                    "type": "sell"
+                },
+                {
+                    "id": "13157",
+                    "pair": "LINK-GBP",
+                    "timestamp": "1590138854",
+                    "price": "3.2100",
+                    "amount": "28.972",
+                    "type": "buy"
+                },
+                {
+                    "id": "13156",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590138280",
+                    "price": "7468.7200",
+                    "amount": "0.1252",
+                    "type": "buy"
+                },
+                {
+                    "id": "13155",
+                    "pair": "SOLVE-GBP",
+                    "timestamp": "1590137572",
+                    "price": "0.1800",
+                    "amount": "538.889",
+                    "type": "buy"
+                },
+                {
+                    "id": "13154",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590137136",
+                    "price": "7455.0000",
+                    "amount": "0.0087",
+                    "type": "buy"
+                },
+                {
+                    "id": "13153",
+                    "pair": "BTC-EUR",
+                    "timestamp": "1590135632",
+                    "price": "8319.6000",
+                    "amount": "0.1124",
+                    "type": "buy"
+                },
+                {
+                    "id": "13152",
+                    "pair": "SOLVE-GBP",
+                    "timestamp": "1590135263",
+                    "price": "0.1600",
+                    "amount": "993.75",
+                    "type": "buy"
+                },
+                {
+                    "id": "13151",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590133992",
+                    "price": "7478.0400",
+                    "amount": "0.0309",
+                    "type": "buy"
+                },
+                {
+                    "id": "13150",
+                    "pair": "ZIL-GBP",
+                    "timestamp": "1590133309",
+                    "price": "0.0081",
+                    "amount": "11111.1",
+                    "type": "buy"
+                },
+                {
+                    "id": "13149",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590132726",
+                    "price": "7456.5200",
+                    "amount": "0.0439",
+                    "type": "buy"
+                },
+                {
+                    "id": "13148",
+                    "pair": "DGB-GBP",
+                    "timestamp": "1590129679",
+                    "price": "0.0140",
+                    "amount": "99142.9",
+                    "type": "buy"
+                },
+                {
+                    "id": "13147",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590121422",
+                    "price": "7409.3900",
+                    "amount": "0.0441",
+                    "type": "buy"
+                },
+                {
+                    "id": "13146",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590107008",
+                    "price": "7030.0000",
+                    "amount": "0.1",
+                    "type": "sell"
+                },
+                {
+                    "id": "13145",
+                    "pair": "LINK-GBP",
+                    "timestamp": "1590106694",
+                    "price": "3.1400",
+                    "amount": "29.6178",
+                    "type": "buy"
+                },
+                {
+                    "id": "13144",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590096847",
+                    "price": "7062.9371",
+                    "amount": "0.0143",
+                    "type": "sell"
+                },
+                {
+                    "id": "13143",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590096169",
+                    "price": "7416.7800",
+                    "amount": "0.0631",
+                    "type": "buy"
+                },
+                {
+                    "id": "13142",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590096134",
+                    "price": "7416.7800",
+                    "amount": "0.0631",
+                    "type": "buy"
+                },
+                {
+                    "id": "13141",
+                    "pair": "SOLVE-GBP",
+                    "timestamp": "1590093927",
+                    "price": "0.1300",
+                    "amount": "684.615",
+                    "type": "buy"
+                },
+                {
+                    "id": "13140",
+                    "pair": "BTC-EUR",
+                    "timestamp": "1590092614",
+                    "price": "8250.2900",
+                    "amount": "0.0113",
+                    "type": "buy"
+                },
+                {
+                    "id": "13139",
+                    "pair": "VET-GBP",
+                    "timestamp": "1590091061",
+                    "price": "0.0034",
+                    "amount": "120882",
+                    "type": "buy"
+                },
+                {
+                    "id": "13138",
+                    "pair": "VET-GBP",
+                    "timestamp": "1590091018",
+                    "price": "0.0034",
+                    "amount": "119412",
+                    "type": "buy"
+                },
+                {
+                    "id": "13137",
+                    "pair": "VET-GBP",
+                    "timestamp": "1590090917",
+                    "price": "0.0034",
+                    "amount": "119412",
+                    "type": "buy"
+                },
+                {
+                    "id": "13136",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590090335",
+                    "price": "7408.1200",
+                    "amount": "0.0177",
+                    "type": "buy"
+                },
+                {
+                    "id": "13135",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590088769",
+                    "price": "6962.6667",
+                    "amount": "3",
+                    "type": "sell"
+                },
+                {
+                    "id": "13134",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590088746",
+                    "price": "7329.0400",
+                    "amount": "2.5515",
+                    "type": "buy"
+                },
+                {
+                    "id": "13133",
+                    "pair": "BCH-GBP",
+                    "timestamp": "1590087406",
+                    "price": "170.3196",
+                    "amount": "2.19",
+                    "type": "sell"
+                },
+                {
+                    "id": "13132",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590086202",
+                    "price": "7357.3100",
+                    "amount": "0.0189",
+                    "type": "buy"
+                },
+                {
+                    "id": "13131",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590085843",
+                    "price": "7000.0000",
+                    "amount": "0.015",
+                    "type": "sell"
+                },
+                {
+                    "id": "13130",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590085273",
+                    "price": "7355.0500",
+                    "amount": "2.5425",
+                    "type": "buy"
+                },
+                {
+                    "id": "13129",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590082336",
+                    "price": "7418.1800",
+                    "amount": "0.0127",
+                    "type": "buy"
+                },
+                {
+                    "id": "13128",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590081435",
+                    "price": "7427.5500",
+                    "amount": "0.1869",
+                    "type": "buy"
+                },
+                {
+                    "id": "13127",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590081073",
+                    "price": "7432.6300",
+                    "amount": "0.3734",
+                    "type": "buy"
+                },
+                {
+                    "id": "13126",
+                    "pair": "XRP-GBP",
+                    "timestamp": "1590078052",
+                    "price": "0.1587",
+                    "amount": "1442.97",
+                    "type": "buy"
+                },
+                {
+                    "id": "13125",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590077661",
+                    "price": "163.5400",
+                    "amount": "1.4003",
+                    "type": "buy"
+                },
+                {
+                    "id": "13124",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590077226",
+                    "price": "7427.7600",
+                    "amount": "0.0623",
+                    "type": "buy"
+                },
+                {
+                    "id": "13123",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590075381",
+                    "price": "7075.0000",
+                    "amount": "0.04",
+                    "type": "sell"
+                },
+                {
+                    "id": "13122",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590074432",
+                    "price": "164.4000",
+                    "amount": "0.4988",
+                    "type": "buy"
+                },
+                {
+                    "id": "13121",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590074277",
+                    "price": "7430.8200",
+                    "amount": "0.0112",
+                    "type": "buy"
+                },
+                {
+                    "id": "13120",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590074213",
+                    "price": "7430.9600",
+                    "amount": "0.0125",
+                    "type": "buy"
+                },
+                {
+                    "id": "13119",
+                    "pair": "VET-GBP",
+                    "timestamp": "1590074093",
+                    "price": "0.0035",
+                    "amount": "102286",
+                    "type": "buy"
+                },
+                {
+                    "id": "13118",
+                    "pair": "BTC-EUR",
+                    "timestamp": "1590074035",
+                    "price": "8302.6700",
+                    "amount": "0.371",
+                    "type": "buy"
+                },
+                {
+                    "id": "13117",
+                    "pair": "VET-GBP",
+                    "timestamp": "1590073997",
+                    "price": "0.0035",
+                    "amount": "102286",
+                    "type": "buy"
+                },
+                {
+                    "id": "13116",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590073511",
+                    "price": "7043.5967",
+                    "amount": "0.1468",
+                    "type": "sell"
+                },
+                {
+                    "id": "13115",
+                    "pair": "LINK-GBP",
+                    "timestamp": "1590073385",
+                    "price": "3.1700",
+                    "amount": "146.057",
+                    "type": "buy"
+                },
+                {
+                    "id": "13114",
+                    "pair": "BTC-EUR",
+                    "timestamp": "1590073037",
+                    "price": "8269.9400",
+                    "amount": "0.3684",
+                    "type": "buy"
+                },
+                {
+                    "id": "13113",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590072684",
+                    "price": "7040.0000",
+                    "amount": "0.1",
+                    "type": "sell"
+                },
+                {
+                    "id": "13112",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590072664",
+                    "price": "7040.0000",
+                    "amount": "0.1",
+                    "type": "sell"
+                },
+                {
+                    "id": "13111",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590072389",
+                    "price": "154.1111",
+                    "amount": "9",
+                    "type": "sell"
+                },
+                {
+                    "id": "13110",
+                    "pair": "ETH-GBP",
+                    "timestamp": "1590072191",
+                    "price": "154.8429",
+                    "amount": "9.1835",
+                    "type": "sell"
+                },
+                {
+                    "id": "13109",
+                    "pair": "BSV-GBP",
+                    "timestamp": "1590071990",
+                    "price": "140.6667",
+                    "amount": "6",
+                    "type": "sell"
+                },
+                {
+                    "id": "13108",
+                    "pair": "LTC-GBP",
+                    "timestamp": "1590071891",
+                    "price": "32.8205",
+                    "amount": "49.329",
+                    "type": "sell"
+                },
+                {
+                    "id": "13107",
+                    "pair": "LTC-GBP",
+                    "timestamp": "1590071672",
+                    "price": "32.8198",
+                    "amount": "49.33",
+                    "type": "sell"
+                },
+                {
+                    "id": "13106",
+                    "pair": "BTC-GBP",
+                    "timestamp": "1590071617",
+                    "price": "7504.0000",
+                    "amount": "0.0617",
+                    "type": "buy"
+                },
+                {
+                    "id": "13105",
+                    "pair": "LINK-GBP",
+                    "timestamp": "1590071306",
+                    "price": "3.2000",
+                    "amount": "29.0625",
+                    "type": "buy"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 22 May 2020 14:10:13 GMT",
+            "Server",
+            "Apache",
+            "Expires",
+            "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+            "Pragma",
+            "no-cache",
+            "X-Powered-By",
+            "ProcessWire CMS",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Upgrade",
+            "h2,h2c",
+            "Connection",
+            "Upgrade, Keep-Alive",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Keep-Alive",
+            "timeout=5, max=100",
+            "Transfer-Encoding",
+            "chunked",
+            "Content-Type",
+            "text/html; charset=utf-8"
+        ],
+        "responseIsBinary": false
+    }
+]

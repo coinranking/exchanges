@@ -3,6 +3,8 @@ const request = require('../lib/request');
 const Ticker = require('../models/ticker');
 const { parseToFloat, flatMap } = require('../lib/utils.js');
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
+
 /**
  * @memberof Driver
  * @augments Driver
@@ -13,18 +15,19 @@ class Abit extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('https://api.abit.com/v1/ifmarket/spotTickers');
+    const { data: { tickers } } = await request('https://api.abit.com/spot/tickers');
 
     return flatMap(tickers, (ticker) => {
-      const [base, quote] = ticker.stock_code.split('/');
+      const [base, quote] = ticker.symbol.split('/');
 
       return new Ticker({
         base,
         quote,
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
-        close: parseToFloat(ticker.last_price),
-        baseVolume: parseToFloat(ticker.total_volume),
+        close: parseToFloat(ticker.close),
+        baseVolume: parseToFloat(ticker.qty24),
+        quoteVolume: parseToFloat(ticker.amount24),
       });
     });
   }

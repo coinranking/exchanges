@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/exchanges",
-  "version": "2.40.0",
+  "version": "2.43.0",
   "description": "An open source JavaScript library for fetching tickers from cryptocurrency exchanges",
   "main": "lib/exchanges.js",
   "engines": {
@@ -66,11 +66,11 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsdoc": "^25.4.2",
+    "eslint-plugin-jsdoc": "^25.4.3",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "nock": "^12.0.3",
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^17.0.8"
   },
   "config": {
     "commitizen": {
