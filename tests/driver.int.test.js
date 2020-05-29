@@ -16,7 +16,7 @@ const driversDir = path.join(__dirname, '..', 'drivers');
 const getTickers = async (driverName) => {
   const driver = new drivers[driverName]();
 
-  await nock.back(`${driverName}.json`);
+  await nock.back(`${driverName}.json`.toLowerCase());
 
   return driver.fetchTickers(true);
 };
