@@ -1,3 +1,17 @@
+# [2.44.0](https://github.com/coinranking/exchanges/compare/v2.43.0...v2.44.0) (2020-06-04)
+
+
+### Bug Fixes
+
+* use correct fixture names ([6b4fd76](https://github.com/coinranking/exchanges/commit/6b4fd76970cef04a29b9747f34ebf9a1dedf79b9))
+
+
+### Features
+
+* **api keys prep:** add Commander dependency ([a70dd93](https://github.com/coinranking/exchanges/commit/a70dd934917b38ffb57df8828d3ec5e50c3195e4))
+* **api keys prep:** create fixtures individually ([4069f37](https://github.com/coinranking/exchanges/commit/4069f37cf3eedc047278f1b3d7bfaa66dda140ac))
+* **api keys prep:** implement Commander for CLI ([82e3fbe](https://github.com/coinranking/exchanges/commit/82e3fbea7d197f5a73b5c13e3d6461ccbd9d12d7))
+
 # [2.43.0](https://github.com/coinranking/exchanges/compare/v2.42.1...v2.43.0) (2020-05-27)
 
 
