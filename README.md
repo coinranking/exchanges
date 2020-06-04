@@ -40,13 +40,15 @@ console.log(exchanges.list());
 Get the tickers of a specific exchange
 
 ```JavaScript
-const exchanges = require('@coinranking/exchanges');
+const { Binance } = require('@coinranking/exchanges');
 
-exchanges
-  .tickers('binance')
+const driver = new Binance();
+
+driver
+  .fetchTickers()
   .then((tickers) => {
     console.log(tickers);
-  })
+  });
 ```
 
 ## Development
@@ -61,17 +63,23 @@ npm run install
 
 ### Usage
 
-List all supported drivers
+#### List all supported drivers
 
 ```shell
-npm run list
+node lib/cli.js list
 ```
 
-Get the tickers of a specific exchange
+#### Get the tickers of a specific exchange
 
 ```shell
-npm run tickers [name of the exchange]
+node lib/cli.js tickers [name of the exchange]
 ```
+
+##### Flags
+
+| Name      | Flag                    | Description
+| ----------| ------------------------| ---
+| Record    | `-R`, `--record`        | Record the requests, and save them as fixtures.
 
 ## Contributing
 

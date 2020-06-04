@@ -12,8 +12,6 @@
   },
   "readme": "README.md",
   "scripts": {
-    "tickers": "node -e \"require('./lib/cli').tickers()\"",
-    "list": "node -e \"require('./lib/cli').list()\"",
     "cm": "git-cz",
     "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
     "test": "npx jest",
@@ -55,6 +53,7 @@
   "license": "MIT",
   "dependencies": {
     "cloudscraper": "^4.6.0",
+    "commander": "^5.1.0",
     "request": "^2.88.2"
   },
   "devDependencies": {

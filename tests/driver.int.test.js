@@ -1,29 +1,24 @@
 const fs = require('fs');
 const path = require('path');
-const { nock, defaultOptions } = require('./helpers/nock.js');
+const { nock } = require('./helpers/nock.js');
 const { isUndefined, isGreaterThanZero } = require('../lib/utils');
 const drivers = require('../drivers');
 
 jest.setTimeout(60 * 1000); // Same timeout as Lambda
 
+// Disable all network requests.
+// All requests should be mocked at this point.
+nock.back.setMode('lockdown');
+
 const driverNames = Object.keys(drivers);
 const driversDir = path.join(__dirname, '..', 'drivers');
 
 const getTickers = async (driverName) => {
-  const driver = drivers[driverName];
+  const driver = new drivers[driverName]();
 
-  const { nockDone, context } = await nock.back(
-    `${driverName}.json`,
-    defaultOptions,
-  );
+  await nock.back(`${driverName}.json`.toLowerCase());
 
-  const isMocked = context.isLoaded || false;
-
-  const tickers = await driver(isMocked);
-
-  nockDone();
-
-  return tickers;
+  return driver.fetchTickers(true);
 };
 
 test('All drivers are added to the index.js file in alphabetical order', () => {
@@ -32,7 +27,10 @@ test('All drivers are added to the index.js file in alphabetical order', () => {
   const driverFiles = files
     .filter((file) => file.substr(-3) === '.js')
     .filter((file) => file !== 'index.js')
-    .map((file) => file.replace('.js', ''));
+    .map((file) => file.replace('_', ''))
+    .map((file) => file.charAt(0).toUpperCase() + file.slice(1))
+    .map((file) => file.replace('.js', ''))
+    .sort();
 
   expect(driverNames).toEqual(driverFiles);
 });
