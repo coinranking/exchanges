@@ -1,3 +1,10 @@
+## [2.45.1](https://github.com/coinranking/exchanges/compare/v2.45.0...v2.45.1) (2020-06-04)
+
+
+### Bug Fixes
+
+* **bitfinex:** get markets with a : in the pair as well ([569fe55](https://github.com/coinranking/exchanges/commit/569fe55f057950937bc4484646e174ebe77757cf))
+
 # [2.45.0](https://github.com/coinranking/exchanges/compare/v2.44.0...v2.45.0) (2020-06-04)
 
 
