@@ -21,10 +21,8 @@ class Bitfinex extends Driver {
     const symbolsMap = new Map(symbols);
 
     return tickers.map((ticker) => {
-      const market = ticker[0];
-      if (market[0] !== 't') return undefined;
-      const regex = new RegExp(`^([A-Z]*)(${currencies.join('|')})$`);
-      const pair = regex.exec(ticker[0].substring(1));
+      const regex = new RegExp(`^t(${currencies.join('|')}):?(${currencies.join('|')})$`);
+      const pair = regex.exec(ticker[0]);
       if (!pair) return undefined;
       const [, base, quote] = pair;
 
