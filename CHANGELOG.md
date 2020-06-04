@@ -1,3 +1,11 @@
+# [2.45.0](https://github.com/coinranking/exchanges/compare/v2.44.0...v2.45.0) (2020-06-04)
+
+
+### Features
+
+* **bitfinex:** map the real world symbol, fetch the name ([f4da67a](https://github.com/coinranking/exchanges/commit/f4da67a5d6b5199c5d62e6261ec42b0fb50266b5))
+* **bitfinex:** use v2 to get the tickers and add ask and bid ([2211714](https://github.com/coinranking/exchanges/commit/221171474e925036f1e8a2e2310a8c5c76e2d560))
+
 # [2.44.0](https://github.com/coinranking/exchanges/compare/v2.43.0...v2.44.0) (2020-06-04)
 
 
