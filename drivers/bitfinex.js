@@ -13,7 +13,7 @@ class Bitfinex extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://api.bitfinex.com/v1/tickers');
+    const tickers = await request('https://api-pub.bitfinex.com/v2/tickers?symbols=ALL');
     const [names, symbols] = await request('https://api-pub.bitfinex.com/v2/conf/pub:map:currency:label,pub:map:currency:sym');
     const [currencies] = await request('https://api-pub.bitfinex.com/v2/conf/pub:list:currency');
 
@@ -21,20 +21,31 @@ class Bitfinex extends Driver {
     const symbolsMap = new Map(symbols);
 
     return tickers.map((ticker) => {
+      const market = ticker[0];
+      if (market[0] !== 't') return undefined;
       const regex = new RegExp(`^([A-Z]*)(${currencies.join('|')})$`);
-      const pair = regex.exec(ticker.pair);
+      const pair = regex.exec(ticker[0].substring(1));
       if (!pair) return undefined;
       const [, base, quote] = pair;
+
+      const bid = parseToFloat(ticker[1]);
+      const ask = parseToFloat(ticker[3]);
+      const close = parseToFloat(ticker[7]);
+      const baseVolume = parseToFloat(ticker[8]);
+      const high = parseToFloat(ticker[9]);
+      const low = parseToFloat(ticker[10]);
 
       return new Ticker({
         base: symbolsMap.get(base) || base,
         quote: symbolsMap.get(quote) || quote,
         baseName: namesMap.get(base),
         quoteName: namesMap.get(quote),
-        baseVolume: parseToFloat(ticker.volume),
-        close: parseToFloat(ticker.last_price),
-        high: parseToFloat(ticker.high),
-        low: parseToFloat(ticker.low),
+        bid,
+        ask,
+        baseVolume,
+        close,
+        high,
+        low,
       });
     });
   }
