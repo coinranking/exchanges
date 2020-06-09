@@ -80,6 +80,7 @@ node lib/cli.js tickers [name of the exchange]
 | Name      | Flag                    | Description
 | ----------| ------------------------| ---
 | Record    | `-R`, `--record`        | Record the requests, and save them as fixtures.
+| API Key   | `-k`, `--key`           | For passing down an API key when the driver requires one. When used in combination with the `-R` flag the key will be masked in the fixtures.
 
 ## Contributing
 

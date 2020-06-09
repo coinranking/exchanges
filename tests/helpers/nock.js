@@ -38,8 +38,27 @@ const makeCompressedResponsesReadable = (scope) => {
   return scope;
 };
 
-const defaultOptions = {
-  afterRecord: (outputs) => outputs.map(makeCompressedResponsesReadable),
+const maskSecretInString = (secret) => (string) => string.split(secret).join('maskedSecret');
+
+const maskSecret = (secret) => (scope) => {
+  scope.rawHeaders = scope.rawHeaders.map(maskSecretInString(secret));
+  if (typeof scope.response === 'string') {
+    scope.response = maskSecretInString(secret)(scope.response);
+  }
+  scope.path = maskSecretInString(secret)(scope.path);
+  scope.body = maskSecretInString(secret)(scope.body);
+  return scope;
 };
+
+const defaultOptions = (secret) => ({
+  afterRecord: (outputs) => {
+    let parsed = outputs;
+    parsed = parsed.map(makeCompressedResponsesReadable);
+    if (secret) {
+      parsed = parsed.map(maskSecret(secret));
+    }
+    return parsed;
+  },
+});
 
 module.exports = { nock, defaultOptions };
