@@ -1,0 +1,51 @@
+[
+    {
+        "scope": "https://paycml.com:443",
+        "method": "GET",
+        "path": "/tickerapi",
+        "body": "",
+        "status": 200,
+        "response": [
+            "03a30400c496febeaabda1fe97593640c2eb4ec42a5199b85920812dd369d132d80334cbc3b1689d0f2a8a1fe85987a5183dfe05f898b9b59d384146520f433b3656bf9e8efdcae4f6d4e1f6e6810cc85c9fc9202aa33fe800e908772f18d2dc4b8f9fe7af6f13afb7320854da3b3e7f7d9b5ca56a6ada501c90c880913cf983bb8f77eff7e7f7cb3e6a61d2269bb4ab97b170f7f8598d7f742d33c3f08a998d39b33d8fa97f580928737f731d6b93c2bec629baaa633afc3021169c9e21abf5f4dadc8c12b46b75ca747f6115f87ea7e8192e52e8a193db531d0901dfab42ce11340a0aeac6e4f2cef6fba90bc74f34c8ae96867aa9a3f9fe506641af0cd07ad4f9edfa2116f58c4633baf409289acf4cad2c57bcde692680a09cd95f99a685a3cb6c580f3e0c2bcfd6613fced278ae637934e12dbc6433867a503d32d9cdbc64303c907c3919d5d23421c3fa1f"
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 16 Jun 2020 20:53:52 GMT",
+            "Content-Type",
+            "text/html; charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=de5b4fdfeda208042ef6124f09714bfd11592340831; expires=Thu, 16-Jul-20 20:53:51 GMT; path=/; domain=.paycml.com; HttpOnly; SameSite=Lax; Secure",
+            "Set-Cookie",
+            "csrf_cookie_name=68f9f8f80f3f769da40ea70829615368; expires=Tue, 16-Jun-2020 22:53:51 GMT; Max-Age=7200; path=/",
+            "Set-Cookie",
+            "ci_session=qndocbnle3g75mdsv08jbqrid16v59s5; expires=Tue, 16-Jun-2020 22:53:51 GMT; Max-Age=7200; path=/; HttpOnly",
+            "Expires",
+            "Thu, 19 Nov 1981 08:52:00 GMT",
+            "Cache-Control",
+            "no-store, no-cache, must-revalidate",
+            "Pragma",
+            "no-cache",
+            "CI-CSRF-Token",
+            "68f9f8f80f3f769da40ea70829615368",
+            "Vary",
+            "Accept-Encoding",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "036081f4750000fc596696f200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "5a476c33eb40fc59-ZAG",
+            "Content-Encoding",
+            "br"
+        ],
+        "responseIsBinary": false
+    }
+]
