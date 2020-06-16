@@ -242,6 +242,7 @@ exports.Tokenstore = require('./tokenstore');
 exports.Tokok = require('./tokok');
 exports.Tradesatoshi = require('./tradesatoshi');
 exports.Turtlenetwork = require('./turtlenetwork');
+exports.Txbit = require('./txbit');
 exports.Uniswap = require('./uniswap');
 exports.Unnamed = require('./unnamed');
 exports.Upbit = require('./upbit');
