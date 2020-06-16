@@ -109,6 +109,7 @@ exports.Coss = require('./coss');
 exports.Crex24 = require('./crex24');
 exports.Cryptlocex = require('./cryptlocex');
 exports.Cryptobridge = require('./cryptobridge');
+exports.Cryptocore = require('./cryptocore');
 exports.Cryptohubexchange = require('./cryptohubexchange');
 exports.Cryptonex = require('./cryptonex');
 exports.Currency = require('./currency');
