@@ -202,6 +202,7 @@ exports.Ovex = require('./ovex');
 exports.P2pb2b = require('./p2pb2b');
 exports.Paribu = require('./paribu');
 exports.Parsxc = require('./parsxc');
+exports.Paycml = require('./paycml');
 exports.Paymium = require('./paymium');
 exports.Payrue = require('./payrue');
 exports.Poloniex = require('./poloniex');
