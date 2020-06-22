@@ -1,3 +1,11 @@
+# [2.46.0](https://github.com/coinranking/exchanges/compare/v2.45.1...v2.46.0) (2020-06-22)
+
+
+### Features
+
+* cryptocore driver ([97c9126](https://github.com/coinranking/exchanges/commit/97c9126fe9eea90be89cd0531f1b4c99c8a9ec0a))
+* paycml driver ([7bf862b](https://github.com/coinranking/exchanges/commit/7bf862b85b1f274ec7ace299527cd448e5cc81ea))
+
 ## [2.45.1](https://github.com/coinranking/exchanges/compare/v2.45.0...v2.45.1) (2020-06-04)
 
 
