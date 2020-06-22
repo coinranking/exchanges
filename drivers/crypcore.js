@@ -7,7 +7,7 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Cryptocore extends Driver {
+class Crypcore extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
@@ -34,4 +34,4 @@ class Cryptocore extends Driver {
   }
 }
 
-module.exports = Cryptocore;
+module.exports = Crypcore;
