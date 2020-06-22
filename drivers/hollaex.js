@@ -3,7 +3,6 @@ const request = require('../lib/request');
 const Ticker = require('../models/ticker');
 const { parseToFloat, throttleMap } = require('../lib/utils.js');
 
-
 /**
  * @memberof Driver
  * @augments Driver

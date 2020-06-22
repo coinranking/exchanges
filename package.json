@@ -57,19 +57,19 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/cli": "^9.1.0",
+    "@commitlint/config-conventional": "^9.1.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-jsdoc": "^27.1.2",
+    "eslint-plugin-jsdoc": "^28.0.0",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
-    "nock": "^12.0.3",
+    "nock": "^13.0.0",
     "semantic-release": "^17.0.8"
   },
   "config": {

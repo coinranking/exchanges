@@ -17,7 +17,6 @@ class Nominex extends Driver {
     const pairs = await request('https://nominex.io/api/rest/v1/pairs');
     const symbols = pairs.map((item) => item.name);
 
-
     const tickers = throttleMap(symbols, async (symbol) => {
       try {
         const data = await request(`https://nominex.io/api/rest/v1/ticker?pairs=${symbol}`);
