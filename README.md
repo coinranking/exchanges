@@ -88,8 +88,9 @@ Bug reports and pull requests are welcome. This project is intended to be a safe
 
 ### Adding an exchange
 
-1. Add a new driver
-2. Add a new fixture
+1. Add a new driver (see the examples in the 'examples' folder)
+2. Add the driver alphabetically to drivers/index.js
+3. Add a new fixture (use the record option of the CLI 'tickers' command)
 
 Single API calls are highly preferred.
 When adding an exchange be aware of the base and quote.
