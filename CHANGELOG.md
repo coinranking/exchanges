@@ -1,3 +1,15 @@
+# [2.47.0](https://github.com/coinranking/exchanges/compare/v2.46.0...v2.47.0) (2020-06-22)
+
+
+### Bug Fixes
+
+* typo in exchange name ([1a087c7](https://github.com/coinranking/exchanges/commit/1a087c799b0829ec633b86c37c40a1e377e6b661))
+
+
+### Features
+
+* txbit driver ([f55129d](https://github.com/coinranking/exchanges/commit/f55129d8ae95b45a6952e4cc3331a9124df88c5e))
+
 # [2.46.0](https://github.com/coinranking/exchanges/compare/v2.45.1...v2.46.0) (2020-06-22)
 
 
