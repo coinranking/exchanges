@@ -88,13 +88,18 @@ Bug reports and pull requests are welcome. This project is intended to be a safe
 
 ### Adding an exchange
 
-1. Add a new driver (see the examples in the 'examples' folder)
+1. Add a new driver (see the [examples](#examples))
 2. Add the driver alphabetically to drivers/index.js
 3. Add a new fixture (use the record option of the CLI 'tickers' command)
 
 Single API calls are highly preferred.
 When adding an exchange be aware of the base and quote.
 A driver should at least support `base`, `quote`, `close` and `baseVolume` or `quoteVolume`. And optionally `open`, `high`, `low`, `ask`, `bid`, `baseName`, `baseReference`, `quoteName` and `quoteReference`.
+
+### Examples
+- [Driver basis:](examples/basicdriver.js) Shows the basic setup of a driver, which can be used as the starting point
+for new ones.
+- [Driver with API key:](examples/apikeydriver.js) Shows how to set up a driver that uses an API which requires a key.
 
 ### Conventions
 
