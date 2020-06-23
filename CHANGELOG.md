@@ -1,3 +1,24 @@
+# [3.0.0](https://github.com/coinranking/exchanges/compare/v2.47.0...v3.0.0) (2020-06-23)
+
+
+### Features
+
+* **support api keys:** add documentation ([6b6cbe4](https://github.com/coinranking/exchanges/commit/6b6cbe4da251c87c9fd9f23a3750eeb0ed4d75a9))
+* **support api keys:** adjust documentation ([03f15a6](https://github.com/coinranking/exchanges/commit/03f15a6a280787529ea40e5a7f81aeef3530cbd7))
+
+
+* feat(support api keys)!: implement API keys support ([8db084e](https://github.com/coinranking/exchanges/commit/8db084e4f319e14d1b027e6c0b88d2410febbad6))
+
+
+### BREAKING CHANGES
+
+* As it wasn't possible to keep tickers() backwards compatible,
+since drivers that require a key throw an exception when it is missing, we
+have decided to remove it, meaning the exported drivers should now be used
+directly. Furthermore, as the change was already breaking, the lowercasing
+for the driver names in list() has been removed, because this was only done
+for backwards compatibility.
+
 # [2.47.0](https://github.com/coinranking/exchanges/compare/v2.46.0...v2.47.0) (2020-06-22)
 
 
