@@ -13,7 +13,7 @@ class Xbtpro extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { results: tickers } = await request('https://trade.xbtpro.com/api/prices');
+    const { result: tickers } = await request('https://trade.xbtpro.com/api/prices');
 
     return tickers.map((ticker) => {
       const [base, quote] = ticker.symbol.split('/');
@@ -24,7 +24,10 @@ class Xbtpro extends Driver {
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.last),
-        baseVolume: parseToFloat(ticker.volume),
+        ask: parseToFloat(ticker.ask),
+        bid: parseToFloat(ticker.bid),
+        baseVolume: parseToFloat(ticker.volume.base),
+        quoteVolume: parseToFloat(ticker.volume.quote),
       });
     });
   }
