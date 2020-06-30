@@ -1,0 +1,36 @@
+const Driver = require('../models/driver');
+const request = require('../lib/request');
+const Ticker = require('../models/ticker');
+const { parseToFloat } = require('../lib/utils.js');
+
+/**
+ * @memberof Driver
+ * @augments Driver
+ */
+class Kickex extends Driver {
+  /**
+   * @augments Driver.fetchTickers
+   * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
+   */
+  async fetchTickers() {
+    const tickers = await request('https://gate.kickex.com/api/v1/market/allTickers');
+
+    return tickers.map((ticker) => {
+      const [base, quote] = ticker.pairName.split('/');
+
+      return new Ticker({
+        base,
+        quote,
+        high: parseToFloat(ticker.highestPrice),
+        low: parseToFloat(ticker.lowestPrice),
+        close: parseToFloat(ticker.lastPrice),
+        ask: parseToFloat(ticker.bestAsk),
+        bid: parseToFloat(ticker.bestBid),
+        baseVolume: parseToFloat(ticker.baseVol),
+        quoteVolume: parseToFloat(ticker.quoteVol),
+      });
+    });
+  }
+}
+
+module.exports = Kickex;

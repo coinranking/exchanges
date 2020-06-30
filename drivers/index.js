@@ -166,6 +166,7 @@ exports.Indoex = require('./indoex');
 exports.Instantbitex = require('./instantbitex');
 exports.Iqfinex = require('./iqfinex');
 exports.Itbit = require('./itbit');
+exports.Kickex = require('./kickex');
 exports.Kkex = require('./kkex');
 exports.Korbit = require('./korbit');
 exports.Kraken = require('./kraken');
