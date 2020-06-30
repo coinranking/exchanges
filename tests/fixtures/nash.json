@@ -1,0 +1,130 @@
+[
+    {
+        "scope": "https://app.nash.io:443",
+        "method": "GET",
+        "path": "/api/cmc/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "btc_eth": {
+                "base_volume": "0.04875114699",
+                "last_price": "40.666938",
+                "quote_volume": "1.96926700000"
+            },
+            "btc_usdc": {
+                "base_volume": "1.470050590",
+                "last_price": "9145.7",
+                "quote_volume": "13443.386975164"
+            },
+            "eth_btc": {
+                "base_volume": "1.96926700000",
+                "last_price": "0.02459",
+                "quote_volume": "0.04875114699"
+            },
+            "eth_link": {
+                "base_volume": "0.10062000",
+                "last_price": "49.7",
+                "quote_volume": "5.00000000"
+            },
+            "eth_neo": {
+                "base_volume": "3.14118667",
+                "last_price": "22.346",
+                "quote_volume": "57.69520000"
+            },
+            "eth_usdc": {
+                "base_volume": "2.041200",
+                "last_price": "224.97",
+                "quote_volume": "462.709017"
+            },
+            "gas_neo": {
+                "base_volume": "4.86000",
+                "last_price": "0.189",
+                "quote_volume": "0.91854"
+            },
+            "gas_usdc": {
+                "base_volume": "3.5200",
+                "last_price": "1.89",
+                "quote_volume": "6.6528"
+            },
+            "link_eth": {
+                "base_volume": "5.00000000",
+                "last_price": "0.0201240",
+                "quote_volume": "0.10062000"
+            },
+            "neo_eth": {
+                "base_volume": "57.69520000",
+                "last_price": "0.04475",
+                "quote_volume": "3.14118667"
+            },
+            "neo_gas": {
+                "base_volume": "0.91854",
+                "last_price": "5.29",
+                "quote_volume": "4.86000"
+            },
+            "neo_usdc": {
+                "base_volume": "387.88900",
+                "last_price": "10.08",
+                "quote_volume": "3964.10609"
+            },
+            "usdc_btc": {
+                "base_volume": "13443.386975164",
+                "last_price": "0.00010934",
+                "quote_volume": "1.470050590"
+            },
+            "usdc_eth": {
+                "base_volume": "462.709017",
+                "last_price": "0.0044",
+                "quote_volume": "2.041200"
+            },
+            "usdc_gas": {
+                "base_volume": "6.6528",
+                "last_price": "0.53",
+                "quote_volume": "3.5200"
+            },
+            "usdc_neo": {
+                "base_volume": "3964.10609",
+                "last_price": "0.099",
+                "quote_volume": "387.88900"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 30 Jun 2020 18:25:16 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d936ce6ee34df976aedfbdaddaf4f82071593541516; expires=Thu, 30-Jul-20 18:25:16 GMT; path=/; domain=.nash.io; HttpOnly; SameSite=Lax; Secure",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "content-security-policy",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net; object-src 'none'; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net; font-src 'self' cdn.jsdelivr.net; img-src 'self' data:",
+            "strict-transport-security",
+            "max-age=2592000",
+            "vary",
+            "accept-encoding",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-frame-options",
+            "DENY",
+            "x-xss-protection",
+            "1; mode=block",
+            "Via",
+            "1.1 google",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "03a812f3310000fc657082d200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]

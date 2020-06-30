@@ -189,6 +189,7 @@ exports.Morcrypto = require('./morcrypto');
 exports.Mxc = require('./mxc');
 exports.Nami = require('./nami');
 exports.Nanuexchange = require('./nanuexchange');
+exports.Nash = require('./nash');
 exports.Needyex = require('./needyex');
 exports.Neraex = require('./neraex');
 exports.Newcapital = require('./newcapital');
