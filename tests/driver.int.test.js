@@ -50,7 +50,6 @@ driverNames.forEach((driverName) => {
     });
 
     test('Has atleast one valid ticker', () => {
-      let valid = false;
       const validatedTickers = tickers
         // Check if  valid
         .map((ticker) => {
@@ -66,33 +65,8 @@ driverNames.forEach((driverName) => {
             return false;
           }
 
-          valid = true;
           return true;
         });
-
-      if (!valid) {
-        console.log(`${driverName} is not valid`);
-        tickers
-        // Check if  valid
-          .map((ticker) => {
-            if (!ticker.base || !ticker.quote) {
-              console.log('base and quote is not defined');
-              return false;
-            }
-
-            if (isUndefined(ticker.baseVolume) && isUndefined(ticker.quoteVolume)) {
-              console.log('base and quote volume is not defined');
-              return false;
-            }
-
-            if (!isGreaterThanZero(ticker.close)) {
-              console.log('price is not greater then 0');
-              return false;
-            }
-
-            return true;
-          });
-      }
 
       expect(validatedTickers).toContain(true);
     });
