@@ -1,3 +1,11 @@
+# [3.2.0](https://github.com/coinranking/exchanges/compare/v3.1.0...v3.2.0) (2020-07-01)
+
+
+### Features
+
+* ex4ange driver ([e6f81fd](https://github.com/coinranking/exchanges/commit/e6f81fdc3ac73572d171dc616ed4b8d62aa1817a))
+* floatsv driver ([16cbd10](https://github.com/coinranking/exchanges/commit/16cbd10a70d9b36433869931e18cbab68b17edfd))
+
 # [3.1.0](https://github.com/coinranking/exchanges/compare/v3.0.0...v3.1.0) (2020-07-01)
 
 
