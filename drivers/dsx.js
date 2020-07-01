@@ -39,8 +39,8 @@ class Dsx extends Driver {
         return new Ticker({
           base,
           quote,
-          quoteVolume: parseToFloat(ticker.vol),
-          baseVolume: parseToFloat(ticker.vol_cur),
+          quoteVolume: parseToFloat(ticker.vol_cur),
+          baseVolume: parseToFloat(ticker.vol),
           close: parseToFloat(ticker.last),
           high: parseToFloat(ticker.high),
           low: parseToFloat(ticker.low),
