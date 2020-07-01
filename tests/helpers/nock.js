@@ -35,6 +35,29 @@ const makeCompressedResponsesReadable = (scope) => {
       // do nothing
     }
   }
+
+  if (scope.rawHeaders.indexOf('br') > -1) {
+    try {
+      const fullResponseBody = scope.response && scope.response.reduce
+        && scope.response.reduce((previous, current) => previous + current);
+
+      scope.response = JSON.parse(
+        zlib.brotliDecompressSync(Buffer.from(fullResponseBody, 'hex')).toString('utf8'),
+      );
+
+      while (scope.rawHeaders.indexOf('br') > -1) {
+        const brotliIndex = scope.rawHeaders.indexOf('br');
+        scope.rawHeaders.splice(brotliIndex - 1, 2);
+      }
+
+      const contentLengthIndex = scope.rawHeaders.indexOf('Content-Length');
+      scope.rawHeaders.splice(contentLengthIndex - 1, 2);
+    } catch (e) {
+      // do nothing
+      throw new Error(e);
+    }
+  }
+
   return scope;
 };
 
