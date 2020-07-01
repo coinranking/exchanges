@@ -44,7 +44,6 @@ class Dsx extends Driver {
           close: parseToFloat(ticker.last),
           high: parseToFloat(ticker.high),
           low: parseToFloat(ticker.low),
-          vwap: parseToFloat(ticker.avg),
         });
       });
     });
