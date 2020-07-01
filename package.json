@@ -69,7 +69,7 @@
     "eslint-plugin-jsdoc": "^28.5.1",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
-    "nock": "^13.0.0",
+    "nock": "^13.0.1",
     "semantic-release": "^17.1.1"
   },
   "config": {
