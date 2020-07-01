@@ -1,3 +1,12 @@
+# [3.1.0](https://github.com/coinranking/exchanges/compare/v3.0.0...v3.1.0) (2020-07-01)
+
+
+### Features
+
+* add xbtpro driver ([b96e431](https://github.com/coinranking/exchanges/commit/b96e431990524a6700672757f068ea6c1cd7fd43))
+* kickex driver ([4692ecd](https://github.com/coinranking/exchanges/commit/4692ecd74f3191cdea45874568bebd9b8d5408d6))
+* xbtpro driver ([52e121b](https://github.com/coinranking/exchanges/commit/52e121bf99e1bb392040f86a3f5d71ffcef987d4))
+
 # [3.0.0](https://github.com/coinranking/exchanges/compare/v2.47.0...v3.0.0) (2020-06-23)
 
 
