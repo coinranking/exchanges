@@ -100,7 +100,7 @@ driverNames.forEach((driverName) => {
     });
 
     test('Quote volume and base volume are in the correct order', () => {
-      const whitelist = ['USD', 'USDT', 'BTC', 'ETH'];
+      const whitelist = ['USD', 'USDT', 'EUR', 'USDC', 'GUSD', 'BTC', 'ETH', 'PAX', 'BUSD', 'TUSD', 'HUSD', 'DAI'];
       tickersWithVolume
         .filter((ticker) => (
           whitelist.includes(ticker.base)
@@ -125,6 +125,38 @@ driverNames.forEach((driverName) => {
 
           if (price < 0.8) {
             expect(ticker.baseVolume).toBeGreaterThanOrEqual(ticker.quoteVolume);
+          }
+        });
+    });
+
+    test('Volume are probably less than 10 billion', () => {
+      const whitelist = ['USD', 'USDT', 'EUR', 'USDC', 'GUSD', 'PAX', 'BUSD', 'TUSD', 'HUSD', 'DAI'];
+      tickersWithVolume
+        .filter((ticker) => (
+          whitelist.includes(ticker.base)
+          || whitelist.includes(ticker.quote)
+        ))
+        .forEach((ticker) => {
+          const tenBillion = 10000000000;
+
+          if (!isUndefined(ticker.baseVolume)) {
+            if (whitelist.includes(ticker.base)) {
+              expect(ticker.baseVolume).toBeLessThanOrEqual(tenBillion);
+            }
+
+            if (whitelist.includes(ticker.quote)) {
+              expect(ticker.baseVolume * ticker.close).toBeLessThanOrEqual(tenBillion);
+            }
+          }
+
+          if (!isUndefined(ticker.quoteVolume)) {
+            if (whitelist.includes(ticker.base)) {
+              expect(ticker.quoteVolume / ticker.close).toBeLessThanOrEqual(tenBillion);
+            }
+
+            if (whitelist.includes(ticker.quote)) {
+              expect(ticker.quoteVolume).toBeLessThanOrEqual(tenBillion);
+            }
           }
         });
     });
