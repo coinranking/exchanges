@@ -7,29 +7,30 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Tokenize extends Driver {
+class Xbtpro extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('https://api2.tokenize.exchange/public/v1/market/get-summaries');
+    const { result: tickers } = await request('https://trade.xbtpro.com/api/prices');
 
     return tickers.map((ticker) => {
-      const [quote, base] = ticker.market.split('-');
+      const [base, quote] = ticker.symbol.split('/');
 
       return new Ticker({
         base,
         quote,
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
-        close: parseToFloat(ticker.lastPrice),
-        bid: parseToFloat(ticker.bidPrice),
-        ask: parseToFloat(ticker.askPrice),
-        quoteVolume: parseToFloat(ticker.volume),
+        close: parseToFloat(ticker.last),
+        ask: parseToFloat(ticker.ask),
+        bid: parseToFloat(ticker.bid),
+        baseVolume: parseToFloat(ticker.volume.base),
+        quoteVolume: parseToFloat(ticker.volume.quote),
       });
     });
   }
 }
 
-module.exports = Tokenize;
+module.exports = Xbtpro;

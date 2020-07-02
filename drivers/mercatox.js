@@ -18,6 +18,10 @@ class Mercatox extends Driver {
 
     return markets.map((market) => {
       const [base, quote] = market.split('_');
+
+      if (base === '') return undefined;
+      if (quote === '') return undefined;
+
       const ticker = pairs[market];
 
       return new Ticker({

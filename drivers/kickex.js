@@ -7,29 +7,30 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Tokenize extends Driver {
+class Kickex extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('https://api2.tokenize.exchange/public/v1/market/get-summaries');
+    const tickers = await request('https://gate.kickex.com/api/v1/market/allTickers');
 
     return tickers.map((ticker) => {
-      const [quote, base] = ticker.market.split('-');
+      const [base, quote] = ticker.pairName.split('/');
 
       return new Ticker({
         base,
         quote,
-        high: parseToFloat(ticker.high),
-        low: parseToFloat(ticker.low),
+        high: parseToFloat(ticker.highestPrice),
+        low: parseToFloat(ticker.lowestPrice),
         close: parseToFloat(ticker.lastPrice),
-        bid: parseToFloat(ticker.bidPrice),
-        ask: parseToFloat(ticker.askPrice),
-        quoteVolume: parseToFloat(ticker.volume),
+        ask: parseToFloat(ticker.bestAsk),
+        bid: parseToFloat(ticker.bestBid),
+        baseVolume: parseToFloat(ticker.baseVol),
+        quoteVolume: parseToFloat(ticker.quoteVol),
       });
     });
   }
 }
 
-module.exports = Tokenize;
+module.exports = Kickex;
