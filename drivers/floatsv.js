@@ -7,29 +7,28 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Tokenize extends Driver {
+class Floatsv extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('https://api2.tokenize.exchange/public/v1/market/get-summaries');
+    const tickers = await request('https://www.floatsv.com/api/spot/v3/instruments/ticker');
 
     return tickers.map((ticker) => {
-      const [quote, base] = ticker.market.split('-');
+      const [base, quote] = ticker.instrument_id.split('-');
 
       return new Ticker({
         base,
         quote,
-        high: parseToFloat(ticker.high),
-        low: parseToFloat(ticker.low),
-        close: parseToFloat(ticker.lastPrice),
-        bid: parseToFloat(ticker.bidPrice),
-        ask: parseToFloat(ticker.askPrice),
-        quoteVolume: parseToFloat(ticker.volume),
+        high: parseToFloat(ticker.high_24hr),
+        low: parseToFloat(ticker.low_24hr),
+        close: parseToFloat(ticker.last),
+        baseVolume: parseToFloat(ticker.base_volume_24h),
+        quoteVolume: parseToFloat(ticker.quote_volume_24h),
       });
     });
   }
 }
 
-module.exports = Tokenize;
+module.exports = Floatsv;

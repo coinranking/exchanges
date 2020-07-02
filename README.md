@@ -58,7 +58,7 @@ driver
 Install dependencies
 
 ```shell
-npm run install
+npm install
 ```
 
 ### Usage

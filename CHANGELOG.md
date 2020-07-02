@@ -1,3 +1,37 @@
+# [3.3.0](https://github.com/coinranking/exchanges/compare/v3.2.0...v3.3.0) (2020-07-01)
+
+
+### Bug Fixes
+
+* **bibox:** only get spot markets ([9814293](https://github.com/coinranking/exchanges/commit/9814293f5132f61d4725bf60f9475e0d3e6604a4))
+* **dsx:** base and quote were reversed ([7f6ed05](https://github.com/coinranking/exchanges/commit/7f6ed0549feed32487796f22201be1393a21ae5f))
+* **dsx:** the vwap of dsx is incorrect ([0409928](https://github.com/coinranking/exchanges/commit/04099287e0246f2efddbbcb7af8778d49011a77b))
+* **fivestar:** base and quote were reversed ([4d5a030](https://github.com/coinranking/exchanges/commit/4d5a030e1c956ed9009e277454c4601fa25d954d))
+* **timex:** base and quote were reversed ([b4c4198](https://github.com/coinranking/exchanges/commit/b4c4198fb051c1ca0aa1e46ef1b144d9668d73f2))
+* **tokenize:** base and quote were reversed ([4cc0e64](https://github.com/coinranking/exchanges/commit/4cc0e64e09539b3b4750fbeb55e727a3528ed4b7))
+
+
+### Features
+
+* decompress Brotli encoding in fixtures ([50434c3](https://github.com/coinranking/exchanges/commit/50434c3ad8986e858e58a373194c978338fc69eb))
+
+# [3.2.0](https://github.com/coinranking/exchanges/compare/v3.1.0...v3.2.0) (2020-07-01)
+
+
+### Features
+
+* ex4ange driver ([e6f81fd](https://github.com/coinranking/exchanges/commit/e6f81fdc3ac73572d171dc616ed4b8d62aa1817a))
+* floatsv driver ([16cbd10](https://github.com/coinranking/exchanges/commit/16cbd10a70d9b36433869931e18cbab68b17edfd))
+
+# [3.1.0](https://github.com/coinranking/exchanges/compare/v3.0.0...v3.1.0) (2020-07-01)
+
+
+### Features
+
+* add xbtpro driver ([b96e431](https://github.com/coinranking/exchanges/commit/b96e431990524a6700672757f068ea6c1cd7fd43))
+* kickex driver ([4692ecd](https://github.com/coinranking/exchanges/commit/4692ecd74f3191cdea45874568bebd9b8d5408d6))
+* xbtpro driver ([52e121b](https://github.com/coinranking/exchanges/commit/52e121bf99e1bb392040f86a3f5d71ffcef987d4))
+
 # [3.0.0](https://github.com/coinranking/exchanges/compare/v2.47.0...v3.0.0) (2020-06-23)
 
 

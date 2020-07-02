@@ -1,0 +1,41 @@
+[
+    {
+        "scope": "https://ex4ange.org:443",
+        "method": "GET",
+        "path": "/api.php?token=public&section=core&action=ticker",
+        "body": "",
+        "status": 200,
+        "response": [
+            "03430200e4fa75dfafa49d974f8e46133e809173cedf2951aae72572cfa02cf076bdba2919651bfaf834da368ae6120300f87e3878b4313fb4eb09a9807884fbf0ffc3886d93d00add6fb9cebbdd785c1f382e18c3fd6d5e33f12af95629bcab34490fd52c4b53da22f009784c771c32677a9db490fcb0bf6e830038725b0e2dcbaf78109ac665f57cd36c98a9ddf1d908abfbc74506156607856e19813baa962d5417043386fbdbca45661917ca78991039fc32f500450a0970f17cd7760acd2d64a67871688d0f9df10208e4f12799b87563d4d82f439f138c95178a4b8fe75d10a2",
+            "2359030051694de5275492b607f209076cd652a92935966b630e6c2813ead628396925a5b4ca9e107063803241815efd310e8389abe1cfcaca4b2d6ca6b35fe7ec0aa633352d164725b5a6889d1823871a30755242d6e4cff7d43cb41e7a79ec7b4d11398215cba54e187e2c41afc719166dc8eed24c22af496c68d1809b7abf33581bc25d3cb90b5ffec1852a502dec4a4ae7efefd773aacb6f763da7b73a99f19a7c245b0c54039e1c097c3c13172fc8a069ea448fb7a4b118f7f88e4754c69d9c21914365741e3b6921fddbedffec1378e0e3453d55fea9a5ba54c35a352b19895f4d3737ea0e9dbcac9e8e2e8015e4d7ed73cf9615f4f94ba6670f3f17f995879f3fb9ec02a4e51c478dfb208264850454eb46e68e97e7f5ad96e7352deb8cf2bbe2222410a174b9caba90e5fbcbf5f5d4f6cdaeafe7e63dbd50296a043f782e5481aa21b2763cefbf379bf79fc6f9f46b11038678c8cab3f5b242f2bd6b9ef3adecc0c94de77cf218c8e3f571335b563cc13237969f450adebcf03287593bd266247888009aaa1dc113b46553566b85d4893562a821132725c7d0286c581870434d693b44181230cf12c077628f102ac7c84909ad0ddf1edd6fd0bc702fbe7f1ab51c2fd485531835553bc24ed154df95ca04f248d919cbb2b21c1999923fbfcd719b661c3879e1fea7c43142e6d17a968118a934d83d71ac19667cca1c350d47f974b72127e0ff126227c6c8a1064c9d945c69507a303cc66f29308b9d2b521c272a",
+            "d0c60080a8d3fd7e47314db375a7e0a1886c145ffdff3fd5398b8294ed41fae3be773356d7b09e5a81b00aad6dcb9d040365b097441ed2caf52b572a31a38ae52b553b434f8e511c0769fe5a97f08ed446ed24452c87937885aa984f50849af3c4e1a19e2aa22fef4a6468b806d59697d422f9f97bd4f7dc85a83faf68ec31a82534c28361fb43150b553c721b5e264c956262308d4e19b0cad716ac942efb393a356bb88a8e9cc545a25d2ec08f8a13e66ae79eab91eae8555ce3c8df7fada71fc7c6203c15a0062bcb1ec14085999b970ded2b685c46f7e3af794e21f751ce44231cd23105ff7f1da473ce1e987f3ce13826bbb0a02641b13fe56106be55de645616ff502d344e42a472bc51df7d2ebd3261f0ccde3c3cab9190e14b03801b9b123dc875b9b0401154bbfd03"
+        ],
+        "rawHeaders": [
+            "Date",
+            "Tue, 30 Jun 2020 19:01:42 GMT",
+            "Content-Type",
+            "text/html; charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=dca357248e3aea0a82657e9462fb482cd1593543682; expires=Thu, 30-Jul-20 19:01:22 GMT; path=/; domain=.ex4ange.org; HttpOnly; SameSite=Lax; Secure",
+            "X-Powered-By",
+            "PHP/7.3.9",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "03a834006a000090d338bb6200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "5aba22ad7ad790d3-ZAG",
+            "Content-Encoding",
+            "br"
+        ],
+        "responseIsBinary": false
+    }
+]

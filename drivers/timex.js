@@ -47,8 +47,8 @@ class Timex extends Driver {
         close: parseToFloat(ticker.last),
         bid: parseToFloat(ticker.bid),
         ask: parseToFloat(ticker.ask),
-        baseVolume: parseToFloat(ticker.volumeQuote), // reversed with quote volume
-        quoteVolume: parseToFloat(ticker.volume),
+        baseVolume: parseToFloat(ticker.volume),
+        quoteVolume: parseToFloat(ticker.volumeQuote),
       });
     });
   }
