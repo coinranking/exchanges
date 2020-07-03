@@ -83,6 +83,9 @@ workflows:
       - test:
           requires:
             - build
+      - docs:
+          requires:
+            - build
       - release:
           requires:
             - lint
