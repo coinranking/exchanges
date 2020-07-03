@@ -72,7 +72,7 @@
     "jest": "^26.1.0",
     "jsdoc": "^3.6.4",
     "jsdoc-to-markdown": "^6.0.1",
-    "nock": "^13.0.1",
+    "nock": "^13.0.2",
     "semantic-release": "^17.1.1"
   },
   "config": {
