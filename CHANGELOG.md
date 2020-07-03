@@ -1,3 +1,15 @@
+# [3.4.0](https://github.com/coinranking/exchanges/compare/v3.3.0...v3.4.0) (2020-07-03)
+
+
+### Bug Fixes
+
+* add the docs build step ([43bb388](https://github.com/coinranking/exchanges/commit/43bb3881d9199427003d07c6cdbe3ef23ddcafb0))
+
+
+### Features
+
+* generate documentation ([ff33aab](https://github.com/coinranking/exchanges/commit/ff33aab51befed302834e32471305aa229bbc15e))
+
 # [3.3.0](https://github.com/coinranking/exchanges/compare/v3.2.0...v3.3.0) (2020-07-01)
 
 
