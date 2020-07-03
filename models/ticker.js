@@ -30,11 +30,11 @@ module.exports = class Ticker {
    * @param {number} [params.low] - The lowest price of the market in the last 24 hours
    * @param {number} params.close - The last price of the market
    * @param {number} [params.bid] -
-   * Current minimum ask of the market.
+   * Current highest bid of the market.
    * The bid is the buyer of the base currency
    * and should always be lower than or equal to the ask.
    * @param {number} [params.ask] -
-   * Current maximum bid of the market.
+   * Current lowest ask of the market.
    * The ask is the seller of the base currency
    * and should always be higher than or equal to the bid.
    * @param {number} [params.vwap] - Volume weighted Average Price of the last 24 hours
