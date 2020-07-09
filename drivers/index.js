@@ -38,6 +38,7 @@ exports.Bitfinex = require('./bitfinex');
 exports.Bitflyer = require('./bitflyer');
 exports.Bitforex = require('./bitforex');
 exports.Bithumb = require('./bithumb');
+exports.Bithumbglobal = require('./Bithumbglobal');
 exports.Bitinfi = require('./bitinfi');
 exports.Bitinka = require('./bitinka');
 exports.Bitkub = require('./bitkub');
