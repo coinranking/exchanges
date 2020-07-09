@@ -1,3 +1,10 @@
+# [3.5.0](https://github.com/coinranking/exchanges/compare/v3.4.0...v3.5.0) (2020-07-09)
+
+
+### Features
+
+* add support for Bithumb Global ([b6eb70b](https://github.com/coinranking/exchanges/commit/b6eb70baaf2f5486f455e00e50e33d3323f76db2))
+
 # [3.4.0](https://github.com/coinranking/exchanges/compare/v3.3.0...v3.4.0) (2020-07-03)
 
 
