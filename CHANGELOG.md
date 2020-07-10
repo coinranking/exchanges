@@ -1,3 +1,10 @@
+# [3.6.0](https://github.com/coinranking/exchanges/compare/v3.5.0...v3.6.0) (2020-07-10)
+
+
+### Features
+
+* improve Uniswap data ([88b9fbe](https://github.com/coinranking/exchanges/commit/88b9fbe1c4ae8d883be4f0f3188639afcda91993))
+
 # [3.5.0](https://github.com/coinranking/exchanges/compare/v3.4.0...v3.5.0) (2020-07-09)
 
 
