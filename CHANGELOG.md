@@ -1,3 +1,10 @@
+## [3.6.1](https://github.com/coinranking/exchanges/compare/v3.6.0...v3.6.1) (2020-07-13)
+
+
+### Bug Fixes
+
+* **uniswap:** use parse to float to fix faulty data ([0d3a3e8](https://github.com/coinranking/exchanges/commit/0d3a3e86d40308a8592d422d681ef5c6ca899fea))
+
 # [3.6.0](https://github.com/coinranking/exchanges/compare/v3.5.0...v3.6.0) (2020-07-10)
 
 
