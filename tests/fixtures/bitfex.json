@@ -6,48 +6,48 @@
         "body": "",
         "status": 200,
         "response": {
+            "ETH_BTC": {
+                "vol": 2.30331611,
+                "high": 0.0268676,
+                "low": 0.024871,
+                "open": 0.0254896,
+                "close": 0.0263376,
+                "last": 0.02580331,
+                "sell": 0.02640825,
+                "buy": 0.02529174,
+                "status": "trading"
+            },
             "DOGE_BTC": {
-                "vol": 190833.47738279,
+                "vol": 192246.38610998,
                 "high": 4.2e-7,
                 "low": 3.4e-7,
-                "open": 4e-7,
-                "close": 3.7e-7,
-                "last": 3.6e-7,
+                "open": 3.8e-7,
+                "close": 3.5e-7,
+                "last": 3.5e-7,
                 "sell": 3.7e-7,
                 "buy": 3.5e-7,
                 "status": "trading"
             },
             "BTC_RUR": {
-                "vol": 0.07773435,
+                "vol": 0.07770409,
                 "high": 668658.62,
                 "low": 625790.55,
                 "open": 644962.33,
-                "close": 639362.19,
-                "last": 635056.72,
+                "close": 635056.72,
+                "last": 640438.55,
                 "sell": 645820.39,
                 "buy": 640438.55,
                 "status": "trading"
             },
             "ETH_RUR": {
-                "vol": 5.14638178,
+                "vol": 5.15604863,
                 "high": 17994.9,
                 "low": 10000,
-                "open": 16690.74,
-                "close": 16814.31,
-                "last": 16959.48,
-                "sell": 17320.84,
-                "buy": 16759.96,
-                "status": "trading"
-            },
-            "ETH_BTC": {
-                "vol": 2.27296578,
-                "high": 0.0268676,
-                "low": 0.024871,
-                "open": 0.02609568,
-                "close": 0.02644643,
-                "last": 0.0263376,
-                "sell": 0.0263376,
-                "buy": 0.02584675,
+                "open": 16547.62,
+                "close": 16959.48,
+                "last": 16860.32,
+                "sell": 17278.07,
+                "buy": 16576.95,
                 "status": "trading"
             },
             "DASH_BTC": {
@@ -363,7 +363,7 @@
             "Server",
             "nginx",
             "Date",
-            "Mon, 13 Jul 2020 16:52:54 GMT",
+            "Mon, 13 Jul 2020 16:55:50 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Transfer-Encoding",
@@ -385,13 +385,13 @@
             "Access-Control-Allow-Origin",
             "https://bitfex.trade",
             "ETag",
-            "W/\"edba5e93b3da053bfc6c9d7c796b4f55\"",
+            "W/\"b93ee8be68dcecbda884ca157381bfb0\"",
             "Cache-Control",
             "max-age=0, private, must-revalidate",
             "X-Request-Id",
-            "7203d0b83d25bf1b6d90151687a883b5",
+            "0855edc7e43d80b3fcb63783416a6845",
             "X-Runtime",
-            "3.334358"
+            "3.664684"
         ],
         "responseIsBinary": false
     }
