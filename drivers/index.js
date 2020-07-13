@@ -34,6 +34,7 @@ exports.Bitbay = require('./bitbay');
 exports.Bitcoin = require('./bitcoin');
 exports.Bitcratic = require('./bitcratic');
 exports.Bitebtc = require('./bitebtc');
+exports.Bitfex = require('./bitfex');
 exports.Bitfinex = require('./bitfinex');
 exports.Bitflyer = require('./bitflyer');
 exports.Bitforex = require('./bitforex');
