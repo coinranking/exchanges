@@ -1,3 +1,18 @@
+# [3.7.0](https://github.com/coinranking/exchanges/compare/v3.6.1...v3.7.0) (2020-07-13)
+
+
+### Bug Fixes
+
+* **crypto.com:** change url and quote to base volume ([430a10e](https://github.com/coinranking/exchanges/commit/430a10ebdcc5aed08f8f376f0abf12d18b87fccb))
+* **crypto.com:** figure was from sandbox and not public ([eff99f9](https://github.com/coinranking/exchanges/commit/eff99f9cab7ff67aae1e7bbb316a637bb5fab445))
+
+
+### Features
+
+* bitfex driver ([7e26e87](https://github.com/coinranking/exchanges/commit/7e26e87db472e7d2628f0eba33150d967a383e8b))
+* bitfex driver ([cfafaa7](https://github.com/coinranking/exchanges/commit/cfafaa726919e4f5af5f5b8ba98aaa0d94146ed3))
+* crypto driver ([e5c5787](https://github.com/coinranking/exchanges/commit/e5c57876ad2d884251a25ce0d911c93bdc83c28e))
+
 ## [3.6.1](https://github.com/coinranking/exchanges/compare/v3.6.0...v3.6.1) (2020-07-13)
 
 
