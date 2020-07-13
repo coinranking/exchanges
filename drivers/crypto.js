@@ -15,7 +15,7 @@ class Crypto extends Driver {
   async fetchTickers() {
     const {
       result: { data: tickers },
-    } = await request('https://uat-api.3ona.co/v2/public/get-ticker');
+    } = await request('https://api.crypto.com/v2/public/get-ticker');
 
     return tickers.map((ticker) => {
       const [base, quote] = ticker.i.split('_');
@@ -28,7 +28,7 @@ class Crypto extends Driver {
         close: parseToFloat(ticker.a),
         bid: parseToFloat(ticker.b),
         ask: parseToFloat(ticker.k),
-        quoteVolume: parseToFloat(ticker.v),
+        baseVolume: parseToFloat(ticker.v),
       });
     });
   }
