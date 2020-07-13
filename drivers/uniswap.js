@@ -1,6 +1,7 @@
 const Driver = require('../models/driver');
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
+const { parseToFloat } = require('../lib/utils.js');
 
 /**
  * @memberof Driver
@@ -30,9 +31,9 @@ class Uniswap extends Driver {
       quote: ticker.baseSymbol,
       quoteName: ticker.baseName,
       quoteReference: ticker.base,
-      close: 1 / ticker.basePrice,
-      baseVolume: ticker.tokenVolume,
-      quoteVolume: ticker.baseVolume,
+      close: parseToFloat(1 / ticker.basePrice),
+      baseVolume: parseToFloat(ticker.tokenVolume),
+      quoteVolume: parseToFloat(ticker.baseVolume),
     }));
   }
 }
