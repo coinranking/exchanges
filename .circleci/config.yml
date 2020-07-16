@@ -50,6 +50,17 @@ jobs:
       - codecov/upload:
           file: coverage/*.json
 
+  docs:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/repo
+      - run: npm run docs
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - DOCUMENTATION.md
+
   release:
     <<: *defaults
     steps:
@@ -72,10 +83,14 @@ workflows:
       - test:
           requires:
             - build
+      - docs:
+          requires:
+            - build
       - release:
           requires:
             - lint
             - test
+            - docs
           filters:
             branches:
               only: master

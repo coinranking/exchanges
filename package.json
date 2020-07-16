@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/exchanges",
-  "version": "3.3.0",
+  "version": "3.7.0",
   "description": "An open source JavaScript library for fetching tickers from cryptocurrency exchanges",
   "main": "lib/exchanges.js",
   "engines": {
@@ -15,6 +15,7 @@
     "cm": "git-cz",
     "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
     "test": "npx jest",
+    "docs": "jsdoc2md models/*.js lib/*.js > DOCUMENTATION.md",
     "semantic-release": "semantic-release"
   },
   "bugs": {
@@ -63,12 +64,14 @@
     "@semantic-release/git": "^9.0.0",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
-    "eslint": "^7.3.1",
+    "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsdoc": "^28.6.1",
+    "eslint-plugin-jsdoc": "^29.2.0",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
+    "jsdoc": "^3.6.4",
+    "jsdoc-to-markdown": "^6.0.1",
     "nock": "^13.0.2",
     "semantic-release": "^17.1.1"
   },
@@ -104,6 +107,7 @@
         "assets": [
           "package.json",
           "package-lock.json",
+          "DOCUMENTATION.md",
           "CHANGELOG.md"
         ],
         "message": "chore(release): ${nextRelease.version} [skip ci]nn${nextRelease.notes}"
