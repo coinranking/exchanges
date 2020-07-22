@@ -18,10 +18,10 @@ class Coindcx extends Driver {
 
     symbols.forEach((el) => {
       pairs[el.symbol] = {
-        quote: el.base_currency_short_name,
-        base: el.target_currency_short_name,
-        quoteName: el.base_currency_name,
-        baseName: el.target_currency_name,
+        quote: el.target_currency_short_name,
+        base: el.base_currency_short_name,
+        quoteName: el.target_currency_name,
+        baseName: el.base_currency_name,
       };
     });
 
