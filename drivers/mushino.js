@@ -17,7 +17,7 @@ class Mushino extends Driver {
 
     return Object.keys(markets).map((market) => {
       const [base, quote] = market.split('_');
-      if ([base, quote].includes('SHIT') || [base, quote].includes('ALTS')) {
+      if (['SHIT', 'ALTS', 'PERP'].includes(base) || ['SHIT', 'ALTS', 'PERP'].includes(quote)) {
         return undefined;
       }
 
