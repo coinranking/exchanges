@@ -1,3 +1,10 @@
+## [3.7.2](https://github.com/coinranking/exchanges/compare/v3.7.1...v3.7.2) (2020-07-23)
+
+
+### Bug Fixes
+
+* **fivestarexchange:** base and quote were reversed ([3dbfc12](https://github.com/coinranking/exchanges/commit/3dbfc12a23d324f7f5451c819c26519ea0c276af))
+
 ## [3.7.1](https://github.com/coinranking/exchanges/compare/v3.7.0...v3.7.1) (2020-07-23)
 
 
