@@ -7,33 +7,30 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Indodax extends Driver {
+class Bitfex extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { tickers } = await request('https://indodax.com/api/ticker_all');
+    const pairs = await request('https://bitfex.trade/api/v1/ticker');
 
-    const markets = Object.keys(tickers);
-
-    return markets.map((market) => {
-      const ticker = tickers[market];
-      const [base, quote] = market.split('_');
+    return Object.keys(pairs).map((pair) => {
+      const [base, quote] = pair.split('_');
+      const ticker = pairs[pair];
 
       return new Ticker({
         base,
         quote,
-        baseVolume: parseToFloat(ticker[`vol_${base}`]),
-        quoteVolume: parseToFloat(ticker[`vol_${quote}`]),
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.last),
         bid: parseToFloat(ticker.buy),
         ask: parseToFloat(ticker.sell),
+        baseVolume: parseToFloat(ticker.vol),
       });
     });
   }
 }
 
-module.exports = Indodax;
+module.exports = Bitfex;

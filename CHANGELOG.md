@@ -1,3 +1,65 @@
+## [3.7.2](https://github.com/coinranking/exchanges/compare/v3.7.1...v3.7.2) (2020-07-23)
+
+
+### Bug Fixes
+
+* **fivestarexchange:** base and quote were reversed ([3dbfc12](https://github.com/coinranking/exchanges/commit/3dbfc12a23d324f7f5451c819c26519ea0c276af))
+
+## [3.7.1](https://github.com/coinranking/exchanges/compare/v3.7.0...v3.7.1) (2020-07-23)
+
+
+### Bug Fixes
+
+* **indodax:** change the url used to fech the tickers ([8c1b82c](https://github.com/coinranking/exchanges/commit/8c1b82c73ffa31c90e8a1d74e177b33d5053c26d))
+
+# [3.7.0](https://github.com/coinranking/exchanges/compare/v3.6.1...v3.7.0) (2020-07-13)
+
+
+### Bug Fixes
+
+* **crypto.com:** change url and quote to base volume ([430a10e](https://github.com/coinranking/exchanges/commit/430a10ebdcc5aed08f8f376f0abf12d18b87fccb))
+* **crypto.com:** figure was from sandbox and not public ([eff99f9](https://github.com/coinranking/exchanges/commit/eff99f9cab7ff67aae1e7bbb316a637bb5fab445))
+
+
+### Features
+
+* bitfex driver ([7e26e87](https://github.com/coinranking/exchanges/commit/7e26e87db472e7d2628f0eba33150d967a383e8b))
+* bitfex driver ([cfafaa7](https://github.com/coinranking/exchanges/commit/cfafaa726919e4f5af5f5b8ba98aaa0d94146ed3))
+* crypto driver ([e5c5787](https://github.com/coinranking/exchanges/commit/e5c57876ad2d884251a25ce0d911c93bdc83c28e))
+
+## [3.6.1](https://github.com/coinranking/exchanges/compare/v3.6.0...v3.6.1) (2020-07-13)
+
+
+### Bug Fixes
+
+* **uniswap:** use parse to float to fix faulty data ([0d3a3e8](https://github.com/coinranking/exchanges/commit/0d3a3e86d40308a8592d422d681ef5c6ca899fea))
+
+# [3.6.0](https://github.com/coinranking/exchanges/compare/v3.5.0...v3.6.0) (2020-07-10)
+
+
+### Features
+
+* improve Uniswap data ([88b9fbe](https://github.com/coinranking/exchanges/commit/88b9fbe1c4ae8d883be4f0f3188639afcda91993))
+
+# [3.5.0](https://github.com/coinranking/exchanges/compare/v3.4.0...v3.5.0) (2020-07-09)
+
+
+### Features
+
+* add support for Bithumb Global ([b6eb70b](https://github.com/coinranking/exchanges/commit/b6eb70baaf2f5486f455e00e50e33d3323f76db2))
+
+# [3.4.0](https://github.com/coinranking/exchanges/compare/v3.3.0...v3.4.0) (2020-07-03)
+
+
+### Bug Fixes
+
+* add the docs build step ([43bb388](https://github.com/coinranking/exchanges/commit/43bb3881d9199427003d07c6cdbe3ef23ddcafb0))
+
+
+### Features
+
+* generate documentation ([ff33aab](https://github.com/coinranking/exchanges/commit/ff33aab51befed302834e32471305aa229bbc15e))
+
 # [3.3.0](https://github.com/coinranking/exchanges/compare/v3.2.0...v3.3.0) (2020-07-01)
 
 

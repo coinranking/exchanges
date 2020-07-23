@@ -16,7 +16,7 @@ class Fivestar extends Driver {
     const markets = await request('https://fivestarexchange.in/public/ticker');
 
     return Object.keys(markets).map((market) => {
-      const [quote, base] = market.split('_');
+      const [base, quote] = market.split('_');
       const ticker = markets[market];
 
       return new Ticker({
