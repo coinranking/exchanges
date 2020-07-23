@@ -13,27 +13,24 @@ class Indodax extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const data = await request('https://indodax.com/api/webdata');
-    const volumes = Object.values(data.volumes);
-    const markets = volumes.map((volume) => {
-      const [quote, base] = Object.keys(volume);
-      return { base, quote };
-    });
+    const { tickers } = await request('https://indodax.com/api/ticker_all');
+
+    const markets = Object.keys(tickers);
 
     return markets.map((market) => {
-      const { base, quote } = market;
-      const volume = data.volumes[`${base}${quote}`];
+      const ticker = tickers[market];
+      const [base, quote] = market.split('_');
 
       return new Ticker({
         base,
         quote,
-        baseVolume: parseToFloat(volume[base]),
-        quoteVolume: parseToFloat(volume[quote]),
-        close: parseToFloat(data.prices[`${base}${quote}`], (number) => {
-        // Convert from SATOSHI to btc
-          if (market.quote === 'btc') number /= 1e8;
-          return number;
-        }),
+        baseVolume: parseToFloat(ticker[`vol_${base}`]),
+        quoteVolume: parseToFloat(ticker[`vol_${quote}`]),
+        high: parseToFloat(ticker.high),
+        low: parseToFloat(ticker.low),
+        close: parseToFloat(ticker.last),
+        bid: parseToFloat(ticker.buy),
+        ask: parseToFloat(ticker.sell),
       });
     });
   }
