@@ -44,7 +44,7 @@ class Coindcx extends Driver {
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.last_price),
-        baseVolume: parseToFloat(ticker.volume),
+        quoteVolume: parseToFloat(ticker.volume),
       });
     });
   }
