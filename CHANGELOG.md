@@ -1,3 +1,10 @@
+## [3.7.1](https://github.com/coinranking/exchanges/compare/v3.7.0...v3.7.1) (2020-07-23)
+
+
+### Bug Fixes
+
+* **indodax:** change the url used to fech the tickers ([8c1b82c](https://github.com/coinranking/exchanges/commit/8c1b82c73ffa31c90e8a1d74e177b33d5053c26d))
+
 # [3.7.0](https://github.com/coinranking/exchanges/compare/v3.6.1...v3.7.0) (2020-07-13)
 
 
