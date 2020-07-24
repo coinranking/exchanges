@@ -1,3 +1,16 @@
+# [3.8.0](https://github.com/coinranking/exchanges/compare/v3.7.2...v3.8.0) (2020-07-24)
+
+
+### Features
+
+* coindcx driver ([3aa8116](https://github.com/coinranking/exchanges/commit/3aa8116317489f7e8665a62130fef356881b8c9c))
+* coindcx reverse base and quote ([ac2753b](https://github.com/coinranking/exchanges/commit/ac2753b64aefcde730815d90619fa4f78a163db3))
+* reverse quote and base ([592f4c3](https://github.com/coinranking/exchanges/commit/592f4c30c0e7951fea3e91270c20849f0a148118))
+* reverse to first commit ([46a2664](https://github.com/coinranking/exchanges/commit/46a2664d97e703141641d145beb4ec108a7b272e))
+* reverse volume with quote volume ([2ad3c73](https://github.com/coinranking/exchanges/commit/2ad3c73000d107740e91d25d8efde3790ceda54a))
+* revert to first version of this driver ([728e164](https://github.com/coinranking/exchanges/commit/728e164d4c0ece1bb78b1e573156ef21c35308ad))
+* undo driver.test file ([3081bbe](https://github.com/coinranking/exchanges/commit/3081bbeed3aa38168504f71b7320f6b34e5b3d4d))
+
 ## [3.7.2](https://github.com/coinranking/exchanges/compare/v3.7.1...v3.7.2) (2020-07-23)
 
 
