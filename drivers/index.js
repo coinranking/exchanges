@@ -93,6 +93,7 @@ exports.Coinbasepro = require('./coinbasepro');
 exports.Coinbene = require('./coinbene');
 exports.Coinbit = require('./coinbit');
 exports.Coincheck = require('./coincheck');
+exports.Coindcx = require('./coindcx');
 exports.Coindeal = require('./coindeal');
 exports.Coineal = require('./coineal');
 exports.Coinegg = require('./coinegg');
