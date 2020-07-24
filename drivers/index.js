@@ -193,6 +193,7 @@ exports.Maxmaincoin = require('./maxmaincoin');
 exports.Mercado = require('./mercado');
 exports.Mercatox = require('./mercatox');
 exports.Morcrypto = require('./morcrypto');
+exports.Mushino = require('./mushino');
 exports.Mxc = require('./mxc');
 exports.Nami = require('./nami');
 exports.Nanuexchange = require('./nanuexchange');
