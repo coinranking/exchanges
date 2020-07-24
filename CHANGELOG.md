@@ -1,3 +1,12 @@
+# [3.9.0](https://github.com/coinranking/exchanges/compare/v3.8.0...v3.9.0) (2020-07-24)
+
+
+### Features
+
+* exclude SHIT, ALTS and PERP pairs ([cd854bb](https://github.com/coinranking/exchanges/commit/cd854bbfc678993aecb9505a6fe1257f87168df0))
+* mushino driver and ticker class fix for open price ([e94eb10](https://github.com/coinranking/exchanges/commit/e94eb109c72ae64519cdc23f078502df13dd5e3d))
+* remove SHIT and ALTS that we do not support yet ([77e8682](https://github.com/coinranking/exchanges/commit/77e8682127310fc5528f98fac2c120bb786c24d4))
+
 # [3.8.0](https://github.com/coinranking/exchanges/compare/v3.7.2...v3.8.0) (2020-07-24)
 
 
