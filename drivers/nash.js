@@ -66,7 +66,7 @@ class Nash extends Driver {
         close: parseToFloat(lastPrice ? lastPrice.amount : null),
         high: parseToFloat(highPrice_24h ? highPrice_24h.amount : null),
         low: parseToFloat(lowPrice_24h ? lowPrice_24h.amount : null),
-        baseVolume: parseToFloat(volume_24h ? volume_24h.amount : null),
+        quoteVolume: parseToFloat(volume_24h ? volume_24h.amount : null),
       });
     });
   }
