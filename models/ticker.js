@@ -76,6 +76,7 @@ module.exports = class Ticker {
     if (params.high) this.high = params.high;
     if (params.low) this.low = params.low;
     if (params.close) this.close = params.close;
+    if (params.open) this.open = params.open;
     if (params.bid) this.bid = params.bid;
     if (params.ask) this.ask = params.ask;
     if (params.vwap) this.vwap = params.vwap;
