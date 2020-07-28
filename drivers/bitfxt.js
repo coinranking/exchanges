@@ -15,7 +15,6 @@ class Bitforex extends Driver {
   async fetchTickers() {
     const pairs = await request('https://bitfxt.com/api/v1/ticker');
 
-
     return Object.keys(pairs).map((pair) => {
       const [base, quote] = pair.split('_');
       const ticker = pairs[pair];
