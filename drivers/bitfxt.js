@@ -7,7 +7,7 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Bitforex extends Driver {
+class Bitfxt extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
@@ -30,4 +30,4 @@ class Bitforex extends Driver {
   }
 }
 
-module.exports = Bitforex;
+module.exports = Bitfxt;
