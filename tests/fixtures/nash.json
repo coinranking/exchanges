@@ -1,0 +1,1426 @@
+[
+    {
+        "scope": "https://app.nash.io:443",
+        "method": "POST",
+        "path": "/api/graphql",
+        "body": {
+            "query": "\n          query Ticker {\n            listTickers {\n              id,\n              volume_24h {amount}\n              bestAskPrice {amount},\n              bestBidPrice {amount},\n              lastPrice {amount},\n              highPrice_24h {amount},\n              lowPrice_24h {amount},\n              market {\n                aUnit,\n                aAsset {name},\n                bAsset {name},\n                bUnit\n              }\n            }\n          }\n        "
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "listTickers": [
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.00199000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00008000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:guard_neo",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Guardium"
+                            },
+                            "aUnit": "guard",
+                            "bAsset": {
+                                "name": "NEO"
+                            },
+                            "bUnit": "neo"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "8333.33333333"
+                        },
+                        "bestBidPrice": {
+                            "amount": "1133.78684807"
+                        },
+                        "highPrice_24h": {
+                            "amount": "1331.56"
+                        },
+                        "id": "ticker:eth_bat",
+                        "lastPrice": {
+                            "amount": "1273.89"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "1273.89"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "Basic Attention Token"
+                            },
+                            "bUnit": "bat"
+                        },
+                        "volume_24h": {
+                            "amount": "6772.78000000"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.08140000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00018600"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:zrx_eth",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "0x"
+                            },
+                            "aUnit": "zrx",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "4.03225806"
+                        },
+                        "bestBidPrice": {
+                            "amount": "3.96825397"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:usdc_bat",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "Basic Attention Token"
+                            },
+                            "bUnit": "bat"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.00982000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00510000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:gas_eth",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "GAS"
+                            },
+                            "aUnit": "gas",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.02888000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.02875000"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.02981"
+                        },
+                        "id": "ticker:eth_btc",
+                        "lastPrice": {
+                            "amount": "0.02880"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.02867"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "Bitcoin"
+                            },
+                            "bUnit": "btc"
+                        },
+                        "volume_24h": {
+                            "amount": "0.02919766495"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "9900.99009901"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.11111111"
+                        },
+                        "highPrice_24h": {
+                            "amount": "309.21"
+                        },
+                        "id": "ticker:eth_rlc",
+                        "lastPrice": {
+                            "amount": "309.21"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "309.21"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "iExec RLC"
+                            },
+                            "bUnit": "rlc"
+                        },
+                        "volume_24h": {
+                            "amount": "270.02000000"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "33.46720214"
+                        },
+                        "bestBidPrice": {
+                            "amount": "18.18181818"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:eth_qnt",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "Quant"
+                            },
+                            "bUnit": "qnt"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.99000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.12900000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:zrx_usdc",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "0x"
+                            },
+                            "aUnit": "zrx",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "5759.70510310"
+                        },
+                        "bestBidPrice": {
+                            "amount": "5533.42186808"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:btc_ant",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Bitcoin"
+                            },
+                            "aUnit": "btc",
+                            "bAsset": {
+                                "name": "Aragon"
+                            },
+                            "bUnit": "ant"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "66225.16556291"
+                        },
+                        "bestBidPrice": {
+                            "amount": "100.05002501"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:eth_guard",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "Guardium"
+                            },
+                            "bUnit": "guard"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "296.33141706"
+                        },
+                        "bestBidPrice": {
+                            "amount": "11.11111111"
+                        },
+                        "highPrice_24h": {
+                            "amount": "45.0"
+                        },
+                        "id": "ticker:eth_link",
+                        "lastPrice": {
+                            "amount": "45.0"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "45.0"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "Chainlink"
+                            },
+                            "bUnit": "link"
+                        },
+                        "volume_24h": {
+                            "amount": "8.20000000"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "1.00020004"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00100000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:usdc_usdt",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "Tether USD"
+                            },
+                            "bUnit": "usdt"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "1.29366106"
+                        },
+                        "bestBidPrice": {
+                            "amount": "1.26742712"
+                        },
+                        "highPrice_24h": {
+                            "amount": "1.3"
+                        },
+                        "id": "ticker:usdc_nnn",
+                        "lastPrice": {
+                            "amount": "1.3"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "1.3"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "Novem Gold AG"
+                            },
+                            "bUnit": "nnn"
+                        },
+                        "volume_24h": {
+                            "amount": "12.0000"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "12500.00000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "502.51256281"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:neo_guard",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "NEO"
+                            },
+                            "aUnit": "neo",
+                            "bAsset": {
+                                "name": "Guardium"
+                            },
+                            "bUnit": "guard"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.18000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.13400000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:gas_neo",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "GAS"
+                            },
+                            "aUnit": "gas",
+                            "bAsset": {
+                                "name": "NEO"
+                            },
+                            "bUnit": "neo"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "8.24500000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "7.21390000"
+                        },
+                        "highPrice_24h": {
+                            "amount": "7.2970"
+                        },
+                        "id": "ticker:link_usdc",
+                        "lastPrice": {
+                            "amount": "7.2970"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "7.2970"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Chainlink"
+                            },
+                            "aUnit": "link",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "42.99246460"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "11141.40000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "11117.00000000"
+                        },
+                        "highPrice_24h": {
+                            "amount": "11395.1"
+                        },
+                        "id": "ticker:btc_usdc",
+                        "lastPrice": {
+                            "amount": "11081.7"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "10368.1"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Bitcoin"
+                            },
+                            "aUnit": "btc",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "196159.305456351"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.00008995"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00008976"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.00009645"
+                        },
+                        "id": "ticker:usdc_btc",
+                        "lastPrice": {
+                            "amount": "0.00009024"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.00008776"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "Bitcoin"
+                            },
+                            "bUnit": "btc"
+                        },
+                        "volume_24h": {
+                            "amount": "17.911193292"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.00018072"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00017362"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:ant_btc",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Aragon"
+                            },
+                            "aUnit": "ant",
+                            "bAsset": {
+                                "name": "Bitcoin"
+                            },
+                            "bUnit": "btc"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.00312246"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00307361"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.0032"
+                        },
+                        "id": "ticker:usdc_eth",
+                        "lastPrice": {
+                            "amount": "0.0031"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.0030"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "17.165200"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "38.09523810"
+                        },
+                        "bestBidPrice": {
+                            "amount": "26.47603918"
+                        },
+                        "highPrice_24h": {
+                            "amount": "28.802"
+                        },
+                        "id": "ticker:eth_neo",
+                        "lastPrice": {
+                            "amount": "26.476"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "26.476"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "NEO"
+                            },
+                            "bUnit": "neo"
+                        },
+                        "volume_24h": {
+                            "amount": "59.50400000"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "325.35000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "320.26000000"
+                        },
+                        "highPrice_24h": {
+                            "amount": "331.51"
+                        },
+                        "id": "ticker:eth_usdc",
+                        "lastPrice": {
+                            "amount": "320.10"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "313.90"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "5530.490227"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "99.00000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00317000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:bat_neo",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Basic Attention Token"
+                            },
+                            "aUnit": "bat",
+                            "bAsset": {
+                                "name": "NEO"
+                            },
+                            "bUnit": "neo"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "11.90000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "11.79000000"
+                        },
+                        "highPrice_24h": {
+                            "amount": "11.99"
+                        },
+                        "id": "ticker:neo_usdc",
+                        "lastPrice": {
+                            "amount": "11.64"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "11.03"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "NEO"
+                            },
+                            "aUnit": "neo",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "734.24520"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "7.75193798"
+                        },
+                        "bestBidPrice": {
+                            "amount": "1.01010101"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:usdc_zrx",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "0x"
+                            },
+                            "bUnit": "zrx"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.00999500"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00001510"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:guard_eth",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Guardium"
+                            },
+                            "aUnit": "guard",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.25200000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.24800000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:bat_usdc",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Basic Attention Token"
+                            },
+                            "aUnit": "bat",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "9.00000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00010100"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.003234"
+                        },
+                        "id": "ticker:rlc_eth",
+                        "lastPrice": {
+                            "amount": "0.003234"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.003234"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "iExec RLC"
+                            },
+                            "aUnit": "rlc",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "0.87324468"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.04990000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00040000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:guard_usdc",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Guardium"
+                            },
+                            "aUnit": "guard",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.13862127"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.12128563"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.1370"
+                        },
+                        "id": "ticker:usdc_link",
+                        "lastPrice": {
+                            "amount": "0.1370"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.1370"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "Chainlink"
+                            },
+                            "bUnit": "link"
+                        },
+                        "volume_24h": {
+                            "amount": "5.89180000"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.78900000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.77300000"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.789"
+                        },
+                        "id": "ticker:nnn_usdc",
+                        "lastPrice": {
+                            "amount": "0.789"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.789"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Novem Gold AG"
+                            },
+                            "aUnit": "nnn",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "9.4680"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.08481764"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.08403361"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.091"
+                        },
+                        "id": "ticker:usdc_neo",
+                        "lastPrice": {
+                            "amount": "0.086"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.083"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "NEO"
+                            },
+                            "bUnit": "neo"
+                        },
+                        "volume_24h": {
+                            "amount": "62.74600"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.83600000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00900000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:zrx_neo",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "0x"
+                            },
+                            "aUnit": "zrx",
+                            "bAsset": {
+                                "name": "NEO"
+                            },
+                            "bUnit": "neo"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.00088200"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00012000"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.000785"
+                        },
+                        "id": "ticker:bat_eth",
+                        "lastPrice": {
+                            "amount": "0.000785"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.000751"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Basic Attention Token"
+                            },
+                            "aUnit": "bat",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "5.08785378"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.09000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.00337460"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.0222170"
+                        },
+                        "id": "ticker:link_eth",
+                        "lastPrice": {
+                            "amount": "0.0222170"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.0222170"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Chainlink"
+                            },
+                            "aUnit": "link",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "0.18217940"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "111.11111111"
+                        },
+                        "bestBidPrice": {
+                            "amount": "1.19617225"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:neo_zrx",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "NEO"
+                            },
+                            "aUnit": "neo",
+                            "bAsset": {
+                                "name": "0x"
+                            },
+                            "bUnit": "zrx"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.03777000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.02625000"
+                        },
+                        "highPrice_24h": {
+                            "amount": "0.03777"
+                        },
+                        "id": "ticker:neo_eth",
+                        "lastPrice": {
+                            "amount": "0.03777"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "0.03472"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "NEO"
+                            },
+                            "aUnit": "neo",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "2.10110398"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "34.78260870"
+                        },
+                        "bestBidPrice": {
+                            "amount": "34.62603878"
+                        },
+                        "highPrice_24h": {
+                            "amount": "34.879665"
+                        },
+                        "id": "ticker:btc_eth",
+                        "lastPrice": {
+                            "amount": "34.722222"
+                        },
+                        "lowPrice_24h": {
+                            "amount": "33.545790"
+                        },
+                        "market": {
+                            "aAsset": {
+                                "name": "Bitcoin"
+                            },
+                            "aUnit": "btc",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "1.00861500000"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "2500.00000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "20.04008016"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:usdc_guard",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "Guardium"
+                            },
+                            "bUnit": "guard"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.05500000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.02988000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:qnt_eth",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Quant"
+                            },
+                            "aUnit": "qnt",
+                            "bAsset": {
+                                "name": "Ethereum"
+                            },
+                            "bUnit": "eth"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.21824531"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.05266484"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:usdc_qnt",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "Quant"
+                            },
+                            "bUnit": "qnt"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "315.45741325"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.01010101"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:neo_bat",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "NEO"
+                            },
+                            "aUnit": "neo",
+                            "bAsset": {
+                                "name": "Basic Attention Token"
+                            },
+                            "bUnit": "bat"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "0.76923077"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.58823529"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:usdc_gas",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "USD Coin"
+                            },
+                            "aUnit": "usdc",
+                            "bAsset": {
+                                "name": "GAS"
+                            },
+                            "bUnit": "gas"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "1.70000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "1.30000000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:gas_usdc",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "GAS"
+                            },
+                            "aUnit": "gas",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "7.46268657"
+                        },
+                        "bestBidPrice": {
+                            "amount": "5.55555556"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:neo_gas",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "NEO"
+                            },
+                            "aUnit": "neo",
+                            "bAsset": {
+                                "name": "GAS"
+                            },
+                            "bUnit": "gas"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "1000.00000000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "0.99980000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:usdt_usdc",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Tether USD"
+                            },
+                            "aUnit": "usdt",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "5376.34408602"
+                        },
+                        "bestBidPrice": {
+                            "amount": "12.28501229"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:eth_zrx",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "0x"
+                            },
+                            "bUnit": "zrx"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "196.07843137"
+                        },
+                        "bestBidPrice": {
+                            "amount": "101.83299389"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:eth_gas",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Ethereum"
+                            },
+                            "aUnit": "eth",
+                            "bAsset": {
+                                "name": "GAS"
+                            },
+                            "bUnit": "gas"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    },
+                    {
+                        "bestAskPrice": {
+                            "amount": "18.98800000"
+                        },
+                        "bestBidPrice": {
+                            "amount": "4.58200000"
+                        },
+                        "highPrice_24h": null,
+                        "id": "ticker:qnt_usdc",
+                        "lastPrice": null,
+                        "lowPrice_24h": null,
+                        "market": {
+                            "aAsset": {
+                                "name": "Quant"
+                            },
+                            "aUnit": "qnt",
+                            "bAsset": {
+                                "name": "USD Coin"
+                            },
+                            "bUnit": "usdc"
+                        },
+                        "volume_24h": {
+                            "amount": "0.00"
+                        }
+                    }
+                ]
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 28 Jul 2020 16:16:19 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d64ea332fba2749190e5f78c2b39cb3391595952979; expires=Thu, 27-Aug-20 16:16:19 GMT; path=/; domain=.nash.io; HttpOnly; SameSite=Lax; Secure",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "content-security-policy",
+            "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net; object-src 'none'; style-src 'self' 'unsafe-inline' cdn.jsdelivr.net; font-src 'self' cdn.jsdelivr.net; img-src 'self' data:",
+            "strict-transport-security",
+            "max-age=2592000",
+            "vary",
+            "accept-encoding",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-frame-options",
+            "DENY",
+            "x-xss-protection",
+            "1; mode=block",
+            "Via",
+            "1.1 google",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "0437cef4a0000091212e089200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
