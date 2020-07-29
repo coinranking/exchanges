@@ -1,3 +1,12 @@
+# [3.10.0](https://github.com/coinranking/exchanges/compare/v3.9.0...v3.10.0) (2020-07-29)
+
+
+### Features
+
+* change base volume with quote volume ([fff3ea0](https://github.com/coinranking/exchanges/commit/fff3ea0270c3829f7894966820be5b3725805aa6))
+* fetch data from graphql ([77fb226](https://github.com/coinranking/exchanges/commit/77fb226de169000aada8d3d733a64b6870439088))
+* nash driver ([cdcfb86](https://github.com/coinranking/exchanges/commit/cdcfb86abb02941fd9cccf442aaef202af5b294c))
+
 # [3.9.0](https://github.com/coinranking/exchanges/compare/v3.8.0...v3.9.0) (2020-07-24)
 
 
