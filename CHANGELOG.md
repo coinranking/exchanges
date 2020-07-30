@@ -1,3 +1,16 @@
+# [3.11.0](https://github.com/coinranking/exchanges/compare/v3.10.0...v3.11.0) (2020-07-30)
+
+
+### Bug Fixes
+
+* eslint extra line ([36c9b8f](https://github.com/coinranking/exchanges/commit/36c9b8fd55348473f6c7d8f0d95799b5e015b1f3))
+* fix typo ([b4705c0](https://github.com/coinranking/exchanges/commit/b4705c02e8970cb4600d820dbf05c769914cf564))
+
+
+### Features
+
+* bitfxt driver ([f65c766](https://github.com/coinranking/exchanges/commit/f65c7667e6f10faa3cd5d05071ec67b2c91f3aa3))
+
 # [3.10.0](https://github.com/coinranking/exchanges/compare/v3.9.0...v3.10.0) (2020-07-29)
 
 
