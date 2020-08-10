@@ -1,0 +1,317 @@
+[
+    {
+        "scope": "https://www.bitcoiva.com:443",
+        "method": "GET",
+        "path": "/api/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "status": 1,
+            "pairlist": {
+                "BTC/USDT": {
+                    "base_full_name": "Bitcoin",
+                    "current_price": "11885.94000000",
+                    "high": "11984.60000000",
+                    "low": "11976.82000000",
+                    "percent": "-0.06",
+                    "start_price": "11984.60000000",
+                    "volume": "23.96142000",
+                    "count": 4
+                },
+                "BTC/INR": {
+                    "base_full_name": "Bitcoin",
+                    "current_price": "903569.15880000",
+                    "high": "910925.4000",
+                    "low": "900345.1900",
+                    "percent": "-1.16",
+                    "start_price": "910925.4000",
+                    "volume": "75379.0406",
+                    "count": 4
+                },
+                "ETH/BTC": {
+                    "base_full_name": "Ethereum",
+                    "current_price": "0.03333900",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "ETH/INR": {
+                    "base_full_name": "Ethereum",
+                    "current_price": "30122.92500000",
+                    "high": "30084.2400",
+                    "low": "30084.2400",
+                    "percent": "0.00",
+                    "start_price": "30084.2400",
+                    "volume": "18050.5440",
+                    "count": 2
+                },
+                "LTC/BTC": {
+                    "base_full_name": "Litecoin",
+                    "current_price": "0.00491500",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "LTC/INR": {
+                    "base_full_name": "Litecoin",
+                    "current_price": "4441.84860000",
+                    "high": "4389.3800",
+                    "low": "4323.3300",
+                    "percent": "+1.23",
+                    "start_price": "4327.9100",
+                    "volume": "26497.1127",
+                    "count": 62
+                },
+                "ETH/USDT": {
+                    "base_full_name": "Ethereum",
+                    "current_price": "396.25000000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "LTC/USDT": {
+                    "base_full_name": "Litecoin",
+                    "current_price": "58.43000000",
+                    "high": "57.38000000",
+                    "low": "56.70000000",
+                    "percent": "+1.08",
+                    "start_price": "56.70000000",
+                    "volume": "342.71772730",
+                    "count": 62
+                },
+                "BCH/USDT": {
+                    "base_full_name": "Bitcoin Cash",
+                    "current_price": "303.59000000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "DASH/USDT": {
+                    "base_full_name": "DASH",
+                    "current_price": "96.01000000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "XRP/USDT": {
+                    "base_full_name": "Ripple",
+                    "current_price": "0.29549000",
+                    "high": "0.29505000",
+                    "low": "0.29433000",
+                    "percent": "-0.24",
+                    "start_price": "0.29505000",
+                    "volume": "25.87385400",
+                    "count": 4
+                },
+                "ZEC/USDT": {
+                    "base_full_name": "ZCASH",
+                    "current_price": "89.64000000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "XLM/USDT": {
+                    "base_full_name": "Stellar Lumens",
+                    "current_price": "0.10561000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "BNB/USDT": {
+                    "base_full_name": "Binance",
+                    "current_price": "22.48230000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "XMR/USDT": {
+                    "base_full_name": "Monero",
+                    "current_price": "93.20000000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "TRX/USDT": {
+                    "base_full_name": "Tron",
+                    "current_price": "0.02133000",
+                    "high": "0.02092000",
+                    "low": "0.02037000",
+                    "percent": "+2.70",
+                    "start_price": "0.02037000",
+                    "volume": "44.29665000",
+                    "count": 6
+                },
+                "BTT/USDT": {
+                    "base_full_name": "BitTorrent",
+                    "current_price": "0.00047140",
+                    "high": "0.00042340",
+                    "low": "0.00041770",
+                    "percent": "-0.97",
+                    "start_price": "0.00042180",
+                    "volume": "366.79079570",
+                    "count": 66
+                },
+                "BDX/USDT": {
+                    "base_full_name": "Beldex",
+                    "current_price": "0.16000000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "USDT/INR": {
+                    "base_full_name": "Tether",
+                    "current_price": "75.93637800",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "BCH/INR": {
+                    "base_full_name": "Bitcoin Cash",
+                    "current_price": "23078.91180000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "DASH/INR": {
+                    "base_full_name": "DASH",
+                    "current_price": "7298.68020000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "XRP/INR": {
+                    "base_full_name": "Ripple",
+                    "current_price": "22.46314980",
+                    "high": "21.7663",
+                    "low": "21.7663",
+                    "percent": "0.00",
+                    "start_price": "21.7663",
+                    "volume": "805.3531",
+                    "count": 2
+                },
+                "XLM/INR": {
+                    "base_full_name": "Stellar Lumens",
+                    "current_price": "8.02847220",
+                    "high": "8.1472",
+                    "low": "7.8512",
+                    "percent": "-0.00",
+                    "start_price": "7.9683",
+                    "volume": "52906.5527",
+                    "count": 10
+                },
+                "BDX/INR": {
+                    "base_full_name": "Beldex",
+                    "current_price": "4.20000000",
+                    "high": "4.2900",
+                    "low": "4.1710",
+                    "percent": "-1.18",
+                    "start_price": "4.2500",
+                    "volume": "941201.3917",
+                    "count": 68
+                },
+                "BCH/BTC": {
+                    "base_full_name": "Bitcoin Cash",
+                    "current_price": "0.02554600",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "DASH/BTC": {
+                    "base_full_name": "DASH",
+                    "current_price": "0.00808000",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "BNB/BTC": {
+                    "base_full_name": "Binance",
+                    "current_price": "0.00189130",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                },
+                "BDX/BTC": {
+                    "base_full_name": "Beldex",
+                    "current_price": "0.00000500",
+                    "high": "0.00",
+                    "low": "0.00",
+                    "percent": "0.00",
+                    "start_price": "0.00",
+                    "volume": "0.00",
+                    "count": 0
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Mon, 10 Aug 2020 18:45:26 GMT",
+            "Content-Type",
+            "text/html; charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=de1750fa7b6f7a6889c3e275a7462e7281597085126; expires=Wed, 09-Sep-20 18:45:26 GMT; path=/; domain=.bitcoiva.com; HttpOnly; SameSite=Lax; Secure",
+            "Vary",
+            "Accept-Encoding",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "047b4a25dc0000fc6dccb99200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]

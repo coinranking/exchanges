@@ -33,6 +33,7 @@ exports.Bitasset = require('./bitasset');
 exports.Bitbank = require('./bitbank');
 exports.Bitbay = require('./bitbay');
 exports.Bitcoin = require('./bitcoin');
+exports.Bitcoiva = require('./bitcoiva');
 exports.Bitcratic = require('./bitcratic');
 exports.Bitebtc = require('./bitebtc');
 exports.Bitfex = require('./bitfex');
