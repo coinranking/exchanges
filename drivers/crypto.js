@@ -7,29 +7,31 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Tokenize extends Driver {
+class Crypto extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('https://api2.tokenize.exchange/public/v1/market/get-summaries');
+    const {
+      result: { data: tickers },
+    } = await request('https://api.crypto.com/v2/public/get-ticker');
 
     return tickers.map((ticker) => {
-      const [quote, base] = ticker.market.split('-');
+      const [base, quote] = ticker.i.split('_');
 
       return new Ticker({
         base,
         quote,
-        high: parseToFloat(ticker.high),
-        low: parseToFloat(ticker.low),
-        close: parseToFloat(ticker.lastPrice),
-        bid: parseToFloat(ticker.bidPrice),
-        ask: parseToFloat(ticker.askPrice),
-        quoteVolume: parseToFloat(ticker.volume),
+        high: parseToFloat(ticker.h),
+        low: parseToFloat(ticker.l),
+        close: parseToFloat(ticker.a),
+        bid: parseToFloat(ticker.b),
+        ask: parseToFloat(ticker.k),
+        baseVolume: parseToFloat(ticker.v),
       });
     });
   }
 }
 
-module.exports = Tokenize;
+module.exports = Crypto;

@@ -1,3 +1,143 @@
+# [3.11.0](https://github.com/coinranking/exchanges/compare/v3.10.0...v3.11.0) (2020-07-30)
+
+
+### Bug Fixes
+
+* eslint extra line ([36c9b8f](https://github.com/coinranking/exchanges/commit/36c9b8fd55348473f6c7d8f0d95799b5e015b1f3))
+* fix typo ([b4705c0](https://github.com/coinranking/exchanges/commit/b4705c02e8970cb4600d820dbf05c769914cf564))
+
+
+### Features
+
+* bitfxt driver ([f65c766](https://github.com/coinranking/exchanges/commit/f65c7667e6f10faa3cd5d05071ec67b2c91f3aa3))
+
+# [3.10.0](https://github.com/coinranking/exchanges/compare/v3.9.0...v3.10.0) (2020-07-29)
+
+
+### Features
+
+* change base volume with quote volume ([fff3ea0](https://github.com/coinranking/exchanges/commit/fff3ea0270c3829f7894966820be5b3725805aa6))
+* fetch data from graphql ([77fb226](https://github.com/coinranking/exchanges/commit/77fb226de169000aada8d3d733a64b6870439088))
+* nash driver ([cdcfb86](https://github.com/coinranking/exchanges/commit/cdcfb86abb02941fd9cccf442aaef202af5b294c))
+
+# [3.9.0](https://github.com/coinranking/exchanges/compare/v3.8.0...v3.9.0) (2020-07-24)
+
+
+### Features
+
+* exclude SHIT, ALTS and PERP pairs ([cd854bb](https://github.com/coinranking/exchanges/commit/cd854bbfc678993aecb9505a6fe1257f87168df0))
+* mushino driver and ticker class fix for open price ([e94eb10](https://github.com/coinranking/exchanges/commit/e94eb109c72ae64519cdc23f078502df13dd5e3d))
+* remove SHIT and ALTS that we do not support yet ([77e8682](https://github.com/coinranking/exchanges/commit/77e8682127310fc5528f98fac2c120bb786c24d4))
+
+# [3.8.0](https://github.com/coinranking/exchanges/compare/v3.7.2...v3.8.0) (2020-07-24)
+
+
+### Features
+
+* coindcx driver ([3aa8116](https://github.com/coinranking/exchanges/commit/3aa8116317489f7e8665a62130fef356881b8c9c))
+* coindcx reverse base and quote ([ac2753b](https://github.com/coinranking/exchanges/commit/ac2753b64aefcde730815d90619fa4f78a163db3))
+* reverse quote and base ([592f4c3](https://github.com/coinranking/exchanges/commit/592f4c30c0e7951fea3e91270c20849f0a148118))
+* reverse to first commit ([46a2664](https://github.com/coinranking/exchanges/commit/46a2664d97e703141641d145beb4ec108a7b272e))
+* reverse volume with quote volume ([2ad3c73](https://github.com/coinranking/exchanges/commit/2ad3c73000d107740e91d25d8efde3790ceda54a))
+* revert to first version of this driver ([728e164](https://github.com/coinranking/exchanges/commit/728e164d4c0ece1bb78b1e573156ef21c35308ad))
+* undo driver.test file ([3081bbe](https://github.com/coinranking/exchanges/commit/3081bbeed3aa38168504f71b7320f6b34e5b3d4d))
+
+## [3.7.2](https://github.com/coinranking/exchanges/compare/v3.7.1...v3.7.2) (2020-07-23)
+
+
+### Bug Fixes
+
+* **fivestarexchange:** base and quote were reversed ([3dbfc12](https://github.com/coinranking/exchanges/commit/3dbfc12a23d324f7f5451c819c26519ea0c276af))
+
+## [3.7.1](https://github.com/coinranking/exchanges/compare/v3.7.0...v3.7.1) (2020-07-23)
+
+
+### Bug Fixes
+
+* **indodax:** change the url used to fech the tickers ([8c1b82c](https://github.com/coinranking/exchanges/commit/8c1b82c73ffa31c90e8a1d74e177b33d5053c26d))
+
+# [3.7.0](https://github.com/coinranking/exchanges/compare/v3.6.1...v3.7.0) (2020-07-13)
+
+
+### Bug Fixes
+
+* **crypto.com:** change url and quote to base volume ([430a10e](https://github.com/coinranking/exchanges/commit/430a10ebdcc5aed08f8f376f0abf12d18b87fccb))
+* **crypto.com:** figure was from sandbox and not public ([eff99f9](https://github.com/coinranking/exchanges/commit/eff99f9cab7ff67aae1e7bbb316a637bb5fab445))
+
+
+### Features
+
+* bitfex driver ([7e26e87](https://github.com/coinranking/exchanges/commit/7e26e87db472e7d2628f0eba33150d967a383e8b))
+* bitfex driver ([cfafaa7](https://github.com/coinranking/exchanges/commit/cfafaa726919e4f5af5f5b8ba98aaa0d94146ed3))
+* crypto driver ([e5c5787](https://github.com/coinranking/exchanges/commit/e5c57876ad2d884251a25ce0d911c93bdc83c28e))
+
+## [3.6.1](https://github.com/coinranking/exchanges/compare/v3.6.0...v3.6.1) (2020-07-13)
+
+
+### Bug Fixes
+
+* **uniswap:** use parse to float to fix faulty data ([0d3a3e8](https://github.com/coinranking/exchanges/commit/0d3a3e86d40308a8592d422d681ef5c6ca899fea))
+
+# [3.6.0](https://github.com/coinranking/exchanges/compare/v3.5.0...v3.6.0) (2020-07-10)
+
+
+### Features
+
+* improve Uniswap data ([88b9fbe](https://github.com/coinranking/exchanges/commit/88b9fbe1c4ae8d883be4f0f3188639afcda91993))
+
+# [3.5.0](https://github.com/coinranking/exchanges/compare/v3.4.0...v3.5.0) (2020-07-09)
+
+
+### Features
+
+* add support for Bithumb Global ([b6eb70b](https://github.com/coinranking/exchanges/commit/b6eb70baaf2f5486f455e00e50e33d3323f76db2))
+
+# [3.4.0](https://github.com/coinranking/exchanges/compare/v3.3.0...v3.4.0) (2020-07-03)
+
+
+### Bug Fixes
+
+* add the docs build step ([43bb388](https://github.com/coinranking/exchanges/commit/43bb3881d9199427003d07c6cdbe3ef23ddcafb0))
+
+
+### Features
+
+* generate documentation ([ff33aab](https://github.com/coinranking/exchanges/commit/ff33aab51befed302834e32471305aa229bbc15e))
+
+# [3.3.0](https://github.com/coinranking/exchanges/compare/v3.2.0...v3.3.0) (2020-07-01)
+
+
+### Bug Fixes
+
+* **bibox:** only get spot markets ([9814293](https://github.com/coinranking/exchanges/commit/9814293f5132f61d4725bf60f9475e0d3e6604a4))
+* **dsx:** base and quote were reversed ([7f6ed05](https://github.com/coinranking/exchanges/commit/7f6ed0549feed32487796f22201be1393a21ae5f))
+* **dsx:** the vwap of dsx is incorrect ([0409928](https://github.com/coinranking/exchanges/commit/04099287e0246f2efddbbcb7af8778d49011a77b))
+* **fivestar:** base and quote were reversed ([4d5a030](https://github.com/coinranking/exchanges/commit/4d5a030e1c956ed9009e277454c4601fa25d954d))
+* **timex:** base and quote were reversed ([b4c4198](https://github.com/coinranking/exchanges/commit/b4c4198fb051c1ca0aa1e46ef1b144d9668d73f2))
+* **tokenize:** base and quote were reversed ([4cc0e64](https://github.com/coinranking/exchanges/commit/4cc0e64e09539b3b4750fbeb55e727a3528ed4b7))
+
+
+### Features
+
+* decompress Brotli encoding in fixtures ([50434c3](https://github.com/coinranking/exchanges/commit/50434c3ad8986e858e58a373194c978338fc69eb))
+
+# [3.2.0](https://github.com/coinranking/exchanges/compare/v3.1.0...v3.2.0) (2020-07-01)
+
+
+### Features
+
+* ex4ange driver ([e6f81fd](https://github.com/coinranking/exchanges/commit/e6f81fdc3ac73572d171dc616ed4b8d62aa1817a))
+* floatsv driver ([16cbd10](https://github.com/coinranking/exchanges/commit/16cbd10a70d9b36433869931e18cbab68b17edfd))
+
+# [3.1.0](https://github.com/coinranking/exchanges/compare/v3.0.0...v3.1.0) (2020-07-01)
+
+
+### Features
+
+* add xbtpro driver ([b96e431](https://github.com/coinranking/exchanges/commit/b96e431990524a6700672757f068ea6c1cd7fd43))
+* kickex driver ([4692ecd](https://github.com/coinranking/exchanges/commit/4692ecd74f3191cdea45874568bebd9b8d5408d6))
+* xbtpro driver ([52e121b](https://github.com/coinranking/exchanges/commit/52e121bf99e1bb392040f86a3f5d71ffcef987d4))
+
 # [3.0.0](https://github.com/coinranking/exchanges/compare/v2.47.0...v3.0.0) (2020-06-23)
 
 

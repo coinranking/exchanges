@@ -1,7 +1,7 @@
 const Driver = require('../models/driver');
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
-const { parseToFloat } = require('../lib/utils.js');
+const { parseToFloat, isUndefined } = require('../lib/utils.js');
 
 /**
  * @memberof Driver
@@ -17,6 +17,8 @@ class Gmojapan extends Driver {
 
     return tickers.map((ticker) => {
       const [base, quote] = ticker.symbol.split('_');
+
+      if (isUndefined(quote)) return undefined;
 
       return new Ticker({
         base,

@@ -7,33 +7,30 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Indodax extends Driver {
+class Xbtpro extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { tickers } = await request('https://indodax.com/api/ticker_all');
+    const { result: tickers } = await request('https://trade.xbtpro.com/api/prices');
 
-    const markets = Object.keys(tickers);
-
-    return markets.map((market) => {
-      const ticker = tickers[market];
-      const [base, quote] = market.split('_');
+    return tickers.map((ticker) => {
+      const [base, quote] = ticker.symbol.split('/');
 
       return new Ticker({
         base,
         quote,
-        baseVolume: parseToFloat(ticker[`vol_${base}`]),
-        quoteVolume: parseToFloat(ticker[`vol_${quote}`]),
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.last),
-        bid: parseToFloat(ticker.buy),
-        ask: parseToFloat(ticker.sell),
+        ask: parseToFloat(ticker.ask),
+        bid: parseToFloat(ticker.bid),
+        baseVolume: parseToFloat(ticker.volume.base),
+        quoteVolume: parseToFloat(ticker.volume.quote),
       });
     });
   }
 }
 
-module.exports = Indodax;
+module.exports = Xbtpro;

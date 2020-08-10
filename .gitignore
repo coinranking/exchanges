@@ -29,3 +29,6 @@ coverage
 
 # docker
 docker-compose.override.yml
+
+CHANGELOG.md
+DOCUMENTATION.md

@@ -21,12 +21,12 @@ class Fivestar extends Driver {
 
       return new Ticker({
         base,
+        baseName: ticker.CurrencyFName,
         quote,
-        quoteName: ticker.CurrencyFName,
         high: parseToFloat(ticker.high24hr),
         low: parseToFloat(ticker.low24hr),
         close: parseToFloat(ticker.last),
-        baseVolume: parseToFloat(ticker.quoteVolume), // reversed with quote
+        baseVolume: parseToFloat(ticker.quoteVolume),
         quoteVolume: parseToFloat(ticker.baseVolume),
       });
     });

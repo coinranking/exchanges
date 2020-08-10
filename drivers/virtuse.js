@@ -1,7 +1,7 @@
 const Driver = require('../models/driver');
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
-const { parseToFloat } = require('../lib/utils.js');
+const { parseToFloat, isUndefined } = require('../lib/utils.js');
 
 /**
  * @memberof Driver
@@ -26,6 +26,9 @@ class Virtuse extends Driver {
 
     return Object.values(tickers).map((ticker) => {
       const { base: baseVolume, quote: quoteVolume } = ticker.volume;
+
+      if (isUndefined(ticker.base)) return undefined;
+      if (isUndefined(ticker.quote)) return undefined;
 
       return new Ticker({
         base: ticker.base,
