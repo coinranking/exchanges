@@ -150,6 +150,7 @@ exports.Felixo = require('./felixo');
 exports.Finexbox = require('./finexbox');
 exports.Fivestar = require('./fivestar');
 exports.Floatsv = require('./floatsv');
+exports.Flybit = require('./flybit');
 exports.Forkdelta = require('./forkdelta');
 exports.Ftx = require('./ftx');
 exports.Gateio = require('./gateio');
