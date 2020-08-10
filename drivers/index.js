@@ -67,6 +67,7 @@ exports.Bkex = require('./bkex');
 exports.Bl3p = require('./bl3p');
 exports.Bleutrade = require('./bleutrade');
 exports.Blockchain = require('./blockchain');
+exports.Bololex = require('./bololex');
 exports.Braziliex = require('./braziliex');
 exports.Btcalpha = require('./btcalpha');
 exports.Btcbox = require('./btcbox');
