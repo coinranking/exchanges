@@ -1,0 +1,444 @@
+[
+    {
+        "scope": "https://data-service.polarity.exchange:443",
+        "method": "GET",
+        "path": "/pairs",
+        "body": "",
+        "status": 200,
+        "response": {
+            "__type": "list",
+            "data": [
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 0.21883,
+                        "lastPrice": 0.28254,
+                        "low": 0.218,
+                        "high": 0.29689,
+                        "weightedAveragePrice": 0.26139139120191,
+                        "volume": 2518.76651549,
+                        "quoteVolume": 658.383883596718,
+                        "volumeWaves": 131781.512910342,
+                        "txsCount": 466
+                    },
+                    "amountAsset": "Ec7XWnvaupKjPxo19ypnborpR5tzhMtzP1J4kXQxmydD",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 163.11,
+                        "lastPrice": 181.34,
+                        "low": 162.7,
+                        "high": 186.56,
+                        "weightedAveragePrice": 174.979210342754,
+                        "volume": 2.89119007,
+                        "quoteVolume": 505.898155399411,
+                        "volumeWaves": 101260.10972942,
+                        "txsCount": 435
+                    },
+                    "amountAsset": "CWJHqbt4TyeNVxhAm5PMF2nB65nww9GYsNz3xmsnBPQh",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 0.2665,
+                        "lastPrice": 0.285,
+                        "low": 0.2634,
+                        "high": 0.285,
+                        "weightedAveragePrice": 0.271927085612039,
+                        "volume": 1807.35548451,
+                        "quoteVolume": 491.468909567739,
+                        "volumeWaves": 98371.9651480781,
+                        "txsCount": 434
+                    },
+                    "amountAsset": "7butrRuk5Ar568vj63mSsiKeftwLVEJ6sTC9JYCzfaEp",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 14.3083,
+                        "lastPrice": 13.271,
+                        "low": 12.776453,
+                        "high": 14.3083,
+                        "weightedAveragePrice": 13.5212990437371,
+                        "volume": 36.24335614,
+                        "quoteVolume": 490.057256717604,
+                        "volumeWaves": 98089.4100112805,
+                        "txsCount": 456
+                    },
+                    "amountAsset": "AvsQX6MaRvLqo78JMxWHzZjkfTaX4K6SGSKEw8SVjLgw",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 1.709,
+                        "lastPrice": 1.746,
+                        "low": 1.61697,
+                        "high": 1.821,
+                        "weightedAveragePrice": 1.70448921363194,
+                        "volume": 248.43509678,
+                        "quoteVolume": 423.454942749117,
+                        "volumeWaves": 84758.3520726372,
+                        "txsCount": 430
+                    },
+                    "amountAsset": "G5H9PPBMBQuz6PgUTXZ7tq7J5S8HkYh89aZC5zQxWbiu",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 1.9053,
+                        "lastPrice": 1.9871,
+                        "low": 1.8761,
+                        "high": 2.0588,
+                        "weightedAveragePrice": 1.96019086327046,
+                        "volume": 204.89454524,
+                        "quoteVolume": 401.632415513404,
+                        "volumeWaves": 80390.3750818594,
+                        "txsCount": 455
+                    },
+                    "amountAsset": "EzwaF58ssALcUCZ9FbyeD1GTSteoZAQZEDTqBAXHfq8y",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 0.005,
+                        "lastPrice": 0.005,
+                        "low": 0.0048,
+                        "high": 0.005,
+                        "weightedAveragePrice": 0.00499602614248823,
+                        "volume": 76298.6592,
+                        "quoteVolume": 381.190096,
+                        "volumeWaves": 76298.6592,
+                        "txsCount": 5
+                    },
+                    "amountAsset": "TN",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 11565.96,
+                        "lastPrice": 11868.14,
+                        "low": 11565.96,
+                        "high": 12049.54,
+                        "weightedAveragePrice": 11820.4693580587,
+                        "volume": 0.03012655,
+                        "quoteVolume": 356.109961139024,
+                        "volumeWaves": 71278.6424615597,
+                        "txsCount": 440
+                    },
+                    "amountAsset": "5Asy9P3xjcvBAgbeyiitZhBRJZJ2TPGSZJz9ihDTnB3d",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 0.4184,
+                        "lastPrice": 0.4865,
+                        "low": 0.4167,
+                        "high": 0.4996,
+                        "weightedAveragePrice": 0.452740033937012,
+                        "volume": 759.67389933,
+                        "quoteVolume": 343.934786963726,
+                        "volumeWaves": 68841.6707908643,
+                        "txsCount": 421
+                    },
+                    "amountAsset": "GXg81pmTqwtxvoViDUxpijs49uEnZTxXPduYHToEXdzq",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 387.49,
+                        "lastPrice": 396.7,
+                        "low": 387.05,
+                        "high": 398.53,
+                        "weightedAveragePrice": 393.044122196551,
+                        "volume": 0.850536290000001,
+                        "quoteVolume": 334.298289499361,
+                        "volumeWaves": 66912.8383169081,
+                        "txsCount": 437
+                    },
+                    "amountAsset": "6Mh41byVWPg8JVCfuwG5CAPCh9Q7gnuaAVxjDfVNDmcD",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 56.61,
+                        "lastPrice": 58.34,
+                        "low": 56.47,
+                        "high": 59.33,
+                        "weightedAveragePrice": 57.6843312174679,
+                        "volume": 5.16666013,
+                        "quoteVolume": 298.035334227006,
+                        "volumeWaves": 59654.4785249206,
+                        "txsCount": 416
+                    },
+                    "amountAsset": "3vB9hXHTCYbPiQNuyxCQgXF6AvFg51ozGKL9QkwoCwaS",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 0.00345,
+                        "lastPrice": 0.003498,
+                        "low": 0.003412,
+                        "high": 0.003547,
+                        "weightedAveragePrice": 0.00347775501833895,
+                        "volume": 81896.68809479,
+                        "quoteVolume": 284.816618006996,
+                        "volumeWaves": 57008.6324378489,
+                        "txsCount": 414
+                    },
+                    "amountAsset": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Date",
+            "Mon, 10 Aug 2020 18:14:11 GMT",
+            "Vary",
+            "Accept-Encoding",
+            "Vary",
+            "Origin",
+            "X-Request-Id",
+            "1424"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://data-service.polarity.exchange:443",
+        "method": "GET",
+        "path": "/assets?ticker=%2A&limit=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "__type": "list",
+            "isLastPage": true,
+            "lastCursor": "TN",
+            "data": [
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "ETH",
+                        "id": "6Mh41byVWPg8JVCfuwG5CAPCh9Q7gnuaAVxjDfVNDmcD",
+                        "name": "Ethereum",
+                        "precision": 8,
+                        "description": "Ethereum on Turtle Network",
+                        "height": 276809,
+                        "timestamp": "2018-11-03T19:23:48.186Z",
+                        "sender": "3Jbrk85BjtVtEyrVLVVF7yWjKcnGPA6Rk5C",
+                        "quantity": 50000000000000,
+                        "reissuable": false,
+                        "hasScript": false
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "WAVES",
+                        "id": "EzwaF58ssALcUCZ9FbyeD1GTSteoZAQZEDTqBAXHfq8y",
+                        "name": "Waves",
+                        "precision": 8,
+                        "description": "Official Waves on TurtleNetwork",
+                        "height": 17296,
+                        "timestamp": "2018-04-27T20:51:49.827Z",
+                        "sender": "3JqAYiRnuiJxdMVmdTUsxuTV39LXHR5JWXk",
+                        "quantity": 10000000000000000,
+                        "reissuable": false,
+                        "hasScript": false
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "LINK",
+                        "id": "AvsQX6MaRvLqo78JMxWHzZjkfTaX4K6SGSKEw8SVjLgw",
+                        "name": "ChainLink",
+                        "precision": 8,
+                        "description": "CryptoBrokers Officially Backed Gateway Token for ChainLink ($LINK) 1:1 Gateway Peg",
+                        "height": 1139159,
+                        "timestamp": "2020-06-15T13:01:23.680Z",
+                        "sender": "3JrQtFFZrguJ56McxVfPb8Siqi6omiR77Hq",
+                        "quantity": 100000000000000000,
+                        "reissuable": false,
+                        "hasScript": false,
+                        "minSponsoredFee": 1000000
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "BTC",
+                        "id": "5Asy9P3xjcvBAgbeyiitZhBRJZJ2TPGSZJz9ihDTnB3d",
+                        "name": "Bitcoin",
+                        "precision": 8,
+                        "description": "Official Bitcoin TurtleNetwork",
+                        "height": 7187,
+                        "timestamp": "2018-04-20T16:17:56.160Z",
+                        "sender": "3JqAYiRnuiJxdMVmdTUsxuTV39LXHR5JWXk",
+                        "quantity": 2100000000000000,
+                        "reissuable": false,
+                        "hasScript": false
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "BAT",
+                        "id": "7butrRuk5Ar568vj63mSsiKeftwLVEJ6sTC9JYCzfaEp",
+                        "name": "Basic Attn Token",
+                        "precision": 8,
+                        "description": "CryptoBrokers Officially Backed Gateway Token for Basic Attention Token ($BAT) 1:1 Gateway Peg",
+                        "height": 1149458,
+                        "timestamp": "2020-06-22T14:29:28.323Z",
+                        "sender": "3JmHK5wr17dBw7zSxmnsyacZR8gdTG58npj",
+                        "quantity": 150000000000000000,
+                        "reissuable": false,
+                        "hasScript": false,
+                        "minSponsoredFee": 1000000
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "KNC",
+                        "id": "G5H9PPBMBQuz6PgUTXZ7tq7J5S8HkYh89aZC5zQxWbiu",
+                        "name": "KyberNetwork",
+                        "precision": 8,
+                        "description": "CryptoBrokers Officially Backed Gateway Token for KyberNetwork ($KNC) 1:1 Gateway Peg",
+                        "height": 1159560,
+                        "timestamp": "2020-06-29T13:15:34.644Z",
+                        "sender": "3JkrLgkgSGcNcj4rgp6SzZWAdNitWkRqapq",
+                        "quantity": 21056497200000000,
+                        "reissuable": false,
+                        "hasScript": false,
+                        "minSponsoredFee": 1000000
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "DOGE",
+                        "id": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
+                        "name": "Dogecoin",
+                        "precision": 8,
+                        "description": "Official Dogecoin token on TurtleNetwork",
+                        "height": 162170,
+                        "timestamp": "2018-08-15T11:55:04.289Z",
+                        "sender": "3JjJuwvTcQKCq7H53H1XZXNy7Up1syjrRng",
+                        "quantity": 9999999900000000,
+                        "reissuable": false,
+                        "hasScript": false
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "ZRX",
+                        "id": "GXg81pmTqwtxvoViDUxpijs49uEnZTxXPduYHToEXdzq",
+                        "name": "0x Protocol",
+                        "precision": 8,
+                        "description": "CryptoBrokers Officially Backed Gateway Token for 0x Protocol ($ZRX) 1:1 Gateway Peg",
+                        "height": 1180003,
+                        "timestamp": "2020-07-13T14:19:29.247Z",
+                        "sender": "3JurLVPPg81deVFBVLaXr1vH1EaGdMcVV2M",
+                        "quantity": 100000000000000000,
+                        "reissuable": true,
+                        "hasScript": false,
+                        "minSponsoredFee": 1000000
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "LTC",
+                        "id": "3vB9hXHTCYbPiQNuyxCQgXF6AvFg51ozGKL9QkwoCwaS",
+                        "name": "Litecoin",
+                        "precision": 8,
+                        "description": "Official Litecoin TurtleNetwork",
+                        "height": 7186,
+                        "timestamp": "2018-04-20T16:15:40.848Z",
+                        "sender": "3JqAYiRnuiJxdMVmdTUsxuTV39LXHR5JWXk",
+                        "quantity": 8399999999999999,
+                        "reissuable": false,
+                        "hasScript": false
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "COMP",
+                        "id": "CWJHqbt4TyeNVxhAm5PMF2nB65nww9GYsNz3xmsnBPQh",
+                        "name": "Compound",
+                        "precision": 8,
+                        "description": "CryptoBrokers Officially Backed Gateway Token for Compound ($COMP) 1:1 Gateway Peg",
+                        "height": 1200546,
+                        "timestamp": "2020-07-27T14:15:22.924Z",
+                        "sender": "3JpJ9C8nEeLaryLQ5MA6zvo2nu7ExKgJvBH",
+                        "quantity": 1000000000000000,
+                        "reissuable": false,
+                        "hasScript": false,
+                        "minSponsoredFee": 100000
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "REN",
+                        "id": "Ec7XWnvaupKjPxo19ypnborpR5tzhMtzP1J4kXQxmydD",
+                        "name": "Republic Network",
+                        "precision": 8,
+                        "description": "CryptoBrokersGlobal Officially Backed Gateway Token for Republic Network ($REN) 1:1 Gateway Peg (ERC Contract Address:0x408e41876cccdc0f92210600ef50372656052a38)\n\nExplorer:\nhttps://etherscan.io/token/0x408e41876cccdc0f92210600ef50372656052a38\n\nMain Site:\nhttps://renproject.io/",
+                        "height": 1209579,
+                        "timestamp": "2020-08-02T18:23:45.200Z",
+                        "sender": "3JxmtLSQ6FSUk9ZUZRQGXgN2efvUGUG4CPE",
+                        "quantity": 99999963200000000,
+                        "reissuable": false,
+                        "hasScript": false,
+                        "minSponsoredFee": 1000000
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
+                        "ticker": "TN",
+                        "id": "TN",
+                        "name": "Turtle Network",
+                        "precision": 8,
+                        "description": "",
+                        "height": 0,
+                        "timestamp": "2016-04-11T21:00:00.000Z",
+                        "sender": "",
+                        "quantity": 10000000000000000,
+                        "reissuable": false,
+                        "hasScript": false
+                    }
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Date",
+            "Mon, 10 Aug 2020 18:14:11 GMT",
+            "Vary",
+            "Accept-Encoding",
+            "Vary",
+            "Origin",
+            "X-Request-Id",
+            "1647"
+        ],
+        "responseIsBinary": false
+    }
+]
