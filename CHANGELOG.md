@@ -1,3 +1,11 @@
+# [3.13.0](https://github.com/coinranking/exchanges/compare/v3.12.0...v3.13.0) (2020-08-11)
+
+
+### Features
+
+* **polarity:** use the waves driver ([5f7a7ec](https://github.com/coinranking/exchanges/commit/5f7a7ec19a49f478464ae7101d7668d845bcfb83))
+* polarity driver ([ebd0ba0](https://github.com/coinranking/exchanges/commit/ebd0ba09555588f671273acdde55bd662ea541c3))
+
 # [3.12.0](https://github.com/coinranking/exchanges/compare/v3.11.0...v3.12.0) (2020-08-11)
 
 
