@@ -2,7 +2,7 @@
     {
         "scope": "https://data-service.polarity.exchange:443",
         "method": "GET",
-        "path": "/pairs",
+        "path": "/pairs?limit=1000",
         "body": "",
         "status": 200,
         "response": {
@@ -11,47 +11,15 @@
                 {
                     "__type": "pair",
                     "data": {
-                        "firstPrice": 0.21883,
-                        "lastPrice": 0.28254,
-                        "low": 0.218,
-                        "high": 0.29689,
-                        "weightedAveragePrice": 0.26139139120191,
-                        "volume": 2518.76651549,
-                        "quoteVolume": 658.383883596718,
-                        "volumeWaves": 131781.512910342,
-                        "txsCount": 466
-                    },
-                    "amountAsset": "Ec7XWnvaupKjPxo19ypnborpR5tzhMtzP1J4kXQxmydD",
-                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
-                },
-                {
-                    "__type": "pair",
-                    "data": {
-                        "firstPrice": 163.11,
-                        "lastPrice": 181.34,
-                        "low": 162.7,
-                        "high": 186.56,
-                        "weightedAveragePrice": 174.979210342754,
-                        "volume": 2.89119007,
-                        "quoteVolume": 505.898155399411,
-                        "volumeWaves": 101260.10972942,
-                        "txsCount": 435
-                    },
-                    "amountAsset": "CWJHqbt4TyeNVxhAm5PMF2nB65nww9GYsNz3xmsnBPQh",
-                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
-                },
-                {
-                    "__type": "pair",
-                    "data": {
-                        "firstPrice": 0.2665,
-                        "lastPrice": 0.285,
-                        "low": 0.2634,
-                        "high": 0.285,
-                        "weightedAveragePrice": 0.271927085612039,
-                        "volume": 1807.35548451,
-                        "quoteVolume": 491.468909567739,
-                        "volumeWaves": 98371.9651480781,
-                        "txsCount": 434
+                        "firstPrice": 0.2733,
+                        "lastPrice": 0.2688,
+                        "low": 0.2684,
+                        "high": 0.288,
+                        "weightedAveragePrice": 0.278601102706472,
+                        "volume": 1726.15257051,
+                        "quoteVolume": 480.908009583697,
+                        "volumeWaves": 93388.1921898273,
+                        "txsCount": 445
                     },
                     "amountAsset": "7butrRuk5Ar568vj63mSsiKeftwLVEJ6sTC9JYCzfaEp",
                     "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
@@ -59,111 +27,15 @@
                 {
                     "__type": "pair",
                     "data": {
-                        "firstPrice": 14.3083,
-                        "lastPrice": 13.271,
-                        "low": 12.776453,
-                        "high": 14.3083,
-                        "weightedAveragePrice": 13.5212990437371,
-                        "volume": 36.24335614,
-                        "quoteVolume": 490.057256717604,
-                        "volumeWaves": 98089.4100112805,
-                        "txsCount": 456
-                    },
-                    "amountAsset": "AvsQX6MaRvLqo78JMxWHzZjkfTaX4K6SGSKEw8SVjLgw",
-                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
-                },
-                {
-                    "__type": "pair",
-                    "data": {
-                        "firstPrice": 1.709,
-                        "lastPrice": 1.746,
-                        "low": 1.61697,
-                        "high": 1.821,
-                        "weightedAveragePrice": 1.70448921363194,
-                        "volume": 248.43509678,
-                        "quoteVolume": 423.454942749117,
-                        "volumeWaves": 84758.3520726372,
-                        "txsCount": 430
-                    },
-                    "amountAsset": "G5H9PPBMBQuz6PgUTXZ7tq7J5S8HkYh89aZC5zQxWbiu",
-                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
-                },
-                {
-                    "__type": "pair",
-                    "data": {
-                        "firstPrice": 1.9053,
-                        "lastPrice": 1.9871,
-                        "low": 1.8761,
-                        "high": 2.0588,
-                        "weightedAveragePrice": 1.96019086327046,
-                        "volume": 204.89454524,
-                        "quoteVolume": 401.632415513404,
-                        "volumeWaves": 80390.3750818594,
-                        "txsCount": 455
-                    },
-                    "amountAsset": "EzwaF58ssALcUCZ9FbyeD1GTSteoZAQZEDTqBAXHfq8y",
-                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
-                },
-                {
-                    "__type": "pair",
-                    "data": {
-                        "firstPrice": 0.005,
-                        "lastPrice": 0.005,
-                        "low": 0.0048,
-                        "high": 0.005,
-                        "weightedAveragePrice": 0.00499602614248823,
-                        "volume": 76298.6592,
-                        "quoteVolume": 381.190096,
-                        "volumeWaves": 76298.6592,
-                        "txsCount": 5
-                    },
-                    "amountAsset": "TN",
-                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
-                },
-                {
-                    "__type": "pair",
-                    "data": {
-                        "firstPrice": 11565.96,
-                        "lastPrice": 11868.14,
-                        "low": 11565.96,
-                        "high": 12049.54,
-                        "weightedAveragePrice": 11820.4693580587,
-                        "volume": 0.03012655,
-                        "quoteVolume": 356.109961139024,
-                        "volumeWaves": 71278.6424615597,
-                        "txsCount": 440
-                    },
-                    "amountAsset": "5Asy9P3xjcvBAgbeyiitZhBRJZJ2TPGSZJz9ihDTnB3d",
-                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
-                },
-                {
-                    "__type": "pair",
-                    "data": {
-                        "firstPrice": 0.4184,
-                        "lastPrice": 0.4865,
-                        "low": 0.4167,
-                        "high": 0.4996,
-                        "weightedAveragePrice": 0.452740033937012,
-                        "volume": 759.67389933,
-                        "quoteVolume": 343.934786963726,
-                        "volumeWaves": 68841.6707908643,
-                        "txsCount": 421
-                    },
-                    "amountAsset": "GXg81pmTqwtxvoViDUxpijs49uEnZTxXPduYHToEXdzq",
-                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
-                },
-                {
-                    "__type": "pair",
-                    "data": {
-                        "firstPrice": 387.49,
-                        "lastPrice": 396.7,
-                        "low": 387.05,
-                        "high": 398.53,
-                        "weightedAveragePrice": 393.044122196551,
-                        "volume": 0.850536290000001,
-                        "quoteVolume": 334.298289499361,
-                        "volumeWaves": 66912.8383169081,
-                        "txsCount": 437
+                        "firstPrice": 395.83,
+                        "lastPrice": 390,
+                        "low": 390,
+                        "high": 398.2,
+                        "weightedAveragePrice": 392.874617785398,
+                        "volume": 1.16919832,
+                        "quoteVolume": 459.34834308533,
+                        "volumeWaves": 89201.4907035264,
+                        "txsCount": 444
                     },
                     "amountAsset": "6Mh41byVWPg8JVCfuwG5CAPCh9Q7gnuaAVxjDfVNDmcD",
                     "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
@@ -171,15 +43,111 @@
                 {
                     "__type": "pair",
                     "data": {
-                        "firstPrice": 56.61,
-                        "lastPrice": 58.34,
-                        "low": 56.47,
-                        "high": 59.33,
-                        "weightedAveragePrice": 57.6843312174679,
-                        "volume": 5.16666013,
-                        "quoteVolume": 298.035334227006,
-                        "volumeWaves": 59654.4785249206,
-                        "txsCount": 416
+                        "firstPrice": 0.2723,
+                        "lastPrice": 0.25178,
+                        "low": 0.24655,
+                        "high": 0.28835,
+                        "weightedAveragePrice": 0.266026681541216,
+                        "volume": 1370.43464385,
+                        "quoteVolume": 364.572180572534,
+                        "volumeWaves": 70796.7764892192,
+                        "txsCount": 438
+                    },
+                    "amountAsset": "Ec7XWnvaupKjPxo19ypnborpR5tzhMtzP1J4kXQxmydD",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 1.9665,
+                        "lastPrice": 1.9227,
+                        "low": 1.9222,
+                        "high": 2.0588,
+                        "weightedAveragePrice": 1.98436622855351,
+                        "volume": 174.84687018,
+                        "quoteVolume": 346.960224353471,
+                        "volumeWaves": 67376.6863275924,
+                        "txsCount": 441
+                    },
+                    "amountAsset": "EzwaF58ssALcUCZ9FbyeD1GTSteoZAQZEDTqBAXHfq8y",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 13.6257,
+                        "lastPrice": 12.4839,
+                        "low": 12.46782,
+                        "high": 13.7459,
+                        "weightedAveragePrice": 13.1509839036263,
+                        "volume": 25.34895267,
+                        "quoteVolume": 333.363668536956,
+                        "volumeWaves": 64736.3523293885,
+                        "txsCount": 435
+                    },
+                    "amountAsset": "AvsQX6MaRvLqo78JMxWHzZjkfTaX4K6SGSKEw8SVjLgw",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 1.755,
+                        "lastPrice": 1.615,
+                        "low": 1.613,
+                        "high": 1.772,
+                        "weightedAveragePrice": 1.69812556048952,
+                        "volume": 180.60893365,
+                        "quoteVolume": 306.696646683821,
+                        "volumeWaves": 59557.8464357005,
+                        "txsCount": 424
+                    },
+                    "amountAsset": "G5H9PPBMBQuz6PgUTXZ7tq7J5S8HkYh89aZC5zQxWbiu",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 0.003467,
+                        "lastPrice": 0.003431,
+                        "low": 0.003421,
+                        "high": 0.003572,
+                        "weightedAveragePrice": 0.00350141672684207,
+                        "volume": 84685.44910248,
+                        "quoteVolume": 296.519048007556,
+                        "volumeWaves": 57581.4444580486,
+                        "txsCount": 424
+                    },
+                    "amountAsset": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 11884.67,
+                        "lastPrice": 11663.73,
+                        "low": 11650.86,
+                        "high": 11949.12,
+                        "weightedAveragePrice": 11827.483694375,
+                        "volume": 0.02507033,
+                        "quoteVolume": 296.5189192876,
+                        "volumeWaves": 57581.419461742,
+                        "txsCount": 434
+                    },
+                    "amountAsset": "5Asy9P3xjcvBAgbeyiitZhBRJZJ2TPGSZJz9ihDTnB3d",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 57.91,
+                        "lastPrice": 56.8,
+                        "low": 56.63,
+                        "high": 59.48,
+                        "weightedAveragePrice": 58.1046968773039,
+                        "volume": 5.10062483,
+                        "quoteVolume": 296.370259632,
+                        "volumeWaves": 57552.5510374044,
+                        "txsCount": 426
                     },
                     "amountAsset": "3vB9hXHTCYbPiQNuyxCQgXF6AvFg51ozGKL9QkwoCwaS",
                     "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
@@ -187,17 +155,65 @@
                 {
                     "__type": "pair",
                     "data": {
-                        "firstPrice": 0.00345,
-                        "lastPrice": 0.003498,
-                        "low": 0.003412,
-                        "high": 0.003547,
-                        "weightedAveragePrice": 0.00347775501833895,
-                        "volume": 81896.68809479,
-                        "quoteVolume": 284.816618006996,
-                        "volumeWaves": 57008.6324378489,
-                        "txsCount": 414
+                        "firstPrice": 177.16,
+                        "lastPrice": 167.55,
+                        "low": 163.65,
+                        "high": 186.56,
+                        "weightedAveragePrice": 175.085871340275,
+                        "volume": 1.68897735,
+                        "quoteVolume": 295.716070998739,
+                        "volumeWaves": 57425.5132409985,
+                        "txsCount": 424
                     },
-                    "amountAsset": "HDeemVktm2Z68RMkyA7AexhpaCqot1By7adBzaN9j5Xg",
+                    "amountAsset": "CWJHqbt4TyeNVxhAm5PMF2nB65nww9GYsNz3xmsnBPQh",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 0.478,
+                        "lastPrice": 0.436,
+                        "low": 0.4356,
+                        "high": 0.4996,
+                        "weightedAveragePrice": 0.467983252417514,
+                        "volume": 626.83141871,
+                        "quoteVolume": 293.34660604539,
+                        "volumeWaves": 56965.3835612248,
+                        "txsCount": 427
+                    },
+                    "amountAsset": "GXg81pmTqwtxvoViDUxpijs49uEnZTxXPduYHToEXdzq",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 0.40469,
+                        "lastPrice": 0.36542,
+                        "low": 0.36542,
+                        "high": 0.40616,
+                        "weightedAveragePrice": 0.385697329968881,
+                        "volume": 643.11407502,
+                        "quoteVolume": 248.04738160062,
+                        "volumeWaves": 48168.6644503071,
+                        "txsCount": 297
+                    },
+                    "amountAsset": "3aasJh18EVT24wNEMybuY2a7E44ToM1QbgCeF9rVUgja",
+                    "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
+                },
+                {
+                    "__type": "pair",
+                    "data": {
+                        "firstPrice": 0.004,
+                        "lastPrice": 0.0055,
+                        "low": 0.0039,
+                        "high": 0.0055,
+                        "weightedAveragePrice": 0.00514955904281956,
+                        "volume": 4354.9996832,
+                        "quoteVolume": 22.4263280000989,
+                        "volumeWaves": 4354.9996832,
+                        "txsCount": 30
+                    },
+                    "amountAsset": "TN",
                     "priceAsset": "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4"
                 }
             ]
@@ -206,20 +222,20 @@
             "Content-Type",
             "application/json; charset=utf-8",
             "Date",
-            "Mon, 10 Aug 2020 18:14:11 GMT",
+            "Tue, 11 Aug 2020 13:01:34 GMT",
             "Vary",
             "Accept-Encoding",
             "Vary",
             "Origin",
             "X-Request-Id",
-            "1424"
+            "1504"
         ],
         "responseIsBinary": false
     },
     {
         "scope": "https://data-service.polarity.exchange:443",
         "method": "GET",
-        "path": "/assets?ticker=%2A&limit=100",
+        "path": "/assets?ticker=*",
         "body": "",
         "status": 200,
         "response": {
@@ -412,6 +428,23 @@
                 {
                     "__type": "asset",
                     "data": {
+                        "ticker": "LEND",
+                        "id": "3aasJh18EVT24wNEMybuY2a7E44ToM1QbgCeF9rVUgja",
+                        "name": "EthLend",
+                        "precision": 8,
+                        "description": "CryptoBrokersGlobal Officially Backed Gateway Token for EthLend ($LEND) 1:1 Gateway Peg (ERC Contract Address:0x80fB784B7eD66730e8b1DBd9820aFD29931aab03)\n\nExplorer:\nhttps://etherscan.io/token/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03\n\nMain Site:\nhttps://aave.com",
+                        "height": 1221117,
+                        "timestamp": "2020-08-10T15:43:48.435Z",
+                        "sender": "3JkJEWFEQcqTStNk1FUpxHb4uSqQg4Hecae",
+                        "quantity": 129999994100000000,
+                        "reissuable": false,
+                        "hasScript": false,
+                        "minSponsoredFee": 1000000
+                    }
+                },
+                {
+                    "__type": "asset",
+                    "data": {
                         "ticker": "TN",
                         "id": "TN",
                         "name": "Turtle Network",
@@ -431,13 +464,13 @@
             "Content-Type",
             "application/json; charset=utf-8",
             "Date",
-            "Mon, 10 Aug 2020 18:14:11 GMT",
+            "Tue, 11 Aug 2020 13:01:34 GMT",
             "Vary",
             "Accept-Encoding",
             "Vary",
             "Origin",
             "X-Request-Id",
-            "1647"
+            "1809"
         ],
         "responseIsBinary": false
     }
