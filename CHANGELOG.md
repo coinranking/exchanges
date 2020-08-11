@@ -1,3 +1,11 @@
+# [3.12.0](https://github.com/coinranking/exchanges/compare/v3.11.0...v3.12.0) (2020-08-11)
+
+
+### Features
+
+* ankerswap driver ([68549ab](https://github.com/coinranking/exchanges/commit/68549ab33da852e5a0e1dc4a371c5d63f10e3c51))
+* bololex driver ([4df8bb8](https://github.com/coinranking/exchanges/commit/4df8bb873ffd85933874a98e7883a3c9bdb5a5a7))
+
 # [3.11.0](https://github.com/coinranking/exchanges/compare/v3.10.0...v3.11.0) (2020-07-30)
 
 
