@@ -30,8 +30,8 @@ class Flybit extends Driver {
         low: parseToFloat(ticker.MIN_PRICE),
         close: parseToFloat(ticker.CLOSING_PRICE),
         open: parseToFloat(ticker.OPENING_PRICE),
-        baseVolume: parseToFloat(ticker.UNITS_TRADED),
-        quoteVolume: parseToFloat(ticker.ACC_TRADE_VALUE),
+        baseVolume: parseToFloat(ticker.UNITS_TRADED_24H),
+        quoteVolume: parseToFloat(ticker.ACC_TRADE_VALUE_24H),
       });
     }, isMocked ? 0 : 50); // 20 requests per second
 
