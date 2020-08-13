@@ -22,6 +22,7 @@ class Bitcoiva extends Driver {
 
       return new Ticker({
         base,
+        baseName: ticker.base_full_name,
         quote,
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
