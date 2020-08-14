@@ -1,0 +1,105 @@
+[
+    {
+        "scope": "http://hqdj.xmex.co:8080",
+        "method": "GET",
+        "path": "/xmex2/api/v1/allticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "date": "1597421028",
+            "ticker": [
+                {
+                    "symbol": "xrp_usdt",
+                    "buy": "0.2955",
+                    "high": "0.3033",
+                    "last": "0.2956",
+                    "low": "0.275",
+                    "sell": "0.2959",
+                    "vol": "1025604005",
+                    "change": "6.45"
+                },
+                {
+                    "symbol": "btc_usdt",
+                    "buy": "11715.5",
+                    "high": "11827",
+                    "last": "11716",
+                    "low": "11441.5",
+                    "sell": "11716",
+                    "vol": "1218234600",
+                    "change": "1.88"
+                },
+                {
+                    "symbol": "etc_usdt",
+                    "buy": "6.863",
+                    "high": "6.967",
+                    "last": "6.866",
+                    "low": "6.631",
+                    "sell": "6.872",
+                    "vol": "144271619",
+                    "change": "2.43"
+                },
+                {
+                    "symbol": "bch_usdt",
+                    "buy": "291.69",
+                    "high": "297.91",
+                    "last": "291.72",
+                    "low": "277.59",
+                    "sell": "291.7",
+                    "vol": "1410285041",
+                    "change": "3.78"
+                },
+                {
+                    "symbol": "ltc_usdt",
+                    "buy": "56.59",
+                    "high": "57.35",
+                    "last": "56.62",
+                    "low": "53.31",
+                    "sell": "56.61",
+                    "vol": "380661525",
+                    "change": "4.00"
+                },
+                {
+                    "symbol": "eth_usdt",
+                    "buy": "434.61",
+                    "high": "439.36",
+                    "last": "434.7",
+                    "low": "387.66",
+                    "sell": "434.8",
+                    "vol": "2079376147",
+                    "change": "10.64"
+                },
+                {
+                    "symbol": "btc_xusd",
+                    "buy": "11714",
+                    "high": "11826",
+                    "last": "11714.5",
+                    "low": "11442.5",
+                    "sell": "11715",
+                    "vol": "1967376",
+                    "change": "1.87"
+                },
+                {
+                    "symbol": "eos_usdt",
+                    "buy": "3.138",
+                    "high": "3.168",
+                    "last": "3.139",
+                    "low": "2.996",
+                    "sell": "3.139",
+                    "vol": "465657905",
+                    "change": "3.46"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx/1.16.1",
+            "Date",
+            "Fri, 14 Aug 2020 16:03:48 GMT",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
