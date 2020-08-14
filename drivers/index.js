@@ -268,6 +268,7 @@ exports.Vitex = require('./vitex');
 exports.Walkex = require('./walkex');
 exports.Wavesexchange = require('./wavesexchange');
 exports.Wazirx = require('./wazirx');
+exports.Wenxpro = require('./wenxpro');
 exports.Whitebit = require('./whitebit');
 exports.Wtzex = require('./wtzex');
 exports.Xbtpro = require('./xbtpro');
