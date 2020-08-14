@@ -1,3 +1,17 @@
+# [3.14.0](https://github.com/coinranking/exchanges/compare/v3.13.0...v3.14.0) (2020-08-14)
+
+
+### Bug Fixes
+
+* change base and quoteVolume for fylbit driver ([8c26f88](https://github.com/coinranking/exchanges/commit/8c26f88800d5f597e977d2a61fd6460b8212d006))
+
+
+### Features
+
+* add baseName to Bitcoiva driver ([91833e7](https://github.com/coinranking/exchanges/commit/91833e7fd6ab3e7bb6c9c55965479101c02af233))
+* bitcoiva driver ([68fe560](https://github.com/coinranking/exchanges/commit/68fe560a2e24c5f9e9cef8f1bb32d2b664fcd58e))
+* flybit driver ([72a3380](https://github.com/coinranking/exchanges/commit/72a33806bd5b2dce76516f37bb6a46bbc9f15cc6))
+
 # [3.13.0](https://github.com/coinranking/exchanges/compare/v3.12.0...v3.13.0) (2020-08-11)
 
 
