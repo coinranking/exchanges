@@ -214,6 +214,7 @@ exports.Oceanex = require('./oceanex');
 exports.Okcoin = require('./okcoin');
 exports.Okex = require('./okex');
 exports.Openledger = require('./openledger');
+exports.Orebz = require('./orebz');
 exports.Ovex = require('./ovex');
 exports.P2pb2b = require('./p2pb2b');
 exports.Paribu = require('./paribu');
