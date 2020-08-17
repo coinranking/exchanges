@@ -1,3 +1,33 @@
+# [3.14.0](https://github.com/coinranking/exchanges/compare/v3.13.0...v3.14.0) (2020-08-14)
+
+
+### Bug Fixes
+
+* change base and quoteVolume for fylbit driver ([8c26f88](https://github.com/coinranking/exchanges/commit/8c26f88800d5f597e977d2a61fd6460b8212d006))
+
+
+### Features
+
+* add baseName to Bitcoiva driver ([91833e7](https://github.com/coinranking/exchanges/commit/91833e7fd6ab3e7bb6c9c55965479101c02af233))
+* bitcoiva driver ([68fe560](https://github.com/coinranking/exchanges/commit/68fe560a2e24c5f9e9cef8f1bb32d2b664fcd58e))
+* flybit driver ([72a3380](https://github.com/coinranking/exchanges/commit/72a33806bd5b2dce76516f37bb6a46bbc9f15cc6))
+
+# [3.13.0](https://github.com/coinranking/exchanges/compare/v3.12.0...v3.13.0) (2020-08-11)
+
+
+### Features
+
+* **polarity:** use the waves driver ([5f7a7ec](https://github.com/coinranking/exchanges/commit/5f7a7ec19a49f478464ae7101d7668d845bcfb83))
+* polarity driver ([ebd0ba0](https://github.com/coinranking/exchanges/commit/ebd0ba09555588f671273acdde55bd662ea541c3))
+
+# [3.12.0](https://github.com/coinranking/exchanges/compare/v3.11.0...v3.12.0) (2020-08-11)
+
+
+### Features
+
+* ankerswap driver ([68549ab](https://github.com/coinranking/exchanges/commit/68549ab33da852e5a0e1dc4a371c5d63f10e3c51))
+* bololex driver ([4df8bb8](https://github.com/coinranking/exchanges/commit/4df8bb873ffd85933874a98e7883a3c9bdb5a5a7))
+
 # [3.11.0](https://github.com/coinranking/exchanges/compare/v3.10.0...v3.11.0) (2020-07-30)
 
 
