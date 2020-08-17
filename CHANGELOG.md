@@ -1,3 +1,11 @@
+# [3.15.0](https://github.com/coinranking/exchanges/compare/v3.14.0...v3.15.0) (2020-08-17)
+
+
+### Features
+
+* amanpuri driver ([291b22b](https://github.com/coinranking/exchanges/commit/291b22b3b276cb6500da520c086e33642be15627))
+* wenxpro driver ([dbdff37](https://github.com/coinranking/exchanges/commit/dbdff3710863a042443406d4b80036b234c2c720))
+
 # [3.14.0](https://github.com/coinranking/exchanges/compare/v3.13.0...v3.14.0) (2020-08-14)
 
 
