@@ -1,0 +1,265 @@
+[
+    {
+        "scope": "http://amanpuri4cmc.elevensignals.com:80",
+        "method": "GET",
+        "path": "//api/v1/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "success": true,
+            "message": null,
+            "dataVersion": "a05a6122a5d0cb0ca58a6ad40178b90c5b49aace",
+            "data": {
+                "BTC_USD": {
+                    "base_id": 0,
+                    "quote_id": 2001,
+                    "last_price": "7296.0408661200",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "ETH_USD": {
+                    "base_id": 0,
+                    "quote_id": 2002,
+                    "last_price": "148.2341290180",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "AMAL_USD": {
+                    "base_id": 0,
+                    "quote_id": 2009,
+                    "last_price": "0.0800000000",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "BCH_USD": {
+                    "base_id": 0,
+                    "quote_id": 2005,
+                    "last_price": "214.0047935610",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "LTC_USD": {
+                    "base_id": 0,
+                    "quote_id": 2006,
+                    "last_price": "45.6302246583",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "XRP_USD": {
+                    "base_id": 0,
+                    "quote_id": 2007,
+                    "last_price": "0.2192699723",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "EOS_USD": {
+                    "base_id": 0,
+                    "quote_id": 2010,
+                    "last_price": "2.6840981495",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "ADA_USD": {
+                    "base_id": 0,
+                    "quote_id": 2008,
+                    "last_price": "0.0378313780",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "BTC_USDT": {
+                    "base_id": 2012,
+                    "quote_id": 2001,
+                    "last_price": "11842.1474000000",
+                    "base_volume": "1729.4252300000",
+                    "quote_volume": "20200278.5189343502",
+                    "isFrozen": 0
+                },
+                "ETH_USDT": {
+                    "base_id": 2012,
+                    "quote_id": 2002,
+                    "last_price": "442.0600000000",
+                    "base_volume": "12288.6006000000",
+                    "quote_volume": "5137222.8169424000",
+                    "isFrozen": 0
+                },
+                "AMAL_USDT": {
+                    "base_id": 2012,
+                    "quote_id": 2009,
+                    "last_price": "0.0055000000",
+                    "base_volume": "187423.0000000000",
+                    "quote_volume": "1302.5653000000",
+                    "isFrozen": 0
+                },
+                "BCH_USDT": {
+                    "base_id": 2012,
+                    "quote_id": 2005,
+                    "last_price": "294.7000000000",
+                    "base_volume": "2539.4749600000",
+                    "quote_volume": "737938.9418695000",
+                    "isFrozen": 0
+                },
+                "LTC_USDT": {
+                    "base_id": 2012,
+                    "quote_id": 2006,
+                    "last_price": "57.3900000000",
+                    "base_volume": "639.4158500000",
+                    "quote_volume": "35821.3707376000",
+                    "isFrozen": 0
+                },
+                "XRP_USDT": {
+                    "base_id": 2012,
+                    "quote_id": 2007,
+                    "last_price": "0.2013300000",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 0
+                },
+                "EOS_USDT": {
+                    "base_id": 2012,
+                    "quote_id": 2010,
+                    "last_price": "2.6880782734",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "ADA_USDT": {
+                    "base_id": 2012,
+                    "quote_id": 2008,
+                    "last_price": "0.0378874764",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "ETH_BTC": {
+                    "base_id": 2001,
+                    "quote_id": 2002,
+                    "last_price": "0.0372300000",
+                    "base_volume": "782.1160000000",
+                    "quote_volume": "28.0368456700",
+                    "isFrozen": 0
+                },
+                "AMAL_BTC": {
+                    "base_id": 2001,
+                    "quote_id": 2009,
+                    "last_price": "0.0000109600",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "BCH_BTC": {
+                    "base_id": 2001,
+                    "quote_id": 2005,
+                    "last_price": "0.0248900000",
+                    "base_volume": "83.7410000000",
+                    "quote_volume": "2.0829072700",
+                    "isFrozen": 0
+                },
+                "LTC_BTC": {
+                    "base_id": 2001,
+                    "quote_id": 2006,
+                    "last_price": "0.0062541076",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "XRP_BTC": {
+                    "base_id": 2001,
+                    "quote_id": 2007,
+                    "last_price": "0.0000216700",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 0
+                },
+                "EOS_BTC": {
+                    "base_id": 2001,
+                    "quote_id": 2010,
+                    "last_price": "0.0003616800",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 0
+                },
+                "ADA_BTC": {
+                    "base_id": 2001,
+                    "quote_id": 2008,
+                    "last_price": "0.0000051852",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "AMAL_ETH": {
+                    "base_id": 2002,
+                    "quote_id": 2009,
+                    "last_price": "0.0005396800",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "BCH_ETH": {
+                    "base_id": 2002,
+                    "quote_id": 2005,
+                    "last_price": "1.2999800000",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "LTC_ETH": {
+                    "base_id": 2002,
+                    "quote_id": 2006,
+                    "last_price": "0.1297200000",
+                    "base_volume": "446.9830000000",
+                    "quote_volume": "59.7951645900",
+                    "isFrozen": 0
+                },
+                "XRP_ETH": {
+                    "base_id": 2002,
+                    "quote_id": 2007,
+                    "last_price": "0.0014792138",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "EOS_ETH": {
+                    "base_id": 2002,
+                    "quote_id": 2010,
+                    "last_price": "0.0181071536",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                },
+                "ADA_ETH": {
+                    "base_id": 2002,
+                    "quote_id": 2008,
+                    "last_price": "0.0002552137",
+                    "base_volume": 0,
+                    "quote_volume": null,
+                    "isFrozen": 1
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 14 Aug 2020 16:30:58 GMT",
+            "Server",
+            "Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips",
+            "Cache-Control",
+            "no-cache, private",
+            "Content-Length",
+            "3815",
+            "Keep-Alive",
+            "timeout=5, max=100",
+            "Connection",
+            "Keep-Alive",
+            "Content-Type",
+            "application/json"
+        ],
+        "responseIsBinary": false
+    }
+]

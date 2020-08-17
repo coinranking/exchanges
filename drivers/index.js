@@ -8,6 +8,7 @@ exports.Allcoin = require('./allcoin');
 exports.Altcointrader = require('./altcointrader');
 exports.Altilly = require('./altilly');
 exports.Altmarkets = require('./altmarkets');
+exports.Amanpuri = require('./amanpuri');
 exports.Ankerswap = require('./ankerswap');
 exports.Atomars = require('./atomars');
 exports.Bamboo = require('./bamboo');
