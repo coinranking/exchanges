@@ -1,3 +1,10 @@
+# [3.16.0](https://github.com/coinranking/exchanges/compare/v3.15.0...v3.16.0) (2020-08-18)
+
+
+### Features
+
+* orebz driver ([87b56a7](https://github.com/coinranking/exchanges/commit/87b56a7008f253aed6ccb4d6eef028ad00e74b52))
+
 # [3.15.0](https://github.com/coinranking/exchanges/compare/v3.14.0...v3.15.0) (2020-08-17)
 
 
