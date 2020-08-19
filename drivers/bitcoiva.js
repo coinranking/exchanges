@@ -28,7 +28,7 @@ class Bitcoiva extends Driver {
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.current_price),
         open: parseToFloat(ticker.start_price),
-        baseVolume: parseToFloat(ticker.volume),
+        quoteVolume: parseToFloat(ticker.volume),
       });
     });
   }
