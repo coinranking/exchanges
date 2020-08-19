@@ -1,3 +1,10 @@
+## [3.16.1](https://github.com/coinranking/exchanges/compare/v3.16.0...v3.16.1) (2020-08-19)
+
+
+### Bug Fixes
+
+* **bitcoiva:** base and quote volumes are reversed ([e968f10](https://github.com/coinranking/exchanges/commit/e968f10c7775fb2b48874c599c46fa24c374ba3f))
+
 # [3.16.0](https://github.com/coinranking/exchanges/compare/v3.15.0...v3.16.0) (2020-08-18)
 
 
