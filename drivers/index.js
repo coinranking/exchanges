@@ -47,6 +47,7 @@ exports.Bithumbglobal = require('./Bithumbglobal');
 exports.Bitinfi = require('./bitinfi');
 exports.Bitinka = require('./bitinka');
 exports.Bitkub = require('./bitkub');
+exports.Bitladon = require('./bitladon');
 exports.Bitlish = require('./bitlish');
 exports.Bitmart = require('./bitmart');
 exports.Bitmax = require('./bitmax');
