@@ -29,7 +29,6 @@ class Redot extends Driver {
         close: parseToFloat(ticker.last),
         open: parseToFloat(ticker.first),
         baseVolume: parseToFloat(ticker.volumeUsd),
-        quoteVolume: parseToFloat(ticker.volume),
       });
     }, isMocked ? 0 : 50); // Limited to 20 requests a second
 
