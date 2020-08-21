@@ -1,0 +1,250 @@
+[
+    {
+        "scope": "https://api.redot.com:443",
+        "method": "GET",
+        "path": "/v1/public/get-instruments",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": [
+                {
+                    "id": "ETH-BTC",
+                    "displayName": "ETH/BTC",
+                    "type": "spot",
+                    "base": "ETH",
+                    "quote": "BTC",
+                    "minQty": 0.001,
+                    "maxQty": 10000000,
+                    "tickSize": 0.000001,
+                    "takerFee": 0.0015,
+                    "makerFee": -0.0005,
+                    "feeCurrency": "acquired"
+                },
+                {
+                    "id": "BTC-USDT",
+                    "displayName": "BTC/USDT",
+                    "type": "spot",
+                    "base": "BTC",
+                    "quote": "USDT",
+                    "minQty": 0.0001,
+                    "maxQty": 10000000,
+                    "tickSize": 0.01,
+                    "takerFee": 0.0015,
+                    "makerFee": -0.0005,
+                    "feeCurrency": "acquired"
+                },
+                {
+                    "id": "ATL-BTC",
+                    "displayName": "ATL/BTC",
+                    "type": "spot",
+                    "base": "ATL",
+                    "quote": "BTC",
+                    "minQty": 0.1,
+                    "maxQty": 10000000,
+                    "tickSize": 1e-8,
+                    "takerFee": 0.0015,
+                    "makerFee": -0.0005,
+                    "feeCurrency": "acquired"
+                },
+                {
+                    "id": "ETH-USDT",
+                    "displayName": "ETH/USDT",
+                    "type": "spot",
+                    "base": "ETH",
+                    "quote": "USDT",
+                    "minQty": 0.001,
+                    "maxQty": 10000000,
+                    "tickSize": 0.01,
+                    "takerFee": 0.0015,
+                    "makerFee": -0.0005,
+                    "feeCurrency": "acquired"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Aug 2020 14:12:38 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d5c97e9d79b86772f6257ccbf0a53fad61598019158; expires=Sun, 20-Sep-20 14:12:38 GMT; path=/; domain=.redot.com; HttpOnly; SameSite=Lax; Secure",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "04b2f65adf0000fc612588a200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.redot.com:443",
+        "method": "GET",
+        "path": "/v1/public/get-stats?instrumentId=BTC-USDT",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": {
+                "first": 11783.77,
+                "last": 11670.72,
+                "low": 11612.38,
+                "high": 11862.22,
+                "volumeUsd": 113384.56,
+                "volume": 9.6614
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Aug 2020 14:12:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "04b2f65ca10000913905a6b200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.redot.com:443",
+        "method": "GET",
+        "path": "/v1/public/get-stats?instrumentId=ETH-BTC",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": {
+                "first": 0.034837,
+                "last": 0.034351,
+                "low": 0.034336,
+                "high": 0.03522,
+                "volumeUsd": 38304.25,
+                "volume": 94.9554
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Aug 2020 14:12:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "04b2f65c4d0000fc6db1000200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.redot.com:443",
+        "method": "GET",
+        "path": "/v1/public/get-stats?instrumentId=ATL-BTC",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": {
+                "first": 0.000002,
+                "last": 0.000002,
+                "low": 0,
+                "high": 0,
+                "volumeUsd": 0,
+                "volume": 0
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Aug 2020 14:12:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "04b2f65cc60000fc5993393200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.redot.com:443",
+        "method": "GET",
+        "path": "/v1/public/get-stats?instrumentId=ETH-USDT",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": {
+                "first": 410.82,
+                "last": 401.46,
+                "low": 399.36,
+                "high": 418.18,
+                "volumeUsd": 89492.41,
+                "volume": 221.8497
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 21 Aug 2020 14:12:39 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "04b2f65ce30000fc5983318200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]

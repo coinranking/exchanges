@@ -228,6 +228,7 @@ exports.Primebit = require('./primebit');
 exports.Prizmbit = require('./prizmbit');
 exports.Probit = require('./probit');
 exports.Qtrade = require('./qtrade');
+exports.Redot = require('./redot');
 exports.Remitano = require('./remitano');
 exports.Resfinex = require('./resfinex');
 exports.Rightbtc = require('./rightbtc');
