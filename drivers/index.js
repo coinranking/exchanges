@@ -204,6 +204,7 @@ exports.Mushino = require('./mushino');
 exports.Mxc = require('./mxc');
 exports.Nami = require('./nami');
 exports.Nanuexchange = require('./nanuexchange');
+exports.Narkasa = require('./narkasa');
 exports.Nash = require('./nash');
 exports.Needyex = require('./needyex');
 exports.Neraex = require('./neraex');
