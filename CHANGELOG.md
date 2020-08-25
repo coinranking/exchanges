@@ -1,3 +1,10 @@
+# [3.17.0](https://github.com/coinranking/exchanges/compare/v3.16.1...v3.17.0) (2020-08-25)
+
+
+### Features
+
+* bitladon driver ([34e366d](https://github.com/coinranking/exchanges/commit/34e366db80fae06537c9defcf01dedf6a8f215b2))
+
 ## [3.16.1](https://github.com/coinranking/exchanges/compare/v3.16.0...v3.16.1) (2020-08-19)
 
 
