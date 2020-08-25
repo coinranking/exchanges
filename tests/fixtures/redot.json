@@ -16,21 +16,8 @@
                     "minQty": 0.001,
                     "maxQty": 10000000,
                     "tickSize": 0.000001,
-                    "takerFee": 0.0015,
-                    "makerFee": -0.0005,
-                    "feeCurrency": "acquired"
-                },
-                {
-                    "id": "BTC-USDT",
-                    "displayName": "BTC/USDT",
-                    "type": "spot",
-                    "base": "BTC",
-                    "quote": "USDT",
-                    "minQty": 0.0001,
-                    "maxQty": 10000000,
-                    "tickSize": 0.01,
-                    "takerFee": 0.0015,
-                    "makerFee": -0.0005,
+                    "takerFee": 0.001,
+                    "makerFee": 0,
                     "feeCurrency": "acquired"
                 },
                 {
@@ -42,8 +29,21 @@
                     "minQty": 0.1,
                     "maxQty": 10000000,
                     "tickSize": 1e-8,
-                    "takerFee": 0.0015,
-                    "makerFee": -0.0005,
+                    "takerFee": 0.001,
+                    "makerFee": 0,
+                    "feeCurrency": "acquired"
+                },
+                {
+                    "id": "BTC-USDT",
+                    "displayName": "BTC/USDT",
+                    "type": "spot",
+                    "base": "BTC",
+                    "quote": "USDT",
+                    "minQty": 0.0001,
+                    "maxQty": 10000000,
+                    "tickSize": 0.01,
+                    "takerFee": 0.001,
+                    "makerFee": 0,
                     "feeCurrency": "acquired"
                 },
                 {
@@ -55,15 +55,15 @@
                     "minQty": 0.001,
                     "maxQty": 10000000,
                     "tickSize": 0.01,
-                    "takerFee": 0.0015,
-                    "makerFee": -0.0005,
+                    "takerFee": 0.001,
+                    "makerFee": 0,
                     "feeCurrency": "acquired"
                 }
             ]
         },
         "rawHeaders": [
             "Date",
-            "Fri, 21 Aug 2020 14:14:49 GMT",
+            "Tue, 25 Aug 2020 20:08:06 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Transfer-Encoding",
@@ -71,11 +71,11 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=dabfb7f1863b0ae6730abe311bcd12df21598019289; expires=Sun, 20-Sep-20 14:14:49 GMT; path=/; domain=.redot.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=ddce430b905e27e91f9d3aa0ff7606bcf1598386086; expires=Thu, 24-Sep-20 20:08:06 GMT; path=/; domain=.redot.com; HttpOnly; SameSite=Lax; Secure",
             "CF-Cache-Status",
             "DYNAMIC",
             "cf-request-id",
-            "04b2f85a010000fc6124253200000001",
+            "04c8d53c0d0000912d10255200000001",
             "Expect-CT",
             "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
             "Strict-Transport-Security",
@@ -95,17 +95,17 @@
         "status": 200,
         "response": {
             "result": {
-                "first": 0.034828,
-                "last": 0.034432,
-                "low": 0.034336,
-                "high": 0.03522,
-                "volumeUsd": 38582.03,
-                "volume": 95.6433
+                "first": 0.03431,
+                "last": 0.033544,
+                "low": 0.032869,
+                "high": 0.034767,
+                "volumeUsd": 63175.6,
+                "volume": 165.9263
             }
         },
         "rawHeaders": [
             "Date",
-            "Fri, 21 Aug 2020 14:14:50 GMT",
+            "Tue, 25 Aug 2020 20:08:07 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Transfer-Encoding",
@@ -115,47 +115,7 @@
             "CF-Cache-Status",
             "DYNAMIC",
             "cf-request-id",
-            "04b2f85bc40000fc597da8b200000001",
-            "Expect-CT",
-            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
-            "Strict-Transport-Security",
-            "max-age=31536000; includeSubDomains; preload",
-            "X-Content-Type-Options",
-            "nosniff",
-            "Server",
-            "cloudflare"
-        ],
-        "responseIsBinary": false
-    },
-    {
-        "scope": "https://api.redot.com:443",
-        "method": "GET",
-        "path": "/v1/public/get-stats?instrumentId=BTC-USDT",
-        "body": "",
-        "status": 200,
-        "response": {
-            "result": {
-                "first": 11785.58,
-                "last": 11692.62,
-                "low": 11612.38,
-                "high": 11862.22,
-                "volumeUsd": 113372.47,
-                "volume": 9.6696
-            }
-        },
-        "rawHeaders": [
-            "Date",
-            "Fri, 21 Aug 2020 14:14:50 GMT",
-            "Content-Type",
-            "application/json; charset=utf-8",
-            "Transfer-Encoding",
-            "chunked",
-            "Connection",
-            "keep-alive",
-            "CF-Cache-Status",
-            "DYNAMIC",
-            "cf-request-id",
-            "04b2f85bfe0000fc71bf920200000001",
+            "04c8d53cc10000fc6161315200000001",
             "Expect-CT",
             "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
             "Strict-Transport-Security",
@@ -185,7 +145,7 @@
         },
         "rawHeaders": [
             "Date",
-            "Fri, 21 Aug 2020 14:14:50 GMT",
+            "Tue, 25 Aug 2020 20:08:07 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Transfer-Encoding",
@@ -195,7 +155,47 @@
             "CF-Cache-Status",
             "DYNAMIC",
             "cf-request-id",
-            "04b2f85c200000912d0b0c1200000001",
+            "04c8d53cf90000fc5d01b36200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.redot.com:443",
+        "method": "GET",
+        "path": "/v1/public/get-stats?instrumentId=BTC-USDT",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": {
+                "first": 11722.54,
+                "last": 11282.46,
+                "low": 11107.88,
+                "high": 11769.02,
+                "volumeUsd": 106063.82,
+                "volume": 9.3534
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 25 Aug 2020 20:08:07 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "04c8d53d240000fc69d50d5200000001",
             "Expect-CT",
             "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
             "Strict-Transport-Security",
@@ -215,17 +215,17 @@
         "status": 200,
         "response": {
             "result": {
-                "first": 410.9,
-                "last": 403.08,
-                "low": 399.36,
-                "high": 418.18,
-                "volumeUsd": 90301.34,
-                "volume": 223.8534
+                "first": 402.69,
+                "last": 378.65,
+                "low": 369.83,
+                "high": 409.53,
+                "volumeUsd": 135725.6,
+                "volume": 356.4738
             }
         },
         "rawHeaders": [
             "Date",
-            "Fri, 21 Aug 2020 14:14:50 GMT",
+            "Tue, 25 Aug 2020 20:08:07 GMT",
             "Content-Type",
             "application/json; charset=utf-8",
             "Transfer-Encoding",
@@ -235,7 +235,7 @@
             "CF-Cache-Status",
             "DYNAMIC",
             "cf-request-id",
-            "04b2f85c480000fc5980bfd200000001",
+            "04c8d53d5b0000911525af6200000001",
             "Expect-CT",
             "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
             "Strict-Transport-Security",
