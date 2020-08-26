@@ -1,3 +1,16 @@
+# [3.19.0](https://github.com/coinranking/exchanges/compare/v3.18.0...v3.19.0) (2020-08-26)
+
+
+### Bug Fixes
+
+* baseVolume of Redot driver ([f21419d](https://github.com/coinranking/exchanges/commit/f21419d1914d23c292d5b54b79d3cdbc92f2e744))
+* remove quotevolume from redot ([0406e19](https://github.com/coinranking/exchanges/commit/0406e1909c70e6f269ba7e323bdf8671de5d8b3c))
+
+
+### Features
+
+* redot driver ([1c5d936](https://github.com/coinranking/exchanges/commit/1c5d93685223469ce5c33619466b0a75095421eb))
+
 # [3.18.0](https://github.com/coinranking/exchanges/compare/v3.17.0...v3.18.0) (2020-08-25)
 
 
