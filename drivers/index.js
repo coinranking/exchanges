@@ -19,6 +19,7 @@ exports.Barginex = require('./barginex');
 exports.Bcbitcoin = require('./bcbitcoin');
 exports.Bcex = require('./bcex');
 exports.Bequant = require('./bequant');
+exports.Beldex = require('./beldex');
 exports.Bgogo = require('./bgogo');
 exports.Bhex = require('./bhex');
 exports.Bibox = require('./bibox');
