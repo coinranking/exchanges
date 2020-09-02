@@ -1,5 +1,3 @@
-const request = require('../lib/request');
-
 exports['3xbit'] = require('./_3xbit');
 exports.Abcc = require('./abcc');
 exports.Abit = require('./abit');
