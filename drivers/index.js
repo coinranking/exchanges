@@ -1,3 +1,5 @@
+const request = require('../lib/request');
+
 exports['3xbit'] = require('./_3xbit');
 exports.Abcc = require('./abcc');
 exports.Abit = require('./abit');
@@ -41,6 +43,7 @@ exports.Bitebtc = require('./bitebtc');
 exports.Bitfex = require('./bitfex');
 exports.Bitfinex = require('./bitfinex');
 exports.Bitflyer = require('./bitflyer');
+exports.Bitfox = require('./bitfox');
 exports.Bitforex = require('./bitforex');
 exports.Bitfxt = require('./bitfxt');
 exports.Bithumb = require('./bithumb');
