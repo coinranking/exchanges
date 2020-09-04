@@ -1,3 +1,15 @@
+# [3.20.0](https://github.com/coinranking/exchanges/compare/v3.19.0...v3.20.0) (2020-09-04)
+
+
+### Features
+
+* beldex driver ([18e7a2d](https://github.com/coinranking/exchanges/commit/18e7a2dda5205f27418368bca693b03613d86b0c))
+* beldex driver change order in index.js ([cf5b783](https://github.com/coinranking/exchanges/commit/cf5b7837b4f5cdf1d7552c4d3787957d7e2b4ae1))
+* bitfox change order in index.js ([d1a9776](https://github.com/coinranking/exchanges/commit/d1a97767bcbeb35122ec94e1fed3ac0d7666b9c5))
+* bitfox driver ([1490651](https://github.com/coinranking/exchanges/commit/1490651ccb2c1511c1a5a969ddc9feb9cfb37dca))
+* bitfox driver remove unnecessary import ([aed3cb3](https://github.com/coinranking/exchanges/commit/aed3cb39531bd2ab1014bd3239d5ece6829f2809))
+* zt driver ([5b0f101](https://github.com/coinranking/exchanges/commit/5b0f1019386912eb692e4756f54aca500a4c563f))
+
 # [3.19.0](https://github.com/coinranking/exchanges/compare/v3.18.0...v3.19.0) (2020-08-26)
 
 
