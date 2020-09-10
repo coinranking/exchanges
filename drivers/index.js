@@ -266,6 +266,7 @@ exports.Tradesatoshi = require('./tradesatoshi');
 exports.Turtlenetwork = require('./turtlenetwork');
 exports.Txbit = require('./txbit');
 exports.Uniswap = require('./uniswap');
+exports.Uniswap2 = require('./uniswap2');
 exports.Unnamed = require('./unnamed');
 exports.Upbit = require('./upbit');
 exports.Vindax = require('./vindax');
