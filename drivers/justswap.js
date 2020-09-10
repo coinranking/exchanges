@@ -9,7 +9,6 @@ const { parseToFloat, flatMap } = require('../lib/utils');
  */
 class Justswap extends Driver {
   /**
-   * @param {boolean} isMocked Set to true when stored tickers are used
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
