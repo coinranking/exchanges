@@ -1,3 +1,5 @@
+const request = require('request');
+
 exports['3xbit'] = require('./_3xbit');
 exports.Abcc = require('./abcc');
 exports.Abit = require('./abit');
@@ -189,6 +191,7 @@ exports.Indoex = require('./indoex');
 exports.Instantbitex = require('./instantbitex');
 exports.Iqfinex = require('./iqfinex');
 exports.Itbit = require('./itbit');
+exports.Justswap = require('./justswap');
 exports.Kickex = require('./kickex');
 exports.Kkex = require('./kkex');
 exports.Korbit = require('./korbit');
