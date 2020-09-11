@@ -13,21 +13,22 @@ class Stex extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://app.stex.com/api2/ticker');
+    const { data: tickers } = await request('https://api3.stex.com/public/ticker');
 
-    return tickers
-      .filter((ticker) => ticker.active === 'true')
-      .map((ticker) => {
-        const [base, quote] = ticker.market_name.split('_');
-
-        return new Ticker({
-          base,
-          quote,
-          quoteVolume: parseToFloat(ticker.vol_market),
-          close: parseToFloat(ticker.last),
-          baseVolume: parseToFloat(ticker.vol),
-        });
-      });
+    return tickers.map((ticker) => new Ticker({
+      base: ticker.currency_code,
+      baseName: ticker.currency_name,
+      quote: ticker.market_code,
+      quoteName: ticker.market_name,
+      high: parseToFloat(ticker.high),
+      low: parseToFloat(ticker.low),
+      close: parseToFloat(ticker.last),
+      open: parseToFloat(ticker.open),
+      bid: parseToFloat(ticker.bid),
+      ask: parseToFloat(ticker.ask),
+      baseVolume: parseToFloat(ticker.volumeQuote), // reversed with volume qoute
+      quoteVolume: parseToFloat(ticker.volume),
+    }));
   }
 }
 
