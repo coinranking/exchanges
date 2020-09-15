@@ -1,3 +1,10 @@
+# [3.23.0](https://github.com/coinranking/exchanges/compare/v3.22.0...v3.23.0) (2020-09-15)
+
+
+### Features
+
+* add support for SushiSwap ([42224b1](https://github.com/coinranking/exchanges/commit/42224b1e188e641cf3a65bf435281fdf074f58de))
+
 # [3.22.0](https://github.com/coinranking/exchanges/compare/v3.21.0...v3.22.0) (2020-09-15)
 
 
