@@ -251,6 +251,7 @@ exports.Squirrex = require('./squirrex');
 exports.Stellarport = require('./stellarport');
 exports.Stex = require('./stex');
 exports.Surface = require('./surface');
+exports.Sushiswap = require('./sushiswap');
 exports.Switcheo = require('./switcheo');
 exports.Tchapp = require('./tchapp');
 exports.Therock = require('./therock');
