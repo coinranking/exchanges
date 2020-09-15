@@ -1,3 +1,17 @@
+# [3.22.0](https://github.com/coinranking/exchanges/compare/v3.21.0...v3.22.0) (2020-09-15)
+
+
+### Bug Fixes
+
+* **uniswap2:** subtract volume 24h ago ([8170f19](https://github.com/coinranking/exchanges/commit/8170f19f5d3a296342289a21a76a0bc58bb0b91c))
+
+
+### Features
+
+* brexily driver ([67181ac](https://github.com/coinranking/exchanges/commit/67181aca4ddee4743a81a2be822e9f87853c1ad8))
+* changellypro driver ([1c24d29](https://github.com/coinranking/exchanges/commit/1c24d29406cd024bdfffaba5b49f9aa1def98a4e))
+* uniswap v2 driver ([da139fd](https://github.com/coinranking/exchanges/commit/da139fd7cf085172279a5c885c0cf5de69cf028c))
+
 # [3.21.0](https://github.com/coinranking/exchanges/compare/v3.20.0...v3.21.0) (2020-09-15)
 
 
