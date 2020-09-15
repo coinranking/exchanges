@@ -1,3 +1,10 @@
+# [3.21.0](https://github.com/coinranking/exchanges/compare/v3.20.0...v3.21.0) (2020-09-15)
+
+
+### Features
+
+* update stex driver ([c5c9644](https://github.com/coinranking/exchanges/commit/c5c9644c5041d11fbdac43c80319f41a3004ec49))
+
 # [3.20.0](https://github.com/coinranking/exchanges/compare/v3.19.0...v3.20.0) (2020-09-04)
 
 
