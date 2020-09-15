@@ -1,3 +1,15 @@
+# [3.24.0](https://github.com/coinranking/exchanges/compare/v3.23.0...v3.24.0) (2020-09-15)
+
+
+### Bug Fixes
+
+* **nock:** dont mask secrets from the body because this is not a string ([bfe6544](https://github.com/coinranking/exchanges/commit/bfe6544884112ba8626ce3c20b60dfa6b164bbbc))
+
+
+### Features
+
+* add support for Curve ([bf9af40](https://github.com/coinranking/exchanges/commit/bf9af403dc6eda59f4a787a55570e19830151c82))
+
 # [3.23.0](https://github.com/coinranking/exchanges/compare/v3.22.0...v3.23.0) (2020-09-15)
 
 
