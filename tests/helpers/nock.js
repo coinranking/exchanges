@@ -69,7 +69,6 @@ const maskSecret = (secret) => (scope) => {
     scope.response = maskSecretInString(secret)(scope.response);
   }
   scope.path = maskSecretInString(secret)(scope.path);
-  scope.body = maskSecretInString(secret)(scope.body);
   return scope;
 };
 
