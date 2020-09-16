@@ -1,3 +1,10 @@
+## [3.24.1](https://github.com/coinranking/exchanges/compare/v3.24.0...v3.24.1) (2020-09-16)
+
+
+### Bug Fixes
+
+* more markets for Uniswap 2 by sorting on liquidity ([f475a88](https://github.com/coinranking/exchanges/commit/f475a88dab0f6e130cf8451ad1c7844ecf7cac81))
+
 # [3.24.0](https://github.com/coinranking/exchanges/compare/v3.23.0...v3.24.0) (2020-09-15)
 
 
