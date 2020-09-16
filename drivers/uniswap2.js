@@ -22,7 +22,7 @@ class Uniswap2 extends Driver {
     if (isMocked) {
       // Dirty fix for testing. The fixture has a timestamp in the query.
       // Because of that the test could not find the fixture.
-      timestampYesterdayInSeconds = 1600079391;
+      timestampYesterdayInSeconds = 1600184756;
     }
 
     const { data: { blocks } } = await request({
@@ -69,8 +69,8 @@ class Uniswap2 extends Driver {
         query: `
         {
           pairs(
-            first: 200,
-            orderBy: volumeUSD,
+            first: 1000,
+            orderBy: trackedReserveETH,
             orderDirection: desc
           ) {
             id,
