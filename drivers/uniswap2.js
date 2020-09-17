@@ -118,8 +118,12 @@ class Uniswap2 extends Driver {
           },
         });
 
-        // Return undefined if the market didn't exist 24 hours ago
-        if (!volume24hAgo) return undefined;
+        let baseVolume = parseToFloat(pair.baseVolume);
+        let quoteVolume = parseToFloat(pair.quoteVolume);
+        if (volume24hAgo) {
+          baseVolume = parseToFloat(pair.baseVolume) - parseToFloat(volume24hAgo.baseVolume);
+          quoteVolume = parseToFloat(pair.quoteVolume) - parseToFloat(volume24hAgo.quoteVolume);
+        }
 
         return new Ticker({
           base: pair.base.symbol,
@@ -129,8 +133,8 @@ class Uniswap2 extends Driver {
           quoteName: pair.quote.name,
           quoteReference: pair.quote.id,
           close: parseToFloat(pair.close),
-          baseVolume: parseToFloat(pair.baseVolume) - parseToFloat(volume24hAgo.baseVolume),
-          quoteVolume: parseToFloat(pair.quoteVolume) - parseToFloat(volume24hAgo.quoteVolume),
+          baseVolume,
+          quoteVolume,
         });
       } catch (error) {
         return undefined;
