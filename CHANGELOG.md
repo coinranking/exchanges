@@ -1,3 +1,10 @@
+# [3.25.0](https://github.com/coinranking/exchanges/compare/v3.24.1...v3.25.0) (2020-09-17)
+
+
+### Features
+
+* send Uniswap markets even if it didn't exist for 24h ([025dc02](https://github.com/coinranking/exchanges/commit/025dc0221592956b23e6038f95f297f31788b8ff))
+
 ## [3.24.1](https://github.com/coinranking/exchanges/compare/v3.24.0...v3.24.1) (2020-09-16)
 
 
