@@ -154,6 +154,7 @@ exports.Exx = require('./exx');
 exports.Fatbtc = require('./fatbtc');
 exports.Fcexchange = require('./fcexchange');
 exports.Fcoin = require('./fcoin');
+exports.Fides = require('./fides');
 exports.Felixo = require('./felixo');
 exports.Finexbox = require('./finexbox');
 exports.Fivestar = require('./fivestar');
