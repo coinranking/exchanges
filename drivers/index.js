@@ -4,6 +4,7 @@ exports.Abit = require('./abit');
 exports.Acx = require('./acx');
 exports.Aex = require('./aex');
 exports.Aidosmarket = require('./aidosmarket');
+exports.Ajubit = require('./ajubit');
 exports.Allcoin = require('./allcoin');
 exports.Altcointrader = require('./altcointrader');
 exports.Altilly = require('./altilly');
