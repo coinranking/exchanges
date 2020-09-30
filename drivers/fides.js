@@ -27,8 +27,8 @@ class Fides extends Driver {
         close: parseToFloat(ticker.Last),
         bid: parseToFloat(ticker.HeighestBid),
         ask: parseToFloat(ticker.LowestAsk),
-        baseVolume: parseToFloat(ticker.BaseVolume),
-        quoteVolume: parseToFloat(ticker.QuoteVolume),
+        baseVolume: parseToFloat(ticker.QuoteVolume),
+        quoteVolume: parseToFloat(ticker.BaseVolume),
       });
     });
   }
