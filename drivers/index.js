@@ -130,6 +130,7 @@ exports.Currency = require('./currency');
 exports.Curve = require('./curve.js');
 exports.Dcoin = require('./dcoin');
 exports.Ddex = require('./ddex');
+exports.Dextrade = require('./dextrade');
 exports.Digifinex = require('./digifinex');
 exports.Dinarexchanger = require('./dinarexchanger');
 exports.Dobitrade = require('./dobitrade');
