@@ -270,6 +270,7 @@ exports.Tokenomica = require('./tokenomica');
 exports.Tokens = require('./tokens');
 exports.Tokenstore = require('./tokenstore');
 exports.Tokok = require('./tokok');
+exports.Tradeogre = require('./tradeogre');
 exports.Tradesatoshi = require('./tradesatoshi');
 exports.Turtlenetwork = require('./turtlenetwork');
 exports.Txbit = require('./txbit');
