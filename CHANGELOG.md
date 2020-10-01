@@ -1,3 +1,12 @@
+# [3.27.0](https://github.com/coinranking/exchanges/compare/v3.26.0...v3.27.0) (2020-10-01)
+
+
+### Features
+
+* dexzbits driver ([1cf4bb3](https://github.com/coinranking/exchanges/commit/1cf4bb34a57f3b333745b0bff33ae8a503b0d21a))
+* fides driver ([f2a8ed0](https://github.com/coinranking/exchanges/commit/f2a8ed0e1500381a0f248a379d6f3fae5c46166f))
+* reverse base and quote of fides driver ([87c1e05](https://github.com/coinranking/exchanges/commit/87c1e05276dede3af424ef93a1ca8f7497b32710))
+
 # [3.26.0](https://github.com/coinranking/exchanges/compare/v3.25.0...v3.26.0) (2020-10-01)
 
 
