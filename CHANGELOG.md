@@ -1,3 +1,11 @@
+# [3.26.0](https://github.com/coinranking/exchanges/compare/v3.25.0...v3.26.0) (2020-10-01)
+
+
+### Features
+
+* ajubit driver ([7c78791](https://github.com/coinranking/exchanges/commit/7c78791617733f907f38fd8251e5c5908d194dce))
+* support Coinlist pro ([bb18c50](https://github.com/coinranking/exchanges/commit/bb18c5056566662c6630a7d593c39254dd0377f0))
+
 # [3.25.0](https://github.com/coinranking/exchanges/compare/v3.24.1...v3.25.0) (2020-09-17)
 
 
