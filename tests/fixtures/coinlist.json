@@ -1,0 +1,188 @@
+[
+    {
+        "scope": "https://trade-api.coinlist.co:443",
+        "method": "GET",
+        "path": "/v1/symbols/summary",
+        "body": "",
+        "status": 200,
+        "response": {
+            "BTC-USD": {
+                "type": "spot",
+                "last_price": "10889.55000000",
+                "lowest_ask": "10891.96000000",
+                "highest_bid": "10887.14000000",
+                "last_trade": {
+                    "price": "10885.09000000",
+                    "volume": "0.0230",
+                    "imbalance": "-1.4480",
+                    "logicalTime": "2020-10-01T12:39:52.000Z",
+                    "auctionCode": "BTC-USD-2020-10-01T12:39:52.000Z"
+                },
+                "volume_base_24h": "21.0191",
+                "volume_quote_24h": "228771.4521",
+                "price_change_percent_24h": "101.45433202",
+                "highest_price_24h": "10921.05000000",
+                "lowest_price_24h": "10681.18000000"
+            },
+            "ETH-USD": {
+                "type": "spot",
+                "last_price": "368.10000000",
+                "lowest_ask": "368.25000000",
+                "highest_bid": "367.94000000",
+                "last_trade": {
+                    "price": "367.36000000",
+                    "volume": "0.6807",
+                    "imbalance": "19.1250",
+                    "logicalTime": "2020-10-01T09:25:24.000Z",
+                    "auctionCode": "ETH-USD-2020-10-01T09:25:24.000Z"
+                },
+                "volume_base_24h": "20.8583",
+                "volume_quote_24h": "7609.0481",
+                "price_change_percent_24h": "103.69890413",
+                "highest_price_24h": "370.31000000",
+                "lowest_price_24h": "354.45000000"
+            },
+            "ALGO-USD": {
+                "type": "spot",
+                "last_price": "0.36810000",
+                "lowest_ask": "0.36860000",
+                "highest_bid": "0.36750000",
+                "last_trade": {
+                    "price": "0.36550000",
+                    "volume": "24.3318",
+                    "imbalance": "-149.9543",
+                    "logicalTime": "2020-10-01T09:48:12.000Z",
+                    "auctionCode": "ALGO-USD-2020-10-01T09:48:12.000Z"
+                },
+                "volume_base_24h": "2657.9628",
+                "volume_quote_24h": "938.3260",
+                "price_change_percent_24h": "113.36618417",
+                "highest_price_24h": "0.37300000",
+                "lowest_price_24h": "0.32350000"
+            },
+            "OXT-USD": {
+                "type": "spot",
+                "last_price": "0.29330000",
+                "lowest_ask": "0.29380000",
+                "highest_bid": "0.29270000",
+                "last_trade": {
+                    "price": "0.29280000",
+                    "volume": "2549.4437",
+                    "imbalance": "-2450.5563",
+                    "logicalTime": "2020-10-01T12:20:40.000Z",
+                    "auctionCode": "OXT-USD-2020-10-01T12:20:40.000Z"
+                },
+                "volume_base_24h": "6032.3012",
+                "volume_quote_24h": "1758.4307",
+                "price_change_percent_24h": "103.85977337",
+                "highest_price_24h": "0.30260000",
+                "lowest_price_24h": "0.28130000"
+            },
+            "ETH-BTC": {
+                "type": "spot",
+                "last_price": "0.03379000",
+                "lowest_ask": "0.03381000",
+                "highest_bid": "0.03377000",
+                "last_trade": {
+                    "price": "0.03316000",
+                    "volume": "0.7001",
+                    "imbalance": "25.0993",
+                    "logicalTime": "2020-09-30T17:11:41.000Z",
+                    "auctionCode": "ETH-BTC-2020-09-30T17:11:41.000Z"
+                },
+                "volume_base_24h": "4.9007",
+                "volume_quote_24h": "0.1625",
+                "price_change_percent_24h": "102.14631197",
+                "highest_price_24h": "0.03387000",
+                "lowest_price_24h": "0.03307000"
+            },
+            "CELO-USD": {
+                "type": "spot",
+                "last_price": "2.33270000",
+                "lowest_ask": "2.33720000",
+                "highest_bid": "2.32820000",
+                "last_trade": {
+                    "price": "2.28500000",
+                    "volume": "100.0000",
+                    "imbalance": "-119.0165",
+                    "logicalTime": "2020-10-01T08:49:46.000Z",
+                    "auctionCode": "CELO-USD-2020-10-01T08:49:46.000Z"
+                },
+                "volume_base_24h": "614.3362",
+                "volume_quote_24h": "1426.9724",
+                "price_change_percent_24h": "97.22824275",
+                "highest_price_24h": "2.40840000",
+                "lowest_price_24h": "2.23160000"
+            },
+            "CELO-BTC": {
+                "type": "spot",
+                "last_price": "0.00021420",
+                "lowest_ask": "0.00021458",
+                "highest_bid": "0.00021381",
+                "last_trade": {
+                    "price": "0.00020967",
+                    "volume": "100.0000",
+                    "imbalance": "-119.2298",
+                    "logicalTime": "2020-10-01T08:49:55.000Z",
+                    "auctionCode": "CELO-BTC-2020-10-01T08:49:55.000Z"
+                },
+                "volume_base_24h": "712.3362",
+                "volume_quote_24h": "0.1531",
+                "price_change_percent_24h": "95.80463369",
+                "highest_price_24h": "0.00022439",
+                "lowest_price_24h": "0.00020686"
+            },
+            "WBTC-BTC": {
+                "type": "spot",
+                "last_price": "1.00000000",
+                "lowest_ask": "1.00000000",
+                "highest_bid": "1.00000000",
+                "last_trade": {
+                    "price": "1.00000000",
+                    "volume": "0.0339",
+                    "imbalance": "-14.9661",
+                    "logicalTime": "2020-09-27T22:07:06.000Z",
+                    "auctionCode": "WBTC-BTC-2020-09-27T22:07:06.000Z"
+                },
+                "volume_base_24h": "0.0000",
+                "volume_quote_24h": "0.0000",
+                "price_change_percent_24h": "100.00000000",
+                "highest_price_24h": "1.00000000",
+                "lowest_price_24h": "1.00000000"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 01 Oct 2020 12:49:50 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=dca756bbff018637dbc058ed0becbbe291601556589; expires=Sat, 31-Oct-20 12:49:49 GMT; path=/; domain=.coinlist.co; HttpOnly; SameSite=Lax; Secure",
+            "Vary",
+            "Origin",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "x-ratelimit-limit",
+            "1000",
+            "x-ratelimit-remaining",
+            "999",
+            "x-ratelimit-reset",
+            "1601556590",
+            "ETag",
+            "W/\"de1-qhQuZqmQH4C9kHU00l2TyjGdyas\"",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "0585cf45450000bd82e4028200000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
