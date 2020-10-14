@@ -13,7 +13,10 @@ class Sigenpro extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: { pairs: markets } } = await request('https://sigen.pro/v1/web-public/exchange/summary');
+    const { data: { pairs: markets1 } } = await request('https://sigen.pro/v1/web-public/exchange/summary');
+    const { data: { pairs: markets2 } } = await request('https://sigen.pro/v1/server-public/p2p/info/summary');
+
+    const markets = { ...markets1, ...markets2 };
 
     return Object.keys(markets).map((market) => {
       const [base, quote] = market.split('_');
@@ -25,8 +28,6 @@ class Sigenpro extends Driver {
         high: parseToFloat(ticker.high24hr),
         low: parseToFloat(ticker.low24hr),
         close: parseToFloat(ticker.last),
-        bid: parseToFloat(ticker.lowestAsk),
-        ask: parseToFloat(ticker.highestBid),
         baseVolume: parseToFloat(ticker.baseVolume),
         quoteVolume: parseToFloat(ticker.quoteVolume),
       });
