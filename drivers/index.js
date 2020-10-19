@@ -128,6 +128,7 @@ exports.Crypto = require('./crypto');
 exports.Cryptobridge = require('./cryptobridge');
 exports.Cryptohubexchange = require('./cryptohubexchange');
 exports.Cryptonex = require('./cryptonex');
+exports.Crypxie = require('./crypxie');
 exports.Currency = require('./currency');
 exports.Curve = require('./curve.js');
 exports.Dcoin = require('./dcoin');
