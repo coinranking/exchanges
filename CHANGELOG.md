@@ -1,3 +1,10 @@
+# [3.29.0](https://github.com/coinranking/exchanges/compare/v3.28.0...v3.29.0) (2020-10-19)
+
+
+### Features
+
+* add new source for sigen.pro and remove bid and ask values - not returning valid data ([2711ee3](https://github.com/coinranking/exchanges/commit/2711ee373539a072f01e6af5fc1ca136f6331fe4))
+
 # [3.28.0](https://github.com/coinranking/exchanges/compare/v3.27.0...v3.28.0) (2020-10-19)
 
 
