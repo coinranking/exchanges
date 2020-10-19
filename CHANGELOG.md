@@ -1,3 +1,11 @@
+# [3.28.0](https://github.com/coinranking/exchanges/compare/v3.27.0...v3.28.0) (2020-10-19)
+
+
+### Features
+
+* tradeogre driver ([56a73fa](https://github.com/coinranking/exchanges/commit/56a73fab64d19353ddb3419b8a80a3356eb032f0))
+* tradeogre fix baseVolume to quoteVolume ([4f6ae00](https://github.com/coinranking/exchanges/commit/4f6ae00e7c83c56692610fecf78749eda32c0e7c))
+
 # [3.27.0](https://github.com/coinranking/exchanges/compare/v3.26.0...v3.27.0) (2020-10-01)
 
 
