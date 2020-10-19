@@ -16,7 +16,7 @@ class Crypxie extends Driver {
     const { result: tickers } = await request('https://crypxie.com/api/v1/tickers');
 
     return tickers.map((ticker) => {
-      const [quote, base] = ticker.ticker_id.split('_');
+      const [quote, base] = ticker.ticker_id.split('_'); // reversed
 
       return new Ticker({
         base,
