@@ -1,3 +1,10 @@
+# [3.30.0](https://github.com/coinranking/exchanges/compare/v3.29.0...v3.30.0) (2020-10-26)
+
+
+### Features
+
+* crypxie driver ([b0c59d7](https://github.com/coinranking/exchanges/commit/b0c59d7253575a497a1d01400b283077dc96ac07))
+
 # [3.29.0](https://github.com/coinranking/exchanges/compare/v3.28.0...v3.29.0) (2020-10-19)
 
 
