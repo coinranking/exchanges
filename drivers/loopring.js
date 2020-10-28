@@ -23,10 +23,12 @@ class Loopring extends Driver {
     return tickers.map((ticker) => {
       const [base, quote] = ticker[0].split('-');
 
-      const { decimals } = details.find((item) => item.symbol === quote);
+      const { decimals, address, name } = details.find((item) => item.symbol === quote);
 
       return new Ticker({
         base,
+        baseName: name,
+        baseReference: address,
         quote,
         high: parseToFloat(ticker[5]),
         low: parseToFloat(ticker[6]),
@@ -34,7 +36,8 @@ class Loopring extends Driver {
         bid: parseToFloat(ticker[9]),
         ask: parseToFloat(ticker[10]),
         open: parseToFloat(ticker[4]),
-        baseVolume: parseToFloat(ticker[3] / 10 ** decimals), // reversed
+        baseVolume: parseToFloat(ticker[2] / 10 ** decimals),
+        quoteVolume: parseToFloat(ticker[3] / 10 ** decimals),
       });
     }); // 20 requests per second
   }
