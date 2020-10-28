@@ -200,6 +200,7 @@ exports.Kyber = require('./kyber');
 exports.Lakebtc = require('./lakebtc');
 exports.Latoken = require('./latoken');
 exports.Lbank = require('./lbank');
+exports.Lintax = require('./lintax');
 exports.Liquid = require('./liquid');
 exports.Litebit = require('./litebit');
 exports.Livecoin = require('./livecoin');
