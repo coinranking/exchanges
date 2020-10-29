@@ -29,8 +29,8 @@ class Justswap extends Driver {
         quoteName: ticker.quote_name,
         quoteReference: ticker.quote_id,
         close: parseToFloat(ticker.price),
-        baseVolume: parseToFloat(ticker.base_volume) / 10 ** 6,
-        quoteVolume: parseToFloat(ticker.quote_volume) / 10 ** 6,
+        baseVolume: parseToFloat(ticker.base_volume) / 10 ** parseToFloat(ticker.base_decimal),
+        quoteVolume: parseToFloat(ticker.quote_volume) / 10 ** parseToFloat(ticker.quote_decimal),
       }));
     });
   }
