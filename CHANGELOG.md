@@ -1,3 +1,16 @@
+# [3.31.0](https://github.com/coinranking/exchanges/compare/v3.30.0...v3.31.0) (2020-10-29)
+
+
+### Bug Fixes
+
+* loopring driver ([db4393f](https://github.com/coinranking/exchanges/commit/db4393ff41ebbff2458dcdc967ee1a957268e0d0))
+* loopring driver ([f1192c2](https://github.com/coinranking/exchanges/commit/f1192c25bcd9e1376916b6ea29a8c32de5ac27f8))
+
+
+### Features
+
+* loopring driver ([35ded87](https://github.com/coinranking/exchanges/commit/35ded870aacdfdb4095a5718803a2fb54fcfa1c6))
+
 # [3.30.0](https://github.com/coinranking/exchanges/compare/v3.29.0...v3.30.0) (2020-10-26)
 
 
