@@ -1,3 +1,17 @@
+# [3.32.0](https://github.com/coinranking/exchanges/compare/v3.31.0...v3.32.0) (2020-10-29)
+
+
+### Bug Fixes
+
+* use the base_decimal and quote_decimals to get the correct volumes ([61cb248](https://github.com/coinranking/exchanges/commit/61cb24845ecc2c6c43e7d8077ea0c1af0e06eada))
+
+
+### Features
+
+* justswap driver ([50aad0a](https://github.com/coinranking/exchanges/commit/50aad0af36dabd6b8670de2a96a4cc0a85a28c8b))
+* remove param from justswap driver ([a850d62](https://github.com/coinranking/exchanges/commit/a850d62e7e9085b57c6163c2cc255268ee7beeb9))
+* remove unused import ([d76b799](https://github.com/coinranking/exchanges/commit/d76b7992a45567376dc3e6c9eb37b79cc623f330))
+
 # [3.31.0](https://github.com/coinranking/exchanges/compare/v3.30.0...v3.31.0) (2020-10-29)
 
 
