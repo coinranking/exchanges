@@ -1,3 +1,10 @@
+# [3.33.0](https://github.com/coinranking/exchanges/compare/v3.32.0...v3.33.0) (2020-11-09)
+
+
+### Features
+
+* lintax driver ([abbacee](https://github.com/coinranking/exchanges/commit/abbaceedb753e0e59f614079dc3044ff2713e53f))
+
 # [3.32.0](https://github.com/coinranking/exchanges/compare/v3.31.0...v3.32.0) (2020-10-29)
 
 
