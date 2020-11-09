@@ -116,6 +116,7 @@ exports.Coinfloor = require('./coinfloor');
 exports.Coinhe = require('./coinhe');
 exports.Coinjar = require('./coinjar');
 exports.Coinlist = require('./coinlist');
+exports.Coinmargin = require('./coinmargin');
 exports.Coinmate = require('./coinmate');
 exports.Coinone = require('./coinone');
 exports.Coinsbit = require('./coinsbit');

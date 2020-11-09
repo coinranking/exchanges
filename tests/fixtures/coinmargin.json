@@ -1,0 +1,230 @@
+[
+    {
+        "scope": "https://coinmargin.com:443",
+        "method": "GET",
+        "path": "/api/trade/v1/market/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "eth-btc": {
+                "last": "0.02915600",
+                "high": "0.02948500",
+                "low": "0.02901700",
+                "volume": "340.44900000",
+                "bid": "0.02915600",
+                "ask": "0.02918200"
+            },
+            "mks-btc": {
+                "last": "0.00000000",
+                "high": "0.00000000",
+                "low": "0.00000000",
+                "volume": "0.00000000",
+                "bid": "0.00000000",
+                "ask": "0.00000000"
+            },
+            "dmd-btc": {
+                "last": "0.00000000",
+                "high": "0.00000000",
+                "low": "0.00000000",
+                "volume": "0.00000000",
+                "bid": "0.00000000",
+                "ask": "0.00000000"
+            },
+            "omg-btc": {
+                "last": "0.00020543",
+                "high": "0.00021084",
+                "low": "0.00020130",
+                "volume": "14107.39000000",
+                "bid": "0.00020548",
+                "ask": "0.00020600"
+            },
+            "xlm-btc": {
+                "last": "0.00000523",
+                "high": "0.00000533",
+                "low": "0.00000517",
+                "volume": "44797.00000000",
+                "bid": "0.00000523",
+                "ask": "0.00000525"
+            },
+            "dash-btc": {
+                "last": "0.00446000",
+                "high": "0.00449700",
+                "low": "0.00435700",
+                "volume": "314.20000000",
+                "bid": "0.00446000",
+                "ask": "0.00447000"
+            },
+            "ltc-btc": {
+                "last": "0.00386900",
+                "high": "0.00397900",
+                "low": "0.00385000",
+                "volume": "607.76100000",
+                "bid": "0.00386600",
+                "ask": "0.00386800"
+            },
+            "bat-btc": {
+                "last": "0.00002778",
+                "high": "0.00002778",
+                "low": "0.00002778",
+                "volume": "325.00000000",
+                "bid": "0.00002680",
+                "ask": "0.00002686"
+            },
+            "udoo-eth": {
+                "last": "0.00006108",
+                "high": "0.00007197",
+                "low": "0.00006108",
+                "volume": "971509.99000000",
+                "bid": "0.00006309",
+                "ask": "0.00006556"
+            },
+            "mks-eth": {
+                "last": "0.00000000",
+                "high": "0.00000000",
+                "low": "0.00000000",
+                "volume": "0.00000000",
+                "bid": "0.00000000",
+                "ask": "0.00000000"
+            },
+            "ltc-eth": {
+                "last": "0.13239000",
+                "high": "0.13526000",
+                "low": "0.13158000",
+                "volume": "189.30000000",
+                "bid": "0.13241000",
+                "ask": "0.13269000"
+            },
+            "xlm-eth": {
+                "last": "0.00017953",
+                "high": "0.00018218",
+                "low": "0.00017713",
+                "volume": "24875.60000000",
+                "bid": "0.00017939",
+                "ask": "0.00017980"
+            },
+            "dash-eth": {
+                "last": "0.15288000",
+                "high": "0.15297000",
+                "low": "0.14960000",
+                "volume": "119.03100000",
+                "bid": "0.15259000",
+                "ask": "0.15288000"
+            },
+            "eth-usdc": {
+                "last": "445.37500000",
+                "high": "458.38480000",
+                "low": "435.54650000",
+                "volume": "11496.09600000",
+                "bid": "445.37500000",
+                "ask": "445.87140000"
+            },
+            "btc-usdc": {
+                "last": "15274.15300000",
+                "high": "15805.35720000",
+                "low": "14857.05800000",
+                "volume": "333.49703900",
+                "bid": "15256.67730000",
+                "ask": "15274.15300000"
+            },
+            "omg-usdt": {
+                "last": "3.13740000",
+                "high": "3.24010000",
+                "low": "3.03090000",
+                "volume": "48670.72000000",
+                "bid": "3.13740000",
+                "ask": "3.14150000"
+            },
+            "dash-usdt": {
+                "last": "68.00590000",
+                "high": "68.95280000",
+                "low": "66.45420000",
+                "volume": "2437.74500000",
+                "bid": "68.02450000",
+                "ask": "68.08980000"
+            },
+            "bat-usdt": {
+                "last": "0.29980000",
+                "high": "0.32050000",
+                "low": "0.29980000",
+                "volume": "262207.00000000",
+                "bid": "0.29950000",
+                "ask": "0.30010000"
+            },
+            "ltc-usdt": {
+                "last": "59.00140000",
+                "high": "61.71370000",
+                "low": "57.52030000",
+                "volume": "4540.02200000",
+                "bid": "59.01340000",
+                "ask": "59.10540000"
+            },
+            "xlm-usdt": {
+                "last": "0.07980000",
+                "high": "0.08240000",
+                "low": "0.07810000",
+                "volume": "279839.00000000",
+                "bid": "0.07980000",
+                "ask": "0.08000000"
+            },
+            "eth-usdt": {
+                "last": "444.70260000",
+                "high": "458.29480000",
+                "low": "435.28570000",
+                "volume": "17739.79800000",
+                "bid": "444.64680000",
+                "ask": "445.58380000"
+            },
+            "btc-usdt": {
+                "last": "15245.36700000",
+                "high": "15802.02210000",
+                "low": "14838.94120000",
+                "volume": "562.28969100",
+                "bid": "15245.77580000",
+                "ask": "15276.47260000"
+            },
+            "mks-usdt": {
+                "last": "0.00000000",
+                "high": "0.00000000",
+                "low": "0.00000000",
+                "volume": "0.00000000",
+                "bid": "0.00000000",
+                "ask": "0.00000000"
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Mon, 09 Nov 2020 18:52:49 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=da2e79d6980ad4d086c8ae23c57df3d551604947968; expires=Wed, 09-Dec-20 18:52:48 GMT; path=/; domain=.coinmargin.com; HttpOnly; SameSite=Lax; Secure",
+            "Allow",
+            "GET",
+            "Cache-Control",
+            "no-cache",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubdomains;",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Powered-By",
+            "PHP/7.2.34",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "064ff39b920000fc71bd218000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=tf8ym1aaKJ4dKjIHmKJEQ9Bq84IINvkJlGw3%2BoNnwG%2FBQF9hPdOm6Hpn%2BTIh7ny83c2F69xBdH7n126ouLx5S9EjKkn2dMn3fed8f3GUMg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
