@@ -1,3 +1,10 @@
+## [3.33.1](https://github.com/coinranking/exchanges/compare/v3.33.0...v3.33.1) (2020-11-10)
+
+
+### Bug Fixes
+
+* fix eslint ([9c832af](https://github.com/coinranking/exchanges/commit/9c832af2d4a514472e00e7129b01ac9ccca6f4d5))
+
 # [3.33.0](https://github.com/coinranking/exchanges/compare/v3.32.0...v3.33.0) (2020-11-09)
 
 
