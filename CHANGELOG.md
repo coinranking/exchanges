@@ -1,3 +1,16 @@
+# [3.34.0](https://github.com/coinranking/exchanges/compare/v3.33.1...v3.34.0) (2020-11-13)
+
+
+### Bug Fixes
+
+* dextrade driver ([e53d199](https://github.com/coinranking/exchanges/commit/e53d19950dbd1250540e627ef9ae779ca5e07d8a))
+* dextrade fix base volume ([6e222ef](https://github.com/coinranking/exchanges/commit/6e222ef50c14650d9686c867103d3f1ba4b87247))
+
+
+### Features
+
+* dex-trade driver ([b7d8e73](https://github.com/coinranking/exchanges/commit/b7d8e73aae16b3469cacc982f25fd0877070a9c4))
+
 ## [3.33.1](https://github.com/coinranking/exchanges/compare/v3.33.0...v3.33.1) (2020-11-10)
 
 
