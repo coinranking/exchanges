@@ -1,3 +1,83 @@
+## [3.33.1](https://github.com/coinranking/exchanges/compare/v3.33.0...v3.33.1) (2020-11-10)
+
+
+### Bug Fixes
+
+* fix eslint ([9c832af](https://github.com/coinranking/exchanges/commit/9c832af2d4a514472e00e7129b01ac9ccca6f4d5))
+
+# [3.33.0](https://github.com/coinranking/exchanges/compare/v3.32.0...v3.33.0) (2020-11-09)
+
+
+### Features
+
+* lintax driver ([abbacee](https://github.com/coinranking/exchanges/commit/abbaceedb753e0e59f614079dc3044ff2713e53f))
+
+# [3.32.0](https://github.com/coinranking/exchanges/compare/v3.31.0...v3.32.0) (2020-10-29)
+
+
+### Bug Fixes
+
+* use the base_decimal and quote_decimals to get the correct volumes ([61cb248](https://github.com/coinranking/exchanges/commit/61cb24845ecc2c6c43e7d8077ea0c1af0e06eada))
+
+
+### Features
+
+* justswap driver ([50aad0a](https://github.com/coinranking/exchanges/commit/50aad0af36dabd6b8670de2a96a4cc0a85a28c8b))
+* remove param from justswap driver ([a850d62](https://github.com/coinranking/exchanges/commit/a850d62e7e9085b57c6163c2cc255268ee7beeb9))
+* remove unused import ([d76b799](https://github.com/coinranking/exchanges/commit/d76b7992a45567376dc3e6c9eb37b79cc623f330))
+
+# [3.31.0](https://github.com/coinranking/exchanges/compare/v3.30.0...v3.31.0) (2020-10-29)
+
+
+### Bug Fixes
+
+* loopring driver ([db4393f](https://github.com/coinranking/exchanges/commit/db4393ff41ebbff2458dcdc967ee1a957268e0d0))
+* loopring driver ([f1192c2](https://github.com/coinranking/exchanges/commit/f1192c25bcd9e1376916b6ea29a8c32de5ac27f8))
+
+
+### Features
+
+* loopring driver ([35ded87](https://github.com/coinranking/exchanges/commit/35ded870aacdfdb4095a5718803a2fb54fcfa1c6))
+
+# [3.30.0](https://github.com/coinranking/exchanges/compare/v3.29.0...v3.30.0) (2020-10-26)
+
+
+### Features
+
+* crypxie driver ([b0c59d7](https://github.com/coinranking/exchanges/commit/b0c59d7253575a497a1d01400b283077dc96ac07))
+
+# [3.29.0](https://github.com/coinranking/exchanges/compare/v3.28.0...v3.29.0) (2020-10-19)
+
+
+### Features
+
+* add new source for sigen.pro and remove bid and ask values - not returning valid data ([2711ee3](https://github.com/coinranking/exchanges/commit/2711ee373539a072f01e6af5fc1ca136f6331fe4))
+
+# [3.28.0](https://github.com/coinranking/exchanges/compare/v3.27.0...v3.28.0) (2020-10-19)
+
+
+### Features
+
+* tradeogre driver ([56a73fa](https://github.com/coinranking/exchanges/commit/56a73fab64d19353ddb3419b8a80a3356eb032f0))
+* tradeogre fix baseVolume to quoteVolume ([4f6ae00](https://github.com/coinranking/exchanges/commit/4f6ae00e7c83c56692610fecf78749eda32c0e7c))
+
+# [3.27.0](https://github.com/coinranking/exchanges/compare/v3.26.0...v3.27.0) (2020-10-01)
+
+
+### Features
+
+* dexzbits driver ([1cf4bb3](https://github.com/coinranking/exchanges/commit/1cf4bb34a57f3b333745b0bff33ae8a503b0d21a))
+* fides driver ([f2a8ed0](https://github.com/coinranking/exchanges/commit/f2a8ed0e1500381a0f248a379d6f3fae5c46166f))
+* reverse base and quote of fides driver ([87c1e05](https://github.com/coinranking/exchanges/commit/87c1e05276dede3af424ef93a1ca8f7497b32710))
+
+# [3.26.0](https://github.com/coinranking/exchanges/compare/v3.25.0...v3.26.0) (2020-10-01)
+
+
+### Features
+
+* ajubit driver ([7c78791](https://github.com/coinranking/exchanges/commit/7c78791617733f907f38fd8251e5c5908d194dce))
+* support Coinlist pro ([bb18c50](https://github.com/coinranking/exchanges/commit/bb18c5056566662c6630a7d593c39254dd0377f0))
+
 # [3.25.0](https://github.com/coinranking/exchanges/compare/v3.24.1...v3.25.0) (2020-09-17)
 
 

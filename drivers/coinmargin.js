@@ -7,32 +7,30 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Sigenpro extends Driver {
+class Coinmargin extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: { pairs: markets1 } } = await request('https://sigen.pro/v1/web-public/exchange/summary');
-    const { data: { pairs: markets2 } } = await request('https://sigen.pro/v1/server-public/p2p/info/summary');
-
-    const markets = { ...markets1, ...markets2 };
+    const markets = await request('https://coinmargin.com/api/trade/v1/market/ticker');
 
     return Object.keys(markets).map((market) => {
-      const [base, quote] = market.split('_');
       const ticker = markets[market];
+      const [base, quote] = market.split('-');
 
       return new Ticker({
         base,
         quote,
-        high: parseToFloat(ticker.high24hr),
-        low: parseToFloat(ticker.low24hr),
+        high: parseToFloat(ticker.high),
+        low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.last),
-        baseVolume: parseToFloat(ticker.baseVolume),
-        quoteVolume: parseToFloat(ticker.quoteVolume),
+        bid: parseToFloat(ticker.bid),
+        ask: parseToFloat(ticker.ask),
+        baseVolume: parseToFloat(ticker.volume),
       });
     });
   }
 }
 
-module.exports = Sigenpro;
+module.exports = Coinmargin;
