@@ -38,7 +38,7 @@ class Dextrade extends Driver {
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.last),
         open: parseToFloat(ticker.open),
-        quoteVolume: parseToFloat(ticker.volume_24H), // reversed with base
+        baseVolume: parseToFloat(ticker.volume_24H),
       });
     });
   }

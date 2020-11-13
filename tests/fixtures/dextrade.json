@@ -219,24 +219,6 @@
                     "quote": "ETH"
                 },
                 {
-                    "id": 1581,
-                    "pair": "ESAXBTC",
-                    "base": "ESAX",
-                    "quote": "BTC"
-                },
-                {
-                    "id": 1591,
-                    "pair": "ESAXETH",
-                    "base": "ESAX",
-                    "quote": "ETH"
-                },
-                {
-                    "id": 1601,
-                    "pair": "ESAXUSDT",
-                    "base": "ESAX",
-                    "quote": "USDT"
-                },
-                {
                     "id": 1611,
                     "pair": "POWRBTC",
                     "base": "POWR",
@@ -469,24 +451,6 @@
                     "pair": "ZECETH",
                     "base": "ZEC",
                     "quote": "ETH"
-                },
-                {
-                    "id": 2261,
-                    "pair": "RDDBTC",
-                    "base": "RDD",
-                    "quote": "BTC"
-                },
-                {
-                    "id": 2271,
-                    "pair": "RDDETH",
-                    "base": "RDD",
-                    "quote": "ETH"
-                },
-                {
-                    "id": 2281,
-                    "pair": "RDDUSDT",
-                    "base": "RDD",
-                    "quote": "USDT"
                 },
                 {
                     "id": 2311,
@@ -853,12 +817,18 @@
                     "pair": "SUSHIUSDT",
                     "base": "SUSHI",
                     "quote": "USDT"
+                },
+                {
+                    "id": 5244,
+                    "pair": "GETBTC",
+                    "base": "GET",
+                    "quote": "BTC"
                 }
             ]
         },
         "rawHeaders": [
             "Date",
-            "Wed, 28 Oct 2020 19:38:14 GMT",
+            "Fri, 13 Nov 2020 11:28:06 GMT",
             "Content-Type",
             "application/json; charset=UTF-8",
             "Transfer-Encoding",
@@ -866,9 +836,9 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=d269560425ac9cbeb218f4b7147bd03381603913894; expires=Fri, 27-Nov-20 19:38:14 GMT; path=/; domain=.dex-trade.com; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d3bc6ff597bde9f32a4cb2502baecab381605266886; expires=Sun, 13-Dec-20 11:28:06 GMT; path=/; domain=.dex-trade.com; HttpOnly; SameSite=Lax; Secure",
             "Set-Cookie",
-            "PHPSESSID=58d71hrm8gn1fk7hc8fqvk8avo; expires=Wed, 28-Oct-2020 20:38:14 GMT; Max-Age=3600; path=/; HttpOnly",
+            "PHPSESSID=iv2jovio0b3n98fe0m79rr4u4i; expires=Fri, 13-Nov-2020 12:28:06 GMT; Max-Age=3600; path=/; HttpOnly",
             "Expires",
             "Thu, 19 Nov 1981 08:52:00 GMT",
             "Cache-Control",
@@ -878,11 +848,11 @@
             "CF-Cache-Status",
             "DYNAMIC",
             "cf-request-id",
-            "061250e2e50000910f1a858000000001",
+            "0662f5e6210000912753009000000001",
             "Expect-CT",
             "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
             "Report-To",
-            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=tIyS1F4xBhA6JDEG58UTnnGGjr%2BEDkgkNYv0UoTNJH8iy2NkKv%2B7HO%2Fl6jqRSIzo7H9ARs5JLVL3agyDqNyGz4GcY6JNseooL0mUdzGhOG7enQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=OGM5xAn9Txn7oA%2BBIF%2BIn7gnY%2BffZhYxfPTpnqpxJrOhrmAYW9dLpkRFINI0cGo7CFXrAAWLSmUteGUz9T97YhZZjvpR6Bt%2BkFAMXEEg0QlS7A%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
             "NEL",
             "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
             "Server",
@@ -912,72 +882,62 @@
                 {
                     "id": 1041,
                     "pair": "BTCUSDT",
-                    "last": "13204.28",
+                    "last": "16135.95",
                     "open": 0,
                     "close": 0,
-                    "high": "13856.17",
-                    "low": "12895.27",
-                    "volume_24H": "16.871599"
+                    "high": "16471",
+                    "low": "15714.02",
+                    "volume_24H": "16.100968"
                 },
                 {
                     "id": 1051,
                     "pair": "ETHUSDT",
-                    "last": "384.84",
+                    "last": "462.6",
                     "open": 0,
                     "close": 0,
-                    "high": "409.18",
-                    "low": "380.73",
-                    "volume_24H": "279.26591"
+                    "high": "468.68",
+                    "low": "452.21",
+                    "volume_24H": "301.28454"
                 },
                 {
                     "id": 1061,
                     "pair": "LTCUSDT",
-                    "last": "55.66",
+                    "last": "63.3",
                     "open": 0,
                     "close": 0,
-                    "high": "60.53",
-                    "low": "54.95",
-                    "volume_24H": "299.3145"
+                    "high": "64.5",
+                    "low": "58.04",
+                    "volume_24H": "330.45381832"
                 },
                 {
                     "id": 1071,
                     "pair": "ZECUSDT",
-                    "last": "57.58",
+                    "last": "62.97",
                     "open": 0,
                     "close": 0,
-                    "high": "61.59",
-                    "low": "57.29",
-                    "volume_24H": "60.68302"
+                    "high": "63.69",
+                    "low": "60.67",
+                    "volume_24H": "76.90797"
                 },
                 {
                     "id": 1081,
                     "pair": "DASHUSDT",
-                    "last": "67.97",
+                    "last": "77.01",
                     "open": 0,
                     "close": 0,
-                    "high": "71.11",
-                    "low": "66.9",
-                    "volume_24H": "31.7138"
+                    "high": "79.79",
+                    "low": "73.74",
+                    "volume_24H": "79.2571"
                 },
                 {
                     "id": 1091,
                     "pair": "XRPUSDT",
-                    "last": "0.24506",
+                    "last": "0.25694",
                     "open": 0,
                     "close": 0,
-                    "high": "0.25653",
-                    "low": "0.24446",
-                    "volume_24H": "47202.7"
-                },
-                {
-                    "id": 1101,
-                    "pair": "DOGEUSDT",
-                    "last": "0.0026623",
-                    "open": 0,
-                    "close": 0,
-                    "high": "0.0026666",
-                    "low": "0.0026361",
-                    "volume_24H": "10258"
+                    "high": "0.26061",
+                    "low": "0.25248",
+                    "volume_24H": "46673.8"
                 },
                 {
                     "id": 111,
@@ -992,82 +952,72 @@
                 {
                     "id": 1111,
                     "pair": "NEOUSDT",
-                    "last": "16.018",
+                    "last": "15.673",
                     "open": 0,
                     "close": 0,
-                    "high": "17.13",
-                    "low": "15.785",
-                    "volume_24H": "138.36"
+                    "high": "15.893",
+                    "low": "15.326",
+                    "volume_24H": "101.861"
                 },
                 {
                     "id": 1131,
                     "pair": "OMGUSDT",
-                    "last": "3.0546",
+                    "last": "3.4955",
                     "open": 0,
                     "close": 0,
-                    "high": "3.2541",
-                    "low": "3.0372",
-                    "volume_24H": "1363.92"
+                    "high": "3.655",
+                    "low": "3.4208",
+                    "volume_24H": "991.99"
                 },
                 {
                     "id": 1141,
                     "pair": "QTUMUSDT",
-                    "last": "2.076",
+                    "last": "2.035",
                     "open": 0,
                     "close": 0,
-                    "high": "2.218",
-                    "low": "2.051",
-                    "volume_24H": "1615.593"
+                    "high": "2.073",
+                    "low": "2.012",
+                    "volume_24H": "529.586"
                 },
                 {
                     "id": 1151,
                     "pair": "BATUSDT",
-                    "last": "0.1954",
+                    "last": "0.1996",
                     "open": 0,
                     "close": 0,
-                    "high": "0.2161",
-                    "low": "0.1943",
-                    "volume_24H": "6415.83"
+                    "high": "0.2024",
+                    "low": "0.1935",
+                    "volume_24H": "2903.99"
                 },
                 {
                     "id": 1161,
                     "pair": "ZRXUSDT",
-                    "last": "0.3344",
+                    "last": "0.3679",
                     "open": 0,
                     "close": 0,
-                    "high": "0.3651",
-                    "low": "0.3342",
-                    "volume_24H": "5546.94"
+                    "high": "0.3745",
+                    "low": "0.358",
+                    "volume_24H": "977.33"
                 },
                 {
                     "id": 1171,
                     "pair": "ZILUSDT",
-                    "last": "0.0176",
+                    "last": "0.02",
                     "open": 0,
                     "close": 0,
-                    "high": "0.01876",
-                    "low": "0.0176",
-                    "volume_24H": "33061.1"
-                },
-                {
-                    "id": 1181,
-                    "pair": "NPXSUSDT",
-                    "last": "0.01999999",
-                    "open": 0,
-                    "close": 0,
-                    "high": "0.01999999",
-                    "low": "0.01999999",
-                    "volume_24H": 0
+                    "high": "0.02019",
+                    "low": "0.01903",
+                    "volume_24H": "13703.7"
                 },
                 {
                     "id": 1191,
                     "pair": "LINKUSDT",
-                    "last": "11.5179",
+                    "last": "12.7454",
                     "open": 0,
                     "close": 0,
-                    "high": "12.2667",
-                    "low": "11.1555",
-                    "volume_24H": "4622.83"
+                    "high": "12.9447",
+                    "low": "12.2782",
+                    "volume_24H": "5775.82"
                 },
                 {
                     "id": 1201,
@@ -1082,12 +1032,12 @@
                 {
                     "id": 1211,
                     "pair": "DENTUSDT",
-                    "last": "0.0001932",
+                    "last": "0.0001835",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0002069",
-                    "low": "0.0001931",
-                    "volume_24H": "92530"
+                    "high": "0.0001835",
+                    "low": "0.0001835",
+                    "volume_24H": 0
                 },
                 {
                     "id": 1261,
@@ -1102,12 +1052,12 @@
                 {
                     "id": 1271,
                     "pair": "HOTUSDT",
-                    "last": "0.0004656",
+                    "last": "0.000475",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0005022",
-                    "low": "0.0004602",
-                    "volume_24H": "176263"
+                    "high": "0.0004761",
+                    "low": "0.0004668",
+                    "volume_24H": "203352"
                 },
                 {
                     "id": 1291,
@@ -1130,16 +1080,6 @@
                     "volume_24H": 0
                 },
                 {
-                    "id": 1331,
-                    "pair": "AGIUSDT",
-                    "last": "0.0001",
-                    "open": 0,
-                    "close": 0,
-                    "high": "0.0001",
-                    "low": "0.0001",
-                    "volume_24H": 0
-                },
-                {
                     "id": 1341,
                     "pair": "SNTUSDT",
                     "last": "0.037961",
@@ -1152,82 +1092,82 @@
                 {
                     "id": 1461,
                     "pair": "NEOBTC",
-                    "last": "0.001214",
+                    "last": "0.000974",
                     "open": 0,
                     "close": 0,
-                    "high": "0.001256",
-                    "low": "0.001201",
-                    "volume_24H": "64.37"
+                    "high": "0.000992",
+                    "low": "0.000937",
+                    "volume_24H": "42.82"
                 },
                 {
                     "id": 1471,
                     "pair": "ZECBTC",
-                    "last": "0.004364",
+                    "last": "0.003909",
                     "open": 0,
                     "close": 0,
-                    "high": "0.004533",
-                    "low": "0.004347",
-                    "volume_24H": "17.89"
+                    "high": "0.003912",
+                    "low": "0.003787",
+                    "volume_24H": "21.25"
                 },
                 {
                     "id": 1481,
                     "pair": "DASHBTC",
-                    "last": "0.005154",
+                    "last": "0.004774",
                     "open": 0,
                     "close": 0,
-                    "high": "0.005203",
-                    "low": "0.005042",
-                    "volume_24H": "7.8"
+                    "high": "0.004964",
+                    "low": "0.004662",
+                    "volume_24H": "33.95"
                 },
                 {
                     "id": 1491,
                     "pair": "ETHBTC",
-                    "last": "0.029134",
+                    "last": "0.028649",
                     "open": 0,
                     "close": 0,
-                    "high": "0.029803",
-                    "low": "0.028806",
-                    "volume_24H": "18.034"
+                    "high": "0.029219",
+                    "low": "0.028176",
+                    "volume_24H": "22.98"
                 },
                 {
                     "id": 1501,
                     "pair": "LTCBTC",
-                    "last": "0.00421",
+                    "last": "0.003917",
                     "open": 0,
                     "close": 0,
-                    "high": "0.004403",
-                    "low": "0.004196",
-                    "volume_24H": "38.66"
+                    "high": "0.003966",
+                    "low": "0.003632",
+                    "volume_24H": "58.7702"
                 },
                 {
                     "id": 1511,
                     "pair": "XRPBTC",
-                    "last": "0.00001855",
+                    "last": "0.00001591",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00001901",
-                    "low": "0.00001819",
-                    "volume_24H": "13903"
+                    "high": "0.0000162",
+                    "low": "0.00001556",
+                    "volume_24H": "13428"
                 },
                 {
                     "id": 1521,
                     "pair": "LINKBTC",
-                    "last": "0.00087446",
+                    "last": "0.00079002",
                     "open": 0,
                     "close": 0,
-                    "high": "0.000898",
-                    "low": "0.00084957",
-                    "volume_24H": "90"
+                    "high": "0.00080565",
+                    "low": "0.00076052",
+                    "volume_24H": "99"
                 },
                 {
                     "id": 1531,
                     "pair": "LTCETH",
-                    "last": "0.144533",
+                    "last": "0.136525",
                     "open": 0,
                     "close": 0,
-                    "high": "0.148658",
-                    "low": "0.14215",
-                    "volume_24H": "27.82"
+                    "high": "0.137664",
+                    "low": "0.126454",
+                    "volume_24H": "59.72"
                 },
                 {
                     "id": 1581,
@@ -1262,52 +1202,32 @@
                 {
                     "id": 1611,
                     "pair": "POWRBTC",
-                    "last": "0.00000592",
+                    "last": "0.00000546",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00000607",
-                    "low": "0.00000587",
-                    "volume_24H": "535"
+                    "high": "0.00000555",
+                    "low": "0.00000525",
+                    "volume_24H": "1464"
                 },
                 {
                     "id": 1621,
                     "pair": "POWRETH",
-                    "last": "0.00020544",
+                    "last": "0.00018989",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00020663",
-                    "low": "0.00020092",
-                    "volume_24H": "1039"
-                },
-                {
-                    "id": 1741,
-                    "pair": "SNTBTC",
-                    "last": "0.00000175",
-                    "open": 0,
-                    "close": 0,
-                    "high": "0.00000177",
-                    "low": "0.00000167",
-                    "volume_24H": "3272"
-                },
-                {
-                    "id": 1751,
-                    "pair": "SNTETH",
-                    "last": "0.00005909",
-                    "open": 0,
-                    "close": 0,
-                    "high": "0.00005993",
-                    "low": "0.0000572",
-                    "volume_24H": "340"
+                    "high": "0.0001948",
+                    "low": "0.00018345",
+                    "volume_24H": "2423"
                 },
                 {
                     "id": 1761,
                     "pair": "AGIBTC",
-                    "last": "0.00000288",
+                    "last": "0.00000334",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00000311",
-                    "low": "0.00000271",
-                    "volume_24H": "5479"
+                    "high": "0.00000344",
+                    "low": "0.00000311",
+                    "volume_24H": "5267"
                 },
                 {
                     "id": 1771,
@@ -1322,12 +1242,12 @@
                 {
                     "id": 1781,
                     "pair": "PPTBTC",
-                    "last": "0.00001436",
+                    "last": "0.00001478",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0000148",
-                    "low": "0.00001365",
-                    "volume_24H": "972"
+                    "high": "0.00001521",
+                    "low": "0.00001373",
+                    "volume_24H": "1045"
                 },
                 {
                     "id": 1791,
@@ -1342,52 +1262,52 @@
                 {
                     "id": 1801,
                     "pair": "POLYBTC",
-                    "last": "0.00000322",
+                    "last": "0.00000366",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00000348",
-                    "low": "0.00000318",
-                    "volume_24H": "1708"
+                    "high": "0.00000383",
+                    "low": "0.00000341",
+                    "volume_24H": "7208"
                 },
                 {
                     "id": 1811,
                     "pair": "LRCBTC",
-                    "last": "0.00001095",
+                    "last": "0.00001144",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00001159",
-                    "low": "0.00001089",
-                    "volume_24H": "1065"
+                    "high": "0.00001188",
+                    "low": "0.00001074",
+                    "volume_24H": "1250"
                 },
                 {
                     "id": 1821,
                     "pair": "LRCETH",
-                    "last": "0.00037534",
+                    "last": "0.00039634",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00039246",
-                    "low": "0.00037056",
-                    "volume_24H": "480"
+                    "high": "0.00040809",
+                    "low": "0.0003781",
+                    "volume_24H": "418"
                 },
                 {
                     "id": 1831,
                     "pair": "LOOMBTC",
-                    "last": "0.0000014",
+                    "last": "0.00000179",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00000146",
-                    "low": "0.00000136",
-                    "volume_24H": "1889"
+                    "high": "0.00000192",
+                    "low": "0.00000155",
+                    "volume_24H": "33874"
                 },
                 {
                     "id": 1841,
                     "pair": "LOOMETH",
-                    "last": "0.00004711",
+                    "last": "0.00006386",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00004912",
-                    "low": "0.00004706",
-                    "volume_24H": "11414"
+                    "high": "0.00006706",
+                    "low": "0.00005507",
+                    "volume_24H": "12066"
                 },
                 {
                     "id": 1851,
@@ -1412,42 +1332,42 @@
                 {
                     "id": 1871,
                     "pair": "GNTBTC",
-                    "last": "0.00000642",
+                    "last": "0.00000638",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00000669",
-                    "low": "0.00000634",
-                    "volume_24H": "31753"
+                    "high": "0.00000644",
+                    "low": "0.00000598",
+                    "volume_24H": "25493"
                 },
                 {
                     "id": 1881,
                     "pair": "GNTETH",
-                    "last": "0.00022107",
+                    "last": "0.00022115",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00022479",
-                    "low": "0.00021661",
-                    "volume_24H": "9238"
+                    "high": "0.000225",
+                    "low": "0.00021064",
+                    "volume_24H": "7465"
                 },
                 {
                     "id": 1891,
                     "pair": "VGXBTC",
-                    "last": "0.0000113",
+                    "last": "0.00000906",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00001214",
-                    "low": "0.00001124",
-                    "volume_24H": "1475"
+                    "high": "0.00000919",
+                    "low": "0.00000857",
+                    "volume_24H": "930"
                 },
                 {
                     "id": 1901,
                     "pair": "VGXETH",
-                    "last": "0.00038711",
+                    "last": "0.00031912",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00041162",
-                    "low": "0.00038069",
-                    "volume_24H": "614"
+                    "high": "0.00032012",
+                    "low": "0.00030229",
+                    "volume_24H": "593"
                 },
                 {
                     "id": 1971,
@@ -1472,32 +1392,32 @@
                 {
                     "id": 1991,
                     "pair": "MANABTC",
-                    "last": "0.00000493",
+                    "last": "0.00000521",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00000527",
-                    "low": "0.00000493",
-                    "volume_24H": "4045"
+                    "high": "0.00000533",
+                    "low": "0.0000048",
+                    "volume_24H": "12308"
                 },
                 {
                     "id": 2001,
                     "pair": "MANAETH",
-                    "last": "0.00017039",
+                    "last": "0.00018212",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00018094",
-                    "low": "0.00016957",
-                    "volume_24H": "1006"
+                    "high": "0.00018783",
+                    "low": "0.0001695",
+                    "volume_24H": "4328"
                 },
                 {
                     "id": 2031,
                     "pair": "LINKETH",
-                    "last": "0.0299",
+                    "last": "0.027511",
                     "open": 0,
                     "close": 0,
-                    "high": "0.030134",
-                    "low": "0.029146",
-                    "volume_24H": "111.27"
+                    "high": "0.027698",
+                    "low": "0.026675",
+                    "volume_24H": "75.41"
                 },
                 {
                     "id": 2041,
@@ -1510,54 +1430,44 @@
                     "volume_24H": 0
                 },
                 {
-                    "id": 2051,
-                    "pair": "NPXSETH",
-                    "last": "0.0000005",
-                    "open": 0,
-                    "close": 0,
-                    "high": "0.0000005",
-                    "low": "0.0000005",
-                    "volume_24H": 0
-                },
-                {
                     "id": 2061,
                     "pair": "ZILBTC",
-                    "last": "0.00000135",
+                    "last": "0.00000122",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0000014",
-                    "low": "0.00000129",
-                    "volume_24H": "26474"
+                    "high": "0.00000128",
+                    "low": "0.00000116",
+                    "volume_24H": "19654"
                 },
                 {
                     "id": 2071,
                     "pair": "ZILETH",
-                    "last": "0.00004562",
+                    "last": "0.0000431",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00004757",
-                    "low": "0.00004496",
-                    "volume_24H": "9113"
+                    "high": "0.00004345",
+                    "low": "0.00004119",
+                    "volume_24H": "5487"
                 },
                 {
                     "id": 2081,
                     "pair": "ZRXBTC",
-                    "last": "0.00002534",
+                    "last": "0.00002285",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00002671",
-                    "low": "0.00002528",
-                    "volume_24H": "744"
+                    "high": "0.00002347",
+                    "low": "0.0000219",
+                    "volume_24H": "589"
                 },
                 {
                     "id": 2091,
                     "pair": "ZRXETH",
-                    "last": "0.00086646",
+                    "last": "0.00079291",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00090286",
-                    "low": "0.00086494",
-                    "volume_24H": "2326"
+                    "high": "0.00080582",
+                    "low": "0.00077534",
+                    "volume_24H": "2471"
                 },
                 {
                     "id": 21,
@@ -1572,22 +1482,22 @@
                 {
                     "id": 2131,
                     "pair": "BATBTC",
-                    "last": "0.00001479",
+                    "last": "0.0000124",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00001585",
-                    "low": "0.00001475",
-                    "volume_24H": "3833"
+                    "high": "0.00001279",
+                    "low": "0.00001191",
+                    "volume_24H": "1640"
                 },
                 {
                     "id": 2141,
                     "pair": "BATETH",
-                    "last": "0.00051062",
+                    "last": "0.00043058",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00053471",
-                    "low": "0.00050817",
-                    "volume_24H": "637"
+                    "high": "0.00043801",
+                    "low": "0.00042106",
+                    "volume_24H": "639"
                 },
                 {
                     "id": 2151,
@@ -1622,22 +1532,22 @@
                 {
                     "id": 2191,
                     "pair": "QTUMBTC",
-                    "last": "0.0001571",
+                    "last": "0.0001264",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0001614",
-                    "low": "0.0001539",
-                    "volume_24H": "281.86"
+                    "high": "0.0001313",
+                    "low": "0.0001233",
+                    "volume_24H": "248.56"
                 },
                 {
                     "id": 2201,
                     "pair": "QTUMETH",
-                    "last": "0.005392",
+                    "last": "0.00442",
                     "open": 0,
                     "close": 0,
-                    "high": "0.005465",
-                    "low": "0.005326",
-                    "volume_24H": "59.98"
+                    "high": "0.004496",
+                    "low": "0.004357",
+                    "volume_24H": "68.88"
                 },
                 {
                     "id": 221,
@@ -1652,52 +1562,52 @@
                 {
                     "id": 2211,
                     "pair": "OMGBTC",
-                    "last": "0.0002312",
+                    "last": "0.0002167",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0002393",
-                    "low": "0.0002285",
-                    "volume_24H": "136.8"
+                    "high": "0.00023",
+                    "low": "0.000211",
+                    "volume_24H": "344"
                 },
                 {
                     "id": 2221,
                     "pair": "OMGETH",
-                    "last": "0.007924",
+                    "last": "0.007552",
                     "open": 0,
                     "close": 0,
-                    "high": "0.008108",
-                    "low": "0.007813",
-                    "volume_24H": "16.96"
+                    "high": "0.007904",
+                    "low": "0.00746",
+                    "volume_24H": "52.37"
                 },
                 {
                     "id": 2231,
                     "pair": "XRPETH",
-                    "last": "0.00063632",
+                    "last": "0.00055508",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00064292",
-                    "low": "0.00061793",
-                    "volume_24H": "1435"
+                    "high": "0.00055811",
+                    "low": "0.00054897",
+                    "volume_24H": "1330"
                 },
                 {
                     "id": 2241,
                     "pair": "DASHETH",
-                    "last": "0.177111",
+                    "last": "0.166449",
                     "open": 0,
                     "close": 0,
-                    "high": "0.177633",
-                    "low": "0.172712",
-                    "volume_24H": "4.46"
+                    "high": "0.175091",
+                    "low": "0.159958",
+                    "volume_24H": "7.06"
                 },
                 {
                     "id": 2251,
                     "pair": "ZECETH",
-                    "last": "0.14951",
+                    "last": "0.13643",
                     "open": 0,
                     "close": 0,
-                    "high": "0.15413",
-                    "low": "0.14867",
-                    "volume_24H": "1.735"
+                    "high": "0.13782",
+                    "low": "0.13255",
+                    "volume_24H": "1.781"
                 },
                 {
                     "id": 2261,
@@ -1742,12 +1652,12 @@
                 {
                     "id": 2311,
                     "pair": "NEOETH",
-                    "last": "0.041686",
+                    "last": "0.033833",
                     "open": 0,
                     "close": 0,
-                    "high": "0.042429",
-                    "low": "0.041261",
-                    "volume_24H": "10.55"
+                    "high": "0.034102",
+                    "low": "0.033186",
+                    "volume_24H": "19.77"
                 },
                 {
                     "id": 2391,
@@ -1760,104 +1670,94 @@
                     "volume_24H": 0
                 },
                 {
-                    "id": 2401,
-                    "pair": "DGBETH",
-                    "last": "0.0000526",
-                    "open": 0,
-                    "close": 0,
-                    "high": "0.0000526",
-                    "low": "0.0000526",
-                    "volume_24H": 0
-                },
-                {
                     "id": 2411,
                     "pair": "DGBUSDT",
-                    "last": "0.00006224",
+                    "last": "0.00006225",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00006224",
-                    "low": "0.00006224",
+                    "high": "0.00006225",
+                    "low": "0.00006225",
                     "volume_24H": 0
                 },
                 {
                     "id": 2421,
                     "pair": "NANOBTC",
-                    "last": "0.0000574",
+                    "last": "0.0000471",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0000599",
-                    "low": "0.0000561",
-                    "volume_24H": "252.1"
+                    "high": "0.0000505",
+                    "low": "0.0000456",
+                    "volume_24H": "300.7"
                 },
                 {
                     "id": 2431,
                     "pair": "NANOETH",
-                    "last": "0.001968",
+                    "last": "0.001633",
                     "open": 0,
                     "close": 0,
-                    "high": "0.002018",
-                    "low": "0.001937",
-                    "volume_24H": "94.82"
+                    "high": "0.001737",
+                    "low": "0.001612",
+                    "volume_24H": "62.97"
                 },
                 {
                     "id": 2441,
                     "pair": "NANOUSDT",
-                    "last": "0.7572",
+                    "last": "0.7593",
                     "open": 0,
                     "close": 0,
-                    "high": "0.8202",
-                    "low": "0.7502",
-                    "volume_24H": "245.77"
+                    "high": "0.809",
+                    "low": "0.7446",
+                    "volume_24H": "220.67"
                 },
                 {
                     "id": 2451,
                     "pair": "ADABTC",
-                    "last": "0.00000742",
+                    "last": "0.0000066",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00000763",
-                    "low": "0.00000716",
-                    "volume_24H": "14172"
+                    "high": "0.00000664",
+                    "low": "0.00000638",
+                    "volume_24H": "12206"
                 },
                 {
                     "id": 2461,
                     "pair": "ADAETH",
-                    "last": "0.00025418",
+                    "last": "0.00022975",
                     "open": 0,
                     "close": 0,
-                    "high": "0.000256",
-                    "low": "0.00024763",
-                    "volume_24H": "2379"
+                    "high": "0.0002298",
+                    "low": "0.00022393",
+                    "volume_24H": "1925"
                 },
                 {
                     "id": 2471,
                     "pair": "ADAUSDT",
-                    "last": "0.09786",
+                    "last": "0.10609",
                     "open": 0,
                     "close": 0,
-                    "high": "0.10398",
-                    "low": "0.09543",
-                    "volume_24H": "29636.7"
+                    "high": "0.10726",
+                    "low": "0.1027",
+                    "volume_24H": "24597.3"
                 },
                 {
                     "id": 2481,
                     "pair": "XEMBTC",
-                    "last": "0.00000694",
+                    "last": "0.00000807",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00000718",
-                    "low": "0.00000658",
-                    "volume_24H": "3091"
+                    "high": "0.00000837",
+                    "low": "0.0000077",
+                    "volume_24H": "3664"
                 },
                 {
                     "id": 2491,
                     "pair": "XEMETH",
-                    "last": "0.00023719",
+                    "last": "0.00028153",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00024218",
-                    "low": "0.0002267",
-                    "volume_24H": "295"
+                    "high": "0.00029114",
+                    "low": "0.00027343",
+                    "volume_24H": "484"
                 },
                 {
                     "id": 2501,
@@ -1870,44 +1770,24 @@
                     "volume_24H": 0
                 },
                 {
-                    "id": 2511,
-                    "pair": "EVXBTC",
-                    "last": "0.00001753",
-                    "open": 0,
-                    "close": 0,
-                    "high": "0.00001801",
-                    "low": "0.00001706",
-                    "volume_24H": "364"
-                },
-                {
-                    "id": 2521,
-                    "pair": "EVXETH",
-                    "last": "0.00059768",
-                    "open": 0,
-                    "close": 0,
-                    "high": "0.00060802",
-                    "low": "0.00058328",
-                    "volume_24H": "572"
-                },
-                {
                     "id": 2541,
                     "pair": "BCHBTC",
-                    "last": "0.020611",
+                    "last": "0.015732",
                     "open": 0,
                     "close": 0,
-                    "high": "0.021061",
-                    "low": "0.019099",
-                    "volume_24H": "11.3149"
+                    "high": "0.016355",
+                    "low": "0.015352",
+                    "volume_24H": "7.5409"
                 },
                 {
                     "id": 2551,
                     "pair": "BCHUSDT",
-                    "last": "272.42",
+                    "last": "253.6",
                     "open": 0,
                     "close": 0,
-                    "high": "280.81",
-                    "low": "259.19",
-                    "volume_24H": "47.7506"
+                    "high": "260.24",
+                    "low": "248.94",
+                    "volume_24H": "17.3349"
                 },
                 {
                     "id": 2561,
@@ -1922,32 +1802,32 @@
                 {
                     "id": 2601,
                     "pair": "BNBBTC",
-                    "last": "0.00229",
+                    "last": "0.001734",
                     "open": 0,
                     "close": 0,
-                    "high": "0.002346",
-                    "low": "0.002266",
-                    "volume_24H": "77.59"
+                    "high": "0.00177",
+                    "low": "0.001681",
+                    "volume_24H": "59.49"
                 },
                 {
                     "id": 2611,
                     "pair": "BNBETH",
-                    "last": "0.078483",
+                    "last": "0.060559",
                     "open": 0,
                     "close": 0,
-                    "high": "0.079214",
-                    "low": "0.076978",
-                    "volume_24H": "47.68"
+                    "high": "0.061406",
+                    "low": "0.059286",
+                    "volume_24H": "42.71"
                 },
                 {
                     "id": 2621,
                     "pair": "BNBUSDT",
-                    "last": "30.2229",
+                    "last": "27.99",
                     "open": 0,
                     "close": 0,
-                    "high": "32.0717",
-                    "low": "29.8024",
-                    "volume_24H": "235.39"
+                    "high": "28.3068",
+                    "low": "27.3092",
+                    "volume_24H": "201.61"
                 },
                 {
                     "id": 3381,
@@ -2112,32 +1992,32 @@
                 {
                     "id": 3751,
                     "pair": "ETCBTC",
-                    "last": "0.0003986",
+                    "last": "0.0003116",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0004118",
-                    "low": "0.0003951",
-                    "volume_24H": "80.9"
+                    "high": "0.0003191",
+                    "low": "0.000305",
+                    "volume_24H": "112.5"
                 },
                 {
                     "id": 3761,
                     "pair": "ETCETH",
-                    "last": "0.013745",
+                    "last": "0.010877",
                     "open": 0,
                     "close": 0,
-                    "high": "0.014027",
-                    "low": "0.013402",
-                    "volume_24H": "31.03"
+                    "high": "0.010997",
+                    "low": "0.010742",
+                    "volume_24H": "61.14"
                 },
                 {
                     "id": 3771,
                     "pair": "ETCUSDT",
-                    "last": "5.261",
+                    "last": "5.0296",
                     "open": 0,
                     "close": 0,
-                    "high": "5.5909",
-                    "low": "5.228",
-                    "volume_24H": "558.61"
+                    "high": "5.1003",
+                    "low": "4.9728",
+                    "volume_24H": "454.63"
                 },
                 {
                     "id": 381,
@@ -2202,62 +2082,62 @@
                 {
                     "id": 4741,
                     "pair": "ADKBTC",
-                    "last": "0.00002398",
+                    "last": "0.00001605",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00002909",
-                    "low": "0.00001937",
-                    "volume_24H": "14285"
+                    "high": "0.00002145",
+                    "low": "0.00001578",
+                    "volume_24H": "136272"
                 },
                 {
                     "id": 4751,
                     "pair": "ADKETH",
-                    "last": "0.00082393",
+                    "last": "0.00056028",
                     "open": 0,
                     "close": 0,
-                    "high": "0.00105451",
-                    "low": "0.00077598",
-                    "volume_24H": "61930"
+                    "high": "0.0007366",
+                    "low": "0.00055236",
+                    "volume_24H": "69529"
                 },
                 {
                     "id": 4761,
                     "pair": "ADKUSDT",
-                    "last": "0.316822",
+                    "last": "0.259175",
                     "open": 0,
                     "close": 0,
-                    "high": "0.402463",
-                    "low": "0.262885",
-                    "volume_24H": "60676.9"
+                    "high": "0.340152",
+                    "low": "0.257195",
+                    "volume_24H": "197323.031"
                 },
                 {
                     "id": 4791,
                     "pair": "RVNUSDT",
-                    "last": "0.01114",
+                    "last": "0.01296",
                     "open": 0,
                     "close": 0,
-                    "high": "0.01197",
-                    "low": "0.011",
-                    "volume_24H": "5647.8"
+                    "high": "0.01305",
+                    "low": "0.01241",
+                    "volume_24H": "4657.3"
                 },
                 {
                     "id": 4801,
                     "pair": "BTCUSD",
-                    "last": "13230.19",
+                    "last": "16168.53",
                     "open": 0,
                     "close": 0,
-                    "high": "13881.56",
-                    "low": "12926.51",
-                    "volume_24H": "0.725822"
+                    "high": "16500.65",
+                    "low": "15742.3",
+                    "volume_24H": "0.52605"
                 },
                 {
                     "id": 4811,
                     "pair": "ETHUSD",
-                    "last": "386.13",
+                    "last": "463.45",
                     "open": 0,
                     "close": 0,
-                    "high": "409.49",
-                    "low": "381.61",
-                    "volume_24H": "24.97863"
+                    "high": "469.31",
+                    "low": "453.36",
+                    "volume_24H": "27.12553"
                 },
                 {
                     "id": 4831,
@@ -2362,21 +2242,21 @@
                 {
                     "id": 5111,
                     "pair": "CICXETH",
-                    "last": "0.0015",
+                    "last": "0.0014",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0015",
-                    "low": "0.0015",
+                    "high": "0.0014",
+                    "low": "0.0014",
                     "volume_24H": 0
                 },
                 {
                     "id": 5121,
                     "pair": "CICXUSDT",
-                    "last": "0.09",
+                    "last": "0.25",
                     "open": 0,
                     "close": 0,
-                    "high": "0.09",
-                    "low": "0.09",
+                    "high": "0.25",
+                    "low": "0.25",
                     "volume_24H": 0
                 },
                 {
@@ -2402,22 +2282,32 @@
                 {
                     "id": 5232,
                     "pair": "SUSHIBTC",
-                    "last": "0.0000472",
+                    "last": "0.0000477",
                     "open": 0,
                     "close": 0,
-                    "high": "0.0000514",
-                    "low": "0.0000463",
-                    "volume_24H": "4506"
+                    "high": "0.0000496",
+                    "low": "0.0000418",
+                    "volume_24H": "3563.9"
                 },
                 {
                     "id": 5233,
                     "pair": "SUSHIUSDT",
-                    "last": "0.627",
+                    "last": "0.768",
                     "open": 0,
                     "close": 0,
-                    "high": "0.706",
-                    "low": "0.608",
-                    "volume_24H": "3905.278"
+                    "high": "0.81",
+                    "low": "0.667",
+                    "volume_24H": "3963.327"
+                },
+                {
+                    "id": 5244,
+                    "pair": "GETBTC",
+                    "last": "0.000112",
+                    "open": 0,
+                    "close": 0,
+                    "high": "0.000112",
+                    "low": "0.000112",
+                    "volume_24H": "1"
                 },
                 {
                     "id": 641,
@@ -2443,7 +2333,7 @@
         },
         "rawHeaders": [
             "Date",
-            "Wed, 28 Oct 2020 19:38:16 GMT",
+            "Fri, 13 Nov 2020 11:28:06 GMT",
             "Content-Type",
             "application/json; charset=UTF-8",
             "Transfer-Encoding",
@@ -2459,11 +2349,11 @@
             "CF-Cache-Status",
             "DYNAMIC",
             "cf-request-id",
-            "061250e4700000fc65119f8000000001",
+            "0662f5e79c0000913951372000000001",
             "Expect-CT",
             "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
             "Report-To",
-            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=IDGtOS0Pf8KsGRTBiMxPQn3D8fzcETGbNhNqsdyNbe13KgVmX8Nk%2B3ESzCn0gF5TjNLTAmYlb%2BM1%2Bkkno37JRfY2RjN1E3xhaQXeJlhpRH0kYg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=gh4jdMlUPu1SR%2BZWp9Yzsa2BkMguk4FZ37KSMz3pp70IWrLvnxJmHw5fZvePWeHUiwPHkxt8ytkZAKTYRVpJ5Y%2BzrroWi98jdhAhkmuuWuGRXQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
             "NEL",
             "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
             "Server",
