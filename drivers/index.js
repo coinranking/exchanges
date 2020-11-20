@@ -166,6 +166,7 @@ exports.Finexbox = require('./finexbox');
 exports.Fivestar = require('./fivestar');
 exports.Floatsv = require('./floatsv');
 exports.Flybit = require('./flybit');
+exports.Folgory = require('./folgory');
 exports.Forkdelta = require('./forkdelta');
 exports.Ftx = require('./ftx');
 exports.Gateio = require('./gateio');
