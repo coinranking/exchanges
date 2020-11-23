@@ -1,3 +1,11 @@
+# [3.35.0](https://github.com/coinranking/exchanges/compare/v3.34.0...v3.35.0) (2020-11-23)
+
+
+### Features
+
+* add support for Honeyswap ([a00ec2e](https://github.com/coinranking/exchanges/commit/a00ec2ebfe619bee13994a685f47c2a4403e4e85))
+* folgory driver ([d8a1df7](https://github.com/coinranking/exchanges/commit/d8a1df73dcd1c5e905df6a59c4af87081a4b87d7))
+
 # [3.34.0](https://github.com/coinranking/exchanges/compare/v3.33.1...v3.34.0) (2020-11-13)
 
 
