@@ -250,6 +250,7 @@ exports.Qtrade = require('./qtrade');
 exports.Redot = require('./redot');
 exports.Remitano = require('./remitano');
 exports.Resfinex = require('./resfinex');
+exports.Richamster = require('./richamster');
 exports.Rightbtc = require('./rightbtc');
 exports.Rudex = require('./rudex');
 exports.Satoexchange = require('./satoexchange');

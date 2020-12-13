@@ -1,0 +1,704 @@
+[
+    {
+        "scope": "https://richamster.com:443",
+        "method": "GET",
+        "path": "/api/v1/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "DASH_USD": {
+                "base_id": 131,
+                "quote_id": 2781,
+                "last_price": 98,
+                "quote_volume": 6.510064,
+                "base_volume": 0.067084
+            },
+            "KRB_DASH": {
+                "base_id": 1340,
+                "quote_id": 131,
+                "last_price": 0.00077,
+                "quote_volume": 0.05071723,
+                "base_volume": 66.491
+            },
+            "DASH_BTC": {
+                "base_id": 131,
+                "quote_id": 1,
+                "last_price": 0.0051,
+                "quote_volume": 0.0002354,
+                "base_volume": 0.046
+            },
+            "KUB_BTC": {
+                "base_id": null,
+                "quote_id": 1,
+                "last_price": 0.000003,
+                "quote_volume": null,
+                "base_volume": null
+            },
+            "WAVES_BTC": {
+                "base_id": 1274,
+                "quote_id": 1,
+                "last_price": 0.000455,
+                "quote_volume": 0.00441315,
+                "base_volume": 9.707
+            },
+            "KRB_WAVES": {
+                "base_id": 1340,
+                "quote_id": 1274,
+                "last_price": 0.0085,
+                "quote_volume": 0.2614165,
+                "base_volume": 31.255
+            },
+            "KRB_XEM": {
+                "base_id": 1340,
+                "quote_id": 873,
+                "last_price": 0.295,
+                "quote_volume": 36.45,
+                "base_volume": 130
+            },
+            "XEM_BTC": {
+                "base_id": 873,
+                "quote_id": 1,
+                "last_price": 0.0000135,
+                "quote_volume": 0.001647,
+                "base_volume": 120
+            },
+            "LTC_BTC": {
+                "base_id": 2,
+                "quote_id": 1,
+                "last_price": 0.00425,
+                "quote_volume": 0.0011429447,
+                "base_volume": 0.272844
+            },
+            "KRB_ADA": {
+                "base_id": 1340,
+                "quote_id": 2010,
+                "last_price": 0.49,
+                "quote_volume": 31.48813,
+                "base_volume": 65.037
+            },
+            "ADA_BTC": {
+                "base_id": 2010,
+                "quote_id": 1,
+                "last_price": 0.000008,
+                "quote_volume": 0.001597,
+                "base_volume": 200
+            },
+            "KRB_ETH": {
+                "base_id": 1340,
+                "quote_id": 1027,
+                "last_price": 0.000125,
+                "quote_volume": 0.016129875,
+                "base_volume": 128.639
+            },
+            "ETH_BTC": {
+                "base_id": 1027,
+                "quote_id": 1,
+                "last_price": 0.0307,
+                "quote_volume": 0.0002401309,
+                "base_volume": 0.007887
+            },
+            "DOGE_BTC": {
+                "base_id": 74,
+                "quote_id": 1,
+                "last_price": 1.6e-7,
+                "quote_volume": 0.00050659,
+                "base_volume": 2980
+            },
+            "KRB_DOGE": {
+                "base_id": 1340,
+                "quote_id": 74,
+                "last_price": 23,
+                "quote_volume": 1808.967,
+                "base_volume": 79.129
+            },
+            "KRB_LTC": {
+                "base_id": 1340,
+                "quote_id": 2,
+                "last_price": 0.00091,
+                "quote_volume": 0.04209,
+                "base_volume": 46
+            },
+            "KRB_BTC": {
+                "base_id": 1340,
+                "quote_id": 1,
+                "last_price": 0.00000395,
+                "quote_volume": 0.0004185944,
+                "base_volume": 110.038
+            },
+            "KRB_XMR": {
+                "base_id": 1340,
+                "quote_id": 328,
+                "last_price": 0.0005,
+                "quote_volume": 0.0397,
+                "base_volume": 80
+            },
+            "XMR_BTC": {
+                "base_id": 328,
+                "quote_id": 1,
+                "last_price": 0.0077,
+                "quote_volume": 0.00313,
+                "base_volume": 0.4
+            },
+            "ETH_UAH": {
+                "base_id": 1027,
+                "quote_id": 2824,
+                "last_price": 16500,
+                "quote_volume": 269.182,
+                "base_volume": 0.016652
+            },
+            "DASH_UAH": {
+                "base_id": 131,
+                "quote_id": 2824,
+                "last_price": 2750,
+                "quote_volume": 369.18139445,
+                "base_volume": 0.135371
+            },
+            "XMR_USD": {
+                "base_id": 328,
+                "quote_id": 2781,
+                "last_price": 145,
+                "quote_volume": null,
+                "base_volume": null
+            },
+            "XMR_UAH": {
+                "base_id": 328,
+                "quote_id": 2824,
+                "last_price": 4150,
+                "quote_volume": 65.11185,
+                "base_volume": 0.015821
+            },
+            "ETH_USD": {
+                "base_id": 1027,
+                "quote_id": 2781,
+                "last_price": 590,
+                "quote_volume": 19.33,
+                "base_volume": 0.033
+            },
+            "KRB_USD": {
+                "base_id": 1340,
+                "quote_id": 2781,
+                "last_price": 0.075,
+                "quote_volume": 3.530768,
+                "base_volume": 48.344
+            },
+            "BTC_USD": {
+                "base_id": 1,
+                "quote_id": 2781,
+                "last_price": 19300,
+                "quote_volume": 38.86154,
+                "base_volume": 0.0020358
+            },
+            "WAVES_UAH": {
+                "base_id": 1274,
+                "quote_id": 2824,
+                "last_price": 245,
+                "quote_volume": 1326.19711,
+                "base_volume": 5.4379
+            },
+            "XEM_UAH": {
+                "base_id": 873,
+                "quote_id": 2824,
+                "last_price": 6.9,
+                "quote_volume": 8686.82443,
+                "base_volume": 1177.495
+            },
+            "ADA_UAH": {
+                "base_id": 2010,
+                "quote_id": 2824,
+                "last_price": 4.3,
+                "quote_volume": 2616.928523,
+                "base_volume": 619.281
+            },
+            "LTC_UAH": {
+                "base_id": 2,
+                "quote_id": 2824,
+                "last_price": 2300,
+                "quote_volume": 414.626055547,
+                "base_volume": 0.185547
+            },
+            "BTC_UAH": {
+                "base_id": 1,
+                "quote_id": 2824,
+                "last_price": 540000,
+                "quote_volume": 1045.49667,
+                "base_volume": 0.00197155
+            },
+            "KRB_UAH": {
+                "base_id": 1340,
+                "quote_id": 2824,
+                "last_price": 2.01,
+                "quote_volume": 1872.298626,
+                "base_volume": 885.645
+            },
+            "USD_UAH": {
+                "base_id": 2781,
+                "quote_id": 2824,
+                "last_price": 28,
+                "quote_volume": 140,
+                "base_volume": 5
+            },
+            "DOGE_UAH": {
+                "base_id": 74,
+                "quote_id": 2824,
+                "last_price": 0.092,
+                "quote_volume": 561.5543058,
+                "base_volume": 6164.9506
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Sun, 13 Dec 2020 21:37:00 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=db7cdcab2a833881e2dd3b9a81347a4671607895419; expires=Tue, 12-Jan-21 21:36:59 GMT; path=/; domain=.richamster.com; HttpOnly; SameSite=Lax",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Vary",
+            "Accept-Language, Cookie",
+            "Content-Language",
+            "uk",
+            "Strict-Transport-Security",
+            "max-age=31536000",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "06ffa223ea0000fc711a163000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=XjUc3qUWswPv9qYdZkjni7M4eymM3tQrNAmEqaIibwEDOp3Lh0Oab%2FGk7Gi%2FUi43v1ILTuKh6cYVV3%2FjzL1OXV5Gbfw13QRn1cZygWLrgw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://richamster.com:443",
+        "method": "GET",
+        "path": "/public/v1/exchange/ticker/",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "pk": 33,
+                "pair": "ASH/UAH",
+                "last": "0.150",
+                "first": "0.152",
+                "high": "0.152",
+                "low": "0.136",
+                "volume": "1623.18"
+            },
+            {
+                "pk": 34,
+                "pair": "ASH/BTC",
+                "last": "0.00000019",
+                "first": "0.00000000",
+                "high": null,
+                "low": null,
+                "volume": null
+            },
+            {
+                "pk": 37,
+                "pair": "KUB/UAH",
+                "last": "2.990",
+                "first": "2.903",
+                "high": "2.991",
+                "low": "2.896",
+                "volume": "222.369"
+            },
+            {
+                "pk": 52,
+                "pair": "ASH/USD",
+                "last": "0.0179",
+                "first": "0.0000",
+                "high": null,
+                "low": null,
+                "volume": null
+            },
+            {
+                "pk": 56,
+                "pair": "DASH/USD",
+                "last": "98.0000",
+                "first": "96.0000",
+                "high": "98.0000",
+                "low": "96.0000",
+                "volume": "0.067084"
+            },
+            {
+                "pk": 55,
+                "pair": "KRB/DASH",
+                "last": "0.000770",
+                "first": "0.000740",
+                "high": "0.000770",
+                "low": "0.000740",
+                "volume": "66.491"
+            },
+            {
+                "pk": 53,
+                "pair": "DASH/BTC",
+                "last": "0.00510000",
+                "first": "0.00520000",
+                "high": "0.00520000",
+                "low": "0.00510000",
+                "volume": "0.046000"
+            },
+            {
+                "pk": 38,
+                "pair": "KUB/BTC",
+                "last": "0.00000300",
+                "first": "0.00000000",
+                "high": null,
+                "low": null,
+                "volume": null
+            },
+            {
+                "pk": 31,
+                "pair": "WAVES/BTC",
+                "last": "0.00045500",
+                "first": "0.00046500",
+                "high": "0.00046500",
+                "low": "0.00045000",
+                "volume": "9.7070"
+            },
+            {
+                "pk": 30,
+                "pair": "KRB/WAVES",
+                "last": "0.0085",
+                "first": "0.0082",
+                "high": "0.0085",
+                "low": "0.0082",
+                "volume": "31.255"
+            },
+            {
+                "pk": 29,
+                "pair": "KRB/XEM",
+                "last": "0.295",
+                "first": "0.280",
+                "high": "0.295",
+                "low": "0.275",
+                "volume": "130.000"
+            },
+            {
+                "pk": 28,
+                "pair": "XEM/BTC",
+                "last": "0.00001350",
+                "first": "0.00001350",
+                "high": "0.00001400",
+                "low": "0.00001350",
+                "volume": "120.000"
+            },
+            {
+                "pk": 26,
+                "pair": "LTC/BTC",
+                "last": "0.00425000",
+                "first": "0.00410000",
+                "high": "0.00425000",
+                "low": "0.00410000",
+                "volume": "0.272844"
+            },
+            {
+                "pk": 24,
+                "pair": "KRB/ADA",
+                "last": "0.490",
+                "first": "0.486",
+                "high": "0.490",
+                "low": "0.480",
+                "volume": "65.037"
+            },
+            {
+                "pk": 23,
+                "pair": "ADA/BTC",
+                "last": "0.00000800",
+                "first": "0.00000780",
+                "high": "0.00000800",
+                "low": "0.00000780",
+                "volume": "200.000"
+            },
+            {
+                "pk": 16,
+                "pair": "KRB/ETH",
+                "last": "0.000125",
+                "first": "0.000126",
+                "high": "0.000126",
+                "low": "0.000125",
+                "volume": "128.639"
+            },
+            {
+                "pk": 14,
+                "pair": "ETH/BTC",
+                "last": "0.03070000",
+                "first": "0.03030000",
+                "high": "0.03070000",
+                "low": "0.03030000",
+                "volume": "0.007887"
+            },
+            {
+                "pk": 12,
+                "pair": "DOGE/BTC",
+                "last": "0.00000016",
+                "first": "0.00000017",
+                "high": "0.00000017",
+                "low": "0.00000016",
+                "volume": "2980.0"
+            },
+            {
+                "pk": 11,
+                "pair": "KRB/DOGE",
+                "last": "23.0",
+                "first": "22.4",
+                "high": "23.0",
+                "low": "22.4",
+                "volume": "79.129"
+            },
+            {
+                "pk": 9,
+                "pair": "KRB/LTC",
+                "last": "0.000910",
+                "first": "0.000920",
+                "high": "0.000920",
+                "low": "0.000910",
+                "volume": "46.000"
+            },
+            {
+                "pk": 7,
+                "pair": "KRB/BTC",
+                "last": "0.00000395",
+                "first": "0.00000380",
+                "high": "0.00000395",
+                "low": "0.00000375",
+                "volume": "110.038"
+            },
+            {
+                "pk": 60,
+                "pair": "KRB/XMR",
+                "last": "0.000500",
+                "first": "0.000485",
+                "high": "0.000500",
+                "low": "0.000485",
+                "volume": "80.000"
+            },
+            {
+                "pk": 58,
+                "pair": "XMR/BTC",
+                "last": "0.00770000",
+                "first": "0.00790000",
+                "high": "0.00790000",
+                "low": "0.00770000",
+                "volume": "0.400000"
+            },
+            {
+                "pk": 15,
+                "pair": "ETH/UAH",
+                "last": "16500.000",
+                "first": "15900.000",
+                "high": "16500.000",
+                "low": "15900.000",
+                "volume": "0.016652"
+            },
+            {
+                "pk": 54,
+                "pair": "DASH/UAH",
+                "last": "2750.000",
+                "first": "2650.050",
+                "high": "2800.000",
+                "low": "2650.050",
+                "volume": "0.255728"
+            },
+            {
+                "pk": 62,
+                "pair": "XMR/USD",
+                "last": "145.0000",
+                "first": "0.0000",
+                "high": null,
+                "low": null,
+                "volume": null
+            },
+            {
+                "pk": 59,
+                "pair": "XMR/UAH",
+                "last": "4150.000",
+                "first": "4100.000",
+                "high": "4150.000",
+                "low": "4100.000",
+                "volume": "0.015821"
+            },
+            {
+                "pk": 49,
+                "pair": "ETH/USD",
+                "last": "590.0000",
+                "first": "570.0000",
+                "high": "590.0000",
+                "low": "570.0000",
+                "volume": "0.033000"
+            },
+            {
+                "pk": 47,
+                "pair": "KRB/USD",
+                "last": "0.0750",
+                "first": "0.0710",
+                "high": "0.0750",
+                "low": "0.0710",
+                "volume": "48.344"
+            },
+            {
+                "pk": 45,
+                "pair": "BTC/USD",
+                "last": "19300.0000",
+                "first": "19000.0000",
+                "high": "19300.0000",
+                "low": "19000.0000",
+                "volume": "0.00203580"
+            },
+            {
+                "pk": 39,
+                "pair": "KUB/KRB",
+                "last": "2.149",
+                "first": "0.000",
+                "high": null,
+                "low": null,
+                "volume": null
+            },
+            {
+                "pk": 32,
+                "pair": "WAVES/UAH",
+                "last": "245.000",
+                "first": "235.000",
+                "high": "245.000",
+                "low": "235.000",
+                "volume": "5.4379"
+            },
+            {
+                "pk": 27,
+                "pair": "XEM/UAH",
+                "last": "6.900",
+                "first": "7.000",
+                "high": "7.610",
+                "low": "6.900",
+                "volume": "1288.804"
+            },
+            {
+                "pk": 22,
+                "pair": "ADA/UAH",
+                "last": "4.300",
+                "first": "4.100",
+                "high": "4.350",
+                "low": "4.100",
+                "volume": "619.281"
+            },
+            {
+                "pk": 21,
+                "pair": "LTC/UAH",
+                "last": "2300.000",
+                "first": "2140.000",
+                "high": "2300.000",
+                "low": "2140.000",
+                "volume": "0.185547"
+            },
+            {
+                "pk": 10,
+                "pair": "BTC/UAH",
+                "last": "540000.000",
+                "first": "529000.000",
+                "high": "540000.000",
+                "low": "529000.000",
+                "volume": "0.00197155"
+            },
+            {
+                "pk": 4,
+                "pair": "KRB/UAH",
+                "last": "2.010",
+                "first": "2.091",
+                "high": "2.130",
+                "low": "2.010",
+                "volume": "885.645"
+            },
+            {
+                "pk": 57,
+                "pair": "USD/UAH",
+                "last": "28.000",
+                "first": "28.000",
+                "high": "28.000",
+                "low": "28.000",
+                "volume": "5.0000"
+            },
+            {
+                "pk": 13,
+                "pair": "DOGE/UAH",
+                "last": "0.092",
+                "first": "0.089",
+                "high": "0.094",
+                "low": "0.088",
+                "volume": "6164.9"
+            },
+            {
+                "pk": 64,
+                "pair": "KRB/MFC",
+                "last": "16.50",
+                "first": "0.00",
+                "high": null,
+                "low": null,
+                "volume": null
+            },
+            {
+                "pk": 65,
+                "pair": "MFC/BTC",
+                "last": "0.00000037",
+                "first": "0.00000000",
+                "high": null,
+                "low": null,
+                "volume": null
+            },
+            {
+                "pk": 66,
+                "pair": "MFC/UAH",
+                "last": "0.169",
+                "first": "0.169",
+                "high": "0.169",
+                "low": "0.169",
+                "volume": "10.26"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Sun, 13 Dec 2020 21:37:00 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Allow",
+            "GET, HEAD, OPTIONS",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Vary",
+            "Origin, Accept-Language, Cookie",
+            "Content-Language",
+            "uk",
+            "Strict-Transport-Security",
+            "max-age=31536000",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "06ffa225b9000090fd6a8ce000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=IPPKVPtyWfYRRhkSoNO%2FuVnWapYjITnsU89B94BM1%2Bb7iW0Oy04h5LuOYum3bzMX8Na4w3P8Yk5L%2FseR7nbC2IClBcZTHUnw8Hrv6gJI%2Fw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
