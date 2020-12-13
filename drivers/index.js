@@ -216,6 +216,7 @@ exports.Lykke = require('./lykke');
 exports.Maxmaincoin = require('./maxmaincoin');
 exports.Mercado = require('./mercado');
 exports.Mercatox = require('./mercatox');
+exports.Mintme = require('./mintme');
 exports.Morcrypto = require('./morcrypto');
 exports.Mushino = require('./mushino');
 exports.Mxc = require('./mxc');
