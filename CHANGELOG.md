@@ -1,3 +1,15 @@
+# [3.38.0](https://github.com/coinranking/exchanges/compare/v3.37.0...v3.38.0) (2020-12-17)
+
+
+### Bug Fixes
+
+* new fixture for Uniswap2 ([de39d07](https://github.com/coinranking/exchanges/commit/de39d07cf12edd25eb9d80a99b3011297ffe0316))
+
+
+### Features
+
+* **uniswap2:** add the option to get specific markets ([c1e7dae](https://github.com/coinranking/exchanges/commit/c1e7dae532f568fe7184b0de4857ba647af2b072))
+
 # [3.37.0](https://github.com/coinranking/exchanges/compare/v3.36.0...v3.37.0) (2020-12-17)
 
 
