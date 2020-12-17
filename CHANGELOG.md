@@ -1,3 +1,10 @@
+# [3.37.0](https://github.com/coinranking/exchanges/compare/v3.36.0...v3.37.0) (2020-12-17)
+
+
+### Features
+
+* richamster driver ([5fbd226](https://github.com/coinranking/exchanges/commit/5fbd226158127080b2b540a7fe3245a9f6952d38))
+
 # [3.36.0](https://github.com/coinranking/exchanges/compare/v3.35.0...v3.36.0) (2020-12-17)
 
 
