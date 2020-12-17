@@ -9,6 +9,10 @@ const Ticker = require('./ticker');
  *   An object with settings that a driver requires
  * @param {boolean} config.requires.key
  *   Set to true if the driver requires an API key; default: false
+ * @param {object} config.supports
+ *   An object with settings that a driver supports
+ * @param {boolean} config.supports.specificMarkets
+ *   Set to true if the driver supports getting specific markets; default: false
  * @example
  * // An example of a driver with an API key
  * class ApiKeyDriver extends Driver {
@@ -69,10 +73,19 @@ class Driver {
       key: false,
     };
 
+    this.supports = {
+      specificMarkets: false,
+    };
+
     if (config) {
       this.requires = {
         ...this.requires,
         ...config.requires,
+      };
+
+      this.supports = {
+        ...this.supports,
+        ...config.supports,
       };
     }
   }
@@ -115,6 +128,32 @@ class Driver {
     }
 
     this._key = key;
+  }
+
+  /**
+   * Get the specific markets filter
+   *
+   * @returns {string[]} ids An array of market ids
+   */
+  get markets() {
+    if (!this.supports.specificMarkets) {
+      throw new Error('This driver does not support getting specific markets');
+    }
+
+    return this._markets;
+  }
+
+  /**
+   * Set the specific markets filter
+   *
+   * @param {string[]} ids An array of market ids
+   */
+  set markets(ids) {
+    if (!this.supports.specificMarkets) {
+      throw new Error('This driver does not support getting specific markets');
+    }
+
+    this._markets = ids;
   }
 }
 

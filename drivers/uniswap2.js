@@ -8,6 +8,14 @@ const { parseToFloat, throttleMap } = require('../lib/utils.js');
  * @augments Driver
  */
 class Uniswap2 extends Driver {
+  constructor() {
+    super({
+      supports: {
+        specificMarkets: true,
+      },
+    });
+  }
+
   /**
    * @param {boolean} isMocked Set to true when stored tickers are used
    * @returns {Promise.Number}
@@ -62,17 +70,34 @@ class Uniswap2 extends Driver {
     // Request the current top 200 markets with the highest volume.
     // The base and quote volume is a total volume of the markets existance,
     // so we need to subtract the volume that was reported 24 hours ago.
+    let pairQuery = `
+      {
+        pairs(
+          first: 1000,
+          orderBy: trackedReserveETH,
+          orderDirection: desc
+        ) {
+          ...ticker
+        }
+      }
+    `;
+
+    if (this.markets) {
+      pairQuery = `
+        {
+          pairs(where: { id_in: ["${this.markets.join('", "')}"] }) {
+            ...ticker
+          }
+        }
+      `;
+    }
+
     const { data: { pairs } } = await request({
       method: 'POST',
       url: 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2',
       json: {
         query: `
-        {
-          pairs(
-            first: 1000,
-            orderBy: trackedReserveETH,
-            orderDirection: desc
-          ) {
+          fragment ticker on Pair {
             id,
             base: token0 {
               id
@@ -88,7 +113,8 @@ class Uniswap2 extends Driver {
             baseVolume: volumeToken0,
             quoteVolume: volumeToken1
           }
-        }
+
+          ${pairQuery}
         `,
       },
     });
