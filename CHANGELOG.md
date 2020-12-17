@@ -1,3 +1,10 @@
+# [3.36.0](https://github.com/coinranking/exchanges/compare/v3.35.0...v3.36.0) (2020-12-17)
+
+
+### Features
+
+* beaxy driver ([7dedfb3](https://github.com/coinranking/exchanges/commit/7dedfb3ed6a77ea393de01dbca10996757278995))
+
 # [3.35.0](https://github.com/coinranking/exchanges/compare/v3.34.0...v3.35.0) (2020-11-23)
 
 
