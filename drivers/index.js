@@ -173,6 +173,7 @@ exports.Ftx = require('./ftx');
 exports.Gateio = require('./gateio');
 exports.Gdac = require('./gdac');
 exports.Gemini = require('./gemini');
+exports.Globalcryptox = require('./globalcryptox');
 exports.Gmojapan = require('./gmojapan');
 exports.Goexchange = require('./goexchange');
 exports.Graviex = require('./graviex');
