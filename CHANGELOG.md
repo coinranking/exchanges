@@ -1,3 +1,10 @@
+# [3.39.0](https://github.com/coinranking/exchanges/compare/v3.38.0...v3.39.0) (2020-12-23)
+
+
+### Features
+
+* globalcryptox driver ([a29889a](https://github.com/coinranking/exchanges/commit/a29889a8a723460d908bf963e1daa14eca4c54a0))
+
 # [3.38.0](https://github.com/coinranking/exchanges/compare/v3.37.0...v3.38.0) (2020-12-17)
 
 
