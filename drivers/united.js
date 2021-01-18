@@ -24,7 +24,6 @@ class United extends Driver {
       bid: parseToFloat(ticker.bid),
       ask: parseToFloat(ticker.ask),
       baseVolume: parseToFloat(ticker.base_volume),
-
     }));
   }
 }
