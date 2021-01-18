@@ -13,22 +13,26 @@ class Gateio extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://data.gateio.co/api2/1/tickers');
-    const pairs = Object.keys(tickers);
+    const tickers = await request('https://api.gateio.ws/api/v4/spot/tickers');
 
-    return pairs.map((pair) => {
-      const [base, quote] = pair.split('_');
-      const ticker = tickers[pair];
+    return tickers.map((ticker) => {
+      if (!ticker.currency_pair) {
+        return undefined;
+      }
+
+      const [base, quote] = ticker.currency_pair.split('_');
 
       // Yes, quoteVolume and baseVolume are switched :)
       return new Ticker({
         base,
         quote,
-        quoteVolume: parseToFloat(ticker.baseVolume),
-        baseVolume: parseToFloat(ticker.quoteVolume),
+        high: parseToFloat(ticker.high_24h),
+        low: parseToFloat(ticker.low_24h),
         close: parseToFloat(ticker.last),
-        high: parseToFloat(ticker.high24hr),
-        low: parseToFloat(ticker.low24hr),
+        bid: parseToFloat(ticker.highest_bid),
+        ask: parseToFloat(ticker.lowest_ask),
+        baseVolume: parseToFloat(ticker.base_volume),
+        quoteVolume: parseToFloat(ticker.quote_volume),
       });
     });
   }
