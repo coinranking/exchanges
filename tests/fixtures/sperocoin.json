@@ -1,0 +1,673 @@
+[
+    {
+        "scope": "https://exchange.sperocoin.org:443",
+        "method": "GET",
+        "path": "/api/v2/tickers.json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "sperobtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.000001",
+                    "sell": "0.000005",
+                    "low": "0.000001",
+                    "high": "0.00000103",
+                    "last": "0.00000102",
+                    "vol": "147.0",
+                    "volbtc": "0.0001495438601096",
+                    "change": "-0.009708738"
+                }
+            },
+            "dogebtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.00000028",
+                    "sell": "0.0000004",
+                    "low": "0.00000028",
+                    "high": "0.00000028",
+                    "last": "0.00000028",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "ltcbtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.00013",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.0",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": 0
+                }
+            },
+            "dashbtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.00778143",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.007",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "ltcdoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "1500544.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "1500544.0",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "sperodoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "1.00000005",
+                    "sell": "7.0",
+                    "low": "1.00000005",
+                    "high": "1.00000005",
+                    "last": "1.00000005",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "dashdoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "1.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "1.0",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "ltcspero": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "1.5",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "1.5",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "dashspero": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "1.0",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.0",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": 0
+                }
+            },
+            "fchbtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0000001",
+                    "sell": "0.0000035",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.00000102",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "fchdoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.5999999",
+                    "sell": "17.89999",
+                    "low": "0.8999999",
+                    "high": "0.8999999",
+                    "last": "0.8999999",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "fchspero": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.089999",
+                    "sell": "0.7999999",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.8",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "pwcbtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.00000028",
+                    "sell": "0.000001",
+                    "low": "0.000001",
+                    "high": "0.000001",
+                    "last": "0.000001",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "pwcdoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "1.0",
+                    "sell": "3.9899999",
+                    "low": "1.0",
+                    "high": "1.00000001",
+                    "last": "1.0",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "pwcspero": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "1.9",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "1.9",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "babbtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.00000001",
+                    "sell": "0.0000002",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.00000019",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "babdoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.01",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.01",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "babspero": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.01000009",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.01",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "zyonbtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.00000001",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.00000047",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "zyondoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.24000001",
+                    "sell": "1.0",
+                    "low": "0.24000001",
+                    "high": "0.24000001",
+                    "last": "0.24000001",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "zyonspero": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.00105",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.001",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "niobtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.00000001",
+                    "sell": "0.000001",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.00000869",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "niodoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "12.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.0154",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "niospero": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.001",
+                    "sell": "0.0",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.0",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": 0
+                }
+            },
+            "mic3btc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.00000000001",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.00000000001",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.00000000000000010000000000000001"
+                }
+            },
+            "mic3doge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.00000017",
+                    "sell": "0.0000005",
+                    "low": "0.00000014",
+                    "high": "0.00000025",
+                    "last": "0.00000025",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "mic3spero": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.00000012",
+                    "sell": "0.00000025",
+                    "low": "0.00000011",
+                    "high": "0.0000002",
+                    "last": "0.00000011",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "xthbtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.0000001",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.00000001",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "xthdoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0001",
+                    "sell": "0.0399999",
+                    "low": "0.0001",
+                    "high": "0.00024",
+                    "last": "0.0001",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "xthspero": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.4",
+                    "low": "0.0",
+                    "high": "0.0",
+                    "last": "0.2",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "clcbtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.00000015",
+                    "low": "0.00000005",
+                    "high": "0.00000005",
+                    "last": "0.00000005",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "clcdoge": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0799999",
+                    "sell": "0.36999999",
+                    "low": "0.0799999",
+                    "high": "0.0799999",
+                    "last": "0.0799999",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.0"
+                }
+            },
+            "betsbtc": {
+                "at": 1610998724,
+                "ticker": {
+                    "buy": "0.0",
+                    "sell": "0.00007",
+                    "low": "0.00007",
+                    "high": "0.00007",
+                    "last": "0.00007",
+                    "vol": "0.0",
+                    "volbtc": 0,
+                    "change": "0.000000000000000142857142857142877551020408163"
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Mon, 18 Jan 2021 19:38:44 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d79f887b4fc7187d033839b44b35da8a81610998724; expires=Wed, 17-Feb-21 19:38:44 GMT; path=/; domain=.sperocoin.org; HttpOnly; SameSite=Lax; Secure",
+            "Status",
+            "200 OK",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Vary",
+            "Origin",
+            "X-Request-Id",
+            "2d9fa000-2475-4f05-ad31-df7245d8ff08",
+            "X-Runtime",
+            "0.073355",
+            "X-Powered-By",
+            "Phusion Passenger 6.0.4",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Request-Method",
+            "*",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "07b89acf4a0000910f3e1ce000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"max_age\":604800,\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=JgKQ2RjuiLla12JDqBDaVOjeZ%2BUXaQQN5ekaRgTas1XyALQ%2FS%2FTaEKquUYkz8BilPVD8Y2kY4LEmVo5CqynKjNPoopi6z809FwAWTj%2FaMq%2FRfHNdYpYg\"}]}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Strict-Transport-Security",
+            "max-age=0; includeSubDomains",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://exchange.sperocoin.org:443",
+        "method": "GET",
+        "path": "/api/v2/markets.json",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "id": "sperobtc",
+                "name": "SPERO/BTC"
+            },
+            {
+                "id": "dogebtc",
+                "name": "DOGE/BTC"
+            },
+            {
+                "id": "ltcbtc",
+                "name": "LTC/BTC"
+            },
+            {
+                "id": "dashbtc",
+                "name": "DASH/BTC"
+            },
+            {
+                "id": "ltcdoge",
+                "name": "LTC/DOGE"
+            },
+            {
+                "id": "sperodoge",
+                "name": "SPERO/DOGE"
+            },
+            {
+                "id": "dashdoge",
+                "name": "DASH/DOGE"
+            },
+            {
+                "id": "ltcspero",
+                "name": "LTC/SPERO"
+            },
+            {
+                "id": "dashspero",
+                "name": "DASH/SPERO"
+            },
+            {
+                "id": "fchbtc",
+                "name": "FCH/BTC"
+            },
+            {
+                "id": "fchdoge",
+                "name": "FCH/DOGE"
+            },
+            {
+                "id": "fchspero",
+                "name": "FCH/SPERO"
+            },
+            {
+                "id": "pwcbtc",
+                "name": "PWC/BTC"
+            },
+            {
+                "id": "pwcdoge",
+                "name": "PWC/DOGE"
+            },
+            {
+                "id": "pwcspero",
+                "name": "PWC/SPERO"
+            },
+            {
+                "id": "babbtc",
+                "name": "BAB/BTC"
+            },
+            {
+                "id": "babdoge",
+                "name": "BAB/DOGE"
+            },
+            {
+                "id": "babspero",
+                "name": "BAB/SPERO"
+            },
+            {
+                "id": "zyonbtc",
+                "name": "ZYON/BTC"
+            },
+            {
+                "id": "zyondoge",
+                "name": "ZYON/DOGE"
+            },
+            {
+                "id": "zyonspero",
+                "name": "ZYON/SPERO"
+            },
+            {
+                "id": "niobtc",
+                "name": "NIO/BTC"
+            },
+            {
+                "id": "niodoge",
+                "name": "NIO/DOGE"
+            },
+            {
+                "id": "niospero",
+                "name": "NIO/SPERO"
+            },
+            {
+                "id": "mic3btc",
+                "name": "MIC3/BTC"
+            },
+            {
+                "id": "mic3doge",
+                "name": "MIC3/DOGE"
+            },
+            {
+                "id": "mic3spero",
+                "name": "MIC3/SPERO"
+            },
+            {
+                "id": "xthbtc",
+                "name": "XTH/BTC"
+            },
+            {
+                "id": "xthdoge",
+                "name": "XTH/DOGE"
+            },
+            {
+                "id": "xthspero",
+                "name": "XTH/SPERO"
+            },
+            {
+                "id": "clcbtc",
+                "name": "CLC/BTC"
+            },
+            {
+                "id": "clcdoge",
+                "name": "CLC/DOGE"
+            },
+            {
+                "id": "betsbtc",
+                "name": "BETS/BTC"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Mon, 18 Jan 2021 19:38:44 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Status",
+            "200 OK",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Vary",
+            "Origin",
+            "X-Request-Id",
+            "8aaab558-e873-48e5-8f97-75a06b5f4410",
+            "X-Runtime",
+            "0.005769",
+            "X-Powered-By",
+            "Phusion Passenger 6.0.4",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Request-Method",
+            "*",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "07b89ad0880000912db9812000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=DlHgjEMkKmMQd9%2B%2B12lSW58xF4eOF4K%2BP%2FKOpeP5rmkpATmx59Q%2FlF0x6qwGCAs2t8NEOGYG6qXMUZxBFm5jJ9yDCgGzEOk7ukUcHJW2fS4zDTHYP7jDT4HrVg%3D%3D\"}],\"max_age\":604800,\"group\":\"cf-nel\"}",
+            "NEL",
+            "{\"max_age\":604800,\"report_to\":\"cf-nel\"}",
+            "Strict-Transport-Security",
+            "max-age=0; includeSubDomains",
+            "X-Content-Type-Options",
+            "nosniff",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]

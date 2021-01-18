@@ -263,6 +263,7 @@ exports.Simex = require('./simex');
 exports.Sistemkoin = require('./sistemkoin');
 exports.Southxchange = require('./southxchange');
 exports.Sparkdex = require('./sparkdex');
+exports.Sperocoin = require('./sperocoin');
 exports.Squirrex = require('./squirrex');
 exports.Stellarport = require('./stellarport');
 exports.Stex = require('./stex');
