@@ -7,7 +7,7 @@ const { parseToFloat } = require('../lib/utils.js');
  * @memberof Driver
  * @augments Driver
  */
-class Btctradeua extends Driver {
+class Btcsquare extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
@@ -41,4 +41,4 @@ class Btctradeua extends Driver {
   }
 }
 
-module.exports = Btctradeua;
+module.exports = Btcsquare;

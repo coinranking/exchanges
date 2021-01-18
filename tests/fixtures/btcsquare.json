@@ -45,7 +45,7 @@
                     "price": "0.00000016",
                     "high": "0.00000018",
                     "low": "0.00000016",
-                    "volume": "0.02191173",
+                    "volume": "0.02194083",
                     "bid": "0.00000000",
                     "ask": "0.00000016"
                 }
@@ -89,7 +89,7 @@
                     "price": "0.00287863",
                     "high": "0.00294799",
                     "low": "0.00279626",
-                    "volume": "0.03930838",
+                    "volume": "0.03658412",
                     "bid": "0.00000000",
                     "ask": "1.00000000"
                 }
@@ -339,7 +339,7 @@
         ],
         "rawHeaders": [
             "Date",
-            "Mon, 18 Jan 2021 19:26:02 GMT",
+            "Mon, 18 Jan 2021 19:30:17 GMT",
             "Content-Type",
             "application/json",
             "Transfer-Encoding",
@@ -347,7 +347,7 @@
             "Connection",
             "keep-alive",
             "Set-Cookie",
-            "__cfduid=df3b678ce5de36183a044883afc95f9ef1610997962; expires=Wed, 17-Feb-21 19:26:02 GMT; path=/; domain=.btcsquare.net; HttpOnly; SameSite=Lax; Secure",
+            "__cfduid=d773bc74cfd3c8c0b82105291f2bc254f1610998217; expires=Wed, 17-Feb-21 19:30:17 GMT; path=/; domain=.btcsquare.net; HttpOnly; SameSite=Lax; Secure",
             "Expires",
             "0",
             "X-XSS-Protection",
@@ -365,13 +365,13 @@
             "CF-Cache-Status",
             "DYNAMIC",
             "cf-request-id",
-            "07b88f2d640000fc591e0cf000000001",
+            "07b89311a400009139122ac000000001",
             "Expect-CT",
             "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
             "Report-To",
-            "{\"max_age\":604800,\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=xnBiGCTXzTvLkLyL%2FwNvJBx7KNtr2%2FrAzYuGaOMckrb%2FOI5fuFGneVNPG0UE8qkyhdQJ8nJ7guI%2F7Kz4bHWQwc9YdEcTKunjpka3fEPm1VlXiQ%3D%3D\"}],\"group\":\"cf-nel\"}",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=8fYfFeibqxPYR87SZDAitzgDezYXJOVGT0PGBfGMZVOHaFt8GPnB5b0NOYwB%2FMQL8qpyY%2BmFqQBRLcWdPJLygrgjR5TFV9BvQQcDO73ZBrQw4Q%3D%3D\"}],\"max_age\":604800,\"group\":\"cf-nel\"}",
             "NEL",
-            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "{\"max_age\":604800,\"report_to\":\"cf-nel\"}",
             "Server",
             "cloudflare"
         ],
