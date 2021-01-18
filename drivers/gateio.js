@@ -16,10 +16,6 @@ class Gateio extends Driver {
     const tickers = await request('https://api.gateio.ws/api/v4/spot/tickers');
 
     return tickers.map((ticker) => {
-      if (!ticker.currency_pair) {
-        return undefined;
-      }
-
       const [base, quote] = ticker.currency_pair.split('_');
 
       // Yes, quoteVolume and baseVolume are switched :)
