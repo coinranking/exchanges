@@ -83,6 +83,7 @@ exports.Btcbox = require('./btcbox');
 exports.Btcexa = require('./btcexa');
 exports.Btcexchange = require('./btcexchange');
 exports.Btcmarkets = require('./btcmarkets');
+exports.Btcsquare = require('./btcsquare');
 exports.Btctradeua = require('./btctradeua');
 exports.Btcturk = require('./btcturk');
 exports.Btse = require('./btse');
