@@ -12,6 +12,7 @@ exports.Altmarkets = require('./altmarkets');
 exports.Amanpuri = require('./amanpuri');
 exports.Ankerswap = require('./ankerswap');
 exports.Atomars = require('./atomars');
+exports.B4u = require('./b4u');
 exports.Bamboo = require('./bamboo');
 exports.Bancor = require('./bancor');
 exports.Bancor = require('./bancor');

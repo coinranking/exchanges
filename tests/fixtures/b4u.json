@@ -1,0 +1,341 @@
+[
+    {
+        "scope": "https://ewallet.b4uwallet.com:443",
+        "method": "GET",
+        "path": "/api/v2/peatio/public/markets",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "id": "rscusd",
+                "name": "RSC/USD",
+                "base_unit": "rsc",
+                "quote_unit": "usd",
+                "min_price": "0.01",
+                "max_price": "0.0",
+                "min_amount": "0.0001",
+                "amount_precision": 8,
+                "price_precision": 8,
+                "state": "enabled"
+            },
+            {
+                "id": "btcusd",
+                "name": "BTC/USD",
+                "base_unit": "btc",
+                "quote_unit": "usd",
+                "min_price": "0.0001",
+                "max_price": "0.0",
+                "min_amount": "0.0001",
+                "amount_precision": 8,
+                "price_precision": 8,
+                "state": "enabled"
+            },
+            {
+                "id": "ethusd",
+                "name": "ETH/USD",
+                "base_unit": "eth",
+                "quote_unit": "usd",
+                "min_price": "0.01",
+                "max_price": "0.0",
+                "min_amount": "0.00001",
+                "amount_precision": 8,
+                "price_precision": 8,
+                "state": "enabled"
+            },
+            {
+                "id": "ethbtc",
+                "name": "ETH/BTC",
+                "base_unit": "eth",
+                "quote_unit": "btc",
+                "min_price": "0.0001",
+                "max_price": "0.0",
+                "min_amount": "0.0001",
+                "amount_precision": 8,
+                "price_precision": 8,
+                "state": "enabled"
+            },
+            {
+                "id": "bchusd",
+                "name": "BCH/USD",
+                "base_unit": "bch",
+                "quote_unit": "usd",
+                "min_price": "0.01",
+                "max_price": "0.0",
+                "min_amount": "0.0001",
+                "amount_precision": 8,
+                "price_precision": 8,
+                "state": "enabled"
+            },
+            {
+                "id": "dashusd",
+                "name": "DASH/USD",
+                "base_unit": "dash",
+                "quote_unit": "usd",
+                "min_price": "0.01",
+                "max_price": "0.0",
+                "min_amount": "0.0001",
+                "amount_precision": 8,
+                "price_precision": 8,
+                "state": "enabled"
+            },
+            {
+                "id": "ltcusd",
+                "name": "LTC/USD",
+                "base_unit": "ltc",
+                "quote_unit": "usd",
+                "min_price": "0.01",
+                "max_price": "0.0",
+                "min_amount": "0.0001",
+                "amount_precision": 8,
+                "price_precision": 8,
+                "state": "enabled"
+            },
+            {
+                "id": "xrpusd",
+                "name": "XRP/USD",
+                "base_unit": "xrp",
+                "quote_unit": "usd",
+                "min_price": "0.01",
+                "max_price": "0.0",
+                "min_amount": "0.0001",
+                "amount_precision": 8,
+                "price_precision": 8,
+                "state": "enabled"
+            },
+            {
+                "id": "zecusd",
+                "name": "ZEC/USD",
+                "base_unit": "zec",
+                "quote_unit": "usd",
+                "min_price": "0.01",
+                "max_price": "0.0",
+                "min_amount": "0.0001",
+                "amount_precision": 8,
+                "price_precision": 8,
+                "state": "enabled"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Fri, 22 Jan 2021 20:13:19 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Set-Cookie",
+            "__cfduid=d9c1264b2debd028537257802892ee9961611346398; expires=Sun, 21-Feb-21 20:13:18 GMT; path=/; domain=.b4uwallet.com; HttpOnly; SameSite=Lax; Secure",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Etag",
+            "W/\"bc89a6f73bd0959056cc21ec642eeeb3\"",
+            "Page",
+            "1",
+            "Per-Page",
+            "100",
+            "Total",
+            "9",
+            "Vary",
+            "Origin",
+            "X-Envoy-Upstream-Service-Time",
+            "13",
+            "X-Request-Id",
+            "1d28556d-b842-4b07-a9b2-2bea45bd59e6",
+            "X-Runtime",
+            "0.009791",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "07cd53e3a50000913f83a9a000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=39Z0j9TONtfWLRFMMq%2FHEkDgdvzx2255JEWrvr4znELon3Qrl5wTxYeKfZj4Dx5%2FVyoKIISg3UX%2FOR9cJqQSTumDRQ5FfmY6bgKmsAv2cMccjsf0akI%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://ewallet.b4uwallet.com:443",
+        "method": "GET",
+        "path": "/api/v2/peatio/public/markets/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "rscusd": {
+                "at": 1611346400,
+                "ticker": {
+                    "buy": "2.2665",
+                    "sell": "4.2",
+                    "low": "2.0",
+                    "high": "4.2",
+                    "open": 3.6025,
+                    "last": "3.4954",
+                    "volume": "2265150.57",
+                    "avg_price": "3.335603341326223624948693808",
+                    "price_change_percent": "-2.97%",
+                    "vol": "2265150.57"
+                }
+            },
+            "btcusd": {
+                "at": 1611346400,
+                "ticker": {
+                    "buy": "32496.65",
+                    "sell": "33130.15",
+                    "low": "31254.0",
+                    "high": "34900.0",
+                    "open": 34900,
+                    "last": "32934.78",
+                    "volume": "1701.222342",
+                    "avg_price": "32138.539635134518001762758415501693428853",
+                    "price_change_percent": "-5.63%",
+                    "vol": "1701.222342"
+                }
+            },
+            "ethusd": {
+                "at": 1611346400,
+                "ticker": {
+                    "buy": "1224.15",
+                    "sell": "1268.2",
+                    "low": "1158.0",
+                    "high": "1300.86",
+                    "open": 1300.86,
+                    "last": "1268.2",
+                    "volume": "24922.05534",
+                    "avg_price": "1217.409472574560639246316192379",
+                    "price_change_percent": "-2.51%",
+                    "vol": "24922.05534"
+                }
+            },
+            "ethbtc": {
+                "at": 1611346400,
+                "ticker": {
+                    "buy": "0.037562",
+                    "sell": "0.038623",
+                    "low": "0.035668",
+                    "high": "0.03923",
+                    "open": 0.037576,
+                    "last": "0.037562",
+                    "volume": "26192.258",
+                    "avg_price": "0.037944130031477240335674763",
+                    "price_change_percent": "-0.04%",
+                    "vol": "26192.258"
+                }
+            },
+            "bchusd": {
+                "at": 1611346400,
+                "ticker": {
+                    "buy": "398.0",
+                    "sell": "481.52",
+                    "low": "375.0",
+                    "high": "481.52",
+                    "open": 480.49,
+                    "last": "444.11",
+                    "volume": "44908.60366",
+                    "avg_price": "430.210549204875901501142331443",
+                    "price_change_percent": "-7.57%",
+                    "vol": "44908.60366"
+                }
+            },
+            "dashusd": {
+                "at": 1611346400,
+                "ticker": {
+                    "buy": "91.54",
+                    "sell": "117.49",
+                    "low": "58.34",
+                    "high": "121.36",
+                    "open": 113.95,
+                    "last": "91.54",
+                    "volume": "73743.39088",
+                    "avg_price": "99.580131318149117365349988907",
+                    "price_change_percent": "-19.67%",
+                    "vol": "73743.39088"
+                }
+            },
+            "ltcusd": {
+                "at": 1611346400,
+                "ticker": {
+                    "buy": "127.15",
+                    "sell": "150.0",
+                    "low": "125.66",
+                    "high": "150.0",
+                    "open": 143.42,
+                    "last": "139.4",
+                    "volume": "194610.40678",
+                    "avg_price": "139.150879291408056323060731234",
+                    "price_change_percent": "-2.80%",
+                    "vol": "194610.40678"
+                }
+            },
+            "xrpusd": {
+                "at": 1611346400,
+                "ticker": {
+                    "buy": "0.25278",
+                    "sell": "0.2899",
+                    "low": "0.24666",
+                    "high": "0.29566",
+                    "open": 0.29566,
+                    "last": "0.27408",
+                    "volume": "69111090.7",
+                    "avg_price": "0.268702354269196911979859696",
+                    "price_change_percent": "-7.30%",
+                    "vol": "69111090.7"
+                }
+            },
+            "zecusd": {
+                "at": 1611346400,
+                "ticker": {
+                    "buy": "86.0",
+                    "sell": "112.54",
+                    "low": "50.0",
+                    "high": "112.54",
+                    "open": 94.42,
+                    "last": "88.8",
+                    "volume": "138296.5514",
+                    "avg_price": "83.99260053429286017612149944",
+                    "price_change_percent": "-5.95%",
+                    "vol": "138296.5514"
+                }
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 22 Jan 2021 20:13:20 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "Etag",
+            "W/\"1766542dfbb88fa0c11a0e75f9f4dd72\"",
+            "Vary",
+            "Origin",
+            "X-Envoy-Upstream-Service-Time",
+            "36",
+            "X-Request-Id",
+            "8b14c0f5-760a-4f5c-aa43-b7bed154b12a",
+            "X-Runtime",
+            "0.029874",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "cf-request-id",
+            "07cd53e9400000913f82b98000000001",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=wUj8M6F81u56JLQhlT2JCjSK0tPnJxP%2BzuPN95q1mDZFx%2FdVDufwqqzgi5QI0J8T1Ltodwd9kfyVg%2BbHyIN3qMk9upwRa0kvYO2bVwu5Ekyc7YS8zno%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
