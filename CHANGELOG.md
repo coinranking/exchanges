@@ -1,3 +1,10 @@
+## [3.42.1](https://github.com/coinranking/exchanges/compare/v3.42.0...v3.42.1) (2021-01-27)
+
+
+### Bug Fixes
+
+* the base volume was actually the quote volume ([5af1757](https://github.com/coinranking/exchanges/commit/5af17577dbdb9100aa7355af44772e315fab0751))
+
 # [3.42.0](https://github.com/coinranking/exchanges/compare/v3.41.0...v3.42.0) (2021-01-27)
 
 
