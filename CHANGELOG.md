@@ -1,3 +1,15 @@
+# [3.42.0](https://github.com/coinranking/exchanges/compare/v3.41.0...v3.42.0) (2021-01-27)
+
+
+### Bug Fixes
+
+* remove unnecessary condition inside gateio driver ([af262da](https://github.com/coinranking/exchanges/commit/af262da17a1ad7db6d81c600e40b8000d1e3cb9b))
+
+
+### Features
+
+* gateio driver updates to new url ([8f4ee73](https://github.com/coinranking/exchanges/commit/8f4ee73ac59be051688d3f19c1979e100ebeff30))
+
 # [3.41.0](https://github.com/coinranking/exchanges/compare/v3.40.0...v3.41.0) (2021-01-27)
 
 
