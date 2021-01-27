@@ -1,3 +1,10 @@
+# [3.41.0](https://github.com/coinranking/exchanges/compare/v3.40.0...v3.41.0) (2021-01-27)
+
+
+### Features
+
+* b4u driver ([5665568](https://github.com/coinranking/exchanges/commit/566556842c330c783c5e31f8f8b443b2f4519caa))
+
 # [3.40.0](https://github.com/coinranking/exchanges/compare/v3.39.0...v3.40.0) (2021-01-27)
 
 
