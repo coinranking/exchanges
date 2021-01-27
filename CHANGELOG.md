@@ -1,3 +1,12 @@
+# [3.40.0](https://github.com/coinranking/exchanges/compare/v3.39.0...v3.40.0) (2021-01-27)
+
+
+### Features
+
+* btcsquare driver ([a6b4022](https://github.com/coinranking/exchanges/commit/a6b40221b4e1e6a33d9abce0a17932b45d3cf747))
+* fix btcsquare export name ([a23b723](https://github.com/coinranking/exchanges/commit/a23b72360be88f9b165c0da170a41c8357504546))
+* triunits driver ([3267d6b](https://github.com/coinranking/exchanges/commit/3267d6b97ad9a2d73bc7f90b31615293eb9f4c56))
+
 # [3.39.0](https://github.com/coinranking/exchanges/compare/v3.38.0...v3.39.0) (2020-12-23)
 
 
