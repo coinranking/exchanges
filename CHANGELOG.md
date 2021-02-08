@@ -1,3 +1,38 @@
+## [3.42.1](https://github.com/coinranking/exchanges/compare/v3.42.0...v3.42.1) (2021-01-27)
+
+
+### Bug Fixes
+
+* the base volume was actually the quote volume ([5af1757](https://github.com/coinranking/exchanges/commit/5af17577dbdb9100aa7355af44772e315fab0751))
+
+# [3.42.0](https://github.com/coinranking/exchanges/compare/v3.41.0...v3.42.0) (2021-01-27)
+
+
+### Bug Fixes
+
+* remove unnecessary condition inside gateio driver ([af262da](https://github.com/coinranking/exchanges/commit/af262da17a1ad7db6d81c600e40b8000d1e3cb9b))
+
+
+### Features
+
+* gateio driver updates to new url ([8f4ee73](https://github.com/coinranking/exchanges/commit/8f4ee73ac59be051688d3f19c1979e100ebeff30))
+
+# [3.41.0](https://github.com/coinranking/exchanges/compare/v3.40.0...v3.41.0) (2021-01-27)
+
+
+### Features
+
+* b4u driver ([5665568](https://github.com/coinranking/exchanges/commit/566556842c330c783c5e31f8f8b443b2f4519caa))
+
+# [3.40.0](https://github.com/coinranking/exchanges/compare/v3.39.0...v3.40.0) (2021-01-27)
+
+
+### Features
+
+* btcsquare driver ([a6b4022](https://github.com/coinranking/exchanges/commit/a6b40221b4e1e6a33d9abce0a17932b45d3cf747))
+* fix btcsquare export name ([a23b723](https://github.com/coinranking/exchanges/commit/a23b72360be88f9b165c0da170a41c8357504546))
+* triunits driver ([3267d6b](https://github.com/coinranking/exchanges/commit/3267d6b97ad9a2d73bc7f90b31615293eb9f4c56))
+
 # [3.39.0](https://github.com/coinranking/exchanges/compare/v3.38.0...v3.39.0) (2020-12-23)
 
 

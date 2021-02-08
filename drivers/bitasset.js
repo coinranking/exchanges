@@ -28,7 +28,7 @@ class Bitasset extends Driver {
         high: parseToFloat(ticker.high24hr),
         low: parseToFloat(ticker.low24hr),
         close: parseToFloat(ticker.lastPrice),
-        baseVolume: parseToFloat(ticker.volume24hr),
+        quoteVolume: parseToFloat(ticker.volume24hr),
       });
     });
   }
