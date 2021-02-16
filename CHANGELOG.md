@@ -1,3 +1,10 @@
+# [3.44.0](https://github.com/coinranking/exchanges/compare/v3.43.0...v3.44.0) (2021-02-16)
+
+
+### Features
+
+* buyUcoin driver ([5942635](https://github.com/coinranking/exchanges/commit/594263580ca95676beba37d10b52d28cd027e00d))
+
 # [3.43.0](https://github.com/coinranking/exchanges/compare/v3.42.1...v3.43.0) (2021-02-16)
 
 
