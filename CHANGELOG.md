@@ -1,3 +1,10 @@
+# [3.43.0](https://github.com/coinranking/exchanges/compare/v3.42.1...v3.43.0) (2021-02-16)
+
+
+### Features
+
+* bitwired driver ([4c745e2](https://github.com/coinranking/exchanges/commit/4c745e216a2dc8e66cb13da19869d6aa71f28094))
+
 ## [3.42.1](https://github.com/coinranking/exchanges/compare/v3.42.0...v3.42.1) (2021-01-27)
 
 
