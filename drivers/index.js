@@ -90,6 +90,7 @@ exports.Btctradeua = require('./btctradeua');
 exports.Btcturk = require('./btcturk');
 exports.Btse = require('./btse');
 exports.Buda = require('./buda');
+exports.Buyucoin = require('./buyucoin');
 exports.Bw = require('./bw');
 exports.Bxinth = require('./bxinth');
 exports.Cashfinex = require('./cashfinex');
