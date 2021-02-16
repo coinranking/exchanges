@@ -1,3 +1,11 @@
+# [3.45.0](https://github.com/coinranking/exchanges/compare/v3.44.0...v3.45.0) (2021-02-16)
+
+
+### Features
+
+* bitwired driver ([2425384](https://github.com/coinranking/exchanges/commit/2425384b3e78fd80faebfe038fe9eb03e3cfa99f))
+* polonidex driver ([1573dd9](https://github.com/coinranking/exchanges/commit/1573dd9592f49198cd8e9050c106d3d7ebad01e3))
+
 # [3.44.0](https://github.com/coinranking/exchanges/compare/v3.43.0...v3.44.0) (2021-02-16)
 
 
