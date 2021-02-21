@@ -107,6 +107,7 @@ exports.Codex = require('./codex');
 exports.Coinall = require('./coinall');
 exports.Coinbasepro = require('./coinbasepro');
 exports.Coinbene = require('./coinbene');
+exports.Coinbig = require('./coinbig');
 exports.Coinbit = require('./coinbit');
 exports.Coincheck = require('./coincheck');
 exports.Coindcx = require('./coindcx');
