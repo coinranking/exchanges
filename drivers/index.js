@@ -160,6 +160,7 @@ exports.Exmarkets = require('./exmarkets');
 exports.Exmo = require('./exmo');
 exports.Exnce = require('./exnce');
 exports.Exrates = require('./exrates');
+exports.Exscudo = require('./exscudo');
 exports.Extstock = require('./extstock');
 exports.Exx = require('./exx');
 exports.Fatbtc = require('./fatbtc');
