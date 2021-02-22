@@ -1,3 +1,10 @@
+# [3.47.0](https://github.com/coinranking/exchanges/compare/v3.46.0...v3.47.0) (2021-02-22)
+
+
+### Features
+
+* untited driver ([03f6cdd](https://github.com/coinranking/exchanges/commit/03f6cdde536b2181dbe105261b26afa14a1f589f))
+
 # [3.46.0](https://github.com/coinranking/exchanges/compare/v3.45.0...v3.46.0) (2021-02-22)
 
 
