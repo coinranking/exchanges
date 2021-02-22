@@ -242,6 +242,7 @@ exports.Openledger = require('./openledger');
 exports.Orebz = require('./orebz');
 exports.Ovex = require('./ovex');
 exports.P2pb2b = require('./p2pb2b');
+exports.Pancakeswap = require('./pancakeswap');
 exports.Paribu = require('./paribu');
 exports.Parsxc = require('./parsxc');
 exports.Paycml = require('./paycml');
