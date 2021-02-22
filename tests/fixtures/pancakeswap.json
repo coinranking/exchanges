@@ -2762,16 +2762,6 @@
                     "quote_volume_24_h": 14105.377282382235
                 },
                 {
-                    "swap_pair_contract": "0x2ffc00d0ED6D718826AAF1C3aD0AbB3783727d6b",
-                    "base_symbol": "REX",
-                    "base_address": "0x9bCcaD20c95233bfFb356D69482560120060827a",
-                    "quote_symbol": "BUSD",
-                    "quote_address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
-                    "last_price": 0.5762832679682552,
-                    "base_volume_24_h": 63157.60983407637,
-                    "quote_volume_24_h": 123801.96659154836
-                },
-                {
                     "swap_pair_contract": "0xc33623fdcF7e7eA0aF3FAd8714Fd1ED0DF3bad0a",
                     "base_symbol": "bSkyRFI",
                     "base_address": "0x55494dB330F9F1bc062cBB97882A87C698120EFc",
