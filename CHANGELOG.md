@@ -1,3 +1,15 @@
+# [3.46.0](https://github.com/coinranking/exchanges/compare/v3.45.0...v3.46.0) (2021-02-22)
+
+
+### Bug Fixes
+
+* update the fixture so the test passes ([ed5199c](https://github.com/coinranking/exchanges/commit/ed5199c5d40dc3c4753161223bdb9111aa925a8e))
+
+
+### Features
+
+* pancakeswap ([8294e99](https://github.com/coinranking/exchanges/commit/8294e993df826a04f3ab92ce4fe3706f1a4c5348))
+
 # [3.45.0](https://github.com/coinranking/exchanges/compare/v3.44.0...v3.45.0) (2021-02-16)
 
 
