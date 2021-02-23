@@ -34,7 +34,8 @@ class Exscudo extends Driver {
         open: parseToFloat(ticker.openPrice),
         bid: parseToFloat(ticker.bid),
         ask: parseToFloat(ticker.ask),
-        baseVolume: parseToFloat(ticker.volume),
+        baseVolume: parseToFloat(ticker.rolling24HoursVolume),
+        quoteVolume: parseToFloat(ticker.rolling24HoursQuoteVolume),
       });
     });
   }
