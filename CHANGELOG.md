@@ -1,3 +1,10 @@
+# [3.48.0](https://github.com/coinranking/exchanges/compare/v3.47.0...v3.48.0) (2021-02-23)
+
+
+### Features
+
+* chainex driver ([a448105](https://github.com/coinranking/exchanges/commit/a448105586746c05ec9364aa832379cefc6326fd))
+
 # [3.47.0](https://github.com/coinranking/exchanges/compare/v3.46.0...v3.47.0) (2021-02-22)
 
 
