@@ -239,6 +239,7 @@ exports.Novadex = require('./novadex');
 exports.Oceanex = require('./oceanex');
 exports.Okcoin = require('./okcoin');
 exports.Okex = require('./okex');
+exports.Omgfin = require('./omgfin');
 exports.Openledger = require('./openledger');
 exports.Orebz = require('./orebz');
 exports.Ovex = require('./ovex');
