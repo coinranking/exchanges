@@ -1,3 +1,10 @@
+# [3.50.0](https://github.com/coinranking/exchanges/compare/v3.49.0...v3.50.0) (2021-02-23)
+
+
+### Features
+
+* coinbig driver ([c63f9b7](https://github.com/coinranking/exchanges/commit/c63f9b79d93bbcb70c6625f955623dd6627519b9))
+
 # [3.49.0](https://github.com/coinranking/exchanges/compare/v3.48.0...v3.49.0) (2021-02-23)
 
 
