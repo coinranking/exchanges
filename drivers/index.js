@@ -100,6 +100,7 @@ exports.Cbx = require('./cbx');
 exports.Ccryptoex = require('./ccryptoex');
 exports.Ccxcanada = require('./ccxcanada');
 exports.Cex = require('./cex');
+exports.Chainex = require('./chainex');
 exports.Changellypro = require('./changellypro');
 exports.Citex = require('./citex');
 exports.Cobinhood = require('./cobinhood');
