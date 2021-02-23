@@ -1,3 +1,10 @@
+# [3.49.0](https://github.com/coinranking/exchanges/compare/v3.48.0...v3.49.0) (2021-02-23)
+
+
+### Features
+
+* omgfin driver ([726f60a](https://github.com/coinranking/exchanges/commit/726f60a7f74ad8db72ab2f2842c63ddfb5737021))
+
 # [3.48.0](https://github.com/coinranking/exchanges/compare/v3.47.0...v3.48.0) (2021-02-23)
 
 
