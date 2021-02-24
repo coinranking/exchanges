@@ -1,3 +1,15 @@
+# [3.51.0](https://github.com/coinranking/exchanges/compare/v3.50.0...v3.51.0) (2021-02-24)
+
+
+### Bug Fixes
+
+* exscudo change base and quote volume ([7e1d12d](https://github.com/coinranking/exchanges/commit/7e1d12d0d96aa3ec5d07afdbce78f5fdc48e8c8a))
+
+
+### Features
+
+* exscudo driver ([23f1203](https://github.com/coinranking/exchanges/commit/23f120347923f0f7b64667db6102cbf8ccdd66b0))
+
 # [3.50.0](https://github.com/coinranking/exchanges/compare/v3.49.0...v3.50.0) (2021-02-23)
 
 
