@@ -13,20 +13,20 @@ class Dexzbitz extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const markets = await request('https://dexzbitz.live/api/public?command=returnTicker');
+    const { data: { market: tickers } } = await request('https://dexzbitz.live/Api/Index/marketInfo');
 
-    return Object.keys(markets).map((market) => {
-      const [base, quote] = market.split('_');
-      const ticker = markets[market];
+    return tickers.map((ticker) => {
+      const [base, quote] = ticker.ticker.split('_');
 
       return new Ticker({
         base,
         quote,
-        high: parseToFloat(ticker.high24hr),
-        low: parseToFloat(ticker.low24hr),
-        close: parseToFloat(ticker.last),
-        baseVolume: parseToFloat(ticker.coinVolume), // reversed with quote volume
-        quoteVolume: parseToFloat(ticker.baseVolume),
+        high: parseToFloat(ticker['24hHigh']),
+        low: parseToFloat(ticker['24hlaw']),
+        close: parseToFloat(ticker.lastprice),
+        bid: parseToFloat(ticker.buy_price),
+        ask: parseToFloat(ticker.sell_price),
+        baseVolume: parseToFloat(ticker.volume),
       });
     });
   }
