@@ -1,3 +1,10 @@
+# [3.52.0](https://github.com/coinranking/exchanges/compare/v3.51.0...v3.52.0) (2021-03-02)
+
+
+### Features
+
+* update dexzbit driver ([b63d7bb](https://github.com/coinranking/exchanges/commit/b63d7bb3376c12e8655384ba60484e4dcfcf3242))
+
 # [3.51.0](https://github.com/coinranking/exchanges/compare/v3.50.0...v3.51.0) (2021-02-24)
 
 
