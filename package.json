@@ -73,7 +73,7 @@
     "jsdoc": "^3.6.6",
     "jsdoc-to-markdown": "^7.0.0",
     "nock": "^13.0.10",
-    "semantic-release": "^17.4.0"
+    "semantic-release": "^17.4.1"
   },
   "config": {
     "commitizen": {
