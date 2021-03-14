@@ -313,6 +313,7 @@ exports.Whitebit = require('./whitebit');
 exports.Wtzex = require('./wtzex');
 exports.Xbtpro = require('./xbtpro');
 exports.Xbts = require('./xbts');
+exports.Yobit = require('./yobit');
 exports.Yoobtc = require('./yoobtc');
 exports.Zaif = require('./zaif');
 exports.Zb = require('./zb');
