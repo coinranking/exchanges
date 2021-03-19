@@ -1,6 +1,6 @@
 {
   "name": "@coinranking/exchanges",
-  "version": "3.52.0",
+  "version": "3.52.1",
   "description": "An open source JavaScript library for fetching tickers from cryptocurrency exchanges",
   "main": "lib/exchanges.js",
   "engines": {

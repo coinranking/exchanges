@@ -1,3 +1,10 @@
+## [3.52.1](https://github.com/coinranking/exchanges/compare/v3.52.0...v3.52.1) (2021-03-19)
+
+
+### Bug Fixes
+
+* volume for Coindcx ([494fea0](https://github.com/coinranking/exchanges/commit/494fea09099ba345fc101fe9116b2dbe5d241e6b))
+
 # [3.52.0](https://github.com/coinranking/exchanges/compare/v3.51.0...v3.52.0) (2021-03-02)
 
 
