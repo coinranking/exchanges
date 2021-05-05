@@ -30,6 +30,7 @@ exports.Bibull = require('./bibull');
 exports.Bigone = require('./bigone');
 exports.Bihodl = require('./bihodl');
 exports.Biki = require('./biki');
+exports.Bilaxy = require('./bilaxy');
 exports.Binance = require('./binance');
 exports.Binancedex = require('./binancedex');
 exports.Bisq = require('./bisq');
