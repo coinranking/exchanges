@@ -1,3 +1,10 @@
+# [3.53.0](https://github.com/coinranking/exchanges/compare/v3.52.1...v3.53.0) (2021-05-05)
+
+
+### Features
+
+* bilaxy driver ([b7ba904](https://github.com/coinranking/exchanges/commit/b7ba9043a34eff9f68c904a499ad1d7fb376106f))
+
 ## [3.52.1](https://github.com/coinranking/exchanges/compare/v3.52.0...v3.52.1) (2021-03-19)
 
 
