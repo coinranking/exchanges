@@ -1,3 +1,10 @@
+## [3.53.1](https://github.com/coinranking/exchanges/compare/v3.53.0...v3.53.1) (2021-05-11)
+
+
+### Bug Fixes
+
+* **throttle:** first request is also throttled ([1008122](https://github.com/coinranking/exchanges/commit/1008122cb01e2799fee4c0e4f9dcee5eab81efd4))
+
 # [3.53.0](https://github.com/coinranking/exchanges/compare/v3.52.1...v3.53.0) (2021-05-05)
 
 
