@@ -13,25 +13,31 @@ class Binance extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://api.binance.com/api/v1/ticker/24hr');
+    const { symbols: markets } = await request('https://api.binance.com/api/v3/exchangeInfo');
+    const tickers = await request('https://api.binance.com/api/v3/ticker/24hr');
 
-    return tickers.map((ticker) => {
-      const pairs = /^([A-Z]*)(BNB|BTC|ETH|XRP|USDT|PAX|TUSD|USDC|USDS)$/.exec(ticker.symbol);
-      if (!pairs) return undefined;
-      const [, base, quote] = pairs;
+    return markets
+      .filter((market) => market.status === 'TRADING' && market.isSpotTradingAllowed === true)
+      .map((market) => {
+        const base = market.baseAsset;
+        const quote = market.quoteAsset;
+        const ticker = tickers.find((item) => item.symbol === market.symbol);
+        if (!ticker) return undefined;
 
-      return new Ticker({
-        base,
-        quote,
-        quoteVolume: parseToFloat(ticker.quoteVolume),
-        baseVolume: parseToFloat(ticker.volume),
-        close: parseToFloat(ticker.lastPrice),
-        open: parseToFloat(ticker.openPrice),
-        high: parseToFloat(ticker.highPrice),
-        low: parseToFloat(ticker.lowPrice),
-        vwap: parseToFloat(ticker.weightedAvgPrice),
+        return new Ticker({
+          base,
+          quote,
+          quoteVolume: parseToFloat(ticker.quoteVolume),
+          baseVolume: parseToFloat(ticker.volume),
+          close: parseToFloat(ticker.lastPrice),
+          open: parseToFloat(ticker.openPrice),
+          high: parseToFloat(ticker.highPrice),
+          low: parseToFloat(ticker.lowPrice),
+          ask: parseToFloat(ticker.askPrice),
+          bid: parseToFloat(ticker.bidPrice),
+          vwap: parseToFloat(ticker.weightedAvgPrice),
+        });
       });
-    });
   }
 }
 
