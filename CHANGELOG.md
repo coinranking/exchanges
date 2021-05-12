@@ -1,3 +1,10 @@
+# [3.54.0](https://github.com/coinranking/exchanges/compare/v3.53.1...v3.54.0) (2021-05-12)
+
+
+### Features
+
+* **binance:** update to v3 and filter markets that are not traded ([0be9184](https://github.com/coinranking/exchanges/commit/0be9184cd32888960558cb8fc08fcb42c5fbd88d))
+
 ## [3.53.1](https://github.com/coinranking/exchanges/compare/v3.53.0...v3.53.1) (2021-05-11)
 
 
