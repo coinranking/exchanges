@@ -1,3 +1,11 @@
+# [3.55.0](https://github.com/coinranking/exchanges/compare/v3.54.0...v3.55.0) (2021-05-14)
+
+
+### Features
+
+* add ticker details compound driver ([038f972](https://github.com/coinranking/exchanges/commit/038f97246cfebfdcd7834a1bb7b1d12cd8302cfc))
+* compound driver ([43e92ea](https://github.com/coinranking/exchanges/commit/43e92ea990233cca3147d92cd9a67304d38298ea))
+
 # [3.54.0](https://github.com/coinranking/exchanges/compare/v3.53.1...v3.54.0) (2021-05-12)
 
 
