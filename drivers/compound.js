@@ -44,7 +44,11 @@ class Compound extends Driver {
 
       return new Ticker({
         base: ticker.symbol,
+        baseName: ticker.name,
+        baseReference: ticker.token_address,
         quote: ticker.underlying_symbol,
+        quoteName: ticker.underlying_name,
+        quoteReference: ticker.underlying_address,
         close: parseToFloat(ticker.exchange_rate.value),
         baseVolume: Math.abs(parseToFloat(ticker.total_supply.value) - previousVolume),
       });
