@@ -13,17 +13,23 @@ class Pancakeswap extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { trade_pairs: tickers } = await request('https://api.pancakeswap.com/api/v1/stat');
+    const { data: tickers } = await request('https://api.pancakeswap.info/api/pairs');
 
-    return tickers.map((ticker) => new Ticker({
-      base: ticker.base_symbol,
-      baseReference: ticker.base_address,
-      quote: ticker.quote_symbol,
-      quoteReference: ticker.quote_address,
-      close: parseToFloat(ticker.last_price),
-      baseVolume: parseToFloat(ticker.base_volume_24_h),
-      quoteVolume: parseToFloat(ticker.quote_volume_24_h),
-    }));
+    return Object.keys(tickers).map((key) => {
+      const ticker = tickers[key];
+
+      return new Ticker({
+        base: ticker.base_symbol,
+        baseName: ticker.base_name,
+        baseReference: ticker.base_address,
+        quote: ticker.quote_symbol,
+        quoteName: ticker.quote_name,
+        quoteReference: ticker.quote_address,
+        close: parseToFloat(ticker.price),
+        baseVolume: parseToFloat(ticker.base_volume),
+        quoteVolume: parseToFloat(ticker.quote_volume),
+      });
+    });
   }
 }
 
