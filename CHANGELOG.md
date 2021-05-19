@@ -1,3 +1,11 @@
+# [3.56.0](https://github.com/coinranking/exchanges/compare/v3.55.0...v3.56.0) (2021-05-19)
+
+
+### Features
+
+* Pancakeswap v2 driver ([0dea727](https://github.com/coinranking/exchanges/commit/0dea7274a3ab45848c6b93c72bcaf5ea6a65b781))
+* update Pancakeswap driver ([4bd89a6](https://github.com/coinranking/exchanges/commit/4bd89a6226d7550229c5befcd3037c962bf81acd))
+
 # [3.55.0](https://github.com/coinranking/exchanges/compare/v3.54.0...v3.55.0) (2021-05-14)
 
 
