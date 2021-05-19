@@ -1,7 +1,7 @@
 const Driver = require('../models/driver');
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
-const { flatMap, parseToFloat } = require('../lib/utils.js');
+const { flatMap, parseToFloat } = require('../lib/utils');
 
 /**
  * @memberof Driver

@@ -3,7 +3,6 @@ const Ticker = require('./ticker');
 /**
  * @namespace Driver
  * @class
- *
  * @param {object} config - An object holding the configuration
  * @param {object} config.requires
  *   An object with settings that a driver requires

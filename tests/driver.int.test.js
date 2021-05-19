@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { nock } = require('./helpers/nock.js');
+const { nock } = require('./helpers/nock');
 const { isUndefined, isGreaterThanZero } = require('../lib/utils');
 const drivers = require('../drivers');
 
