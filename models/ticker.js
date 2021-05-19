@@ -3,7 +3,6 @@
  *
  * @namespace Ticker
  * @class
- *
  * @param {object} params - The params
  * @param {string} params.base - Base
  * @param {string} [params.baseName] -
@@ -42,7 +41,6 @@
  * The volume traded in the last 24 hours in the quote currency.
  * Which is BTC in the ETH_BTC pair for example.
  * Quote volume is only optional if base volume is provided.
- *
  * @example
  * const ticker = new Ticker({
  *   base: 'ETH',

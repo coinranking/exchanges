@@ -2,7 +2,7 @@ const tls = require('tls');
 const Driver = require('../models/driver');
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
-const { parseToFloat } = require('../lib/utils.js');
+const { parseToFloat } = require('../lib/utils');
 
 // Solves HTTPS errors
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
