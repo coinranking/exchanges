@@ -322,5 +322,5 @@ exports.Zb = require('./zb');
 exports.Zbg = require('./zbg');
 exports.Zeroex = require('./zeroex');
 exports.Zloadr = require('./zloadr');
-exports.Zt = require('./zt'); 
+exports.Zt = require('./zt');
 exports.NutMoney = require('./nutmoney');
