@@ -240,6 +240,7 @@ exports.Newcapital = require('./newcapital');
 exports.Nocks = require('./nocks');
 exports.Nominex = require('./nominex');
 exports.Novadex = require('./novadex');
+exports.Nutmoney = require('./nutmoney');
 exports.Oceanex = require('./oceanex');
 exports.Okcoin = require('./okcoin');
 exports.Okex = require('./okex');
@@ -323,4 +324,4 @@ exports.Zbg = require('./zbg');
 exports.Zeroex = require('./zeroex');
 exports.Zloadr = require('./zloadr');
 exports.Zt = require('./zt');
-exports.Nutmoney = require('./nutmoney');
+
