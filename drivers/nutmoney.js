@@ -16,20 +16,21 @@ class Nutmoney extends Driver {
 
     return Object.keys(tickers).map((key) => {
       const ticker = tickers[key];
-
-      return new Ticker({
-        base: ticker.base_symbol,
-        baseName: ticker.base_name,
-        baseReference: ticker.base_address,
-        quote: ticker.quote_symbol,
-        quoteName: ticker.quote_name,
-        quoteReference: ticker.quote_address,
-        close: parseToFloat(ticker.price),
-        baseVolume: parseToFloat(ticker.base_volume),
-        quoteVolume: parseToFloat(ticker.quote_volume),
-      });
+	  return new Ticker({
+		base: ticker.base_symbol,
+		baseName: ticker.base_name,
+		baseReference: ticker.base_address,
+		quote: ticker.quote_symbol,
+		quoteName: ticker.quote_name,
+		quoteReference: ticker.quote_address,
+		close: parseToFloat(ticker.price),
+		baseVolume: parseToFloat(ticker.base_volume),
+		quoteVolume: parseToFloat(ticker.quote_volume),
+	  });
+		
     });
   }
 }
 
 module.exports = Nutmoney;
+ 
