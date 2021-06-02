@@ -12,7 +12,7 @@ class Nutmoney extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('https://data.nut.money/api/pairs');
+    const { data: tickers } = await request('https://nutmoney-api-2h32noc6d-nutmoneydefi.vercel.app/api/pairs');
 
     return Object.keys(tickers).map((key) => {
       const ticker = tickers[key];
