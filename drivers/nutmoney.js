@@ -13,7 +13,6 @@ class Nutmoney extends Driver {
    */
   async fetchTickers() {
     const { data: tickers } = await request('https://nutmoney-api-2h32noc6d-nutmoneydefi.vercel.app/api/pairs');
-
     return Object.keys(tickers).map((key) => {
       const ticker = tickers[key];
 	  return new Ticker({
