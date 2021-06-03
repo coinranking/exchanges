@@ -15,14 +15,14 @@ class Thorchain extends Driver {
     const pools = await request('https://midgard.thorchain.info/v2/pools?status=available');
 
     return pools.map((pool) => {
-      const [, base, baseReference] = pool.asset.split(/[.-]/);
+      const [base, baseReference] = pool.asset.split('-');
 
       return new Ticker({
         base,
         baseReference,
         quote: 'RUNE',
         close: pool.assetPrice,
-        quoteVolume: pool.volume24h,
+        quoteVolume: pool.volume24h / (10 ** 8),
       });
     });
   }
