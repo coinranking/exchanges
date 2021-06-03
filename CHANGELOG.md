@@ -1,3 +1,15 @@
+# [3.58.0](https://github.com/coinranking/exchanges/compare/v3.57.0...v3.58.0) (2021-06-03)
+
+
+### Bug Fixes
+
+* fix 1inch driver issues ([0fa2bda](https://github.com/coinranking/exchanges/commit/0fa2bdaff5bb9f0d8f4cf49c0cc52adc53df5e9f))
+
+
+### Features
+
+* 1inch driver ([0743ff1](https://github.com/coinranking/exchanges/commit/0743ff162371f9243438f7d45d5b0006ff23da1c))
+
 # [3.57.0](https://github.com/coinranking/exchanges/compare/v3.56.0...v3.57.0) (2021-06-03)
 
 
