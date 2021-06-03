@@ -1,3 +1,10 @@
+# [3.57.0](https://github.com/coinranking/exchanges/compare/v3.56.0...v3.57.0) (2021-06-03)
+
+
+### Features
+
+* Thorchain driver ([527f466](https://github.com/coinranking/exchanges/commit/527f46636d19d2e9dc1158fff56778fe3d7d4626))
+
 # [3.56.0](https://github.com/coinranking/exchanges/compare/v3.55.0...v3.56.0) (2021-05-19)
 
 
