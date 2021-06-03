@@ -284,6 +284,7 @@ exports.Sushiswap = require('./sushiswap');
 exports.Switcheo = require('./switcheo');
 exports.Tchapp = require('./tchapp');
 exports.Therock = require('./therock');
+exports.Thorchain = require('./thorchain');
 exports.Thoreexchange = require('./thoreexchange');
 exports.Tidebit = require('./tidebit');
 exports.Tidex = require('./tidex');
