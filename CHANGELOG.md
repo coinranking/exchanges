@@ -1,3 +1,10 @@
+## [3.58.1](https://github.com/coinranking/exchanges/compare/v3.58.0...v3.58.1) (2021-06-03)
+
+
+### Bug Fixes
+
+* fix Thorchain driver issues ([4ca0eb2](https://github.com/coinranking/exchanges/commit/4ca0eb2b0484bb0bd4fbebfd3a01e082a6a0cb16))
+
 # [3.58.0](https://github.com/coinranking/exchanges/compare/v3.57.0...v3.58.0) (2021-06-03)
 
 
