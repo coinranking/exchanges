@@ -4,6 +4,7 @@ const Ticker = require('../models/ticker');
 const { parseToFloat } = require('../lib/utils');
 
 /**
+ * @memberof Driver
  * @augments Driver
  */
 class Nutmoney extends Driver {
@@ -37,6 +38,4 @@ class Nutmoney extends Driver {
     });
   }
 }
-
 module.exports = Nutmoney;
- 
