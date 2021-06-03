@@ -64,7 +64,7 @@
     "@semantic-release/git": "^9.0.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.26.0",
+    "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.2",
     "eslint-plugin-jsdoc": "^34.8.2",
