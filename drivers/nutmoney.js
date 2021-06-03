@@ -12,9 +12,16 @@ class Nutmoney extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('http://data.nut.money/api/pairs');
+    const { data: tickers } = await request('https://data.nut.money/api/pairs');
     return Object.keys(tickers).map((key) => {
       const ticker = tickers[key];
+	  
+	   if (
+			parseToFloat(ticker.base_volume) < 0
+      ) return undefined;
+	
+
+
 	  return new Ticker({
 		base: ticker.base_symbol,
 		baseName: ticker.base_name,
