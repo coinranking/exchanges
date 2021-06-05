@@ -17,12 +17,6 @@ class Nutmoney extends Driver {
     return Object.keys(tickers).map((key) => {
       const ticker = tickers[key];
 	  
-	   if (
-			parseToFloat(ticker.base_volume) < 0
-      ) return undefined;
-	
-
-
 	  return new Ticker({
 		base: ticker.base_symbol,
 		baseName: ticker.base_name,
