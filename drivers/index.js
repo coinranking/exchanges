@@ -280,6 +280,7 @@ exports.Sparkdex = require('./sparkdex');
 exports.Squirrex = require('./squirrex');
 exports.Stellarport = require('./stellarport');
 exports.Stex = require('./stex');
+exports.Stormgain = require('./stormgain');
 exports.Surface = require('./surface');
 exports.Sushiswap = require('./sushiswap');
 exports.Switcheo = require('./switcheo');
