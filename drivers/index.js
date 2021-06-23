@@ -283,6 +283,7 @@ exports.Stex = require('./stex');
 exports.Surface = require('./surface');
 exports.Sushiswap = require('./sushiswap');
 exports.Switcheo = require('./switcheo');
+exports.Swopfi = require('./swopfi');
 exports.Tchapp = require('./tchapp');
 exports.Therock = require('./therock');
 exports.Thorchain = require('./thorchain');
