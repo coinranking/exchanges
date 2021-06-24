@@ -25,7 +25,6 @@ class Swopfi extends Driver {
       close: parseToFloat(ticker.last_price),
       baseVolume: parseToFloat(ticker.base_volume),
       quoteVolume: parseToFloat(ticker.quote_volume),
-
     }));
   }
 }
