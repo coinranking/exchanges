@@ -1,3 +1,10 @@
+# [3.59.0](https://github.com/coinranking/exchanges/compare/v3.58.1...v3.59.0) (2021-06-24)
+
+
+### Features
+
+* stormgain driver ([01b4af1](https://github.com/coinranking/exchanges/commit/01b4af1c9f4d7e8f226d893e1025c316becc9378))
+
 ## [3.58.1](https://github.com/coinranking/exchanges/compare/v3.58.0...v3.58.1) (2021-06-03)
 
 
