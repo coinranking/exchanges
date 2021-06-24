@@ -1,3 +1,10 @@
+# [3.60.0](https://github.com/coinranking/exchanges/compare/v3.59.0...v3.60.0) (2021-06-24)
+
+
+### Features
+
+* swopfi driver ([51c7c21](https://github.com/coinranking/exchanges/commit/51c7c21043363faadada7ee05e03e3bb41fea533))
+
 # [3.59.0](https://github.com/coinranking/exchanges/compare/v3.58.1...v3.59.0) (2021-06-24)
 
 
