@@ -297,6 +297,7 @@ exports.Tokenmom = require('./tokenmom');
 exports.Tokenomica = require('./tokenomica');
 exports.Tokens = require('./tokens');
 exports.Tokenstore = require('./tokenstore');
+exports.Tokocrypto = require('./tokocrypto');
 exports.Tokok = require('./tokok');
 exports.Tradeogre = require('./tradeogre');
 exports.Tradesatoshi = require('./tradesatoshi');
