@@ -13,12 +13,11 @@ class Bibox extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const data = await request('https://api.bibox.com/v1/mdata?cmd=marketAll');
+    const data = await request('https://api.bibox.com/v3/mdata/marketAll');
     const tickers = data.result;
 
     return tickers
       .filter((ticker) => ticker.is_hide === 0)
-      .filter((ticker) => ticker.pair_type === 0)
       .map((ticker) => {
         const base = ticker.coin_symbol;
         const quote = ticker.currency_symbol;
