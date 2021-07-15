@@ -14,7 +14,7 @@
   "scripts": {
     "cm": "git-cz",
     "lint": "npx eslint --ext .js --ignore-path .eslintignore .",
-    "test": "npx jest",
+    "test": "npx jest --forceExit",
     "docs": "jsdoc2md models/*.js lib/*.js > DOCUMENTATION.md",
     "semantic-release": "semantic-release"
   },

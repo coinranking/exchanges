@@ -18,6 +18,7 @@ class Bibox extends Driver {
 
     return tickers
       .filter((ticker) => ticker.is_hide === 0)
+      .filter((ticker) => ticker.pair_type === 0 || ticker.pair_type === 1)
       .map((ticker) => {
         const base = ticker.coin_symbol;
         const quote = ticker.currency_symbol;
