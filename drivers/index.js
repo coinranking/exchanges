@@ -241,6 +241,7 @@ exports.Newcapital = require('./newcapital');
 exports.Nocks = require('./nocks');
 exports.Nominex = require('./nominex');
 exports.Novadex = require('./novadex');
+exports.Nutmoney = require('./nutmoney');
 exports.Oceanex = require('./oceanex');
 exports.Okcoin = require('./okcoin');
 exports.Okex = require('./okex');
