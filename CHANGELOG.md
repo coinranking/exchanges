@@ -1,3 +1,15 @@
+# [3.61.0](https://github.com/coinranking/exchanges/compare/v3.60.0...v3.61.0) (2021-07-15)
+
+
+### Bug Fixes
+
+* **bibox:** only get the spot markets ([091612b](https://github.com/coinranking/exchanges/commit/091612b794607257810f99a4295a0bebf2bb4cdf))
+
+
+### Features
+
+* **bibox:** update to v3 ([151f3d3](https://github.com/coinranking/exchanges/commit/151f3d3d1264169f28295ae39491fc8c579d0ebd))
+
 # [3.60.0](https://github.com/coinranking/exchanges/compare/v3.59.0...v3.60.0) (2021-06-24)
 
 
