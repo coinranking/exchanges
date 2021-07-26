@@ -8,26 +8,127 @@ const { parseToFloat } = require('../lib/utils');
  * @augments Driver
  */
 class Pancakeswap2 extends Driver {
+  constructor() {
+    super({
+      supports: {
+        specificMarkets: true,
+      },
+    });
+  }
+
   /**
+   * @param {Array} ids IDs of the pairs to retrieve
+   * @param {number|null} blockNumber Block number on which the pair data should be based
+   * @returns {Promise.Array} Array with the requested pairs
+   */
+  async getPairs(ids, blockNumber = null) {
+    // By default request the current top 300 markets with the highest volume (increasing the number
+    // beyond this causes timeouts when a block number is entered).
+    const selectQuery = ids ? `where: {id_in: ["${ids.join('", "')}"]}` : 'where: {volumeUSD_gt: 0}';
+    const blockQuery = blockNumber ? `block: {number: ${blockNumber}}` : '';
+
+    const { data: { pairs } } = await request({
+      method: 'POST',
+      url: 'https://bsc.streamingfast.io/subgraphs/name/pancakeswap/exchange-v2',
+      json: {
+        query: `
+          {
+            pairs(first: 300 ${selectQuery} ${blockQuery} orderBy: volumeUSD orderDirection: desc) {
+                id
+                token0 {id symbol name}
+                token1 {id symbol name}
+                token1Price volumeToken0 volumeToken1
+            }
+          }
+        `,
+      },
+    });
+
+    return pairs;
+  }
+
+  /**
+   * @param {boolean} isMocked Set to true when stored tickers are used
+   * @returns {Promise.Number}
+   *   Returns a number that should be a blocknumber of
+   *   Binance Smart Chain that was mined 24 hours ago
+   */
+  async blockNumber24hAgo(isMocked) {
+    const timestampInSeconds = Math.round(Date.now() / 1000);
+    const oneDayInSeconds = 24 * 60 * 60;
+    let timestampYesterdayInSeconds = timestampInSeconds - oneDayInSeconds;
+
+    if (isMocked) {
+      // Dirty fix for testing. The fixture has a timestamp in the query.
+      // Because of that the test could not find the fixture.
+      timestampYesterdayInSeconds = 1627233106;
+    }
+
+    const { data: { blocks } } = await request({
+      method: 'POST',
+      url: 'https://api.thegraph.com/subgraphs/name/pancakeswap/blocks',
+      json: {
+        query: `
+        {
+          blocks(
+            first: 1,
+            orderBy: timestamp,
+            orderDirection: desc,
+            where: {
+              timestamp_gt: ${timestampYesterdayInSeconds},
+              timestamp_lt: ${timestampYesterdayInSeconds + 600}
+            }
+          ) {
+            number
+          }
+        }
+        `,
+      },
+    });
+
+    const [block] = blocks;
+
+    return block.number;
+  }
+
+  /**
+   * @param {boolean} isMocked Set to true when stored tickers are used
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
-  async fetchTickers() {
-    const { data: tickers } = await request('https://api.pancakeswap.info/api/v2/pairs');
+  async fetchTickers(isMocked) {
+    const pairs = await this.getPairs(this.markets);
 
-    return Object.keys(tickers).map((key) => {
-      const ticker = tickers[key];
+    // The base and quote volumes are total volumes of the market's existence,
+    // so we need to subtract the volumes that were reported 24 hours ago.
+    const blockNumber = await this.blockNumber24hAgo(isMocked);
+    const idsToRetrieve = pairs.map((pair) => pair.id);
+    const pairs24hAgo = await this.getPairs(idsToRetrieve, blockNumber);
+
+    const indexedPairs24hAgo = [];
+
+    pairs24hAgo.forEach((pair) => {
+      indexedPairs24hAgo[pair.id] = pair;
+    });
+
+    return pairs.map((pair) => {
+      const pair24hAgo = indexedPairs24hAgo[pair.id];
+
+      const baseVolume24hAgo = pair24hAgo ? parseToFloat(pair24hAgo.volumeToken0) : 0;
+      const baseVolume = parseToFloat(pair.volumeToken0) - baseVolume24hAgo;
+      const quoteVolume24hAgo = pair24hAgo ? parseToFloat(pair24hAgo.volumeToken1) : 0;
+      const quoteVolume = parseToFloat(pair.volumeToken1) - quoteVolume24hAgo;
 
       return new Ticker({
-        base: ticker.base_symbol,
-        baseName: ticker.base_name,
-        baseReference: ticker.base_address,
-        quote: ticker.quote_symbol,
-        quoteName: ticker.quote_name,
-        quoteReference: ticker.quote_address,
-        close: parseToFloat(ticker.price),
-        baseVolume: parseToFloat(ticker.base_volume),
-        quoteVolume: parseToFloat(ticker.quote_volume),
+        base: pair.token0.symbol,
+        baseName: pair.token0.name,
+        baseReference: pair.token0.id,
+        quote: pair.token1.symbol,
+        quoteName: pair.token1.name,
+        quoteReference: pair.token1.id,
+        close: parseToFloat(pair.token1Price),
+        baseVolume,
+        quoteVolume,
       });
     });
   }
