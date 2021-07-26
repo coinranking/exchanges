@@ -23,19 +23,22 @@ class Uniswap3 extends Driver {
    */
   async getPools(ids, blockNumber = null) {
     // By default request the current top 1000 markets with the highest volume.
-    const selectQuery = ids ? `where: {id_in: ["${ids.join('", "')}"]}` : 'first: 1000';
+    const selectQuery = ids ? `where: {id_in: ["${ids.join('", "')}"]}` : 'where: {liquidity_gt: 0 volumeUSD_gt: 0}';
     const blockQuery = blockNumber ? `block: {number: ${blockNumber}}` : '';
 
-    const { data: { pools } } = await request({
+    const { data: { bundles, pools } } = await request({
       method: 'POST',
       url: 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3',
       json: {
         query: `
-          query pools {
-            pools(${selectQuery} ${blockQuery} orderBy: volumeUSD orderDirection: desc) {
+          {
+            bundles(first: 1  where:{id: 1}) {
+              ethPriceUSD
+            }
+            pools(first: 1000 ${selectQuery} ${blockQuery} orderBy: volumeUSD orderDirection: desc) {
                 id
-                token0 {id symbol name volume volumeUSD}
-                token1 {id symbol name volume volumeUSD}
+                token0 {id symbol name derivedETH}
+                token1 {id symbol name derivedETH}
                 token1Price volumeUSD
             }
           }
@@ -43,7 +46,25 @@ class Uniswap3 extends Driver {
       },
     });
 
-    return pools;
+    const ethPriceUsd = parseToFloat(bundles[0].ethPriceUSD);
+
+    return pools.map((pool) => {
+      const token0 = {
+        ...pool.token0,
+        derivedUSD: parseToFloat(pool.token0.derivedETH) * ethPriceUsd,
+      };
+
+      const token1 = {
+        ...pool.token1,
+        derivedUSD: parseToFloat(pool.token1.derivedETH) * ethPriceUsd,
+      };
+
+      return {
+        ...pool,
+        token0,
+        token1,
+      };
+    });
   }
 
   /**
@@ -60,7 +81,7 @@ class Uniswap3 extends Driver {
     if (isMocked) {
       // Dirty fix for testing. The fixture has a timestamp in the query.
       // Because of that the test could not find the fixture.
-      timestampYesterdayInSeconds = 1626329996;
+      timestampYesterdayInSeconds = 1627204350;
     }
 
     const { data: { blocks } } = await request({
@@ -116,9 +137,11 @@ class Uniswap3 extends Driver {
 
       const usdVolume24hAgo = pool24hAgo ? parseToFloat(pool24hAgo.volumeUSD) : 0;
       const usdVolume24h = parseToFloat(pool.volumeUSD) - usdVolume24hAgo;
+      if (!usdVolume24h
+        || pool.token0.derivedUSD === 0 || pool.token1.derivedUSD === 0) return undefined;
 
-      const baseVolume = usdVolume24h
-        / (parseToFloat(pool.token0.volumeUSD) / parseToFloat(pool.token0.volume));
+      const baseVolume = usdVolume24h / pool.token0.derivedUSD;
+      const quoteVolume = usdVolume24h / pool.token1.derivedUSD;
 
       return new Ticker({
         base: pool.token0.symbol,
@@ -129,6 +152,7 @@ class Uniswap3 extends Driver {
         quoteReference: pool.token1.id,
         close: parseToFloat(pool.token1Price),
         baseVolume,
+        quoteVolume,
       });
     });
   }
