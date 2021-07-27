@@ -26,45 +26,24 @@ class Uniswap3 extends Driver {
     const selectQuery = ids ? `where: {id_in: ["${ids.join('", "')}"]}` : 'where: {liquidity_gt: 0 volumeUSD_gt: 0}';
     const blockQuery = blockNumber ? `block: {number: ${blockNumber}}` : '';
 
-    const { data: { bundles, pools } } = await request({
+    const { data: { pools } } = await request({
       method: 'POST',
       url: 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3',
       json: {
         query: `
           {
-            bundles(first: 1  where:{id: 1}) {
-              ethPriceUSD
-            }
             pools(first: 1000 ${selectQuery} ${blockQuery} orderBy: volumeUSD orderDirection: desc) {
                 id
-                token0 {id symbol name derivedETH}
-                token1 {id symbol name derivedETH}
-                token1Price volumeUSD
+                token0 {id symbol name}
+                token1 {id symbol name}
+                token1Price volumeToken0 volumeToken1
             }
           }
         `,
       },
     });
 
-    const ethPriceUsd = parseToFloat(bundles[0].ethPriceUSD);
-
-    return pools.map((pool) => {
-      const token0 = {
-        ...pool.token0,
-        derivedUSD: parseToFloat(pool.token0.derivedETH) * ethPriceUsd,
-      };
-
-      const token1 = {
-        ...pool.token1,
-        derivedUSD: parseToFloat(pool.token1.derivedETH) * ethPriceUsd,
-      };
-
-      return {
-        ...pool,
-        token0,
-        token1,
-      };
-    });
+    return pools;
   }
 
   /**
@@ -81,7 +60,7 @@ class Uniswap3 extends Driver {
     if (isMocked) {
       // Dirty fix for testing. The fixture has a timestamp in the query.
       // Because of that the test could not find the fixture.
-      timestampYesterdayInSeconds = 1627204350;
+      timestampYesterdayInSeconds = 1627305331;
     }
 
     const { data: { blocks } } = await request({
@@ -120,8 +99,8 @@ class Uniswap3 extends Driver {
   async fetchTickers(isMocked) {
     const pools = await this.getPools(this.markets);
 
-    // The usd volume is a total volume of the market's existence,
-    // so we need to subtract the volume that was reported 24 hours ago.
+    // The base and quote volumes are total volumes of the market's existence,
+    // so we need to subtract the volumes that were reported 24 hours ago.
     const blockNumber = await this.blockNumber24hAgo(isMocked);
     const idsToRetrieve = pools.map((pool) => pool.id);
     const pools24hAgo = await this.getPools(idsToRetrieve, blockNumber);
@@ -135,13 +114,10 @@ class Uniswap3 extends Driver {
     return pools.map((pool) => {
       const pool24hAgo = indexedPools24hAgo[pool.id];
 
-      const usdVolume24hAgo = pool24hAgo ? parseToFloat(pool24hAgo.volumeUSD) : 0;
-      const usdVolume24h = parseToFloat(pool.volumeUSD) - usdVolume24hAgo;
-      if (!usdVolume24h
-        || pool.token0.derivedUSD === 0 || pool.token1.derivedUSD === 0) return undefined;
-
-      const baseVolume = usdVolume24h / pool.token0.derivedUSD;
-      const quoteVolume = usdVolume24h / pool.token1.derivedUSD;
+      const baseVolume24hAgo = pool24hAgo ? parseToFloat(pool24hAgo.volumeToken0) : 0;
+      const baseVolume = parseToFloat(pool.volumeToken0) - baseVolume24hAgo;
+      const quoteVolume24hAgo = pool24hAgo ? parseToFloat(pool24hAgo.volumeToken1) : 0;
+      const quoteVolume = parseToFloat(pool.volumeToken1) - quoteVolume24hAgo;
 
       return new Ticker({
         base: pool.token0.symbol,
