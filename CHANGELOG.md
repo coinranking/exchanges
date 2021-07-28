@@ -1,3 +1,15 @@
+# [3.63.0](https://github.com/coinranking/exchanges/compare/v3.62.0...v3.63.0) (2021-07-28)
+
+
+### Bug Fixes
+
+* get top 1000 markets for Pancakeswap v2 again ([ca4b422](https://github.com/coinranking/exchanges/commit/ca4b422222a038d21b91f9e94ad5d9f113f40789))
+
+
+### Features
+
+* support custom markets for Pancakeswap v2 ([aeb3acc](https://github.com/coinranking/exchanges/commit/aeb3acc1e72aa4e51a64b02eaa179c26a1ae28f6))
+
 # [3.62.0](https://github.com/coinranking/exchanges/compare/v3.61.0...v3.62.0) (2021-07-28)
 
 
