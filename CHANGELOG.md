@@ -1,3 +1,17 @@
+# [3.62.0](https://github.com/coinranking/exchanges/compare/v3.61.0...v3.62.0) (2021-07-28)
+
+
+### Bug Fixes
+
+* fix parseToFloat for zeroes ([0f7e5ab](https://github.com/coinranking/exchanges/commit/0f7e5abeee9d9ec4543164518a200fec2a9cb8b4))
+* fix uniswap v3 driver issues ([435fb76](https://github.com/coinranking/exchanges/commit/435fb76bce3bf373a9706299399fd24866bf20ca))
+* improve uniswap v3 driver volume calculations ([edf45f3](https://github.com/coinranking/exchanges/commit/edf45f323f3e3a11e72883924eaae08c06b56f17))
+
+
+### Features
+
+* uniswap v3 driver ([cd48772](https://github.com/coinranking/exchanges/commit/cd48772a74e1c8be03493b8e9325bfbcced3118d))
+
 # [3.61.0](https://github.com/coinranking/exchanges/compare/v3.60.0...v3.61.0) (2021-07-15)
 
 
