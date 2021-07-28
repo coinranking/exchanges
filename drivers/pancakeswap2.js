@@ -1,7 +1,7 @@
 const Driver = require('../models/driver');
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
-const { parseToFloat } = require('../lib/utils');
+const { arrayToChunks, throttleFlatMap, parseToFloat } = require('../lib/utils');
 
 /**
  * @memberof Driver
@@ -22,9 +22,8 @@ class Pancakeswap2 extends Driver {
    * @returns {Promise.Array} Array with the requested pairs
    */
   async getPairs(ids, blockNumber = null) {
-    // By default request the current top 300 markets with the highest volume (increasing the number
-    // beyond this causes timeouts when a block number is entered).
-    const selectQuery = ids ? `where: {id_in: ["${ids.join('", "')}"]}` : 'where: {volumeUSD_gt: 0}';
+    // By default request the current top 1000 markets with the highest volume.
+    const selectQuery = ids ? `first: ${ids.length} where: {id_in: ["${ids.join('", "')}"]}` : 'first: 1000 where: {volumeUSD_gt: 0}';
     const blockQuery = blockNumber ? `block: {number: ${blockNumber}}` : '';
 
     const { data: { pairs } } = await request({
@@ -33,7 +32,7 @@ class Pancakeswap2 extends Driver {
       json: {
         query: `
           {
-            pairs(first: 300 ${selectQuery} ${blockQuery} orderBy: volumeUSD orderDirection: desc) {
+            pairs(${selectQuery} ${blockQuery} orderBy: volumeUSD orderDirection: desc) {
                 id
                 token0 {id symbol name}
                 token1 {id symbol name}
@@ -61,7 +60,7 @@ class Pancakeswap2 extends Driver {
     if (isMocked) {
       // Dirty fix for testing. The fixture has a timestamp in the query.
       // Because of that the test could not find the fixture.
-      timestampYesterdayInSeconds = 1627233106;
+      timestampYesterdayInSeconds = 1627380191;
     }
 
     const { data: { blocks } } = await request({
@@ -103,7 +102,13 @@ class Pancakeswap2 extends Driver {
     // so we need to subtract the volumes that were reported 24 hours ago.
     const blockNumber = await this.blockNumber24hAgo(isMocked);
     const idsToRetrieve = pairs.map((pair) => pair.id);
-    const pairs24hAgo = await this.getPairs(idsToRetrieve, blockNumber);
+
+    // Split to multiple calls as otherwise the request times out.
+    const idsChunks = arrayToChunks(idsToRetrieve, 300);
+
+    const pairs24hAgo = await throttleFlatMap(idsChunks,
+      (idsChunk) => this.getPairs(idsChunk, blockNumber),
+      isMocked ? 0 : 200); // Batches of 5 requests per second
 
     const indexedPairs24hAgo = [];
 
