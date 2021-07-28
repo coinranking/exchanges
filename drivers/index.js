@@ -305,6 +305,7 @@ exports.Turtlenetwork = require('./turtlenetwork');
 exports.Txbit = require('./txbit');
 exports.Uniswap = require('./uniswap');
 exports.Uniswap2 = require('./uniswap2');
+exports.Uniswap3 = require('./uniswap3');
 exports.United = require('./united');
 exports.Unnamed = require('./unnamed');
 exports.Upbit = require('./upbit');
