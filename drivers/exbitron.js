@@ -21,11 +21,11 @@ class Exbitron extends Driver {
       return new Ticker({
         base,
         quote,
+        baseVolume: parseToFloat(ticker.base_volume),
+        quoteVolume: parseToFloat(ticker.quote_volume),
         high: parseToFloat(ticker.highest_price_24h),
         low: parseToFloat(ticker.lowest_price_24h),
         close: parseToFloat(ticker.last_price),
-        baseVolume: parseToFloat(ticker.base_volume),
-        quoteVolume: parseToFloat(ticker.quote_volume),
       });
     });
   }
