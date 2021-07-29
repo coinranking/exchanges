@@ -16,7 +16,7 @@ class Exbitron extends Driver {
     const { data: tickers } = await request('https://www.exbitron.com/api/v2/peatio/coinmarketcap/summary');
 
     return tickers.map((ticker) => {
-      const [base, quote] = ticker.trading_pairs.split('-');
+      const [base, quote] = ticker.trading_pairs.split('_');
 
       return new Ticker({
         base,
