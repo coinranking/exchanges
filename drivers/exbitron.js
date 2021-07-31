@@ -16,11 +16,12 @@ class Exbitron extends Driver {
     const tickers = await request('https://www.exbitron.com/api/v2/peatio/coingecko/tickers');
 
     return tickers.map((ticker) => {
-      const [base, quote] = ticker.ticker_id.split('_');
+      const [base] = ticker.base_currency.split('_');
+      const [quote] = ticker.target_currency.split('');
 
       return new Ticker({
-        base: ticker.base_currency,
-        quote: ticker.target_currency,
+        base,
+        quote,
         baseVolume: parseToFloat(ticker.base_volume),
         quoteVolume: parseToFloat(ticker.target_volume),
         high: parseToFloat(ticker.high),
