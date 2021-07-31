@@ -13,19 +13,18 @@ class Exbitron extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://www.exbitron.com/api/v2/peatio/coinmarketcap/summary');
+    const tickers = await request('https://www.exbitron.com/api/v2/peatio/coingecko/tickers');
 
-    return tickers.map((ticker) => {
-      const [base, quote] = ticker.trading_pairs.split('_');
-
-      return new Ticker({
-        base,
-        quote,
+    return tickers.map((ticker) => new Ticker({
+        base: ticker.base_currency,
+        quote: ticker.target_currency,
         baseVolume: parseToFloat(ticker.base_volume),
-        quoteVolume: parseToFloat(ticker.quote_volume),
-        high: parseToFloat(ticker.highest_price_24h),
-        low: parseToFloat(ticker.lowest_price_24h),
+        quoteVolume: parseToFloat(ticker.target_volume),
+        high: parseToFloat(ticker.high),
+        low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.last_price),
+        bid: parseToFloat(ticker.bid),
+        ask: parseToFloat(ticker.ask),
       });
     });
   }
