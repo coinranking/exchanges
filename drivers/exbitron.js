@@ -15,22 +15,17 @@ class Exbitron extends Driver {
   async fetchTickers() {
     const tickers = await request('https://www.exbitron.com/api/v2/peatio/coingecko/tickers');
 
-    return tickers.map((ticker) => {
-      const [base] = ticker.base_currency.split('_');
-      const [quote] = ticker.target_currency.split('');
-
-      return new Ticker({
-        base,
-        quote,
-        baseVolume: parseToFloat(ticker.base_volume),
-        quoteVolume: parseToFloat(ticker.target_volume),
-        high: parseToFloat(ticker.high),
-        low: parseToFloat(ticker.low),
-        close: parseToFloat(ticker.last_price),
-        bid: parseToFloat(ticker.bid),
-        ask: parseToFloat(ticker.ask),
-      });
-    });
+    return tickers.map((ticker) => new Ticker({
+      base: ticker.base_currency,
+      quote: ticker.target_currency,
+      high: parseToFloat(ticker.high),
+      low: parseToFloat(ticker.low),
+      close: parseToFloat(ticker.last_price),
+      bid: parseToFloat(ticker.bid),
+      ask: parseToFloat(ticker.ask),
+      baseVolume: parseToFloat(ticker.base_volume),
+      quoteVolume: parseToFloat(ticker.target_volume),
+    }));
   }
 }
 
