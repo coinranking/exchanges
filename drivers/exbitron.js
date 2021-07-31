@@ -19,8 +19,8 @@ class Exbitron extends Driver {
       const [base, quote] = ticker.ticker_id.split('_');
 
       return new Ticker({
-        base,
-        quote,
+        base: ticker.base_currency,
+        quote: ticker.target_currency,
         baseVolume: parseToFloat(ticker.base_volume),
         quoteVolume: parseToFloat(ticker.target_volume),
         high: parseToFloat(ticker.high),
