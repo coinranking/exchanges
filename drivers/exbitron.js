@@ -25,7 +25,8 @@ class Exbitron extends Driver {
         close: parseToFloat(ticker.last_price),
         bid: parseToFloat(ticker.bid),
         ask: parseToFloat(ticker.ask),
-    }));
+      });
+    });
   }
 }
 
