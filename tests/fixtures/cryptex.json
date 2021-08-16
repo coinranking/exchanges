@@ -1,0 +1,100 @@
+{
+    "scope": "https://cryptex.net:443",
+    "method": "GET",
+    "path": "/api/v1/tickers",
+    "body": "",
+    "status": 200,
+    "response": {
+        "status": "ok",
+        "data": [
+            {
+                "last": "46775.22",
+                "low": "45322.781",
+                "high": "50155.13",
+                "volume": "363429.938",
+                "base": "BTC",
+                "quote": "PM"
+            },
+            {
+                "last": "183",
+                "low": "171.765",
+                "high": "188",
+                "volume": "79795.854",
+                "base": "LTC",
+                "quote": "USD"
+            },
+            {
+                "last": "0.97",
+                "low": "0.97",
+                "high": "0.98",
+                "volume": "5349.48",
+                "base": "PM",
+                "quote": "USD"
+            },
+            {
+                "last": "244.999",
+                "low": "244.999",
+                "high": "244.999",
+                "volume": 0,
+                "base": "XMR",
+                "quote": "USD"
+            },
+            {
+                "last": "1.029",
+                "low": "1.028",
+                "high": "1.05",
+                "volume": "109030.532",
+                "base": "USDT20",
+                "quote": "PM"
+            },
+            {
+                "last": "45880.285",
+                "low": "44906.64",
+                "high": "47422.747",
+                "volume": "3244919.634",
+                "base": "BTC",
+                "quote": "USD"
+            },
+            {
+                "last": "0.208",
+                "low": "0.075",
+                "high": "0.208",
+                "volume": "84.314",
+                "base": "CRP",
+                "quote": "USD"
+            },
+            {
+                "last": "1.002",
+                "low": "1.002",
+                "high": "1.002",
+                "volume": "27458.448",
+                "base": "USDT20",
+                "quote": "USD"
+            },
+            {
+                "last": "1",
+                "low": "1",
+                "high": "1",
+                "volume": 0,
+                "base": "DAI",
+                "quote": "USD"
+            },
+            {
+                "last": "0.005885",
+                "low": "0.005885",
+                "high": "0.005912",
+                "volume": "0.88134363",
+                "base": "XMR",
+                "quote": "BTC"
+            },
+            {
+                "last": "57",
+                "low": "57",
+                "high": "57",
+                "volume": 0,
+                "base": "BTG",
+                "quote": "USD"
+            }
+        ]
+    }
+}
