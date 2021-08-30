@@ -13,7 +13,7 @@ class P2pb2b extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const data = await request('https://p2pb2b.io/api/v1/public/tickers');
+    const data = await request('https://p2pb2b.io/api/v2/public/tickers');
     const tickers = data.result;
     const pairs = Object.keys(tickers);
 
@@ -25,9 +25,8 @@ class P2pb2b extends Driver {
         base,
         quote,
         baseVolume: parseToFloat(ticker.vol),
+        quoteVolume: parseToFloat(ticker.deal),
         close: parseToFloat(ticker.last),
-        high: parseToFloat(ticker.high),
-        low: parseToFloat(ticker.low),
       });
     });
   }
