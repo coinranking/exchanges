@@ -15,11 +15,12 @@ class Cryptex extends Driver {
   async fetchTickers() {
     const { data } = await request('https://cryptex.net/api/v1/tickers');
     const tickers = Object.values(data);
+
     return tickers.map((ticker) => new Ticker({
       base: ticker.base,
       quote: ticker.quote,
-      quoteVolume: parseToFloat(ticker.value),
-      baseVolume: parseToFloat(ticker.volume),
+      baseVolume: parseToFloat(ticker.baseVolume),
+      quoteVolume: parseToFloat(ticker.quoteVolume),
       close: parseToFloat(ticker.last),
       high: parseToFloat(ticker.high),
       low: parseToFloat(ticker.low),
