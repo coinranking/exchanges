@@ -1,0 +1,548 @@
+[
+    {
+        "scope": "https://api.blubitex.com:443",
+        "method": "GET",
+        "path": "/api/v1/home/landing",
+        "body": "",
+        "status": 200,
+        "response": {
+            "res_code": "0000",
+            "res_message": "Get data successfully. ",
+            "res_data": {
+                "user": {
+                    "totalUser": 146305,
+                    "totalNewUser": 7
+                },
+                "volume": [
+                    [
+                        {
+                            "coin": "BTC/USD",
+                            "coinName": "Bitcoin",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/BTC.png",
+                            "coinColor": "#F7931A",
+                            "type": "CURRENCY",
+                            "high": "49184.00",
+                            "low": "47061.00",
+                            "price": {
+                                "price": "48032.00",
+                                "type": "NEGATIVE",
+                                "isUp": true,
+                                "dif": "-11",
+                                "difPercent": "-0.02290139906728847435",
+                                "toFlixPerCent": "-0.02"
+                            },
+                            "amount": 53.13361,
+                            "valume": 2538649.592411
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "ETH/USD",
+                            "coinName": "Ether",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/ETH.png",
+                            "coinColor": "#687FE3",
+                            "type": "CURRENCY",
+                            "high": "3323.70",
+                            "low": "3171.5",
+                            "price": {
+                                "price": "3323.70",
+                                "type": "POSITIVE",
+                                "isUp": true,
+                                "dif": "139.5",
+                                "difPercent": "4.1971297048470078527",
+                                "toFlixPerCent": "4.19"
+                            },
+                            "amount": 479.995481,
+                            "valume": 1554168.6095415
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "XLM/USD",
+                            "coinName": "Stellar",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/XLM.png",
+                            "coinColor": "#220b52",
+                            "type": "CURRENCY",
+                            "high": "0.3491",
+                            "low": "0.33400",
+                            "price": {
+                                "price": "0.34430",
+                                "type": "POSITIVE",
+                                "isUp": true,
+                                "dif": "0.0064",
+                                "difPercent": "1.8588440313679930293",
+                                "toFlixPerCent": "1.85"
+                            },
+                            "amount": 922010.634709,
+                            "valume": 311586.56147936
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "LINK/USD",
+                            "coinName": "ChainLink",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/LINK.png",
+                            "coinColor": "#2e31ff",
+                            "type": "DEFI",
+                            "high": "27.1400",
+                            "low": "24.94",
+                            "price": {
+                                "price": "26.9800",
+                                "type": "POSITIVE",
+                                "isUp": true,
+                                "dif": "1.97",
+                                "difPercent": "7.3017049666419570052",
+                                "toFlixPerCent": "7.30"
+                            },
+                            "amount": 1144.955797,
+                            "valume": 29315.12731418
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "OMG/USD",
+                            "coinName": "OmiseGo",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/OMG.png",
+                            "coinColor": "#454545",
+                            "type": "CURRENCY",
+                            "high": "6.73",
+                            "low": "6.3600",
+                            "price": {
+                                "price": "6.5400",
+                                "type": "POSITIVE",
+                                "isUp": true,
+                                "dif": "0.11",
+                                "difPercent": "1.6819571865443425076",
+                                "toFlixPerCent": "1.68"
+                            },
+                            "amount": 5217.31,
+                            "valume": 33538.633
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "ZRX/USD",
+                            "coinName": "0X",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/ZRX.png",
+                            "coinColor": "#000000",
+                            "type": "DEFI",
+                            "high": "1.118",
+                            "low": "1.0560",
+                            "price": {
+                                "price": "1.0710",
+                                "type": "POSITIVE",
+                                "isUp": true,
+                                "dif": "0.006",
+                                "difPercent": "0.56022408963585434174",
+                                "toFlixPerCent": "0.56"
+                            },
+                            "amount": 25900.72,
+                            "valume": 27727.27504
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "KNC/USD",
+                            "coinName": "Kyber Network",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/KNC.png",
+                            "coinColor": "#2effb2",
+                            "type": "DEFI",
+                            "high": "1.970",
+                            "low": "1.877",
+                            "price": {
+                                "price": "1.913",
+                                "type": "NEGATIVE",
+                                "isUp": true,
+                                "dif": "-0.018",
+                                "difPercent": "-0.94093047569262937794",
+                                "toFlixPerCent": "-0.94"
+                            },
+                            "amount": 24185.75,
+                            "valume": 45930.358539
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "COMP/USD",
+                            "coinName": "Compound",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/COMP.png",
+                            "coinColor": "#00d395",
+                            "type": "DEFI",
+                            "high": "446.80",
+                            "low": "407.3",
+                            "price": {
+                                "price": "445.20",
+                                "type": "POSITIVE",
+                                "isUp": true,
+                                "dif": "12.2",
+                                "difPercent": "2.7403414195867026056",
+                                "toFlixPerCent": "2.74"
+                            },
+                            "amount": 574.349514,
+                            "valume": 249169.916382
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "BBE/USD",
+                            "coinName": "BLUBITEX",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/BBE.png",
+                            "coinColor": "#1D2360",
+                            "coinNameSec": "Dollar",
+                            "type": "TOKEN",
+                            "high": "0.0017",
+                            "low": "0.0015",
+                            "price": {
+                                "price": "0.0015",
+                                "type": "NEGATIVE",
+                                "isUp": true,
+                                "dif": "-0.0001",
+                                "difPercent": "-6.6666666666666666667",
+                                "toFlixPerCent": "-6.66"
+                            },
+                            "valume": 551.41136598,
+                            "amount": 350046.732173
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "WAVES/USD",
+                            "coinName": "WAVES",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/wave.png",
+                            "coinColor": "#0054FF",
+                            "type": "CURRENCY",
+                            "high": "28.3400",
+                            "low": "24.68",
+                            "price": {
+                                "price": "28.0700",
+                                "type": "POSITIVE",
+                                "isUp": true,
+                                "dif": "0.25",
+                                "difPercent": "0.8906305664410402565",
+                                "toFlixPerCent": "0.89"
+                            },
+                            "amount": 19216.658894,
+                            "valume": 529596.17676666
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "TRX/USD",
+                            "coinName": "TRON",
+                            "coinNameSec": "Dollar",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/TRON.png",
+                            "coinColor": "#f7100b",
+                            "type": "CURRENCY",
+                            "high": "0.0891",
+                            "low": "0.08570",
+                            "price": {
+                                "price": "0.08840",
+                                "type": "POSITIVE",
+                                "isUp": true,
+                                "dif": "0.0013",
+                                "difPercent": "1.4705882352941176471",
+                                "toFlixPerCent": "1.47"
+                            },
+                            "amount": 10261306.296834,
+                            "valume": 893552.74197007
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "IME/USD",
+                            "coinName": "THE IMPOSSIBLE EXPERIMENT",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/IME.png",
+                            "coinColor": "#e20505",
+                            "coinNameSec": "Dollar",
+                            "type": "TOKEN",
+                            "high": "0.000660",
+                            "low": "0.000600",
+                            "price": {
+                                "price": "0.000600",
+                                "type": "NEGATIVE",
+                                "isUp": true,
+                                "dif": "-0.00006",
+                                "difPercent": "-10",
+                                "toFlixPerCent": "-10"
+                            },
+                            "valume": 0.0014238,
+                            "amount": 2.26
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "BNB/USD",
+                            "coinName": "Binance",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/BNB.png",
+                            "coinColor": "#f0b909",
+                            "coinNameSec": "Dollar",
+                            "type": "CURRENCY",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "CSS/USD",
+                            "coinName": "Coinswap",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/CSS.png",
+                            "coinColor": "#15feb8",
+                            "coinNameSec": "Dollar",
+                            "type": "DEFI",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "BBE/USD",
+                            "coinName": "BLUBITEX",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/BBE.png",
+                            "coinColor": "#1D2360",
+                            "coinNameSec": "Dollar",
+                            "type": "TOKEN",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "IME/USD",
+                            "coinName": "THE IMPOSSIBLE EXPERIMENT",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/IME.png",
+                            "coinColor": "#e20505",
+                            "coinNameSec": "Dollar",
+                            "type": "TOKEN",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "BNB/USD",
+                            "coinName": "Binance",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/BNB.png",
+                            "coinColor": "#f0b909",
+                            "coinNameSec": "Dollar",
+                            "type": "CURRENCY",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "CSS/USD",
+                            "coinName": "Coinswap",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/CSS.png",
+                            "coinColor": "#15feb8",
+                            "coinNameSec": "Dollar",
+                            "type": "DEFI",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "BBE/USD",
+                            "coinName": "BLUBITEX",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/BBE.png",
+                            "coinColor": "#1D2360",
+                            "coinNameSec": "Dollar",
+                            "type": "TOKEN",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "IME/USD",
+                            "coinName": "THE IMPOSSIBLE EXPERIMENT",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/IME.png",
+                            "coinColor": "#e20505",
+                            "coinNameSec": "Dollar",
+                            "type": "TOKEN",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "BNB/USD",
+                            "coinName": "Binance",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/BNB.png",
+                            "coinColor": "#f0b909",
+                            "coinNameSec": "Dollar",
+                            "type": "CURRENCY",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "coin": "CSS/USD",
+                            "coinName": "Coinswap",
+                            "coinImage": "https://storage.googleapis.com/tradingcore/coin_images/CSS.png",
+                            "coinColor": "#15feb8",
+                            "coinNameSec": "Dollar",
+                            "type": "DEFI",
+                            "high": "0",
+                            "low": "0",
+                            "price": {
+                                "price": "0",
+                                "type": "EQUAL",
+                                "isUp": true,
+                                "dif": "0",
+                                "difPercent": "0",
+                                "toFlixPerCent": "0"
+                            },
+                            "valume": "0",
+                            "amount": "0"
+                        }
+                    ]
+                ]
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 31 Aug 2021 14:06:08 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "X-Download-Options",
+            "noopen",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "Rate-Limit-Remaining",
+            "9",
+            "Rate-Limit-Reset",
+            "1630418765.446633",
+            "Rate-Limit-Total",
+            "10",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, PUT, PATCH, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers",
+            "Origin, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Response-Time, Authorization, x-access-token, x-firebase-token, x-platform, x-otp, x-access-coin-aim, x-firebase-auth-token, idempotent-key",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
