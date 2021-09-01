@@ -1,3 +1,10 @@
+# [3.64.0](https://github.com/coinranking/exchanges/compare/v3.63.0...v3.64.0) (2021-09-01)
+
+
+### Features
+
+* blubitex driver ([6dd205c](https://github.com/coinranking/exchanges/commit/6dd205c1d0758c94f4397b3247fb88c52ef6dba1))
+
 # [3.63.0](https://github.com/coinranking/exchanges/compare/v3.62.0...v3.63.0) (2021-07-28)
 
 
