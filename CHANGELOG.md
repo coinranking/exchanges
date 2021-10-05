@@ -1,3 +1,10 @@
+# [3.65.0](https://github.com/coinranking/exchanges/compare/v3.64.0...v3.65.0) (2021-10-05)
+
+
+### Features
+
+* add more quotes to cex driver ([9181ac1](https://github.com/coinranking/exchanges/commit/9181ac188831d34ea24e0618c017e828f428653a))
+
 # [3.64.0](https://github.com/coinranking/exchanges/compare/v3.63.0...v3.64.0) (2021-09-01)
 
 
