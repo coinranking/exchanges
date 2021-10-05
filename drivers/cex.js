@@ -13,7 +13,7 @@ class Cex extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const quotes = ['USD', 'ETH', 'BTC'];
+    const quotes = ['USD', 'ETH', 'BTC', 'USDT', 'GBP', 'EUR'];
     const { data: tickers } = await request(`https://cex.io/api/tickers/${quotes.join('/')}`);
 
     return tickers.map((ticker) => {
