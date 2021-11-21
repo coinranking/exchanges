@@ -21,8 +21,6 @@ class Exbitron extends Driver {
       return new Ticker({
         base,
         quote,
-        base: ticker.base_currency,
-        quote: ticker.target_currency,
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.last_price),
