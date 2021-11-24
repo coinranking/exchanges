@@ -16038,7 +16038,7 @@
     {
         "scope": "https://api.thegraph.com:443",
         "method": "POST",
-        "path": "/subgraphs/name/pancakeswap/blocks",
+        "path": "/subgraphs/name/corgiswap/blocks",
         "body": {
             "query": "\n        {\n          blocks(\n            first: 1,\n            orderBy: timestamp,\n            orderDirection: desc,\n            where: {\n              timestamp_gt: 1627380191,\n              timestamp_lt: 1627380791\n            }\n          ) {\n            number\n          }\n        }\n        "
         },
