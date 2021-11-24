@@ -329,3 +329,4 @@ exports.Zbg = require('./zbg');
 exports.Zeroex = require('./zeroex');
 exports.Zloadr = require('./zloadr');
 exports.Zt = require('./zt');
+exports.Corgiswap = require('./corgiswap');
