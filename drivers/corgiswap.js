@@ -50,7 +50,7 @@ class Corgiswap extends Driver {
    * @param {boolean} isMocked Set to true when stored tickers are used
    * @returns {Promise.Number}
    *   Returns a number that should be a blocknumber of
-   *   Binance Smart Chain that was mined 24 hours ago
+   *   Corgiswap that was mined 24 hours ago
    */
   async blockNumber24hAgo(isMocked) {
     const timestampInSeconds = Math.round(Date.now() / 1000);
