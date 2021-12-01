@@ -132,6 +132,7 @@ exports.Coinone = require('./coinone');
 exports.Coinsbit = require('./coinsbit');
 exports.Cointiger = require('./cointiger');
 exports.Compound = require('./compound');
+exports.Corgiswap = require('./corgiswap');
 exports.Coss = require('./coss');
 exports.Crex24 = require('./crex24');
 exports.Crypcore = require('./crypcore');
