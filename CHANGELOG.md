@@ -1,3 +1,10 @@
+# [3.66.0](https://github.com/coinranking/exchanges/compare/v3.65.0...v3.66.0) (2021-12-01)
+
+
+### Features
+
+* add support for Corgiswap ([be7c90c](https://github.com/coinranking/exchanges/commit/be7c90c2a0f50787cff6704da10c9a682dd8bfbe))
+
 # [3.65.0](https://github.com/coinranking/exchanges/compare/v3.64.0...v3.65.0) (2021-10-05)
 
 
