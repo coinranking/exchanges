@@ -69,7 +69,7 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsdoc": "^36.0.8",
     "husky": "^7.0.2",
-    "jest": "^27.1.0",
+    "jest": "^27.4.4",
     "jsdoc": "^3.6.7",
     "jsdoc-to-markdown": "^7.0.1",
     "nock": "^13.1.3",
