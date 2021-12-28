@@ -129,7 +129,7 @@ driverNames.forEach((driverName) => {
         });
     });
 
-    test('Volume are probably less than 10 billion', () => {
+    test('Volume is probably less than 10 billion', () => {
       const whitelist = ['USD', 'USDT', 'EUR', 'USDC', 'GUSD', 'PAX', 'BUSD', 'TUSD', 'HUSD', 'DAI'];
       tickersWithVolume
         .filter((ticker) => (

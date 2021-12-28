@@ -4,7 +4,7 @@
         "method": "POST",
         "path": "/subgraphs/name/pancakeswap/exchange-v2",
         "body": {
-            "query": "\n          {\n            pairs(first: 1000 where: {volumeUSD_gt: 0}  orderBy: volumeUSD orderDirection: desc) {\n                id\n                token0 {id symbol name}\n                token1 {id symbol name}\n                token1Price volumeToken0 volumeToken1\n            }\n          }\n        "
+            "query": "\n          {\n            pairs(first: 100 where: {volumeUSD_gt: 0}  orderBy: volumeUSD orderDirection: desc) {\n                id\n                token0 {id symbol name}\n                token1 {id symbol name}\n                token1Price volumeToken0 volumeToken1\n            }\n          }\n        "
         },
         "status": 200,
         "response": {
