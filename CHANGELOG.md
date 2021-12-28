@@ -1,3 +1,11 @@
+## [3.66.1](https://github.com/coinranking/exchanges/compare/v3.66.0...v3.66.1) (2021-12-28)
+
+
+### Bug Fixes
+
+* temp fix to let pancakeswap2 work again ([992ce60](https://github.com/coinranking/exchanges/commit/992ce6081d92179b911b6fb017a20a718842a8da))
+* test for pancakeswap2 ([de8b060](https://github.com/coinranking/exchanges/commit/de8b0606d975a875959c9a1e32cf2bd1343bdd58))
+
 # [3.66.0](https://github.com/coinranking/exchanges/compare/v3.65.0...v3.66.0) (2021-12-01)
 
 
