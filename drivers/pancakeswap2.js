@@ -23,7 +23,7 @@ class Pancakeswap2 extends Driver {
    */
   async getPairs(ids, blockNumber = null) {
     // By default request the current top 1000 markets with the highest volume.
-    const selectQuery = ids ? `first: ${ids.length} where: {id_in: ["${ids.join('", "')}"]}` : 'first: 1000 where: {volumeUSD_gt: 0}';
+    const selectQuery = ids ? `first: ${ids.length} where: {id_in: ["${ids.join('", "')}"]}` : 'first: 100 where: {volumeUSD_gt: 0}';
     const blockQuery = blockNumber ? `block: {number: ${blockNumber}}` : '';
 
     const { data: { pairs } } = await request({
