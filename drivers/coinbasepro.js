@@ -15,8 +15,9 @@ class Coinbasepro extends Driver {
    */
   async fetchTickers(isMocked) {
     const pairs = await request('https://api.pro.coinbase.com/products');
+    const activePairs = pairs.filter((pair) => pair.status === 'online');
 
-    const tickers = throttleMap(pairs, async (pair) => {
+    const tickers = throttleMap(activePairs, async (pair) => {
       const ticker = await request(`https://api.pro.coinbase.com/products/${pair.id}/ticker`);
 
       const base = pair.base_currency;
@@ -28,7 +29,7 @@ class Coinbasepro extends Driver {
         baseVolume: parseToFloat(ticker.volume),
         close: parseToFloat(ticker.price),
       });
-    }, isMocked ? 0 : 334); // Limited to 3 requests a second
+    }, isMocked ? 0 : 100); // Limited to 10 requests a second
 
     return Promise.all(tickers);
   }
