@@ -1,3 +1,10 @@
+## [3.66.2](https://github.com/coinranking/exchanges/compare/v3.66.1...v3.66.2) (2022-01-12)
+
+
+### Bug Fixes
+
+* **coinbasepro:** faster rate-limit and ignore markets that are not online ([f7e2809](https://github.com/coinranking/exchanges/commit/f7e280945f62c6ceb03c648f5c897b05c17d221c))
+
 ## [3.66.1](https://github.com/coinranking/exchanges/compare/v3.66.0...v3.66.1) (2021-12-28)
 
 
