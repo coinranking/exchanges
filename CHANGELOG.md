@@ -1,3 +1,10 @@
+## [3.66.3](https://github.com/coinranking/exchanges/compare/v3.66.2...v3.66.3) (2022-01-13)
+
+
+### Bug Fixes
+
+* update bitmart to new driver ([7413c31](https://github.com/coinranking/exchanges/commit/7413c315d1f92dbb4e9097d58c367057d2a2eb94))
+
 ## [3.66.2](https://github.com/coinranking/exchanges/compare/v3.66.1...v3.66.2) (2022-01-12)
 
 
