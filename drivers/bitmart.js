@@ -13,7 +13,7 @@ class Bitmart extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://openapi.bitmart.com/v2/ticker');
+    const { data: { tickers } } = await request('https://api-cloud.bitmart.com/spot/v1/ticker');
 
     return tickers.map((ticker) => {
       const [base, quote] = ticker.url.split('=').pop().split('_');
@@ -21,12 +21,14 @@ class Bitmart extends Driver {
       return new Ticker({
         base,
         quote,
-        high: parseToFloat(ticker.highest_price),
-        low: parseToFloat(ticker.lowest_price),
-        close: parseToFloat(ticker.current_price),
-        baseVolume: parseToFloat(ticker.volume),
-        // I know, Bitmart inverts base and quote :)
-        quoteVolume: parseToFloat(ticker.base_volume),
+        open: parseToFloat(ticker.open_24h),
+        high: parseToFloat(ticker.high_24h),
+        low: parseToFloat(ticker.low_24h),
+        close: parseToFloat(ticker.close_24h),
+        baseVolume: parseToFloat(ticker.base_volume_24h),
+        quoteVolume: parseToFloat(ticker.quote_volume_24h),
+        bid: parseToFloat(ticker.best_bid),
+        ask: parseToFloat(ticker.best_ask),
       });
     });
   }
