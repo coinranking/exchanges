@@ -1,3 +1,10 @@
+# [3.67.0](https://github.com/coinranking/exchanges/compare/v3.66.3...v3.67.0) (2022-01-14)
+
+
+### Features
+
+* add aax driver ([7a41417](https://github.com/coinranking/exchanges/commit/7a414179860488ed15e62e98f408cd03ce4732e4))
+
 ## [3.66.3](https://github.com/coinranking/exchanges/compare/v3.66.2...v3.66.3) (2022-01-13)
 
 
