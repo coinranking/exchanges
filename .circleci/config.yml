@@ -76,7 +76,6 @@ workflows:
           requires:
             - lint
             - test
-            - docs
           filters:
             branches:
               only: master
