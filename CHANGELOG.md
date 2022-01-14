@@ -1,3 +1,10 @@
+# [3.68.0](https://github.com/coinranking/exchanges/compare/v3.67.1...v3.68.0) (2022-01-14)
+
+
+### Features
+
+* add Osmosis driver ([72e2c67](https://github.com/coinranking/exchanges/commit/72e2c67160da616f96f19d165ec198386d60fa04))
+
 ## [3.67.1](https://github.com/coinranking/exchanges/compare/v3.67.0...v3.67.1) (2022-01-14)
 
 
