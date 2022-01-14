@@ -17,6 +17,8 @@
     * _instance_
         * [.key](#Driver+key) ⇒ <code>string</code>
         * [.key](#Driver+key)
+        * [.markets](#Driver+markets) ⇒ <code>Array.&lt;string&gt;</code>
+        * [.markets](#Driver+markets)
     * _static_
         * [.fetchTickers](#Driver.fetchTickers) ⇒ [<code>Promise.Array.&lt;Ticker&gt;</code>](#Ticker)
 
@@ -29,6 +31,8 @@
 | config | <code>object</code> | An object holding the configuration |
 | config.requires | <code>object</code> | An object with settings that a driver requires |
 | config.requires.key | <code>boolean</code> | Set to true if the driver requires an API key; default: false |
+| config.supports | <code>object</code> | An object with settings that a driver supports |
+| config.supports.specificMarkets | <code>boolean</code> | Set to true if the driver supports getting specific markets; default: false |
 
 **Example**  
 ```js
@@ -101,6 +105,24 @@ Set the API key
 | Param | Type | Description |
 | --- | --- | --- |
 | key | <code>string</code> | API Key |
+
+<a name="Driver+markets"></a>
+
+### driver.markets ⇒ <code>Array.&lt;string&gt;</code>
+Get the specific markets filter
+
+**Kind**: instance property of [<code>Driver</code>](#Driver)  
+**Returns**: <code>Array.&lt;string&gt;</code> - ids An array of market ids  
+<a name="Driver+markets"></a>
+
+### driver.markets
+Set the specific markets filter
+
+**Kind**: instance property of [<code>Driver</code>](#Driver)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| ids | <code>Array.&lt;string&gt;</code> | An array of market ids |
 
 <a name="Driver.fetchTickers"></a>
 
