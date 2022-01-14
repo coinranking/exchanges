@@ -1,5 +1,6 @@
 exports['1inch'] = require('./_1inch');
 exports['3xbit'] = require('./_3xbit');
+exports.Aax = require('./aax');
 exports.Abcc = require('./abcc');
 exports.Abit = require('./abit');
 exports.Acx = require('./acx');
