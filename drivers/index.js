@@ -250,6 +250,7 @@ exports.Okex = require('./okex');
 exports.Omgfin = require('./omgfin');
 exports.Openledger = require('./openledger');
 exports.Orebz = require('./orebz');
+exports.Osmosis = require('./osmosis');
 exports.Ovex = require('./ovex');
 exports.P2pb2b = require('./p2pb2b');
 exports.Pancakeswap = require('./pancakeswap');
