@@ -29,8 +29,8 @@ class Bcbitcoin extends Driver {
       const low = tradesInLast24h
         .reduce((acc, value) => Math.min(acc, parseToFloat(value.price)), Infinity);
       const close = parseToFloat(tradesInLast24h[tradesInLast24h.length - 1].price);
-      const baseVolume = tradesInLast24h.reduce((acc, value) => acc + parseToFloat(value.amount),
-        0);
+      const baseVolume = tradesInLast24h
+        .reduce((acc, value) => acc + parseToFloat(value.amount), 0);
 
       return new Ticker({
         base,

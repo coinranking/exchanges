@@ -106,9 +106,11 @@ class Corgiswap extends Driver {
     // Split to multiple calls as otherwise the request times out.
     const idsChunks = arrayToChunks(idsToRetrieve, 300);
 
-    const pairs24hAgo = await throttleFlatMap(idsChunks,
+    const pairs24hAgo = await throttleFlatMap(
+      idsChunks,
       (idsChunk) => this.getPairs(idsChunk, blockNumber),
-      isMocked ? 0 : 200); // Batches of 5 requests per second
+      isMocked ? 0 : 200,
+    ); // Batches of 5 requests per second
 
     const indexedPairs24hAgo = [];
 
