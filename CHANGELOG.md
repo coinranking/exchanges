@@ -1,3 +1,13 @@
+## [3.67.1](https://github.com/coinranking/exchanges/compare/v3.67.0...v3.67.1) (2022-01-14)
+
+
+### Bug Fixes
+
+* prevent pipeline from failing due to ESM issue with compiling docs ([8c77a52](https://github.com/coinranking/exchanges/commit/8c77a52732b7cd0bbb1d6a993f52471b9e3ebd5e))
+* remove docs from pipeline ([854f75c](https://github.com/coinranking/exchanges/commit/854f75cfa852f5900acf875c241c988d20add62d))
+* remove docs from pipeline ([b6fc933](https://github.com/coinranking/exchanges/commit/b6fc933cbd95b67d3abd0bf7b843a1540c4868c8))
+* update node to latest lts ([9af08f5](https://github.com/coinranking/exchanges/commit/9af08f52dfaf831d1763b4e7cc69f63c73c702fb))
+
 # [3.67.0](https://github.com/coinranking/exchanges/compare/v3.66.3...v3.67.0) (2022-01-14)
 
 
