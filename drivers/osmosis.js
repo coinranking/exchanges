@@ -26,7 +26,7 @@ class Osmosis extends Driver {
         baseReference: ticker.base_address,
         quote: ticker.quote_symbol,
         quoteName: quote ? quote.name : undefined,
-        quoteReference: ticker.base_address,
+        quoteReference: ticker.quote_address,
         close: parseToFloat(ticker.price),
         baseVolume: parseToFloat(ticker.base_volume_24h),
         quoteVolume: parseToFloat(ticker.quote_volume_24h),
