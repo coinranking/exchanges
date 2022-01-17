@@ -1,3 +1,10 @@
+## [3.68.1](https://github.com/coinranking/exchanges/compare/v3.68.0...v3.68.1) (2022-01-17)
+
+
+### Bug Fixes
+
+* fix wrong address ([ac03e20](https://github.com/coinranking/exchanges/commit/ac03e2008564b3dcc78db4374e3981da188510e2))
+
 # [3.68.0](https://github.com/coinranking/exchanges/compare/v3.67.1...v3.68.0) (2022-01-14)
 
 
