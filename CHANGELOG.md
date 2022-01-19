@@ -1,3 +1,10 @@
+## [3.68.2](https://github.com/coinranking/exchanges/compare/v3.68.1...v3.68.2) (2022-01-19)
+
+
+### Bug Fixes
+
+* **osmosis:** base and quote were reversed ([ef678b3](https://github.com/coinranking/exchanges/commit/ef678b36db03ce438e43dbda8a18b5a8919492c3))
+
 ## [3.68.1](https://github.com/coinranking/exchanges/compare/v3.68.0...v3.68.1) (2022-01-17)
 
 
