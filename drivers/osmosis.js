@@ -17,19 +17,20 @@ class Osmosis extends Driver {
     const tokens = await request('https://api-osmosis.imperator.co/tokens/v1/all');
 
     return tickers.flatMap((ticker) => {
+      // Warning: Osmosis inverts base and quote.
       const base = tokens.find((item) => item.symbol === ticker.base_symbol);
       const quote = tokens.find((item) => item.symbol === ticker.quote_symbol);
 
       return new Ticker({
-        base: ticker.base_symbol,
-        baseName: base ? base.name : undefined,
-        baseReference: ticker.base_address,
-        quote: ticker.quote_symbol,
-        quoteName: quote ? quote.name : undefined,
-        quoteReference: ticker.quote_address,
+        base: ticker.quote_symbol,
+        baseName: quote ? quote.name : undefined,
+        baseReference: ticker.quote_address,
+        quote: ticker.base_symbol,
+        quoteName: base ? base.name : undefined,
+        quoteReference: ticker.base_address,
         close: parseToFloat(ticker.price),
-        baseVolume: parseToFloat(ticker.base_volume_24h),
-        quoteVolume: parseToFloat(ticker.quote_volume_24h),
+        baseVolume: parseToFloat(ticker.quote_volume_24h),
+        quoteVolume: parseToFloat(ticker.base_volume_24h),
       });
     });
   }
