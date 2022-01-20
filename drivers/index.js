@@ -50,6 +50,7 @@ exports.Bitflyer = require('./bitflyer');
 exports.Bitforex = require('./bitforex');
 exports.Bitfox = require('./bitfox');
 exports.Bitfxt = require('./bitfxt');
+exports.Bitget = require('./bitget');
 exports.Bithumb = require('./bithumb');
 exports.Bithumbglobal = require('./Bithumbglobal');
 exports.Bitinfi = require('./bitinfi');
