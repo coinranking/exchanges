@@ -1,3 +1,10 @@
+# [3.69.0](https://github.com/coinranking/exchanges/compare/v3.68.2...v3.69.0) (2022-01-26)
+
+
+### Features
+
+* add Bitget driver ([a3e6071](https://github.com/coinranking/exchanges/commit/a3e6071bec4aa7ac4a4927196c0806897b09588d))
+
 ## [3.68.2](https://github.com/coinranking/exchanges/compare/v3.68.1...v3.68.2) (2022-01-19)
 
 
