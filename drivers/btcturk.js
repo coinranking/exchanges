@@ -16,8 +16,8 @@ class Btcturk extends Driver {
     const { data: tickers } = await request('https://api.btcturk.com/api/v2/ticker');
 
     return tickers.map((ticker) => {
-      const base = ticker.numeratorsymbol;
-      const quote = ticker.denominatorsymbol;
+      const base = ticker.numeratorSymbol;
+      const quote = ticker.denominatorSymbol;
 
       return new Ticker({
         base,
