@@ -13,22 +13,24 @@ class Loopring extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: pairs } = await request('https://api.loopring.io/api/v2/exchange/markets');
-    const { data: details } = await request('https://api.loopring.io/api/v2/exchange/tokens');
+    const { markets } = await request('https://api3.loopring.io/api/v3/exchange/markets');
+    const tokens = await request('https://api3.loopring.io/api/v3/exchange/tokens');
 
-    const markets = pairs.map((item) => item.market);
+    const pairs = markets.map((item) => item.market);
 
-    const { data: tickers } = await request(`https://api.loopring.io/api/v2/ticker?market=${markets.join(',')}`);
+    const { tickers } = await request(`https://api3.loopring.io/api/v3/ticker?market=${pairs.join(',')}`);
 
-    return tickers.map((ticker) => {
+    return tickers.flatMap((ticker) => {
+      if (ticker[2] === '0') return []; // Skip markets without volume
+
       const [base, quote] = ticker[0].split('-');
 
-      const { decimals, address, name } = details.find((item) => item.symbol === base);
+      const { decimals, address, name } = tokens.find((item) => item.symbol === base);
       const {
         decimals: decimalsQuote,
         address: quoteAddress,
         name: quoteName,
-      } = details.find((item) => item.symbol === quote);
+      } = tokens.find((item) => item.symbol === quote);
 
       return new Ticker({
         base,
