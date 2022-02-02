@@ -13,20 +13,23 @@ class Bigone extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const result = await request('https://big.one/api/v2/tickers');
+    //const result = await request('https://big.one/api/v2/tickers');
+    const result = await request('https://big.one/api/v3/asset_pairs/tickers');
     const tickers = result.data;
 
     return tickers.map((ticker) => {
-      const [base, quote] = ticker.market_id.split('-');
+      const [base, quote] = ticker.asset_pair_name.split('-');
 
       return new Ticker({
         base,
         quote,
         baseVolume: parseToFloat(ticker.volume),
-        close: parseToFloat(ticker.close),
         open: parseToFloat(ticker.open),
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
+        close: parseToFloat(ticker.close),
+        bid: parseToFloat(ticker.bid.price),
+        ask: parseToFloat(ticker.ask.price),
       });
     });
   }
