@@ -1,3 +1,10 @@
+## [3.69.3](https://github.com/coinranking/exchanges/compare/v3.69.2...v3.69.3) (2022-02-03)
+
+
+### Bug Fixes
+
+* update loopring to newer api ([53159ef](https://github.com/coinranking/exchanges/commit/53159ef16f47fa88ba34e36c40c5c0168fd28a0d))
+
 ## [3.69.2](https://github.com/coinranking/exchanges/compare/v3.69.1...v3.69.2) (2022-02-03)
 
 
