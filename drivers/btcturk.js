@@ -13,11 +13,11 @@ class Btcturk extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://btcturk.com/api/ticker');
+    const { data: tickers } = await request('https://api.btcturk.com/api/v2/ticker');
 
     return tickers.map((ticker) => {
-      const base = ticker.numeratorsymbol;
-      const quote = ticker.denominatorsymbol;
+      const base = ticker.numeratorSymbol;
+      const quote = ticker.denominatorSymbol;
 
       return new Ticker({
         base,
@@ -27,6 +27,8 @@ class Btcturk extends Driver {
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.last),
+        bid: parseToFloat(ticker.bid),
+        ask: parseToFloat(ticker.ask),
       });
     });
   }
