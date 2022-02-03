@@ -1,3 +1,11 @@
+## [3.69.1](https://github.com/coinranking/exchanges/compare/v3.69.0...v3.69.1) (2022-02-03)
+
+
+### Bug Fixes
+
+* remove comment to old api ([7e1e908](https://github.com/coinranking/exchanges/commit/7e1e90838c09abb7c3ee68bc5b52fb12ec90106c))
+* update bigone api ([ab54bbe](https://github.com/coinranking/exchanges/commit/ab54bbe4fc777a8dbf40656ca47304971ec6467d))
+
 # [3.69.0](https://github.com/coinranking/exchanges/compare/v3.68.2...v3.69.0) (2022-01-26)
 
 
