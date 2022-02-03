@@ -1,3 +1,12 @@
+## [3.69.2](https://github.com/coinranking/exchanges/compare/v3.69.1...v3.69.2) (2022-02-03)
+
+
+### Bug Fixes
+
+* symbols ([b35741c](https://github.com/coinranking/exchanges/commit/b35741c6f2e81019b9128f90c83c083b22cdc79e))
+* update Hoo driver to newer api ([801a97b](https://github.com/coinranking/exchanges/commit/801a97b6505e06029613a70c1b9c045df134196e))
+* update to new btcturk api ([e79fba6](https://github.com/coinranking/exchanges/commit/e79fba6c9a2c821022daf8976fdf81cdb874025d))
+
 ## [3.69.1](https://github.com/coinranking/exchanges/compare/v3.69.0...v3.69.1) (2022-02-03)
 
 
