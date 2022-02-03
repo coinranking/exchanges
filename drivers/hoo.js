@@ -13,7 +13,7 @@ class Hoo extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('https://api.hoo.com/open/v1/tickers/market');
+    const { data: tickers } = await request('https://api.hoolgd.com/open/v1/tickers/market');
 
     return tickers.map((ticker) => {
       const [base, quote] = ticker.symbol.split('-');
@@ -25,6 +25,7 @@ class Hoo extends Driver {
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.price),
         baseVolume: parseToFloat(ticker.volume),
+        quoteVolume: parseToFloat(ticker.amount),
       });
     });
   }
