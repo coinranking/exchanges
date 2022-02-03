@@ -13,7 +13,7 @@ class Pancakeswap extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('https://api.pancakeswap.info/api/pairs');
+    const { data: tickers } = await request('https://api.pancakeswap.info/api/v2/pairs');
 
     return Object.keys(tickers).map((key) => {
       const ticker = tickers[key];
