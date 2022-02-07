@@ -1,7 +1,7 @@
 const Driver = require('../models/driver');
 const request = require('../lib/request');
 const Ticker = require('../models/ticker');
-const { parseToFloat, throttleMap } = require('../lib/utils');
+const { parseToFloat } = require('../lib/utils');
 
 /**
  * @memberof Driver
@@ -9,52 +9,31 @@ const { parseToFloat, throttleMap } = require('../lib/utils');
  */
 class Bancor extends Driver {
   /**
-   * @param {boolean} isMocked Set to true when stored tickers are used
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
-  async fetchTickers(isMocked) {
-    const { data } = await request('https://api.bancor.network/0.1/currencies/convertiblePairs');
-    const baseCurrencies = Object.keys(data);
-    const markets = baseCurrencies
-    // Bancor has both GNOBNT/BNT markets as GNO/BNT markets, which provide the same ticker data. We
-    // only need one of those, and therefor filter out the XXXBNT/BNT markets
-      .filter((base) => (base.indexOf('BNT') === -1))
-      .map((market) => {
-        const base = market;
-        const quote = 'BNT';
-        return { base, quote };
+  async fetchTickers() {
+    const { data } = await request('https://api-v2.bancor.network/pools');
+
+    const tickers = data.map((ticker) => {
+      const base = ticker.reserves[0];
+      const quote = ticker.reserves[1];
+
+      return new Ticker({
+        base: base.symbol,
+        baseName: base.name,
+        baseReference: base.dlt_id,
+        quote: quote.symbol,
+        quoteName: quote.name,
+        quoteReference: quote.dlt_id,
+        open: parseToFloat(base.price_24h_ago.usd) / parseToFloat(quote.price_24h_ago.usd),
+        close: parseToFloat(base.price.usd) / parseToFloat(quote.price.usd),
+        baseVolume: parseToFloat(base.volume_24h.base),
+        quoteVolume: parseToFloat(quote.volume_24h.base),
       });
+    });
 
-    const tickers = throttleMap(markets, async (market) => {
-      try {
-        const result = await request(`https://api.bancor.network/0.1/currencies/${market.base}/ticker?fromCurrencyCode=${market.quote}`);
-        const ticker = result.data;
-
-        /*
-       * The api (which currently is in alpha stage) provides decimals, but
-       * currently seems to always enforce 18. So hardcoding 18 for now. Enable
-       * the decimals above again when api is updated.
-       */
-
-        const decimals = 18;
-        const close = parseToFloat(ticker.price);
-        const quoteVolume = parseToFloat(ticker.volume24h, (number) => number / (10 ** decimals));
-
-        return new Ticker({
-          base: market.base,
-          quote: market.quote,
-          close,
-          quoteVolume,
-          baseVolume: parseToFloat(quoteVolume / close),
-          vwap: parseToFloat(ticker.price24h),
-        });
-      } catch (error) {
-        return undefined;
-      }
-    }, isMocked ? 0 : 20); // Do batches of 50 a second
-
-    return Promise.all(tickers);
+    return tickers;
   }
 }
 
