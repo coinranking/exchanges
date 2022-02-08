@@ -1,3 +1,10 @@
+## [3.72.3](https://github.com/coinranking/exchanges/compare/v3.72.2...v3.72.3) (2022-02-08)
+
+
+### Bug Fixes
+
+* catex driver ([79640d1](https://github.com/coinranking/exchanges/commit/79640d1cca3c216e3bb5ea90005d23c071be47fd))
+
 ## [3.72.2](https://github.com/coinranking/exchanges/compare/v3.72.1...v3.72.2) (2022-02-08)
 
 
