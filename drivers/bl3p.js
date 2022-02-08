@@ -13,7 +13,7 @@ class Bl3p extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const bases = ['BTC', 'LTC'];
+    const bases = ['BTC'];
 
     const tickers = bases.map(async (base) => {
       const ticker = await request(`https://api.bl3p.eu/1/${base}EUR/ticker`);
