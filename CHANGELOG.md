@@ -1,3 +1,10 @@
+## [3.72.4](https://github.com/coinranking/exchanges/compare/v3.72.3...v3.72.4) (2022-02-08)
+
+
+### Bug Fixes
+
+* bl3p its response shape differs when fetching ltc ([9c141a6](https://github.com/coinranking/exchanges/commit/9c141a622da3ac2ace64940ab6498b63b1e77150))
+
 ## [3.72.3](https://github.com/coinranking/exchanges/compare/v3.72.2...v3.72.3) (2022-02-08)
 
 
