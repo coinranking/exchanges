@@ -1,3 +1,12 @@
+## [3.72.1](https://github.com/coinranking/exchanges/compare/v3.72.0...v3.72.1) (2022-02-08)
+
+
+### Bug Fixes
+
+* remove acx exchange because it does not exist anymore ([2d0b174](https://github.com/coinranking/exchanges/commit/2d0b174b80cc06d1f34e8b1b7c8f8c23fd9bf0f9))
+* remove bitcoin exchange ([869907e](https://github.com/coinranking/exchanges/commit/869907e06f1378b49d5185a31388445e95f6d299))
+* remove bitz because it seized to exist ([bc60087](https://github.com/coinranking/exchanges/commit/bc60087edbfd1547183385cd7e5e155796aca7e6))
+
 # [3.72.0](https://github.com/coinranking/exchanges/compare/v3.71.1...v3.72.0) (2022-02-08)
 
 
