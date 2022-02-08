@@ -52,7 +52,6 @@ exports.Bittrex = require('./bittrex');
 exports.Bitubu = require('./bitubu');
 exports.Bitvast = require('./bitvast');
 exports.Bitvavo = require('./bitvavo');
-exports.Bitz = require('./bitz');
 exports.Bkex = require('./bkex');
 exports.Bl3p = require('./bl3p');
 exports.Bleutrade = require('./bleutrade');
