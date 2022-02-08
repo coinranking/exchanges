@@ -125,7 +125,6 @@ exports.Exx = require('./exx');
 exports.Felixo = require('./felixo');
 exports.Finexbox = require('./finexbox');
 exports.Fivestar = require('./fivestar');
-exports.Floatsv = require('./floatsv');
 exports.Folgory = require('./folgory');
 exports.Ftx = require('./ftx');
 exports.Gateio = require('./gateio');
