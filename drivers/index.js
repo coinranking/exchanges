@@ -13,7 +13,6 @@ exports.Bankera = require('./bankera');
 exports.Bcbitcoin = require('./bcbitcoin');
 exports.Bcex = require('./bcex');
 exports.Beaxy = require('./beaxy');
-exports.Beldex = require('./beldex');
 exports.Bequant = require('./bequant');
 exports.Bgogo = require('./bgogo');
 exports.Bhex = require('./bhex');
