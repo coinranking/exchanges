@@ -13,22 +13,22 @@ class Idex extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const data = await request('https://api.idex.market/returnTicker');
-    const pairs = Object.keys(data);
+    const tickers = await request('https://api-matic.idex.io/v1/tickers');
 
-    return pairs.map((pair) => {
-      const [quote, base] = pair.split('_');
-      const ticker = data[pair];
-      if (!ticker) return undefined;
+    return tickers.map((ticker) => {
+      const [base, quote] = ticker.market.split('-');
 
       return new Ticker({
         base,
         quote,
-        baseVolume: parseToFloat(ticker.quoteVolume),
-        quoteVolume: parseToFloat(ticker.baseVolume),
+        baseVolume: parseToFloat(ticker.baseVolume),
+        quoteVolume: parseToFloat(ticker.quoteVolume),
+        open: parseToFloat(ticker.open),
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
-        close: parseToFloat(ticker.last),
+        close: parseToFloat(ticker.close),
+        bid: parseToFloat(ticker.bid),
+        ask: parseToFloat(ticker.ask),
       });
     });
   }
