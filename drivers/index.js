@@ -41,7 +41,6 @@ exports.Bitkub = require('./bitkub');
 exports.Bitladon = require('./bitladon');
 exports.Bitlish = require('./bitlish');
 exports.Bitmart = require('./bitmart');
-exports.Bitmax = require('./bitmax');
 exports.Bitoffer = require('./bitoffer');
 exports.Bitonic = require('./bitonic');
 exports.Bitopro = require('./bitopro');
