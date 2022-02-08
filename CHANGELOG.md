@@ -1,3 +1,10 @@
+# [3.71.0](https://github.com/coinranking/exchanges/compare/v3.70.1...v3.71.0) (2022-02-08)
+
+
+### Features
+
+* add mexc driver ([d729f58](https://github.com/coinranking/exchanges/commit/d729f58e053167dfbe21b3a517e76e3b63826993))
+
 ## [3.70.1](https://github.com/coinranking/exchanges/compare/v3.70.0...v3.70.1) (2022-02-08)
 
 
