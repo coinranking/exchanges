@@ -1,3 +1,10 @@
+## [3.71.1](https://github.com/coinranking/exchanges/compare/v3.71.0...v3.71.1) (2022-02-08)
+
+
+### Bug Fixes
+
+* idex driver update ([f20c51f](https://github.com/coinranking/exchanges/commit/f20c51f7c6d6c45d45f680df9af775285d33c42f))
+
 # [3.71.0](https://github.com/coinranking/exchanges/compare/v3.70.1...v3.71.0) (2022-02-08)
 
 
