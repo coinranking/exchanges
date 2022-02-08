@@ -1,3 +1,10 @@
+## [3.70.1](https://github.com/coinranking/exchanges/compare/v3.70.0...v3.70.1) (2022-02-08)
+
+
+### Bug Fixes
+
+* update bancor driver to new api ([8e6ad4b](https://github.com/coinranking/exchanges/commit/8e6ad4b6d9fe30050fb5234f47c0896d48cfa393))
+
 # [3.70.0](https://github.com/coinranking/exchanges/compare/v3.69.3...v3.70.0) (2022-02-08)
 
 
