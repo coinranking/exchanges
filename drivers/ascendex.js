@@ -7,13 +7,13 @@ const { parseToFloat } = require('../lib/utils');
  * @memberof Driver
  * @augments Driver
  */
-class Bitmax extends Driver {
+class Ascendex extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://bitmax.io/api/v1/ticker/24hr');
+    const { data: tickers } = await request('https://ascendex.com/api/pro/v1/spot/ticker');
 
     return tickers.map((ticker) => {
       const [base, quote] = ticker.symbol.split('/');
@@ -22,13 +22,13 @@ class Bitmax extends Driver {
         base,
         quote,
         baseVolume: parseToFloat(ticker.volume),
-        close: parseToFloat(ticker.closePrice),
-        open: parseToFloat(ticker.openPrice),
-        high: parseToFloat(ticker.highPrice),
-        low: parseToFloat(ticker.lowPrice),
+        open: parseToFloat(ticker.open),
+        high: parseToFloat(ticker.high),
+        low: parseToFloat(ticker.low),
+        close: parseToFloat(ticker.close),
       });
     });
   }
 }
 
-module.exports = Bitmax;
+module.exports = Ascendex;
