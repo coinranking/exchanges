@@ -1,3 +1,15 @@
+# [3.70.0](https://github.com/coinranking/exchanges/compare/v3.69.3...v3.70.0) (2022-02-08)
+
+
+### Bug Fixes
+
+* pancakeswap has been replaced with a v2 exchange ([5a332f4](https://github.com/coinranking/exchanges/commit/5a332f4a05b4767ea673b6ee93d6fe835ef563c2))
+
+
+### Features
+
+* remove drivers of broken exchanges ([77bed84](https://github.com/coinranking/exchanges/commit/77bed84470f0eb850aa14ddf1231392409ec619a))
+
 ## [3.69.3](https://github.com/coinranking/exchanges/compare/v3.69.2...v3.69.3) (2022-02-03)
 
 
