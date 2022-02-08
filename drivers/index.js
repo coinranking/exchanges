@@ -204,7 +204,6 @@ exports.Rudex = require('./rudex');
 exports.Satoexchange = require('./satoexchange');
 exports.Saturn = require('./saturn');
 exports.Sigenpro = require('./sigenpro');
-exports.Simex = require('./simex');
 exports.Southxchange = require('./southxchange');
 exports.Stex = require('./stex');
 exports.Stormgain = require('./stormgain');
