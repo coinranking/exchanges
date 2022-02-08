@@ -1,3 +1,12 @@
+## [3.72.2](https://github.com/coinranking/exchanges/compare/v3.72.1...v3.72.2) (2022-02-08)
+
+
+### Bug Fixes
+
+* remove beldex because they seem to have stopped with their api ([a2a4ad7](https://github.com/coinranking/exchanges/commit/a2a4ad736b44d594b682472b392c56e492ca998a))
+* remove float sv because they quit ([a31eaa0](https://github.com/coinranking/exchanges/commit/a31eaa0b634f230c55f4174280956cdc9375b30c))
+* remove simex because it seized to exist ([1dcb325](https://github.com/coinranking/exchanges/commit/1dcb32551be5a8bcb28000b95b9d9527362ce276))
+
 ## [3.72.1](https://github.com/coinranking/exchanges/compare/v3.72.0...v3.72.1) (2022-02-08)
 
 
