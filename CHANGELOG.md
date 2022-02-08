@@ -1,3 +1,11 @@
+# [3.72.0](https://github.com/coinranking/exchanges/compare/v3.71.1...v3.72.0) (2022-02-08)
+
+
+### Features
+
+* add ascendex (formerly known as bitmax ([dd8e0a6](https://github.com/coinranking/exchanges/commit/dd8e0a6bc49685db2a12fdbf4386976fbb8020a8))
+* remove bitmax (replaced by ascendex) ([1920726](https://github.com/coinranking/exchanges/commit/19207260649a4c212fabf2d4f0e00fddac800bda))
+
 ## [3.71.1](https://github.com/coinranking/exchanges/compare/v3.71.0...v3.71.1) (2022-02-08)
 
 
