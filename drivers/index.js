@@ -211,7 +211,6 @@ exports.Therock = require('./therock');
 exports.Thorchain = require('./thorchain');
 exports.Thoreexchange = require('./thoreexchange');
 exports.Tidebit = require('./tidebit');
-exports.Tidex = require('./tidex');
 exports.Timex = require('./timex');
 exports.Tokenize = require('./tokenize');
 exports.Tokenomica = require('./tokenomica');
