@@ -1,7 +1,6 @@
 exports['1inch'] = require('./_1inch');
 exports.Aax = require('./aax');
 exports.Abcc = require('./abcc');
-exports.Abit = require('./abit');
 exports.Aex = require('./aex');
 exports.Altcointrader = require('./altcointrader');
 exports.Ascendex = require('./ascendex');
