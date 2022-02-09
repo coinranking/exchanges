@@ -1,3 +1,11 @@
+## [3.72.8](https://github.com/coinranking/exchanges/compare/v3.72.7...v3.72.8) (2022-02-09)
+
+
+### Bug Fixes
+
+* remove abit ([7fde3c3](https://github.com/coinranking/exchanges/commit/7fde3c3a0b7a1ffc3b9a6543843e67a9cb8f9ac4))
+* remove dsx ([e34b09b](https://github.com/coinranking/exchanges/commit/e34b09bd42b60ff5edef267ad2c44ddf35030811))
+
 ## [3.72.7](https://github.com/coinranking/exchanges/compare/v3.72.6...v3.72.7) (2022-02-09)
 
 
