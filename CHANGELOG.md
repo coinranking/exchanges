@@ -1,3 +1,10 @@
+## [3.72.6](https://github.com/coinranking/exchanges/compare/v3.72.5...v3.72.6) (2022-02-09)
+
+
+### Bug Fixes
+
+* remove tidex. Api does not report any volume ([35a97dd](https://github.com/coinranking/exchanges/commit/35a97dd848d2a619c61231d022e3253a7bf6f777))
+
 ## [3.72.5](https://github.com/coinranking/exchanges/compare/v3.72.4...v3.72.5) (2022-02-09)
 
 
