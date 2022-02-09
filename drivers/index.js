@@ -224,7 +224,6 @@ exports.Tradeogre = require('./tradeogre');
 exports.Tradesatoshi = require('./tradesatoshi');
 exports.Triunits = require('./triunits');
 exports.Turtlenetwork = require('./turtlenetwork');
-exports.Txbit = require('./txbit');
 exports.Uniswap = require('./uniswap');
 exports.Uniswap2 = require('./uniswap2');
 exports.Uniswap3 = require('./uniswap3');
