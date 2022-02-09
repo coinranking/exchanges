@@ -1,3 +1,12 @@
+## [3.72.5](https://github.com/coinranking/exchanges/compare/v3.72.4...v3.72.5) (2022-02-09)
+
+
+### Bug Fixes
+
+* remove buda ([8479ac5](https://github.com/coinranking/exchanges/commit/8479ac52f293e60f0aae9cee3d0603799de1959e))
+* remove fivestar exchange because it is down for more than a week without notices ([d69093a](https://github.com/coinranking/exchanges/commit/d69093a67dd3e6127e81577a8f60707bcaa5c1e9))
+* remove txbit ([df68dea](https://github.com/coinranking/exchanges/commit/df68deaf8ca91aa1a1b8782410ce0ebf3ef54b79))
+
 ## [3.72.4](https://github.com/coinranking/exchanges/compare/v3.72.3...v3.72.4) (2022-02-08)
 
 
