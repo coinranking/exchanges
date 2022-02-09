@@ -1,3 +1,10 @@
+## [3.72.9](https://github.com/coinranking/exchanges/compare/v3.72.8...v3.72.9) (2022-02-09)
+
+
+### Bug Fixes
+
+* prevent warnings in logs now ssl tricks are no longer needed ([252dd69](https://github.com/coinranking/exchanges/commit/252dd696da4f2dafb398d8b2949378d128d7141e))
+
 ## [3.72.8](https://github.com/coinranking/exchanges/compare/v3.72.7...v3.72.8) (2022-02-09)
 
 
