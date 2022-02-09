@@ -1,3 +1,10 @@
+## [3.72.7](https://github.com/coinranking/exchanges/compare/v3.72.6...v3.72.7) (2022-02-09)
+
+
+### Bug Fixes
+
+* pancakeswap2 ([9ac4409](https://github.com/coinranking/exchanges/commit/9ac4409c99fc8be99ad27ee12fa1ae78f4bd667e))
+
 ## [3.72.6](https://github.com/coinranking/exchanges/compare/v3.72.5...v3.72.6) (2022-02-09)
 
 
