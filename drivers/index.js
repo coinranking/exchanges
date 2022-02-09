@@ -110,7 +110,6 @@ exports.Dobitrade = require('./dobitrade');
 exports.Dovewallet = require('./dovewallet');
 exports.Dragonex = require('./dragonex');
 exports.Drgx = require('./drgx');
-exports.Dsx = require('./dsx');
 exports.Ethfinex = require('./ethfinex');
 exports.Eurobtc = require('./eurobtc');
 exports.Exenium = require('./exenium');
