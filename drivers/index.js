@@ -1,7 +1,6 @@
 exports['1inch'] = require('./_1inch');
 exports.Aax = require('./aax');
 exports.Abcc = require('./abcc');
-exports.Abit = require('./abit');
 exports.Aex = require('./aex');
 exports.Altcointrader = require('./altcointrader');
 exports.Ascendex = require('./ascendex');
@@ -111,7 +110,6 @@ exports.Dobitrade = require('./dobitrade');
 exports.Dovewallet = require('./dovewallet');
 exports.Dragonex = require('./dragonex');
 exports.Drgx = require('./drgx');
-exports.Dsx = require('./dsx');
 exports.Ethfinex = require('./ethfinex');
 exports.Eurobtc = require('./eurobtc');
 exports.Exenium = require('./exenium');
