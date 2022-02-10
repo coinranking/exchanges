@@ -1,3 +1,10 @@
+# [3.73.0](https://github.com/coinranking/exchanges/compare/v3.72.9...v3.73.0) (2022-02-10)
+
+
+### Features
+
+* add mandala exchange ([7347d76](https://github.com/coinranking/exchanges/commit/7347d76dc411cb028c2b22e687533baece4df326))
+
 ## [3.72.9](https://github.com/coinranking/exchanges/compare/v3.72.8...v3.72.9) (2022-02-09)
 
 
