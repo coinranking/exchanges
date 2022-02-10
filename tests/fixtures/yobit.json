@@ -1,0 +1,60 @@
+[
+    {
+        "scope": "https://yobit.net:443",
+        "method": "GET",
+        "path": "/api/3/ticker/btc_usdt-eth_btc",
+        "body": "",
+        "status": 200,
+        "response": {
+            "btc_usdt": {
+                "high": 44995.9999999,
+                "low": 43050,
+                "avg": 44022.99999995,
+                "vol": 9868.23954772,
+                "vol_cur": 0.22370557,
+                "last": 44995.9999999,
+                "buy": 44283.60941949,
+                "sell": 44983.75954625,
+                "updated": 1644507263
+            },
+            "eth_btc": {
+                "high": 0.0731,
+                "low": 0.07115737,
+                "avg": 0.07212868,
+                "vol": 2998.44612215,
+                "vol_cur": 41280.5075572,
+                "last": 0.07207759,
+                "buy": 0.07143365,
+                "sell": 0.07207995,
+                "updated": 1644507440
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 10 Feb 2022 15:40:13 GMT",
+            "Content-Type",
+            "text/html; charset=UTF-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Vary",
+            "Accept-Encoding",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-XSS-Protection",
+            "1; mode=block;",
+            "x-download-options",
+            "noopen",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Expect-CT",
+            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
