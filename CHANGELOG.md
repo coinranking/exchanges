@@ -1,3 +1,15 @@
+# [3.75.0](https://github.com/coinranking/exchanges/compare/v3.74.0...v3.75.0) (2022-02-10)
+
+
+### Bug Fixes
+
+* remove brexily, coss and polonidex exchange drivers ([80cd115](https://github.com/coinranking/exchanges/commit/80cd11507abb5847e6395927cc4e51ad7d8966e3))
+
+
+### Features
+
+* add Yobit driver ([22ac4b1](https://github.com/coinranking/exchanges/commit/22ac4b1e68bebd0fa094ae8eca69d07871dcd756))
+
 # [3.74.0](https://github.com/coinranking/exchanges/compare/v3.73.0...v3.74.0) (2022-02-10)
 
 
