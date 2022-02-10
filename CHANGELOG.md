@@ -1,3 +1,10 @@
+## [3.75.1](https://github.com/coinranking/exchanges/compare/v3.75.0...v3.75.1) (2022-02-10)
+
+
+### Bug Fixes
+
+* bigone tickers that lack bid or ask objects ([d22b923](https://github.com/coinranking/exchanges/commit/d22b923e1ad3ec44d395631a2eb6cbf648bac837))
+
 # [3.75.0](https://github.com/coinranking/exchanges/compare/v3.74.0...v3.75.0) (2022-02-10)
 
 
