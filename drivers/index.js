@@ -159,6 +159,7 @@ exports.Loopring = require('./loopring');
 exports.Luno = require('./luno');
 exports.Luxtrade = require('./luxtrade');
 exports.Lykke = require('./lykke');
+exports.Mandala = require('./mandala');
 exports.Maxmaincoin = require('./maxmaincoin');
 exports.Mercado = require('./mercado');
 exports.Mercatox = require('./mercatox');
