@@ -1,3 +1,10 @@
+# [3.74.0](https://github.com/coinranking/exchanges/compare/v3.73.0...v3.74.0) (2022-02-10)
+
+
+### Features
+
+* add bybit driver ([c8d9646](https://github.com/coinranking/exchanges/commit/c8d9646ca5a4264b9d549958f17526a1cb85f730))
+
 # [3.73.0](https://github.com/coinranking/exchanges/compare/v3.72.9...v3.73.0) (2022-02-10)
 
 
