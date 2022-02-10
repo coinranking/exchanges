@@ -27,8 +27,8 @@ class Bigone extends Driver {
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.close),
-        bid: parseToFloat(ticker.bid.price),
-        ask: parseToFloat(ticker.ask.price),
+        bid: ticker.bid ? parseToFloat(ticker.bid.price) : undefined,
+        ask: ticker.ask ? parseToFloat(ticker.ask.price) : undefined,
       });
     });
   }
