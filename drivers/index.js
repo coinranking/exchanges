@@ -77,6 +77,7 @@ exports.Changellypro = require('./changellypro');
 exports.Citex = require('./citex');
 exports.Coinall = require('./coinall');
 exports.Coinbasepro = require('./coinbasepro');
+exports.Coinbetter = require('./coinbetter');
 exports.Coincheck = require('./coincheck');
 exports.Coindcx = require('./coindcx');
 exports.Coindeal = require('./coindeal');
