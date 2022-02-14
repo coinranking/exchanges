@@ -1,3 +1,11 @@
+# [3.76.0](https://github.com/coinranking/exchanges/compare/v3.75.1...v3.76.0) (2022-02-14)
+
+
+### Features
+
+* add coinbetter driver ([175ca65](https://github.com/coinranking/exchanges/commit/175ca650d311d5d3cf93d1e506b2df2561dd190b))
+* add Nicehash driver ([82ac6c4](https://github.com/coinranking/exchanges/commit/82ac6c484eb8d4ea342a9fffea459abb6676ecc4))
+
 ## [3.75.1](https://github.com/coinranking/exchanges/compare/v3.75.0...v3.75.1) (2022-02-10)
 
 
