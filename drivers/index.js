@@ -170,6 +170,7 @@ exports.Nanuexchange = require('./nanuexchange');
 exports.Narkasa = require('./narkasa');
 exports.Nash = require('./nash');
 exports.Newcapital = require('./newcapital');
+exports.Nicehash = require('./nicehash');
 exports.Nocks = require('./nocks');
 exports.Nominex = require('./nominex');
 exports.Novadex = require('./novadex');
