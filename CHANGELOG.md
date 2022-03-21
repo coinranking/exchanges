@@ -1,3 +1,10 @@
+## [3.76.1](https://github.com/coinranking/exchanges/compare/v3.76.0...v3.76.1) (2022-03-21)
+
+
+### Bug Fixes
+
+* update okex api to new okx api v5 endpoint ([2ba5e5f](https://github.com/coinranking/exchanges/commit/2ba5e5f204e640b97adf41944080b4ab7c0c8d67))
+
 # [3.76.0](https://github.com/coinranking/exchanges/compare/v3.75.1...v3.76.0) (2022-02-14)
 
 
