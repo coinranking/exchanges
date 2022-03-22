@@ -1,3 +1,10 @@
+## [3.76.2](https://github.com/coinranking/exchanges/compare/v3.76.1...v3.76.2) (2022-03-22)
+
+
+### Bug Fixes
+
+* coinfield driver was not working for reasons unknown but it could do without a request per market ([7317b1d](https://github.com/coinranking/exchanges/commit/7317b1d171999945d3d3748bb9bed10bb203f53c))
+
 ## [3.76.1](https://github.com/coinranking/exchanges/compare/v3.76.0...v3.76.1) (2022-03-21)
 
 
