@@ -1,3 +1,10 @@
+## [3.77.2](https://github.com/coinranking/exchanges/compare/v3.77.1...v3.77.2) (2022-03-22)
+
+
+### Bug Fixes
+
+* remove bitbay ([b9618c6](https://github.com/coinranking/exchanges/commit/b9618c6bff85f01c9a8f2a943ad68ee53119be1e))
+
 ## [3.77.1](https://github.com/coinranking/exchanges/compare/v3.77.0...v3.77.1) (2022-03-22)
 
 
