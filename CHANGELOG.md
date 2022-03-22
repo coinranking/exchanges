@@ -1,3 +1,10 @@
+## [3.77.1](https://github.com/coinranking/exchanges/compare/v3.77.0...v3.77.1) (2022-03-22)
+
+
+### Bug Fixes
+
+* kyber is removed ([983bf1b](https://github.com/coinranking/exchanges/commit/983bf1b214bf8a28a2933770d080a37667b705b6))
+
 # [3.77.0](https://github.com/coinranking/exchanges/compare/v3.76.2...v3.77.0) (2022-03-22)
 
 
