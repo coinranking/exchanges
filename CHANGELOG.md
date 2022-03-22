@@ -1,3 +1,16 @@
+# [3.77.0](https://github.com/coinranking/exchanges/compare/v3.76.2...v3.77.0) (2022-03-22)
+
+
+### Features
+
+* bitbay seems to be replaced by zonda ([1cf9ee9](https://github.com/coinranking/exchanges/commit/1cf9ee901c80204b330d1fbb00ec9f01399f6186))
+* remove btcsquare because api keeps returning errors ([b006115](https://github.com/coinranking/exchanges/commit/b0061152707d7799ea93f3bc51bb3085b5dca6a7))
+* remove coinall because api keeps returning errors ([7d4cb28](https://github.com/coinranking/exchanges/commit/7d4cb28cc53004eb67b2c14391a623d9daf11529))
+* remove coineal because they seem to be offline ([3341e8f](https://github.com/coinranking/exchanges/commit/3341e8f859094de546023088397dda55a080fdc9))
+* remove exrates because offline ([65cd3f2](https://github.com/coinranking/exchanges/commit/65cd3f2db860ed3d92555b7286a1cd7f76950ded))
+* remove kyber because they return errors. Might need a new driver ([37053b0](https://github.com/coinranking/exchanges/commit/37053b0d11e27d45c6503b8f17af75047bc22cea))
+* remove mushino because of errors and seems not to have spot markets ([ff968a4](https://github.com/coinranking/exchanges/commit/ff968a454c839db33ce0864ce92dad78f8c4a927))
+
 ## [3.76.2](https://github.com/coinranking/exchanges/compare/v3.76.1...v3.76.2) (2022-03-22)
 
 
