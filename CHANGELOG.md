@@ -1,3 +1,10 @@
+# [3.78.0](https://github.com/coinranking/exchanges/compare/v3.77.2...v3.78.0) (2022-03-23)
+
+
+### Features
+
+* add zonda driver ([7f9d3d1](https://github.com/coinranking/exchanges/commit/7f9d3d1f465c70b010c27f2ed6d833e4aa6f756f))
+
 ## [3.77.2](https://github.com/coinranking/exchanges/compare/v3.77.1...v3.77.2) (2022-03-22)
 
 
