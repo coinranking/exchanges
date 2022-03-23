@@ -234,3 +234,4 @@ exports.Zaif = require('./zaif');
 exports.Zb = require('./zb');
 exports.Zbg = require('./zbg');
 exports.Zeroex = require('./zeroex');
+exports.Zonda = require('./zonda');
