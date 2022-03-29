@@ -1,3 +1,10 @@
+## [3.78.1](https://github.com/coinranking/exchanges/compare/v3.78.0...v3.78.1) (2022-03-29)
+
+
+### Bug Fixes
+
+* osmosis updated their token endpoint, which we did not really need ([1804173](https://github.com/coinranking/exchanges/commit/18041736d53c0dad188523b57eefef649067ab18))
+
 # [3.78.0](https://github.com/coinranking/exchanges/compare/v3.77.2...v3.78.0) (2022-03-23)
 
 
