@@ -13,7 +13,7 @@ class Wavesexchange extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: markets } = await request('https://api.wavesplatform.com/v0/pairs?limit=1000&matcher=3PEjHv3JGjcWNpYEEkif2w8NXV4kbhnoGgu');
+    const { data: markets } = await request('https://api.wavesplatform.com/v0/pairs?limit=100&matcher=3PEjHv3JGjcWNpYEEkif2w8NXV4kbhnoGgu');
     const { data: assets } = await request('https://api.wavesplatform.com/v0/assets?ticker=*&matcher=3PEjHv3JGjcWNpYEEkif2w8NXV4kbhnoGgu');
 
     const currencies = assets.map((asset) => ({
