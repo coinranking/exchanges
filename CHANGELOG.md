@@ -1,3 +1,10 @@
+## [3.78.2](https://github.com/coinranking/exchanges/compare/v3.78.1...v3.78.2) (2022-04-05)
+
+
+### Bug Fixes
+
+* wavesexchange changed their limit to 100 ([74e5659](https://github.com/coinranking/exchanges/commit/74e5659b7e6c8f9bfc1df3b879e08b926f59fcd9))
+
 ## [3.78.1](https://github.com/coinranking/exchanges/compare/v3.78.0...v3.78.1) (2022-03-29)
 
 
