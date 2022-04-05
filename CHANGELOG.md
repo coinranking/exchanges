@@ -1,3 +1,10 @@
+# [3.79.0](https://github.com/coinranking/exchanges/compare/v3.78.2...v3.79.0) (2022-04-05)
+
+
+### Features
+
+* add bingx driver ([3d5bb99](https://github.com/coinranking/exchanges/commit/3d5bb99d5c6afa163f0bd30f157115d36973abed))
+
 ## [3.78.2](https://github.com/coinranking/exchanges/compare/v3.78.1...v3.78.2) (2022-04-05)
 
 
