@@ -20,6 +20,7 @@ exports.Bigone = require('./bigone');
 exports.Bilaxy = require('./bilaxy');
 exports.Binance = require('./binance');
 exports.Binancedex = require('./binancedex');
+exports.Bingx = require('./bingx');
 exports.Bit2c = require('./bit2c');
 exports.Bitbank = require('./bitbank');
 exports.Bitcratic = require('./bitcratic');
