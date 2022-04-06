@@ -206,7 +206,6 @@ exports.Thoreexchange = require('./thoreexchange');
 exports.Tidebit = require('./tidebit');
 exports.Timex = require('./timex');
 exports.Tokenize = require('./tokenize');
-exports.Tokenomica = require('./tokenomica');
 exports.Tokens = require('./tokens');
 exports.Tokenstore = require('./tokenstore');
 exports.Tokok = require('./tokok');
