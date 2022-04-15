@@ -1,3 +1,10 @@
+# [3.80.0](https://github.com/coinranking/exchanges/compare/v3.79.0...v3.80.0) (2022-04-15)
+
+
+### Features
+
+* tokenomica seems to be halted ([880a0b8](https://github.com/coinranking/exchanges/commit/880a0b8fb6b8f3a35e5e6370b5443be8ea41f403))
+
 # [3.79.0](https://github.com/coinranking/exchanges/compare/v3.78.2...v3.79.0) (2022-04-05)
 
 
