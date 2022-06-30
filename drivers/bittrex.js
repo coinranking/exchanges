@@ -13,20 +13,24 @@ class Bittrex extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { result: tickers } = await request('https://api.bittrex.com/api/v1.1/public/getmarketsummaries');
+    const summaries = await request('https://api.bittrex.com/v3/markets/summaries');
+    const closes = await request('https://api.bittrex.com/v3/markets/tickers');
 
-    return tickers.map((ticker) => {
-    // Warning: Bittrex inverts base and quote!
-      const [quote, base] = ticker.MarketName.split('-');
+    return summaries.flatMap((summary) => {
+      const [base, quote] = summary.symbol.split('-');
+      const { lastTradeRate: close } = closes.find((item) => summary.symbol === item.symbol);
+
+      if (!parseToFloat(summary.volume)) return [];
+      if (!parseToFloat(close)) return [];
 
       return new Ticker({
         base,
         quote,
-        baseVolume: parseToFloat(ticker.QuoteVolume),
-        quoteVolume: parseToFloat(ticker.BaseVolume),
-        high: parseToFloat(ticker.High),
-        low: parseToFloat(ticker.Low),
-        close: parseToFloat(ticker.Last),
+        baseVolume: parseToFloat(summary.volume),
+        quoteVolume: parseToFloat(summary.quoteVolume),
+        high: parseToFloat(summary.high),
+        low: parseToFloat(summary.low),
+        close: parseToFloat(close),
       });
     });
   }
