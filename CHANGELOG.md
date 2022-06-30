@@ -1,3 +1,10 @@
+# [3.81.0](https://github.com/coinranking/exchanges/compare/v3.80.0...v3.81.0) (2022-06-30)
+
+
+### Features
+
+* add xt driver ([7c97d8d](https://github.com/coinranking/exchanges/commit/7c97d8d97df9e17bd9656d6f53d67e9fd0c04410))
+
 # [3.80.0](https://github.com/coinranking/exchanges/compare/v3.79.0...v3.80.0) (2022-04-15)
 
 
