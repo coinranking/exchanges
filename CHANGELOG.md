@@ -1,3 +1,10 @@
+## [3.81.1](https://github.com/coinranking/exchanges/compare/v3.81.0...v3.81.1) (2022-06-30)
+
+
+### Bug Fixes
+
+* update bittrex to new api ([3d65cbf](https://github.com/coinranking/exchanges/commit/3d65cbf003c7542817657a5fd82777825ce84019))
+
 # [3.81.0](https://github.com/coinranking/exchanges/compare/v3.80.0...v3.81.0) (2022-06-30)
 
 
