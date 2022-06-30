@@ -94,7 +94,6 @@ exports.Compound = require('./compound');
 exports.Corgiswap = require('./corgiswap');
 exports.Crex24 = require('./crex24');
 exports.Crypto = require('./crypto');
-exports.Cryptohubexchange = require('./cryptohubexchange');
 exports.Cryptonex = require('./cryptonex');
 exports.Currency = require('./currency');
 exports.Curve = require('./curve');
