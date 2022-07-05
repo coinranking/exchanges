@@ -1,3 +1,11 @@
+## [3.81.2](https://github.com/coinranking/exchanges/compare/v3.81.1...v3.81.2) (2022-07-05)
+
+
+### Bug Fixes
+
+* cryptohubexchanges is gone, removing driver ([e824e93](https://github.com/coinranking/exchanges/commit/e824e93305026a5e1bc8b87ad9e4acd1389e13c4))
+* remove bitsten and bitfex because their apis broke down ([c6323af](https://github.com/coinranking/exchanges/commit/c6323af13c5572276cb22b9a222717a2a9407894))
+
 ## [3.81.1](https://github.com/coinranking/exchanges/compare/v3.81.0...v3.81.1) (2022-06-30)
 
 
