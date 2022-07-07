@@ -1,3 +1,10 @@
+## [3.81.3](https://github.com/coinranking/exchanges/compare/v3.81.2...v3.81.3) (2022-07-07)
+
+
+### Bug Fixes
+
+* **bittrex:** skip market if ticker could not be found ([1a618db](https://github.com/coinranking/exchanges/commit/1a618db2fc20cdc4fbf7f0c5d75c991d40ecf9aa))
+
 ## [3.81.2](https://github.com/coinranking/exchanges/compare/v3.81.1...v3.81.2) (2022-07-05)
 
 
