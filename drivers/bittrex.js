@@ -14,11 +14,13 @@ class Bittrex extends Driver {
    */
   async fetchTickers() {
     const summaries = await request('https://api.bittrex.com/v3/markets/summaries');
-    const closes = await request('https://api.bittrex.com/v3/markets/tickers');
+    const tickers = await request('https://api.bittrex.com/v3/markets/tickers');
 
     return summaries.flatMap((summary) => {
       const [base, quote] = summary.symbol.split('-');
-      const { lastTradeRate: close } = closes.find((item) => summary.symbol === item.symbol);
+      const ticker = tickers.find((item) => summary.symbol === item.symbol);
+      if (!ticker) return undefined;
+      const { lastTradeRate: close } = ticker;
 
       if (!parseToFloat(summary.volume)) return [];
       if (!parseToFloat(close)) return [];
