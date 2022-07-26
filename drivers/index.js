@@ -56,6 +56,7 @@ exports.Bololex = require('./bololex');
 exports.Braziliex = require('./braziliex');
 exports.Btcalpha = require('./btcalpha');
 exports.Btcbox = require('./btcbox');
+exports.Btcex = require('./btcex');
 exports.Btcexchange = require('./btcexchange');
 exports.Btcmarkets = require('./btcmarkets');
 exports.Btctradeua = require('./btctradeua');
