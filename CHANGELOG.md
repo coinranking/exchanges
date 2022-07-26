@@ -1,3 +1,11 @@
+# [3.82.0](https://github.com/coinranking/exchanges/compare/v3.81.3...v3.82.0) (2022-07-26)
+
+
+### Features
+
+* add blockchain.com driver ([c27284d](https://github.com/coinranking/exchanges/commit/c27284d4ace0a9739479833752e4f281d94123d1))
+* add btcex driver ([e6d73e7](https://github.com/coinranking/exchanges/commit/e6d73e723369f00e6217c18907b321f08bdabc35))
+
 ## [3.81.3](https://github.com/coinranking/exchanges/compare/v3.81.2...v3.81.3) (2022-07-07)
 
 
