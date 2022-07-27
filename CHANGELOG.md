@@ -1,3 +1,10 @@
+# [3.83.0](https://github.com/coinranking/exchanges/compare/v3.82.0...v3.83.0) (2022-07-27)
+
+
+### Features
+
+* add coinw driver ([43a1dec](https://github.com/coinranking/exchanges/commit/43a1decf623b13c34bface6ab4099256be167863))
+
 # [3.82.0](https://github.com/coinranking/exchanges/compare/v3.81.3...v3.82.0) (2022-07-26)
 
 
