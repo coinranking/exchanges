@@ -90,6 +90,7 @@ exports.Coinmate = require('./coinmate');
 exports.Coinone = require('./coinone');
 exports.Coinsbit = require('./coinsbit');
 exports.Cointiger = require('./cointiger');
+exports.Coinw = require('./coinw');
 exports.Compound = require('./compound');
 exports.Corgiswap = require('./corgiswap');
 exports.Crex24 = require('./crex24');
