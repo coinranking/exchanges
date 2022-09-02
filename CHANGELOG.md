@@ -1,3 +1,16 @@
+# [3.84.0](https://github.com/coinranking/exchanges/compare/v3.83.0...v3.84.0) (2022-09-02)
+
+
+### Bug Fixes
+
+* add fixture data for Uniswap v3 Polygon ([726ba94](https://github.com/coinranking/exchanges/commit/726ba940676e09c6474276515da36232f09f33be))
+* test for Uniswap v3 Polygon ([f93cf36](https://github.com/coinranking/exchanges/commit/f93cf36cdf357951aeb460a0fc7cd1f0b324081d))
+
+
+### Features
+
+* add support for Uniswap v3 on Polygon ([5c4271d](https://github.com/coinranking/exchanges/commit/5c4271d4deacd9afd33184cb8d6caa88c03128e1))
+
 # [3.83.0](https://github.com/coinranking/exchanges/compare/v3.82.0...v3.83.0) (2022-07-27)
 
 
