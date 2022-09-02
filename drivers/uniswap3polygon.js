@@ -60,7 +60,7 @@ class Uniswap3Polygon extends Driver {
     if (isMocked) {
       // Dirty fix for testing. The fixture has a timestamp in the query.
       // Because of that the test could not find the fixture.
-      timestampYesterdayInSeconds = 1627305331;
+      timestampYesterdayInSeconds = 1662028583;
     }
 
     const { data: { blocks } } = await request({
