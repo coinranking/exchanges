@@ -17,15 +17,15 @@ class Xeggex extends Driver {
     // Return the data mapped to instances of the Ticker model, the exact way will differ for every
     // exchange.
     return data.map((item) => new Ticker({
-        base: item.base_currency,
-        quote: item.target_currency,
-        quoteVolume: parseToFloat(item.target_volume),
-        baseVolume: parseToFloat(item.base_volume),
-        close: parseToFloat(item.last_price),
-        high: parseToFloat(item.high),
-        low: parseToFloat(item.low),
-        ask: parseToFloat(item.ask),
-        bid: parseToFloat(item.bid),
+      base: item.base_currency,
+      quote: item.target_currency,
+      quoteVolume: parseToFloat(item.target_volume),
+      baseVolume: parseToFloat(item.base_volume),
+      close: parseToFloat(item.last_price),
+      high: parseToFloat(item.high),
+      low: parseToFloat(item.low),
+      ask: parseToFloat(item.ask),
+      bid: parseToFloat(item.bid),
     }));
   }
 }
