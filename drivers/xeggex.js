@@ -26,10 +26,9 @@ class Xeggex extends Driver {
         high: parseToFloat(item.high),
         low: parseToFloat(item.low),
         ask: parseToFloat(item.ask),
-        bid: parseToFloat(item.bid)
+        bid: parseToFloat(item.bid),
       });
     });
-
   }
 }
 
