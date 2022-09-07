@@ -13,16 +13,10 @@ class Xeggex extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-
     const data = await request('https://xeggex.com/api/v2/tickers');
-
     // Return the data mapped to instances of the Ticker model, the exact way will differ for every
     // exchange.
     return data.map((item) => {
-      const {
-        ticker_id, type, base_currency, target_currency, last_price, base_volume, target_volume, bid, ask, high, low
-      } = item;
-
       return new Ticker({
         base: item.base_currency,
         quote: item.target_currency,
