@@ -16,8 +16,8 @@ class Xeggex extends Driver {
     const data = await request('https://xeggex.com/api/v2/tickers');
     // Return the data mapped to instances of the Ticker model, the exact way will differ for every
     // exchange.
-    return data.map((item) => {
-      return new Ticker({
+    return data.map((item) => 
+      new Ticker({
         base: item.base_currency,
         quote: item.target_currency,
         quoteVolume: parseToFloat(item.target_volume),
@@ -28,7 +28,7 @@ class Xeggex extends Driver {
         ask: parseToFloat(item.ask),
         bid: parseToFloat(item.bid),
       });
-    });
+    );
   }
 }
 
