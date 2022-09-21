@@ -144,6 +144,7 @@ exports.Korbit = require('./korbit');
 exports.Kraken = require('./kraken');
 exports.Kucoin = require('./kucoin');
 exports.Kuna = require('./kuna');
+exports.Klickl = require('./klickl');
 exports.Latoken = require('./latoken');
 exports.Lbank = require('./lbank');
 exports.Liquid = require('./liquid');
