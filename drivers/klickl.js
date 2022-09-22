@@ -14,13 +14,13 @@ class Klickl extends Driver {
    */
   async fetchTickers() {
     const { Data } = await request('https://api.klickl.com/api/idcm/market/Market/GetTradeVarieties');
-
     return Data.map((ticker) => new Ticker({
       base: ticker.SellerCoinCode,
       quote: ticker.BuyerCoinCode,
-      baseVolume: parseToFloat(ticker.Last24TradeAmount),
-      high: parseToFloat(ticker.High),
+      baseVolume: parseToFloat(ticker.Last24TradeQuantity),
+      quoteVolume: parseToFloat(ticker.Last24TradeAmount),
       open: parseToFloat(ticker.Open),
+      high: parseToFloat(ticker.High),
       low: parseToFloat(ticker.Low),
       close: parseToFloat(ticker.Close),
     }));
