@@ -7,38 +7,24 @@ const { parseToFloat } = require('../lib/utils');
  * @memberof Driver
  * @augments Driver
  */
-class Kraken extends Driver {
+class Klickl extends Driver {
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const marketData = await request('https://api.kraken.com/0/public/AssetPairs');
-    const markets = marketData.result;
-    const pairs = Object.keys(marketData.result);
-
-    const tickerData = await request(`https://api.kraken.com/0/public/Ticker?pair=${pairs.join(',')}`);
-    const tickers = tickerData.result;
-
-    return pairs.map((pair) => {
-      const ticker = tickers[pair];
-      if (!ticker) return undefined;
-
-      const market = markets[pair];
-      if (!market) return undefined;
-
-      const [base, quote] = market.wsname.split('/');
-
-      return new Ticker({
-        base,
-        quote,
-        baseVolume: parseToFloat(ticker.v[1]),
-        close: parseToFloat(ticker.c[0]),
-        high: parseToFloat(ticker.h[1]),
-        low: parseToFloat(ticker.l[1]),
-      });
-    });
+    const { Data } = await request('https://api.klickl.com/api/idcm/market/Market/GetTradeVarieties');
+    return Data.map((ticker) => new Ticker({
+      base: ticker.SellerCoinCode,
+      quote: ticker.BuyerCoinCode,
+      baseVolume: parseToFloat(ticker.Last24TradeQuantity),
+      quoteVolume: parseToFloat(ticker.Last24TradeAmount),
+      open: parseToFloat(ticker.Open),
+      high: parseToFloat(ticker.High),
+      low: parseToFloat(ticker.Low),
+      close: parseToFloat(ticker.Close),
+    }));
   }
 }
 
-module.exports = Kraken;
+module.exports = Klickl;

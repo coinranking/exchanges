@@ -140,6 +140,7 @@ exports.Iqfinex = require('./iqfinex');
 exports.Itbit = require('./itbit');
 exports.Kickex = require('./kickex');
 exports.Kkex = require('./kkex');
+exports.Klickl = require('./klickl');
 exports.Korbit = require('./korbit');
 exports.Kraken = require('./kraken');
 exports.Kucoin = require('./kucoin');
