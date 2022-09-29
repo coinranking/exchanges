@@ -102,10 +102,9 @@ A driver should at least support `base`, `quote`, `close` and `baseVolume` or `q
 
 ### Listing requirements
 
-Note that all exchanges will be reviewed by our team to see if it meets our standards before we merge a pull request. We'll evaluate several aspects, including trading volume, web and social presence, traffic, and reviews.
-(Spot trading and trading activity are required; futures and derivatives are not supported yet.)
+Before we approve your pull request, we’d like to review the exchange and check if it meets our listing requirements (https://support.coinranking.com/article/71-what-are-the-requirements-for-listing-an-exchange). 
 
-Please send your listing request to [info@coinranking.com](mailto:info@coinranking.com), and include your daily trading volume and a link to your platform. We will then review your exchange ASAP.
+Ticking off all the boxes? Cool! Send us your listing request at [info@coinranking.com](mailto:info@coinranking.com) and include your daily trading volume + a link to your platform. We will then review your exchange ASAP.
 
 ### Examples
 - [Driver basis:](examples/basicdriver.js) Shows the basic setup of a driver, which can be used as the starting point
