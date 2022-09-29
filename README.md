@@ -102,7 +102,7 @@ A driver should at least support `base`, `quote`, `close` and `baseVolume` or `q
 
 ### Listing requirements
 
-Before we approve your pull request, we’d like to review the exchange and check if it meets our listing requirements (https://support.coinranking.com/article/71-what-are-the-requirements-for-listing-an-exchange). 
+Before we approve your pull request, we’d like to review the exchange and check if it meets our [listing requirements](https://support.coinranking.com/article/71-what-are-the-requirements-for-listing-an-exchange).
 
 Ticking off all the boxes? Cool! Send us your listing request at [info@coinranking.com](mailto:info@coinranking.com) and include your daily trading volume + a link to your platform. We will then review your exchange ASAP.
 
