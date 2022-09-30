@@ -54,7 +54,7 @@
   "license": "MIT",
   "dependencies": {
     "cloudscraper": "^4.6.0",
-    "commander": "^9.4.0",
+    "commander": "^9.4.1",
     "request": "^2.88.2"
   },
   "devDependencies": {
