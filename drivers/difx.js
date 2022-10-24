@@ -28,8 +28,8 @@ class Difx extends Driver {
         high: parseToFloat(ticker.highest_price_24h),
         low: parseToFloat(ticker.lowest_price_24h),
         close: parseToFloat(ticker.last_price),
-        bid: parseToFloat(ticker.highest_bid),
-        ask: parseToFloat(ticker.lowest_ask),
+        ask: parseToFloat(ticker.highest_bid), // Bid and ask are flipped
+        bid: parseToFloat(ticker.lowest_ask),
         baseVolume: parseToFloat(ticker.base_volume),
         quoteVolume: parseToFloat(ticker.quote_volume),
       });
