@@ -9,6 +9,9 @@
     "class-methods-use-this": 0,
     "no-underscore-dangle": 0
   },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
   "plugins": [
     "jsdoc"
   ],
