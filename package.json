@@ -4,7 +4,7 @@
   "description": "An open source JavaScript library for fetching tickers from cryptocurrency exchanges",
   "main": "lib/exchanges.js",
   "engines": {
-    "node": ">=12.13.0"
+    "node": ">=14.0"
   },
   "repository": {
     "type": "git",
