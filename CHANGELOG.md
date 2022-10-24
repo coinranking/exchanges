@@ -1,3 +1,17 @@
+# [3.85.0](https://github.com/coinranking/exchanges/compare/v3.84.0...v3.85.0) (2022-10-24)
+
+
+### Bug Fixes
+
+* bid and ask are flipped for difx ([9ce07f3](https://github.com/coinranking/exchanges/commit/9ce07f331e6737de5682e899ebaf25062d320eda))
+* optional chaining ([70ef914](https://github.com/coinranking/exchanges/commit/70ef9143c411688acca29ade8bbfdce8114ab3bd))
+
+
+### Features
+
+* add difx driver ([8b18603](https://github.com/coinranking/exchanges/commit/8b186034f7a29a39a25d83e134bc6b39b2141218))
+* update lowest node version to support optional chaining ([11e9f48](https://github.com/coinranking/exchanges/commit/11e9f48cfa272cfc1173c0a35f766bc40619281e))
+
 # [3.84.0](https://github.com/coinranking/exchanges/compare/v3.83.0...v3.84.0) (2022-09-02)
 
 
