@@ -11,7 +11,7 @@ A JavaScript library for getting up to date cryptocurrency exchange tickers.
 
 ## Getting started
 
-1. Node.js 12.13 or higher is required
+1. Node.js 14.0 or higher is required
 2. Install using [NPM](https://www.npmjs.com/package/@coinranking/exchanges)
 
 ## Installation
@@ -19,7 +19,7 @@ A JavaScript library for getting up to date cryptocurrency exchange tickers.
 Coinranking Exchanges is a [Node.js](https://nodejs.org/) module available through the [npm registry](https://www.npmjs.com/package/@coinranking/exchanges).
 
 Before installing, [download and install Node.js](https://nodejs.org/en/download/).
-Node.js 12.13 or higher is required.
+Node.js 14.0 or higher is required.
 
 Installation is done using the npm install command:
 
