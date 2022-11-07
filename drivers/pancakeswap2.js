@@ -17,14 +17,20 @@ class Pancakeswap2 extends Driver {
   }
 
   /**
+   * @param {boolean} isMocked Set to true when stored tickers are used
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
-  async fetchTickers() {
+  async fetchTickers(isMocked) {
     const date = new Date();
-    const current = date.toISOString();
-    const twentyFourOursAgo = (new Date(date - (24 * 3600 * 1000))).toISOString();
+    let current = date.toISOString();
+    let twentyFourOursAgo = (new Date(date - (24 * 3600 * 1000))).toISOString();
     const minimumVolumeInUsd = 5000;
+
+    if (isMocked) {
+      current = '2022-11-06T14:32:08.161Z';
+      twentyFourOursAgo = '2022-11-07T14:32:08.161Z';
+    }
 
     const result = await request({
       method: 'POST',
