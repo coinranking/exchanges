@@ -28,15 +28,14 @@ class Pancakeswap2 extends Driver {
     const minimumVolumeInUsd = 5000;
 
     if (isMocked) {
-      current = '2022-11-06T14:32:08.161Z';
-      twentyFourOursAgo = '2022-11-07T14:32:08.161Z';
+      current = '2022-11-06T16:33:08.244Z';
+      twentyFourOursAgo = '2022-11-07T16:33:08.244Z';
     }
 
     const result = await request({
       method: 'POST',
       url: 'https://graphql.bitquery.io',
       headers: {
-        'Content-Type': 'application/json',
         'X-API-KEY': this.key,
       },
       json: {
