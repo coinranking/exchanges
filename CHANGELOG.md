@@ -1,3 +1,12 @@
+## [3.85.1](https://github.com/coinranking/exchanges/compare/v3.85.0...v3.85.1) (2022-11-09)
+
+
+### Bug Fixes
+
+* hardcode timestamps in case of mocking ([9611274](https://github.com/coinranking/exchanges/commit/9611274e9630c2649d1c28542171ebecff5e811b))
+* migrate pancakeswap v2 to bitquery api ([111a3b6](https://github.com/coinranking/exchanges/commit/111a3b64c6b19e0965ce19a5cee7fef2eb7c16d9))
+* nock escapes strings slightly different than during request ([9f9d0e4](https://github.com/coinranking/exchanges/commit/9f9d0e4daa4ff532105c0a80ba6ac31348d7e16a))
+
 # [3.85.0](https://github.com/coinranking/exchanges/compare/v3.84.0...v3.85.0) (2022-10-24)
 
 
