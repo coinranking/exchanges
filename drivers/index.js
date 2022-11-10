@@ -222,7 +222,6 @@ exports.Virtuse = require('./virtuse');
 exports.Vitex = require('./vitex');
 exports.Wavesexchange = require('./wavesexchange');
 exports.Wazirx = require('./wazirx');
-exports.Wenxpro = require('./wenxpro');
 exports.Whitebit = require('./whitebit');
 exports.Wtzex = require('./wtzex');
 exports.Xbtpro = require('./xbtpro');
