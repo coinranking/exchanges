@@ -126,7 +126,6 @@ exports.Goexchange = require('./goexchange');
 exports.Graviex = require('./graviex');
 exports.Hitbtc = require('./hitbtc');
 exports.Honeyswap = require('./honeyswap');
-exports.Hoo = require('./hoo');
 exports.Hotbit = require('./hotbit');
 exports.Huobiglobal = require('./huobiglobal');
 exports.Idax = require('./idax');
