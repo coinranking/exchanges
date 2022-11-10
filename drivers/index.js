@@ -118,7 +118,6 @@ exports.Extstock = require('./extstock');
 exports.Exx = require('./exx');
 exports.Felixo = require('./felixo');
 exports.Finexbox = require('./finexbox');
-exports.Folgory = require('./folgory');
 exports.Ftx = require('./ftx');
 exports.Gateio = require('./gateio');
 exports.Gdac = require('./gdac');
