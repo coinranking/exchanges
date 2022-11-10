@@ -1,3 +1,12 @@
+## [3.85.3](https://github.com/coinranking/exchanges/compare/v3.85.2...v3.85.3) (2022-11-10)
+
+
+### Bug Fixes
+
+* dragonex seems to be entirely gone ([daad398](https://github.com/coinranking/exchanges/commit/daad398576fcb3dbb453fc5e6ef96a3aa965f062))
+* folgory seems to be entirely gone ([fc5933a](https://github.com/coinranking/exchanges/commit/fc5933a570105d7e0863bd503200505cbceb054f))
+* tokok seems to be entirely gone ([efc5a0d](https://github.com/coinranking/exchanges/commit/efc5a0d5a9e4fa5b51453431b3a2bb3bfb07d6c8))
+
 ## [3.85.2](https://github.com/coinranking/exchanges/compare/v3.85.1...v3.85.2) (2022-11-10)
 
 
