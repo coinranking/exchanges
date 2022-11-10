@@ -199,7 +199,6 @@ exports.Swopfi = require('./swopfi');
 exports.Tchapp = require('./tchapp');
 exports.Therock = require('./therock');
 exports.Thorchain = require('./thorchain');
-exports.Thoreexchange = require('./thoreexchange');
 exports.Tidebit = require('./tidebit');
 exports.Timex = require('./timex');
 exports.Tokenize = require('./tokenize');
