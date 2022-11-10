@@ -224,7 +224,6 @@ exports.Wavesexchange = require('./wavesexchange');
 exports.Wazirx = require('./wazirx');
 exports.Whitebit = require('./whitebit');
 exports.Wtzex = require('./wtzex');
-exports.Xbtpro = require('./xbtpro');
 exports.Xbts = require('./xbts');
 exports.Xt = require('./xt');
 exports.Yobit = require('./yobit');
