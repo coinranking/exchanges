@@ -23,7 +23,6 @@ exports.Binancedex = require('./binancedex');
 exports.Bingx = require('./bingx');
 exports.Bit2c = require('./bit2c');
 exports.Bitbank = require('./bitbank');
-exports.Bitcratic = require('./bitcratic');
 exports.Bitfinex = require('./bitfinex');
 exports.Bitflyer = require('./bitflyer');
 exports.Bitforex = require('./bitforex');
