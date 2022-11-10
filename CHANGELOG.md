@@ -1,3 +1,20 @@
+## [3.85.2](https://github.com/coinranking/exchanges/compare/v3.85.1...v3.85.2) (2022-11-10)
+
+
+### Bug Fixes
+
+* bitcratic api returns errors ([a9833ea](https://github.com/coinranking/exchanges/commit/a9833ea2be26047a634791035c10573a4e6e448e))
+* dragonex seems to be gone ([60b6dfa](https://github.com/coinranking/exchanges/commit/60b6dfa6ac37fd5c3fcb78b74fb70383e1a50c4d))
+* folgory is broken ([1f9ce8c](https://github.com/coinranking/exchanges/commit/1f9ce8c84bf88c7d88f8d57d83ed1dfefc81e058))
+* hoo seems to be gone ([b260b79](https://github.com/coinranking/exchanges/commit/b260b79bf975ed584f11404214d27645d7d473f3))
+* remove bancor because their api returned lot of errors ([3de0ab2](https://github.com/coinranking/exchanges/commit/3de0ab29a63d75f04691a07dc72d5f1d7bef5cda))
+* remove remitano because they returned a lot of errors ([2d40ada](https://github.com/coinranking/exchanges/commit/2d40adaa49f44907529404423e2cfc017cfcfcd5))
+* remove zaif because their api returned a lot of errors ([f1825e8](https://github.com/coinranking/exchanges/commit/f1825e8375384b5edfe1aacae9f2a01c988327bd))
+* thoreexchange api returned ssl certificate errors for a long time ([8140406](https://github.com/coinranking/exchanges/commit/8140406c3b1b4c5d612ec25025b3847f1022a334))
+* tokok seems to be gone ([5b04544](https://github.com/coinranking/exchanges/commit/5b04544d4ac173145011e1d815a620ba51d26ce8))
+* wenxpro api is gone ([fa8bb77](https://github.com/coinranking/exchanges/commit/fa8bb77d23576a596e63ce6d0335ae1a7d953999))
+* xbtpro only returns errors ([0046f96](https://github.com/coinranking/exchanges/commit/0046f9602844e0bfa7ab777da0a45e5d626ac1fb))
+
 ## [3.85.1](https://github.com/coinranking/exchanges/compare/v3.85.0...v3.85.1) (2022-11-09)
 
 
