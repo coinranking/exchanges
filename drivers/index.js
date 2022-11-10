@@ -224,7 +224,6 @@ exports.Wtzex = require('./wtzex');
 exports.Xbts = require('./xbts');
 exports.Xt = require('./xt');
 exports.Yobit = require('./yobit');
-exports.Zaif = require('./zaif');
 exports.Zb = require('./zb');
 exports.Zbg = require('./zbg');
 exports.Zeroex = require('./zeroex');
