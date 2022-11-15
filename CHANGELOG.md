@@ -1,3 +1,10 @@
+# [3.86.0](https://github.com/coinranking/exchanges/compare/v3.85.3...v3.86.0) (2022-11-15)
+
+
+### Features
+
+* use graphql variables to easier see the unique queries in the bitquery dashboard ([7a0946c](https://github.com/coinranking/exchanges/commit/7a0946c9b3d1e91d1359ce756a92655f39a35d6f))
+
 ## [3.85.3](https://github.com/coinranking/exchanges/compare/v3.85.2...v3.85.3) (2022-11-10)
 
 
