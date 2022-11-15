@@ -23,13 +23,13 @@ class Pancakeswap2 extends Driver {
    */
   async fetchTickers(isMocked) {
     const date = new Date();
-    let current = date.toISOString();
-    let twentyFourOursAgo = (new Date(date - (24 * 3600 * 1000))).toISOString();
+    let now = date.toISOString();
+    let twentyFourHoursAgo = (new Date(date - (24 * 3600 * 1000))).toISOString();
     const minimumVolumeInUsd = 5000;
 
     if (isMocked) {
-      current = '2022-11-06T16:33:08.244Z';
-      twentyFourOursAgo = '2022-11-07T16:33:08.244Z';
+      now = '2022-11-15T14:50:57.756Z';
+      twentyFourHoursAgo = '2022-11-14T14:50:57.756Z';
     }
 
     const result = await request({
@@ -40,12 +40,12 @@ class Pancakeswap2 extends Driver {
       },
       json: {
         query: `
-          {
+          query fetchTickers($twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {
             exchange: ethereum(network: bsc) {
               tickers: dexTrades(
                 exchangeName: {in: ["Pancake v2"]}
                 tradeAmountUsd: {gt: ${minimumVolumeInUsd}}
-                time: {since: "${twentyFourOursAgo}", till: "${current}"}
+                time: {since: $twentyFourHoursAgo, till: $now}
               ) {
                 baseCurrency {
                   symbol
@@ -67,6 +67,10 @@ class Pancakeswap2 extends Driver {
             }
           }
         `,
+        variables: {
+          now,
+          twentyFourHoursAgo,
+        },
       },
     });
 
