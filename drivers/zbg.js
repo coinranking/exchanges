@@ -13,7 +13,10 @@ class Zbg extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const data = await request('https://kline.zbg.com/api/data/v1/tickers?isUseMarketName=true');
+    const data = await request({
+      rejectUnauthorized: false,
+      url: 'https://kline.zbg.com/api/data/v1/tickers?isUseMarketName=true',
+    });
     const tickers = data.datas;
     const pairs = Object.keys(tickers);
 
