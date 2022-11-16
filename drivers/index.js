@@ -184,7 +184,6 @@ exports.Resfinex = require('./resfinex');
 exports.Richamster = require('./richamster');
 exports.Rightbtc = require('./rightbtc');
 exports.Rudex = require('./rudex');
-exports.Satoexchange = require('./satoexchange');
 exports.Saturn = require('./saturn');
 exports.Sigenpro = require('./sigenpro');
 exports.Southxchange = require('./southxchange');
