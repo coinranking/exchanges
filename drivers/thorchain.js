@@ -12,7 +12,7 @@ class Thorchain extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const pools = await request('https://midgard.thorchain.info/v2/pools?status=available');
+    const pools = await request('https://midgard.thorswap.net/v2/pools?status=available');
 
     return pools.map((pool) => {
       const [base, baseReference] = pool.asset.split('-');
