@@ -1,6 +1,6 @@
 [
     {
-        "scope": "https://midgard.thorchain.info:443",
+        "scope": "https://midgard.thorswap.net:443",
         "method": "GET",
         "path": "/v2/pools?status=available",
         "body": "",
