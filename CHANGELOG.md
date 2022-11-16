@@ -1,3 +1,11 @@
+## [3.86.2](https://github.com/coinranking/exchanges/compare/v3.86.1...v3.86.2) (2022-11-16)
+
+
+### Bug Fixes
+
+* **zbg:** zbg has some ssl problems ([6bad133](https://github.com/coinranking/exchanges/commit/6bad133a94e7cba781db16c6bead4f5f06ca9342))
+* **zb:** zb.cn changed to zb.com ([aa79e5e](https://github.com/coinranking/exchanges/commit/aa79e5ebd7db36a0c405375431926f4115798202))
+
 ## [3.86.1](https://github.com/coinranking/exchanges/compare/v3.86.0...v3.86.1) (2022-11-16)
 
 
