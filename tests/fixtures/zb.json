@@ -1,6 +1,6 @@
 [
     {
-        "scope": "http://api.zb.cn:80",
+        "scope": "http://api.zb.com:80",
         "method": "GET",
         "path": "/data/v1/markets",
         "body": "",
@@ -773,7 +773,7 @@
         ]
     },
     {
-        "scope": "http://api.zb.cn:80",
+        "scope": "http://api.zb.com:80",
         "method": "GET",
         "path": "/data/v1/allTicker",
         "body": "",
