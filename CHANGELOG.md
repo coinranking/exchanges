@@ -1,3 +1,10 @@
+## [3.86.1](https://github.com/coinranking/exchanges/compare/v3.86.0...v3.86.1) (2022-11-16)
+
+
+### Bug Fixes
+
+* **thorchain:** thorchain.info seems offline so switch to thorswap.net ([3b6aed6](https://github.com/coinranking/exchanges/commit/3b6aed6791c9725fd73e3dec8b1e8a4124606878))
+
 # [3.86.0](https://github.com/coinranking/exchanges/compare/v3.85.3...v3.86.0) (2022-11-15)
 
 
