@@ -1,3 +1,10 @@
+# [3.88.0](https://github.com/coinranking/exchanges/compare/v3.87.0...v3.88.0) (2022-11-18)
+
+
+### Features
+
+* **spookyswap:** add support for spookyswap ([4ee0174](https://github.com/coinranking/exchanges/commit/4ee01744d20015eaa384147fb8784b40ab5098c5))
+
 # [3.87.0](https://github.com/coinranking/exchanges/compare/v3.86.2...v3.87.0) (2022-11-18)
 
 
