@@ -1,3 +1,10 @@
+# [3.87.0](https://github.com/coinranking/exchanges/compare/v3.86.2...v3.87.0) (2022-11-18)
+
+
+### Features
+
+* **quickswap:** support quickswap ([440113c](https://github.com/coinranking/exchanges/commit/440113c13dab9c9e0867e5c7250da17807f4f297))
+
 ## [3.86.2](https://github.com/coinranking/exchanges/compare/v3.86.1...v3.86.2) (2022-11-16)
 
 
