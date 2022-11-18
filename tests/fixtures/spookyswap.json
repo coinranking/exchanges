@@ -1,0 +1,1223 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $exchangeName: String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                exchangeName: {in: [$exchangeName]}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-18T08:54:31.046Z",
+                "twentyFourHoursAgo": "2022-11-17T08:54:31.046Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "fantom",
+                "exchangeName": "SpookySwap"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "AVAX",
+                                "address": "0x511d35c52a3c244e7b8bd92c0c297755fbd89212",
+                                "name": "Avalanche"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 311.6524052789538,
+                            "quoteVolume": 22810.85838460451,
+                            "open": "73.1693220535844",
+                            "high": "73.3295009018163",
+                            "low": "73.11694635477211",
+                            "close": "73.3295009018163"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BNB",
+                                "address": "0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454",
+                                "name": "Binance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 41.57022223327988,
+                            "quoteVolume": 61879.36466698069,
+                            "open": "1487.8777033753563",
+                            "high": "1513.9807638478774",
+                            "low": "1475.5936229658844",
+                            "close": "1492.8681527590302"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BOO",
+                                "address": "0x841fad6eae12c286d1fd18d1d525dffa75c7effe",
+                                "name": "SpookyToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 2870.1393511668607,
+                            "quoteVolume": 3169.558413,
+                            "open": "1.0915832279435689",
+                            "high": "1.114348999148607",
+                            "low": "1.0915832279435689",
+                            "close": "1.114348999148607"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BOO",
+                                "address": "0x841fad6eae12c286d1fd18d1d525dffa75c7effe",
+                                "name": "SpookyToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 66301.4918641295,
+                            "quoteVolume": 410866.41493386,
+                            "open": "6.141656635812898",
+                            "high": "6.27194892073917",
+                            "low": "6.1242816701105465",
+                            "close": "6.1488224575023915"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BTC",
+                                "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+                                "name": "Bitcoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "ETH",
+                                "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+                                "name": "Ethereum"
+                            },
+                            "baseVolume": 0.99238222,
+                            "quoteVolume": 13.660119901488036,
+                            "open": "13.877131874384201",
+                            "high": "13.89616700635847",
+                            "low": "13.68356628429262",
+                            "close": "13.744931271208555"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BTC",
+                                "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+                                "name": "Bitcoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MIDAS",
+                                "address": "0xb37528da6b4d378305d000a66ad91bd88e626761",
+                                "name": "Midas"
+                            },
+                            "baseVolume": 0.09430478,
+                            "quoteVolume": 44.15623275025174,
+                            "open": "468.22899910536603",
+                            "high": "468.22899910536603",
+                            "low": "468.22899910536603",
+                            "close": "468.22899910536603"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BTC",
+                                "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+                                "name": "Bitcoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 4.93398424,
+                            "quoteVolume": 455187.1404375376,
+                            "open": "91462.41686025272",
+                            "high": "93854.34497494179",
+                            "low": "90391.54880448151",
+                            "close": "93009.39134393855"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CRV",
+                                "address": "0x1e4f97b9f9f913c46f1632781732927b9019c68b",
+                                "name": "Curve DAO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 24889.76450208493,
+                            "quoteVolume": 77161.540114759,
+                            "open": "3.021563118631149",
+                            "high": "3.1589584559685355",
+                            "low": "3.021563118631149",
+                            "close": "3.119634224896037"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SPA",
+                                "address": "0x5602df4a94eb6c680190accfa2a475621e0ddbdc",
+                                "name": "Spartacus"
+                            },
+                            "baseVolume": 2579.7203814309632,
+                            "quoteVolume": 109.390289848,
+                            "open": "0.04240393285853776",
+                            "high": "0.04240393285853776",
+                            "low": "0.04240393285853776",
+                            "close": "0.04240393285853776"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 72364.25438573853,
+                            "quoteVolume": 405722.5735527322,
+                            "open": "5.540419987859291",
+                            "high": "5.6630496787366065",
+                            "low": "5.4862345556535885",
+                            "close": "5.4862345556535885"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DEUS",
+                                "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+                                "name": "DEUS"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 2554.0632678952716,
+                            "quoteVolume": 1160320.4197705789,
+                            "open": "454.2147313305071",
+                            "high": "494.5869912041371",
+                            "low": "418.9518161492809",
+                            "close": "456.34035849045625"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "ETH",
+                                "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+                                "name": "Ethereum"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BTC",
+                                "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+                                "name": "Bitcoin"
+                            },
+                            "baseVolume": 13.660119901488036,
+                            "quoteVolume": 0.99238222,
+                            "open": "0.072061",
+                            "high": "0.07308036364378935",
+                            "low": "0.07196229",
+                            "close": "0.07275409241912292"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "ETH",
+                                "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+                                "name": "Ethereum"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 94.85423113113987,
+                            "quoteVolume": 638093.3137380708,
+                            "open": "6592.967596148498",
+                            "high": "6799.2930583369325",
+                            "low": "6592.967596148498",
+                            "close": "6715.19269989855"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "GEIST",
+                                "address": "0xd8321aa83fb0a4ecd6348d4577431310a6e0814d",
+                                "name": "Geist.Finance Protocol Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 3527583.74856678,
+                            "quoteVolume": 201870.1829811344,
+                            "open": "0.05326180270582041",
+                            "high": "0.059828452875749755",
+                            "low": "0.05326180270582041",
+                            "close": "0.059422918725897854"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "HEC",
+                                "address": "0x5c4fdfc5233f935f20d2adba572f770c2e377ab0",
+                                "name": "Hector"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 3363.557136418,
+                            "quoteVolume": 12491.295928,
+                            "open": "3.730330142046343",
+                            "high": "3.730330142046343",
+                            "low": "3.689592677274397",
+                            "close": "3.689592677274397"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LINK",
+                                "address": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+                                "name": "ChainLink"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 918.0590383111364,
+                            "quoteVolume": 32277.387710842475,
+                            "open": "35.181494341367625",
+                            "high": "35.268136459349115",
+                            "low": "35.078005418541096",
+                            "close": "35.078005418541096"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LQDR",
+                                "address": "0x10b620b2dbac4faa7d7ffd71da486f5d44cd86f9",
+                                "name": "Liquid Driver"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 4738.775077127492,
+                            "quoteVolume": 18367.16448919796,
+                            "open": "3.880032353640282",
+                            "high": "3.880032353640282",
+                            "low": "3.871149288918719",
+                            "close": "3.880032353640282"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MIDAS",
+                                "address": "0xb37528da6b4d378305d000a66ad91bd88e626761",
+                                "name": "Midas"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BTC",
+                                "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+                                "name": "Bitcoin"
+                            },
+                            "baseVolume": 44.15623275025174,
+                            "quoteVolume": 0.09430478,
+                            "open": "0.002135707104666042",
+                            "high": "0.002135707104666042",
+                            "low": "0.002135707104666042",
+                            "close": "0.002135707104666042"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MIDAS",
+                                "address": "0xb37528da6b4d378305d000a66ad91bd88e626761",
+                                "name": "Midas"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 170.10626746438123,
+                            "quoteVolume": 5969.440874,
+                            "open": "34.98569295359552",
+                            "high": "35.140223935476165",
+                            "low": "34.98569295359552",
+                            "close": "35.079519799267615"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MIM",
+                                "address": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+                                "name": "Magic Internet Money"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 24566.51529673905,
+                            "quoteVolume": 137366.49196867284,
+                            "open": "5.520947202806678",
+                            "high": "5.671591808245196",
+                            "low": "5.520947202806678",
+                            "close": "5.590204526896508"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "NFTW",
+                                "address": "0xb5c622c8598c5f69d48dea1ea414189502e6b35d",
+                                "name": "NFTWorld"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 133526,
+                            "quoteVolume": 1145.076,
+                            "open": "0.008575678145080359",
+                            "high": "0.008575678145080359",
+                            "low": "0.008575678145080359",
+                            "close": "0.008575678145080359"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "OATH",
+                                "address": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6",
+                                "name": "Oath Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 59985.39849287411,
+                            "quoteVolume": 4893.972678,
+                            "open": "0.08159721160615685",
+                            "high": "0.08256629880610494",
+                            "low": "0.081044162625",
+                            "close": "0.08256629880610494"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "RAINI",
+                                "address": "0xe83dfaaafd3310474d917583ae9633b4f68fb036",
+                                "name": "Raini"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 194838.0411689032,
+                            "quoteVolume": 2050,
+                            "open": "0.010521559279190632",
+                            "high": "0.010521559279190632",
+                            "low": "0.010521559279190632",
+                            "close": "0.010521559279190632"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SCREAM",
+                                "address": "0xe0654c8e6fd4d733349ac7e09f6f23da256bf475",
+                                "name": "Scream"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 55391.877802541705,
+                            "quoteVolume": 784413.3542406607,
+                            "open": "13.005623822785838",
+                            "high": "17.56138370019222",
+                            "low": "11.711498659126269",
+                            "close": "17.56138370019222"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SPA",
+                                "address": "0x5602df4a94eb6c680190accfa2a475621e0ddbdc",
+                                "name": "Spartacus"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 109.390289848,
+                            "quoteVolume": 2579.7203814309632,
+                            "open": "23.582718219464788",
+                            "high": "23.582718219464788",
+                            "low": "23.582718219464788",
+                            "close": "23.582718219464788"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "STG",
+                                "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+                                "name": "StargateToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 56911.28423126737,
+                            "quoteVolume": 23676.674427,
+                            "open": "0.4081922576327875",
+                            "high": "0.4265100244129831",
+                            "low": "0.406656880016394",
+                            "close": "0.4145465248359851"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "TOMB",
+                                "address": "0x6c021ae822bea943b2e66552bde1d2696a53fbb7",
+                                "name": "TOMB"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 375017.780756152,
+                            "quoteVolume": 45652.74107629021,
+                            "open": "0.12060763150343835",
+                            "high": "0.12253378350066518",
+                            "low": "0.12060763150343835",
+                            "close": "0.12160828393018962"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "TOR",
+                                "address": "0x74e23df9110aa9ea0b6ff2faee01e740ca1c642e",
+                                "name": "TOR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 10435.88800352079,
+                            "quoteVolume": 58347.75492738485,
+                            "open": "5.6347770696180755",
+                            "high": "5.678613801372457",
+                            "low": "5.5079441834666545",
+                            "close": "5.5079441834666545"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "TREEB",
+                                "address": "0xc60d7067dfbc6f2caf30523a064f416a5af52963",
+                                "name": "Treeb"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 2353844.033577555,
+                            "quoteVolume": 152062.02559666793,
+                            "open": "0.06429451102625051",
+                            "high": "0.06686501958080764",
+                            "low": "0.06285380538499478",
+                            "close": "0.06399886970568164"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "TSHARE",
+                                "address": "0x4cdf39285d7ca8eb3f090fda0c069ba5f4145b37",
+                                "name": "TSHARE"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 43.84088882176266,
+                            "quoteVolume": 29130.767582935834,
+                            "open": "658.4543045189255",
+                            "high": "667.0708299961003",
+                            "low": "658.4543045189255",
+                            "close": "666.7678667648553"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BOO",
+                                "address": "0x841fad6eae12c286d1fd18d1d525dffa75c7effe",
+                                "name": "SpookyToken"
+                            },
+                            "baseVolume": 3169.558413,
+                            "quoteVolume": 2870.1393511668607,
+                            "open": "0.9161005541317246",
+                            "high": "0.9161005541317246",
+                            "low": "0.8973849312594413",
+                            "close": "0.8973849312594413"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "HEC",
+                                "address": "0x5c4fdfc5233f935f20d2adba572f770c2e377ab0",
+                                "name": "Hector"
+                            },
+                            "baseVolume": 12491.295928,
+                            "quoteVolume": 3363.557136418,
+                            "open": "0.26807278764110437",
+                            "high": "0.2710326281162091",
+                            "low": "0.26807278764110437",
+                            "close": "0.2710326281162091"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MIDAS",
+                                "address": "0xb37528da6b4d378305d000a66ad91bd88e626761",
+                                "name": "Midas"
+                            },
+                            "baseVolume": 5969.440874,
+                            "quoteVolume": 170.10626746438123,
+                            "open": "0.028583112569083153",
+                            "high": "0.028583112569083153",
+                            "low": "0.02845741682910677",
+                            "close": "0.02850666159976563"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "NFTW",
+                                "address": "0xb5c622c8598c5f69d48dea1ea414189502e6b35d",
+                                "name": "NFTWorld"
+                            },
+                            "baseVolume": 1145.076,
+                            "quoteVolume": 133526,
+                            "open": "116.60885391013348",
+                            "high": "116.60885391013348",
+                            "low": "116.60885391013348",
+                            "close": "116.60885391013348"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "OATH",
+                                "address": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6",
+                                "name": "Oath Token"
+                            },
+                            "baseVolume": 4893.972678,
+                            "quoteVolume": 59985.39849287411,
+                            "open": "12.255320743393465",
+                            "high": "12.338951598859833",
+                            "low": "12.111479071483584",
+                            "close": "12.111479071483584"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "RAINI",
+                                "address": "0xe83dfaaafd3310474d917583ae9633b4f68fb036",
+                                "name": "Raini"
+                            },
+                            "baseVolume": 2050,
+                            "quoteVolume": 194838.0411689032,
+                            "open": "95.0429469116601",
+                            "high": "95.0429469116601",
+                            "low": "95.0429469116601",
+                            "close": "95.0429469116601"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "STG",
+                                "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+                                "name": "StargateToken"
+                            },
+                            "baseVolume": 23676.674427,
+                            "quoteVolume": 56911.28423126737,
+                            "open": "2.449825985919622",
+                            "high": "2.459075572408085",
+                            "low": "2.3446107776161327",
+                            "close": "2.412274473644783"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 1608032.311261,
+                            "quoteVolume": 8987859.293487262,
+                            "open": "5.523531031273829",
+                            "high": "5.7203388249399065",
+                            "low": "5.484395843134519",
+                            "close": "5.575045269481235"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "miMATIC",
+                                "address": "0xfb98b335551a418cd0737375a2ea0ded62ea213b",
+                                "name": "miMATIC"
+                            },
+                            "baseVolume": 8689.706292,
+                            "quoteVolume": 8856.502959733678,
+                            "open": "1.0205137588744522",
+                            "high": "1.0205137588744522",
+                            "low": "1.0155144411941828",
+                            "close": "1.0155144411941828"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "AVAX",
+                                "address": "0x511d35c52a3c244e7b8bd92c0c297755fbd89212",
+                                "name": "Avalanche"
+                            },
+                            "baseVolume": 22810.85838460451,
+                            "quoteVolume": 311.6524052789538,
+                            "open": "0.01366692996373078",
+                            "high": "0.013676719965134775",
+                            "low": "0.013637076315832813",
+                            "close": "0.013637076315832813"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BNB",
+                                "address": "0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454",
+                                "name": "Binance"
+                            },
+                            "baseVolume": 61879.36466698069,
+                            "quoteVolume": 41.57022223327988,
+                            "open": "0.0006720982495613914",
+                            "high": "0.0006776933597680097",
+                            "low": "0.0006605103736314569",
+                            "close": "0.0006698515191390877"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BOO",
+                                "address": "0x841fad6eae12c286d1fd18d1d525dffa75c7effe",
+                                "name": "SpookyToken"
+                            },
+                            "baseVolume": 410866.41493386,
+                            "quoteVolume": 66301.4918641295,
+                            "open": "0.1628225183037511",
+                            "high": "0.16328445585389761",
+                            "low": "0.1594400739925265",
+                            "close": "0.16263276536467"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BTC",
+                                "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+                                "name": "Bitcoin"
+                            },
+                            "baseVolume": 455187.1404375376,
+                            "quoteVolume": 4.93398424,
+                            "open": "1.0933452606308452e-05",
+                            "high": "1.1062981143989659e-05",
+                            "low": "1.0654807726450922e-05",
+                            "close": "1.0751602451650386e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CRV",
+                                "address": "0x1e4f97b9f9f913c46f1632781732927b9019c68b",
+                                "name": "Curve DAO"
+                            },
+                            "baseVolume": 77161.540114759,
+                            "quoteVolume": 24889.764502084934,
+                            "open": "0.3309545294069605",
+                            "high": "0.3309545294069605",
+                            "low": "0.31656003519470166",
+                            "close": "0.3205504004346296"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 405722.5735527322,
+                            "quoteVolume": 72364.25438573853,
+                            "open": "0.18049173206928312",
+                            "high": "0.18227437960513293",
+                            "low": "0.1765832999408005",
+                            "close": "0.18227437960513293"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DEUS",
+                                "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+                                "name": "DEUS"
+                            },
+                            "baseVolume": 1160320.4197705786,
+                            "quoteVolume": 2554.0632678952716,
+                            "open": "0.002201601865863648",
+                            "high": "0.0023869093328949317",
+                            "low": "0.002021889005946898",
+                            "close": "0.0021913468344284385"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "ETH",
+                                "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+                                "name": "Ethereum"
+                            },
+                            "baseVolume": 638093.3137380709,
+                            "quoteVolume": 94.85423113113985,
+                            "open": "0.00015167676549543234",
+                            "high": "0.00015167676549543234",
+                            "low": "0.00014707411364977906",
+                            "close": "0.0001489160541908362"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "GEIST",
+                                "address": "0xd8321aa83fb0a4ecd6348d4577431310a6e0814d",
+                                "name": "Geist.Finance Protocol Token"
+                            },
+                            "baseVolume": 201870.1829811344,
+                            "quoteVolume": 3527583.74856678,
+                            "open": "18.775181259321528",
+                            "high": "18.775181259321528",
+                            "low": "16.714455278941863",
+                            "close": "16.828523765598497"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LINK",
+                                "address": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+                                "name": "ChainLink"
+                            },
+                            "baseVolume": 32277.387710842475,
+                            "quoteVolume": 918.0590383111364,
+                            "open": "0.028424034246440896",
+                            "high": "0.028507892283733797",
+                            "low": "0.028354205818405618",
+                            "close": "0.028507892283733797"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LQDR",
+                                "address": "0x10b620b2dbac4faa7d7ffd71da486f5d44cd86f9",
+                                "name": "Liquid Driver"
+                            },
+                            "baseVolume": 18367.16448919796,
+                            "quoteVolume": 4738.775077127492,
+                            "open": "0.2583212181618854",
+                            "high": "0.2583212181618854",
+                            "low": "0.25772980966557946",
+                            "close": "0.2583212181618854"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MIM",
+                                "address": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+                                "name": "Magic Internet Money"
+                            },
+                            "baseVolume": 137366.49196867284,
+                            "quoteVolume": 24566.51529673905,
+                            "open": "0.18112833962469901",
+                            "high": "0.18112833962469901",
+                            "low": "0.17631734331554483",
+                            "close": "0.17888433154612432"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SCREAM",
+                                "address": "0xe0654c8e6fd4d733349ac7e09f6f23da256bf475",
+                                "name": "Scream"
+                            },
+                            "baseVolume": 784413.3542406607,
+                            "quoteVolume": 55391.877802541705,
+                            "open": "0.07688981425466122",
+                            "high": "0.08538616867967985",
+                            "low": "0.05694312117268154",
+                            "close": "0.05694312117268154"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "TOMB",
+                                "address": "0x6c021ae822bea943b2e66552bde1d2696a53fbb7",
+                                "name": "TOMB"
+                            },
+                            "baseVolume": 45652.74107629021,
+                            "quoteVolume": 375017.780756152,
+                            "open": "8.291349291371263",
+                            "high": "8.291349291371263",
+                            "low": "8.161014631483827",
+                            "close": "8.223124014923682"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "TOR",
+                                "address": "0x74e23df9110aa9ea0b6ff2faee01e740ca1c642e",
+                                "name": "TOR"
+                            },
+                            "baseVolume": 58347.75492738485,
+                            "quoteVolume": 10435.88800352079,
+                            "open": "0.17746931025751828",
+                            "high": "0.18155594295993907",
+                            "low": "0.1760993148994058",
+                            "close": "0.18111720888284075"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "TREEB",
+                                "address": "0xc60d7067dfbc6f2caf30523a064f416a5af52963",
+                                "name": "Treeb"
+                            },
+                            "baseVolume": 152062.02559666793,
+                            "quoteVolume": 2353844.0335775553,
+                            "open": "15.553427252782349",
+                            "high": "15.909935665386648",
+                            "low": "14.955502986004232",
+                            "close": "15.62527595563493"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "TSHARE",
+                                "address": "0x4cdf39285d7ca8eb3f090fda0c069ba5f4145b37",
+                                "name": "TSHARE"
+                            },
+                            "baseVolume": 29130.767582935834,
+                            "quoteVolume": 43.84088882176266,
+                            "open": "0.0015187082735082305",
+                            "high": "0.0015187082735082305",
+                            "low": "0.0014990911834742437",
+                            "close": "0.0014997723343387567"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 8987859.293487264,
+                            "quoteVolume": 1608032.311261,
+                            "open": "0.18104361038945432",
+                            "high": "0.18233548937789035",
+                            "low": "0.17481481964672",
+                            "close": "0.1793707408035184"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "beFTM",
+                                "address": "0x7381ed41f6de418dde5e84b55590422a57917886",
+                                "name": "Beefy Escrowed Fantom"
+                            },
+                            "baseVolume": 10000,
+                            "quoteVolume": 12309.144948094176,
+                            "open": "1.2309144948094175",
+                            "high": "1.2309144948094175",
+                            "low": "1.2309144948094175",
+                            "close": "1.2309144948094175"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "fUSDT",
+                                "address": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+                                "name": "Frapped USDT"
+                            },
+                            "baseVolume": 696560.157281247,
+                            "quoteVolume": 124346.093052,
+                            "open": "0.1805334372791351",
+                            "high": "0.18132906794038578",
+                            "low": "0.1752907091082817",
+                            "close": "0.17775054954765024"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "sFTMX",
+                                "address": "0xd7028092c830b5c8fce061af2e593413ebbc1fc1",
+                                "name": "sFTMX"
+                            },
+                            "baseVolume": 44592.87736089186,
+                            "quoteVolume": 42411.16070206354,
+                            "open": "0.9550638082372944",
+                            "high": "0.9550638082372944",
+                            "low": "0.9475588594339608",
+                            "close": "0.952166325957787"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "beFTM",
+                                "address": "0x7381ed41f6de418dde5e84b55590422a57917886",
+                                "name": "Beefy Escrowed Fantom"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 12309.144948094176,
+                            "quoteVolume": 10000,
+                            "open": "0.8124041143530688",
+                            "high": "0.8124041143530688",
+                            "low": "0.8124041143530688",
+                            "close": "0.8124041143530688"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "fUSDT",
+                                "address": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+                                "name": "Frapped USDT"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 124346.093052,
+                            "quoteVolume": 696560.1572812469,
+                            "open": "5.539140089898314",
+                            "high": "5.704808914785516",
+                            "low": "5.514835604453461",
+                            "close": "5.613435901613213"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "miMATIC",
+                                "address": "0xfb98b335551a418cd0737375a2ea0ded62ea213b",
+                                "name": "miMATIC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 8856.502959733678,
+                            "quoteVolume": 8689.706292,
+                            "open": "0.9798985964705882",
+                            "high": "0.9847225794485611",
+                            "low": "0.9798985964705882",
+                            "close": "0.9847225794485611"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "sFTMX",
+                                "address": "0xd7028092c830b5c8fce061af2e593413ebbc1fc1",
+                                "name": "sFTMX"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WFTM",
+                                "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+                                "name": "Wrapped Fantom"
+                            },
+                            "baseVolume": 42411.16070206354,
+                            "quoteVolume": 44592.87736089186,
+                            "open": "1.0470504602678241",
+                            "high": "1.0553434122259864",
+                            "low": "1.0470504602678241",
+                            "close": "1.0502366789689783"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Fri, 18 Nov 2022 08:54:32 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Download-Options",
+            "noopen",
+            "X-Permitted-Cross-Domain-Policies",
+            "none",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Access-Control-Expose-Headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "X-GraphQL-Query-ID",
+            "6YpHcJZEUuvK8jWA",
+            "X-GraphQL-Requested",
+            "true",
+            "ETag",
+            "W/\"49fe5827480c9c78dac8485e1c271f51\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "8d4fb952-eb28-49ea-9148-a6a2a262c8cb",
+            "X-Runtime",
+            "0.152759",
+            "Vary",
+            "Origin",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]
