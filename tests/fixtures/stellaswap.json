@@ -1,0 +1,395 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $exchangeName: String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                exchangeName: {in: [$exchangeName]}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-21T06:52:10.118Z",
+                "twentyFourHoursAgo": "2022-11-20T06:52:10.118Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "moonbeam",
+                "exchangeName": "StellaSwap"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "BNB",
+                                "address": "0xc9baa8cfdde8e328787e29b4b078abf2dadc2055",
+                                "name": "Binance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 7.8,
+                            "quoteVolume": 2029.618488,
+                            "open": "260.2074984615385",
+                            "high": "260.2074984615385",
+                            "low": "260.2074984615385",
+                            "close": "260.2074984615385"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "STELLA",
+                                "address": "0x0e358838ce72d5e61e0018a2ffac4bec5f4c88d2",
+                                "name": "StellaSwap"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "baseVolume": 56531.6763012028,
+                            "quoteVolume": 9377.52546039104,
+                            "open": "0.16792661552483676",
+                            "high": "0.16792661552483676",
+                            "low": "0.16277532914217266",
+                            "close": "0.16277532914217266"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BNB",
+                                "address": "0xc9baa8cfdde8e328787e29b4b078abf2dadc2055",
+                                "name": "Binance"
+                            },
+                            "baseVolume": 2029.618488,
+                            "quoteVolume": 7.8,
+                            "open": "0.003843086790013513",
+                            "high": "0.003843086790013513",
+                            "low": "0.003843086790013513",
+                            "close": "0.003843086790013513"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x931715fee2d06333043d11f658c8ce934ac61d0c",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "baseVolume": 179766.857425,
+                            "quoteVolume": 531279.2176599954,
+                            "open": "2.7974807117750764",
+                            "high": "3.0965065467322477",
+                            "low": "2.7701464378514453",
+                            "close": "3.046823105945719"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "baseVolume": 4.7651461,
+                            "quoteVolume": 225116.7964918397,
+                            "open": "46098.90972838782",
+                            "high": "49100.1874922777",
+                            "low": "45676.98614840828",
+                            "close": "49100.1874922777"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WELL",
+                                "address": "0x511ab53f793683763e5a8829738301368a2411e3",
+                                "name": "WELL"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "baseVolume": 581436.8297917972,
+                            "quoteVolume": 7658.285410816734,
+                            "open": "0.013129417066781108",
+                            "high": "0.013213205580045137",
+                            "low": "0.013129417066781108",
+                            "close": "0.013213205580045137"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xab3f0245b83feb11d15aaffefd7ad465a59817ed",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "baseVolume": 65.09382554429097,
+                            "quoteVolume": 218598.22847840854,
+                            "open": "3374.7337765055613",
+                            "high": "3446.7890968411266",
+                            "low": "3284.575976168119",
+                            "close": "3446.7890968411266"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "STELLA",
+                                "address": "0x0e358838ce72d5e61e0018a2ffac4bec5f4c88d2",
+                                "name": "StellaSwap"
+                            },
+                            "baseVolume": 9377.52546039104,
+                            "quoteVolume": 56531.6763012028,
+                            "open": "5.954982162146283",
+                            "high": "6.14343712447094",
+                            "low": "5.954982162146283",
+                            "close": "6.14343712447094"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0x931715fee2d06333043d11f658c8ce934ac61d0c",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 531279.2176599954,
+                            "quoteVolume": 179766.857425,
+                            "open": "0.35746448430933886",
+                            "high": "0.3609917462614758",
+                            "low": "0.32294457799719584",
+                            "close": "0.3282107182555335"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0xe57ebd2d67b462e9926e04a8e33f01cd0d64346d",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 225116.7964918397,
+                            "quoteVolume": 4.7651461,
+                            "open": "2.1657148536055705e-05",
+                            "high": "2.1892863e-05",
+                            "low": "2.0366521006814414e-05",
+                            "close": "2.0366521006814414e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WELL",
+                                "address": "0x511ab53f793683763e5a8829738301368a2411e3",
+                                "name": "WELL"
+                            },
+                            "baseVolume": 7658.285410816734,
+                            "quoteVolume": 581436.8297917972,
+                            "open": "76.16484379417817",
+                            "high": "76.16484379417817",
+                            "low": "75.68186190262726",
+                            "close": "75.68186190262726"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xab3f0245b83feb11d15aaffefd7ad465a59817ed",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 218598.22847840854,
+                            "quoteVolume": 65.09382554429098,
+                            "open": "0.00029631967029869564",
+                            "high": "0.0003044533015085341",
+                            "low": "0.0002901250908900891",
+                            "close": "0.0002901250908900891"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "xcDOT",
+                                "address": "0xffffffff1fcacbd218edc0eba20fc2308c778080",
+                                "name": "xcDOT"
+                            },
+                            "baseVolume": 345635.1933451224,
+                            "quoteVolume": 22313.1285851368,
+                            "open": "0.06443197219965771",
+                            "high": "0.06596036668944831",
+                            "low": "0.062519223973865",
+                            "close": "0.06292764144453566"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "xcINTR",
+                                "address": "0xffffffff4c1cbcd97597339702436d4f18a375ab",
+                                "name": "Interlay"
+                            },
+                            "baseVolume": 12457.919174662182,
+                            "quoteVolume": 189632.1219903688,
+                            "open": "14.931412242956434",
+                            "high": "15.759696194841492",
+                            "low": "14.91603685506324",
+                            "close": "14.91603685506324"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "xcaUSD",
+                                "address": "0xffffffff52c56a9257bb97f4b2b6f7b2d624ecda",
+                                "name": "Acala Dollar"
+                            },
+                            "baseVolume": 15445.763740758679,
+                            "quoteVolume": 7632.110814947775,
+                            "open": "0.48553321678448164",
+                            "high": "0.4981670523678636",
+                            "low": "0.48553321678448164",
+                            "close": "0.4981670523678636"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "xcDOT",
+                                "address": "0xffffffff1fcacbd218edc0eba20fc2308c778080",
+                                "name": "xcDOT"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "baseVolume": 22313.1285851368,
+                            "quoteVolume": 345635.1933451224,
+                            "open": "15.520245087349855",
+                            "high": "15.995080175947663",
+                            "low": "15.160619174665234",
+                            "close": "15.89126776476119"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "xcINTR",
+                                "address": "0xffffffff4c1cbcd97597339702436d4f18a375ab",
+                                "name": "Interlay"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "baseVolume": 189632.1219903688,
+                            "quoteVolume": 12457.919174662182,
+                            "open": "0.0669729014060092",
+                            "high": "0.0670419367903714",
+                            "low": "0.06345299983176851",
+                            "close": "0.0670419367903714"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "xcaUSD",
+                                "address": "0xffffffff52c56a9257bb97f4b2b6f7b2d624ecda",
+                                "name": "Acala Dollar"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WGLMR",
+                                "address": "0xacc15dc74880c9944775448304b263d191c6077f",
+                                "name": "Wrapped GLMR"
+                            },
+                            "baseVolume": 7632.110814947775,
+                            "quoteVolume": 15445.763740758679,
+                            "open": "2.0595913223458813",
+                            "high": "2.0595913223458813",
+                            "low": "2.0073587669976325",
+                            "close": "2.0073587669976325"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 21 Nov 2022 06:52:11 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Download-Options",
+            "noopen",
+            "X-Permitted-Cross-Domain-Policies",
+            "none",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Access-Control-Expose-Headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "X-GraphQL-Query-ID",
+            "2pQPFBMUviaUUBsJ",
+            "X-GraphQL-Requested",
+            "true",
+            "ETag",
+            "W/\"0215256ad849dfe83657d2ef29e3bfec\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "9dd234a8-04e1-41f1-880d-53c16c02f031",
+            "X-Runtime",
+            "0.071264",
+            "Vary",
+            "Origin",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]

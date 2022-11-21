@@ -189,6 +189,7 @@ exports.Saturn = require('./saturn');
 exports.Sigenpro = require('./sigenpro');
 exports.Southxchange = require('./southxchange');
 exports.Spookyswap = require('./spookyswap');
+exports.Stellaswap = require('./stellaswap');
 exports.Stex = require('./stex');
 exports.Stormgain = require('./stormgain');
 exports.Sushiswap = require('./sushiswap');
