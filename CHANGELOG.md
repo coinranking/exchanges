@@ -1,3 +1,10 @@
+# [3.90.0](https://github.com/coinranking/exchanges/compare/v3.89.0...v3.90.0) (2022-11-21)
+
+
+### Features
+
+* **stellaswap:** add support for Stellaswap ([5a1826b](https://github.com/coinranking/exchanges/commit/5a1826bc67af946bc3a6dbaa7dfbc2a05d1bd48d))
+
 # [3.89.0](https://github.com/coinranking/exchanges/compare/v3.88.0...v3.89.0) (2022-11-21)
 
 
