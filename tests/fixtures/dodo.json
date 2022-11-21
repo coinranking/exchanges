@@ -1,0 +1,215 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $exchangeName: String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                exchangeName: {in: [$exchangeName]}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-18T08:58:05.635Z",
+                "twentyFourHoursAgo": "2022-11-17T08:58:05.635Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "ethereum",
+                "exchangeName": "Dodo"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "DODO",
+                                "address": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+                                "name": "DODO bird"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 526394.7542535451,
+                            "quoteVolume": 60063.083679,
+                            "open": "0.11345597450854157",
+                            "high": "0.11670164492520899",
+                            "low": "0.11175042814544979",
+                            "close": "0.11420272162318104"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 86972307.795444,
+                            "quoteVolume": 87247566.657937,
+                            "open": "1.0056016727023225",
+                            "high": "1.13608700819865",
+                            "low": "1.0002017321321135",
+                            "close": "1.0007028683571542"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 100754.775745,
+                            "quoteVolume": 6.1039197,
+                            "open": "6.0874037053276815e-05",
+                            "high": "6.133673575047377e-05",
+                            "low": "5.967937124359354e-05",
+                            "close": "5.967937124359354e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 1009.999999,
+                            "quoteVolume": 0.8195773082580847,
+                            "open": "0.0008114626822470766",
+                            "high": "0.0008114626822470766",
+                            "low": "0.0008114626822470766",
+                            "close": "0.0008114626822470766"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DODO",
+                                "address": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+                                "name": "DODO bird"
+                            },
+                            "baseVolume": 60063.083679,
+                            "quoteVolume": 526394.7542535451,
+                            "open": "8.813991544576744",
+                            "high": "8.948511577051327",
+                            "low": "8.56885951042827",
+                            "close": "8.756358743354314"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 87247566.657937,
+                            "quoteVolume": 86972307.795444,
+                            "open": "0.9972377449357642",
+                            "high": "0.9997983085555315",
+                            "low": "0.8802142730120415",
+                            "close": "0.9992976253197835"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 6.1039197,
+                            "quoteVolume": 100754.775745,
+                            "open": "16427.36457785447",
+                            "high": "16756.208705991485",
+                            "low": "16303.443405728938",
+                            "close": "16756.208705991485"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 0.8195773082580847,
+                            "quoteVolume": 1009.999999,
+                            "open": "1232.34256100457",
+                            "high": "1232.34256100457",
+                            "low": "1232.34256100457",
+                            "close": "1232.34256100457"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Fri, 18 Nov 2022 08:58:06 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Download-Options",
+            "noopen",
+            "X-Permitted-Cross-Domain-Policies",
+            "none",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Access-Control-Expose-Headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "X-GraphQL-Query-ID",
+            "1An9J3En7q7pQqpv",
+            "X-GraphQL-Requested",
+            "true",
+            "ETag",
+            "W/\"99e2e27c76963fd60bccc098ce1cd68e\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "aa57b431-ce2d-42e3-b1fe-58435fb0f5e9",
+            "X-Runtime",
+            "0.077281",
+            "Vary",
+            "Origin",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]
