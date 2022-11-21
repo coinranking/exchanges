@@ -1,3 +1,13 @@
+# [3.89.0](https://github.com/coinranking/exchanges/compare/v3.88.0...v3.89.0) (2022-11-21)
+
+
+### Features
+
+* **balancer:** add support for Balancer ([3bc0250](https://github.com/coinranking/exchanges/commit/3bc0250764e445c4df72b5d0b304a25381535263))
+* **dodo:** add support for Dodo ([3174cb0](https://github.com/coinranking/exchanges/commit/3174cb0b3bff536e58db94b8df75a2cd56830770))
+* **traderjoe:** add support for Trade Joe ([b0ecf91](https://github.com/coinranking/exchanges/commit/b0ecf918fa127460ba8333ddaee7ce14681aafd4))
+* **zeroxexchange:** add support for Zerox Exchange ([0f7f275](https://github.com/coinranking/exchanges/commit/0f7f2752afc657a39af00700d1f97c0de1976180))
+
 # [3.88.0](https://github.com/coinranking/exchanges/compare/v3.87.0...v3.88.0) (2022-11-18)
 
 
