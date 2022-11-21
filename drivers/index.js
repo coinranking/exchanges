@@ -203,6 +203,7 @@ exports.Tokenize = require('./tokenize');
 exports.Tokens = require('./tokens');
 exports.Tokenstore = require('./tokenstore');
 exports.Tradeogre = require('./tradeogre');
+exports.Traderjoe = require('./traderjoe');
 exports.Tradesatoshi = require('./tradesatoshi');
 exports.Triunits = require('./triunits');
 exports.Turtlenetwork = require('./turtlenetwork');
