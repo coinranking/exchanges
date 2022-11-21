@@ -1,0 +1,3239 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $exchangeName: String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                exchangeName: {in: [$exchangeName]}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-21T06:20:49.472Z",
+                "twentyFourHoursAgo": "2022-11-20T06:20:49.472Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "ethereum",
+                "exchangeName": "Balancer"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "AAVE",
+                                "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                                "name": "Aave Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 72.73546900587418,
+                            "quoteVolume": 0.2575829,
+                            "open": "0.003607538939693458",
+                            "high": "0.003607538939693458",
+                            "low": "0.0035110043039902348",
+                            "close": "0.003511791674366501"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "AAVE",
+                                "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                                "name": "Aave Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 39176.83864111195,
+                            "quoteVolume": 1948.578146345507,
+                            "open": "0.04938580397351364",
+                            "high": "0.050592102429564426",
+                            "low": "0.048936961164876024",
+                            "close": "0.04998253223023908"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "AKITA",
+                                "address": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6",
+                                "name": "Akita Inu"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 33670922234.516335,
+                            "quoteVolume": 2.708785287521882,
+                            "open": "8.064302052397696e-11",
+                            "high": "8.064302052397696e-11",
+                            "low": "8.013910082636634e-11",
+                            "close": "8.013910082636634e-11"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "ALBT",
+                                "address": "0x00a8b738e453ffd858a7edf03bccfe20412f0eb0",
+                                "name": "AllianceBlock Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 25319.38395847609,
+                            "quoteVolume": 0.9565077568,
+                            "open": "3.777768678608758e-05",
+                            "high": "3.777768678608758e-05",
+                            "low": "3.777768678608758e-05",
+                            "close": "3.777768678608758e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "ANT",
+                                "address": "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
+                                "name": "Aragon Network Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 770.6574316795234,
+                            "quoteVolume": 1404.495625,
+                            "open": "1.8224642587811404",
+                            "high": "1.8224642587811404",
+                            "low": "1.8224642587811404",
+                            "close": "1.8224642587811404"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "ANT",
+                                "address": "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
+                                "name": "Aragon Network Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 1248.4650393208278,
+                            "quoteVolume": 1.925651149438416,
+                            "open": "0.001542414956598209",
+                            "high": "0.001542414956598209",
+                            "low": "0.001542414956598209",
+                            "close": "0.001542414956598209"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "APY",
+                                "address": "0x95a4492f028aa1fd432ea71146b433e7b4446611",
+                                "name": "APY Governance Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 390604.2557049822,
+                            "quoteVolume": 1388.655363,
+                            "open": "0.0035551465267414585",
+                            "high": "0.0035551465267414585",
+                            "low": "0.0035551465267414585",
+                            "close": "0.0035551465267414585"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "AURA",
+                                "address": "0xc0c293ce456ff0ed870add98a0828dd4d2903dbf",
+                                "name": "Aura"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 55574.23662690034,
+                            "quoteVolume": 92.1720191163245,
+                            "open": "0.001659488923177508",
+                            "high": "0.0016867220669569184",
+                            "low": "0.0016285521789334075",
+                            "close": "0.001669883827214334"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BADGER",
+                                "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+                                "name": "Badger"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 14172.989512056045,
+                            "quoteVolume": 2.13159817,
+                            "open": "0.00014996886073394617",
+                            "high": "0.0001520574196095002",
+                            "low": "0.00014890746489220586",
+                            "close": "0.00014890746489220586"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BADGER",
+                                "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+                                "name": "Badger"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "baseVolume": 18790.338970371944,
+                            "quoteVolume": 37.271298299635944,
+                            "open": "0.0019195383377012246",
+                            "high": "0.0020323572942059728",
+                            "low": "0.0019195383377012246",
+                            "close": "0.001997398278817212"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BAL",
+                                "address": "0xba100000625a3754423978a60c9317c58a424e3d",
+                                "name": "Balancer"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 136554.75842917414,
+                            "quoteVolume": 634.1845373980907,
+                            "open": "0.0045431531486253025",
+                            "high": "0.004692870192494563",
+                            "low": "0.0045431531486253025",
+                            "close": "0.004692870192494563"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BAND",
+                                "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+                                "name": "BandToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 4515.924751182321,
+                            "quoteVolume": 0.47023331,
+                            "open": "0.00010843426111294124",
+                            "high": "0.00010843426111294124",
+                            "low": "0.0001014474892713371",
+                            "close": "0.00010429262506685427"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BAND",
+                                "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+                                "name": "BandToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 11011.35581329162,
+                            "quoteVolume": 15.866442019585135,
+                            "open": "0.0015184404032383455",
+                            "high": "0.0015184404032383455",
+                            "low": "0.0014095910819656378",
+                            "close": "0.0014668271792028682"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BOND",
+                                "address": "0x0391d2021f89dc339f60fff84546ea23e337750f",
+                                "name": "BarnBridge Governance Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "OHM",
+                                "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+                                "name": "Olympus"
+                            },
+                            "baseVolume": 10899.444176268325,
+                            "quoteVolume": 4742.219028996,
+                            "open": "0.4155316042082637",
+                            "high": "0.45353380898737755",
+                            "low": "0.4155316042082637",
+                            "close": "0.43472430426352426"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BTRFLY",
+                                "address": "0xc55126051b22ebb829d00368f4b12bde432de5da",
+                                "name": "BTRFLY"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "OHM",
+                                "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+                                "name": "Olympus"
+                            },
+                            "baseVolume": 69.21108536930774,
+                            "quoteVolume": 1264.671365032,
+                            "open": "18.55400444126685",
+                            "high": "18.55400444126685",
+                            "low": "18.028180462633625",
+                            "close": "18.028180462633625"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BUSD",
+                                "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+                                "name": "Binance USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 31632.413795990848,
+                            "quoteVolume": 31712.43027616791,
+                            "open": "1.002325429096355",
+                            "high": "1.0040005508614624",
+                            "low": "0.9991975636082671",
+                            "close": "1.002735006371891"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BUSD",
+                                "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+                                "name": "Binance USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 70418.3212518531,
+                            "quoteVolume": 70416.120802,
+                            "open": "1.0027107591554933",
+                            "high": "1.0036601446919526",
+                            "low": "0.9967507598605032",
+                            "close": "1.0036601446919526"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CHZ",
+                                "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+                                "name": "chiliZ"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LINK",
+                                "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                                "name": "ChainLink Token"
+                            },
+                            "baseVolume": 6787.058473861301,
+                            "quoteVolume": 251.25702734060962,
+                            "open": "0.03702001806942798",
+                            "high": "0.03702001806942798",
+                            "low": "0.03702001806942798",
+                            "close": "0.03702001806942798"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CHZ",
+                                "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+                                "name": "chiliZ"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 35307.29467771094,
+                            "quoteVolume": 0.46292676,
+                            "open": "1.367320823220578e-05",
+                            "high": "1.393236491450788e-05",
+                            "low": "1.2275935904039694e-05",
+                            "close": "1.2275935904039694e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CHZ",
+                                "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+                                "name": "chiliZ"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 69994.79471680005,
+                            "quoteVolume": 12.31986657221568,
+                            "open": "0.00018426800453438938",
+                            "high": "0.00019630645810771055",
+                            "low": "0.0001669862105166611",
+                            "close": "0.00017476009545894518"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CHZ",
+                                "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+                                "name": "chiliZ"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "YFI",
+                                "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+                                "name": "yearn.finance"
+                            },
+                            "baseVolume": 10711.981347258556,
+                            "quoteVolume": 0.3664729120744407,
+                            "open": "3.456930380964351e-05",
+                            "high": "3.456930380964351e-05",
+                            "low": "3.3903395300955425e-05",
+                            "close": "3.3903395300955425e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "COMP",
+                                "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                                "name": "Compound"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 30.0713699174891,
+                            "quoteVolume": 1.0028555966081945,
+                            "open": "0.03334918227403226",
+                            "high": "0.03334918227403226",
+                            "low": "0.03334918227403226",
+                            "close": "0.03334918227403226"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "COMP",
+                                "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                                "name": "Compound"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "baseVolume": 174.08381736064956,
+                            "quoteVolume": 5.292402918105696,
+                            "open": "0.03018032037587543",
+                            "high": "0.030651916459655013",
+                            "low": "0.03018032037587543",
+                            "close": "0.03041151275114994"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "COW",
+                                "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+                                "name": "CoW Protocol Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "GNO",
+                                "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+                                "name": "Gnosis Token"
+                            },
+                            "baseVolume": 757977.7454001383,
+                            "quoteVolume": 642.2098212658956,
+                            "open": "0.0008391973710859487",
+                            "high": "0.0008722437549471976",
+                            "low": "0.0008182710243131445",
+                            "close": "0.0008182710243131445"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "COW",
+                                "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+                                "name": "CoW Protocol Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 381063.16931166104,
+                            "quoteVolume": 23.690471054373347,
+                            "open": "6.193727590692258e-05",
+                            "high": "6.442235554735236e-05",
+                            "low": "5.969064972889484e-05",
+                            "close": "5.969064972889484e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BUSD",
+                                "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+                                "name": "Binance USD"
+                            },
+                            "baseVolume": 31712.43027616791,
+                            "quoteVolume": 31632.413795990848,
+                            "open": "0.9976799659782636",
+                            "high": "1.0008030808130028",
+                            "low": "0.9960153897744081",
+                            "close": "0.9972724534852065"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "OHM",
+                                "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+                                "name": "Olympus"
+                            },
+                            "baseVolume": 538645.3272885075,
+                            "quoteVolume": 62346.308895429,
+                            "open": "0.11274836573132149",
+                            "high": "0.11835261044893527",
+                            "low": "0.11274836573132149",
+                            "close": "0.11803007611880262"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "TEMPLE",
+                                "address": "0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7",
+                                "name": "Temple"
+                            },
+                            "baseVolume": 5274.1580632870555,
+                            "quoteVolume": 5449.001461484653,
+                            "open": "1.0331509590913983",
+                            "high": "1.0331509590913983",
+                            "low": "1.0331509590913983",
+                            "close": "1.0331509590913983"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 3326598.317698684,
+                            "quoteVolume": 3326182.518942,
+                            "open": "1.00001830390403",
+                            "high": "1.0101070720472398",
+                            "low": "0.9797127650164035",
+                            "close": "0.9999729526507466"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 1038383.0786855726,
+                            "quoteVolume": 1039217.117449,
+                            "open": "1.0018434848954432",
+                            "high": "1.0034574944347654",
+                            "low": "0.9977639802053022",
+                            "close": "1.0016307037297025"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 1304797.4793035125,
+                            "quoteVolume": 1127.7021640808105,
+                            "open": "0.0008261073990314021",
+                            "high": "0.0008989156749596814",
+                            "low": "0.0008241786788587005",
+                            "close": "0.0008809793639510179"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-DAI",
+                                "address": "0x804cdb9116a10bb78768d3252355a1b18067bf8f",
+                                "name": "Balancer Aave Boosted Pool (DAI)"
+                            },
+                            "baseVolume": 1464549.7277315187,
+                            "quoteVolume": 1447640.2470206502,
+                            "open": "0.9884541436941411",
+                            "high": "0.9884541436941411",
+                            "low": "0.9884541436872001",
+                            "close": "0.9884541436872001"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-DAI",
+                                "address": "0xae37d54ae477268b9997d4161b96b8200755935c",
+                                "name": "Balancer Aave Boosted Pool (DAI)"
+                            },
+                            "baseVolume": 15005913.79035613,
+                            "quoteVolume": 14986754.314413546,
+                            "open": "0.998723362182984",
+                            "high": "0.998723362182984",
+                            "low": "0.9987230343349546",
+                            "close": "0.9987230343349546"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DFX",
+                                "address": "0x888888435fde8e7d4c54cab67f206e4199454c60",
+                                "name": "DFX Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 113853.83876427531,
+                            "quoteVolume": 22.92028094927394,
+                            "open": "0.00022241930925408508",
+                            "high": "0.00022241930925408508",
+                            "low": "0.00019020296983010817",
+                            "close": "0.000195582353718177"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DOLA",
+                                "address": "0x865377367054516e17014ccded1e7d814edc9ce4",
+                                "name": "Dola USD Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "INV",
+                                "address": "0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68",
+                                "name": "Inverse DAO"
+                            },
+                            "baseVolume": 13744.325665313294,
+                            "quoteVolume": 254.70696082445278,
+                            "open": "0.01811702412767998",
+                            "high": "0.019240158292003456",
+                            "low": "0.01811702412767998",
+                            "close": "0.019240158292003456"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DOLA",
+                                "address": "0x865377367054516e17014ccded1e7d814edc9ce4",
+                                "name": "Dola USD Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-USD",
+                                "address": "0xa13a9247ea42d743238089903570127dda72fe44",
+                                "name": "Balancer Aave Boosted StablePool"
+                            },
+                            "baseVolume": 170045.61756516912,
+                            "quoteVolume": 169554.79878545075,
+                            "open": "0.9967543471856398",
+                            "high": "0.9975105638739609",
+                            "low": "0.9967543471856398",
+                            "close": "0.9975105638739609"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "ENS",
+                                "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+                                "name": "Ethereum Name Service"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 178.86356354800157,
+                            "quoteVolume": 1.923719080062373,
+                            "open": "0.010799804492182503",
+                            "high": "0.010799804492182503",
+                            "low": "0.010702917702527423",
+                            "close": "0.010702917702527423"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "FDT",
+                                "address": "0xed1480d12be41d92f36f5f7bdd88212e381a3677",
+                                "name": "FIAT DAO Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 653201.1459857709,
+                            "quoteVolume": 2.073388613243375,
+                            "open": "3.2616352810137556e-06",
+                            "high": "3.2616352810137556e-06",
+                            "low": "3.093649133653663e-06",
+                            "close": "3.093649133653663e-06"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "FIAT",
+                                "address": "0x586aa273f262909eef8fa02d90ab65f5015e0516",
+                                "name": "Fixed Income Asset Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 62257.111501660795,
+                            "quoteVolume": 61954.97199,
+                            "open": "0.9952273350945532",
+                            "high": "0.9952273350945532",
+                            "low": "0.9943323006942555",
+                            "close": "0.9943323006942555"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "GNO",
+                                "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+                                "name": "Gnosis Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "COW",
+                                "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+                                "name": "CoW Protocol Token"
+                            },
+                            "baseVolume": 642.2098212658956,
+                            "quoteVolume": 757977.7454001383,
+                            "open": "1191.6147910544182",
+                            "high": "1222.0889782079216",
+                            "low": "1146.4685121884722",
+                            "close": "1222.0889782079216"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "GNO",
+                                "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+                                "name": "Gnosis Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 587.8190000403598,
+                            "quoteVolume": 43.027236810048095,
+                            "open": "0.07377877625114347",
+                            "high": "0.07391659237340212",
+                            "low": "0.07232621742634474",
+                            "close": "0.07232621742634474"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "HAUS",
+                                "address": "0xf2051511b9b121394fa75b8f7d4e7424337af687",
+                                "name": "DAOhaus Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 348.7833682673697,
+                            "quoteVolume": 0.9172110088020601,
+                            "open": "0.0026297441112471454",
+                            "high": "0.0026297441112471454",
+                            "low": "0.0026297441112471454",
+                            "close": "0.0026297441112471454"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "INV",
+                                "address": "0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68",
+                                "name": "Inverse DAO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DOLA",
+                                "address": "0x865377367054516e17014ccded1e7d814edc9ce4",
+                                "name": "Dola USD Stablecoin"
+                            },
+                            "baseVolume": 254.70696082445278,
+                            "quoteVolume": 13744.325665313294,
+                            "open": "55.196702998929965",
+                            "high": "55.196702998929965",
+                            "low": "51.97462436759771",
+                            "close": "51.97462436759771"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LDO",
+                                "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+                                "name": "Lido DAO Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SNX",
+                                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                                "name": "Synthetix Network Token"
+                            },
+                            "baseVolume": 1184.1643075534223,
+                            "quoteVolume": 789.9772550619888,
+                            "open": "0.667117941338854",
+                            "high": "0.667117941338854",
+                            "low": "0.667117941338854",
+                            "close": "0.667117941338854"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LDO",
+                                "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+                                "name": "Lido DAO Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "UNI",
+                                "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                                "name": "Uniswap"
+                            },
+                            "baseVolume": 940.7288697670098,
+                            "quoteVolume": 192.41883151530342,
+                            "open": "0.20454228386013046",
+                            "high": "0.20454228386013046",
+                            "low": "0.20454228386013046",
+                            "close": "0.20454228386013046"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LDO",
+                                "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+                                "name": "Lido DAO Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "baseVolume": 7937.63825419108,
+                            "quoteVolume": 7.103062923387469,
+                            "open": "0.0009016652265924789",
+                            "high": "0.0009016652265924789",
+                            "low": "0.0008882441039094245",
+                            "close": "0.0008964157035083032"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LINK",
+                                "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                                "name": "ChainLink Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CHZ",
+                                "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+                                "name": "chiliZ"
+                            },
+                            "baseVolume": 251.25702734060962,
+                            "quoteVolume": 6787.058473861301,
+                            "open": "27.01241253109555",
+                            "high": "27.01241253109555",
+                            "low": "27.01241253109555",
+                            "close": "27.01241253109555"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LINK",
+                                "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                                "name": "ChainLink Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 3287.8038514222853,
+                            "quoteVolume": 16.615105402346966,
+                            "open": "0.005098621861110673",
+                            "high": "0.005100515503957238",
+                            "low": "0.005004297896590052",
+                            "close": "0.005095235467174112"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LINK",
+                                "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                                "name": "ChainLink Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "YFI",
+                                "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+                                "name": "yearn.finance"
+                            },
+                            "baseVolume": 178.15667556200225,
+                            "quoteVolume": 0.165837277233152,
+                            "open": "0.0009308507621733049",
+                            "high": "0.0009308507621733049",
+                            "low": "0.0009308507621733049",
+                            "close": "0.0009308507621733049"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MAD",
+                                "address": "0x5b09a0371c1da44a8e24d36bf5deb1141a84d875",
+                                "name": "MADToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 136647,
+                            "quoteVolume": 2.279268130099073,
+                            "open": "1.6679971972301426e-05",
+                            "high": "1.6679971972301426e-05",
+                            "low": "1.6679971972301426e-05",
+                            "close": "1.6679971972301426e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MAI",
+                                "address": "0x8d6cebd76f18e1558d4db88138e2defb3909fad6",
+                                "name": "Mai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 22930.786030079857,
+                            "quoteVolume": 22647.5758,
+                            "open": "0.9893355407863849",
+                            "high": "0.9893355407863849",
+                            "low": "0.9873549936623032",
+                            "close": "0.9873549936623032"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MATH",
+                                "address": "0x08d967bb0134f2d07f7cfb6e246680c53927dd30",
+                                "name": "MATH Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 8069.903322144039,
+                            "quoteVolume": 0.8578573619353306,
+                            "open": "0.0001063033010050252",
+                            "high": "0.0001063033010050252",
+                            "low": "0.0001063033010050252",
+                            "close": "0.0001063033010050252"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MIMO",
+                                "address": "0x90b831fa3bebf58e9744a14d638e25b4ee06f9bc",
+                                "name": "MIMO Parallel Governance Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "PAR",
+                                "address": "0x68037790a0229e9ce6eaa8a99ea92964106c4703",
+                                "name": "PAR Stablecoin"
+                            },
+                            "baseVolume": 114970.05694497604,
+                            "quoteVolume": 1641.8154272516322,
+                            "open": "0.014280374132870047",
+                            "high": "0.014280374132870047",
+                            "low": "0.014280374132870047",
+                            "close": "0.014280374132870047"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MPL",
+                                "address": "0x33349b282065b0284d756f0577fb39c158f935e6",
+                                "name": "Maple Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 13763.335431069301,
+                            "quoteVolume": 119614.358911,
+                            "open": "8.829834136233039",
+                            "high": "8.856420575353114",
+                            "low": "8.526243104351538",
+                            "close": "8.526243104351538"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MTA",
+                                "address": "0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2",
+                                "name": "Meta"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 126046.7764630418,
+                            "quoteVolume": 4.226393929270051,
+                            "open": "3.0744689267357934e-05",
+                            "high": "3.4609144098623963e-05",
+                            "low": "3.0744689267357934e-05",
+                            "close": "3.4609144098623963e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "NOTE",
+                                "address": "0xcfeaead4947f0705a14ec42ac3d44129e1ef3ed5",
+                                "name": "Notional"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 185868.20704123,
+                            "quoteVolume": 33.35582266930642,
+                            "open": "0.00018787410619651237",
+                            "high": "0.00018787410619651237",
+                            "low": "0.00017414673632866693",
+                            "close": "0.00017414673632866693"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "OHM",
+                                "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+                                "name": "Olympus"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BOND",
+                                "address": "0x0391d2021f89dc339f60fff84546ea23e337750f",
+                                "name": "BarnBridge Governance Token"
+                            },
+                            "baseVolume": 4742.219028996,
+                            "quoteVolume": 10899.444176268325,
+                            "open": "2.406555818793513",
+                            "high": "2.406555818793513",
+                            "low": "2.204907286256649",
+                            "close": "2.3003084718120865"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "OHM",
+                                "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+                                "name": "Olympus"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BTRFLY",
+                                "address": "0xc55126051b22ebb829d00368f4b12bde432de5da",
+                                "name": "BTRFLY"
+                            },
+                            "baseVolume": 1264.671365032,
+                            "quoteVolume": 69.21108536930774,
+                            "open": "0.05389672095668211",
+                            "high": "0.05546871477532992",
+                            "low": "0.05389672095668211",
+                            "close": "0.05546871477532992"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "OHM",
+                                "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+                                "name": "Olympus"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 62346.308895429,
+                            "quoteVolume": 538645.3272885075,
+                            "open": "8.86930815815985",
+                            "high": "8.86930815815985",
+                            "low": "8.449327785900106",
+                            "close": "8.472416801573987"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "OHM",
+                                "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+                                "name": "Olympus"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 63390.988125399,
+                            "quoteVolume": 473.1303841072004,
+                            "open": "0.00735486207487249",
+                            "high": "0.007631491411090683",
+                            "low": "0.007243736411609947",
+                            "close": "0.007527305800978907"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "PAR",
+                                "address": "0x68037790a0229e9ce6eaa8a99ea92964106c4703",
+                                "name": "PAR Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MIMO",
+                                "address": "0x90b831fa3bebf58e9744a14d638e25b4ee06f9bc",
+                                "name": "MIMO Parallel Governance Token"
+                            },
+                            "baseVolume": 1641.8154272516322,
+                            "quoteVolume": 114970.05694497604,
+                            "open": "70.02617653400524",
+                            "high": "70.02617653400524",
+                            "low": "70.02617653400524",
+                            "close": "70.02617653400524"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "PSP",
+                                "address": "0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+                                "name": "ParaSwap"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 336959.98077505286,
+                            "quoteVolume": 9.152157165394396,
+                            "open": "2.6843834984842004e-05",
+                            "high": "2.8029540721163857e-05",
+                            "low": "2.672389742793103e-05",
+                            "close": "2.8029540721163857e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "RAIL",
+                                "address": "0xe76c6c83af64e4c60245d8c7de953df673a7a33d",
+                                "name": "Rail"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 3444.558940194755,
+                            "quoteVolume": 1.0618809390578,
+                            "open": "0.00030827776719586665",
+                            "high": "0.00030827776719586665",
+                            "low": "0.00030827776719586665",
+                            "close": "0.00030827776719586665"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "REN",
+                                "address": "0x408e41876cccdc0f92210600ef50372656052a38",
+                                "name": "Republic Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 69012.31534740436,
+                            "quoteVolume": 4.4836767779020885,
+                            "open": "6.593944303426766e-05",
+                            "high": "6.593944303426766e-05",
+                            "low": "6.457985507725455e-05",
+                            "close": "6.457985507725455e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "RLY",
+                                "address": "0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b",
+                                "name": "Rally"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 107437,
+                            "quoteVolume": 1016.663957,
+                            "open": "0.009462884825525656",
+                            "high": "0.009462884825525656",
+                            "low": "0.009462884825525656",
+                            "close": "0.009462884825525656"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "RPL",
+                                "address": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+                                "name": "Rocket Pool Protocol"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "baseVolume": 3484.0697379231747,
+                            "quoteVolume": 45.33558725825331,
+                            "open": "0.0128697250036697",
+                            "high": "0.013232334951918353",
+                            "low": "0.012788198908489121",
+                            "close": "0.013149857688493853"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SNX",
+                                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                                "name": "Synthetix Network Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LDO",
+                                "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+                                "name": "Lido DAO Token"
+                            },
+                            "baseVolume": 789.9772550619888,
+                            "quoteVolume": 1184.1643075534223,
+                            "open": "1.4989853188374418",
+                            "high": "1.4989853188374418",
+                            "low": "1.4989853188374418",
+                            "close": "1.4989853188374418"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SNX",
+                                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                                "name": "Synthetix Network Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "UNI",
+                                "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                                "name": "Uniswap"
+                            },
+                            "baseVolume": 778.857101459291,
+                            "quoteVolume": 239.47957843369693,
+                            "open": "0.3074756306195328",
+                            "high": "0.3074756306195328",
+                            "low": "0.3074756306195328",
+                            "close": "0.3074756306195328"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SNX",
+                                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                                "name": "Synthetix Network Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 682.942657474625,
+                            "quoteVolume": 0.9863483567648759,
+                            "open": "0.001444262334428164",
+                            "high": "0.001444262334428164",
+                            "low": "0.001444262334428164",
+                            "close": "0.001444262334428164"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SRM",
+                                "address": "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
+                                "name": "Serum"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 1166478.047175,
+                            "quoteVolume": 285.2148410430309,
+                            "open": "0.00019489555448675523",
+                            "high": "0.00033214074340456043",
+                            "low": "0.00019232520305520855",
+                            "close": "0.00023673412408780286"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "STG",
+                                "address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+                                "name": "StargateToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-USD",
+                                "address": "0xa13a9247ea42d743238089903570127dda72fe44",
+                                "name": "Balancer Aave Boosted StablePool"
+                            },
+                            "baseVolume": 276664.3205505277,
+                            "quoteVolume": 113388.67799961475,
+                            "open": "0.4164763347178426",
+                            "high": "0.4164763347178426",
+                            "low": "0.40585079751893594",
+                            "close": "0.40585079751893594"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "Silo",
+                                "address": "0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8",
+                                "name": "Silo Governance Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 446276.7623181875,
+                            "quoteVolume": 16.24489628406514,
+                            "open": "3.581675442446275e-05",
+                            "high": "3.7790672136017303e-05",
+                            "low": "3.5334922906788336e-05",
+                            "close": "3.7790672136017303e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "T",
+                                "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
+                                "name": "Threshold Network Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 1878831.0584731828,
+                            "quoteVolume": 29.211540940188442,
+                            "open": "1.6056503286681556e-05",
+                            "high": "1.6056503286681556e-05",
+                            "low": "1.5050247838860928e-05",
+                            "close": "1.5141324986366932e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "TEMP",
+                                "address": "0xa36fdbbae3c9d55a1d67ee5821d53b50b63a1ab9",
+                                "name": "Tempus"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 174612.65860382936,
+                            "quoteVolume": 4.759880516682362,
+                            "open": "2.6894450217474474e-05",
+                            "high": "2.780620754036575e-05",
+                            "low": "2.6894450217474474e-05",
+                            "close": "2.780620754036575e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "TEMPLE",
+                                "address": "0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7",
+                                "name": "Temple"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 5449.001461484653,
+                            "quoteVolume": 5274.1580632870555,
+                            "open": "0.9679127635708213",
+                            "high": "0.9679127635708213",
+                            "low": "0.9679127635708213",
+                            "close": "0.9679127635708213"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "UNI",
+                                "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                                "name": "Uniswap"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LDO",
+                                "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+                                "name": "Lido DAO Token"
+                            },
+                            "baseVolume": 192.41883151530342,
+                            "quoteVolume": 940.7288697670098,
+                            "open": "4.888964673357306",
+                            "high": "4.888964673357306",
+                            "low": "4.888964673357306",
+                            "close": "4.888964673357306"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "UNI",
+                                "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+                                "name": "Uniswap"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SNX",
+                                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                                "name": "Synthetix Network Token"
+                            },
+                            "baseVolume": 239.47957843369693,
+                            "quoteVolume": 778.857101459291,
+                            "open": "3.25229026438648",
+                            "high": "3.25229026438648",
+                            "low": "3.25229026438648",
+                            "close": "3.25229026438648"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "ANT",
+                                "address": "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
+                                "name": "Aragon Network Token"
+                            },
+                            "baseVolume": 1404.495625,
+                            "quoteVolume": 770.6574316795234,
+                            "open": "0.5487076057495895",
+                            "high": "0.5487076057495895",
+                            "low": "0.5487076057495895",
+                            "close": "0.5487076057495895"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "APY",
+                                "address": "0x95a4492f028aa1fd432ea71146b433e7b4446611",
+                                "name": "APY Governance Token"
+                            },
+                            "baseVolume": 1388.655363,
+                            "quoteVolume": 390604.2557049822,
+                            "open": "281.2823585408082",
+                            "high": "281.2823585408082",
+                            "low": "281.2823585408082",
+                            "close": "281.2823585408082"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BUSD",
+                                "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+                                "name": "Binance USD"
+                            },
+                            "baseVolume": 70416.120802,
+                            "quoteVolume": 70418.3212518531,
+                            "open": "0.9972965691943144",
+                            "high": "1.0032598321168589",
+                            "low": "0.9963532031123185",
+                            "close": "0.9963532031123185"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 3326182.518942,
+                            "quoteVolume": 3326598.317698684,
+                            "open": "0.9999816964309967",
+                            "high": "1.0207073294418665",
+                            "low": "0.9899940587221557",
+                            "close": "1.0000270480808322"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "FIAT",
+                                "address": "0x586aa273f262909eef8fa02d90ab65f5015e0516",
+                                "name": "Fixed Income Asset Token"
+                            },
+                            "baseVolume": 61954.97199,
+                            "quoteVolume": 62257.111501660795,
+                            "open": "1.0047955524704246",
+                            "high": "1.0057000052213805",
+                            "low": "1.0047955524704246",
+                            "close": "1.0057000052213805"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MAI",
+                                "address": "0x8d6cebd76f18e1558d4db88138e2defb3909fad6",
+                                "name": "Mai Stablecoin"
+                            },
+                            "baseVolume": 22647.5758,
+                            "quoteVolume": 22930.786030079857,
+                            "open": "1.0107794158543402",
+                            "high": "1.012806950305476",
+                            "low": "1.0107794158543402",
+                            "close": "1.012806950305476"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MPL",
+                                "address": "0x33349b282065b0284d756f0577fb39c158f935e6",
+                                "name": "Maple Token"
+                            },
+                            "baseVolume": 119614.358911,
+                            "quoteVolume": 13763.335431069301,
+                            "open": "0.11325241047241431",
+                            "high": "0.11728495044782736",
+                            "low": "0.11291243358326272",
+                            "close": "0.11728495044782736"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "RLY",
+                                "address": "0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b",
+                                "name": "Rally"
+                            },
+                            "baseVolume": 1016.663957,
+                            "quoteVolume": 107437,
+                            "open": "105.67601935749553",
+                            "high": "105.67601935749553",
+                            "low": "105.67601935749553",
+                            "close": "105.67601935749553"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 8076677.563047,
+                            "quoteVolume": 8107931.057718,
+                            "open": "1.001091019547264",
+                            "high": "1.0211267471788432",
+                            "low": "0.994152350540772",
+                            "close": "1.0016436237617965"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 151281.166616,
+                            "quoteVolume": 130.9269149843066,
+                            "open": "0.0008257072551268742",
+                            "high": "0.0008987781129736237",
+                            "low": "0.0008257072551268742",
+                            "close": "0.0008828188224122628"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "XAI",
+                                "address": "0x35e78b3982e87ecfd5b3f3265b601c046cdbe232",
+                                "name": "SideShift Token"
+                            },
+                            "baseVolume": 3909.960445,
+                            "quoteVolume": 33642.5655,
+                            "open": "8.630528828644481",
+                            "high": "8.630528828644481",
+                            "low": "8.575400709780093",
+                            "close": "8.575400709780093"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "aUSDC",
+                                "address": "0xd093fa4fb80d09bb30817fdcd442d4d02ed3e5de",
+                                "name": "Wrapped aUSDC"
+                            },
+                            "baseVolume": 3846.153847,
+                            "quoteVolume": 3564.089364,
+                            "open": "0.9266632344361341",
+                            "high": "0.9266632344361341",
+                            "low": "0.9266632344361341",
+                            "close": "0.9266632344361341"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-USDC",
+                                "address": "0x82698aecc9e28e9bb27608bd52cf57f704bd1b83",
+                                "name": "Balancer Aave Boosted Pool (USDC)"
+                            },
+                            "baseVolume": 19665833.611308,
+                            "quoteVolume": 19646994.723408077,
+                            "open": "0.9990441266150624",
+                            "high": "0.9990441266150624",
+                            "low": "0.9990400598761421",
+                            "close": "0.9990400598761421"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-USDC",
+                                "address": "0x9210f1204b5a24742eba12f710636d76240df3d0",
+                                "name": "Balancer Aave Boosted Pool (USDC)"
+                            },
+                            "baseVolume": 3064174.910636,
+                            "quoteVolume": 3031568.765085961,
+                            "open": "0.9893589151932972",
+                            "high": "0.9893589152229297",
+                            "low": "0.9893589099113841",
+                            "close": "0.9893589099113841"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 1039217.117449,
+                            "quoteVolume": 1038383.0786855726,
+                            "open": "0.9981599072876782",
+                            "high": "1.0022410307838912",
+                            "low": "0.996554418643599",
+                            "close": "0.9983719511356528"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 8107931.057718,
+                            "quoteVolume": 8076677.563047,
+                            "open": "0.9989101694791375",
+                            "high": "1.0058820456",
+                            "low": "0.9793103576640099",
+                            "close": "0.9983590733043118"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "aUSDT",
+                                "address": "0xf8fd466f12e236f4c96f7cce6c79eadb819abf58",
+                                "name": "Wrapped aUSDT"
+                            },
+                            "baseVolume": 2573494.986273,
+                            "quoteVolume": 2344986.997465,
+                            "open": "0.9112221521627065",
+                            "high": "0.9112221521627065",
+                            "low": "0.9111924276585386",
+                            "close": "0.9111924276585386"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-USDT",
+                                "address": "0x2bbf681cc4eb09218bee85ea2a5d3d13fa40fc0c",
+                                "name": "Balancer Aave Boosted Pool (USDT)"
+                            },
+                            "baseVolume": 5756200.835741,
+                            "quoteVolume": 5660339.815789542,
+                            "open": "0.9833269299923699",
+                            "high": "0.9834113913155189",
+                            "low": "0.9833120664965532",
+                            "close": "0.9833120664965532"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-USDT",
+                                "address": "0x2f4eb100552ef93840d5adc30560e5513dfffacb",
+                                "name": "Balancer Aave Boosted Pool (USDT)"
+                            },
+                            "baseVolume": 27793224.82919,
+                            "quoteVolume": 27708156.30413292,
+                            "open": "0.996960393736476",
+                            "high": "0.996960393736476",
+                            "low": "0.996915734042961",
+                            "close": "0.996915734042961"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VITA",
+                                "address": "0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321",
+                                "name": "VitaDAO Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 33999.593170428474,
+                            "quoteVolume": 24.248509521820477,
+                            "open": "0.0006888138647487248",
+                            "high": "0.0007207724171728033",
+                            "low": "0.0006876634030395344",
+                            "close": "0.0007129527725012183"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "AAVE",
+                                "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                                "name": "Aave Token"
+                            },
+                            "baseVolume": 0.2575829,
+                            "quoteVolume": 72.73546900587418,
+                            "open": "277.1972851067749",
+                            "high": "284.8187906985777",
+                            "low": "277.1972851067749",
+                            "close": "284.75493216162715"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BADGER",
+                                "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+                                "name": "Badger"
+                            },
+                            "baseVolume": 2.13159817,
+                            "quoteVolume": 14172.989512056045,
+                            "open": "6668.050921411349",
+                            "high": "6715.580046466442",
+                            "low": "6576.463039870778",
+                            "close": "6715.580046466442"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BAND",
+                                "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+                                "name": "BandToken"
+                            },
+                            "baseVolume": 0.47023331,
+                            "quoteVolume": 4515.924751182321,
+                            "open": "9222.177471735025",
+                            "high": "9857.316402630177",
+                            "low": "9222.177471735025",
+                            "close": "9588.405693681352"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CHZ",
+                                "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+                                "name": "chiliZ"
+                            },
+                            "baseVolume": 0.46292676,
+                            "quoteVolume": 35307.29467771094,
+                            "open": "73135.72520928971",
+                            "high": "81460.18420240578",
+                            "low": "71775.3235819062",
+                            "close": "81460.18420240578"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 9.30461119,
+                            "quoteVolume": 130.26181086989746,
+                            "open": "13.762271889852197",
+                            "high": "14.277531047937103",
+                            "low": "13.757395207013285",
+                            "close": "14.111856319886387"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "graviAURA",
+                                "address": "0xba485b556399123261a5f9c95d413b4f93107407",
+                                "name": "Gravitationally Bound AURA"
+                            },
+                            "baseVolume": 0.2721794,
+                            "quoteVolume": 2185.298864536966,
+                            "open": "7984.208547169494",
+                            "high": "8078.548133624409",
+                            "low": "7984.208547169494",
+                            "close": "8078.548133624409"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "renBTC",
+                                "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+                                "name": "renBTC"
+                            },
+                            "baseVolume": 33.20403189,
+                            "quoteVolume": 32.75954447,
+                            "open": "0.9962757018637974",
+                            "high": "0.9970060306427477",
+                            "low": "0.9592417535806034",
+                            "close": "0.9959141134955737"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "sBTC",
+                                "address": "0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
+                                "name": "Synth sBTC"
+                            },
+                            "baseVolume": 19.99963795,
+                            "quoteVolume": 19.905857284064222,
+                            "open": "0.9963917604574454",
+                            "high": "0.9971127904203457",
+                            "low": "0.9918932738777057",
+                            "close": "0.9971127904203457"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "AAVE",
+                                "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                                "name": "Aave Token"
+                            },
+                            "baseVolume": 1948.578146345507,
+                            "quoteVolume": 39176.83864111195,
+                            "open": "20.248733837284806",
+                            "high": "20.4344523279827",
+                            "low": "19.765930885995985",
+                            "close": "20.00698954974128"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "AKITA",
+                                "address": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6",
+                                "name": "Akita Inu"
+                            },
+                            "baseVolume": 2.708785287521882,
+                            "quoteVolume": 33670922234.516335,
+                            "open": "12400329172.971365",
+                            "high": "12478303221.378208",
+                            "low": "12400329172.971365",
+                            "close": "12478303221.378208"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "ALBT",
+                                "address": "0x00a8b738e453ffd858a7edf03bccfe20412f0eb0",
+                                "name": "AllianceBlock Token"
+                            },
+                            "baseVolume": 0.9565077568,
+                            "quoteVolume": 25319.38395847609,
+                            "open": "26470.651992600848",
+                            "high": "26470.651992600848",
+                            "low": "26470.651992600848",
+                            "close": "26470.651992600848"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "ANT",
+                                "address": "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
+                                "name": "Aragon Network Token"
+                            },
+                            "baseVolume": 1.925651149438416,
+                            "quoteVolume": 1248.4650393208278,
+                            "open": "648.333962091172",
+                            "high": "648.333962091172",
+                            "low": "648.333962091172",
+                            "close": "648.333962091172"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "AURA",
+                                "address": "0xc0c293ce456ff0ed870add98a0828dd4d2903dbf",
+                                "name": "Aura"
+                            },
+                            "baseVolume": 92.1720191163245,
+                            "quoteVolume": 55574.23662690034,
+                            "open": "602.5951641094712",
+                            "high": "614.042345671069",
+                            "low": "592.8659022076704",
+                            "close": "598.8440535220822"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BAL",
+                                "address": "0xba100000625a3754423978a60c9317c58a424e3d",
+                                "name": "Balancer"
+                            },
+                            "baseVolume": 634.1845373980907,
+                            "quoteVolume": 136554.75842917414,
+                            "open": "220.1114440314623",
+                            "high": "220.1114440314623",
+                            "low": "213.08920958421726",
+                            "close": "213.08920958421726"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BAND",
+                                "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+                                "name": "BandToken"
+                            },
+                            "baseVolume": 15.866442019585135,
+                            "quoteVolume": 11011.35581329162,
+                            "open": "658.5704633960748",
+                            "high": "709.425600654004",
+                            "low": "658.5704633960748",
+                            "close": "681.743571552471"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CHZ",
+                                "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+                                "name": "chiliZ"
+                            },
+                            "baseVolume": 12.31986657221568,
+                            "quoteVolume": 69994.79471680005,
+                            "open": "5426.878109017418",
+                            "high": "5988.518434581907",
+                            "low": "5094.075913953448",
+                            "close": "5722.130085668905"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "COMP",
+                                "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                                "name": "Compound"
+                            },
+                            "baseVolume": 1.0028555966081945,
+                            "quoteVolume": 30.0713699174891,
+                            "open": "29.9857427322487",
+                            "high": "29.9857427322487",
+                            "low": "29.9857427322487",
+                            "close": "29.9857427322487"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "COW",
+                                "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+                                "name": "CoW Protocol Token"
+                            },
+                            "baseVolume": 23.690471054373347,
+                            "quoteVolume": 381063.16931166104,
+                            "open": "16145.366184699002",
+                            "high": "16753.042638031857",
+                            "low": "15522.56187318345",
+                            "close": "16753.042638031857"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 1127.7021640808105,
+                            "quoteVolume": 1304797.4793035125,
+                            "open": "1210.4963606093884",
+                            "high": "1213.3291307471966",
+                            "low": "1112.4513987864907",
+                            "close": "1135.1003677489086"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DFX",
+                                "address": "0x888888435fde8e7d4c54cab67f206e4199454c60",
+                                "name": "DFX Token"
+                            },
+                            "baseVolume": 22.92028094927394,
+                            "quoteVolume": 113853.83876427531,
+                            "open": "4496.012524063863",
+                            "high": "5257.5414615934405",
+                            "low": "4496.012524063863",
+                            "close": "5112.935707077862"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "ENS",
+                                "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+                                "name": "Ethereum Name Service"
+                            },
+                            "baseVolume": 1.923719080062373,
+                            "quoteVolume": 178.86356354800157,
+                            "open": "92.59426878735216",
+                            "high": "93.432466528623",
+                            "low": "92.59426878735216",
+                            "close": "93.432466528623"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "FDT",
+                                "address": "0xed1480d12be41d92f36f5f7bdd88212e381a3677",
+                                "name": "FIAT DAO Token"
+                            },
+                            "baseVolume": 2.073388613243375,
+                            "quoteVolume": 653201.1459857709,
+                            "open": "306594.6722556876",
+                            "high": "323242.86200451554",
+                            "low": "306594.6722556876",
+                            "close": "323242.86200451554"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "GNO",
+                                "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+                                "name": "Gnosis Token"
+                            },
+                            "baseVolume": 43.027236810048095,
+                            "quoteVolume": 587.8190000403598,
+                            "open": "13.554033433625857",
+                            "high": "13.826244971519154",
+                            "low": "13.528762188445208",
+                            "close": "13.826244971519154"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "HAUS",
+                                "address": "0xf2051511b9b121394fa75b8f7d4e7424337af687",
+                                "name": "DAOhaus Token"
+                            },
+                            "baseVolume": 0.9172110088020601,
+                            "quoteVolume": 348.7833682673697,
+                            "open": "380.2651351981749",
+                            "high": "380.2651351981749",
+                            "low": "380.2651351981749",
+                            "close": "380.2651351981749"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LINK",
+                                "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                                "name": "ChainLink Token"
+                            },
+                            "baseVolume": 16.615105402346966,
+                            "quoteVolume": 3287.8038514222853,
+                            "open": "196.13143065725652",
+                            "high": "199.82823178480322",
+                            "low": "196.058613923269",
+                            "close": "196.26178347251414"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MAD",
+                                "address": "0x5b09a0371c1da44a8e24d36bf5deb1141a84d875",
+                                "name": "MADToken"
+                            },
+                            "baseVolume": 2.279268130099073,
+                            "quoteVolume": 136647,
+                            "open": "59952.139107942676",
+                            "high": "59952.139107942676",
+                            "low": "59952.139107942676",
+                            "close": "59952.139107942676"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MATH",
+                                "address": "0x08d967bb0134f2d07f7cfb6e246680c53927dd30",
+                                "name": "MATH Token"
+                            },
+                            "baseVolume": 0.8578573619353306,
+                            "quoteVolume": 8069.903322144039,
+                            "open": "9407.045600143007",
+                            "high": "9407.045600143007",
+                            "low": "9407.045600143007",
+                            "close": "9407.045600143007"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MTA",
+                                "address": "0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2",
+                                "name": "Meta"
+                            },
+                            "baseVolume": 4.226393929270051,
+                            "quoteVolume": 126046.7764630418,
+                            "open": "32525.942653182512",
+                            "high": "32525.942653182512",
+                            "low": "28894.09796296463",
+                            "close": "28894.09796296463"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "NOTE",
+                                "address": "0xcfeaead4947f0705a14ec42ac3d44129e1ef3ed5",
+                                "name": "Notional"
+                            },
+                            "baseVolume": 33.35582266930642,
+                            "quoteVolume": 185868.20704123,
+                            "open": "5322.713279891914",
+                            "high": "5742.283898520505",
+                            "low": "5322.713279891914",
+                            "close": "5742.283898520505"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "OHM",
+                                "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+                                "name": "Olympus"
+                            },
+                            "baseVolume": 473.13038410720037,
+                            "quoteVolume": 63390.988125399,
+                            "open": "135.9644803423913",
+                            "high": "138.05030210614004",
+                            "low": "131.03598577687205",
+                            "close": "132.849657824444"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "PSP",
+                                "address": "0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+                                "name": "ParaSwap"
+                            },
+                            "baseVolume": 9.152157165394396,
+                            "quoteVolume": 336959.98077505286,
+                            "open": "37252.50138680532",
+                            "high": "37419.691596137825",
+                            "low": "35676.645933942986",
+                            "close": "35676.645933942986"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "RAIL",
+                                "address": "0xe76c6c83af64e4c60245d8c7de953df673a7a33d",
+                                "name": "Rail"
+                            },
+                            "baseVolume": 1.0618809390578,
+                            "quoteVolume": 3444.558940194755,
+                            "open": "3243.827828053011",
+                            "high": "3243.827828053011",
+                            "low": "3243.827828053011",
+                            "close": "3243.827828053011"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "REN",
+                                "address": "0x408e41876cccdc0f92210600ef50372656052a38",
+                                "name": "Republic Token"
+                            },
+                            "baseVolume": 4.4836767779020885,
+                            "quoteVolume": 69012.31534740436,
+                            "open": "15165.429885119234",
+                            "high": "15484.70492545603",
+                            "low": "15165.429885119234",
+                            "close": "15484.70492545603"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SNX",
+                                "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+                                "name": "Synthetix Network Token"
+                            },
+                            "baseVolume": 0.9863483567648759,
+                            "quoteVolume": 682.942657474625,
+                            "open": "692.394986812376",
+                            "high": "692.394986812376",
+                            "low": "692.394986812376",
+                            "close": "692.394986812376"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SRM",
+                                "address": "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
+                                "name": "Serum"
+                            },
+                            "baseVolume": 285.2148410430309,
+                            "quoteVolume": 1166478.047175,
+                            "open": "5158.518995935034",
+                            "high": "5199.526552497343",
+                            "low": "3010.7718485532523",
+                            "close": "4224.148098011877"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "Silo",
+                                "address": "0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8",
+                                "name": "Silo Governance Token"
+                            },
+                            "baseVolume": 16.24489628406514,
+                            "quoteVolume": 446276.7623181875,
+                            "open": "27919.894364214153",
+                            "high": "28300.613606486346",
+                            "low": "26461.556343871587",
+                            "close": "26461.556343871587"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "T",
+                                "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
+                                "name": "Threshold Network Token"
+                            },
+                            "baseVolume": 29.211540940188442,
+                            "quoteVolume": 1878831.0584731828,
+                            "open": "62280.06074208408",
+                            "high": "66444.08854304187",
+                            "low": "62280.06074208408",
+                            "close": "66044.41823290815"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "TEMP",
+                                "address": "0xa36fdbbae3c9d55a1d67ee5821d53b50b63a1ab9",
+                                "name": "Tempus"
+                            },
+                            "baseVolume": 4.759880516682362,
+                            "quoteVolume": 174612.65860382936,
+                            "open": "37182.39234911957",
+                            "high": "37182.39234911957",
+                            "low": "35963.19269890792",
+                            "close": "35963.19269890792"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 130.9269149843066,
+                            "quoteVolume": 151281.166616,
+                            "open": "1211.0829761891152",
+                            "high": "1211.0829761891152",
+                            "low": "1112.6216644189096",
+                            "close": "1132.7352505551987"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VITA",
+                                "address": "0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321",
+                                "name": "VitaDAO Token"
+                            },
+                            "baseVolume": 24.248509521820477,
+                            "quoteVolume": 33999.593170428474,
+                            "open": "1451.7710098137964",
+                            "high": "1454.1998244779488",
+                            "low": "1387.4004833903803",
+                            "close": "1402.6174503701664"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 130.26181086989746,
+                            "quoteVolume": 9.30461119,
+                            "open": "0.0726624214376526",
+                            "high": "0.07268817860885593",
+                            "low": "0.07004012084739858",
+                            "close": "0.07086239948395753"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WNCG",
+                                "address": "0xf203ca1769ca8e9e8fe1da9d147db68b6c919817",
+                                "name": "Wrapped NCG"
+                            },
+                            "baseVolume": 12.195174354553956,
+                            "quoteVolume": 240200.010042072,
+                            "open": "19858.665195957907",
+                            "high": "19932.7861749012",
+                            "low": "19448.725288506117",
+                            "close": "19448.725288506117"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "YFI",
+                                "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+                                "name": "yearn.finance"
+                            },
+                            "baseVolume": 6.063087801144457,
+                            "quoteVolume": 1.0908205170424057,
+                            "open": "0.17385978117197354",
+                            "high": "0.18999243451995204",
+                            "low": "0.17385978117197354",
+                            "close": "0.18999243451995204"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "auraBAL",
+                                "address": "0x616e8bfa43f920657b3497dbf40d6b1a02d4608d",
+                                "name": "Aura BAL"
+                            },
+                            "baseVolume": 1.9746154419164725,
+                            "quoteVolume": 196.6401764790123,
+                            "open": "98.85717811154035",
+                            "high": "100.42643440210786",
+                            "low": "98.85717811154035",
+                            "close": "100.42643440210786"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "baseVolume": 896.7297921277906,
+                            "quoteVolume": 844.3033490551612,
+                            "open": "0.9412942733451176",
+                            "high": "0.9424840157464345",
+                            "low": "0.9406926444129191",
+                            "close": "0.9424840157464345"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "baseVolume": 5702.11174934977,
+                            "quoteVolume": 5262.593944645442,
+                            "open": "0.9218297027915201",
+                            "high": "0.9244986151640442",
+                            "low": "0.9215587203772693",
+                            "close": "0.9244453688228338"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WNCG",
+                                "address": "0xf203ca1769ca8e9e8fe1da9d147db68b6c919817",
+                                "name": "Wrapped NCG"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 240200.010042072,
+                            "quoteVolume": 12.195174354553956,
+                            "open": "5.053065240919366e-05",
+                            "high": "5.1417251525012995e-05",
+                            "low": "5.01686011792557e-05",
+                            "close": "5.106328503209046e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "XAI",
+                                "address": "0x35e78b3982e87ecfd5b3f3265b601c046cdbe232",
+                                "name": "SideShift Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 33642.5655,
+                            "quoteVolume": 3909.960445,
+                            "open": "0.11586775501879193",
+                            "high": "0.11661262649330399",
+                            "low": "0.11586775501879193",
+                            "close": "0.11661262649330399"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "YFI",
+                                "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+                                "name": "yearn.finance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CHZ",
+                                "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+                                "name": "chiliZ"
+                            },
+                            "baseVolume": 0.3664729120744407,
+                            "quoteVolume": 10711.981347258556,
+                            "open": "28927.397714067887",
+                            "high": "29495.57090442264",
+                            "low": "28927.397714067887",
+                            "close": "29495.57090442264"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "YFI",
+                                "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+                                "name": "yearn.finance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LINK",
+                                "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                                "name": "ChainLink Token"
+                            },
+                            "baseVolume": 0.165837277233152,
+                            "quoteVolume": 178.15667556200225,
+                            "open": "1074.2860624244952",
+                            "high": "1074.2860624244952",
+                            "low": "1074.2860624244952",
+                            "close": "1074.2860624244952"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "YFI",
+                                "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+                                "name": "yearn.finance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 1.0908205170424057,
+                            "quoteVolume": 6.063087801144457,
+                            "open": "5.75176152448305",
+                            "high": "5.75176152448305",
+                            "low": "5.263367473166333",
+                            "close": "5.263367473166333"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "aUSDC",
+                                "address": "0xd093fa4fb80d09bb30817fdcd442d4d02ed3e5de",
+                                "name": "Wrapped aUSDC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 3564.089364,
+                            "quoteVolume": 3846.153847,
+                            "open": "1.0791406876182916",
+                            "high": "1.0791406876182916",
+                            "low": "1.0791406876182916",
+                            "close": "1.0791406876182916"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "aUSDT",
+                                "address": "0xf8fd466f12e236f4c96f7cce6c79eadb819abf58",
+                                "name": "Wrapped aUSDT"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 2344986.997465,
+                            "quoteVolume": 2573494.986273,
+                            "open": "1.097427227407265",
+                            "high": "1.097463027178208",
+                            "low": "1.097427227407265",
+                            "close": "1.097463027178208"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "auraBAL",
+                                "address": "0x616e8bfa43f920657b3497dbf40d6b1a02d4608d",
+                                "name": "Aura BAL"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 196.6401764790123,
+                            "quoteVolume": 1.9746154419164725,
+                            "open": "0.010115603328993491",
+                            "high": "0.010115603328993491",
+                            "low": "0.009957537633926103",
+                            "close": "0.009957537633926103"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-DAI",
+                                "address": "0x804cdb9116a10bb78768d3252355a1b18067bf8f",
+                                "name": "Balancer Aave Boosted Pool (DAI)"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 1447640.2470206502,
+                            "quoteVolume": 1464549.7277315187,
+                            "open": "1.0116807202231037",
+                            "high": "1.011680720230208",
+                            "low": "1.0116807202231037",
+                            "close": "1.011680720230208"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-DAI",
+                                "address": "0xae37d54ae477268b9997d4161b96b8200755935c",
+                                "name": "Balancer Aave Boosted Pool (DAI)"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 14986754.314413546,
+                            "quoteVolume": 15005913.79035613,
+                            "open": "1.001278269704461",
+                            "high": "1.0012785983912904",
+                            "low": "1.001278269704461",
+                            "close": "1.0012785983912904"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-USD",
+                                "address": "0xa13a9247ea42d743238089903570127dda72fe44",
+                                "name": "Balancer Aave Boosted StablePool"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DOLA",
+                                "address": "0x865377367054516e17014ccded1e7d814edc9ce4",
+                                "name": "Dola USD Stablecoin"
+                            },
+                            "baseVolume": 169554.79878545075,
+                            "quoteVolume": 170045.61756516912,
+                            "open": "1.0032562213784413",
+                            "high": "1.0032562213784413",
+                            "low": "1.0024956488845302",
+                            "close": "1.0024956488845302"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-USD",
+                                "address": "0xa13a9247ea42d743238089903570127dda72fe44",
+                                "name": "Balancer Aave Boosted StablePool"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "STG",
+                                "address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+                                "name": "StargateToken"
+                            },
+                            "baseVolume": 113388.67799961475,
+                            "quoteVolume": 276664.3205505277,
+                            "open": "2.4010968130457813",
+                            "high": "2.463959677086362",
+                            "low": "2.4010968130457813",
+                            "close": "2.463959677086362"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-USD",
+                                "address": "0xa13a9247ea42d743238089903570127dda72fe44",
+                                "name": "Balancer Aave Boosted StablePool"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "baseVolume": 109759.21970572893,
+                            "quoteVolume": 89.00204530909419,
+                            "open": "0.0007780761543639821",
+                            "high": "0.0008401914934538596",
+                            "low": "0.0007780761543639821",
+                            "close": "0.0008326368674584147"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-USD",
+                                "address": "0xa13a9247ea42d743238089903570127dda72fe44",
+                                "name": "Balancer Aave Boosted StablePool"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "baseVolume": 1502588.946099115,
+                            "quoteVolume": 1201.0338377059152,
+                            "open": "0.000759372621698257",
+                            "high": "0.0008318426685889466",
+                            "low": "0.000759372621698257",
+                            "close": "0.000815670679801053"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-USDC",
+                                "address": "0x82698aecc9e28e9bb27608bd52cf57f704bd1b83",
+                                "name": "Balancer Aave Boosted Pool (USDC)"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 19646994.723408077,
+                            "quoteVolume": 19665833.611308,
+                            "open": "1.000956787953077",
+                            "high": "1.0009608624943196",
+                            "low": "1.000956787953077",
+                            "close": "1.0009608624943196"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-USDC",
+                                "address": "0x9210f1204b5a24742eba12f710636d76240df3d0",
+                                "name": "Balancer Aave Boosted Pool (USDC)"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 3031568.765085961,
+                            "quoteVolume": 3064174.910636,
+                            "open": "1.010755535370724",
+                            "high": "1.010755540766868",
+                            "low": "1.0107555353404507",
+                            "close": "1.010755540766868"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-USDT",
+                                "address": "0x2bbf681cc4eb09218bee85ea2a5d3d13fa40fc0c",
+                                "name": "Balancer Aave Boosted Pool (USDT)"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 5660339.815789542,
+                            "quoteVolume": 5756200.835741,
+                            "open": "1.016955774828377",
+                            "high": "1.0169711468739566",
+                            "low": "1.0168684325105186",
+                            "close": "1.0169711468739566"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bb-a-USDT",
+                                "address": "0x2f4eb100552ef93840d5adc30560e5513dfffacb",
+                                "name": "Balancer Aave Boosted Pool (USDT)"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 27708156.30413292,
+                            "quoteVolume": 27793224.82919,
+                            "open": "1.0030488736389336",
+                            "high": "1.0030938080839902",
+                            "low": "1.0030488736389336",
+                            "close": "1.0030938080839902"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "graviAURA",
+                                "address": "0xba485b556399123261a5f9c95d413b4f93107407",
+                                "name": "Gravitationally Bound AURA"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 2185.298864536966,
+                            "quoteVolume": 0.2721794,
+                            "open": "0.0001252472294645301",
+                            "high": "0.0001252472294645301",
+                            "low": "0.00012378461865416326",
+                            "close": "0.00012378461865416326"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BADGER",
+                                "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+                                "name": "Badger"
+                            },
+                            "baseVolume": 37.271298299635944,
+                            "quoteVolume": 18790.338970371944,
+                            "open": "520.9585973664724",
+                            "high": "520.9585973664724",
+                            "low": "492.039467101031",
+                            "close": "500.65127751695286"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "RPL",
+                                "address": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+                                "name": "Rocket Pool Protocol"
+                            },
+                            "baseVolume": 45.33558725825331,
+                            "quoteVolume": 3484.0697379231747,
+                            "open": "77.70173797146853",
+                            "high": "78.19709461479954",
+                            "low": "75.57245215101099",
+                            "close": "76.04645036386984"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 844.3033490551612,
+                            "quoteVolume": 896.7297921277906,
+                            "open": "1.062367028374939",
+                            "high": "1.063046475317232",
+                            "low": "1.0610259519446743",
+                            "close": "1.0610259519446743"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-USD",
+                                "address": "0xa13a9247ea42d743238089903570127dda72fe44",
+                                "name": "Balancer Aave Boosted StablePool"
+                            },
+                            "baseVolume": 89.00204530909419,
+                            "quoteVolume": 109759.21970572893,
+                            "open": "1285.2212400949668",
+                            "high": "1285.2212400949668",
+                            "low": "1190.204861381302",
+                            "close": "1201.0037497528226"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "baseVolume": 21.071983454035756,
+                            "quoteVolume": 20.619311386560568,
+                            "open": "0.9772746354503542",
+                            "high": "0.9797308041714166",
+                            "low": "0.9772746354503542",
+                            "close": "0.9797308041714166"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "renBTC",
+                                "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+                                "name": "renBTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 32.75954447,
+                            "quoteVolume": 33.20403189,
+                            "open": "1.003738220383409",
+                            "high": "1.0424900670422828",
+                            "low": "1.003002960127856",
+                            "close": "1.0041026494645058"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "renBTC",
+                                "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+                                "name": "renBTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "sBTC",
+                                "address": "0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
+                                "name": "Synth sBTC"
+                            },
+                            "baseVolume": 23.8841364,
+                            "quoteVolume": 24.15533193518976,
+                            "open": "1.0030904068072815",
+                            "high": "1.0256793529534698",
+                            "low": "1.001756355580761",
+                            "close": "1.001756355580761"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "sBTC",
+                                "address": "0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
+                                "name": "Synth sBTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 19.905857284064222,
+                            "quoteVolume": 19.99963795,
+                            "open": "1.003621306082357",
+                            "high": "1.0081729822510057",
+                            "low": "1.0028955696962196",
+                            "close": "1.0028955696962196"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "sBTC",
+                                "address": "0xfe18be6b3bd88a2d2a7f928d00292e7a9963cfc6",
+                                "name": "Synth sBTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "renBTC",
+                                "address": "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d",
+                                "name": "renBTC"
+                            },
+                            "baseVolume": 24.15533193518976,
+                            "quoteVolume": 23.8841364,
+                            "open": "0.996919114382603",
+                            "high": "0.998246723795685",
+                            "low": "0.9749635664600976",
+                            "close": "0.998246723795685"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "COMP",
+                                "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+                                "name": "Compound"
+                            },
+                            "baseVolume": 5.292402918105696,
+                            "quoteVolume": 174.08381736064956,
+                            "open": "33.134174440353114",
+                            "high": "33.134174440353114",
+                            "low": "32.62438749355951",
+                            "close": "32.88228402785348"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LDO",
+                                "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+                                "name": "Lido DAO Token"
+                            },
+                            "baseVolume": 7.103062923387469,
+                            "quoteVolume": 7937.63825419108,
+                            "open": "1109.0590725996412",
+                            "high": "1125.8166483725643",
+                            "low": "1109.0590725996412",
+                            "close": "1115.5538619931567"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 5262.593944645442,
+                            "quoteVolume": 5702.11174934977,
+                            "open": "1.0847990653498814",
+                            "high": "1.085118048246148",
+                            "low": "1.0816673855401706",
+                            "close": "1.0817296875783755"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bb-a-USD",
+                                "address": "0xa13a9247ea42d743238089903570127dda72fe44",
+                                "name": "Balancer Aave Boosted StablePool"
+                            },
+                            "baseVolume": 1201.0338377059152,
+                            "quoteVolume": 1502588.946099115,
+                            "open": "1316.8765523355387",
+                            "high": "1316.8765523355387",
+                            "low": "1202.150403869398",
+                            "close": "1225.98497747143"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "wstETH",
+                                "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+                                "name": "Wrapped liquid staked Ether 2.0"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "rETH",
+                                "address": "0xae78736cd615f374d3085123a210448e74fc6393",
+                                "name": "Rocket Pool ETH"
+                            },
+                            "baseVolume": 20.619311386560568,
+                            "quoteVolume": 21.071983454035756,
+                            "open": "1.0232538159953095",
+                            "high": "1.0232538159953095",
+                            "low": "1.020688535812371",
+                            "close": "1.020688535812371"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Mon, 21 Nov 2022 06:20:50 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "X-XSS-Protection",
+            "1; mode=block",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Download-Options",
+            "noopen",
+            "X-Permitted-Cross-Domain-Policies",
+            "none",
+            "Referrer-Policy",
+            "strict-origin-when-cross-origin",
+            "Access-Control-Expose-Headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "X-GraphQL-Query-ID",
+            "p6x9EbnXEDNMRrwu",
+            "X-GraphQL-Requested",
+            "true",
+            "ETag",
+            "W/\"f7dec08382ef92ea48662bc00fb44836\"",
+            "Cache-Control",
+            "max-age=0, private, must-revalidate",
+            "X-Request-Id",
+            "9477a92b-5a4f-45af-a134-bb31cd067e72",
+            "X-Runtime",
+            "0.274270",
+            "Vary",
+            "Origin",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]

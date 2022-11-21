@@ -5,6 +5,7 @@ exports.Aex = require('./aex');
 exports.Altcointrader = require('./altcointrader');
 exports.Ascendex = require('./ascendex');
 exports.Atomars = require('./atomars');
+exports.Balancer = require('./balancer');
 exports.Bamboo = require('./bamboo');
 exports.Bankera = require('./bankera');
 exports.Bcbitcoin = require('./bcbitcoin');
