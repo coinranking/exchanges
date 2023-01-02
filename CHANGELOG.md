@@ -1,3 +1,10 @@
+# [3.91.0](https://github.com/coinranking/exchanges/compare/v3.90.0...v3.91.0) (2023-01-02)
+
+
+### Features
+
+* add chiliz driver ([09c79b2](https://github.com/coinranking/exchanges/commit/09c79b282ada1a01e0b4662f2893c5ead2ab41e5))
+
 # [3.90.0](https://github.com/coinranking/exchanges/compare/v3.89.0...v3.90.0) (2022-11-21)
 
 
