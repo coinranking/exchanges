@@ -69,6 +69,7 @@ exports.Ccryptoex = require('./ccryptoex');
 exports.Cex = require('./cex');
 exports.Chainex = require('./chainex');
 exports.Changellypro = require('./changellypro');
+exports.Chiliz = require('./chiliz');
 exports.Citex = require('./citex');
 exports.Coinbasepro = require('./coinbasepro');
 exports.Coinbetter = require('./coinbetter');

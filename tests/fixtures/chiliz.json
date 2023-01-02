@@ -1,0 +1,4147 @@
+[
+    {
+        "scope": "https://api.chiliz.net:443",
+        "method": "GET",
+        "path": "/openapi/v1/brokerInfo",
+        "body": "",
+        "status": 200,
+        "response": {
+            "timezone": "UTC",
+            "serverTime": "1672665905338",
+            "brokerFilters": [],
+            "symbols": [
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.0002",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.000001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "10",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTCUSDT",
+                    "symbolName": "BTCUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "BTC",
+                    "baseAssetName": "BTC",
+                    "baseAssetPrecision": "0.000001",
+                    "quoteAsset": "USDT",
+                    "quoteAssetName": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.004",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0002",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ETHBTC",
+                    "symbolName": "ETHBTC",
+                    "status": "TRADING",
+                    "baseAsset": "ETH",
+                    "baseAssetName": "ETH",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "BTC",
+                    "quoteAssetName": "BTC",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.003",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.0001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "10",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ETHUSDT",
+                    "symbolName": "ETHUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "ETH",
+                    "baseAssetName": "ETH",
+                    "baseAssetPrecision": "0.0001",
+                    "quoteAsset": "USDT",
+                    "quoteAssetName": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0000000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0000000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "80",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0002",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "TRXBTC",
+                    "symbolName": "TRXBTC",
+                    "status": "TRADING",
+                    "baseAsset": "TRX",
+                    "baseAssetName": "TRX",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quoteAssetName": "BTC",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "100",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.003",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "TRXETH",
+                    "symbolName": "TRXETH",
+                    "status": "TRADING",
+                    "baseAsset": "TRX",
+                    "baseAssetName": "TRX",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "ETH",
+                    "quoteAssetName": "ETH",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "70",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "10",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "TRXUSDT",
+                    "symbolName": "TRXUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "TRX",
+                    "baseAssetName": "TRX",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quoteAssetName": "USDT",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "10",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.0002",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "XRPBTC",
+                    "symbolName": "XRPBTC",
+                    "status": "TRADING",
+                    "baseAsset": "XRP",
+                    "baseAssetName": "XRP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "BTC",
+                    "quoteAssetName": "BTC",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "10",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.001",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.003",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "XRPETH",
+                    "symbolName": "XRPETH",
+                    "status": "TRADING",
+                    "baseAsset": "XRP",
+                    "baseAssetName": "XRP",
+                    "baseAssetPrecision": "0.001",
+                    "quoteAsset": "ETH",
+                    "quoteAssetName": "ETH",
+                    "quotePrecision": "0.000001",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "6",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "10",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "XRPUSDT",
+                    "symbolName": "XRPUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "XRP",
+                    "baseAssetName": "XRP",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "USDT",
+                    "quoteAssetName": "USDT",
+                    "quotePrecision": "0.0001",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.00000001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.00000001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "50",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.00000001",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "CHZBTC",
+                    "symbolName": "CHZBTC",
+                    "status": "TRADING",
+                    "baseAsset": "CHZ",
+                    "baseAssetName": "CHZ",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "BTC",
+                    "quoteAssetName": "BTC",
+                    "quotePrecision": "0.00000001",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "0.01",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BTP1CHZ",
+                    "symbolName": "BTP1CHZ",
+                    "status": "TRADING",
+                    "baseAsset": "BTP1",
+                    "baseAssetName": "BTP1",
+                    "baseAssetPrecision": "0.01",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ASRCHZ",
+                    "symbolName": "ASRCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ASR",
+                    "baseAssetName": "ASR",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ATMCHZ",
+                    "symbolName": "ATMCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ATM",
+                    "baseAssetName": "ATM",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "GALCHZ",
+                    "symbolName": "GALCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "GAL",
+                    "baseAssetName": "GAL",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "JUVCHZ",
+                    "symbolName": "JUVCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "JUV",
+                    "baseAssetName": "JUV",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "OGCHZ",
+                    "symbolName": "OGCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "OG",
+                    "baseAssetName": "OG",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "PSGCHZ",
+                    "symbolName": "PSGCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "PSG",
+                    "baseAssetName": "PSG",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BARCHZ",
+                    "symbolName": "BARCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "BAR",
+                    "baseAssetName": "BAR",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "CAICHZ",
+                    "symbolName": "CAICHZ",
+                    "status": "TRADING",
+                    "baseAsset": "CAI",
+                    "baseAssetName": "CAI",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.0001",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.0001",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "20",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "10",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "CHZUSDT",
+                    "symbolName": "CHZUSDT",
+                    "status": "TRADING",
+                    "baseAsset": "CHZ",
+                    "baseAssetName": "CHZ",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "USDT",
+                    "quoteAssetName": "USDT",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "APLCHZ",
+                    "symbolName": "APLCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "APL",
+                    "baseAssetName": "APL",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "THCHZ",
+                    "symbolName": "THCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "TH",
+                    "baseAssetName": "TH",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "TRACHZ",
+                    "symbolName": "TRACHZ",
+                    "status": "TRADING",
+                    "baseAsset": "TRA",
+                    "baseAssetName": "TRA",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "IBFKCHZ",
+                    "symbolName": "IBFKCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "IBFK",
+                    "baseAssetName": "IBFK",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "NAVICHZ",
+                    "symbolName": "NAVICHZ",
+                    "status": "TRADING",
+                    "baseAsset": "NAVI",
+                    "baseAssetName": "NAVI",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ALLCHZ",
+                    "symbolName": "ALLCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ALL",
+                    "baseAssetName": "ALL",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "YBOCHZ",
+                    "symbolName": "YBOCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "YBO",
+                    "baseAssetName": "YBO",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "STVCHZ",
+                    "symbolName": "STVCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "STV",
+                    "baseAssetName": "STV",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "NOVCHZ",
+                    "symbolName": "NOVCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "NOV",
+                    "baseAssetName": "NOV",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ACMCHZ",
+                    "symbolName": "ACMCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ACM",
+                    "baseAssetName": "ACM",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "MCITYCHZ",
+                    "symbolName": "CITYCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "MCITY",
+                    "baseAssetName": "CITY",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "PFLCHZ",
+                    "symbolName": "PFLCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "PFL",
+                    "baseAssetName": "PFL",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "GOZCHZ",
+                    "symbolName": "GOZCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "GOZ",
+                    "baseAssetName": "GOZ",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "UCHCHZ",
+                    "symbolName": "UCHCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "UCH",
+                    "baseAssetName": "UCH",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ARGCHZ",
+                    "symbolName": "ARGCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ARG",
+                    "baseAssetName": "ARG",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "FORTCHZ",
+                    "symbolName": "FORCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "FORT",
+                    "baseAssetName": "FOR",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LEGCHZ",
+                    "symbolName": "LEGCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "LEG",
+                    "baseAssetName": "LEG",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "SAUBERCHZ",
+                    "symbolName": "SAUBERCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "SAUBER",
+                    "baseAssetName": "SAUBER",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "VITCHZ",
+                    "symbolName": "VITCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "VIT",
+                    "baseAssetName": "VIT",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "VCF1CHZ",
+                    "symbolName": "VCFCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "VCF1",
+                    "baseAssetName": "VCF",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "SCCPCHZ",
+                    "symbolName": "SCCPCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "SCCP",
+                    "baseAssetName": "SCCP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "INTERCHZ",
+                    "symbolName": "INTERCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "INTER",
+                    "baseAssetName": "INTER",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LEVCHZ",
+                    "symbolName": "LEVCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "LEV",
+                    "baseAssetName": "LEV",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "UFCCHZ",
+                    "symbolName": "UFCCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "UFC",
+                    "baseAssetName": "UFC",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "POR1CHZ",
+                    "symbolName": "PORCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "POR1",
+                    "baseAssetName": "POR",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "GALOCHZ",
+                    "symbolName": "GALOCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "GALO",
+                    "baseAssetName": "GALO",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ROUSHCHZ",
+                    "symbolName": "ROUSHCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ROUSH",
+                    "baseAssetName": "ROUSH",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "DZGCHZ",
+                    "symbolName": "DZGCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "DZG",
+                    "baseAssetName": "DZG",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "0.01",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ALACHZ",
+                    "symbolName": "ALACHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ALA",
+                    "baseAssetName": "ALA",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "MENGOCHZ",
+                    "symbolName": "MENGOCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "MENGO",
+                    "baseAssetName": "MENGO",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "AVLCHZ",
+                    "symbolName": "AVLCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "AVL",
+                    "baseAssetName": "AVL",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "AFCCHZ",
+                    "symbolName": "AFCCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "AFC",
+                    "baseAssetName": "AFC",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "EFCCHZ",
+                    "symbolName": "EFCCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "EFC",
+                    "baseAssetName": "EFC",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "LUFCCHZ",
+                    "symbolName": "LUFCCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "LUFC",
+                    "baseAssetName": "LUFC",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "SAMCHZ",
+                    "symbolName": "SAMCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "SAM",
+                    "baseAssetName": "SAM",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "0.01",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "SPFCCHZ",
+                    "symbolName": "SPFCCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "SPFC",
+                    "baseAssetName": "SPFC",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "1",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "DAVISCHZ",
+                    "symbolName": "DAVISCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "DAVIS",
+                    "baseAssetName": "DAVIS",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "AMCHZ",
+                    "symbolName": "AMCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "AM",
+                    "baseAssetName": "AM",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "BFCCHZ",
+                    "symbolName": "BFCCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "BFC",
+                    "baseAssetName": "BFC",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ENDCEXCHZ",
+                    "symbolName": "ENDCEXCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ENDCEX",
+                    "baseAssetName": "ENDCEX",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "NAPCHZ",
+                    "symbolName": "NAPCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "NAP",
+                    "baseAssetName": "NAP",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "MFCCHZ",
+                    "symbolName": "MFCCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "MFC",
+                    "baseAssetName": "MFC",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "RACINGCHZ",
+                    "symbolName": "RACINGCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "RACING",
+                    "baseAssetName": "RACING",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ASMCHZ",
+                    "symbolName": "ASMCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ASM",
+                    "baseAssetName": "ASM",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "MIBRCHZ",
+                    "symbolName": "MIBRCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "MIBR",
+                    "baseAssetName": "MIBR",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "SACICHZ",
+                    "symbolName": "SACICHZ",
+                    "status": "TRADING",
+                    "baseAsset": "SACI",
+                    "baseAssetName": "SACI",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ATLASCHZ",
+                    "symbolName": "ATLASCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ATLAS",
+                    "baseAssetName": "ATLAS",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "SANCHZ",
+                    "symbolName": "SANCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "SAN",
+                    "baseAssetName": "SAN",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "GFKCHZ",
+                    "symbolName": "GFKCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "GFK",
+                    "baseAssetName": "GFK",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "CPFCCHZ",
+                    "symbolName": "CPFCCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "CPFC",
+                    "baseAssetName": "CPFC",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "ITACHZ",
+                    "symbolName": "ITACHZ",
+                    "status": "TRADING",
+                    "baseAsset": "ITA",
+                    "baseAssetName": "ITA",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "VASCOCHZ",
+                    "symbolName": "VASCOCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "VASCO",
+                    "baseAssetName": "VASCO",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "TIGRESCHZ",
+                    "symbolName": "TIGRESCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "TIGRES",
+                    "baseAssetName": "TIGRES",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "QUINSCHZ",
+                    "symbolName": "QUINSCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "QUINS",
+                    "baseAssetName": "QUINS",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "PERSIBCHZ",
+                    "symbolName": "PERSIBCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "PERSIB",
+                    "baseAssetName": "PERSIB",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "SARRIESCHZ",
+                    "symbolName": "SARRIESCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "SARRIES",
+                    "baseAssetName": "SARRIES",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                },
+                {
+                    "filters": [
+                        {
+                            "minPrice": "0.01",
+                            "maxPrice": "100000.00000000",
+                            "tickSize": "0.01",
+                            "filterType": "PRICE_FILTER"
+                        },
+                        {
+                            "minQty": "1",
+                            "maxQty": "100000.00000000",
+                            "stepSize": "1",
+                            "filterType": "LOT_SIZE"
+                        },
+                        {
+                            "minNotional": "1",
+                            "filterType": "MIN_NOTIONAL"
+                        }
+                    ],
+                    "exchangeId": "301",
+                    "symbol": "TIGERSCHZ",
+                    "symbolName": "TIGERSCHZ",
+                    "status": "TRADING",
+                    "baseAsset": "TIGERS",
+                    "baseAssetName": "TIGERS",
+                    "baseAssetPrecision": "1",
+                    "quoteAsset": "CHZ",
+                    "quoteAssetName": "CHZ",
+                    "quotePrecision": "0.01",
+                    "icebergAllowed": false,
+                    "isAggregate": false,
+                    "allowMargin": false
+                }
+            ],
+            "rateLimits": [
+                {
+                    "rateLimitType": "REQUEST_WEIGHT",
+                    "interval": "MINUTE",
+                    "intervalUnit": 1,
+                    "limit": 3000
+                },
+                {
+                    "rateLimitType": "ORDERS",
+                    "interval": "SECOND",
+                    "intervalUnit": 60,
+                    "limit": 60
+                }
+            ],
+            "options": [],
+            "contracts": [],
+            "tokens": [
+                {
+                    "orgId": "9001",
+                    "tokenId": "BTC",
+                    "tokenName": "BTC",
+                    "tokenFullName": "Bitcoin",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ETH",
+                    "tokenName": "ETH",
+                    "tokenFullName": "Ethereum",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": [
+                        {
+                            "chainType": "ERC20",
+                            "allowDeposit": true,
+                            "allowWithdraw": true
+                        },
+                        {
+                            "chainType": "BEP20",
+                            "allowDeposit": false,
+                            "allowWithdraw": false
+                        }
+                    ]
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "USDT",
+                    "tokenName": "USDT",
+                    "tokenFullName": "TetherUS",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": [
+                        {
+                            "chainType": "ERC20",
+                            "allowDeposit": true,
+                            "allowWithdraw": true
+                        },
+                        {
+                            "chainType": "TRC20",
+                            "allowDeposit": true,
+                            "allowWithdraw": true
+                        },
+                        {
+                            "chainType": "BEP20",
+                            "allowDeposit": false,
+                            "allowWithdraw": false
+                        },
+                        {
+                            "chainType": "OMNI",
+                            "allowDeposit": true,
+                            "allowWithdraw": true
+                        }
+                    ]
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "XRP",
+                    "tokenName": "XRP",
+                    "tokenFullName": "XRP",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "TRX",
+                    "tokenName": "TRX",
+                    "tokenFullName": "TRON",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "CHZ",
+                    "tokenName": "CHZ",
+                    "tokenFullName": "Chiliz",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "BTP1",
+                    "tokenName": "BTP1",
+                    "tokenFullName": "BTP1",
+                    "allowWithdraw": false,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "JUV",
+                    "tokenName": "JUV",
+                    "tokenFullName": "Juventus",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": [
+                        {
+                            "chainType": "CHILIZCHAIN",
+                            "allowDeposit": true,
+                            "allowWithdraw": true
+                        },
+                        {
+                            "chainType": "BSC",
+                            "allowDeposit": true,
+                            "allowWithdraw": false
+                        }
+                    ]
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ASR",
+                    "tokenName": "ASR",
+                    "tokenFullName": "AS Roma",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": [
+                        {
+                            "chainType": "CHILIZCHAIN",
+                            "allowDeposit": true,
+                            "allowWithdraw": true
+                        },
+                        {
+                            "chainType": "BSC",
+                            "allowDeposit": true,
+                            "allowWithdraw": false
+                        }
+                    ]
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ATM",
+                    "tokenName": "ATM",
+                    "tokenFullName": "Atletico Madrid",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": [
+                        {
+                            "chainType": "CHILIZCHAIN",
+                            "allowDeposit": true,
+                            "allowWithdraw": true
+                        },
+                        {
+                            "chainType": "BSC",
+                            "allowDeposit": true,
+                            "allowWithdraw": false
+                        }
+                    ]
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "GAL",
+                    "tokenName": "GAL",
+                    "tokenFullName": "Galatasaray",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "OG",
+                    "tokenName": "OG",
+                    "tokenFullName": "OG Esports",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": [
+                        {
+                            "chainType": "CHILIZCHAIN",
+                            "allowDeposit": true,
+                            "allowWithdraw": true
+                        },
+                        {
+                            "chainType": "BSC",
+                            "allowDeposit": true,
+                            "allowWithdraw": false
+                        }
+                    ]
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "PSG",
+                    "tokenName": "PSG",
+                    "tokenFullName": "Paris Saint-Germain",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": [
+                        {
+                            "chainType": "CHILIZCHAIN",
+                            "allowDeposit": true,
+                            "allowWithdraw": true
+                        },
+                        {
+                            "chainType": "BSC",
+                            "allowDeposit": true,
+                            "allowWithdraw": false
+                        }
+                    ]
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "CAI",
+                    "tokenName": "CAI",
+                    "tokenFullName": "Independiente",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "BAR",
+                    "tokenName": "BAR",
+                    "tokenFullName": "FC Barcelona",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "APL",
+                    "tokenName": "APL",
+                    "tokenFullName": "Apollon FC",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "TH",
+                    "tokenName": "TH",
+                    "tokenFullName": "Team Heretics",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "REVV",
+                    "tokenName": "REVV",
+                    "tokenFullName": "REVV",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "TRA",
+                    "tokenName": "TRA",
+                    "tokenFullName": "Trabzonspor",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "IBFK",
+                    "tokenName": "IBFK",
+                    "tokenFullName": "İstanbul Başakşehir",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ALL",
+                    "tokenName": "ALL",
+                    "tokenFullName": "Alliance",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "NAVI",
+                    "tokenName": "NAVI",
+                    "tokenFullName": "NAVI",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ACM",
+                    "tokenName": "ACM",
+                    "tokenFullName": "AC Milan",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "STV",
+                    "tokenName": "STV",
+                    "tokenFullName": "Sint Truidense VV",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "NOV",
+                    "tokenName": "NOV",
+                    "tokenFullName": "Novara Calcio",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "YBO",
+                    "tokenName": "YBO",
+                    "tokenFullName": "BSC Young Boys",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "BNB",
+                    "tokenName": "BNB",
+                    "tokenFullName": "Binance Coin",
+                    "allowWithdraw": false,
+                    "allowDeposit": false,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "MCITY",
+                    "tokenName": "CITY",
+                    "tokenFullName": "CITY",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "PFL",
+                    "tokenName": "PFL",
+                    "tokenFullName": "PFL",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "BUSD-BEP20",
+                    "tokenName": "BUSD",
+                    "tokenFullName": "Binance USD",
+                    "allowWithdraw": false,
+                    "allowDeposit": false,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "GOZ",
+                    "tokenName": "GOZ",
+                    "tokenFullName": "Goztepe S.K.",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ARG",
+                    "tokenName": "ARG",
+                    "tokenFullName": "Agentine Football Association",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "SAUBER",
+                    "tokenName": "SAUBER",
+                    "tokenFullName": "Alfa Romeo Racing ORLEN",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "AM",
+                    "tokenName": "AM",
+                    "tokenFullName": "Aston Martin Cognizant",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "LEG",
+                    "tokenName": "LEG",
+                    "tokenFullName": "Legia Warsaw",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "FORT",
+                    "tokenName": "FOR",
+                    "tokenFullName": "Fortuna Sittard",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "UCH",
+                    "tokenName": "UCH",
+                    "tokenFullName": "Universidad de Chile",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "VIT",
+                    "tokenName": "VIT",
+                    "tokenFullName": "Team Vitality",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "VCF1",
+                    "tokenName": "VCF",
+                    "tokenFullName": "Valencia CF",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "SCCP",
+                    "tokenName": "SCCP",
+                    "tokenFullName": "S.C. Corinthians",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "POR1",
+                    "tokenName": "POR",
+                    "tokenFullName": "Portugal National Team",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "LEV",
+                    "tokenName": "LEV",
+                    "tokenFullName": "Levante U.D.",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "UFC",
+                    "tokenName": "UFC",
+                    "tokenFullName": "UFC",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "INTER",
+                    "tokenName": "INTER",
+                    "tokenFullName": "Inter Milan",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "GALO",
+                    "tokenName": "GALO",
+                    "tokenFullName": "Clube Atlético Mineiro",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ROUSH",
+                    "tokenName": "ROUSH",
+                    "tokenFullName": "Roush Fenway Racing",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "DZG",
+                    "tokenName": "DZG",
+                    "tokenFullName": "Dinamo Zagreb",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ALA",
+                    "tokenName": "ALA",
+                    "tokenFullName": "Alanyaspor",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "AVL",
+                    "tokenName": "AVL",
+                    "tokenFullName": "Aston Villa",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "MENGO",
+                    "tokenName": "MENGO",
+                    "tokenFullName": "Flamengo",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "AFC",
+                    "tokenName": "AFC",
+                    "tokenFullName": "Arsenal",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "EFC",
+                    "tokenName": "EFC",
+                    "tokenFullName": "Everton",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "LUFC",
+                    "tokenName": "LUFC",
+                    "tokenFullName": "Leeds United",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "SAM",
+                    "tokenName": "SAM",
+                    "tokenFullName": "Samsunspor",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "SPFC",
+                    "tokenName": "SPFC",
+                    "tokenFullName": "São Paulo FC",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "DAVIS",
+                    "tokenName": "DAVIS",
+                    "tokenFullName": "Davis Cup",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ENDCEX",
+                    "tokenName": "ENDCEX",
+                    "tokenFullName": "Endpoint CeX",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "BFC",
+                    "tokenName": "BFC",
+                    "tokenFullName": "Bologna FC",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "NAP",
+                    "tokenName": "NAP",
+                    "tokenFullName": "Napoli",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "MFC",
+                    "tokenName": "MFC",
+                    "tokenFullName": "Millonarios",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "RACING",
+                    "tokenName": "RACING",
+                    "tokenFullName": "Racing Club",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ASM",
+                    "tokenName": "ASM",
+                    "tokenFullName": "AS Monaco",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "MIBR",
+                    "tokenName": "MIBR",
+                    "tokenFullName": "Made in Brazil Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "CPFC",
+                    "tokenName": "CPFC",
+                    "tokenFullName": "Crystal Palace Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "SACI",
+                    "tokenName": "SACI",
+                    "tokenFullName": "Sport Club Internacional Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "GFK",
+                    "tokenName": "GFK",
+                    "tokenFullName": "Gaziantep F.K Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ATLAS",
+                    "tokenName": "ATLAS",
+                    "tokenFullName": "Atlas FC Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "SAN",
+                    "tokenName": "SAN",
+                    "tokenFullName": "Club Santos Laguna Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "ITA",
+                    "tokenName": "ITA",
+                    "tokenFullName": "Italian National Team Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "VASCO",
+                    "tokenName": "VASCO",
+                    "tokenFullName": "Vasco Da Gama Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "TIGRES",
+                    "tokenName": "TIGRES",
+                    "tokenFullName": "Tigres UANL Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "BUFC",
+                    "tokenName": "BUFC",
+                    "tokenFullName": "Bali United Fan Token",
+                    "allowWithdraw": false,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "PERSIB",
+                    "tokenName": "PERSIB",
+                    "tokenFullName": "Persib Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "SARRIES",
+                    "tokenName": "SARRIES",
+                    "tokenFullName": "Saracens Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "QUINS",
+                    "tokenName": "QUINS",
+                    "tokenFullName": "Harlequins Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                },
+                {
+                    "orgId": "9001",
+                    "tokenId": "TIGERS",
+                    "tokenName": "TIGERS",
+                    "tokenFullName": "Leicester Tigers Fan Token",
+                    "allowWithdraw": true,
+                    "allowDeposit": true,
+                    "chainTypes": []
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Mon, 02 Jan 2023 13:25:05 GMT",
+            "Content-Type",
+            "application/json;charset=UTF-8",
+            "Content-Length",
+            "51851",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://api.chiliz.net:443",
+        "method": "GET",
+        "path": "/openapi/quote/v1/ticker/24hr",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "time": 1672665900021,
+                "symbol": "CAICHZ",
+                "volume": "125179",
+                "quoteVolume": "326697.61",
+                "lastPrice": "2.59",
+                "highPrice": "2.65",
+                "lowPrice": "2.56",
+                "openPrice": "2.61"
+            },
+            {
+                "time": 1672665900011,
+                "symbol": "GALOCHZ",
+                "volume": "123014",
+                "quoteVolume": "305799.48",
+                "lastPrice": "2.49",
+                "highPrice": "2.56",
+                "lowPrice": "2.4",
+                "openPrice": "2.49"
+            },
+            {
+                "time": 1672665900024,
+                "symbol": "SACICHZ",
+                "volume": "160517",
+                "quoteVolume": "1229994.38",
+                "lastPrice": "8.12",
+                "highPrice": "8.19",
+                "lowPrice": "7.6",
+                "openPrice": "7.65"
+            },
+            {
+                "time": 1672665900021,
+                "symbol": "ROUSHCHZ",
+                "volume": "104297",
+                "quoteVolume": "133566.83",
+                "lastPrice": "1.28",
+                "highPrice": "1.3",
+                "lowPrice": "1.25",
+                "openPrice": "1.28"
+            },
+            {
+                "time": 1672665900017,
+                "symbol": "UCHCHZ",
+                "volume": "100269",
+                "quoteVolume": "350222.79",
+                "lastPrice": "3.47",
+                "highPrice": "3.55",
+                "lowPrice": "3.34",
+                "openPrice": "3.36"
+            },
+            {
+                "time": 1672665900018,
+                "symbol": "UFCCHZ",
+                "volume": "100529",
+                "quoteVolume": "894887",
+                "lastPrice": "8.99",
+                "highPrice": "9.19",
+                "lowPrice": "8.7",
+                "openPrice": "8.77"
+            },
+            {
+                "time": 1672665900022,
+                "symbol": "FORCHZ",
+                "volume": "122038",
+                "quoteVolume": "353795.41",
+                "lastPrice": "2.79",
+                "highPrice": "3.01",
+                "lowPrice": "2.76",
+                "openPrice": "2.98"
+            },
+            {
+                "time": 1672665900021,
+                "symbol": "XRPBTC",
+                "volume": "0",
+                "quoteVolume": "0",
+                "lastPrice": "0.00000161",
+                "highPrice": "0.00000161",
+                "lowPrice": "0.00000161",
+                "openPrice": "0.00000161"
+            },
+            {
+                "time": 1672665900021,
+                "symbol": "CHZBTC",
+                "volume": "69161.5",
+                "quoteVolume": "0.4187013127",
+                "lastPrice": "0.00000609",
+                "highPrice": "0.00000619",
+                "lowPrice": "0.00000594",
+                "openPrice": "0.00000609"
+            },
+            {
+                "time": 1672665900593,
+                "symbol": "STVCHZ",
+                "volume": "125484",
+                "quoteVolume": "1525852.37",
+                "lastPrice": "12.08",
+                "highPrice": "12.88",
+                "lowPrice": "11.86",
+                "openPrice": "12.23"
+            },
+            {
+                "time": 1672665900024,
+                "symbol": "CITYCHZ",
+                "volume": "124098",
+                "quoteVolume": "4938378.2",
+                "lastPrice": "39.32",
+                "highPrice": "40.54",
+                "lowPrice": "38.05",
+                "openPrice": "40.01"
+            },
+            {
+                "time": 1672665900025,
+                "symbol": "APLCHZ",
+                "volume": "123911",
+                "quoteVolume": "968236.51",
+                "lastPrice": "7.73",
+                "highPrice": "7.91",
+                "lowPrice": "7.7",
+                "openPrice": "7.84"
+            },
+            {
+                "time": 1672665900026,
+                "symbol": "SANCHZ",
+                "volume": "178297",
+                "quoteVolume": "1785603.33",
+                "lastPrice": "10.01",
+                "highPrice": "10.06",
+                "lowPrice": "9.98",
+                "openPrice": "10.04"
+            },
+            {
+                "time": 1672665900027,
+                "symbol": "ITACHZ",
+                "volume": "175614",
+                "quoteVolume": "1401080.97",
+                "lastPrice": "7.91",
+                "highPrice": "8.18",
+                "lowPrice": "7.72",
+                "openPrice": "7.95"
+            },
+            {
+                "time": 1672665900029,
+                "symbol": "ARGCHZ",
+                "volume": "125522",
+                "quoteVolume": "1881394.22",
+                "lastPrice": "15.29",
+                "highPrice": "16.5",
+                "lowPrice": "14.28",
+                "openPrice": "15.37"
+            },
+            {
+                "time": 1672665900028,
+                "symbol": "LUFCCHZ",
+                "volume": "125271",
+                "quoteVolume": "808070.25",
+                "lastPrice": "6.39",
+                "highPrice": "6.6",
+                "lowPrice": "6",
+                "openPrice": "6.56"
+            },
+            {
+                "time": 1672665900030,
+                "symbol": "ASRCHZ",
+                "volume": "122673",
+                "quoteVolume": "2884091.32",
+                "lastPrice": "23.56",
+                "highPrice": "24.44",
+                "lowPrice": "23.02",
+                "openPrice": "23.57"
+            },
+            {
+                "time": 1672665900031,
+                "symbol": "BARCHZ",
+                "volume": "124731",
+                "quoteVolume": "4317117.07",
+                "lastPrice": "34.22",
+                "highPrice": "35.38",
+                "lowPrice": "33.79",
+                "openPrice": "34.82"
+            },
+            {
+                "time": 1672665900033,
+                "symbol": "SARRIESCHZ",
+                "volume": "9",
+                "quoteVolume": "125.15",
+                "lastPrice": "14",
+                "highPrice": "14.04",
+                "lowPrice": "13.81",
+                "openPrice": "14.03"
+            },
+            {
+                "time": 1672665900032,
+                "symbol": "VITCHZ",
+                "volume": "79324",
+                "quoteVolume": "102890.14",
+                "lastPrice": "1.3",
+                "highPrice": "1.33",
+                "lowPrice": "1.26",
+                "openPrice": "1.28"
+            },
+            {
+                "time": 1672665900034,
+                "symbol": "DZGCHZ",
+                "volume": "4744",
+                "quoteVolume": "11693.2",
+                "lastPrice": "2.13",
+                "highPrice": "2.25",
+                "lowPrice": "2.05",
+                "openPrice": "2.23"
+            },
+            {
+                "time": 1672665900035,
+                "symbol": "TRXETH",
+                "volume": "0",
+                "quoteVolume": "0",
+                "lastPrice": "0.0000008",
+                "highPrice": "0.0000008",
+                "lowPrice": "0.0000008",
+                "openPrice": "0.0000008"
+            },
+            {
+                "time": 1672665900036,
+                "symbol": "QUINSCHZ",
+                "volume": "11",
+                "quoteVolume": "163.37",
+                "lastPrice": "14.6",
+                "highPrice": "15.4",
+                "lowPrice": "14.6",
+                "openPrice": "15.4"
+            },
+            {
+                "time": 1672665900037,
+                "symbol": "ETHUSDT",
+                "volume": "69.5287",
+                "quoteVolume": "83658.402056",
+                "lastPrice": "1215.03",
+                "highPrice": "1221.24",
+                "lowPrice": "1166.21",
+                "openPrice": "1196.76"
+            },
+            {
+                "time": 1672665900039,
+                "symbol": "NAPCHZ",
+                "volume": "2453",
+                "quoteVolume": "59837.81",
+                "lastPrice": "29.88",
+                "highPrice": "30",
+                "lowPrice": "28.15",
+                "openPrice": "28.75"
+            },
+            {
+                "time": 1672665900040,
+                "symbol": "PORCHZ",
+                "volume": "124893",
+                "quoteVolume": "1179624.26",
+                "lastPrice": "9.5",
+                "highPrice": "9.95",
+                "lowPrice": "9.15",
+                "openPrice": "9.46"
+            },
+            {
+                "time": 1672665900038,
+                "symbol": "EFCCHZ",
+                "volume": "318",
+                "quoteVolume": "1345.74",
+                "lastPrice": "4.21",
+                "highPrice": "4.27",
+                "lowPrice": "4.12",
+                "openPrice": "4.26"
+            },
+            {
+                "time": 1672665900041,
+                "symbol": "SAMCHZ",
+                "volume": "114353",
+                "quoteVolume": "664088.79",
+                "lastPrice": "5.74",
+                "highPrice": "5.83",
+                "lowPrice": "5.66",
+                "openPrice": "5.75"
+            },
+            {
+                "time": 1672665900042,
+                "symbol": "SAUBERCHZ",
+                "volume": "130704",
+                "quoteVolume": "306373.73",
+                "lastPrice": "2.32",
+                "highPrice": "2.49",
+                "lowPrice": "2.29",
+                "openPrice": "2.35"
+            },
+            {
+                "time": 1672665900043,
+                "symbol": "BFCCHZ",
+                "volume": "1557",
+                "quoteVolume": "4897.06",
+                "lastPrice": "2.31",
+                "highPrice": "2.41",
+                "lowPrice": "2.3",
+                "openPrice": "2.35"
+            },
+            {
+                "time": 1672665900045,
+                "symbol": "MIBRCHZ",
+                "volume": "171751",
+                "quoteVolume": "705505.43",
+                "lastPrice": "4.05",
+                "highPrice": "4.23",
+                "lowPrice": "3.93",
+                "openPrice": "4.09"
+            },
+            {
+                "time": 1672665900046,
+                "symbol": "VASCOCHZ",
+                "volume": "175647",
+                "quoteVolume": "1529091.27",
+                "lastPrice": "8.76",
+                "highPrice": "8.95",
+                "lowPrice": "8.61",
+                "openPrice": "8.64"
+            },
+            {
+                "time": 1672665900044,
+                "symbol": "TRXUSDT",
+                "volume": "7984.57",
+                "quoteVolume": "445.89451372",
+                "lastPrice": "0.056994",
+                "highPrice": "0.056999",
+                "lowPrice": "0.053804",
+                "openPrice": "0.055199"
+            },
+            {
+                "time": 1672665905553,
+                "symbol": "BTP1CHZ",
+                "volume": "0",
+                "quoteVolume": "0",
+                "lastPrice": "0",
+                "highPrice": "0",
+                "lowPrice": "0",
+                "openPrice": "0"
+            },
+            {
+                "time": 1672665900048,
+                "symbol": "AVLCHZ",
+                "volume": "124079",
+                "quoteVolume": "779108.97",
+                "lastPrice": "6.39",
+                "highPrice": "6.49",
+                "lowPrice": "6.17",
+                "openPrice": "6.26"
+            },
+            {
+                "time": 1672665900050,
+                "symbol": "PERSIBCHZ",
+                "volume": "67",
+                "quoteVolume": "474.73",
+                "lastPrice": "7.19",
+                "highPrice": "7.27",
+                "lowPrice": "6.95",
+                "openPrice": "6.95"
+            },
+            {
+                "time": 1672665900049,
+                "symbol": "PFLCHZ",
+                "volume": "115065",
+                "quoteVolume": "192261.31",
+                "lastPrice": "1.66",
+                "highPrice": "1.7",
+                "lowPrice": "1.64",
+                "openPrice": "1.66"
+            },
+            {
+                "time": 1672665900051,
+                "symbol": "NAVICHZ",
+                "volume": "110373",
+                "quoteVolume": "196990.41",
+                "lastPrice": "1.78",
+                "highPrice": "1.81",
+                "lowPrice": "1.75",
+                "openPrice": "1.77"
+            },
+            {
+                "time": 1672665902474,
+                "symbol": "PSGCHZ",
+                "volume": "123127",
+                "quoteVolume": "6631059.06",
+                "lastPrice": "53.32",
+                "highPrice": "54.92",
+                "lowPrice": "52.03",
+                "openPrice": "54.6"
+            },
+            {
+                "time": 1672665900053,
+                "symbol": "OGCHZ",
+                "volume": "120004",
+                "quoteVolume": "2794405.7",
+                "lastPrice": "23.29",
+                "highPrice": "23.86",
+                "lowPrice": "22.86",
+                "openPrice": "23.28"
+            },
+            {
+                "time": 1672665900055,
+                "symbol": "GOZCHZ",
+                "volume": "121976",
+                "quoteVolume": "880943.4",
+                "lastPrice": "7.22",
+                "highPrice": "7.46",
+                "lowPrice": "7.11",
+                "openPrice": "7.29"
+            },
+            {
+                "time": 1672665904468,
+                "symbol": "ALLCHZ",
+                "volume": "134034",
+                "quoteVolume": "284161.21",
+                "lastPrice": "2.11",
+                "highPrice": "2.2",
+                "lowPrice": "2.01",
+                "openPrice": "2.12"
+            },
+            {
+                "time": 1672665900057,
+                "symbol": "YBOCHZ",
+                "volume": "123753",
+                "quoteVolume": "457752.52",
+                "lastPrice": "3.68",
+                "highPrice": "3.85",
+                "lowPrice": "3.61",
+                "openPrice": "3.84"
+            },
+            {
+                "time": 1672665900058,
+                "symbol": "TRACHZ",
+                "volume": "122899",
+                "quoteVolume": "1440998.22",
+                "lastPrice": "11.62",
+                "highPrice": "12.99",
+                "lowPrice": "11.01",
+                "openPrice": "11.77"
+            },
+            {
+                "time": 1672665900059,
+                "symbol": "RACINGCHZ",
+                "volume": "123363",
+                "quoteVolume": "448947.55",
+                "lastPrice": "3.66",
+                "highPrice": "3.68",
+                "lowPrice": "3.59",
+                "openPrice": "3.62"
+            },
+            {
+                "time": 1672665900061,
+                "symbol": "TRXBTC",
+                "volume": "0",
+                "quoteVolume": "0",
+                "lastPrice": "0.0000005055",
+                "highPrice": "0.0000005055",
+                "lowPrice": "0.0000005055",
+                "openPrice": "0.0000005055"
+            },
+            {
+                "time": 1672665900060,
+                "symbol": "MFCCHZ",
+                "volume": "124080",
+                "quoteVolume": "393529.71",
+                "lastPrice": "3.14",
+                "highPrice": "3.2",
+                "lowPrice": "3.1",
+                "openPrice": "3.12"
+            },
+            {
+                "time": 1672665900061,
+                "symbol": "CPFCCHZ",
+                "volume": "152668",
+                "quoteVolume": "1964196.41",
+                "lastPrice": "12.69",
+                "highPrice": "13.69",
+                "lowPrice": "12.46",
+                "openPrice": "12.79"
+            },
+            {
+                "time": 1672665903710,
+                "symbol": "BTCUSDT",
+                "volume": "5.82706",
+                "quoteVolume": "96929.84813496",
+                "lastPrice": "16718.37",
+                "highPrice": "17373.99",
+                "lowPrice": "16535.86",
+                "openPrice": "16546.44"
+            },
+            {
+                "time": 1672665900064,
+                "symbol": "JUVCHZ",
+                "volume": "123240",
+                "quoteVolume": "3186860.81",
+                "lastPrice": "25.6",
+                "highPrice": "26.29",
+                "lowPrice": "25.34",
+                "openPrice": "25.81"
+            },
+            {
+                "time": 1672665900064,
+                "symbol": "MENGOCHZ",
+                "volume": "9456",
+                "quoteVolume": "52258.27",
+                "lastPrice": "5.88",
+                "highPrice": "6.16",
+                "lowPrice": "5.59",
+                "openPrice": "6.16"
+            },
+            {
+                "time": 1672665900065,
+                "symbol": "SPFCCHZ",
+                "volume": "9915",
+                "quoteVolume": "20680.86",
+                "lastPrice": "2.03",
+                "highPrice": "2.11",
+                "lowPrice": "2",
+                "openPrice": "2.03"
+            },
+            {
+                "time": 1672665900066,
+                "symbol": "NOVCHZ",
+                "volume": "123685",
+                "quoteVolume": "439217.59",
+                "lastPrice": "3.57",
+                "highPrice": "3.64",
+                "lowPrice": "3.46",
+                "openPrice": "3.54"
+            },
+            {
+                "time": 1672665900067,
+                "symbol": "LEVCHZ",
+                "volume": "816",
+                "quoteVolume": "5268.25",
+                "lastPrice": "3.87",
+                "highPrice": "3.9",
+                "lowPrice": "3.63",
+                "openPrice": "3.8"
+            },
+            {
+                "time": 1672665900068,
+                "symbol": "AMCHZ",
+                "volume": "10401",
+                "quoteVolume": "23759.34",
+                "lastPrice": "2.22",
+                "highPrice": "2.33",
+                "lowPrice": "2.17",
+                "openPrice": "2.2"
+            },
+            {
+                "time": 1672665900069,
+                "symbol": "THCHZ",
+                "volume": "122696",
+                "quoteVolume": "592502.04",
+                "lastPrice": "4.85",
+                "highPrice": "4.89",
+                "lowPrice": "4.78",
+                "openPrice": "4.83"
+            },
+            {
+                "time": 1672665900071,
+                "symbol": "TIGRESCHZ",
+                "volume": "179049",
+                "quoteVolume": "3964284.71",
+                "lastPrice": "22.16",
+                "highPrice": "53.81",
+                "lowPrice": "20.26",
+                "openPrice": "20.77"
+            },
+            {
+                "time": 1672665900074,
+                "symbol": "VCFCHZ",
+                "volume": "125127",
+                "quoteVolume": "897721.75",
+                "lastPrice": "7.25",
+                "highPrice": "7.3",
+                "lowPrice": "6.82",
+                "openPrice": "7.13"
+            },
+            {
+                "time": 1672665902708,
+                "symbol": "DAVISCHZ",
+                "volume": "123273",
+                "quoteVolume": "1130889.52",
+                "lastPrice": "9.12",
+                "highPrice": "9.25",
+                "lowPrice": "9.02",
+                "openPrice": "9.12"
+            },
+            {
+                "time": 1672665900075,
+                "symbol": "XRPUSDT",
+                "volume": "0",
+                "quoteVolume": "0",
+                "lastPrice": "0.21122",
+                "highPrice": "0.21122",
+                "lowPrice": "0.21122",
+                "openPrice": "0.21122"
+            },
+            {
+                "time": 1672665900076,
+                "symbol": "ENDCEXCHZ",
+                "volume": "23706",
+                "quoteVolume": "39705.65",
+                "lastPrice": "1.67",
+                "highPrice": "1.68",
+                "lowPrice": "1.64",
+                "openPrice": "1.66"
+            },
+            {
+                "time": 1672665900077,
+                "symbol": "ALACHZ",
+                "volume": "120016",
+                "quoteVolume": "469319.5",
+                "lastPrice": "3.87",
+                "highPrice": "3.95",
+                "lowPrice": "3.78",
+                "openPrice": "3.91"
+            },
+            {
+                "time": 1672665900078,
+                "symbol": "ETHBTC",
+                "volume": "0",
+                "quoteVolume": "0",
+                "lastPrice": "0.051001",
+                "highPrice": "0.051001",
+                "lowPrice": "0.051001",
+                "openPrice": "0.051001"
+            },
+            {
+                "time": 1672665900079,
+                "symbol": "ATLASCHZ",
+                "volume": "90575",
+                "quoteVolume": "890898.83",
+                "lastPrice": "10.35",
+                "highPrice": "10.83",
+                "lowPrice": "9.03",
+                "openPrice": "9.4"
+            },
+            {
+                "time": 1672665900080,
+                "symbol": "GFKCHZ",
+                "volume": "136",
+                "quoteVolume": "627.43",
+                "lastPrice": "4.56",
+                "highPrice": "4.76",
+                "lowPrice": "4.52",
+                "openPrice": "4.71"
+            },
+            {
+                "time": 1672665900080,
+                "symbol": "TIGERSCHZ",
+                "volume": "29",
+                "quoteVolume": "436.49",
+                "lastPrice": "14.67",
+                "highPrice": "15.42",
+                "lowPrice": "14.51",
+                "openPrice": "14.51"
+            },
+            {
+                "time": 1672665905553,
+                "symbol": "XRPETH",
+                "volume": "0",
+                "quoteVolume": "0",
+                "lastPrice": "0",
+                "highPrice": "0",
+                "lowPrice": "0",
+                "openPrice": "0"
+            },
+            {
+                "time": 1672665900082,
+                "symbol": "AFCCHZ",
+                "volume": "6589",
+                "quoteVolume": "134099.68",
+                "lastPrice": "21.4",
+                "highPrice": "22",
+                "lowPrice": "20.58",
+                "openPrice": "21.49"
+            },
+            {
+                "time": 1672665900083,
+                "symbol": "IBFKCHZ",
+                "volume": "122899",
+                "quoteVolume": "1132684.49",
+                "lastPrice": "9.48",
+                "highPrice": "9.7",
+                "lowPrice": "8.82",
+                "openPrice": "9"
+            },
+            {
+                "time": 1672665900085,
+                "symbol": "ACMCHZ",
+                "volume": "123919",
+                "quoteVolume": "2857197.99",
+                "lastPrice": "22.93",
+                "highPrice": "23.31",
+                "lowPrice": "22.69",
+                "openPrice": "23.17"
+            },
+            {
+                "time": 1672665900084,
+                "symbol": "ATMCHZ",
+                "volume": "123146",
+                "quoteVolume": "2860039.61",
+                "lastPrice": "23.23",
+                "highPrice": "23.49",
+                "lowPrice": "22.91",
+                "openPrice": "22.93"
+            },
+            {
+                "time": 1672665900086,
+                "symbol": "SCCPCHZ",
+                "volume": "123272",
+                "quoteVolume": "417526.62",
+                "lastPrice": "3.46",
+                "highPrice": "3.49",
+                "lowPrice": "3.32",
+                "openPrice": "3.36"
+            },
+            {
+                "time": 1672665900087,
+                "symbol": "CHZUSDT",
+                "volume": "302052",
+                "quoteVolume": "31011.7213",
+                "lastPrice": "0.1021",
+                "highPrice": "0.1034",
+                "lowPrice": "0.0987",
+                "openPrice": "0.1006"
+            },
+            {
+                "time": 1672665900088,
+                "symbol": "ASMCHZ",
+                "volume": "3567",
+                "quoteVolume": "40295.86",
+                "lastPrice": "10.61",
+                "highPrice": "11.06",
+                "lowPrice": "10.14",
+                "openPrice": "10.62"
+            },
+            {
+                "time": 1672665900089,
+                "symbol": "LEGCHZ",
+                "volume": "123422",
+                "quoteVolume": "313046.41",
+                "lastPrice": "2.54",
+                "highPrice": "2.74",
+                "lowPrice": "2.38",
+                "openPrice": "2.5"
+            },
+            {
+                "time": 1672665901729,
+                "symbol": "GALCHZ",
+                "volume": "122925",
+                "quoteVolume": "2987557.88",
+                "lastPrice": "24.22",
+                "highPrice": "25",
+                "lowPrice": "23.36",
+                "openPrice": "24.57"
+            },
+            {
+                "time": 1672665900091,
+                "symbol": "INTERCHZ",
+                "volume": "130493",
+                "quoteVolume": "2678105.23",
+                "lastPrice": "20.28",
+                "highPrice": "21.15",
+                "lowPrice": "19.5",
+                "openPrice": "20.69"
+            }
+        ],
+        "rawHeaders": [
+            "Date",
+            "Mon, 02 Jan 2023 13:25:05 GMT",
+            "Content-Type",
+            "application/json",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive"
+        ],
+        "responseIsBinary": false
+    }
+]
