@@ -13,24 +13,20 @@ class Xt extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const data = await request('https://www.xt.pub/exchange/api/markets/returnTicker');
-    const markets = Object.keys(data);
+    const { result: tickers } = await request('https://sapi.xt.com/v4/public/ticker/24h');
 
-    return markets.map((marketSymbol) => {
-      const [base, quote] = marketSymbol.split('_');
-
-      const ticker = data[marketSymbol];
-
-      if (!ticker) return undefined;
+    return tickers.map((ticker) => {
+      const [base, quote] = ticker.s.split('_');
 
       return new Ticker({
         base,
         quote,
-        high: parseToFloat(ticker.high24hr),
-        low: parseToFloat(ticker.low24hr),
-        close: parseToFloat(ticker.last),
-        baseVolume: parseToFloat(ticker.baseVolume),
-        quoteVolume: parseToFloat(ticker.quoteVolume),
+        open: parseToFloat(ticker.o),
+        high: parseToFloat(ticker.h),
+        low: parseToFloat(ticker.l),
+        close: parseToFloat(ticker.c),
+        baseVolume: parseToFloat(ticker.q),
+        quoteVolume: parseToFloat(ticker.v),
       });
     });
   }
