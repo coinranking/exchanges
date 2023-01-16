@@ -1,3 +1,11 @@
+## [3.91.1](https://github.com/coinranking/exchanges/compare/v3.91.0...v3.91.1) (2023-01-16)
+
+
+### Bug Fixes
+
+* add new test fixture for Xt ([82f4880](https://github.com/coinranking/exchanges/commit/82f48804c0d5c2eb6397419f63644076987babd5))
+* xt driver api needed new endpoint ([30f6fa2](https://github.com/coinranking/exchanges/commit/30f6fa2afadc21486517fa9ce3ecb3286c96a31d))
+
 # [3.91.0](https://github.com/coinranking/exchanges/compare/v3.90.0...v3.91.0) (2023-01-02)
 
 
