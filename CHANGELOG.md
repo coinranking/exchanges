@@ -1,3 +1,10 @@
+# [3.92.0](https://github.com/coinranking/exchanges/compare/v3.91.1...v3.92.0) (2023-01-20)
+
+
+### Features
+
+* remove exchanges that are no longer active ([564e562](https://github.com/coinranking/exchanges/commit/564e562a2582133f3fbddbda34c6e11c466f1fb7))
+
 ## [3.91.1](https://github.com/coinranking/exchanges/compare/v3.91.0...v3.91.1) (2023-01-16)
 
 
