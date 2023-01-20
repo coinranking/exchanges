@@ -99,7 +99,6 @@ exports.Digifinex = require('./digifinex');
 exports.Dinarexchanger = require('./dinarexchanger');
 exports.Dobitrade = require('./dobitrade');
 exports.Dodo = require('./dodo');
-exports.Dovewallet = require('./dovewallet');
 exports.Drgx = require('./drgx');
 exports.Ethfinex = require('./ethfinex');
 exports.Eurobtc = require('./eurobtc');
