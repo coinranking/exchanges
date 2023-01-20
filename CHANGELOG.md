@@ -1,3 +1,10 @@
+# [3.93.0](https://github.com/coinranking/exchanges/compare/v3.92.0...v3.93.0) (2023-01-20)
+
+
+### Features
+
+* dovewallet no longer exists ([75aa9ab](https://github.com/coinranking/exchanges/commit/75aa9abd19ca6425e817b2368131b969e1a16add))
+
 # [3.92.0](https://github.com/coinranking/exchanges/compare/v3.91.1...v3.92.0) (2023-01-20)
 
 
