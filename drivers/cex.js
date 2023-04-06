@@ -13,19 +13,23 @@ class Cex extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const quotes = ['USD', 'ETH', 'BTC', 'USDT', 'GBP', 'EUR'];
-    const { data: tickers } = await request(`https://cex.io/api/tickers/${quotes.join('/')}`);
+    const assets = await request('https://plus.cex.io/ranking-api/cmc/api/v1/assets');
+    const tickers = await request('https://plus.cex.io/ranking-api/cmc/api/v1/ticker');
 
-    return tickers.map((ticker) => {
-      const [base, quote] = ticker.pair.split(':');
+    return Object.keys(tickers).map((pair) => {
+      const [base, quote] = pair.split('_');
+      const ticker = tickers[pair];
+      const baseAsset = assets[base];
+      const quoteAsset = assets[quote];
 
       return new Ticker({
         base,
+        baseName: baseAsset.name,
         quote,
-        baseVolume: parseToFloat(ticker.volume),
-        high: parseToFloat(ticker.high),
-        low: parseToFloat(ticker.low),
-        close: parseToFloat(ticker.last),
+        quoteName: quoteAsset.name,
+        baseVolume: parseToFloat(ticker.base_volume),
+        quoteVolume: parseToFloat(ticker.quote_volume),
+        close: parseToFloat(ticker.last_price),
       });
     });
   }
