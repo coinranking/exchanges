@@ -1,3 +1,10 @@
+# [3.94.0](https://github.com/coinranking/exchanges/compare/v3.93.0...v3.94.0) (2023-04-06)
+
+
+### Features
+
+* update the CEX API ([a653f32](https://github.com/coinranking/exchanges/commit/a653f321961c8afbf691e376985258c9581b24b6))
+
 # [3.93.0](https://github.com/coinranking/exchanges/compare/v3.92.0...v3.93.0) (2023-01-20)
 
 
