@@ -1,3 +1,10 @@
+# [3.95.0](https://github.com/coinranking/exchanges/compare/v3.94.0...v3.95.0) (2023-05-23)
+
+
+### Features
+
+* add support for Unisat ([6c01e71](https://github.com/coinranking/exchanges/commit/6c01e710864cd74ee62f946efdfe92ae6a11728d))
+
 # [3.94.0](https://github.com/coinranking/exchanges/compare/v3.93.0...v3.94.0) (2023-04-06)
 
 
