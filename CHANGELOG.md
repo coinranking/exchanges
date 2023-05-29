@@ -1,3 +1,11 @@
+## [3.95.1](https://github.com/coinranking/exchanges/compare/v3.95.0...v3.95.1) (2023-05-29)
+
+
+### Bug Fixes
+
+* post empty object to fix Unisat driver ([8a276bb](https://github.com/coinranking/exchanges/commit/8a276bb431aa775b2da624f1f5da339a864f1428))
+* test for Unisat was not updated ([62c4781](https://github.com/coinranking/exchanges/commit/62c4781c75f89515cf487e33f0c4da167d5daf56))
+
 # [3.95.0](https://github.com/coinranking/exchanges/compare/v3.94.0...v3.95.0) (2023-05-23)
 
 
