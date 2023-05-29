@@ -159,7 +159,6 @@ exports.Paribu = require('./paribu');
 exports.Parsxc = require('./parsxc');
 exports.Paycml = require('./paycml');
 exports.Paymium = require('./paymium');
-exports.Polarity = require('./polarity');
 exports.Poloniex = require('./poloniex');
 exports.Primebit = require('./primebit');
 exports.Probit = require('./probit');
