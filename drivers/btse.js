@@ -17,18 +17,16 @@ class Btse extends Driver {
 
     return data
       .filter((ticker) => ticker.active)
-      .map((ticker) => {
-        return new Ticker({
-          base: ticker.base,
-          quote: ticker.quote,
-          high: parseToFloat(ticker.high24Hr),
-          low: parseToFloat(ticker.low24Hr),
-          close: parseToFloat(ticker.last),
-          bid: parseToFloat(ticker.highestBid),
-          ask: parseToFloat(ticker.lowestAsk),
-          quoteVolume: parseToFloat(ticker.volume),
-        });
-      });
+      .map((ticker) => new Ticker({
+        base: ticker.base,
+        quote: ticker.quote,
+        high: parseToFloat(ticker.high24Hr),
+        low: parseToFloat(ticker.low24Hr),
+        close: parseToFloat(ticker.last),
+        bid: parseToFloat(ticker.highestBid),
+        ask: parseToFloat(ticker.lowestAsk),
+        quoteVolume: parseToFloat(ticker.volume),
+      }));
   }
 }
 
