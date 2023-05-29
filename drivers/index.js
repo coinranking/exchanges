@@ -172,7 +172,6 @@ exports.Polarity = require('./polarity');
 exports.Poloniex = require('./poloniex');
 exports.Primebit = require('./primebit');
 exports.Probit = require('./probit');
-exports.Qtrade = require('./qtrade');
 exports.Quickswap = require('./quickswap');
 exports.Resfinex = require('./resfinex');
 exports.Richamster = require('./richamster');
