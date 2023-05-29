@@ -40,7 +40,6 @@ exports.Bitso = require('./bitso');
 exports.Bitstamp = require('./bitstamp');
 exports.Bittrex = require('./bittrex');
 exports.Bitubu = require('./bitubu');
-exports.Bitvast = require('./bitvast');
 exports.Bitvavo = require('./bitvavo');
 exports.Bkex = require('./bkex');
 exports.Bl3p = require('./bl3p');
