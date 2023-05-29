@@ -86,7 +86,6 @@ exports.Cointiger = require('./cointiger');
 exports.Coinw = require('./coinw');
 exports.Compound = require('./compound');
 exports.Corgiswap = require('./corgiswap');
-exports.Crex24 = require('./crex24');
 exports.Crypto = require('./crypto');
 exports.Cryptonex = require('./cryptonex');
 exports.Currency = require('./currency');
