@@ -13,19 +13,22 @@ class Omgfin extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://omgfin.com/api/v1/ticker/24hr');
+    const tickers = await request('https://omgfin.com/api/v1/ticker/summary');
+    const pairs = Object.keys(tickers);
 
-    return tickers.map((ticker) => {
-      const [base, quote] = ticker.symbol.split('_');
+    return pairs.map((pair) => {
+      const [base, quote] = pair.split('_');
+      const ticker = tickers[pair];
+
+      if (!ticker) return undefined;
 
       return new Ticker({
         base,
         quote,
-        high: parseToFloat(ticker.highPrice),
-        low: parseToFloat(ticker.lowPrice),
-        close: parseToFloat(ticker.lastPrice),
-        open: parseToFloat(ticker.openPrice),
-        baseVolume: parseToFloat(ticker.volume),
+        high: parseToFloat(ticker.high24hr),
+        low: parseToFloat(ticker.low24hr),
+        close: parseToFloat(ticker.last),
+        baseVolume: parseToFloat(ticker.baseVolume),
         quoteVolume: parseToFloat(ticker.quoteVolume),
       });
     });
