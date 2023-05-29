@@ -122,7 +122,6 @@ exports.Hotbit = require('./hotbit');
 exports.Huobiglobal = require('./huobiglobal');
 exports.Idax = require('./idax');
 exports.Idex = require('./idex');
-exports.Indacoin = require('./indacoin');
 exports.Independentreserve = require('./independentreserve');
 exports.Indodax = require('./indodax');
 exports.Indoex = require('./indoex');
