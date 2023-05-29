@@ -8,7 +8,6 @@ exports.Balancer = require('./balancer');
 exports.Bamboo = require('./bamboo');
 exports.Bankera = require('./bankera');
 exports.Bcbitcoin = require('./bcbitcoin');
-exports.Beaxy = require('./beaxy');
 exports.Bequant = require('./bequant');
 exports.Bgogo = require('./bgogo');
 exports.Bhex = require('./bhex');
