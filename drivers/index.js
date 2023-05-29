@@ -42,7 +42,6 @@ exports.Bitubu = require('./bitubu');
 exports.Bitvavo = require('./bitvavo');
 exports.Bkex = require('./bkex');
 exports.Bl3p = require('./bl3p');
-exports.Blockchain = require('./blockchain');
 exports.Blockchaincom = require('./blockchaincom');
 exports.Bololex = require('./bololex');
 exports.Braziliex = require('./braziliex');
