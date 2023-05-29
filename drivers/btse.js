@@ -13,24 +13,22 @@ class Btse extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const data = await request('https://api.btse.com/spot/v2/market_summary');
-    const pairs = Object.keys(data);
+    const data = await request('https://api.btse.com/spot/api/v3.2/market_summary/');
 
-    return pairs.map((pair) => {
-      const ticker = data[pair];
-      const [base, quote] = pair.split('-');
-
-      return new Ticker({
-        base,
-        quote,
-        high: parseToFloat(ticker.high24hr),
-        low: parseToFloat(ticker.low24hr),
-        close: parseToFloat(ticker.last),
-        bid: parseToFloat(ticker.highest_bid),
-        ask: parseToFloat(ticker.lowest_ask),
-        quoteVolume: parseToFloat(ticker.volume),
+    return data
+      .filter((ticker) => ticker.active)
+      .map((ticker) => {
+        return new Ticker({
+          base: ticker.base,
+          quote: ticker.quote,
+          high: parseToFloat(ticker.high24hr),
+          low: parseToFloat(ticker.low24hr),
+          close: parseToFloat(ticker.last),
+          bid: parseToFloat(ticker.highest_bid),
+          ask: parseToFloat(ticker.lowest_ask),
+          quoteVolume: parseToFloat(ticker.volume),
+        });
       });
-    });
   }
 }
 
