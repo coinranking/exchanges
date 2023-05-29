@@ -196,7 +196,6 @@ exports.United = require('./united');
 exports.Unnamed = require('./unnamed');
 exports.Upbit = require('./upbit');
 exports.Vindax = require('./vindax');
-exports.Virtuse = require('./virtuse');
 exports.Vitex = require('./vitex');
 exports.Wavesexchange = require('./wavesexchange');
 exports.Wazirx = require('./wazirx');
