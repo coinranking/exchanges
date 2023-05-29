@@ -70,7 +70,6 @@ exports.Coinbasepro = require('./coinbasepro');
 exports.Coinbetter = require('./coinbetter');
 exports.Coincheck = require('./coincheck');
 exports.Coindcx = require('./coindcx');
-exports.Coindeal = require('./coindeal');
 exports.Coinex = require('./coinex');
 exports.Coinfalcon = require('./coinfalcon');
 exports.Coinfield = require('./coinfield');
