@@ -1,3 +1,21 @@
+# [3.96.0](https://github.com/coinranking/exchanges/compare/v3.95.1...v3.96.0) (2023-05-29)
+
+
+### Bug Fixes
+
+* replace Bw API ([2cbd57e](https://github.com/coinranking/exchanges/commit/2cbd57e2d83b2dcf59cbdda87671a646f005f733))
+* replace Okcoin API ([f89fdc0](https://github.com/coinranking/exchanges/commit/f89fdc06a0091912270ed3b742baef5bea398db6))
+* replace the Bitubu API ([af7d60d](https://github.com/coinranking/exchanges/commit/af7d60d99b1ffcdac81a6f217dcdf64c4ae044b1))
+* replace the BTCAlpha API ([92cd472](https://github.com/coinranking/exchanges/commit/92cd4720ef134f3bd8727ad8aa4a45a9203147b2))
+* replace the Omgfin API ([a933e3c](https://github.com/coinranking/exchanges/commit/a933e3cf2a330ccbb7158205f5a7504d27bc2a52))
+* update the Kuna API ([b3a4e1a](https://github.com/coinranking/exchanges/commit/b3a4e1a96fee349a675a303a18290e9bfd703855))
+
+
+### Features
+
+* update Bitopro API ([f7ccc51](https://github.com/coinranking/exchanges/commit/f7ccc51e9cc90dfff661576b54e7776896c730be))
+* update Btse API ([82374fe](https://github.com/coinranking/exchanges/commit/82374feac3064ee6531d4373cd90816b319986bd))
+
 ## [3.95.1](https://github.com/coinranking/exchanges/compare/v3.95.0...v3.95.1) (2023-05-29)
 
 
