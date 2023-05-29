@@ -136,7 +136,6 @@ exports.Lbank = require('./lbank');
 exports.Liquid = require('./liquid');
 exports.Litebit = require('./litebit');
 exports.Livecoin = require('./livecoin');
-exports.Localbitcoins = require('./localbitcoins');
 exports.Loopring = require('./loopring');
 exports.Luno = require('./luno');
 exports.Luxtrade = require('./luxtrade');
