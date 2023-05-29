@@ -215,7 +215,6 @@ exports.Xbts = require('./xbts');
 exports.Xt = require('./xt');
 exports.Yobit = require('./yobit');
 exports.Zb = require('./zb');
-exports.Zbg = require('./zbg');
 exports.Zeroex = require('./zeroex');
 exports.Zeroxexchange = require('./zeroxexchange');
 exports.Zonda = require('./zonda');
