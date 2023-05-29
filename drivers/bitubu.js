@@ -13,26 +13,24 @@ class Bitubu extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const markets = await request('https://bitubu.com/api/v2/markets');
-    const tickers = await request('https://bitubu.com/api/v2/tickers');
+    const { message: tickers } = await request('https://api.bitubu.com/api/v2/market/tickers');
 
-    return markets.map((market) => {
-      const base = market.ask_unit;
-      const quote = market.bid_unit;
+    return tickers
+      .filter((ticker) => ticker.instType === 'SPOT')
+      .map((ticker) => {
+        const [base, quote] = ticker.instId.split('-');
 
-      if (!tickers[market.id]) return undefined;
-      const { ticker } = tickers[market.id];
-
-      return new Ticker({
-        base,
-        quote,
-        baseVolume: parseToFloat(ticker.volume),
-        open: parseToFloat(ticker.open),
-        high: parseToFloat(ticker.high),
-        low: parseToFloat(ticker.low),
-        close: parseToFloat(ticker.last),
+        return new Ticker({
+          base,
+          quote,
+          quoteVolume: parseToFloat(ticker.volCcy24h),
+          baseVolume: parseToFloat(ticker.vol24h),
+          open: parseToFloat(ticker.open24h),
+          high: parseToFloat(ticker.high24h),
+          low: parseToFloat(ticker.low24h),
+          close: parseToFloat(ticker.last),
+        });
       });
-    });
   }
 }
 

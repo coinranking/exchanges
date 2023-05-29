@@ -13,21 +13,25 @@ class Bw extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const data = await request('https://www.bw.com/api/data/v1/tickers?isUseMarketName=true');
-    const tickers = data.datas;
-    const pairs = Object.keys(tickers);
+    const markets = await request('https://api.bw6.com/data/v1/markets');
+    const tickers = await request('https://api.bw6.com/data/v1/allTicker');
+    const pairs = Object.keys(markets);
 
     return pairs.map((pair) => {
       const [base, quote] = pair.split('_');
-      const ticker = tickers[pair];
+      const ticker = tickers[pair.replace('_', '')];
+
+      if (!ticker) return undefined;
 
       return new Ticker({
         base,
         quote,
-        baseVolume: parseToFloat(ticker[4]),
-        close: parseToFloat(ticker[1]),
-        high: parseToFloat(ticker[2]),
-        low: parseToFloat(ticker[3]),
+        quoteVolume: parseToFloat(ticker.turnover),
+        baseVolume: parseToFloat(ticker.vol),
+        close: parseToFloat(ticker.last),
+        open: parseToFloat(ticker.open),
+        high: parseToFloat(ticker.high),
+        low: parseToFloat(ticker.low),
       });
     });
   }

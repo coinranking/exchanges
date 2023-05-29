@@ -13,24 +13,19 @@ class Kuna extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://kuna.io/api/v2/tickers');
-    const markets = Object.keys(tickers);
+    const { data: tickers } = await request('https://api.kuna.io/v4/markets/public/tickers');
 
-    return markets.map((market) => {
-      const pairs = /^([a-z]*)(uah|btc|usdt|rub)$/.exec(market);
-      if (!pairs) return undefined;
-      const [, base, quote] = pairs;
-
-      const { ticker } = tickers[market];
+    return tickers.map((ticker) => {
+      const [base, quote] = ticker.pair.split('_');
 
       return new Ticker({
         base,
         quote,
-        baseVolume: parseToFloat(ticker.vol),
-        open: parseToFloat(ticker.openPrice),
+        baseVolume: parseToFloat(ticker.baseVolume),
+        quoteVolume: parseToFloat(ticker.quoteVolume),
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
-        close: parseToFloat(ticker.last),
+        close: parseToFloat(ticker.price),
       });
     });
   }

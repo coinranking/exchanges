@@ -1,411 +1,515 @@
 [
     {
-        "scope": "https://kuna.io:443",
+        "scope": "https://api.kuna.io:443",
         "method": "GET",
-        "path": "/api/v2/tickers",
+        "path": "/v4/markets/public/tickers",
         "body": "",
         "status": 200,
         "response": {
-            "btcuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "255677.0",
-                    "sell": "256885.0",
-                    "low": "255002.0",
-                    "high": "263500.0",
-                    "last": "255658.0",
-                    "vol": "17.448339",
-                    "price": "4521288.719176"
+            "data": [
+                {
+                    "pair": "USDT_EUR",
+                    "percentagePriceChange": "-0.0019946535060661546",
+                    "price": "0.9726",
+                    "equivalentPrice": "",
+                    "high": "0.97357",
+                    "low": "0.97067",
+                    "baseVolume": "2038.47772",
+                    "quoteVolume": "1980.6987823541",
+                    "bestBidPrice": "0",
+                    "bestAskPrice": "0.999",
+                    "priceChange": "-0.0019399999999999418"
+                },
+                {
+                    "pair": "XRP_USDT",
+                    "percentagePriceChange": "0.016542855359260904",
+                    "price": "0.48057",
+                    "equivalentPrice": "",
+                    "high": "0.485",
+                    "low": "0.47202",
+                    "baseVolume": "9927.257",
+                    "quoteVolume": "4780.617602857001",
+                    "bestBidPrice": "0.48119000000000001",
+                    "bestAskPrice": "0.48337000000000002",
+                    "priceChange": "0.007950000000000013"
+                },
+                {
+                    "pair": "DAI_UAH",
+                    "percentagePriceChange": "0.001805054151624556",
+                    "price": "38.78",
+                    "equivalentPrice": "",
+                    "high": "38.8",
+                    "low": "38.72",
+                    "baseVolume": "24.599999999999998",
+                    "quoteVolume": "954.3075999999999",
+                    "bestBidPrice": "38.770000000000003",
+                    "bestAskPrice": "40.229999999999997",
+                    "priceChange": "0.07000000000000028"
+                },
+                {
+                    "pair": "BCH_UAH",
+                    "percentagePriceChange": "0.01685513121399616",
+                    "price": "4687",
+                    "equivalentPrice": "",
+                    "high": "4720",
+                    "low": "4460",
+                    "baseVolume": "68.32226399999999",
+                    "quoteVolume": "315571.19952599995",
+                    "bestBidPrice": "4688",
+                    "bestAskPrice": "4720",
+                    "priceChange": "79"
+                },
+                {
+                    "pair": "BCH_USDT",
+                    "percentagePriceChange": "0.01198275862068966",
+                    "price": "116",
+                    "equivalentPrice": "",
+                    "high": "116",
+                    "low": "113.73",
+                    "baseVolume": "1.5315360000000002",
+                    "quoteVolume": "175.65263165",
+                    "bestBidPrice": "115.59999999999999",
+                    "bestAskPrice": "116.16",
+                    "priceChange": "1.3900000000000006"
+                },
+                {
+                    "pair": "LINK_UAH",
+                    "percentagePriceChange": "0.03246268656716414",
+                    "price": "268",
+                    "equivalentPrice": "",
+                    "high": "268",
+                    "low": "256.66",
+                    "baseVolume": "901.6253739999997",
+                    "quoteVolume": "238038.94245855",
+                    "bestBidPrice": "262.88",
+                    "bestAskPrice": "267",
+                    "priceChange": "8.699999999999989"
+                },
+                {
+                    "pair": "USDT_UAH",
+                    "percentagePriceChange": "-0.0014851485148515415",
+                    "price": "40.4",
+                    "equivalentPrice": "",
+                    "high": "40.6",
+                    "low": "40.33",
+                    "baseVolume": "76626.48",
+                    "quoteVolume": "3100005.0991999987",
+                    "bestBidPrice": "40.399999999999999",
+                    "bestAskPrice": "40.460000000000001",
+                    "priceChange": "-0.060000000000002274"
+                },
+                {
+                    "pair": "USDC_UAH",
+                    "percentagePriceChange": "0.014954645746506482",
+                    "price": "40.79",
+                    "equivalentPrice": "",
+                    "high": "40.83",
+                    "low": "39.33",
+                    "baseVolume": "659.3",
+                    "quoteVolume": "26180.508599999997",
+                    "bestBidPrice": "39.390000000000001",
+                    "bestAskPrice": "40.780000000000001",
+                    "priceChange": "0.6099999999999994"
+                },
+                {
+                    "pair": "TRX_UAH",
+                    "percentagePriceChange": "-0.003206155819172743",
+                    "price": "3.119",
+                    "equivalentPrice": "",
+                    "high": "3.224",
+                    "low": "3.085",
+                    "baseVolume": "198984.41819999996",
+                    "quoteVolume": "624111.8058448998",
+                    "bestBidPrice": "3.1269999999999998",
+                    "bestAskPrice": "3.1499999999999999",
+                    "priceChange": "-0.009999999999999787"
+                },
+                {
+                    "pair": "BTC_USDC",
+                    "percentagePriceChange": "0.027342164495775062",
+                    "price": "27101",
+                    "equivalentPrice": "",
+                    "high": "29200",
+                    "low": "27101",
+                    "baseVolume": "0.001024",
+                    "quoteVolume": "28.785443",
+                    "bestBidPrice": "27101.009999999998",
+                    "bestAskPrice": "29200",
+                    "priceChange": "741"
+                },
+                {
+                    "pair": "BTC_UAH",
+                    "percentagePriceChange": "0.0364428570043395",
+                    "price": "1134461",
+                    "equivalentPrice": "",
+                    "high": "1145421",
+                    "low": "1080300",
+                    "baseVolume": "1.561393",
+                    "quoteVolume": "1739506.1211649992",
+                    "bestBidPrice": "1129420",
+                    "bestAskPrice": "1134713",
+                    "priceChange": "41343"
+                },
+                {
+                    "pair": "UNI_UAH",
+                    "percentagePriceChange": "0.01186216361943036",
+                    "price": "204.01",
+                    "equivalentPrice": "",
+                    "high": "219",
+                    "low": "196.17",
+                    "baseVolume": "270.7049219999999",
+                    "quoteVolume": "55840.18622530999",
+                    "bestBidPrice": "204.00999999999999",
+                    "bestAskPrice": "214.00999999999999",
+                    "priceChange": "2.4199999999999875"
+                },
+                {
+                    "pair": "ETH_BTC",
+                    "percentagePriceChange": "-0.011203566121842565",
+                    "price": "0.0673",
+                    "equivalentPrice": "",
+                    "high": "0.068055",
+                    "low": "0.0673",
+                    "baseVolume": "1.000192",
+                    "quoteVolume": "0.067738380181",
+                    "bestBidPrice": "0.067301",
+                    "bestAskPrice": "0.067901000000000003",
+                    "priceChange": "-0.0007540000000000047"
+                },
+                {
+                    "pair": "DASH_UAH",
+                    "percentagePriceChange": "0.005733944954128441",
+                    "price": "1744",
+                    "equivalentPrice": "",
+                    "high": "1780",
+                    "low": "1682",
+                    "baseVolume": "35.5935",
+                    "quoteVolume": "62873.25250000001",
+                    "bestBidPrice": "1703",
+                    "bestAskPrice": "1770",
+                    "priceChange": "10"
+                },
+                {
+                    "pair": "ETHW_USDT",
+                    "percentagePriceChange": "0.033503955328059595",
+                    "price": "2.149",
+                    "equivalentPrice": "",
+                    "high": "2.177",
+                    "low": "1.95",
+                    "baseVolume": "19.449782000000003",
+                    "quoteVolume": "39.228559069",
+                    "bestBidPrice": "1.95",
+                    "bestAskPrice": "2.1389999999999998",
+                    "priceChange": "0.07200000000000006"
+                },
+                {
+                    "pair": "ETHW_UAH",
+                    "percentagePriceChange": "-0.015363647627307759",
+                    "price": "80.71",
+                    "equivalentPrice": "",
+                    "high": "83.5",
+                    "low": "80.41",
+                    "baseVolume": "100.464487",
+                    "quoteVolume": "8341.178251259998",
+                    "bestBidPrice": "81.010000000000005",
+                    "bestAskPrice": "81.930000000000007",
+                    "priceChange": "-1.240000000000009"
+                },
+                {
+                    "pair": "LTC_USDT",
+                    "percentagePriceChange": "0.014912280701754379",
+                    "price": "91.2",
+                    "equivalentPrice": "",
+                    "high": "92.1",
+                    "low": "89.02",
+                    "baseVolume": "60.724449",
+                    "quoteVolume": "5473.151767209998",
+                    "bestBidPrice": "91.230000000000004",
+                    "bestAskPrice": "91.469999999999999",
+                    "priceChange": "1.3599999999999994"
+                },
+                {
+                    "pair": "BTC_USD",
+                    "percentagePriceChange": "0.03541904465428384",
+                    "price": "28911",
+                    "equivalentPrice": "",
+                    "high": "28911",
+                    "low": "27202.02",
+                    "baseVolume": "0.022866",
+                    "quoteVolume": "654.76989001",
+                    "bestBidPrice": "27300.02",
+                    "bestAskPrice": "28910.990000000002",
+                    "priceChange": "1024"
+                },
+                {
+                    "pair": "KUN_USDT",
+                    "percentagePriceChange": "1",
+                    "price": "2.34",
+                    "equivalentPrice": "",
+                    "high": "2.34",
+                    "low": "2.29",
+                    "baseVolume": "28.970000000000006",
+                    "quoteVolume": "67.44810000000001",
+                    "bestBidPrice": "2.29",
+                    "bestAskPrice": "2.3399999999999999",
+                    "priceChange": "2.34"
+                },
+                {
+                    "pair": "USDT_USD",
+                    "percentagePriceChange": "0",
+                    "price": "1.031",
+                    "equivalentPrice": "",
+                    "high": "1.047",
+                    "low": "1.031",
+                    "baseVolume": "636.5630000000001",
+                    "quoteVolume": "656.940965",
+                    "bestBidPrice": "1.0309999999999999",
+                    "bestAskPrice": "1.0469999999999999",
+                    "priceChange": "0"
+                },
+                {
+                    "pair": "XRP_UAH",
+                    "percentagePriceChange": "0.012563596718928505",
+                    "price": "19.262",
+                    "equivalentPrice": "",
+                    "high": "19.59",
+                    "low": "18.911",
+                    "baseVolume": "11876.3709",
+                    "quoteVolume": "228737.76924050009",
+                    "bestBidPrice": "19.405000000000001",
+                    "bestAskPrice": "19.41",
+                    "priceChange": "0.24200000000000088"
+                },
+                {
+                    "pair": "DASH_USDT",
+                    "percentagePriceChange": "0.0147942672214517",
+                    "price": "43.26",
+                    "equivalentPrice": "",
+                    "high": "44",
+                    "low": "42.6",
+                    "baseVolume": "19.7812",
+                    "quoteVolume": "864.4595609999999",
+                    "bestBidPrice": "43.469999999999999",
+                    "bestAskPrice": "43.649999999999999",
+                    "priceChange": "0.6400000000000006"
+                },
+                {
+                    "pair": "DOGE_UAH",
+                    "percentagePriceChange": "-0.0036063008199231673",
+                    "price": "2.9393",
+                    "equivalentPrice": "",
+                    "high": "2.97",
+                    "low": "2.8922",
+                    "baseVolume": "59968.47179999999",
+                    "quoteVolume": "176646.93080124998",
+                    "bestBidPrice": "2.9262000000000001",
+                    "bestAskPrice": "2.9575999999999998",
+                    "priceChange": "-0.010600000000000165"
+                },
+                {
+                    "pair": "TRX_USDT",
+                    "percentagePriceChange": "0.005670103092783453",
+                    "price": "0.0776",
+                    "equivalentPrice": "",
+                    "high": "0.0779",
+                    "low": "0.07671",
+                    "baseVolume": "32593.5403",
+                    "quoteVolume": "2513.525822821",
+                    "bestBidPrice": "0.077619999999999995",
+                    "bestAskPrice": "0.077950000000000005",
+                    "priceChange": "0.00043999999999999595"
+                },
+                {
+                    "pair": "DOGE_USDT",
+                    "percentagePriceChange": "0.007385120350109392",
+                    "price": "0.07312",
+                    "equivalentPrice": "",
+                    "high": "0.07383",
+                    "low": "0.07213",
+                    "baseVolume": "48342.106100000005",
+                    "quoteVolume": "3501.8446451720006",
+                    "bestBidPrice": "0.07324",
+                    "bestAskPrice": "0.073510000000000006",
+                    "priceChange": "0.0005399999999999988"
+                },
+                {
+                    "pair": "EOS_UAH",
+                    "percentagePriceChange": "-0.028848821081830966",
+                    "price": "36.05",
+                    "equivalentPrice": "",
+                    "high": "37.99",
+                    "low": "35.98",
+                    "baseVolume": "3216.7251629999996",
+                    "quoteVolume": "119158.91271004999",
+                    "bestBidPrice": "36.009999999999998",
+                    "bestAskPrice": "36.950000000000003",
+                    "priceChange": "-1.0400000000000063"
+                },
+                {
+                    "pair": "EVER_USDT",
+                    "percentagePriceChange": "-0.002469135802469035",
+                    "price": "0.0405",
+                    "equivalentPrice": "",
+                    "high": "0.0485",
+                    "low": "0.0405",
+                    "baseVolume": "9756.18756",
+                    "quoteVolume": "404.13229540100014",
+                    "bestBidPrice": "0.040500000000000001",
+                    "bestAskPrice": "0.047899999999999998",
+                    "priceChange": "-9.999999999999593e-05"
+                },
+                {
+                    "pair": "LTC_UAH",
+                    "percentagePriceChange": "0.023519870235198703",
+                    "price": "3699",
+                    "equivalentPrice": "",
+                    "high": "3909",
+                    "low": "3590",
+                    "baseVolume": "99.63139999999993",
+                    "quoteVolume": "365043.3786000001",
+                    "bestBidPrice": "3669",
+                    "bestAskPrice": "3728",
+                    "priceChange": "87"
+                },
+                {
+                    "pair": "SHIB_UAH",
+                    "percentagePriceChange": "0.016713091922005523",
+                    "price": "0.000359",
+                    "equivalentPrice": "",
+                    "high": "0.000359",
+                    "low": "0.000349",
+                    "baseVolume": "40712346",
+                    "quoteVolume": "14433.211178600002",
+                    "bestBidPrice": "0.00035199999999999999",
+                    "bestAskPrice": "0.00035799999999999997",
+                    "priceChange": "5.999999999999983e-06"
+                },
+                {
+                    "pair": "XLM_UAH",
+                    "percentagePriceChange": "0",
+                    "price": "3.58",
+                    "equivalentPrice": "",
+                    "high": "3.59",
+                    "low": "3.53",
+                    "baseVolume": "30671.660724999987",
+                    "quoteVolume": "109686.86046935602",
+                    "bestBidPrice": "3.581",
+                    "bestAskPrice": "3.5899999999999999",
+                    "priceChange": "0"
+                },
+                {
+                    "pair": "XLM_USDT",
+                    "percentagePriceChange": "0.016891891891891907",
+                    "price": "0.0888",
+                    "equivalentPrice": "",
+                    "high": "0.0889",
+                    "low": "0.0879",
+                    "baseVolume": "6616.1783000000005",
+                    "quoteVolume": "585.0437882199999",
+                    "bestBidPrice": "0.088700000000000001",
+                    "bestAskPrice": "0.089700000000000002",
+                    "priceChange": "0.0015000000000000013"
+                },
+                {
+                    "pair": "ZEC_UAH",
+                    "percentagePriceChange": "0.03272727272727273",
+                    "price": "1375",
+                    "equivalentPrice": "",
+                    "high": "1386",
+                    "low": "1260",
+                    "baseVolume": "24.961799999999993",
+                    "quoteVolume": "33974.866799999996",
+                    "bestBidPrice": "1362",
+                    "bestAskPrice": "1374",
+                    "priceChange": "45"
+                },
+                {
+                    "pair": "SHIB_USDT",
+                    "percentagePriceChange": "-0.005681818181818127",
+                    "price": "8.8e-06",
+                    "equivalentPrice": "",
+                    "high": "0.00000894",
+                    "low": "0.00000737",
+                    "baseVolume": "16129067",
+                    "quoteVolume": "122.22413349000001",
+                    "bestBidPrice": "7.7200000000000006e-06",
+                    "bestAskPrice": "8.9199999999999993e-06",
+                    "priceChange": "-4.999999999999952e-08"
+                },
+                {
+                    "pair": "USDT_USDC",
+                    "percentagePriceChange": "0",
+                    "price": "1.002",
+                    "equivalentPrice": "",
+                    "high": "1.002",
+                    "low": "1.001",
+                    "baseVolume": "296.9651",
+                    "quoteVolume": "297.50303110000004",
+                    "bestBidPrice": "1.0009999999999999",
+                    "bestAskPrice": "1.002",
+                    "priceChange": "0"
+                },
+                {
+                    "pair": "BTC_USDT",
+                    "percentagePriceChange": "0.030368641042991786",
+                    "price": "27974.91",
+                    "equivalentPrice": "",
+                    "high": "28394.37",
+                    "low": "27087.51",
+                    "baseVolume": "3.449701000000002",
+                    "quoteVolume": "95739.08031695",
+                    "bestBidPrice": "27972.189999999999",
+                    "bestAskPrice": "28027.669999999998",
+                    "priceChange": "849.5600000000013"
+                },
+                {
+                    "pair": "ETH_USDT",
+                    "percentagePriceChange": "0.023643584146437704",
+                    "price": "1901.15",
+                    "equivalentPrice": "",
+                    "high": "1925.95",
+                    "low": "1837.25",
+                    "baseVolume": "15.051036999999996",
+                    "quoteVolume": "28687.06275172",
+                    "bestBidPrice": "1902.1400000000001",
+                    "bestAskPrice": "1908.55",
+                    "priceChange": "44.950000000000045"
+                },
+                {
+                    "pair": "ETH_UAH",
+                    "percentagePriceChange": "0.008103920867596233",
+                    "price": "75519",
+                    "equivalentPrice": "",
+                    "high": "77888",
+                    "low": "73500",
+                    "baseVolume": "8.156073999999995",
+                    "quoteVolume": "617306.8323770001",
+                    "bestBidPrice": "76362",
+                    "bestAskPrice": "76987",
+                    "priceChange": "612"
                 }
-            },
-            "ethuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "4507.0",
-                    "sell": "4550.0",
-                    "low": "4485.0",
-                    "high": "4600.0",
-                    "last": "4518.0",
-                    "vol": "221.773421",
-                    "price": "1006833.462662"
-                }
-            },
-            "wavesuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "26.33",
-                    "sell": "26.78",
-                    "low": "26.33",
-                    "high": "27.88",
-                    "last": "26.33",
-                    "vol": "967.38511",
-                    "price": "26134.86777027"
-                }
-            },
-            "kunbtc": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "0.000569",
-                    "sell": "0.000658",
-                    "low": "0.000569",
-                    "high": "0.000631",
-                    "last": "0.000608",
-                    "vol": "195.0",
-                    "price": "0.118642"
-                }
-            },
-            "bchuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "7494.0",
-                    "sell": "7705.0",
-                    "low": "7495.0",
-                    "high": "7798.0",
-                    "last": "7780.0",
-                    "vol": "4.563372",
-                    "price": "34549.007639"
-                }
-            },
-            "xrpuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "6.51",
-                    "sell": "6.53",
-                    "low": "6.42",
-                    "high": "6.6",
-                    "last": "6.51",
-                    "vol": "29549.151",
-                    "price": "191816.466219"
-                }
-            },
-            "hknbtc": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "0.000013",
-                    "sell": "0.000021",
-                    "low": "0.000012",
-                    "high": "0.000032",
-                    "last": "0.000018",
-                    "vol": "2345.7906",
-                    "price": "0.0415233796"
-                }
-            },
-            "xlmuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "1.52",
-                    "sell": "1.54",
-                    "low": "1.5",
-                    "high": "1.57",
-                    "last": "1.52",
-                    "vol": "138501.15046",
-                    "price": "212697.65473911"
-                }
-            },
-            "tusduah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "25.04",
-                    "sell": "25.41",
-                    "low": "25.02",
-                    "high": "25.59",
-                    "last": "25.03",
-                    "vol": "1155.66",
-                    "price": "29381.8089"
-                }
-            },
-            "eosuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "96.07",
-                    "sell": "97.25",
-                    "low": "96.04",
-                    "high": "99.0",
-                    "last": "97.53",
-                    "vol": "294.45541",
-                    "price": "28772.94046512"
-                }
-            },
-            "ltcuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "1778.0",
-                    "sell": "1799.0",
-                    "low": "1732.0",
-                    "high": "1900.0",
-                    "last": "1780.0",
-                    "vol": "100.8275",
-                    "price": "178251.092"
-                }
-            },
-            "dashuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "2091.0",
-                    "sell": "2167.0",
-                    "low": "2075.0",
-                    "high": "2227.0",
-                    "last": "2172.0",
-                    "vol": "19.095",
-                    "price": "41886.9391"
-                }
-            },
-            "zecuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "1142.0",
-                    "sell": "1157.0",
-                    "low": "1136.0",
-                    "high": "1203.0",
-                    "last": "1142.0",
-                    "vol": "46.1416",
-                    "price": "54277.0568"
-                }
-            },
-            "xemuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "1.16",
-                    "sell": "1.18",
-                    "low": "1.15",
-                    "high": "1.2",
-                    "last": "1.17",
-                    "vol": "3998.8943",
-                    "price": "4710.873463"
-                }
-            },
-            "remuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "0.0936",
-                    "sell": "0.0948",
-                    "low": "0.09",
-                    "high": "0.0949",
-                    "last": "0.0941",
-                    "vol": "264894.860511",
-                    "price": "24573.74944599"
-                }
-            },
-            "krbuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "1.87",
-                    "sell": "1.88",
-                    "low": "1.69",
-                    "high": "1.88",
-                    "last": "1.88",
-                    "vol": "5124.2101",
-                    "price": "8951.037914"
-                }
-            },
-            "eosbtc": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "0.000311",
-                    "sell": "0.00038",
-                    "low": "0.00037",
-                    "high": "0.000385",
-                    "last": "0.000378",
-                    "vol": "4.338383",
-                    "price": "0.001648999681"
-                }
-            },
-            "ethbtc": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "0.017454",
-                    "sell": "0.017669",
-                    "low": "0.016356",
-                    "high": "0.017794",
-                    "last": "0.017357",
-                    "vol": "1.097019",
-                    "price": "0.019089140167"
-                }
-            },
-            "btcusdt": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "10197.64",
-                    "sell": "10296.02",
-                    "low": "10193.92",
-                    "high": "10391.14",
-                    "last": "10200.43",
-                    "vol": "0.111216",
-                    "price": "1140.30777008"
-                }
-            },
-            "btcusd": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "10700.0",
-                    "sell": "10916.06",
-                    "low": "10700.0",
-                    "high": "11137.85",
-                    "last": "10872.11",
-                    "vol": "0.52021",
-                    "price": "5634.23116472"
-                }
-            },
-            "usdtuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "24.86",
-                    "sell": "25.06",
-                    "low": "24.75",
-                    "high": "25.26",
-                    "last": "24.84",
-                    "vol": "15843.7",
-                    "price": "396751.0156"
-                }
-            },
-            "usdtrub": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "64.92",
-                    "sell": "67.93",
-                    "low": "65.35",
-                    "high": "67.93",
-                    "last": "66.34",
-                    "vol": "262.8",
-                    "price": "17336.3008"
-                }
-            },
-            "btcrub": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "671163.28",
-                    "sell": "685974.99",
-                    "low": "643265.92",
-                    "high": "701732.0",
-                    "last": "668866.59",
-                    "vol": "0.013572",
-                    "price": "9030.90234085"
-                }
-            },
-            "dreambtc": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "0.00000291",
-                    "sell": "0.00000306",
-                    "low": "0.00000285",
-                    "high": "0.0000031",
-                    "last": "0.00000295",
-                    "vol": "105768.661064",
-                    "price": "0.31480750189196"
-                }
-            },
-            "dreamuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "0.75",
-                    "sell": "0.78",
-                    "low": "0.72",
-                    "high": "0.84",
-                    "last": "0.76",
-                    "vol": "80988.702172",
-                    "price": "61831.79048926"
-                }
-            },
-            "ptibtc": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "0.00000028",
-                    "sell": "0.0000003",
-                    "low": "0.00000028",
-                    "high": "0.00000029",
-                    "last": "0.00000028",
-                    "vol": "1125108.0",
-                    "price": "0.31545613"
-                }
-            },
-            "ptiuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "0.0721",
-                    "sell": "0.0742",
-                    "low": "0.072",
-                    "high": "0.0742",
-                    "last": "0.0729",
-                    "vol": "619700.9102",
-                    "price": "45216.70225202"
-                }
-            },
-            "bnbuah": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "552.57",
-                    "sell": "559.82",
-                    "low": "549.85",
-                    "high": "567.16",
-                    "last": "556.06",
-                    "vol": "105.491",
-                    "price": "58841.80997"
-                }
-            },
-            "bnbrub": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "1452.43",
-                    "sell": "1484.59",
-                    "low": "1460.86",
-                    "high": "1501.78",
-                    "last": "1463.21",
-                    "vol": "70.37",
-                    "price": "103990.89288"
-                }
-            },
-            "ethrub": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "11857.26",
-                    "sell": "12120.3",
-                    "low": "11900.56",
-                    "high": "12266.57",
-                    "last": "12021.13",
-                    "vol": "3.64806",
-                    "price": "44014.32519716"
-                }
-            },
-            "xrprub": {
-                "at": 1568120653,
-                "ticker": {
-                    "buy": "17.19",
-                    "sell": "17.58",
-                    "low": "17.14",
-                    "high": "17.47",
-                    "last": "17.24",
-                    "vol": "1348.7182",
-                    "price": "23287.741379"
-                }
-            }
+            ]
         },
         "rawHeaders": [
             "Date",
-            "Tue, 10 Sep 2019 13:04:13 GMT",
+            "Mon, 29 May 2023 06:01:14 GMT",
             "Content-Type",
-            "application/json",
+            "application/json; charset=utf-8",
             "Transfer-Encoding",
             "chunked",
             "Connection",
             "keep-alive",
-            "Set-Cookie",
-            "__cfduid=d073548877bb13eed005f3d42b99130cb1568120653; expires=Wed, 09-Sep-20 13:04:13 GMT; path=/; domain=.kuna.io; HttpOnly",
-            "Access-Control-Allow-Origin",
+            "vary",
+            "Origin",
+            "access-control-allow-origin",
             "*",
-            "ETag",
-            "W/\"be15173469e7db64c75210beaa614433\"",
-            "Cache-Control",
-            "max-age=0, private, must-revalidate",
-            "X-Request-Id",
-            "91eb4809-e397-4762-9756-e1b464fef7af",
-            "X-Runtime",
-            "0.144717",
-            "Strict-Transport-Security",
-            "max-age=31536000",
-            "Expect-CT",
-            "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+            "x-envoy-upstream-service-time",
+            "10",
+            "CF-Cache-Status",
+            "DYNAMIC",
             "Server",
             "cloudflare"
-        ]
+        ],
+        "responseIsBinary": false
     }
 ]

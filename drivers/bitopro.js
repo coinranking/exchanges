@@ -13,7 +13,7 @@ class Bitopro extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: tickers } = await request('https://api.bitopro.com/v2/tickers');
+    const { data: tickers } = await request('https://api.bitopro.com/v3/tickers');
 
     return tickers.map((ticker) => {
       const [base, quote] = ticker.pair.split('_');

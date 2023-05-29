@@ -13,20 +13,20 @@ class Okcoin extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://www.okcoin.com/api/spot/v3/instruments/ticker');
+    const { data: tickers } = await request('https://www.okcoin.com/api/v5/market/tickers?instType=SPOT');
 
     return tickers.map((ticker) => {
-      const [base, quote] = ticker.product_id.split('-');
+      const [base, quote] = ticker.instId.split('-');
 
       return new Ticker({
         base,
         quote,
-        quoteVolume: parseToFloat(ticker.quote_volume_24h),
-        baseVolume: parseToFloat(ticker.base_volume_24h),
+        quoteVolume: parseToFloat(ticker.volCcy24h),
+        baseVolume: parseToFloat(ticker.vol24h),
         close: parseToFloat(ticker.last),
-        open: parseToFloat(ticker.open_24h),
-        high: parseToFloat(ticker.high_24h),
-        low: parseToFloat(ticker.low_24h),
+        open: parseToFloat(ticker.open24h),
+        high: parseToFloat(ticker.high24h),
+        low: parseToFloat(ticker.low24h),
       });
     });
   }
