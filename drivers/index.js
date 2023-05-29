@@ -129,7 +129,6 @@ exports.Kucoin = require('./kucoin');
 exports.Kuna = require('./kuna');
 exports.Latoken = require('./latoken');
 exports.Lbank = require('./lbank');
-exports.Liquid = require('./liquid');
 exports.Litebit = require('./litebit');
 exports.Livecoin = require('./livecoin');
 exports.Loopring = require('./loopring');
