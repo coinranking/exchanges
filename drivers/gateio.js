@@ -15,6 +15,8 @@ class Gateio extends Driver {
   async fetchTickers() {
     const tickers = await request('https://api.gateio.ws/api/v4/spot/tickers');
 
+    // TODO: add https://www.gate.io/apiwap/getCoinInfo
+
     return tickers.map((ticker) => {
       const [base, quote] = ticker.currency_pair.split('_');
 

@@ -14,6 +14,10 @@ class Unisat extends Driver {
    */
   async fetchTickers() {
     const { data: { list: tickers } } = await request({
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: {},
       method: 'POST',
       url: 'https://market-api.unisat.io/unisat-market-v2/auction/brc20_types',
     });
