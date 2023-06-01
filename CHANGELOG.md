@@ -1,3 +1,10 @@
+## [3.96.1](https://github.com/coinranking/exchanges/compare/v3.96.0...v3.96.1) (2023-06-01)
+
+
+### Bug Fixes
+
+* **unisat:** change the API to v3 ([d563a53](https://github.com/coinranking/exchanges/commit/d563a53af52287faeab9f67e24ff6bad4825c6c6))
+
 # [3.96.0](https://github.com/coinranking/exchanges/compare/v3.95.1...v3.96.0) (2023-05-29)
 
 
