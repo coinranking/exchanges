@@ -19,7 +19,7 @@ class Unisat extends Driver {
       },
       body: {},
       method: 'POST',
-      url: 'https://market-api.unisat.io/unisat-market-v2/auction/brc20_types',
+      url: 'https://market-api.unisat.io/unisat-market-v3/brc20/auction/brc20_types_many',
     });
 
     return tickers.map((ticker) => {
