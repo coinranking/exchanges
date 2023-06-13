@@ -194,6 +194,7 @@ exports.Uniswap3polygon = require('./uniswap3polygon');
 exports.United = require('./united');
 exports.Unnamed = require('./unnamed');
 exports.Upbit = require('./upbit');
+exports.Versedex = require('./versedex');
 exports.Vindax = require('./vindax');
 exports.Vitex = require('./vitex');
 exports.Wavesexchange = require('./wavesexchange');
