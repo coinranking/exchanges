@@ -1,0 +1,217 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $exchangeName: String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                exchangeName: {in: [$exchangeName]}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-21T06:43:42.283Z",
+                "twentyFourHoursAgo": "2022-11-20T06:43:42.283Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "ethereum",
+                "exchangeName": "Verse Dex"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 3690.6970200125893,
+                            "quoteVolume": 2.119078865488254,
+                            "open": "0.0005773467458454818",
+                            "high": "0.0005773467458454818",
+                            "low": "0.0005707810575421489",
+                            "close": "0.0005707810575421489"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 26475.010248,
+                            "quoteVolume": 15.2058644428924,
+                            "open": "0.000569890490895167",
+                            "high": "0.000578566166673174",
+                            "low": "0.000569890490895167",
+                            "close": "0.0005713447235365962"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 2246.206572,
+                            "quoteVolume": 1.2903363453479586,
+                            "open": "0.0005769388469884788",
+                            "high": "0.0005769388469884788",
+                            "low": "0.0005720199512404018",
+                            "close": "0.0005720199512404018"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VERSE",
+                                "address": "0x249ca82617ec3dfb2589c4c17ab7ec9765350a18",
+                                "name": "Verse"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 29951785.052918542,
+                            "quoteVolume": 8.695322785715824,
+                            "open": "2.9424029994638795e-07",
+                            "high": "2.9424029994638795e-07",
+                            "low": "2.880497015202639e-07",
+                            "close": "2.880497015202639e-07"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DAI",
+                                "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                                "name": "Dai Stablecoin"
+                            },
+                            "baseVolume": 2.119078865488254,
+                            "quoteVolume": 3690.6970200125893,
+                            "open": "1732.0613776658142",
+                            "high": "1751.9852608741414",
+                            "low": "1732.0613776658142",
+                            "close": "1751.9852608741414"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "name": "USD//C"
+                            },
+                            "baseVolume": 15.2058644428924,
+                            "quoteVolume": 26475.010248,
+                            "open": "1754.7230844810722",
+                            "high": "1754.7230844810722",
+                            "low": "1728.4107810004205",
+                            "close": "1750.2568218536237"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 1.2903363453479586,
+                            "quoteVolume": 2246.206572,
+                            "open": "1733.285954343042",
+                            "high": "1748.1907717231559",
+                            "low": "1733.285954343042",
+                            "close": "1748.1907717231559"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VERSE",
+                                "address": "0x249ca82617ec3dfb2589c4c17ab7ec9765350a18",
+                                "name": "Verse"
+                            },
+                            "baseVolume": 8.695322785715824,
+                            "quoteVolume": 29951785.052918542,
+                            "open": "3398582.7236520792",
+                            "high": "3471623.107825548",
+                            "low": "3398582.7236520792",
+                            "close": "3471623.107825548"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 13 Jun 2023 09:09:45 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID",
+            "x-graphql-query-id",
+            "dsPRrhXM9HoKMV4h",
+            "x-graphql-requested",
+            "true",
+            "etag",
+            "W/\"1a822288d988302028f5eca1fc945f22\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "7c35c86e-eb3d-42a4-886e-5f4fd41ac165",
+            "x-runtime",
+            "0.069481",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]
