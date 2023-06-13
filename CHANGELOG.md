@@ -1,3 +1,10 @@
+# [3.97.0](https://github.com/coinranking/exchanges/compare/v3.96.1...v3.97.0) (2023-06-13)
+
+
+### Features
+
+* add versedex ([98d6a4f](https://github.com/coinranking/exchanges/commit/98d6a4fa15669bc002a8e0dc94390bf07082e921))
+
 ## [3.96.1](https://github.com/coinranking/exchanges/compare/v3.96.0...v3.96.1) (2023-06-01)
 
 
