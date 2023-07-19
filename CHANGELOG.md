@@ -1,3 +1,10 @@
+## [3.97.1](https://github.com/coinranking/exchanges/compare/v3.97.0...v3.97.1) (2023-07-19)
+
+
+### Bug Fixes
+
+* move uniswap v2 driver to bitquery ([c5121e5](https://github.com/coinranking/exchanges/commit/c5121e5eacfc4be8e8f1db9f4da7248c26160c26))
+
 # [3.97.0](https://github.com/coinranking/exchanges/compare/v3.96.1...v3.97.0) (2023-06-13)
 
 
