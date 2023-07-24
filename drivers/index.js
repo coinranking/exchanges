@@ -54,6 +54,7 @@ exports.Buyucoin = require('./buyucoin');
 exports.Bw = require('./bw');
 exports.Bxinth = require('./bxinth');
 exports.Bybit = require('./bybit');
+exports.Bydfi = require('./bydfi');
 exports.Cashpayz = require('./cashpayz');
 exports.Catex = require('./catex');
 exports.Ccryptoex = require('./ccryptoex');
