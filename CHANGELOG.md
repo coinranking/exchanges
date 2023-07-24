@@ -1,3 +1,10 @@
+# [3.98.0](https://github.com/coinranking/exchanges/compare/v3.97.1...v3.98.0) (2023-07-24)
+
+
+### Features
+
+* add Bydfi driver ([5ade8bc](https://github.com/coinranking/exchanges/commit/5ade8bce985092d05372e6df79c322e17840d60b))
+
 ## [3.97.1](https://github.com/coinranking/exchanges/compare/v3.97.0...v3.97.1) (2023-07-19)
 
 
