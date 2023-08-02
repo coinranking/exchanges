@@ -1,3 +1,10 @@
+## [3.98.1](https://github.com/coinranking/exchanges/compare/v3.98.0...v3.98.1) (2023-08-02)
+
+
+### Bug Fixes
+
+* bydfy endpoint was using futures, should be spot ([b6b0a00](https://github.com/coinranking/exchanges/commit/b6b0a004290af6aac7a71a48a9c9539ddf2659dd))
+
 # [3.98.0](https://github.com/coinranking/exchanges/compare/v3.97.1...v3.98.0) (2023-07-24)
 
 
