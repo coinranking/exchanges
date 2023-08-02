@@ -14,19 +14,22 @@ class Bydfi extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data: markets } = await request('https://www.bydfi.com/b2b/rank/contracts');
+    const { data } = await request('https://www.bydfi.com/b2b/rank/all');
+    const tickers = Object.keys(data).map((market) => {
+      const ticker = data[market];
 
-    const tickers = markets.map((market) => new Ticker({
-      base: market.base_currency,
-      quote: market.quote_currency,
-      baseVolume: parseToFloat(market.base_volume),
-      quoteVolume: parseToFloat(market.quote_volume),
-      high: parseToFloat(market.high),
-      low: parseToFloat(market.low),
-      close: parseToFloat(market.last_price),
-      ask: parseToFloat(market.ask),
-      bid: parseToFloat(market.bid),
-    }));
+      return new Ticker({
+        base: ticker.base_currency,
+        quote: ticker.quote_currency,
+        baseVolume: parseToFloat(ticker.base_volume),
+        quoteVolume: parseToFloat(ticker.quote_volume),
+        high: parseToFloat(ticker.highest_price_24h),
+        low: parseToFloat(ticker.lowest_price_24h),
+        close: parseToFloat(ticker.last_price),
+        ask: parseToFloat(ticker.lowest_ask),
+        bid: parseToFloat(ticker.highest_bid),
+      });
+    });
 
     return tickers;
   }
