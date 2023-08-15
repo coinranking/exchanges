@@ -1,3 +1,10 @@
+## [3.98.2](https://github.com/coinranking/exchanges/compare/v3.98.1...v3.98.2) (2023-08-15)
+
+
+### Bug Fixes
+
+* **traderogre:** quote volume should be base volume ([f973879](https://github.com/coinranking/exchanges/commit/f97387952b1ab4ba0ab544ad821930016b033957))
+
 ## [3.98.1](https://github.com/coinranking/exchanges/compare/v3.98.0...v3.98.1) (2023-08-02)
 
 
