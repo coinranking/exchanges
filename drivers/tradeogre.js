@@ -17,7 +17,7 @@ class Tradeogre extends Driver {
 
     return markets.map((market) => {
       const pair = Object.keys(market)[0];
-      const [quote, base] = pair.split('-');
+      const [base, quote] = pair.split('-');
       const ticker = market[pair];
 
       return new Ticker({
@@ -29,7 +29,7 @@ class Tradeogre extends Driver {
         open: parseToFloat(ticker.initialprice),
         bid: parseToFloat(ticker.bid),
         ask: parseToFloat(ticker.ask),
-        baseVolume: parseToFloat(ticker.volume),
+        quoteVolume: parseToFloat(ticker.volume),
       });
     });
   }
