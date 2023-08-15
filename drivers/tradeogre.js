@@ -29,7 +29,7 @@ class Tradeogre extends Driver {
         open: parseToFloat(ticker.initialprice),
         bid: parseToFloat(ticker.bid),
         ask: parseToFloat(ticker.ask),
-        quoteVolume: parseToFloat(ticker.volume),
+        baseVolume: parseToFloat(ticker.volume),
       });
     });
   }
