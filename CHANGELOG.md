@@ -1,3 +1,10 @@
+## [3.98.3](https://github.com/coinranking/exchanges/compare/v3.98.2...v3.98.3) (2023-08-15)
+
+
+### Bug Fixes
+
+* **tradeogre:** it looks like the pairs are reversed ([c1b3dfa](https://github.com/coinranking/exchanges/commit/c1b3dfa6d19b974826b818a63b0a7f7d310eacb2))
+
 ## [3.98.2](https://github.com/coinranking/exchanges/compare/v3.98.1...v3.98.2) (2023-08-15)
 
 
