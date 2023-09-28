@@ -1,0 +1,184 @@
+[
+    {
+        "scope": "https://market-api.ordifind.com:443",
+        "method": "GET",
+        "path": "/api/v1/tokenlist",
+        "body": "",
+        "status": 200,
+        "response": {
+            "isError": false,
+            "code": 200,
+            "data": [
+                {
+                    "Name": "dogi",
+                    "Supply": 21000000,
+                    "Holders": 1120,
+                    "Volume": 4462,
+                    "Price": "2.485"
+                },
+                {
+                    "Name": "xcom",
+                    "Supply": 10000000,
+                    "Holders": 72,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "lazo",
+                    "Supply": 1000000,
+                    "Holders": 213,
+                    "Volume": 0,
+                    "Price": "1.000"
+                },
+                {
+                    "Name": "oxbt",
+                    "Supply": 21000000,
+                    "Holders": 183,
+                    "Volume": 0,
+                    "Price": "1.000"
+                },
+                {
+                    "Name": "nguu",
+                    "Supply": 21000000,
+                    "Holders": 114,
+                    "Volume": 0,
+                    "Price": "2.000"
+                },
+                {
+                    "Name": "pokr",
+                    "Supply": 210000000,
+                    "Holders": 1300,
+                    "Volume": 0,
+                    "Price": "0.200"
+                },
+                {
+                    "Name": "musk",
+                    "Supply": 10000000000,
+                    "Holders": 26042,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "fiwb",
+                    "Supply": 1000000000,
+                    "Holders": 45668,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "doge",
+                    "Supply": 200000000000,
+                    "Holders": 974,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "pand",
+                    "Supply": 21000000,
+                    "Holders": 228,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "punk",
+                    "Supply": 42069000,
+                    "Holders": 4875,
+                    "Volume": 0,
+                    "Price": "0.100"
+                },
+                {
+                    "Name": "pump",
+                    "Supply": 1000000,
+                    "Holders": 1155,
+                    "Volume": 0,
+                    "Price": "65.000"
+                },
+                {
+                    "Name": "gsbc",
+                    "Supply": 1000000000,
+                    "Holders": 2,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "2137",
+                    "Supply": 2137,
+                    "Holders": 65,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "bank",
+                    "Supply": 100000000,
+                    "Holders": 6917,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "meme",
+                    "Supply": 21000000,
+                    "Holders": 1308,
+                    "Volume": 0,
+                    "Price": "0.157"
+                },
+                {
+                    "Name": "fbwk",
+                    "Supply": 21000000,
+                    "Holders": 2,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "mzyd",
+                    "Supply": 1000000,
+                    "Holders": 137,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "elon",
+                    "Supply": 21000000,
+                    "Holders": 1786,
+                    "Volume": 0,
+                    "Price": "0.000"
+                },
+                {
+                    "Name": "bone",
+                    "Supply": 21000000,
+                    "Holders": 1322,
+                    "Volume": 0,
+                    "Price": "0.100"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Date",
+            "Thu, 28 Sep 2023 07:36:58 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-powered-by",
+            "Express",
+            "access-control-allow-origin",
+            "*",
+            "etag",
+            "W/\"611-1jWGlqaKYgHaGAcXlwUF8J6e3bA\"",
+            "vary",
+            "Accept-Encoding",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=lIb3z7YEefP95ezbugDrjWpupodW1UYnxHoXoGY2f2uH2gKHH84PhJw4JycI4gGGQb%2F5PdykY%2BPI1QrAmshYHB5O3mf64xUKhXy6o3VkebfpB6eUwgWwout2%2BCG9Sk7hEFQ7yue3thCkg8QyLylUgvQJytJAkw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare",
+            "CF-RAY",
+            "80da515199b813e1-KUL"
+        ],
+        "responseIsBinary": false
+    }
+]
