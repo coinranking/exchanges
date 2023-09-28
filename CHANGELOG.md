@@ -1,3 +1,15 @@
+# [3.99.0](https://github.com/coinranking/exchanges/compare/v3.98.3...v3.99.0) (2023-09-28)
+
+
+### Bug Fixes
+
+* file is not uppercase ([426bfec](https://github.com/coinranking/exchanges/commit/426bfecf8d242f13555a03f01db3cd38a4fbe381))
+
+
+### Features
+
+* add support for Doggy ([3242ffb](https://github.com/coinranking/exchanges/commit/3242ffbb7baacdd54ff4dca2772894a4780f841a))
+
 ## [3.98.3](https://github.com/coinranking/exchanges/compare/v3.98.2...v3.98.3) (2023-08-15)
 
 
