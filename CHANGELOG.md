@@ -1,3 +1,10 @@
+# [3.101.0](https://github.com/coinranking/exchanges/compare/v3.100.0...v3.101.0) (2023-09-28)
+
+
+### Features
+
+* add reference for Doggy ([58da5f7](https://github.com/coinranking/exchanges/commit/58da5f7c9e33520b989c78a915d3279efe15ac12))
+
 # [3.100.0](https://github.com/coinranking/exchanges/compare/v3.99.0...v3.100.0) (2023-09-28)
 
 
