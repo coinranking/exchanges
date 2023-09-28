@@ -21,6 +21,7 @@ class Doggy extends Driver {
 
       return new Ticker({
         base,
+        baseReference: ticker.inscriptionId,
         quote,
         quoteVolume: parseToFloat(ticker.volume),
         open: parseToFloat(ticker.firstPrice),
