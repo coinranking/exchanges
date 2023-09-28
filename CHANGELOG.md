@@ -1,3 +1,10 @@
+## [3.101.1](https://github.com/coinranking/exchanges/compare/v3.101.0...v3.101.1) (2023-09-28)
+
+
+### Bug Fixes
+
+* update API Poloniex ([c7e3c43](https://github.com/coinranking/exchanges/commit/c7e3c432acd71d2a57ad6a4848ef460ecff9ff6f))
+
 # [3.101.0](https://github.com/coinranking/exchanges/compare/v3.100.0...v3.101.0) (2023-09-28)
 
 
