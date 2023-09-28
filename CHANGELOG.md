@@ -1,3 +1,10 @@
+## [3.101.2](https://github.com/coinranking/exchanges/compare/v3.101.1...v3.101.2) (2023-09-28)
+
+
+### Bug Fixes
+
+* prices of Doggy were to high ([f118530](https://github.com/coinranking/exchanges/commit/f11853006d9a164e8c52171baedd34b410acd804))
+
 ## [3.101.1](https://github.com/coinranking/exchanges/compare/v3.101.0...v3.101.1) (2023-09-28)
 
 
