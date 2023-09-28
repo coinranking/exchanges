@@ -13,21 +13,20 @@ class Poloniex extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://poloniex.com/public?command=returnTicker');
-    const pairs = Object.keys(tickers);
+    const tickers = await request('https://api.poloniex.com/markets/ticker24h');
 
-    return pairs.map((pair) => {
-      const [quote, base] = pair.split('_');
-      const ticker = tickers[pair];
+    return tickers.map((ticker) => {
+      const [base, quote] = ticker.symbol.split('_');
 
       return new Ticker({
         base,
         quote,
-        quoteVolume: parseToFloat(ticker.baseVolume),
-        baseVolume: parseToFloat(ticker.quoteVolume),
-        close: parseToFloat(ticker.last),
-        high: parseToFloat(ticker.high24hr),
-        low: parseToFloat(ticker.low24hr),
+        baseVolume: parseToFloat(ticker.quantity),
+        quoteVolume: parseToFloat(ticker.amount),
+        open: parseToFloat(ticker.open),
+        high: parseToFloat(ticker.high),
+        low: parseToFloat(ticker.low),
+        close: parseToFloat(ticker.close),
       });
     });
   }
