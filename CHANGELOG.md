@@ -1,3 +1,10 @@
+# [3.100.0](https://github.com/coinranking/exchanges/compare/v3.99.0...v3.100.0) (2023-09-28)
+
+
+### Features
+
+* add support for Ordifind ([8cef52f](https://github.com/coinranking/exchanges/commit/8cef52f55f48f85fa30427ddf853df753ad9db48))
+
 # [3.99.0](https://github.com/coinranking/exchanges/compare/v3.98.3...v3.99.0) (2023-09-28)
 
 
