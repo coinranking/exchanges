@@ -23,9 +23,9 @@ class Doggy extends Driver {
         base,
         baseReference: ticker.inscriptionId,
         quote,
-        quoteVolume: parseToFloat(ticker.volume),
-        open: parseToFloat(ticker.firstPrice),
-        close: parseToFloat(ticker.lastPrice),
+        quoteVolume: parseToFloat(ticker.volume / 100000000),
+        open: parseToFloat(ticker.firstPrice / 100000000),
+        close: parseToFloat(ticker.lastPrice / 100000000),
       });
     });
   }
