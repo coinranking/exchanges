@@ -94,6 +94,7 @@ exports.Dinarexchanger = require('./dinarexchanger');
 exports.Dobitrade = require('./dobitrade');
 exports.Dodo = require('./dodo');
 exports.Doggy = require('./doggy');
+exports.Drc20org = require('./drc20org');
 exports.Drgx = require('./drgx');
 exports.Ethfinex = require('./ethfinex');
 exports.Eurobtc = require('./eurobtc');
