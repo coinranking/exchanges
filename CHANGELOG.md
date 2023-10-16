@@ -1,3 +1,10 @@
+## [3.102.1](https://github.com/coinranking/exchanges/compare/v3.102.0...v3.102.1) (2023-10-16)
+
+
+### Bug Fixes
+
+* **thorswap:** try to fix getting the swap data ([f5649fd](https://github.com/coinranking/exchanges/commit/f5649fd560794ce7c0df0bb26e5ec9e39d75cd97))
+
 # [3.102.0](https://github.com/coinranking/exchanges/compare/v3.101.2...v3.102.0) (2023-09-29)
 
 
