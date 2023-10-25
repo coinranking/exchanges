@@ -1,3 +1,10 @@
+# [3.103.0](https://github.com/coinranking/exchanges/compare/v3.102.1...v3.103.0) (2023-10-25)
+
+
+### Features
+
+* add mudrex driver ([04ba0c1](https://github.com/coinranking/exchanges/commit/04ba0c1dd5f5d809dbbeddbdbfa05e2f9150eead))
+
 ## [3.102.1](https://github.com/coinranking/exchanges/compare/v3.102.0...v3.102.1) (2023-10-16)
 
 
