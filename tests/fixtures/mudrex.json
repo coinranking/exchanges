@@ -1,0 +1,1516 @@
+[
+    {
+        "scope": "https://mudrex.com:443",
+        "method": "GET",
+        "path": "/api/coin-services/v1/tickers",
+        "body": "",
+        "status": 200,
+        "response": {
+            "success": true,
+            "data": [
+                {
+                    "last_price": 0.475,
+                    "ticker_id": "AVA_USDT",
+                    "base_currency": "AVA",
+                    "target_currency": "USDT",
+                    "low": 0.475,
+                    "high": 0.475,
+                    "base_volume": 44.26
+                },
+                {
+                    "last_price": 0.3258,
+                    "ticker_id": "OCEAN_USDT",
+                    "base_currency": "OCEAN",
+                    "target_currency": "USDT",
+                    "low": 0.3258,
+                    "high": 0.3258,
+                    "base_volume": 1587.92
+                },
+                {
+                    "last_price": 0.02253,
+                    "ticker_id": "ANKR_USDT",
+                    "base_currency": "ANKR",
+                    "target_currency": "USDT",
+                    "low": 0.02253,
+                    "high": 0.02253,
+                    "base_volume": 1520.46
+                },
+                {
+                    "last_price": 0.2842,
+                    "ticker_id": "1INCH_USDT",
+                    "base_currency": "1INCH",
+                    "target_currency": "USDT",
+                    "low": 0.2842,
+                    "high": 0.2842,
+                    "base_volume": 1466.22
+                },
+                {
+                    "last_price": 3.584,
+                    "ticker_id": "ICP_USDT",
+                    "base_currency": "ICP",
+                    "target_currency": "USDT",
+                    "low": 3.584,
+                    "high": 3.584,
+                    "base_volume": 1823.58
+                },
+                {
+                    "last_price": 34404.94,
+                    "ticker_id": "WBTC_USDT",
+                    "base_currency": "WBTC",
+                    "target_currency": "USDT",
+                    "low": 34404.94,
+                    "high": 34404.94,
+                    "base_volume": 12535.51
+                },
+                {
+                    "last_price": 0.472,
+                    "ticker_id": "CELO_USDT",
+                    "base_currency": "CELO",
+                    "target_currency": "USDT",
+                    "low": 0.472,
+                    "high": 0.472,
+                    "base_volume": 770.59
+                },
+                {
+                    "last_price": 0.2875,
+                    "ticker_id": "FET_USDT",
+                    "base_currency": "FET",
+                    "target_currency": "USDT",
+                    "low": 0.2874,
+                    "high": 0.2875,
+                    "base_volume": 5788.36
+                },
+                {
+                    "last_price": 0.01106,
+                    "ticker_id": "ONE_USDT",
+                    "base_currency": "ONE",
+                    "target_currency": "USDT",
+                    "low": 0.01106,
+                    "high": 0.01106,
+                    "base_volume": 920.47
+                },
+                {
+                    "last_price": 0.341,
+                    "ticker_id": "HIVE_USDT",
+                    "base_currency": "HIVE",
+                    "target_currency": "USDT",
+                    "low": 0.341,
+                    "high": 0.341,
+                    "base_volume": 476.23
+                },
+                {
+                    "last_price": 0.4444,
+                    "ticker_id": "LUNA_USDT",
+                    "base_currency": "LUNA",
+                    "target_currency": "USDT",
+                    "low": 0.4444,
+                    "high": 0.4444,
+                    "base_volume": 2727.03
+                },
+                {
+                    "last_price": 0.06595,
+                    "ticker_id": "CHZ_USDT",
+                    "base_currency": "CHZ",
+                    "target_currency": "USDT",
+                    "low": 0.06595,
+                    "high": 0.06595,
+                    "base_volume": 3034.2
+                },
+                {
+                    "last_price": 1.477,
+                    "ticker_id": "UMA_USDT",
+                    "base_currency": "UMA",
+                    "target_currency": "USDT",
+                    "low": 1.477,
+                    "high": 1.477,
+                    "base_volume": 425.58
+                },
+                {
+                    "last_price": 0.02386,
+                    "ticker_id": "SKL_USDT",
+                    "base_currency": "SKL",
+                    "target_currency": "USDT",
+                    "low": 0.02386,
+                    "high": 0.02386,
+                    "base_volume": 523.77
+                },
+                {
+                    "last_price": 0.3312,
+                    "ticker_id": "SAND_USDT",
+                    "base_currency": "SAND",
+                    "target_currency": "USDT",
+                    "low": 0.3312,
+                    "high": 0.3312,
+                    "base_volume": 3838.58
+                },
+                {
+                    "last_price": 0.1231,
+                    "ticker_id": "DUSK_USDT",
+                    "base_currency": "DUSK",
+                    "target_currency": "USDT",
+                    "low": 0.1231,
+                    "high": 0.1231,
+                    "base_volume": 402.36
+                },
+                {
+                    "last_price": 6.31,
+                    "ticker_id": "LPT_USDT",
+                    "base_currency": "LPT",
+                    "target_currency": "USDT",
+                    "low": 6.31,
+                    "high": 6.31,
+                    "base_volume": 2061.46
+                },
+                {
+                    "last_price": 99.2,
+                    "ticker_id": "QNT_USDT",
+                    "base_currency": "QNT",
+                    "target_currency": "USDT",
+                    "low": 99.2,
+                    "high": 99.2,
+                    "base_volume": 1298.84
+                },
+                {
+                    "last_price": 0.0516,
+                    "ticker_id": "HBAR_USDT",
+                    "base_currency": "HBAR",
+                    "target_currency": "USDT",
+                    "low": 0.0516,
+                    "high": 0.0516,
+                    "base_volume": 3625.75
+                },
+                {
+                    "last_price": 0.02693,
+                    "ticker_id": "JST_USDT",
+                    "base_currency": "JST",
+                    "target_currency": "USDT",
+                    "low": 0.02693,
+                    "high": 0.02693,
+                    "base_volume": 2255.8
+                },
+                {
+                    "last_price": 0.03647,
+                    "ticker_id": "TFUEL_USDT",
+                    "base_currency": "TFUEL",
+                    "target_currency": "USDT",
+                    "low": 0.03647,
+                    "high": 0.03647,
+                    "base_volume": 284.25
+                },
+                {
+                    "last_price": 1957,
+                    "ticker_id": "PAXG_USDT",
+                    "base_currency": "PAXG",
+                    "target_currency": "USDT",
+                    "low": 1957,
+                    "high": 1957,
+                    "base_volume": 409.31
+                },
+                {
+                    "last_price": 0.0641,
+                    "ticker_id": "MDX_USDT",
+                    "base_currency": "MDX",
+                    "target_currency": "USDT",
+                    "low": 0.0641,
+                    "high": 0.0641,
+                    "base_volume": 256.96
+                },
+                {
+                    "last_price": 0.1018,
+                    "ticker_id": "PHA_USDT",
+                    "base_currency": "PHA",
+                    "target_currency": "USDT",
+                    "low": 0.1018,
+                    "high": 0.1018,
+                    "base_volume": 337.73
+                },
+                {
+                    "last_price": 0.0924,
+                    "ticker_id": "GRT_USDT",
+                    "base_currency": "GRT",
+                    "target_currency": "USDT",
+                    "low": 0.0924,
+                    "high": 0.0924,
+                    "base_volume": 3051.11
+                },
+                {
+                    "last_price": 0.09333,
+                    "ticker_id": "TRX_USDT",
+                    "base_currency": "TRX",
+                    "target_currency": "USDT",
+                    "low": 0.09333,
+                    "high": 0.09333,
+                    "base_volume": 13322.54
+                },
+                {
+                    "last_price": 0.2381,
+                    "ticker_id": "ENJ_USDT",
+                    "base_currency": "ENJ",
+                    "target_currency": "USDT",
+                    "low": 0.2381,
+                    "high": 0.2381,
+                    "base_volume": 923.53
+                },
+                {
+                    "last_price": 0.624,
+                    "ticker_id": "NEXO_USDT",
+                    "base_currency": "NEXO",
+                    "target_currency": "USDT",
+                    "low": 0.624,
+                    "high": 0.624,
+                    "base_volume": 156.91
+                },
+                {
+                    "last_price": 1451,
+                    "ticker_id": "MKR_USDT",
+                    "base_currency": "MKR",
+                    "target_currency": "USDT",
+                    "low": 1451,
+                    "high": 1451,
+                    "base_volume": 5936.15
+                },
+                {
+                    "last_price": 1.0001,
+                    "ticker_id": "USDC_USDT",
+                    "base_currency": "USDC",
+                    "target_currency": "USDT",
+                    "low": 1.0001,
+                    "high": 1.0001,
+                    "base_volume": 0
+                },
+                {
+                    "last_price": 0.7021,
+                    "ticker_id": "STX_USDT",
+                    "base_currency": "STX",
+                    "target_currency": "USDT",
+                    "low": 0.7021,
+                    "high": 0.7022,
+                    "base_volume": 5037.93
+                },
+                {
+                    "last_price": 9.01,
+                    "ticker_id": "ZEN_USDT",
+                    "base_currency": "ZEN",
+                    "target_currency": "USDT",
+                    "low": 9.01,
+                    "high": 9.01,
+                    "base_volume": 584.87
+                },
+                {
+                    "last_price": 0.9987,
+                    "ticker_id": "TUSD_USDT",
+                    "base_currency": "TUSD",
+                    "target_currency": "USDT",
+                    "low": 0.9987,
+                    "high": 0.9987,
+                    "base_volume": 22787.44
+                },
+                {
+                    "last_price": 0.71,
+                    "ticker_id": "XTZ_USDT",
+                    "base_currency": "XTZ",
+                    "target_currency": "USDT",
+                    "low": 0.71,
+                    "high": 0.71,
+                    "base_volume": 1520.77
+                },
+                {
+                    "last_price": 0.000715,
+                    "ticker_id": "DENT_USDT",
+                    "base_currency": "DENT",
+                    "target_currency": "USDT",
+                    "low": 0.000715,
+                    "high": 0.000715,
+                    "base_volume": 134.75
+                },
+                {
+                    "last_price": 0.01892,
+                    "ticker_id": "VET_USDT",
+                    "base_currency": "VET",
+                    "target_currency": "USDT",
+                    "low": 0.01892,
+                    "high": 0.01892,
+                    "base_volume": 3512.3
+                },
+                {
+                    "last_price": 0.657,
+                    "ticker_id": "THETA_USDT",
+                    "base_currency": "THETA",
+                    "target_currency": "USDT",
+                    "low": 0.657,
+                    "high": 0.657,
+                    "base_volume": 1141.05
+                },
+                {
+                    "last_price": 0.001321,
+                    "ticker_id": "HOT_USDT",
+                    "base_currency": "HOT",
+                    "target_currency": "USDT",
+                    "low": 0.001321,
+                    "high": 0.001321,
+                    "base_volume": 850.28
+                },
+                {
+                    "last_price": 0.02834,
+                    "ticker_id": "XEM_USDT",
+                    "base_currency": "XEM",
+                    "target_currency": "USDT",
+                    "low": 0.02834,
+                    "high": 0.02834,
+                    "base_volume": 490.4
+                },
+                {
+                    "last_price": 0.01871,
+                    "ticker_id": "ZIL_USDT",
+                    "base_currency": "ZIL",
+                    "target_currency": "USDT",
+                    "low": 0.01871,
+                    "high": 0.01871,
+                    "base_volume": 1405.21
+                },
+                {
+                    "last_price": 0.3633,
+                    "ticker_id": "ELF_USDT",
+                    "base_currency": "ELF",
+                    "target_currency": "USDT",
+                    "low": 0.3633,
+                    "high": 0.3633,
+                    "base_volume": 450.93
+                },
+                {
+                    "last_price": 1.781,
+                    "ticker_id": "WAVES_USDT",
+                    "base_currency": "WAVES",
+                    "target_currency": "USDT",
+                    "low": 1.781,
+                    "high": 1.781,
+                    "base_volume": 12130.91
+                },
+                {
+                    "last_price": 0.00805,
+                    "ticker_id": "IOST_USDT",
+                    "base_currency": "IOST",
+                    "target_currency": "USDT",
+                    "low": 0.00805,
+                    "high": 0.00805,
+                    "base_volume": 320.4
+                },
+                {
+                    "last_price": 0.02017,
+                    "ticker_id": "IOTX_USDT",
+                    "base_currency": "IOTX",
+                    "target_currency": "USDT",
+                    "low": 0.02017,
+                    "high": 0.02017,
+                    "base_volume": 641.12
+                },
+                {
+                    "last_price": 0.01588,
+                    "ticker_id": "RVN_USDT",
+                    "base_currency": "RVN",
+                    "target_currency": "USDT",
+                    "low": 0.01588,
+                    "high": 0.01588,
+                    "base_volume": 496.29
+                },
+                {
+                    "last_price": 0.1542,
+                    "ticker_id": "IOTA_USDT",
+                    "base_currency": "IOTA",
+                    "target_currency": "USDT",
+                    "low": 0.1542,
+                    "high": 0.1542,
+                    "base_volume": 798.34
+                },
+                {
+                    "last_price": 11.12,
+                    "ticker_id": "LINK_USDT",
+                    "base_currency": "LINK",
+                    "target_currency": "USDT",
+                    "low": 11.12,
+                    "high": 11.122,
+                    "base_volume": 60228.59
+                },
+                {
+                    "last_price": 0.114,
+                    "ticker_id": "XLM_USDT",
+                    "base_currency": "XLM",
+                    "target_currency": "USDT",
+                    "low": 0.114,
+                    "high": 0.114,
+                    "base_volume": 7963.93
+                },
+                {
+                    "last_price": 0.186,
+                    "ticker_id": "ONT_USDT",
+                    "base_currency": "ONT",
+                    "target_currency": "USDT",
+                    "low": 0.186,
+                    "high": 0.186,
+                    "base_volume": 531.01
+                },
+                {
+                    "last_price": 0.2129,
+                    "ticker_id": "ICX_USDT",
+                    "base_currency": "ICX",
+                    "target_currency": "USDT",
+                    "low": 0.2129,
+                    "high": 0.2129,
+                    "base_volume": 1452.19
+                },
+                {
+                    "last_price": 0.004585,
+                    "ticker_id": "FUN_USDT",
+                    "base_currency": "FUN",
+                    "target_currency": "USDT",
+                    "low": 0.004585,
+                    "high": 0.004585,
+                    "base_volume": 61.71
+                },
+                {
+                    "last_price": 69.36,
+                    "ticker_id": "LTC_USDT",
+                    "base_currency": "LTC",
+                    "target_currency": "USDT",
+                    "low": 69.36,
+                    "high": 69.36,
+                    "base_volume": 21090.71
+                },
+                {
+                    "last_price": 106.3,
+                    "ticker_id": "GNO_USDT",
+                    "base_currency": "GNO",
+                    "target_currency": "USDT",
+                    "low": 106.3,
+                    "high": 106.3,
+                    "base_volume": 315.77
+                },
+                {
+                    "last_price": 13.68,
+                    "ticker_id": "NMR_USDT",
+                    "base_currency": "NMR",
+                    "target_currency": "USDT",
+                    "low": 13.68,
+                    "high": 13.68,
+                    "base_volume": 388.95
+                },
+                {
+                    "last_price": 0.591,
+                    "ticker_id": "EOS_USDT",
+                    "base_currency": "EOS",
+                    "target_currency": "USDT",
+                    "low": 0.591,
+                    "high": 0.591,
+                    "base_volume": 5379.54
+                },
+                {
+                    "last_price": 7.71,
+                    "ticker_id": "NEO_USDT",
+                    "base_currency": "NEO",
+                    "target_currency": "USDT",
+                    "low": 7.71,
+                    "high": 7.71,
+                    "base_volume": 3112.71
+                },
+                {
+                    "last_price": 1791.35,
+                    "ticker_id": "ETH_USDT",
+                    "base_currency": "ETH",
+                    "target_currency": "USDT",
+                    "low": 1791.34,
+                    "high": 1791.35,
+                    "base_volume": 574098.22
+                },
+                {
+                    "last_price": 0.2007,
+                    "ticker_id": "BAT_USDT",
+                    "base_currency": "BAT",
+                    "target_currency": "USDT",
+                    "low": 0.2007,
+                    "high": 0.2007,
+                    "base_volume": 1323.18
+                },
+                {
+                    "last_price": 256.6,
+                    "ticker_id": "BCH_USDT",
+                    "base_currency": "BCH",
+                    "target_currency": "USDT",
+                    "low": 256.6,
+                    "high": 256.6,
+                    "base_volume": 13041.23
+                },
+                {
+                    "last_price": 16.45,
+                    "ticker_id": "ETC_USDT",
+                    "base_currency": "ETC",
+                    "target_currency": "USDT",
+                    "low": 16.45,
+                    "high": 16.45,
+                    "base_volume": 9340.46
+                },
+                {
+                    "last_price": 225.4,
+                    "ticker_id": "BNB_USDT",
+                    "base_currency": "BNB",
+                    "target_currency": "USDT",
+                    "low": 225.4,
+                    "high": 225.4,
+                    "base_volume": 23438.43
+                },
+                {
+                    "last_price": 0.2826,
+                    "ticker_id": "ADA_USDT",
+                    "base_currency": "ADA",
+                    "target_currency": "USDT",
+                    "low": 0.2826,
+                    "high": 0.2826,
+                    "base_volume": 15114.13
+                },
+                {
+                    "last_price": 0.00723,
+                    "ticker_id": "DGB_USDT",
+                    "base_currency": "DGB",
+                    "target_currency": "USDT",
+                    "low": 0.00723,
+                    "high": 0.00723,
+                    "base_volume": 162.78
+                },
+                {
+                    "last_price": 0.06614,
+                    "ticker_id": "DOGE_USDT",
+                    "base_currency": "DOGE",
+                    "target_currency": "USDT",
+                    "low": 0.06613,
+                    "high": 0.06614,
+                    "base_volume": 23617.24
+                },
+                {
+                    "last_price": 0.1914,
+                    "ticker_id": "LRC_USDT",
+                    "base_currency": "LRC",
+                    "target_currency": "USDT",
+                    "low": 0.1914,
+                    "high": 0.1914,
+                    "base_volume": 1179.85
+                },
+                {
+                    "last_price": 0.962,
+                    "ticker_id": "LSK_USDT",
+                    "base_currency": "LSK",
+                    "target_currency": "USDT",
+                    "low": 0.962,
+                    "high": 0.962,
+                    "base_volume": 285.98
+                },
+                {
+                    "last_price": 0.2461,
+                    "ticker_id": "ZRX_USDT",
+                    "base_currency": "ZRX",
+                    "target_currency": "USDT",
+                    "low": 0.2461,
+                    "high": 0.2461,
+                    "base_volume": 2016.54
+                },
+                {
+                    "last_price": 0.757,
+                    "ticker_id": "KNC_USDT",
+                    "base_currency": "KNC",
+                    "target_currency": "USDT",
+                    "low": 0.757,
+                    "high": 0.757,
+                    "base_volume": 4366.87
+                },
+                {
+                    "last_price": 34524.55,
+                    "ticker_id": "BTC_USDT",
+                    "base_currency": "BTC",
+                    "target_currency": "USDT",
+                    "low": 34524.55,
+                    "high": 34524.56,
+                    "base_volume": 1534888.3
+                },
+                {
+                    "last_price": 27.89,
+                    "ticker_id": "DASH_USDT",
+                    "base_currency": "DASH",
+                    "target_currency": "USDT",
+                    "low": 27.89,
+                    "high": 27.89,
+                    "base_volume": 2464.22
+                },
+                {
+                    "last_price": 5.081,
+                    "ticker_id": "ANT_USDT",
+                    "base_currency": "ANT",
+                    "target_currency": "USDT",
+                    "low": 5.081,
+                    "high": 5.081,
+                    "base_volume": 769.25
+                },
+                {
+                    "last_price": 0.3463,
+                    "ticker_id": "MANA_USDT",
+                    "base_currency": "MANA",
+                    "target_currency": "USDT",
+                    "low": 0.3463,
+                    "high": 0.3463,
+                    "base_volume": 6236.58
+                },
+                {
+                    "last_price": 2.453,
+                    "ticker_id": "QTUM_USDT",
+                    "base_currency": "QTUM",
+                    "target_currency": "USDT",
+                    "low": 2.453,
+                    "high": 2.453,
+                    "base_volume": 2003.42
+                },
+                {
+                    "last_price": 0.5535,
+                    "ticker_id": "XRP_USDT",
+                    "base_currency": "XRP",
+                    "target_currency": "USDT",
+                    "low": 0.5535,
+                    "high": 0.5535,
+                    "base_volume": 115058.61
+                },
+                {
+                    "last_price": 0.00323,
+                    "ticker_id": "SC_USDT",
+                    "base_currency": "SC",
+                    "target_currency": "USDT",
+                    "low": 0.00323,
+                    "high": 0.00323,
+                    "base_volume": 363.75
+                },
+                {
+                    "last_price": 12.577,
+                    "ticker_id": "INJ_USDT",
+                    "base_currency": "INJ",
+                    "target_currency": "USDT",
+                    "low": 12.577,
+                    "high": 12.577,
+                    "base_volume": 7103.02
+                },
+                {
+                    "last_price": 4.67,
+                    "ticker_id": "AXS_USDT",
+                    "base_currency": "AXS",
+                    "target_currency": "USDT",
+                    "low": 4.67,
+                    "high": 4.67,
+                    "base_volume": 2042.78
+                },
+                {
+                    "last_price": 0.01629,
+                    "ticker_id": "ACH_USDT",
+                    "base_currency": "ACH",
+                    "target_currency": "USDT",
+                    "low": 0.01629,
+                    "high": 0.01629,
+                    "base_volume": 1283.57
+                },
+                {
+                    "last_price": 0.794,
+                    "ticker_id": "ALICE_USDT",
+                    "base_currency": "ALICE",
+                    "target_currency": "USDT",
+                    "low": 0.794,
+                    "high": 0.794,
+                    "base_volume": 868.47
+                },
+                {
+                    "last_price": 2.897,
+                    "ticker_id": "MASK_USDT",
+                    "base_currency": "MASK",
+                    "target_currency": "USDT",
+                    "low": 2.897,
+                    "high": 2.897,
+                    "base_volume": 6006.82
+                },
+                {
+                    "last_price": 0.0487,
+                    "ticker_id": "ROSE_USDT",
+                    "base_currency": "ROSE",
+                    "target_currency": "USDT",
+                    "low": 0.0487,
+                    "high": 0.0487,
+                    "base_volume": 1337.97
+                },
+                {
+                    "last_price": 4.622,
+                    "ticker_id": "AR_USDT",
+                    "base_currency": "AR",
+                    "target_currency": "USDT",
+                    "low": 4.622,
+                    "high": 4.622,
+                    "base_volume": 472.7
+                },
+                {
+                    "last_price": 0.1326,
+                    "ticker_id": "KLAY_USDT",
+                    "base_currency": "KLAY",
+                    "target_currency": "USDT",
+                    "low": 0.1326,
+                    "high": 0.1326,
+                    "base_volume": 718.07
+                },
+                {
+                    "last_price": 0.506,
+                    "ticker_id": "MOB_USDT",
+                    "base_currency": "MOB",
+                    "target_currency": "USDT",
+                    "low": 0.506,
+                    "high": 0.506,
+                    "base_volume": 61.96
+                },
+                {
+                    "last_price": 0.512,
+                    "ticker_id": "FLOW_USDT",
+                    "base_currency": "FLOW",
+                    "target_currency": "USDT",
+                    "low": 0.512,
+                    "high": 0.512,
+                    "base_volume": 3831.54
+                },
+                {
+                    "last_price": 0.002934,
+                    "ticker_id": "CKB_USDT",
+                    "base_currency": "CKB",
+                    "target_currency": "USDT",
+                    "low": 0.002934,
+                    "high": 0.002934,
+                    "base_volume": 183.89
+                },
+                {
+                    "last_price": 0.597,
+                    "ticker_id": "PERP_USDT",
+                    "base_currency": "PERP",
+                    "target_currency": "USDT",
+                    "low": 0.597,
+                    "high": 0.597,
+                    "base_volume": 417.09
+                },
+                {
+                    "last_price": 0.00000747,
+                    "ticker_id": "SHIB_USDT",
+                    "base_currency": "SHIB",
+                    "target_currency": "USDT",
+                    "low": 0.00000747,
+                    "high": 0.00000747,
+                    "base_volume": 9233.79
+                },
+                {
+                    "last_price": 0.21164,
+                    "ticker_id": "AGIX_USDT",
+                    "base_currency": "AGIX",
+                    "target_currency": "USDT",
+                    "low": 0.21164,
+                    "high": 0.21164,
+                    "base_volume": 3144.21
+                },
+                {
+                    "last_price": 0.814,
+                    "ticker_id": "GHST_USDT",
+                    "base_currency": "GHST",
+                    "target_currency": "USDT",
+                    "low": 0.814,
+                    "high": 0.814,
+                    "base_volume": 89.38
+                },
+                {
+                    "last_price": 5.34,
+                    "ticker_id": "XVS_USDT",
+                    "base_currency": "XVS",
+                    "target_currency": "USDT",
+                    "low": 5.34,
+                    "high": 5.34,
+                    "base_volume": 575.49
+                },
+                {
+                    "last_price": 5.872,
+                    "ticker_id": "FXS_USDT",
+                    "base_currency": "FXS",
+                    "target_currency": "USDT",
+                    "low": 5.872,
+                    "high": 5.872,
+                    "base_volume": 1714.87
+                },
+                {
+                    "last_price": 0.7158,
+                    "ticker_id": "SFP_USDT",
+                    "base_currency": "SFP",
+                    "target_currency": "USDT",
+                    "low": 0.7158,
+                    "high": 0.7158,
+                    "base_volume": 557.62
+                },
+                {
+                    "last_price": 0.1532,
+                    "ticker_id": "CFX_USDT",
+                    "base_currency": "CFX",
+                    "target_currency": "USDT",
+                    "low": 0.1532,
+                    "high": 0.1533,
+                    "base_volume": 12370.87
+                },
+                {
+                    "last_price": 0.01103,
+                    "ticker_id": "TLM_USDT",
+                    "base_currency": "TLM",
+                    "target_currency": "USDT",
+                    "low": 0.01103,
+                    "high": 0.01103,
+                    "base_volume": 585.67
+                },
+                {
+                    "last_price": 0.2199,
+                    "ticker_id": "GLM_USDT",
+                    "base_currency": "GLM",
+                    "target_currency": "USDT",
+                    "low": 0.2199,
+                    "high": 0.2199,
+                    "base_volume": 1441.38
+                },
+                {
+                    "last_price": 0.1575,
+                    "ticker_id": "AUDIO_USDT",
+                    "base_currency": "AUDIO",
+                    "target_currency": "USDT",
+                    "low": 0.1575,
+                    "high": 0.1575,
+                    "base_volume": 352.53
+                },
+                {
+                    "last_price": 0.1329,
+                    "ticker_id": "BAKE_USDT",
+                    "base_currency": "BAKE",
+                    "target_currency": "USDT",
+                    "low": 0.1329,
+                    "high": 0.1329,
+                    "base_volume": 1037.01
+                },
+                {
+                    "last_price": 1.192,
+                    "ticker_id": "CAKE_USDT",
+                    "base_currency": "CAKE",
+                    "target_currency": "USDT",
+                    "low": 1.192,
+                    "high": 1.192,
+                    "base_volume": 1125.9
+                },
+                {
+                    "last_price": 1.055,
+                    "ticker_id": "TWT_USDT",
+                    "base_currency": "TWT",
+                    "target_currency": "USDT",
+                    "low": 1.055,
+                    "high": 1.055,
+                    "base_volume": 1086.13
+                },
+                {
+                    "last_price": 10.46,
+                    "ticker_id": "AVAX_USDT",
+                    "base_currency": "AVAX",
+                    "target_currency": "USDT",
+                    "low": 10.46,
+                    "high": 10.46,
+                    "base_volume": 12792.65
+                },
+                {
+                    "last_price": 0.4766,
+                    "ticker_id": "CRV_USDT",
+                    "base_currency": "CRV",
+                    "target_currency": "USDT",
+                    "low": 0.4766,
+                    "high": 0.4766,
+                    "base_volume": 2131.97
+                },
+                {
+                    "last_price": 7.071,
+                    "ticker_id": "ATOM_USDT",
+                    "base_currency": "ATOM",
+                    "target_currency": "USDT",
+                    "low": 7.071,
+                    "high": 7.071,
+                    "base_volume": 7232.49
+                },
+                {
+                    "last_price": 29.06,
+                    "ticker_id": "EGLD_USDT",
+                    "base_currency": "EGLD",
+                    "target_currency": "USDT",
+                    "low": 29.06,
+                    "high": 29.06,
+                    "base_volume": 1487.39
+                },
+                {
+                    "last_price": 0.1016,
+                    "ticker_id": "ALGO_USDT",
+                    "base_currency": "ALGO",
+                    "target_currency": "USDT",
+                    "low": 0.1016,
+                    "high": 0.1016,
+                    "base_volume": 2715.98
+                },
+                {
+                    "last_price": 4.216,
+                    "ticker_id": "UNI_USDT",
+                    "base_currency": "UNI",
+                    "target_currency": "USDT",
+                    "low": 4.216,
+                    "high": 4.216,
+                    "base_volume": 8189.98
+                },
+                {
+                    "last_price": 19.37,
+                    "ticker_id": "KSM_USDT",
+                    "base_currency": "KSM",
+                    "target_currency": "USDT",
+                    "low": 19.37,
+                    "high": 19.37,
+                    "base_volume": 1084.43
+                },
+                {
+                    "last_price": 45.65,
+                    "ticker_id": "COMP_USDT",
+                    "base_currency": "COMP",
+                    "target_currency": "USDT",
+                    "low": 45.65,
+                    "high": 45.65,
+                    "base_volume": 3307.66
+                },
+                {
+                    "last_price": 5784,
+                    "ticker_id": "YFI_USDT",
+                    "base_currency": "YFI",
+                    "target_currency": "USDT",
+                    "low": 5784,
+                    "high": 5784,
+                    "base_volume": 1527.36
+                },
+                {
+                    "last_price": 0.641,
+                    "ticker_id": "KAVA_USDT",
+                    "base_currency": "KAVA",
+                    "target_currency": "USDT",
+                    "low": 0.641,
+                    "high": 0.641,
+                    "base_volume": 1244.52
+                },
+                {
+                    "last_price": 2.233,
+                    "ticker_id": "RUNE_USDT",
+                    "base_currency": "RUNE",
+                    "target_currency": "USDT",
+                    "low": 2.233,
+                    "high": 2.233,
+                    "base_volume": 7277.67
+                },
+                {
+                    "last_price": 0.6352,
+                    "ticker_id": "MATIC_USDT",
+                    "base_currency": "MATIC",
+                    "target_currency": "USDT",
+                    "low": 0.6352,
+                    "high": 0.6352,
+                    "base_volume": 21166.18
+                },
+                {
+                    "last_price": 3.796,
+                    "ticker_id": "FIL_USDT",
+                    "base_currency": "FIL",
+                    "target_currency": "USDT",
+                    "low": 3.796,
+                    "high": 3.796,
+                    "base_volume": 9825.31
+                },
+                {
+                    "last_price": 4.248,
+                    "ticker_id": "DOT_USDT",
+                    "base_currency": "DOT",
+                    "target_currency": "USDT",
+                    "low": 4.248,
+                    "high": 4.248,
+                    "base_volume": 11237.25
+                },
+                {
+                    "last_price": 1.528,
+                    "ticker_id": "BAND_USDT",
+                    "base_currency": "BAND",
+                    "target_currency": "USDT",
+                    "low": 1.528,
+                    "high": 1.528,
+                    "base_volume": 1197.46
+                },
+                {
+                    "last_price": 0.2983,
+                    "ticker_id": "SXP_USDT",
+                    "base_currency": "SXP",
+                    "target_currency": "USDT",
+                    "low": 0.2983,
+                    "high": 0.2983,
+                    "base_volume": 757.28
+                },
+                {
+                    "last_price": 0.615,
+                    "ticker_id": "SUSHI_USDT",
+                    "base_currency": "SUSHI",
+                    "target_currency": "USDT",
+                    "low": 0.615,
+                    "high": 0.615,
+                    "base_volume": 1171.38
+                },
+                {
+                    "last_price": 1.7684,
+                    "ticker_id": "TOMO_USDT",
+                    "base_currency": "TOMO",
+                    "target_currency": "USDT",
+                    "low": 1.7684,
+                    "high": 1.7684,
+                    "base_volume": 2056.75
+                },
+                {
+                    "last_price": 83.49,
+                    "ticker_id": "AAVE_USDT",
+                    "base_currency": "AAVE",
+                    "target_currency": "USDT",
+                    "low": 83.49,
+                    "high": 83.49,
+                    "base_volume": 7778.42
+                },
+                {
+                    "last_price": 1,
+                    "ticker_id": "BUSD_USDT",
+                    "base_currency": "BUSD",
+                    "target_currency": "USDT",
+                    "low": 1,
+                    "high": 1,
+                    "base_volume": 0
+                },
+                {
+                    "last_price": 1.146,
+                    "ticker_id": "NEAR_USDT",
+                    "base_currency": "NEAR",
+                    "target_currency": "USDT",
+                    "low": 1.146,
+                    "high": 1.146,
+                    "base_volume": 4309.62
+                },
+                {
+                    "last_price": 2.32,
+                    "ticker_id": "SNX_USDT",
+                    "base_currency": "SNX",
+                    "target_currency": "USDT",
+                    "low": 2.32,
+                    "high": 2.32,
+                    "base_volume": 2485.92
+                },
+                {
+                    "last_price": 3.356,
+                    "ticker_id": "BAL_USDT",
+                    "base_currency": "BAL",
+                    "target_currency": "USDT",
+                    "low": 3.356,
+                    "high": 3.356,
+                    "base_volume": 367.44
+                },
+                {
+                    "last_price": 0.23,
+                    "ticker_id": "FTM_USDT",
+                    "base_currency": "FTM",
+                    "target_currency": "USDT",
+                    "low": 0.23,
+                    "high": 0.23,
+                    "base_volume": 4249.53
+                },
+                {
+                    "last_price": 33.53,
+                    "ticker_id": "SOL_USDT",
+                    "base_currency": "SOL",
+                    "target_currency": "USDT",
+                    "low": 33.53,
+                    "high": 33.53,
+                    "base_volume": 69223.96
+                },
+                {
+                    "last_price": 0.2014,
+                    "ticker_id": "GLMR_USDT",
+                    "base_currency": "GLMR",
+                    "target_currency": "USDT",
+                    "low": 0.2014,
+                    "high": 0.2014,
+                    "base_volume": 0
+                },
+                {
+                    "last_price": 0.2478,
+                    "ticker_id": "MBOX_USDT",
+                    "base_currency": "MBOX",
+                    "target_currency": "USDT",
+                    "low": 0.2477,
+                    "high": 0.2478,
+                    "base_volume": 392.2
+                },
+                {
+                    "last_price": 7.73,
+                    "ticker_id": "ENS_USDT",
+                    "base_currency": "ENS",
+                    "target_currency": "USDT",
+                    "low": 7.73,
+                    "high": 7.73,
+                    "base_volume": 809.61
+                },
+                {
+                    "last_price": 0.2276,
+                    "ticker_id": "BICO_USDT",
+                    "base_currency": "BICO",
+                    "target_currency": "USDT",
+                    "low": 0.2276,
+                    "high": 0.2276,
+                    "base_volume": 267.19
+                },
+                {
+                    "last_price": 2.082,
+                    "ticker_id": "RNDR_USDT",
+                    "base_currency": "RNDR",
+                    "target_currency": "USDT",
+                    "low": 2.082,
+                    "high": 2.082,
+                    "base_volume": 2805.74
+                },
+                {
+                    "last_price": 0.0512,
+                    "ticker_id": "WAXP_USDT",
+                    "base_currency": "WAXP",
+                    "target_currency": "USDT",
+                    "low": 0.0512,
+                    "high": 0.0512,
+                    "base_volume": 867.1
+                },
+                {
+                    "last_price": 0.0154,
+                    "ticker_id": "GALA_USDT",
+                    "base_currency": "GALA",
+                    "target_currency": "USDT",
+                    "low": 0.0154,
+                    "high": 0.0154,
+                    "base_volume": 5029.11
+                },
+                {
+                    "last_price": 0.2556,
+                    "ticker_id": "JOE_USDT",
+                    "base_currency": "JOE",
+                    "target_currency": "USDT",
+                    "low": 0.2556,
+                    "high": 0.2556,
+                    "base_volume": 585.82
+                },
+                {
+                    "last_price": 0.054,
+                    "ticker_id": "ASTR_USDT",
+                    "base_currency": "ASTR",
+                    "target_currency": "USDT",
+                    "low": 0.054,
+                    "high": 0.054,
+                    "base_volume": 2396.24
+                },
+                {
+                    "last_price": 0.5544,
+                    "ticker_id": "MAGIC_USDT",
+                    "base_currency": "MAGIC",
+                    "target_currency": "USDT",
+                    "low": 0.5544,
+                    "high": 0.5544,
+                    "base_volume": 3259.59
+                },
+                {
+                    "last_price": 3.969,
+                    "ticker_id": "PYR_USDT",
+                    "base_currency": "PYR",
+                    "target_currency": "USDT",
+                    "low": 3.968,
+                    "high": 3.976,
+                    "base_volume": 623.77
+                },
+                {
+                    "last_price": 46.41,
+                    "ticker_id": "ILV_USDT",
+                    "base_currency": "ILV",
+                    "target_currency": "USDT",
+                    "low": 46.41,
+                    "high": 46.41,
+                    "base_volume": 755.48
+                },
+                {
+                    "last_price": 0.003524,
+                    "ticker_id": "JASMY_USDT",
+                    "base_currency": "JASMY",
+                    "target_currency": "USDT",
+                    "low": 0.003524,
+                    "high": 0.003524,
+                    "base_volume": 1966.26
+                },
+                {
+                    "last_price": 0.6287,
+                    "ticker_id": "IMX_USDT",
+                    "base_currency": "IMX",
+                    "target_currency": "USDT",
+                    "low": 0.6287,
+                    "high": 0.6287,
+                    "base_volume": 1730.45
+                },
+                {
+                    "last_price": 2.815,
+                    "ticker_id": "CVX_USDT",
+                    "base_currency": "CVX",
+                    "target_currency": "USDT",
+                    "low": 2.815,
+                    "high": 2.815,
+                    "base_volume": 472.35
+                },
+                {
+                    "last_price": 1.319,
+                    "ticker_id": "RAD_USDT",
+                    "base_currency": "RAD",
+                    "target_currency": "USDT",
+                    "low": 1.319,
+                    "high": 1.319,
+                    "base_volume": 353.18
+                },
+                {
+                    "last_price": 2.735,
+                    "ticker_id": "SANTOS_USDT",
+                    "base_currency": "SANTOS",
+                    "target_currency": "USDT",
+                    "low": 2.735,
+                    "high": 2.735,
+                    "base_volume": 291.08
+                },
+                {
+                    "last_price": 0.3555,
+                    "ticker_id": "FLUX_USDT",
+                    "base_currency": "FLUX",
+                    "target_currency": "USDT",
+                    "low": 0.3555,
+                    "high": 0.3555,
+                    "base_volume": 491.12
+                },
+                {
+                    "last_price": 0.507,
+                    "ticker_id": "KDA_USDT",
+                    "base_currency": "KDA",
+                    "target_currency": "USDT",
+                    "low": 0.507,
+                    "high": 0.507,
+                    "base_volume": 377.32
+                },
+                {
+                    "last_price": 0.6698,
+                    "ticker_id": "MINA_USDT",
+                    "base_currency": "MINA",
+                    "target_currency": "USDT",
+                    "low": 0.6698,
+                    "high": 0.6698,
+                    "base_volume": 36229.52
+                },
+                {
+                    "last_price": 1.675,
+                    "ticker_id": "ALPINE_USDT",
+                    "base_currency": "ALPINE",
+                    "target_currency": "USDT",
+                    "low": 1.675,
+                    "high": 1.675,
+                    "base_volume": 147.59
+                },
+                {
+                    "last_price": 2.306,
+                    "ticker_id": "DYDX_USDT",
+                    "base_currency": "DYDX",
+                    "target_currency": "USDT",
+                    "low": 2.306,
+                    "high": 2.306,
+                    "base_volume": 11299.75
+                },
+                {
+                    "last_price": 14.46,
+                    "ticker_id": "SSV_USDT",
+                    "base_currency": "SSV",
+                    "target_currency": "USDT",
+                    "low": 14.46,
+                    "high": 14.46,
+                    "base_volume": 551.58
+                },
+                {
+                    "last_price": 0.21,
+                    "ticker_id": "WOO_USDT",
+                    "base_currency": "WOO",
+                    "target_currency": "USDT",
+                    "low": 0.21,
+                    "high": 0.21,
+                    "base_volume": 3696.69
+                },
+                {
+                    "last_price": 0.472,
+                    "ticker_id": "MC_USDT",
+                    "base_currency": "MC",
+                    "target_currency": "USDT",
+                    "low": 0.472,
+                    "high": 0.472,
+                    "base_volume": 1182.75
+                },
+                {
+                    "last_price": 41.8,
+                    "ticker_id": "GMX_USDT",
+                    "base_currency": "GMX",
+                    "target_currency": "USDT",
+                    "low": 41.8,
+                    "high": 41.8,
+                    "base_volume": 1747.29
+                },
+                {
+                    "last_price": 0.1648,
+                    "ticker_id": "GMT_USDT",
+                    "base_currency": "GMT",
+                    "target_currency": "USDT",
+                    "low": 0.1648,
+                    "high": 0.1648,
+                    "base_volume": 1549.45
+                },
+                {
+                    "last_price": 0.00006127,
+                    "ticker_id": "LUNC_USDT",
+                    "base_currency": "LUNC",
+                    "target_currency": "USDT",
+                    "low": 0.00006127,
+                    "high": 0.00006127,
+                    "base_volume": 1218.98
+                },
+                {
+                    "last_price": 6.5167,
+                    "ticker_id": "APT_USDT",
+                    "base_currency": "APT",
+                    "target_currency": "USDT",
+                    "low": 6.5167,
+                    "high": 6.5167,
+                    "base_volume": 13334.87
+                },
+                {
+                    "last_price": 0.262,
+                    "ticker_id": "OSMO_USDT",
+                    "base_currency": "OSMO",
+                    "target_currency": "USDT",
+                    "low": 0.262,
+                    "high": 0.262,
+                    "base_volume": 288.59
+                },
+                {
+                    "last_price": 0.4502,
+                    "ticker_id": "STG_USDT",
+                    "base_currency": "STG",
+                    "target_currency": "USDT",
+                    "low": 0.4502,
+                    "high": 0.4502,
+                    "base_volume": 1636.63
+                },
+                {
+                    "last_price": 23.3,
+                    "ticker_id": "RPL_USDT",
+                    "base_currency": "RPL",
+                    "target_currency": "USDT",
+                    "low": 23.3,
+                    "high": 23.3,
+                    "base_volume": 183.85
+                },
+                {
+                    "last_price": 0.8924,
+                    "ticker_id": "ARB_USDT",
+                    "base_currency": "ARB",
+                    "target_currency": "USDT",
+                    "low": 0.8924,
+                    "high": 0.8924,
+                    "base_volume": 13114.45
+                },
+                {
+                    "last_price": 1.318,
+                    "ticker_id": "APE_USDT",
+                    "base_currency": "APE",
+                    "target_currency": "USDT",
+                    "low": 1.318,
+                    "high": 1.318,
+                    "base_volume": 3592.09
+                },
+                {
+                    "last_price": 0.0641,
+                    "ticker_id": "BSW_USDT",
+                    "base_currency": "BSW",
+                    "target_currency": "USDT",
+                    "low": 0.0641,
+                    "high": 0.0641,
+                    "base_volume": 182.68
+                },
+                {
+                    "last_price": 1.777,
+                    "ticker_id": "WLD_USDT",
+                    "base_currency": "WLD",
+                    "target_currency": "USDT",
+                    "low": 1.777,
+                    "high": 1.777,
+                    "base_volume": 5542.23
+                },
+                {
+                    "last_price": 1.92,
+                    "ticker_id": "LDO_USDT",
+                    "base_currency": "LDO",
+                    "target_currency": "USDT",
+                    "low": 1.92,
+                    "high": 1.92,
+                    "base_volume": 3919.52
+                },
+                {
+                    "last_price": 1.382,
+                    "ticker_id": "OP_USDT",
+                    "base_currency": "OP",
+                    "target_currency": "USDT",
+                    "low": 1.382,
+                    "high": 1.382,
+                    "base_volume": 6235.51
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Date",
+            "Wed, 25 Oct 2023 13:13:15 GMT",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Xss-Protection",
+            "1; mode=block",
+            "X-Frame-Options",
+            "deny",
+            "Via",
+            "kong/3.4.0, 1.1 b038919df048ba1d1a170622840d275e.cloudfront.net (CloudFront)",
+            "Server",
+            "mudrex.edge",
+            "Alt-Svc",
+            "h3=\":443\"; ma=86400",
+            "Content-Security-Policy",
+            "default-src 'none'",
+            "Strict-Transport-Security",
+            "max-age=31536000; includeSubDomains; preload",
+            "Vary",
+            "Origin",
+            "X-Cache",
+            "Miss from cloudfront",
+            "X-Amz-Cf-Pop",
+            "AMS58-P3",
+            "X-Amz-Cf-Id",
+            "K6uEkEA8LdcHm8XKIvYnfo8YQtlFicJAGRUU_2doBknYglhikD9JHg=="
+        ],
+        "responseIsBinary": false
+    }
+]
