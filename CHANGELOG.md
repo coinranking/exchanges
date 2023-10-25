@@ -1,3 +1,10 @@
+## [3.103.1](https://github.com/coinranking/exchanges/compare/v3.103.0...v3.103.1) (2023-10-25)
+
+
+### Bug Fixes
+
+* circleci namespace is deprecated in favor of cimg. We need a newer node version ([3516c43](https://github.com/coinranking/exchanges/commit/3516c43c8c2f41f16172a1062949f9ef8a232341))
+
 # [3.103.0](https://github.com/coinranking/exchanges/compare/v3.102.1...v3.103.0) (2023-10-25)
 
 
