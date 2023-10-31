@@ -1,0 +1,37 @@
+const Driver = require('../models/driver');
+const request = require('../lib/request');
+const Ticker = require('../models/ticker');
+const { parseToFloat } = require('../lib/utils');
+
+/**
+ * @memberof Driver
+ * @augments Driver
+ */
+class Deepcoin extends Driver {
+  /**
+   * @augments Driver.fetchTickers
+   * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
+   */
+  async fetchTickers() {
+    const { data: tickers } = await request('https://api.deepcoin.com/deepcoin/cmc/spotquery');
+
+    return tickers
+      .map((ticker) => {
+        const [base, quote] = ticker.InstrumentID.split('/');
+
+        return new Ticker({
+          base,
+          quote,
+          baseVolume: parseToFloat(ticker.Volume),
+          open: parseToFloat(ticker.OpenPrice),
+          high: parseToFloat(ticker.HighestPrice),
+          low: parseToFloat(ticker.LowestPrice),
+          close: parseToFloat(ticker.LastPrice),
+          ask: parseToFloat(ticker.AskPrice1),
+          bid: parseToFloat(ticker.BidPrice1),
+        });
+      });
+  }
+}
+
+module.exports = Deepcoin;

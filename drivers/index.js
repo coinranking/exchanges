@@ -86,6 +86,7 @@ exports.Cryptonex = require('./cryptonex');
 exports.Currency = require('./currency');
 exports.Curve = require('./curve');
 exports.Dcoin = require('./dcoin');
+exports.Deepcoin = require('./deepcoin');
 exports.Dextrade = require('./dextrade');
 exports.Dexzbitz = require('./dexzbitz');
 exports.Difx = require('./difx');
