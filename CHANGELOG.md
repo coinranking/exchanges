@@ -1,3 +1,10 @@
+# [3.104.0](https://github.com/coinranking/exchanges/compare/v3.103.1...v3.104.0) (2023-10-31)
+
+
+### Features
+
+* add deepcoin exchange driver ([4a88945](https://github.com/coinranking/exchanges/commit/4a88945697282013a97bdbd9151c22ddc1ca90e5))
+
 ## [3.103.1](https://github.com/coinranking/exchanges/compare/v3.103.0...v3.103.1) (2023-10-25)
 
 
