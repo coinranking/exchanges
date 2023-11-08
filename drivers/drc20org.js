@@ -34,7 +34,7 @@ class Drc20org extends Driver {
       const base = ticker.tick;
       const quote = 'DOGE';
 
-      const baseDetailResponse = await request(`https://d20-api2.dogeord.io/ticks/list/verified/?filterByTick=${base}`);
+      const baseDetailResponse = await request(`https://d20-api2.dogeord.io/ticks/list/verified/?filterByTick=${encodeURI(base)}`);
       const baseDetail = baseDetailResponse.data.length ? baseDetailResponse.data[0] : {};
 
       return new Ticker({
