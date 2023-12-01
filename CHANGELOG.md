@@ -1,3 +1,11 @@
+## [3.104.1](https://github.com/coinranking/exchanges/compare/v3.104.0...v3.104.1) (2023-11-08)
+
+
+### Bug Fixes
+
+* **drc20org:** special characters crashed the request ([db78bc7](https://github.com/coinranking/exchanges/commit/db78bc7149c14b615cec32815ae6e011da226982))
+* link to bgogo ([29f78cd](https://github.com/coinranking/exchanges/commit/29f78cd9eb1f023a03bfeaf528c12298b00b6156))
+
 # [3.104.0](https://github.com/coinranking/exchanges/compare/v3.103.1...v3.104.0) (2023-10-31)
 
 
