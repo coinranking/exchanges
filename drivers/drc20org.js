@@ -18,7 +18,7 @@ class Drc20org extends Driver {
     let { list: rawTickers } = response;
     const { total } = response;
 
-    const maxPages = 20;
+    const maxPages = 10;
     const pages = Math.min(Math.ceil(total / 20), maxPages);
     const pageNumbers = Array.from(Array(pages).keys()).slice(1);
     const pageTickers = await throttleFlatMap(pageNumbers, async (pageNumber) => {
