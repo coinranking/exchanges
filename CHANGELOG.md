@@ -1,3 +1,10 @@
+## [3.104.2](https://github.com/coinranking/exchanges/compare/v3.104.1...v3.104.2) (2023-12-01)
+
+
+### Bug Fixes
+
+* **drc20org:** get less markets, because server crashed above offset 200 ([311808b](https://github.com/coinranking/exchanges/commit/311808ba38b48fbc34c06297008d460c3393b94b))
+
 ## [3.104.1](https://github.com/coinranking/exchanges/compare/v3.104.0...v3.104.1) (2023-11-08)
 
 
