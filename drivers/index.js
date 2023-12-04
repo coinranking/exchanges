@@ -159,6 +159,7 @@ exports.Ordifind = require('./ordifind');
 exports.Orebz = require('./orebz');
 exports.Osmosis = require('./osmosis');
 exports.P2pb2b = require('./p2pb2b');
+exports.Pancakeswap1bsc = require('./pancakeswap1bsc');
 exports.Pancakeswap2 = require('./pancakeswap2');
 exports.Pancakeswap3bsc = require('./pancakeswap3bsc');
 exports.Paribu = require('./paribu');
