@@ -1,3 +1,30 @@
+# [3.105.0](https://github.com/coinranking/exchanges/compare/v3.104.2...v3.105.0) (2023-12-05)
+
+
+### Features
+
+* add apeswap polygon ([b3bd467](https://github.com/coinranking/exchanges/commit/b3bd46730d75370af98fd8e48433fc27733aa335))
+* add balancer 2 arbitrum ([9a983ab](https://github.com/coinranking/exchanges/commit/9a983ab09bcb522e6ae9bb947239f630b33ce0b2))
+* add balancer polygon ([6512ab1](https://github.com/coinranking/exchanges/commit/6512ab1980505409416f2592c7d029f39fa8ea40))
+* add dfyn polygon ([4053488](https://github.com/coinranking/exchanges/commit/40534881235c6a44b7de15f2859b8f332f793872))
+* add mm finance cronos ([e594ee8](https://github.com/coinranking/exchanges/commit/e594ee899b6ed792ab427850c8e2b2d5d2480c45))
+* add pancakeswap 1 bsc ([848d24f](https://github.com/coinranking/exchanges/commit/848d24fa81949f1b5aa398777bfefaf0f139a79c))
+* add pancakeswap 3 arbitrum ([b5603fb](https://github.com/coinranking/exchanges/commit/b5603fbf2960ccac46f4be8a52d0f8bb2a523f9c))
+* add pancakeswap 3 bsc ([ab824b4](https://github.com/coinranking/exchanges/commit/ab824b407cb5b0bc65e3b2164bdb7ffcd4d8afe4))
+* add pangolin avalanche ([7eb0581](https://github.com/coinranking/exchanges/commit/7eb0581953a010ccd5422ddc5bf73d8f1557e634))
+* add sushiswap polygon ([7fdf181](https://github.com/coinranking/exchanges/commit/7fdf1817b2de886d669d4416e646fb40825f90d7))
+* add uniswap 2 arbitrum ([f8b2dc9](https://github.com/coinranking/exchanges/commit/f8b2dc93afa7b3e37e120e2041ac29a645300f24))
+* add uniswap 2 avalanche ([31262d3](https://github.com/coinranking/exchanges/commit/31262d3d5a7187421225811404b6041e69cde341))
+* add uniswap 2 cronos ([234e5e8](https://github.com/coinranking/exchanges/commit/234e5e8ccac078024681d0cfae190695a24e76d8))
+* add uniswap 2 klaytn ([42dc2db](https://github.com/coinranking/exchanges/commit/42dc2db0865d09e8d243b289cfe673deaf2aa146))
+* add uniswap 2 polygon ([a7b8495](https://github.com/coinranking/exchanges/commit/a7b84951d6f864a29035ce4f8aa0b3d3546bc660))
+* add uniswap 3 arbitrum ([9f6c371](https://github.com/coinranking/exchanges/commit/9f6c37130770394c59ed47899544e3e8b0525c24))
+* add uniswap 3 avalanche ([d7ec6de](https://github.com/coinranking/exchanges/commit/d7ec6de258b6919d3295a661b46eb6cae066abe9))
+* add uniswap 3 bsc ([3a81d5c](https://github.com/coinranking/exchanges/commit/3a81d5c88607aff06ea87f16ef0a9c4a36858afd))
+* add uniswap2 bsc ([d8f2242](https://github.com/coinranking/exchanges/commit/d8f224294b82b1874e120de7edaccf192d9e2ff3))
+* add vvs finance cronos ([3264a28](https://github.com/coinranking/exchanges/commit/3264a2809476e81c8ec9270bf67cf31f29639111))
+* remove arbitrum because the queries are unperformant and unreliable ([adcc77f](https://github.com/coinranking/exchanges/commit/adcc77fd19c2254a862e82d734b65a3991e97330))
+
 ## [3.104.2](https://github.com/coinranking/exchanges/compare/v3.104.1...v3.104.2) (2023-12-01)
 
 
