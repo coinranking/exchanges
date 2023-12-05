@@ -183,6 +183,7 @@ exports.Stellaswap = require('./stellaswap');
 exports.Stex = require('./stex');
 exports.Stormgain = require('./stormgain');
 exports.Sushiswap = require('./sushiswap');
+exports.Sushiswappolygon = require('./sushiswappolygon');
 exports.Swopfi = require('./swopfi');
 exports.Tchapp = require('./tchapp');
 exports.Thorchain = require('./thorchain');
