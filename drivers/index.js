@@ -206,6 +206,7 @@ exports.Uniswap2 = require('./uniswap2');
 exports.Uniswap2arbitrum = require('./uniswap2arbitrum');
 exports.Uniswap2avalanche = require('./uniswap2avalanche');
 exports.Uniswap2bsc = require('./uniswap2bsc');
+exports.Uniswap2cronos = require('./uniswap2cronos');
 exports.Uniswap2polygon = require('./uniswap2polygon');
 exports.Uniswap3 = require('./uniswap3');
 exports.Uniswap3arbitrum = require('./uniswap3arbitrum');
