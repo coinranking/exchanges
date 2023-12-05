@@ -2,6 +2,7 @@ exports['1inch'] = require('./_1inch');
 exports.Abcc = require('./abcc');
 exports.Aex = require('./aex');
 exports.Altcointrader = require('./altcointrader');
+exports.Apeswappolygon = require('./apeswappolygon');
 exports.Ascendex = require('./ascendex');
 exports.Balancer = require('./balancer');
 exports.Balancer2arbitrum = require('./balancer2arbitrum');
