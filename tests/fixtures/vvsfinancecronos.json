@@ -1,0 +1,1585 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $exchangeName: String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                exchangeName: {in: [$exchangeName]}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-18T08:54:31.046Z",
+                "twentyFourHoursAgo": "2022-11-17T08:54:31.046Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "cronos",
+                "exchangeName": "VVS Finance"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "AKT",
+                                "address": "0x39a65a74dc5a778ff93d1765ea51f57bc49c81b3",
+                                "name": "AKT"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 579.762995,
+                            "quoteVolume": 11188.241304175615,
+                            "open": "19.297956924925185",
+                            "high": "19.297956924925185",
+                            "low": "19.297956924925185",
+                            "close": "19.297956924925185"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "ALI",
+                                "address": "0x45c135c1cdce8d25a3b729a28659561385c52671",
+                                "name": "Artificial Liquid Intelligence Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 100000.00159923345,
+                            "quoteVolume": 22710.77078032214,
+                            "open": "0.22710770417123902",
+                            "high": "0.22710770417123902",
+                            "low": "0.22710770417123902",
+                            "close": "0.22710770417123902"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "ATOM",
+                                "address": "0xb888d8dd1733d72681b30c00ee76bde93ae7aa93",
+                                "name": "ATOM"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 2858.985944,
+                            "quoteVolume": 287096.8577832367,
+                            "open": "102.63484432568633",
+                            "high": "102.63484432568633",
+                            "low": "99.7011848947915",
+                            "close": "101.29276169578493"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BIFI",
+                                "address": "0xe6801928061cdbe32ac5ad0634427e140efd05f9",
+                                "name": "beefy.finance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 10.478007971579753,
+                            "quoteVolume": 13389.029521301754,
+                            "open": "1277.8220399925035",
+                            "high": "1277.8220399925035",
+                            "low": "1277.8220399925035",
+                            "close": "1277.8220399925035"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CORGIAI",
+                                "address": "0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+                                "name": "CorgiAI"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 47557747.19501311,
+                            "quoteVolume": 33490.172504,
+                            "open": "0.0006910070951330086",
+                            "high": "0.0007369813570342964",
+                            "low": "0.0006547579805499314",
+                            "close": "0.0006547579805499314"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CORGIAI",
+                                "address": "0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+                                "name": "CorgiAI"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 63611253.75782951,
+                            "quoteVolume": 12577131269.01839,
+                            "open": "194.5868289658641",
+                            "high": "203.0496071767933",
+                            "low": "191.86268860437994",
+                            "close": "191.86268860437994"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CORGIAI",
+                                "address": "0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+                                "name": "CorgiAI"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 35233188.21061563,
+                            "quoteVolume": 259295.7627063547,
+                            "open": "0.007494895005821321",
+                            "high": "0.007578900409375776",
+                            "low": "0.0070384264240043746",
+                            "close": "0.007117310306493742"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CROID",
+                                "address": "0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7",
+                                "name": "Cronos ID Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 15947.33265525519,
+                            "quoteVolume": 1499.88,
+                            "open": "0.0940520921224866",
+                            "high": "0.0940520921224866",
+                            "low": "0.0940520921224866",
+                            "close": "0.0940520921224866"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "CROID",
+                                "address": "0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7",
+                                "name": "Cronos ID Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 104525.25366225686,
+                            "quoteVolume": 2696009792.199476,
+                            "open": "24747.510553320924",
+                            "high": "25971.41718981738",
+                            "low": "24747.510553320924",
+                            "close": "25971.41718981738"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "DOGE",
+                                "address": "0x1a8e39ae59e5556b56b76fcba98d22c9ae557396",
+                                "name": "Dogecoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 37042.23791871,
+                            "quoteVolume": 33237.143992826146,
+                            "open": "0.8969956809183679",
+                            "high": "0.8976900152069673",
+                            "low": "0.8969956809183679",
+                            "close": "0.8969956809183679"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "FRTN",
+                                "address": "0xaf02d78f39c0002d14b95a3be272da02379aff21",
+                                "name": "Fortune"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 424199.318287065,
+                            "quoteVolume": 28284.042606,
+                            "open": "0.06633400423902484",
+                            "high": "0.07007235257704596",
+                            "low": "0.06396090398968751",
+                            "close": "0.06692861338901637"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "FUL",
+                                "address": "0x83afb1c32e5637acd0a452d87c3249f4a9f0013a",
+                                "name": "FUL"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 169889.15313667536,
+                            "quoteVolume": 2978,
+                            "open": "0.017529076724540543",
+                            "high": "0.017529076724540543",
+                            "low": "0.017529076724540543",
+                            "close": "0.017529076724540543"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "FUL",
+                                "address": "0x83afb1c32e5637acd0a452d87c3249f4a9f0013a",
+                                "name": "FUL"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 780523.830006282,
+                            "quoteVolume": 3671568136.0169225,
+                            "open": "4924.781935787659",
+                            "high": "4924.781935787659",
+                            "low": "4072.139830699464",
+                            "close": "4072.139830699464"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "FUL",
+                                "address": "0x83afb1c32e5637acd0a452d87c3249f4a9f0013a",
+                                "name": "FUL"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 148085.3998654779,
+                            "quoteVolume": 24979.82387585278,
+                            "open": "0.17594976716831146",
+                            "high": "0.17594976716831146",
+                            "low": "0.16024907866585986",
+                            "close": "0.16024907866585986"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "GALA",
+                                "address": "0x7a887d4f8a3221e1aafa2f4435b774d51429a3e1",
+                                "name": "Gala"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 54476.04585033,
+                            "quoteVolume": 13389.029521301754,
+                            "open": "0.2457782923174599",
+                            "high": "0.2457782923174599",
+                            "low": "0.2457782923174599",
+                            "close": "0.2457782923174599"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "HBAR",
+                                "address": "0xe0c7226a58f54db71edc6289ba2dc80349b41974",
+                                "name": "HBAR"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 35448.88278335,
+                            "quoteVolume": 27142.58854654431,
+                            "open": "0.7656824817986344",
+                            "high": "0.7656824817986344",
+                            "low": "0.7656824817986344",
+                            "close": "0.7656824817986344"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "INJ",
+                                "address": "0x4e05f3c7ee6155e3add224470e1c4583d4f424a3",
+                                "name": "Injective Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 67.90080106558429,
+                            "quoteVolume": 11188.241304175615,
+                            "open": "164.77333298865022",
+                            "high": "164.77333298865022",
+                            "low": "164.77333298865022",
+                            "close": "164.77333298865022"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "JASMY",
+                                "address": "0x227edf65f866255a0ed4b5b453fe43a41182ec3a",
+                                "name": "JasmyCoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 282482.305090021,
+                            "quoteVolume": 19000.000298171766,
+                            "open": "0.06726085123143156",
+                            "high": "0.06726085123143156",
+                            "low": "0.06726085123143156",
+                            "close": "0.06726085123143156"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "KCH",
+                                "address": "0x4dda1bb6e378dcef97bff1057b6452615e86373c",
+                                "name": "Kaching"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 97851.04516363062,
+                            "quoteVolume": 2457998338.5995903,
+                            "open": "25962.29241625519",
+                            "high": "25962.29241625519",
+                            "low": "24352.651492321613",
+                            "close": "24352.651492321613"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LADYS",
+                                "address": "0x8540384c996056f1902c9785d85260612eb9dc29",
+                                "name": "Milady"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 192392818270.01486,
+                            "quoteVolume": 2315937237.279304,
+                            "open": "0.01217268120167783",
+                            "high": "0.012355229208623862",
+                            "low": "0.011383326150116677",
+                            "close": "0.0117253986275346"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LCRO",
+                                "address": "0x9fae23a2700feecd5b93e43fdbc03c76aa7c08a6",
+                                "name": "Liquid CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 22290.606491910832,
+                            "quoteVolume": 24127.194843119087,
+                            "open": "1.0824137106392384",
+                            "high": "1.0824137106392384",
+                            "low": "1.0823716577185347",
+                            "close": "1.0823716577185347"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "LMWR",
+                                "address": "0x0ddb6540afd29b14f7e02d1292bd675b5ceea896",
+                                "name": "LimeWire Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 4800.000075327604,
+                            "quoteVolume": 12089.430787468289,
+                            "open": "2.5186313745303797",
+                            "high": "2.5186313745303797",
+                            "low": "2.5186313745303797",
+                            "close": "2.5186313745303797"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MTD",
+                                "address": "0x0224010ba2d567ffa014222ed960d1fa43b8c8e1",
+                                "name": "Minted Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 36633.161512155086,
+                            "quoteVolume": 349062154.3783118,
+                            "open": "9528.583937875279",
+                            "high": "9528.583937875279",
+                            "low": "9528.583937875279",
+                            "close": "9528.583937875279"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "PEPE",
+                                "address": "0xf868c454784048af4f857991583e34243c92ff48",
+                                "name": "Pepe"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 850000011.1080132,
+                            "quoteVolume": 369314364.5868598,
+                            "open": "0.4344874820712554",
+                            "high": "0.4344874820712554",
+                            "low": "0.4344874820712554",
+                            "close": "0.4344874820712554"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SHIB",
+                                "address": "0xbed48612bc69fa1cab67052b42a95fb30c1bcfee",
+                                "name": "SHIBA INU"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 583010914.4201353,
+                            "quoteVolume": 53353.91314725726,
+                            "open": "9.064942327040965e-05",
+                            "high": "9.49635532292844e-05",
+                            "low": "9.064942327040965e-05",
+                            "close": "9.49635532292844e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SOL",
+                                "address": "0xc9de0f3e08162312528ff72559db82590b481800",
+                                "name": "SOL"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 223.185593532,
+                            "quoteVolume": 125480.54438362928,
+                            "open": "554.0110170341139",
+                            "high": "626.8229766980887",
+                            "low": "544.090110985421",
+                            "close": "554.0110170341139"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "TONIC",
+                                "address": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2",
+                                "name": "Tectonic Governance Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 6129621532.696588,
+                            "quoteVolume": 1191.756718,
+                            "open": "1.9442582411376282e-07",
+                            "high": "1.9442582411376282e-07",
+                            "low": "1.9442582411376282e-07",
+                            "close": "1.9442582411376282e-07"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "TONIC",
+                                "address": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2",
+                                "name": "Tectonic Governance Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 62049891992.75417,
+                            "quoteVolume": 3378049266.804427,
+                            "open": "0.05402787412476992",
+                            "high": "0.05509968164321997",
+                            "low": "0.05402787412476992",
+                            "close": "0.05480077937317984"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "TONIC",
+                                "address": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2",
+                                "name": "Tectonic Governance Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 50401952579.70451,
+                            "quoteVolume": 102387.97501090799,
+                            "open": "2.007832294738735e-06",
+                            "high": "2.058430384544665e-06",
+                            "low": "2.007832294738735e-06",
+                            "close": "2.0499151269572824e-06"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CORGIAI",
+                                "address": "0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+                                "name": "CorgiAI"
+                            },
+                            "baseVolume": 33490.172504,
+                            "quoteVolume": 47557747.19501311,
+                            "open": "1447.1631435383667",
+                            "high": "1527.2818807952517",
+                            "low": "1356.886426576817",
+                            "close": "1527.2818807952517"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CROID",
+                                "address": "0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7",
+                                "name": "Cronos ID Token"
+                            },
+                            "baseVolume": 1499.88,
+                            "quoteVolume": 15947.33265525519,
+                            "open": "10.632405695959138",
+                            "high": "10.632405695959138",
+                            "low": "10.632405695959138",
+                            "close": "10.632405695959138"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "FRTN",
+                                "address": "0xaf02d78f39c0002d14b95a3be272da02379aff21",
+                                "name": "Fortune"
+                            },
+                            "baseVolume": 28284.042606,
+                            "quoteVolume": 424199.318287065,
+                            "open": "15.075224411248367",
+                            "high": "15.634550758713965",
+                            "low": "14.27096369999109",
+                            "close": "14.941292660399109"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "FUL",
+                                "address": "0x83afb1c32e5637acd0a452d87c3249f4a9f0013a",
+                                "name": "FUL"
+                            },
+                            "baseVolume": 2978,
+                            "quoteVolume": 169889.15313667536,
+                            "open": "57.04807022722477",
+                            "high": "57.04807022722477",
+                            "low": "57.04807022722477",
+                            "close": "57.04807022722477"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "TONIC",
+                                "address": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2",
+                                "name": "Tectonic Governance Token"
+                            },
+                            "baseVolume": 1191.756718,
+                            "quoteVolume": 6129621532.696588,
+                            "open": "5143349.678769411",
+                            "high": "5143349.678769411",
+                            "low": "5143349.678769411",
+                            "close": "5143349.678769411"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0x66e428c3f67a68878562e79a0234c1f83c208770",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 17720.403854,
+                            "quoteVolume": 17767.507514,
+                            "open": "1.0028409777897895",
+                            "high": "1.003634867017518",
+                            "low": "0.9979416985629229",
+                            "close": "0.9979416985629229"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 65282.047842,
+                            "quoteVolume": 18235635190.053997,
+                            "open": "278362.96795471245",
+                            "high": "287312.2064579419",
+                            "low": "272750.19899709214",
+                            "close": "284919.8774338716"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x062e66477faf219f25d27dced647bf57c3107d52",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 1424.149462,
+                            "quoteVolume": 0.03497672,
+                            "open": "2.455972559992443e-05",
+                            "high": "2.455972559992443e-05",
+                            "low": "2.455972559992443e-05",
+                            "close": "2.455972559992443e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 800280.562909,
+                            "quoteVolume": 8378956.58201665,
+                            "open": "10.3318951839737",
+                            "high": "10.750863771643337",
+                            "low": "10.22553841098734",
+                            "close": "10.620796575209889"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xe44fd7fcb2b1581822d0c862b68222998a0c299a",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 4046.360945,
+                            "quoteVolume": 1.8979257979501278,
+                            "open": "0.00046605510877128413",
+                            "high": "0.00047037587285278607",
+                            "low": "0.00046605510877128413",
+                            "close": "0.00046605510877128413"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0x66e428c3f67a68878562e79a0234c1f83c208770",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 17767.507514,
+                            "quoteVolume": 17720.403854,
+                            "open": "0.9971670705",
+                            "high": "1.0020625467800786",
+                            "low": "0.9963782973898468",
+                            "close": "1.0020625467800786"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0x66e428c3f67a68878562e79a0234c1f83c208770",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 9471.555537,
+                            "quoteVolume": 2667787079.598183,
+                            "open": "280230.47352073516",
+                            "high": "285256.33952565835",
+                            "low": "280230.47352073516",
+                            "close": "283692.2698832013"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT",
+                                "address": "0x66e428c3f67a68878562e79a0234c1f83c208770",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 4712.843698,
+                            "quoteVolume": 49259.491191589485,
+                            "open": "10.379437148299086",
+                            "high": "10.515807343266502",
+                            "low": "10.379437148299086",
+                            "close": "10.515807343266502"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VNO",
+                                "address": "0xdb7d0a1ec37de1de924f8e8adac6ed338d4404e9",
+                                "name": "VenoToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 42799.58134483095,
+                            "quoteVolume": 1952167005.9010124,
+                            "open": "45174.04510213161",
+                            "high": "46110.3716126597",
+                            "low": "45174.04510213161",
+                            "close": "46110.3716126597"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CORGIAI",
+                                "address": "0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+                                "name": "CorgiAI"
+                            },
+                            "baseVolume": 12577131269.01839,
+                            "quoteVolume": 63611253.75782951,
+                            "open": "0.0051390939731867855",
+                            "high": "0.00521206080908204",
+                            "low": "0.004924904873759789",
+                            "close": "0.00521206080908204"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CROID",
+                                "address": "0xcbf0adea24fd5f32c6e7f0474f0d1b94ace4e2e7",
+                                "name": "Cronos ID Token"
+                            },
+                            "baseVolume": 2696009792.199476,
+                            "quoteVolume": 104525.25366225686,
+                            "open": "4.040810480090118e-05",
+                            "high": "4.040810480090118e-05",
+                            "low": "3.850386725881367e-05",
+                            "close": "3.850386725881367e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "FUL",
+                                "address": "0x83afb1c32e5637acd0a452d87c3249f4a9f0013a",
+                                "name": "FUL"
+                            },
+                            "baseVolume": 3671568136.0169225,
+                            "quoteVolume": 780523.830006282,
+                            "open": "0.00020688771773310984",
+                            "high": "0.00024557113497456493",
+                            "low": "0.00020305467593055207",
+                            "close": "0.00024557113497456493"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "KCH",
+                                "address": "0x4dda1bb6e378dcef97bff1057b6452615e86373c",
+                                "name": "Kaching"
+                            },
+                            "baseVolume": 2457998338.5995903,
+                            "quoteVolume": 97851.04516363062,
+                            "open": "3.8517399926282795e-05",
+                            "high": "4.1063290390177836e-05",
+                            "low": "3.8517399926282795e-05",
+                            "close": "4.1063290390177836e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LADYS",
+                                "address": "0x8540384c996056f1902c9785d85260612eb9dc29",
+                                "name": "Milady"
+                            },
+                            "baseVolume": 2315937237.279304,
+                            "quoteVolume": 192392818270.01486,
+                            "open": "82.15116977368669",
+                            "high": "87.84778603481814",
+                            "low": "80.93738959549266",
+                            "close": "85.28494695708793"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MTD",
+                                "address": "0x0224010ba2d567ffa014222ed960d1fa43b8c8e1",
+                                "name": "Minted Token"
+                            },
+                            "baseVolume": 349062154.3783118,
+                            "quoteVolume": 36633.161512155086,
+                            "open": "0.00010494738845979921",
+                            "high": "0.00010494738845979921",
+                            "low": "0.00010494738845979921",
+                            "close": "0.00010494738845979921"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "PEPE",
+                                "address": "0xf868c454784048af4f857991583e34243c92ff48",
+                                "name": "Pepe"
+                            },
+                            "baseVolume": 369314364.5868598,
+                            "quoteVolume": 850000011.1080132,
+                            "open": "2.3015622803052382",
+                            "high": "2.3015622803052382",
+                            "low": "2.3015622803052382",
+                            "close": "2.3015622803052382"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "TONIC",
+                                "address": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2",
+                                "name": "Tectonic Governance Token"
+                            },
+                            "baseVolume": 3378049266.804427,
+                            "quoteVolume": 62049891992.75417,
+                            "open": "18.508964422524528",
+                            "high": "18.508964422524528",
+                            "low": "18.148925187538726",
+                            "close": "18.247915658101242"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 18235635190.053997,
+                            "quoteVolume": 65282.047842,
+                            "open": "3.592431878951271e-06",
+                            "high": "3.6663584616143993e-06",
+                            "low": "3.4805343369439627e-06",
+                            "close": "3.509758634625605e-06"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0x66e428c3f67a68878562e79a0234c1f83c208770",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 2667787079.598183,
+                            "quoteVolume": 9471.555537,
+                            "open": "3.556882264216734e-06",
+                            "high": "3.568491275899752e-06",
+                            "low": "3.505618846763795e-06",
+                            "close": "3.5249462398524608e-06"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VNO",
+                                "address": "0xdb7d0a1ec37de1de924f8e8adac6ed338d4404e9",
+                                "name": "VenoToken"
+                            },
+                            "baseVolume": 1952167005.9010124,
+                            "quoteVolume": 42799.58134483095,
+                            "open": "2.213660516208263e-05",
+                            "high": "2.213660516208263e-05",
+                            "low": "2.168709479074005e-05",
+                            "close": "2.168709479074005e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 28288787741.322197,
+                            "quoteVolume": 1053290.87943165,
+                            "open": "3.736025155409434e-05",
+                            "high": "3.738555144333281e-05",
+                            "low": "3.712300823903641e-05",
+                            "close": "3.7364128821142315e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x062e66477faf219f25d27dced647bf57c3107d52",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 0.03497672,
+                            "quoteVolume": 1424.149462,
+                            "open": "40717.06729504654",
+                            "high": "40717.06729504654",
+                            "low": "40717.06729504654",
+                            "close": "40717.06729504654"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x062e66477faf219f25d27dced647bf57c3107d52",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 6.60635042,
+                            "quoteVolume": 2883576.3894914254,
+                            "open": "435135.7450643953",
+                            "high": "447758.8429981601",
+                            "low": "425783.4351846659",
+                            "close": "441412.8209996354"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "AKT",
+                                "address": "0x39a65a74dc5a778ff93d1765ea51f57bc49c81b3",
+                                "name": "AKT"
+                            },
+                            "baseVolume": 11188.241304175615,
+                            "quoteVolume": 579.762995,
+                            "open": "0.05181895699582596",
+                            "high": "0.05181895699582596",
+                            "low": "0.05181895699582596",
+                            "close": "0.05181895699582596"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "ALI",
+                                "address": "0x45c135c1cdce8d25a3b729a28659561385c52671",
+                                "name": "Artificial Liquid Intelligence Token"
+                            },
+                            "baseVolume": 22710.77078032214,
+                            "quoteVolume": 100000.00159923345,
+                            "open": "4.40319716871428",
+                            "high": "4.40319716871428",
+                            "low": "4.40319716871428",
+                            "close": "4.40319716871428"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "ATOM",
+                                "address": "0xb888d8dd1733d72681b30c00ee76bde93ae7aa93",
+                                "name": "ATOM"
+                            },
+                            "baseVolume": 287096.8577832367,
+                            "quoteVolume": 2858.985944,
+                            "open": "0.009743279746464533",
+                            "high": "0.010029971068601021",
+                            "low": "0.009743279746464533",
+                            "close": "0.009872373733903364"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BIFI",
+                                "address": "0xe6801928061cdbe32ac5ad0634427e140efd05f9",
+                                "name": "beefy.finance"
+                            },
+                            "baseVolume": 13389.029521301754,
+                            "quoteVolume": 10.478007971579753,
+                            "open": "0.0007825815870305904",
+                            "high": "0.0007825815870305904",
+                            "low": "0.0007825815870305904",
+                            "close": "0.0007825815870305904"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "CORGIAI",
+                                "address": "0x6b431b8a964bfcf28191b07c91189ff4403957d0",
+                                "name": "CorgiAI"
+                            },
+                            "baseVolume": 259295.7627063547,
+                            "quoteVolume": 35233188.21061563,
+                            "open": "133.42415060161554",
+                            "high": "142.0772115468204",
+                            "low": "131.945261975327",
+                            "close": "140.50251526726507"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "DOGE",
+                                "address": "0x1a8e39ae59e5556b56b76fcba98d22c9ae557396",
+                                "name": "Dogecoin"
+                            },
+                            "baseVolume": 33237.143992826146,
+                            "quoteVolume": 37042.23791871,
+                            "open": "1.1139702826809816",
+                            "high": "1.1148325697356465",
+                            "low": "1.1139702826809816",
+                            "close": "1.1139702826809816"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "FUL",
+                                "address": "0x83afb1c32e5637acd0a452d87c3249f4a9f0013a",
+                                "name": "FUL"
+                            },
+                            "baseVolume": 24979.82387585278,
+                            "quoteVolume": 148085.3998654779,
+                            "open": "5.68344031420861",
+                            "high": "6.240285487601023",
+                            "low": "5.68344031420861",
+                            "close": "6.240285487601023"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "GALA",
+                                "address": "0x7a887d4f8a3221e1aafa2f4435b774d51429a3e1",
+                                "name": "Gala"
+                            },
+                            "baseVolume": 13389.029521301754,
+                            "quoteVolume": 54476.04585033,
+                            "open": "4.068707576128606",
+                            "high": "4.068707576128606",
+                            "low": "4.068707576128606",
+                            "close": "4.068707576128606"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "HBAR",
+                                "address": "0xe0c7226a58f54db71edc6289ba2dc80349b41974",
+                                "name": "HBAR"
+                            },
+                            "baseVolume": 27142.58854654431,
+                            "quoteVolume": 35448.88278335,
+                            "open": "1.3060243949305719",
+                            "high": "1.3060243949305719",
+                            "low": "1.3060243949305719",
+                            "close": "1.3060243949305719"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "INJ",
+                                "address": "0x4e05f3c7ee6155e3add224470e1c4583d4f424a3",
+                                "name": "Injective Token"
+                            },
+                            "baseVolume": 11188.241304175615,
+                            "quoteVolume": 67.90080106558429,
+                            "open": "0.006068943207387091",
+                            "high": "0.006068943207387091",
+                            "low": "0.006068943207387091",
+                            "close": "0.006068943207387091"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "JASMY",
+                                "address": "0x227edf65f866255a0ed4b5b453fe43a41182ec3a",
+                                "name": "JasmyCoin"
+                            },
+                            "baseVolume": 19000.000298171766,
+                            "quoteVolume": 282482.305090021,
+                            "open": "14.86748950826081",
+                            "high": "14.86748950826081",
+                            "low": "14.86748950826081",
+                            "close": "14.86748950826081"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LCRO",
+                                "address": "0x9fae23a2700feecd5b93e43fdbc03c76aa7c08a6",
+                                "name": "Liquid CRO"
+                            },
+                            "baseVolume": 24127.194843119087,
+                            "quoteVolume": 22290.606491910832,
+                            "open": "0.9238611726466699",
+                            "high": "0.923897067027641",
+                            "low": "0.9238611726466699",
+                            "close": "0.923897067027641"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "LMWR",
+                                "address": "0x0ddb6540afd29b14f7e02d1292bd675b5ceea896",
+                                "name": "LimeWire Token"
+                            },
+                            "baseVolume": 12089.430787468289,
+                            "quoteVolume": 4800.000075327604,
+                            "open": "0.39704103193205814",
+                            "high": "0.39704103193205814",
+                            "low": "0.39704103193205814",
+                            "close": "0.39704103193205814"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SHIB",
+                                "address": "0xbed48612bc69fa1cab67052b42a95fb30c1bcfee",
+                                "name": "SHIBA INU"
+                            },
+                            "baseVolume": 53353.91314725726,
+                            "quoteVolume": 583010914.4201353,
+                            "open": "11008.097305259727",
+                            "high": "11031.509787072482",
+                            "low": "10530.355762758305",
+                            "close": "10530.355762758305"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SOL",
+                                "address": "0xc9de0f3e08162312528ff72559db82590b481800",
+                                "name": "SOL"
+                            },
+                            "baseVolume": 125480.54438362928,
+                            "quoteVolume": 223.185593532,
+                            "open": "0.0015953467520729591",
+                            "high": "0.0018379308497058773",
+                            "low": "0.0015953467520729591",
+                            "close": "0.0015953467520729591"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "TONIC",
+                                "address": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2",
+                                "name": "Tectonic Governance Token"
+                            },
+                            "baseVolume": 102387.97501090799,
+                            "quoteVolume": 50401952579.70451,
+                            "open": "498049.5645081368",
+                            "high": "498049.5645081368",
+                            "low": "485807.0535240399",
+                            "close": "487825.0747309299"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 8378956.582016651,
+                            "quoteVolume": 800280.562909,
+                            "open": "0.09678766404358691",
+                            "high": "0.09779436151014796",
+                            "low": "0.09301578191676256",
+                            "close": "0.09415489628472032"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT",
+                                "address": "0x66e428c3f67a68878562e79a0234c1f83c208770",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 49259.491191589485,
+                            "quoteVolume": 4712.843698,
+                            "open": "0.09634433791661558",
+                            "high": "0.09634433791661558",
+                            "low": "0.09509493349935909",
+                            "close": "0.09509493349935909"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "VVS",
+                                "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+                                "name": "VVSToken"
+                            },
+                            "baseVolume": 1053290.87943165,
+                            "quoteVolume": 28288787741.322197,
+                            "open": "26766.415064205023",
+                            "high": "26937.472134827098",
+                            "low": "26748.30145318977",
+                            "close": "26763.63751947442"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC",
+                                "address": "0x062e66477faf219f25d27dced647bf57c3107d52",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 2883576.3894914254,
+                            "quoteVolume": 6.60635042,
+                            "open": "2.2981334246673097e-06",
+                            "high": "2.3486117997199483e-06",
+                            "low": "2.2333450598185264e-06",
+                            "close": "2.2654530009694173e-06"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xe44fd7fcb2b1581822d0c862b68222998a0c299a",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 1403593.4341427977,
+                            "quoteVolume": 60.617124138559014,
+                            "open": "4.3067500050310004e-05",
+                            "high": "4.402706527571648e-05",
+                            "low": "4.249315328399005e-05",
+                            "close": "4.318238377356614e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "XRP",
+                                "address": "0xb9ce0dd29c91e02d4620f57a66700fc5e41d6d15",
+                                "name": "XRP"
+                            },
+                            "baseVolume": 16422.398467720814,
+                            "quoteVolume": 2547.254539,
+                            "open": "0.1551085576206653",
+                            "high": "0.1551085576206653",
+                            "low": "0.1551085576206653",
+                            "close": "0.1551085576206653"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "bCRO",
+                                "address": "0xebaceb7f193955b946cc5dd8f8724a80671a1f2f",
+                                "name": "Bonded CRO"
+                            },
+                            "baseVolume": 12800.324359878698,
+                            "quoteVolume": 11313.449155580896,
+                            "open": "0.8838408182093996",
+                            "high": "0.8838408182093996",
+                            "low": "0.8838408182093996",
+                            "close": "0.8838408182093996"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xe44fd7fcb2b1581822d0c862b68222998a0c299a",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 1.8979257979501278,
+                            "quoteVolume": 4046.360945,
+                            "open": "2125.9593820896735",
+                            "high": "2145.669001754787",
+                            "low": "2125.9593820896735",
+                            "close": "2125.9593820896735"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xe44fd7fcb2b1581822d0c862b68222998a0c299a",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 60.61712413855902,
+                            "quoteVolume": 1403593.434142798,
+                            "open": "23219.364923244528",
+                            "high": "23533.202944879253",
+                            "low": "22713.30132357377",
+                            "close": "23157.59142069745"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "XRP",
+                                "address": "0xb9ce0dd29c91e02d4620f57a66700fc5e41d6d15",
+                                "name": "XRP"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 2547.254539,
+                            "quoteVolume": 16422.398467720814,
+                            "open": "6.44709753826483",
+                            "high": "6.44709753826483",
+                            "low": "6.44709753826483",
+                            "close": "6.44709753826483"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "bCRO",
+                                "address": "0xebaceb7f193955b946cc5dd8f8724a80671a1f2f",
+                                "name": "Bonded CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 11313.449155580896,
+                            "quoteVolume": 12800.324359878698,
+                            "open": "1.131425455124296",
+                            "high": "1.131425455124296",
+                            "low": "1.131425455124296",
+                            "close": "1.131425455124296"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 05 Dec 2023 13:32:30 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID, X-Runtime",
+            "x-graphql-query-id",
+            "Kca7Uz4rbqK2ubpg",
+            "x-graphql-requested",
+            "true",
+            "etag",
+            "W/\"0ba990dde9382ff92bdfd7d32c7cc96a\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "90b99b03-14ce-4dd2-95d0-b929df9ed708",
+            "x-runtime",
+            "0.187700",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]

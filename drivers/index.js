@@ -219,6 +219,7 @@ exports.Upbit = require('./upbit');
 exports.Versedex = require('./versedex');
 exports.Vindax = require('./vindax');
 exports.Vitex = require('./vitex');
+exports.Vvsfinancecronos = require('./vvsfinancecronos');
 exports.Wavesexchange = require('./wavesexchange');
 exports.Wazirx = require('./wazirx');
 exports.Whitebit = require('./whitebit');
