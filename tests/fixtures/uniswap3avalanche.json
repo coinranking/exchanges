@@ -1,0 +1,505 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $protocol:String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                protocol: {is: $protocol}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-18T08:54:31.046Z",
+                "twentyFourHoursAgo": "2022-11-17T08:54:31.046Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "avalanche",
+                "protocol": "Uniswap v3"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "BSGG",
+                                "address": "0x63682bdc5f875e9bf69e201550658492c9763f89",
+                                "name": "Betswap.gg"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT.e",
+                                "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 753640.4193061478,
+                            "quoteVolume": 1547,
+                            "open": "0.0020527030668342767",
+                            "high": "0.0020527030668342767",
+                            "low": "0.0020527030668342767",
+                            "close": "0.0020527030668342767"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "BTC.b",
+                                "address": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
+                                "name": "Bitcoin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC.e",
+                                "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 0.46584062,
+                            "quoteVolume": 0.46604602,
+                            "open": "1.0007384447226753",
+                            "high": "1.0007384447226753",
+                            "low": "0.9997321346772164",
+                            "close": "0.9997321346772164"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "HUSKY",
+                                "address": "0x65378b697853568da9ff8eab60c13e1ee9f4a654",
+                                "name": "Husky"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "baseVolume": 227141184121.8505,
+                            "quoteVolume": 425.14574990291294,
+                            "open": "1.9520900405292283e-09",
+                            "high": "1.9520900405292283e-09",
+                            "low": "1.7772617763434258e-09",
+                            "close": "1.7772617763434258e-09"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SHRAP",
+                                "address": "0xd402298a793948698b9a63311404fbbee944eafd",
+                                "name": "SHRAPToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 223659.24968726793,
+                            "quoteVolume": 71667.753109,
+                            "open": "0.28844208796012566",
+                            "high": "0.35048649309796964",
+                            "low": "0.2770380108386585",
+                            "close": "0.3129617248823628"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SHRAP",
+                                "address": "0xd402298a793948698b9a63311404fbbee944eafd",
+                                "name": "SHRAPToken"
+                            },
+                            "baseVolume": 71667.753109,
+                            "quoteVolume": 223659.24968726793,
+                            "open": "3.4669004342328864",
+                            "high": "3.6096129804454176",
+                            "low": "2.8531769973813947",
+                            "close": "3.1952789127037295"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDt",
+                                "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+                                "name": "TetherToken"
+                            },
+                            "baseVolume": 605318.148297,
+                            "quoteVolume": 605179.078059,
+                            "open": "0.9995943676631759",
+                            "high": "1.0002917619562168",
+                            "low": "0.9991697584386198",
+                            "close": "0.9997365126782685"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "baseVolume": 702732.570029,
+                            "quoteVolume": 31762.900304351453,
+                            "open": "0.04573716165066635",
+                            "high": "0.04695530710314842",
+                            "low": "0.04316867013720704",
+                            "close": "0.04529144546397095"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH.e",
+                                "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 11635.3074,
+                            "quoteVolume": 5.273333979043416,
+                            "open": "0.00044877564876785953",
+                            "high": "0.00045505050545233106",
+                            "low": "0.0004486923786570387",
+                            "close": "0.0004528045213551083"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT.e",
+                                "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BSGG",
+                                "address": "0x63682bdc5f875e9bf69e201550658492c9763f89",
+                                "name": "Betswap.gg"
+                            },
+                            "baseVolume": 1547,
+                            "quoteVolume": 753640.4193061478,
+                            "open": "487.16252055988866",
+                            "high": "487.16252055988866",
+                            "low": "487.16252055988866",
+                            "close": "487.16252055988866"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDT.e",
+                                "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+                                "name": "Tether USD"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "Volta",
+                                "address": "0x9b06f3c5de42d4623d7a2bd940ec735103c68a76",
+                                "name": "Volta Club"
+                            },
+                            "baseVolume": 47582.264434,
+                            "quoteVolume": 321.04450160616375,
+                            "open": "0.006801545027387587",
+                            "high": "0.006808269160008078",
+                            "low": "0.0066644427533236175",
+                            "close": "0.006673065600260285"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDt",
+                                "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+                                "name": "TetherToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 605179.078059,
+                            "quoteVolume": 605318.148297,
+                            "open": "1.0004057969411857",
+                            "high": "1.0008309314351924",
+                            "low": "0.9997083231439933",
+                            "close": "1.0002635567655977"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDt",
+                                "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+                                "name": "TetherToken"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "baseVolume": 4053.25296,
+                            "quoteVolume": 188.809361796242,
+                            "open": "0.04656002961542537",
+                            "high": "0.04659278830012128",
+                            "low": "0.04656002961542537",
+                            "close": "0.04656002961542537"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "Volta",
+                                "address": "0x9b06f3c5de42d4623d7a2bd940ec735103c68a76",
+                                "name": "Volta Club"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDT.e",
+                                "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+                                "name": "Tether USD"
+                            },
+                            "baseVolume": 321.04450160616375,
+                            "quoteVolume": 47582.264434,
+                            "open": "147.02541789745248",
+                            "high": "150.05005474783184",
+                            "low": "146.8802094185732",
+                            "close": "149.85616205556178"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "HUSKY",
+                                "address": "0x65378b697853568da9ff8eab60c13e1ee9f4a654",
+                                "name": "Husky"
+                            },
+                            "baseVolume": 425.14574990291294,
+                            "quoteVolume": 227141184121.8505,
+                            "open": "512271452.25785357",
+                            "high": "562663313.4807075",
+                            "low": "512271452.25785357",
+                            "close": "562663313.4807075"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 31762.900304351457,
+                            "quoteVolume": 702732.570029,
+                            "open": "21.864058982012292",
+                            "high": "23.164948024148206",
+                            "low": "21.296847187119102",
+                            "close": "22.079224669380302"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDt",
+                                "address": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+                                "name": "TetherToken"
+                            },
+                            "baseVolume": 188.809361796242,
+                            "quoteVolume": 4053.25296,
+                            "open": "21.462548958406014",
+                            "high": "21.47764956894914",
+                            "low": "21.462548958406014",
+                            "close": "21.462548958406014"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WBTC.e",
+                                "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
+                                "name": "Wrapped BTC"
+                            },
+                            "baseVolume": 496.470929317338,
+                            "quoteVolume": 0.26430926,
+                            "open": "0.0005245213046596255",
+                            "high": "0.000543898537675339",
+                            "low": "0.0005245213046596255",
+                            "close": "0.0005411740038712665"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH.e",
+                                "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 424.95511165379907,
+                            "quoteVolume": 4.058012442255681,
+                            "open": "0.009607071762293395",
+                            "high": "0.009608653666972151",
+                            "low": "0.00952548895722022",
+                            "close": "0.00952548895722022"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC.e",
+                                "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "BTC.b",
+                                "address": "0x152b9d0fdc40c096757f570a51e494bd4b943e50",
+                                "name": "Bitcoin"
+                            },
+                            "baseVolume": 0.46604602,
+                            "quoteVolume": 0.46584062,
+                            "open": "0.9992621001755558",
+                            "high": "1.0002679370938397",
+                            "low": "0.9992621001755558",
+                            "close": "1.0002679370938397"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WBTC.e",
+                                "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
+                                "name": "Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "baseVolume": 0.26430926,
+                            "quoteVolume": 496.470929317338,
+                            "open": "1897.2364277393278",
+                            "high": "1906.5002529285714",
+                            "low": "1838.5782103295796",
+                            "close": "1838.5782103295796"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH.e",
+                                "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 5.273333979043416,
+                            "quoteVolume": 11635.3074,
+                            "open": "2228.6984302988512",
+                            "high": "2228.6984302988512",
+                            "low": "2197.5582666499317",
+                            "close": "2208.4585131952736"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH.e",
+                                "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WAVAX",
+                                "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+                                "name": "Wrapped AVAX"
+                            },
+                            "baseVolume": 4.058012442255681,
+                            "quoteVolume": 424.95511165379907,
+                            "open": "104.07285293644233",
+                            "high": "104.98148751114877",
+                            "low": "104.07285293644233",
+                            "close": "104.9509789900301"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "aDXN",
+                                "address": "0x80f0c1c49891dcfdd40b6e0f960f84e6042bcb6f",
+                                "name": "DBXen Token on Avalanche"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "aXEN",
+                                "address": "0xc0c5aa69dbe4d6dddfbc89c0957686ec60f24389",
+                                "name": "XEN Crypto"
+                            },
+                            "baseVolume": 3946.755496079217,
+                            "quoteVolume": 42366608312.967995,
+                            "open": "8290913.614045619",
+                            "high": "12298272.491562253",
+                            "low": "8290913.614045619",
+                            "close": "9842617.169117423"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "aXEN",
+                                "address": "0xc0c5aa69dbe4d6dddfbc89c0957686ec60f24389",
+                                "name": "XEN Crypto"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "aDXN",
+                                "address": "0x80f0c1c49891dcfdd40b6e0f960f84e6042bcb6f",
+                                "name": "DBXen Token on Avalanche"
+                            },
+                            "baseVolume": 42366608312.967995,
+                            "quoteVolume": 3946.7554960792168,
+                            "open": "1.2061396928631632e-07",
+                            "high": "1.2061396928631632e-07",
+                            "low": "8.131223313567756e-08",
+                            "close": "1.015989937247218e-07"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 05 Dec 2023 12:53:29 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID, X-Runtime",
+            "x-graphql-query-id",
+            "BoaD5ihAKNaSNbpB",
+            "x-graphql-requested",
+            "true",
+            "etag",
+            "W/\"ba5c8896fab1cedbb3167c12717898d2\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "8d32fb00-dcad-4e06-8b76-fbf650934410",
+            "x-runtime",
+            "0.059023",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]

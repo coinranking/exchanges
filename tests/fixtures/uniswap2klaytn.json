@@ -1,0 +1,325 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $protocol:String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                protocol: {is: $protocol}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-18T08:54:31.046Z",
+                "twentyFourHoursAgo": "2022-11-17T08:54:31.046Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "klaytn",
+                "protocol": "Uniswap v2"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "JEWEL",
+                                "address": "0x30c103f8f5a3a732dfe2dce1cc9446f545527b43",
+                                "name": "JEWEL"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "KETH",
+                                "address": "0x34d21b1e550d73cee41151c77f3c73359527a396",
+                                "name": "Orbit Bridge Klaytn Ethereum"
+                            },
+                            "baseVolume": 62195.48378565807,
+                            "quoteVolume": 5.257800497489462,
+                            "open": "8.598324837038591e-05",
+                            "high": "8.799151320802189e-05",
+                            "low": "8.123005137440391e-05",
+                            "close": "8.799151320802189e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "JEWEL",
+                                "address": "0x30c103f8f5a3a732dfe2dce1cc9446f545527b43",
+                                "name": "JEWEL"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "KUSDT",
+                                "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+                                "name": "Orbit Bridge Klaytn USD Tether"
+                            },
+                            "baseVolume": 34001.56262861479,
+                            "quoteVolume": 7397.735177,
+                            "open": "0.18598498928048177",
+                            "high": "0.24064959325651405",
+                            "low": "0.18598498928048177",
+                            "close": "0.23534858142299225"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "JEWEL",
+                                "address": "0x30c103f8f5a3a732dfe2dce1cc9446f545527b43",
+                                "name": "JEWEL"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "KWBTC",
+                                "address": "0x16d0e1fbd024c600ca0380a4c5d57ee7a2ecbf9c",
+                                "name": "Orbit Bridge Klaytn Wrapped BTC"
+                            },
+                            "baseVolume": 6596.23743830545,
+                            "quoteVolume": 0.02975434,
+                            "open": "4.510804876005765e-06",
+                            "high": "4.510804876005765e-06",
+                            "low": "4.510804876005765e-06",
+                            "close": "4.510804876005765e-06"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "KETH",
+                                "address": "0x34d21b1e550d73cee41151c77f3c73359527a396",
+                                "name": "Orbit Bridge Klaytn Ethereum"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "JEWEL",
+                                "address": "0x30c103f8f5a3a732dfe2dce1cc9446f545527b43",
+                                "name": "JEWEL"
+                            },
+                            "baseVolume": 5.25780049748946,
+                            "quoteVolume": 62195.483785658056,
+                            "open": "11630.172376046414",
+                            "high": "12310.714853433",
+                            "low": "11364.732387723427",
+                            "close": "11575.16999734627"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "KUSDT",
+                                "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+                                "name": "Orbit Bridge Klaytn USD Tether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "JEWEL",
+                                "address": "0x30c103f8f5a3a732dfe2dce1cc9446f545527b43",
+                                "name": "JEWEL"
+                            },
+                            "baseVolume": 7397.735177,
+                            "quoteVolume": 34001.56262861479,
+                            "open": "5.376778007024598",
+                            "high": "5.376778007024598",
+                            "low": "4.155419448118811",
+                            "close": "4.249016475704602"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "KUSDT",
+                                "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+                                "name": "Orbit Bridge Klaytn USD Tether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "PALA",
+                                "address": "0x7a1cdca99fe5995ab8e317ede8495c07cbf488ad",
+                                "name": "Pala Token"
+                            },
+                            "baseVolume": 1198.409246,
+                            "quoteVolume": 109285.03466681417,
+                            "open": "91.19174858803966",
+                            "high": "91.19174858803966",
+                            "low": "91.19174858803966",
+                            "close": "91.19174858803966"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "KUSDT",
+                                "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+                                "name": "Orbit Bridge Klaytn USD Tether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SIX",
+                                "address": "0xef82b1c6a550e730d8283e1edd4977cd01faf435",
+                                "name": "SIX"
+                            },
+                            "baseVolume": 2582.29496,
+                            "quoteVolume": 98827.67292648979,
+                            "open": "38.307752986580304",
+                            "high": "38.307752986580304",
+                            "low": "38.22666811318338",
+                            "close": "38.22666811318338"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "KUSDT",
+                                "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+                                "name": "Orbit Bridge Klaytn USD Tether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WKLAY",
+                                "address": "0xe4f05a66ec68b54a58b17c22107b02e0232cc817",
+                                "name": "Wrapped Klay"
+                            },
+                            "baseVolume": 3139.783009,
+                            "quoteVolume": 15507.440534999156,
+                            "open": "4.990425668419626",
+                            "high": "4.990425668419626",
+                            "low": "4.86308643203406",
+                            "close": "4.86308643203406"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "KWBTC",
+                                "address": "0x16d0e1fbd024c600ca0380a4c5d57ee7a2ecbf9c",
+                                "name": "Orbit Bridge Klaytn Wrapped BTC"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "JEWEL",
+                                "address": "0x30c103f8f5a3a732dfe2dce1cc9446f545527b43",
+                                "name": "JEWEL"
+                            },
+                            "baseVolume": 0.02975434,
+                            "quoteVolume": 6596.23743830545,
+                            "open": "221689.92618574132",
+                            "high": "221689.92618574132",
+                            "low": "221689.92618574132",
+                            "close": "221689.92618574132"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "NPT",
+                                "address": "0xe06597d02a2c3aa7a9708de2cfa587b128bd3815",
+                                "name": "NEOPIN Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WKLAY",
+                                "address": "0x57d1a61e4fd09fbf16e35b04959e94dcf2032974",
+                                "name": "Wrapped Klay"
+                            },
+                            "baseVolume": 171044.82105205633,
+                            "quoteVolume": 548102.1788650083,
+                            "open": "2.9880235537783792",
+                            "high": "3.4566413428882785",
+                            "low": "2.785939154536833",
+                            "close": "3.1170116336093785"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "PALA",
+                                "address": "0x7a1cdca99fe5995ab8e317ede8495c07cbf488ad",
+                                "name": "Pala Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "KUSDT",
+                                "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+                                "name": "Orbit Bridge Klaytn USD Tether"
+                            },
+                            "baseVolume": 109285.03466681417,
+                            "quoteVolume": 1198.409246,
+                            "open": "0.010965904431962563",
+                            "high": "0.010965904431962563",
+                            "low": "0.010965904431962563",
+                            "close": "0.010965904431962563"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SIX",
+                                "address": "0xef82b1c6a550e730d8283e1edd4977cd01faf435",
+                                "name": "SIX"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "KUSDT",
+                                "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+                                "name": "Orbit Bridge Klaytn USD Tether"
+                            },
+                            "baseVolume": 98827.67292648979,
+                            "quoteVolume": 2582.29496,
+                            "open": "0.026104376321689052",
+                            "high": "0.026159747876512575",
+                            "low": "0.026104376321689052",
+                            "close": "0.026159747876512575"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WKLAY",
+                                "address": "0x57d1a61e4fd09fbf16e35b04959e94dcf2032974",
+                                "name": "Wrapped Klay"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "NPT",
+                                "address": "0xe06597d02a2c3aa7a9708de2cfa587b128bd3815",
+                                "name": "NEOPIN Token"
+                            },
+                            "baseVolume": 548102.1788650083,
+                            "quoteVolume": 171044.82105205633,
+                            "open": "0.33466938329033324",
+                            "high": "0.3589453841342963",
+                            "low": "0.28929816570568073",
+                            "close": "0.32082010513449344"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WKLAY",
+                                "address": "0xe4f05a66ec68b54a58b17c22107b02e0232cc817",
+                                "name": "Wrapped Klay"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "KUSDT",
+                                "address": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+                                "name": "Orbit Bridge Klaytn USD Tether"
+                            },
+                            "baseVolume": 15507.440534999156,
+                            "quoteVolume": 3139.783009,
+                            "open": "0.20038370801276378",
+                            "high": "0.20563072731194182",
+                            "low": "0.20038370801276378",
+                            "close": "0.20563072731194182"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 05 Dec 2023 13:40:12 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID, X-Runtime",
+            "x-graphql-query-id",
+            "K16XFXJzKZgAYUPB",
+            "x-graphql-requested",
+            "true",
+            "etag",
+            "W/\"7b7945d48f97e6824c99d794d1e0b5b8\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "9077c379-6d4d-4eb5-88be-b3c876305f4b",
+            "x-runtime",
+            "0.053004",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]

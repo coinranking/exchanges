@@ -1,0 +1,325 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $exchangeName: String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                exchangeName: {in: [$exchangeName]}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-18T08:54:31.046Z",
+                "twentyFourHoursAgo": "2022-11-17T08:54:31.046Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "cronos",
+                "exchangeName": "MM Finance"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "MMF",
+                                "address": "0x97749c9b61f878a880dfe312d2594ae07aed7656",
+                                "name": "Mad Meerkat Finance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MSHARE",
+                                "address": "0xf8b9facb7b4410f5703eb29093302f2933d6e1aa",
+                                "name": "Savanna Share"
+                            },
+                            "baseVolume": 984502.6455990251,
+                            "quoteVolume": 401.52671745694175,
+                            "open": "0.00038462217826265165",
+                            "high": "0.00043501555612245784",
+                            "low": "0.00038462217826265165",
+                            "close": "0.00043501555612245784"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MMF",
+                                "address": "0x97749c9b61f878a880dfe312d2594ae07aed7656",
+                                "name": "Mad Meerkat Finance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SVN",
+                                "address": "0x654bac3ec77d6db497892478f854cf6e8245dca9",
+                                "name": "Savanna Token"
+                            },
+                            "baseVolume": 184417.8408093548,
+                            "quoteVolume": 327549.6048562223,
+                            "open": "1.776127534183813",
+                            "high": "1.776127534183813",
+                            "low": "1.776127534183813",
+                            "close": "1.776127534183813"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MMF",
+                                "address": "0x97749c9b61f878a880dfe312d2594ae07aed7656",
+                                "name": "Mad Meerkat Finance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 2194202.5700336415,
+                            "quoteVolume": 14829.545228,
+                            "open": "0.006906341932051254",
+                            "high": "0.0069085276380397055",
+                            "low": "0.006690172069055254",
+                            "close": "0.006735153578518389"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MMF",
+                                "address": "0x97749c9b61f878a880dfe312d2594ae07aed7656",
+                                "name": "Mad Meerkat Finance"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 1382822.3002282984,
+                            "quoteVolume": 99376.14658194616,
+                            "open": "0.07227510053249019",
+                            "high": "0.07227510053249019",
+                            "low": "0.0716891350973371",
+                            "close": "0.0716891350973371"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MSHARE",
+                                "address": "0xf8b9facb7b4410f5703eb29093302f2933d6e1aa",
+                                "name": "Savanna Share"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MMF",
+                                "address": "0x97749c9b61f878a880dfe312d2594ae07aed7656",
+                                "name": "Mad Meerkat Finance"
+                            },
+                            "baseVolume": 401.52671745694175,
+                            "quoteVolume": 984502.6455990251,
+                            "open": "2599.954075755657",
+                            "high": "2599.954075755657",
+                            "low": "2298.7683679948627",
+                            "close": "2298.7683679948627"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "MTT",
+                                "address": "0x388c07066aa6cea2be4db58e702333df92c3a074",
+                                "name": "Hakuna Share"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "SVN",
+                                "address": "0x654bac3ec77d6db497892478f854cf6e8245dca9",
+                                "name": "Savanna Token"
+                            },
+                            "baseVolume": 50.00543709682323,
+                            "quoteVolume": 327549.6048562223,
+                            "open": "6550.279807013846",
+                            "high": "6550.279807013846",
+                            "low": "6550.279807013846",
+                            "close": "6550.279807013846"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SVN",
+                                "address": "0x654bac3ec77d6db497892478f854cf6e8245dca9",
+                                "name": "Savanna Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MMF",
+                                "address": "0x97749c9b61f878a880dfe312d2594ae07aed7656",
+                                "name": "Mad Meerkat Finance"
+                            },
+                            "baseVolume": 327549.6048562223,
+                            "quoteVolume": 184417.8408093548,
+                            "open": "0.5630226325270791",
+                            "high": "0.5630226325270791",
+                            "low": "0.5630226325270791",
+                            "close": "0.5630226325270791"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "SVN",
+                                "address": "0x654bac3ec77d6db497892478f854cf6e8245dca9",
+                                "name": "Savanna Token"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MTT",
+                                "address": "0x388c07066aa6cea2be4db58e702333df92c3a074",
+                                "name": "Hakuna Share"
+                            },
+                            "baseVolume": 327549.6048562223,
+                            "quoteVolume": 50.00543709682323,
+                            "open": "0.00015266523407583742",
+                            "high": "0.00015266523407583742",
+                            "low": "0.00015266523407583742",
+                            "close": "0.00015266523407583742"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MMF",
+                                "address": "0x97749c9b61f878a880dfe312d2594ae07aed7656",
+                                "name": "Mad Meerkat Finance"
+                            },
+                            "baseVolume": 14829.545228,
+                            "quoteVolume": 2194202.5700336415,
+                            "open": "144.79445266953206",
+                            "high": "149.47298659557703",
+                            "low": "144.74864289371936",
+                            "close": "148.47471380451904"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 52242.651741,
+                            "quoteVolume": 548903.5459113537,
+                            "open": "10.420269492295512",
+                            "high": "10.695364841928903",
+                            "low": "10.236410262447572",
+                            "close": "10.557001922414788"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "MMF",
+                                "address": "0x97749c9b61f878a880dfe312d2594ae07aed7656",
+                                "name": "Mad Meerkat Finance"
+                            },
+                            "baseVolume": 99376.14658194616,
+                            "quoteVolume": 1382822.3002282984,
+                            "open": "13.83602364621361",
+                            "high": "13.949115143350992",
+                            "low": "13.83602364621361",
+                            "close": "13.949115143350992"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "USDC",
+                                "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+                                "name": "USD Coin"
+                            },
+                            "baseVolume": 548903.5459113537,
+                            "quoteVolume": 52242.651741,
+                            "open": "0.09596680783921903",
+                            "high": "0.0976904964104961",
+                            "low": "0.09349844673645097",
+                            "close": "0.0947238626410387"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xe44fd7fcb2b1581822d0c862b68222998a0c299a",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 36264.101223582504,
+                            "quoteVolume": 1.562670063568698,
+                            "open": "4.291038863208359e-05",
+                            "high": "4.3400889581143386e-05",
+                            "low": "4.291038863208359e-05",
+                            "close": "4.3400889581143386e-05"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0xe44fd7fcb2b1581822d0c862b68222998a0c299a",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WCRO",
+                                "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+                                "name": "Wrapped CRO"
+                            },
+                            "baseVolume": 1.562670063568698,
+                            "quoteVolume": 36264.101223582504,
+                            "open": "23304.379938715167",
+                            "high": "23304.379938715167",
+                            "low": "23041.002376929973",
+                            "close": "23041.002376929973"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 05 Dec 2023 13:36:17 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID, X-Runtime",
+            "x-graphql-query-id",
+            "avw3Y97FVmsv2RCd",
+            "x-graphql-requested",
+            "true",
+            "etag",
+            "W/\"81f0d78a4eddd28225dc09091814f9f0\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "e941d7c4-4c6d-45b7-982e-f164e1b5ea02",
+            "x-runtime",
+            "0.061534",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]

@@ -1,0 +1,145 @@
+[
+    {
+        "scope": "https://graphql.bitquery.io:443",
+        "method": "POST",
+        "path": "/",
+        "body": {
+            "query": "\n          query fetchTickers($network: EthereumNetwork!, $exchangeName: String!, $minimumVolumeInUsd: Float!, $twentyFourHoursAgo: ISO8601DateTime, $now: ISO8601DateTime) {\n            exchange: ethereum(network: $network) {\n              tickers: dexTrades(\n                exchangeName: {in: [$exchangeName]}\n                tradeAmountUsd: {gt: $minimumVolumeInUsd}\n                time: {since: $twentyFourHoursAgo, till: $now}\n              ) {\n                baseCurrency {\n                  symbol\n                  address\n                  name\n                }\n                quoteCurrency {\n                  symbol\n                  address\n                  name\n                }\n                baseVolume: baseAmount\n                quoteVolume: quoteAmount\n                open: minimum(of: time, get: quote_price)\n                high: maximum(of: quote_price, get: quote_price)\n                low: minimum(of: quote_price, get: quote_price)\n                close: maximum(of: time, get: quote_price)\n              }\n            }\n          }\n        ",
+            "variables": {
+                "now": "2022-11-18T08:54:31.046Z",
+                "twentyFourHoursAgo": "2022-11-17T08:54:31.046Z",
+                "minimumVolumeInUsd": 1000,
+                "network": "matic",
+                "exchangeName": "ApeSwap"
+            }
+        },
+        "status": 200,
+        "response": {
+            "data": {
+                "exchange": {
+                    "tickers": [
+                        {
+                            "baseCurrency": {
+                                "symbol": "FOUR",
+                                "address": "0x48cbc913de09317df2365e6827df50da083701d5",
+                                "name": "The 4th Pillar Token (PoS)"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WMATIC",
+                                "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+                                "name": "Wrapped Matic"
+                            },
+                            "baseVolume": 863513.271698712,
+                            "quoteVolume": 10068.908175194896,
+                            "open": "0.013471180850561404",
+                            "high": "0.013471180850561404",
+                            "low": "0.010068689482930533",
+                            "close": "0.010893225323604287"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WETH",
+                                "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+                                "name": "Wrapped Ether"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WMATIC",
+                                "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+                                "name": "Wrapped Matic"
+                            },
+                            "baseVolume": 0.44848084994964776,
+                            "quoteVolume": 1264.1700210539022,
+                            "open": "2818.782610664054",
+                            "high": "2818.782610664054",
+                            "low": "2818.782610664054",
+                            "close": "2818.782610664054"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WMATIC",
+                                "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+                                "name": "Wrapped Matic"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "FOUR",
+                                "address": "0x48cbc913de09317df2365e6827df50da083701d5",
+                                "name": "The 4th Pillar Token (PoS)"
+                            },
+                            "baseVolume": 10068.908175194896,
+                            "quoteVolume": 863513.271698712,
+                            "open": "74.23254212776199",
+                            "high": "99.3177912274782",
+                            "low": "74.23254212776199",
+                            "close": "91.80017582424577"
+                        },
+                        {
+                            "baseCurrency": {
+                                "symbol": "WMATIC",
+                                "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+                                "name": "Wrapped Matic"
+                            },
+                            "quoteCurrency": {
+                                "symbol": "WETH",
+                                "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+                                "name": "Wrapped Ether"
+                            },
+                            "baseVolume": 1264.1700210539022,
+                            "quoteVolume": 0.44848084994964776,
+                            "open": "0.00035476307971277644",
+                            "high": "0.00035476307971277644",
+                            "low": "0.00035476307971277644",
+                            "close": "0.00035476307971277644"
+                        }
+                    ]
+                }
+            }
+        },
+        "rawHeaders": [
+            "Server",
+            "nginx",
+            "Date",
+            "Tue, 05 Dec 2023 12:42:06 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "x-frame-options",
+            "SAMEORIGIN",
+            "x-xss-protection",
+            "1; mode=block",
+            "x-content-type-options",
+            "nosniff",
+            "x-download-options",
+            "noopen",
+            "x-permitted-cross-domain-policies",
+            "none",
+            "referrer-policy",
+            "strict-origin-when-cross-origin",
+            "access-control-expose-headers",
+            "X-GraphQL-Requested, X-GraphQL-Query-ID, X-Runtime",
+            "x-graphql-query-id",
+            "83HSVv1HziZue3eZ",
+            "x-graphql-requested",
+            "true",
+            "etag",
+            "W/\"42e407137334d835a7ff72591466eea4\"",
+            "cache-control",
+            "max-age=0, private, must-revalidate",
+            "x-request-id",
+            "80488958-94d2-4e50-96fb-3dc79ff097c9",
+            "x-runtime",
+            "0.157260",
+            "vary",
+            "Origin",
+            "vary",
+            "Accept-Encoding",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Methods",
+            "GET, POST, OPTIONS"
+        ],
+        "responseIsBinary": false
+    }
+]
