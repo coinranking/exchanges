@@ -196,6 +196,7 @@ exports.Triunits = require('./triunits');
 exports.Unisat = require('./unisat');
 exports.Uniswap = require('./uniswap');
 exports.Uniswap2 = require('./uniswap2');
+exports.Uniswap2arbitrum = require('./uniswap2arbitrum');
 exports.Uniswap2bsc = require('./uniswap2bsc');
 exports.Uniswap3 = require('./uniswap3');
 exports.Uniswap3arbitrum = require('./uniswap3arbitrum');
