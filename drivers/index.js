@@ -145,6 +145,7 @@ exports.Maxmaincoin = require('./maxmaincoin');
 exports.Mercado = require('./mercado');
 exports.Mercatox = require('./mercatox');
 exports.Mexc = require('./mexc');
+exports.Mmfinancecronos = require('./mmfinancecronos');
 exports.Mudrex = require('./mudrex');
 exports.Nami = require('./nami');
 exports.Nanuexchange = require('./nanuexchange');
