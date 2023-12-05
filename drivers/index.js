@@ -90,6 +90,7 @@ exports.Dcoin = require('./dcoin');
 exports.Deepcoin = require('./deepcoin');
 exports.Dextrade = require('./dextrade');
 exports.Dexzbitz = require('./dexzbitz');
+exports.Dfynpolygon = require('./dfynpolygon');
 exports.Difx = require('./difx');
 exports.Digifinex = require('./digifinex');
 exports.Dinarexchanger = require('./dinarexchanger');
