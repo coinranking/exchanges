@@ -159,6 +159,7 @@ exports.Oceanex = require('./oceanex');
 exports.Okcoin = require('./okcoin');
 exports.Okx = require('./okx');
 exports.Omgfin = require('./omgfin');
+exports.Openstamp = require('./openstamp');
 exports.Ordifind = require('./ordifind');
 exports.Orebz = require('./orebz');
 exports.Osmosis = require('./osmosis');

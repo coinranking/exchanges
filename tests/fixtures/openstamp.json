@@ -1,0 +1,119 @@
+[
+    {
+        "scope": "https://openapi.openstamp.io:443",
+        "method": "GET",
+        "path": "/v1/src20MarketData",
+        "body": "",
+        "status": 200,
+        "response": {
+            "code": 200,
+            "data": [
+                {
+                    "tokenId": 1,
+                    "name": "KEVIN",
+                    "totalSupply": 690000000,
+                    "holdersCount": 726,
+                    "price": "9.8",
+                    "amount24": "4602580",
+                    "volume24": "42311626",
+                    "change24": "-0.0364",
+                    "change7d": "0.6308"
+                },
+                {
+                    "tokenId": 2,
+                    "name": "STAMP",
+                    "totalSupply": 1000000000,
+                    "holdersCount": 2351,
+                    "price": "25.3",
+                    "amount24": "16833000",
+                    "volume24": "318553480",
+                    "change24": "0.0455",
+                    "change7d": "0.6197"
+                },
+                {
+                    "tokenId": 5,
+                    "name": "SATO",
+                    "totalSupply": 100000000,
+                    "holdersCount": 714,
+                    "price": "13.8",
+                    "amount24": "500000",
+                    "volume24": "5000000",
+                    "change24": "-0.0909",
+                    "change7d": "-0.3902"
+                },
+                {
+                    "tokenId": 6,
+                    "name": "STUNK",
+                    "totalSupply": 1000000000,
+                    "holdersCount": 283,
+                    "price": "0.2",
+                    "amount24": "5000000",
+                    "volume24": "900000",
+                    "change24": "0",
+                    "change7d": "-0.027"
+                },
+                {
+                    "tokenId": 7,
+                    "name": "BOBO",
+                    "totalSupply": 69420000,
+                    "holdersCount": 362,
+                    "price": "4.9",
+                    "amount24": "300000",
+                    "volume24": "1170000",
+                    "change24": "0",
+                    "change7d": "0.1818"
+                },
+                {
+                    "tokenId": 8,
+                    "name": "$VIVA",
+                    "totalSupply": 42000000,
+                    "holdersCount": 109,
+                    "price": "15",
+                    "amount24": "0",
+                    "volume24": "0",
+                    "change24": "0",
+                    "change7d": "0"
+                },
+                {
+                    "tokenId": 9,
+                    "name": "PIZZA",
+                    "totalSupply": 11100000,
+                    "holdersCount": 398,
+                    "price": "42.9",
+                    "amount24": "0",
+                    "volume24": "0",
+                    "change24": "0",
+                    "change7d": "0"
+                }
+            ],
+            "msg": "success"
+        },
+        "rawHeaders": [
+            "Date",
+            "Wed, 06 Dec 2023 06:52:14 GMT",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Access-Control-Allow-Credentials",
+            "true",
+            "Access-Control-Allow-Headers",
+            "Content-Type,AccessToken,X-CSRF-Token, Authorization, Token",
+            "Access-Control-Allow-Methods",
+            "POST, GET, OPTIONS,DELETE,PUT",
+            "Access-Control-Expose-Headers",
+            "Content-Length, Access-Control-Allow-Origin, Access-Control-Allow-Headers, Content-Type, New-Token, New-Expires-At",
+            "CF-Cache-Status",
+            "DYNAMIC",
+            "Report-To",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=jYh%2BF5W%2BFUB83Y3QtMxTfdvpHC5N0ppk%2BIPnNunXZUmuqihG60jKMgywyXjydlO%2B9op%2Fo7LCiVwbld0tDpeLmcq4bXinBr9Ul6oh8HiiPG1I6phaecAnGG4%2FUgdK%2FmtRmEGUOpOq\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "NEL",
+            "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+            "Server",
+            "cloudflare"
+        ],
+        "responseIsBinary": false
+    }
+]
