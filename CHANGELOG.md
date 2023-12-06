@@ -1,3 +1,10 @@
+# [3.106.0](https://github.com/coinranking/exchanges/compare/v3.105.0...v3.106.0) (2023-12-06)
+
+
+### Features
+
+* support for OpenStamp.io ([99e90ca](https://github.com/coinranking/exchanges/commit/99e90cad8b5a8ae3498247bbf511f071c24b1b54))
+
 # [3.105.0](https://github.com/coinranking/exchanges/compare/v3.104.2...v3.105.0) (2023-12-05)
 
 
