@@ -1,3 +1,10 @@
+# [3.107.0](https://github.com/coinranking/exchanges/compare/v3.106.0...v3.107.0) (2023-12-08)
+
+
+### Features
+
+* remove broken exchanges ([5d4b64e](https://github.com/coinranking/exchanges/commit/5d4b64e61c5d0467d5228b20efb5162190c8c05e))
+
 # [3.106.0](https://github.com/coinranking/exchanges/compare/v3.105.0...v3.106.0) (2023-12-06)
 
 
