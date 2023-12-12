@@ -8,6 +8,14 @@ const { parseToFloat } = require('../lib/utils');
  * @augments Driver
  */
 class Unisat extends Driver {
+  constructor() {
+    super({
+      requires: {
+        key: true,
+      },
+    });
+  }
+
   /**
    * @augments Driver.fetchTickers
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
@@ -16,10 +24,13 @@ class Unisat extends Driver {
     const { data: { list: tickers } } = await request({
       headers: {
         'Content-Type': 'application/json',
+        Authorization: `Bearer ${this.key}`,
       },
-      body: {},
+      body: {
+        timeType: 'day1',
+      },
       method: 'POST',
-      url: 'https://market-api.unisat.io/unisat-market-v3/brc20/auction/brc20_types_many',
+      url: 'https://open-api.unisat.io/v3/market/brc20/auction/brc20_types',
     });
 
     return tickers.map((ticker) => {
@@ -31,9 +42,6 @@ class Unisat extends Driver {
         quote,
         baseVolume: parseToFloat(ticker.amountVolume),
         quoteVolume: parseToFloat(ticker.btcVolume) / 100000000,
-        open: parseToFloat(ticker.open),
-        high: parseToFloat(ticker.high),
-        low: parseToFloat(ticker.low),
         close: parseToFloat(ticker.curPrice) / 100000000,
       });
     });
