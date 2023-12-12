@@ -1,3 +1,10 @@
+## [3.107.1](https://github.com/coinranking/exchanges/compare/v3.107.0...v3.107.1) (2023-12-12)
+
+
+### Bug Fixes
+
+* unisat ([b36273c](https://github.com/coinranking/exchanges/commit/b36273c7e9e660459745afa4bfeab8077303d385))
+
 # [3.107.0](https://github.com/coinranking/exchanges/compare/v3.106.0...v3.107.0) (2023-12-08)
 
 
