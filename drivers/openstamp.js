@@ -22,13 +22,13 @@ class Openstamp extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const { data } = await request('https://openapi.openstamp.io/v1/src20MarketData', {
+    const { data } = await request('https://openstamp.io/api/v1/src20/getMarketTokenList?page=1&pageSize=100', {
       headers: {
         Authorization: `${this.key}`,
       },
     });
 
-    return data.map((item) => {
+    return data.list.map((item) => {
       const {
         name, price, volume24, amount24,
       } = item;
