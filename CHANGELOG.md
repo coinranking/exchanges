@@ -1,3 +1,10 @@
+## [3.107.2](https://github.com/coinranking/exchanges/compare/v3.107.1...v3.107.2) (2023-12-18)
+
+
+### Bug Fixes
+
+* new endpoint for openstamp ([0afc8a2](https://github.com/coinranking/exchanges/commit/0afc8a240fbf77adc2bb36c6a11579619b2312a9))
+
 ## [3.107.1](https://github.com/coinranking/exchanges/compare/v3.107.0...v3.107.1) (2023-12-12)
 
 
