@@ -1,3 +1,10 @@
+# [3.108.0](https://github.com/coinranking/exchanges/compare/v3.107.2...v3.108.0) (2024-01-10)
+
+
+### Features
+
+* add ordinal novus exchange ([0946613](https://github.com/coinranking/exchanges/commit/0946613835dcf50b33b0ae7da87f29db05a68691))
+
 ## [3.107.2](https://github.com/coinranking/exchanges/compare/v3.107.1...v3.107.2) (2023-12-18)
 
 
