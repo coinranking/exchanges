@@ -1,3 +1,10 @@
+# [3.109.0](https://github.com/coinranking/exchanges/compare/v3.108.0...v3.109.0) (2024-02-05)
+
+
+### Features
+
+* add support for Asteroid protocol ([2c22709](https://github.com/coinranking/exchanges/commit/2c227096d1e9e4991f7ba39ad6abf36443e1807a))
+
 # [3.108.0](https://github.com/coinranking/exchanges/compare/v3.107.2...v3.108.0) (2024-01-10)
 
 
