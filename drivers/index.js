@@ -3,6 +3,7 @@ exports.Aex = require('./aex');
 exports.Altcointrader = require('./altcointrader');
 exports.Apeswappolygon = require('./apeswappolygon');
 exports.Ascendex = require('./ascendex');
+exports.Asteroidprotocol = require('./asteroidprotocol');
 exports.Balancer = require('./balancer');
 exports.Balancerpolygon = require('./balancerpolygon');
 exports.Bamboo = require('./bamboo');
