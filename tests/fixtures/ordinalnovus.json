@@ -3710,10 +3710,10 @@
                     "deleted": false,
                     "__v": 0,
                     "checksum": "63796272",
-                    "updatedAt": "2024-02-07T08:25:06.210Z",
+                    "updatedAt": "2024-02-07T08:58:05.288Z",
                     "last_updated": "2024-02-06T11:37:03.021Z",
                     "allowed": true,
-                    "price": 148,
+                    "price": 146.9,
                     "volume": 3198682,
                     "in_mempool": 0,
                     "historicalData": [
@@ -3859,11 +3859,11 @@
                         }
                     ],
                     "_24h_on_vol_change": -82.53,
-                    "_24h_price_change": -48.63,
+                    "_24h_price_change": -49.01,
                     "_24h_vol_change": -82.53,
-                    "_7d_price_change": 64.26,
+                    "_7d_price_change": 63.04,
                     "on_volume": 3198682,
-                    "marketcap": 1480000000,
+                    "marketcap": 1469000000,
                     "icon": "https://cdn.discordapp.com/attachments/1192454971325681714/1204001089934983168/wros3dHX_400x400.jpg?ex=65d32465&is=65c0af65&hm=52a65cafd7390a9f8e0fc6a6ef3ea119b30b7cbd221e43a8f09eb2a326b8f1ae&"
                 },
                 {
@@ -18343,7 +18343,7 @@
         },
         "rawHeaders": [
             "Date",
-            "Wed, 07 Feb 2024 08:41:08 GMT",
+            "Wed, 07 Feb 2024 08:59:41 GMT",
             "Content-Type",
             "application/json",
             "Transfer-Encoding",
@@ -18355,13 +18355,13 @@
             "CF-Cache-Status",
             "DYNAMIC",
             "Report-To",
-            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=xSzkzD1t1kwmaKoyC83nznsS6DKULIiSRftn5dvRCg1S5zFZoMYaxKxEuh6H1Lv0KbvfvV61UgFR3HIPGptluqatUmkR%2Bb5xg4d0aHlm6ukvX7zNgeV9phIMttqnB4eLtDE%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+            "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=WRVfXI1GlSj5lVlP2DY%2Bx4cnLtSdvAno4b6TDGi%2BJ7HkOuPzPlZsj2dsgYYz1TwzzxLKoGE9%2FEs79gs8dvxpfShTeWhe1pWldmv9LxeSw2lt%2BotdySjyMlJIPrAHG2TDfso%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
             "NEL",
             "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
             "Server",
             "cloudflare",
             "CF-RAY",
-            "851a550059ea13e0-KUL"
+            "851a702eeff813e3-KUL"
         ],
         "responseIsBinary": false
     }

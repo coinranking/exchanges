@@ -36,7 +36,7 @@ class Ordinalnovus extends Driver {
         base: tick,
         quote: 'BTC',
         close: parseToFloat(price) / 100000000,
-        baseVolume: parseToFloat(volume) / 100000000,
+        quoteVolume: parseToFloat(volume) / 100000000,
       });
     });
   }
