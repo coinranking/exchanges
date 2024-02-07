@@ -169,6 +169,7 @@ exports.Poloniex = require('./poloniex');
 exports.Primebit = require('./primebit');
 exports.Probit = require('./probit');
 exports.Quickswap = require('./quickswap');
+exports.Raydium = require('./raydium');
 exports.Richamster = require('./richamster');
 exports.Rightbtc = require('./rightbtc');
 exports.Rudex = require('./rudex');
