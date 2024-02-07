@@ -7,7 +7,7 @@ const { parseToFloat } = require('../lib/utils');
  * @memberof Driver
  * @augments Driver
  */
-class Openstamp extends Driver {
+class Ordinalnovus extends Driver {
   // Indicate that this driver requires an API key.
   constructor() {
     super({
@@ -34,12 +34,12 @@ class Openstamp extends Driver {
 
       return new Ticker({
         base: tick,
-        quote: 'SATS',
-        close: parseToFloat(price),
-        baseVolume: parseToFloat(volume),
+        quote: 'BTC',
+        close: parseToFloat(price) / 100000000,
+        baseVolume: parseToFloat(volume) / 100000000,
       });
     });
   }
 }
 
-module.exports = Openstamp;
+module.exports = Ordinalnovus;
