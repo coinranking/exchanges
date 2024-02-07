@@ -1,3 +1,11 @@
+## [3.109.1](https://github.com/coinranking/exchanges/compare/v3.109.0...v3.109.1) (2024-02-07)
+
+
+### Bug Fixes
+
+* **ordinalnovus:** correct class name and switch to BTC quote ([323c947](https://github.com/coinranking/exchanges/commit/323c947305f2b8e717b4a6a9576a28b217ebadb6))
+* **ordinalnovus:** fixture fix ([8bc150d](https://github.com/coinranking/exchanges/commit/8bc150d9364d87e8642a699308817d007e4ecefe))
+
 # [3.109.0](https://github.com/coinranking/exchanges/compare/v3.108.0...v3.109.0) (2024-02-05)
 
 
