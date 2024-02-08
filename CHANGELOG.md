@@ -1,3 +1,10 @@
+# [3.111.0](https://github.com/coinranking/exchanges/compare/v3.110.0...v3.111.0) (2024-02-08)
+
+
+### Features
+
+* remove Raydium again because it sends too much JSON ([2b7e21f](https://github.com/coinranking/exchanges/commit/2b7e21f358a95500ebbafd2cd49ee68b50166928))
+
 # [3.110.0](https://github.com/coinranking/exchanges/compare/v3.109.2...v3.110.0) (2024-02-07)
 
 
