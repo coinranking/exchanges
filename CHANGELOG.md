@@ -1,3 +1,24 @@
+# [3.111.0](https://github.com/coinranking/exchanges/compare/v3.110.0...v3.111.0) (2024-02-08)
+
+
+### Features
+
+* remove Raydium again because it sends too much JSON ([2b7e21f](https://github.com/coinranking/exchanges/commit/2b7e21f358a95500ebbafd2cd49ee68b50166928))
+
+# [3.110.0](https://github.com/coinranking/exchanges/compare/v3.109.2...v3.110.0) (2024-02-07)
+
+
+### Features
+
+* add Raydium driver ([d0fbd66](https://github.com/coinranking/exchanges/commit/d0fbd66598d18ac14626120d39bea997a6ef90a0))
+
+## [3.109.2](https://github.com/coinranking/exchanges/compare/v3.109.1...v3.109.2) (2024-02-07)
+
+
+### Bug Fixes
+
+* **ordinalnovus:** base volume should be quote ([b5d136a](https://github.com/coinranking/exchanges/commit/b5d136a281182e4217f0f1327c10ff5ba0c76eed))
+
 ## [3.109.1](https://github.com/coinranking/exchanges/compare/v3.109.0...v3.109.1) (2024-02-07)
 
 
