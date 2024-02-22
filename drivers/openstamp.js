@@ -30,15 +30,14 @@ class Openstamp extends Driver {
 
     return data.list.map((item) => {
       const {
-        name, price, volume24, amount24,
+        name, price, volume24H,
       } = item;
 
       return new Ticker({
         base: name,
         quote: 'BTC',
         close: parseToFloat(price) / 10 ** 8,
-        baseVolume: parseToFloat(amount24),
-        quoteVolume: parseToFloat(volume24) / 10 ** 8,
+        quoteVolume: parseToFloat(volume24H) / 10 ** 8,
       });
     });
   }
