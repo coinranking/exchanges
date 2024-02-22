@@ -1,3 +1,10 @@
+## [3.111.1](https://github.com/coinranking/exchanges/compare/v3.111.0...v3.111.1) (2024-02-22)
+
+
+### Bug Fixes
+
+* **openstamp:** the API changed volume and amount parameters ([58c3685](https://github.com/coinranking/exchanges/commit/58c368502a725878f7204342aa86835fe9d5717b))
+
 # [3.111.0](https://github.com/coinranking/exchanges/compare/v3.110.0...v3.111.0) (2024-02-08)
 
 
