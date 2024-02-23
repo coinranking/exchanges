@@ -1,3 +1,10 @@
+## [3.111.2](https://github.com/coinranking/exchanges/compare/v3.111.1...v3.111.2) (2024-02-23)
+
+
+### Bug Fixes
+
+* **doggy:** change of volume to volume24 ([84d8abc](https://github.com/coinranking/exchanges/commit/84d8abc7a55203189d56a35063a33af1edc99ae6))
+
 ## [3.111.1](https://github.com/coinranking/exchanges/compare/v3.111.0...v3.111.1) (2024-02-22)
 
 
