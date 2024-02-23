@@ -13,7 +13,7 @@ class Doggy extends Driver {
    * @returns {Promise.Array<Ticker>} Returns a promise of an array with tickers.
    */
   async fetchTickers() {
-    const tickers = await request('https://api.doggy.market/token/trending?period=24h&limit=100');
+    const { data: tickers } = await request('https://api.doggy.market/token/trending?period=24h&limit=100');
 
     return tickers.map((ticker) => {
       const base = ticker.tick;
@@ -23,7 +23,7 @@ class Doggy extends Driver {
         base,
         baseReference: ticker.inscriptionId,
         quote,
-        quoteVolume: parseToFloat(ticker.volume / 100000000),
+        quoteVolume: parseToFloat(ticker.volume24h / 100000000),
         open: parseToFloat(ticker.firstPrice / 100000000),
         close: parseToFloat(ticker.lastPrice / 100000000),
       });
