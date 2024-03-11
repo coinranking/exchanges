@@ -119,6 +119,7 @@ exports.Indodax = require('./indodax');
 exports.Indoex = require('./indoex');
 exports.Iqfinex = require('./iqfinex');
 exports.Itbit = require('./itbit');
+exports.Jupiter = require('./jupiter');
 exports.Kickex = require('./kickex');
 exports.Kkex = require('./kkex');
 exports.Korbit = require('./korbit');
