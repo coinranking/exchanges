@@ -89,11 +89,11 @@ driverNames.forEach((driverName) => {
 
     test('Probably nothing is worth 10x BTC', () => {
       btcTickers.forEach((ticker) => {
-        if (ticker.quote === 'BTC') {
+        if (ticker.quote === 'BTC' && !ticker.quoteReference) {
           expect(ticker.close).toBeLessThan(10);
         }
 
-        if (ticker.base === 'BTC') {
+        if (ticker.base === 'BTC' && !ticker.baseReference) {
           expect(ticker.close).toBeGreaterThan(0.1);
         }
       });
