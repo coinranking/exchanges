@@ -1,3 +1,10 @@
+# [3.112.0](https://github.com/coinranking/exchanges/compare/v3.111.2...v3.112.0) (2024-03-11)
+
+
+### Features
+
+* add Jupiter DEX ([645adc2](https://github.com/coinranking/exchanges/commit/645adc2f93207eb9e010b5872320fc7604cd37fb))
+
 ## [3.111.2](https://github.com/coinranking/exchanges/compare/v3.111.1...v3.111.2) (2024-02-23)
 
 
