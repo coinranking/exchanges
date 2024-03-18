@@ -1,3 +1,10 @@
+# [3.113.0](https://github.com/coinranking/exchanges/compare/v3.112.0...v3.113.0) (2024-03-18)
+
+
+### Features
+
+* add FameEx driver ([cd3d2be](https://github.com/coinranking/exchanges/commit/cd3d2be9bee8b1acc73d0cf8216e5e04be194710))
+
 # [3.112.0](https://github.com/coinranking/exchanges/compare/v3.111.2...v3.112.0) (2024-03-11)
 
 
