@@ -99,6 +99,7 @@ exports.Exenium = require('./exenium');
 exports.Exmarkets = require('./exmarkets');
 exports.Exmo = require('./exmo');
 exports.Exnce = require('./exnce');
+exports.Exolo = require('./exolo');
 exports.Extstock = require('./extstock');
 exports.Exx = require('./exx');
 exports.Fameex = require('./fameex');

@@ -1,0 +1,390 @@
+[
+    {
+        "scope": "https://openapi.exolo.org:443",
+        "method": "GET",
+        "path": "/open/v2/pub/ticker",
+        "body": "",
+        "status": 200,
+        "response": {
+            "VET_USDT": {
+                "24_base_volume": 121924065.4,
+                "base_id": 5049,
+                "quote_volume": 323267.97385620914,
+                "quote_id": 4938,
+                "base_volume": 13354.2,
+                "24_quote_volume": 5036683.14167,
+                "last_price": 0.04131
+            },
+            "PEPE_USDT": {
+                "24_base_volume": 25803351567389,
+                "base_id": 5076,
+                "quote_volume": 4410.7970088,
+                "quote_id": 4938,
+                "base_volume": 565486796,
+                "24_quote_volume": 201266142.2256342,
+                "last_price": 0.0000078
+            },
+            "DASH_USDT": {
+                "24_base_volume": 81462.1205,
+                "base_id": 5034,
+                "quote_volume": 0.1226169265033407,
+                "quote_id": 4938,
+                "base_volume": 4.4044,
+                "24_quote_volume": 2926119.36,
+                "last_price": 35.92
+            },
+            "EOS_USDT": {
+                "24_base_volume": 2949058.2,
+                "base_id": 5042,
+                "quote_volume": 202.69455057309472,
+                "quote_id": 4938,
+                "base_volume": 201.6,
+                "24_quote_volume": 2933133.285,
+                "last_price": 0.9946
+            },
+            "FIL_USDT": {
+                "24_base_volume": 6607116.77,
+                "base_id": 5027,
+                "quote_volume": 16.42668428005284,
+                "quote_id": 4938,
+                "base_volume": 149.22,
+                "24_quote_volume": 60019048.738,
+                "last_price": 9.084
+            },
+            "ETH_USDT": {
+                "24_base_volume": 56573.8204,
+                "base_id": 4939,
+                "quote_volume": 1496.87028,
+                "quote_id": 4938,
+                "base_volume": 0.4338,
+                "24_quote_volume": 195213624.9,
+                "last_price": 3450.6
+            },
+            "BCH_USDT": {
+                "24_base_volume": 45121.892,
+                "base_id": 5028,
+                "quote_volume": 0.0042388454659054,
+                "quote_id": 4938,
+                "base_volume": 1.73,
+                "24_quote_volume": 18415597.78,
+                "last_price": 408.13
+            },
+            "MATIC_USDT": {
+                "24_base_volume": 8064866.6,
+                "base_id": 5032,
+                "quote_volume": 624.887285843102,
+                "quote_id": 4938,
+                "base_volume": 623.7,
+                "24_quote_volume": 8049543.3534,
+                "last_price": 0.9981
+            },
+            "TON_USDT": {
+                "24_base_volume": 674279.925,
+                "base_id": 5068,
+                "quote_volume": 99.750216,
+                "quote_id": 4938,
+                "base_volume": 22.868,
+                "24_quote_volume": 2941209.032,
+                "last_price": 4.362
+            },
+            "DOT_USDT": {
+                "24_base_volume": 701241.95,
+                "base_id": 5020,
+                "quote_volume": 3.3017325923504415,
+                "quote_id": 4938,
+                "base_volume": 30.3,
+                "24_quote_volume": 6435297.375,
+                "last_price": 9.177
+            },
+            "ARB_USDT": {
+                "24_base_volume": 88518120.9,
+                "base_id": 5073,
+                "quote_volume": 11459.7712,
+                "quote_id": 4938,
+                "base_volume": 6947,
+                "24_quote_volume": 146019492.2366,
+                "last_price": 1.6496
+            },
+            "MANA_USDT": {
+                "24_base_volume": 9191769.95,
+                "base_id": 5057,
+                "quote_volume": 408.966613672496,
+                "quote_id": 4938,
+                "base_volume": 257.24,
+                "24_quote_volume": 5781623.2985,
+                "last_price": 0.629
+            },
+            "YGG_USDT": {
+                "24_base_volume": 17341530.5,
+                "base_id": 5066,
+                "quote_volume": 1557.250991229124,
+                "quote_id": 4938,
+                "base_volume": 1296.1,
+                "24_quote_volume": 14433355.8976,
+                "last_price": 0.8323
+            },
+            "LINK_USDT": {
+                "24_base_volume": 613559.26,
+                "base_id": 5038,
+                "quote_volume": 1820.570011,
+                "quote_id": 4938,
+                "base_volume": 99.91,
+                "24_quote_volume": 11180338.1916,
+                "last_price": 18.2221
+            },
+            "AAVE_USDT": {
+                "24_base_volume": 116331.9772,
+                "base_id": 5054,
+                "quote_volume": 0.0071495596345378,
+                "quote_id": 4938,
+                "base_volume": 0.8686,
+                "24_quote_volume": 14133171.91,
+                "last_price": 121.49
+            },
+            "XLM_USDT": {
+                "24_base_volume": 38922041,
+                "base_id": 5061,
+                "quote_volume": 973.7208,
+                "quote_id": 4938,
+                "base_volume": 7416,
+                "24_quote_volume": 5110463.9833,
+                "last_price": 0.1313
+            },
+            "TRX_USDT": {
+                "24_base_volume": 191013728.8,
+                "base_id": 4940,
+                "quote_volume": 100707.9572741575,
+                "quote_id": 4938,
+                "base_volume": 12162.5,
+                "24_quote_volume": 23068728.02717,
+                "last_price": 0.12077
+            },
+            "1INCH_USDT": {
+                "24_base_volume": 2887330.7,
+                "base_id": 5036,
+                "quote_volume": 85.6207962188693,
+                "quote_id": 4938,
+                "base_volume": 47.1,
+                "24_quote_volume": 1588320.618,
+                "last_price": 0.5501
+            },
+            "LTC_BTC": {
+                "24_base_volume": 59606.064,
+                "base_id": 5030,
+                "quote_volume": 235.77977396063636,
+                "quote_id": 4937,
+                "base_volume": 0.305,
+                "24_quote_volume": 77.10521226,
+                "last_price": 0.00129358
+            },
+            "BNB_USDT": {
+                "24_base_volume": 499722.67,
+                "base_id": 5043,
+                "quote_volume": 11436.3676,
+                "quote_id": 4938,
+                "base_volume": 19.88,
+                "24_quote_volume": 287475460.37,
+                "last_price": 575.27
+            },
+            "DOGE_USDT": {
+                "24_base_volume": 2103770910,
+                "base_id": 5029,
+                "quote_volume": 1041662.4811652435,
+                "quote_id": 4938,
+                "base_volume": 165916,
+                "24_quote_volume": 335088630.5448,
+                "last_price": 0.15928
+            },
+            "UNI_USDT": {
+                "24_base_volume": 768440.6,
+                "base_id": 5041,
+                "quote_volume": 4.7334113321076385,
+                "quote_id": 4938,
+                "base_volume": 56.64,
+                "24_quote_volume": 9195160.219,
+                "last_price": 11.966
+            },
+            "SUSHI_USDT": {
+                "24_base_volume": 2226294.1,
+                "base_id": 5053,
+                "quote_volume": 408.3098,
+                "quote_id": 4938,
+                "base_volume": 239.9,
+                "24_quote_volume": 3789152.5582,
+                "last_price": 1.702
+            },
+            "MKR_USDT": {
+                "24_base_volume": 2988.098,
+                "base_id": 5050,
+                "quote_volume": 360.075289,
+                "quote_id": 4938,
+                "base_volume": 0.1121,
+                "24_quote_volume": 9598039.7,
+                "last_price": 3212.09
+            },
+            "LDO_USDT": {
+                "24_base_volume": 6600586.05,
+                "base_id": 5067,
+                "quote_volume": 405.2092,
+                "quote_id": 4938,
+                "base_volume": 144.1,
+                "24_quote_volume": 18560847.972,
+                "last_price": 2.812
+            },
+            "AVAX_USDT": {
+                "24_base_volume": 2896864.46,
+                "base_id": 5060,
+                "quote_volume": 18962.685,
+                "quote_id": 4938,
+                "base_volume": 341.67,
+                "24_quote_volume": 160775977.53,
+                "last_price": 55.5
+            },
+            "SAND_USDT": {
+                "24_base_volume": 25122308,
+                "base_id": 5046,
+                "quote_volume": 3381.168,
+                "quote_id": 4938,
+                "base_volume": 5205,
+                "24_quote_volume": 16319451.2768,
+                "last_price": 0.6496
+            },
+            "DOGE_BTC": {
+                "24_base_volume": 113584116,
+                "base_id": 5029,
+                "quote_volume": 14360655737.704918,
+                "quote_id": 4937,
+                "base_volume": 35040,
+                "24_quote_volume": 277.14524304,
+                "last_price": 0.00000244
+            },
+            "NEAR_USDT": {
+                "24_base_volume": 13085503,
+                "base_id": 5052,
+                "quote_volume": 11815.2398,
+                "quote_id": 4938,
+                "base_volume": 1778.6,
+                "24_quote_volume": 86926996.429,
+                "last_price": 6.643
+            },
+            "ETC_USDT": {
+                "24_base_volume": 241694.656,
+                "base_id": 5031,
+                "quote_volume": 0.2609803797447267,
+                "quote_id": 4938,
+                "base_volume": 7.8333,
+                "24_quote_volume": 7254440.9326,
+                "last_price": 30.0149
+            },
+            "BTC_USDT": {
+                "24_base_volume": 410.00073,
+                "base_id": 4937,
+                "quote_volume": 460.6509252,
+                "quote_id": 4938,
+                "base_volume": 0.00708,
+                "24_quote_volume": 26676160.86,
+                "last_price": 65063.69
+            },
+            "CEL_USDT": {
+                "24_base_volume": 3655812.6392,
+                "base_id": 5037,
+                "quote_volume": 0.1298383145516903,
+                "quote_id": 4938,
+                "base_volume": 0.0265,
+                "24_quote_volume": 746151.3596,
+                "last_price": 0.2041
+            },
+            "INJ_USDT": {
+                "24_base_volume": 858664.8,
+                "base_id": 5188,
+                "quote_volume": 4.583607636603029,
+                "quote_id": 4938,
+                "base_volume": 167.1,
+                "24_quote_volume": 31303483.948,
+                "last_price": 36.456
+            },
+            "LTC_USDT": {
+                "24_base_volume": 414735.798,
+                "base_id": 5030,
+                "quote_volume": 1576.9591,
+                "quote_id": 4938,
+                "base_volume": 18.751,
+                "24_quote_volume": 34879280.61,
+                "last_price": 84.1
+            },
+            "ADA_USDT": {
+                "24_base_volume": 18148035.6,
+                "base_id": 5059,
+                "quote_volume": 4362.623368354028,
+                "quote_id": 4938,
+                "base_volume": 2740.6,
+                "24_quote_volume": 11400595.9639,
+                "last_price": 0.6282
+            },
+            "SHIB_USDT": {
+                "24_base_volume": 7404488146449.388,
+                "base_id": 5039,
+                "quote_volume": 6550069810977.826,
+                "quote_id": 4938,
+                "base_volume": 180192420.5,
+                "24_quote_volume": 203697468.90882266,
+                "last_price": 0.00002751
+            },
+            "XRP_USDT": {
+                "24_base_volume": 374030154,
+                "base_id": 5033,
+                "quote_volume": 25797.033,
+                "quote_id": 4938,
+                "base_volume": 41065,
+                "24_quote_volume": 234965742.7428,
+                "last_price": 0.6282
+            },
+            "CAKE_USDT": {
+                "24_base_volume": 4979107.64,
+                "base_id": 5065,
+                "quote_volume": 40.287674473621955,
+                "quote_id": 4938,
+                "base_volume": 170.296,
+                "24_quote_volume": 21046687.994,
+                "last_price": 4.227
+            },
+            "SOL_USDT": {
+                "24_base_volume": 3611765.08,
+                "base_id": 5255,
+                "quote_volume": 26236.793,
+                "quote_id": 4938,
+                "base_volume": 149.54,
+                "24_quote_volume": 633684183.28,
+                "last_price": 175.45
+            },
+            "RNDR_USDT": {
+                "24_base_volume": 6331590.93,
+                "base_id": 5055,
+                "quote_volume": 18.62743297833272,
+                "quote_id": 4938,
+                "base_volume": 202.89,
+                "24_quote_volume": 68963688.409,
+                "last_price": 10.892
+            }
+        },
+        "rawHeaders": [
+            "Date",
+            "Fri, 22 Mar 2024 10:23:37 GMT",
+            "Content-Type",
+            "application/json;charset=utf-8",
+            "Transfer-Encoding",
+            "chunked",
+            "Connection",
+            "keep-alive",
+            "Server",
+            "nginx",
+            "Vary",
+            "Accept-Encoding",
+            "x-envoy-upstream-service-time",
+            "156",
+            "Access-Control-Allow-Headers",
+            "X-Requested-With"
+        ],
+        "responseIsBinary": false
+    }
+]
