@@ -1,3 +1,16 @@
+# [3.114.0](https://github.com/coinranking/exchanges/compare/v3.113.0...v3.114.0) (2024-03-22)
+
+
+### Bug Fixes
+
+* revert commander package because it breaks stuff I do not want to solve right now ([651f43b](https://github.com/coinranking/exchanges/commit/651f43b1955b26829597481dbeb294a8326531fa))
+* update package lock as well ([87ad1e4](https://github.com/coinranking/exchanges/commit/87ad1e439c12ec680cec009a058e576ade6b4fe2))
+
+
+### Features
+
+* add Exolo exchange driver ([f6a4d13](https://github.com/coinranking/exchanges/commit/f6a4d13390f26270d2f5b3311a7ae7ff1e0a49cd))
+
 # [3.113.0](https://github.com/coinranking/exchanges/compare/v3.112.0...v3.113.0) (2024-03-18)
 
 
