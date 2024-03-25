@@ -1,3 +1,10 @@
+## [3.115.1](https://github.com/coinranking/exchanges/compare/v3.115.0...v3.115.1) (2024-03-25)
+
+
+### Bug Fixes
+
+* correct the price and volume ([78d17dc](https://github.com/coinranking/exchanges/commit/78d17dc77a7ed41a32dc38b0675de60b94dee838))
+
 # [3.115.0](https://github.com/coinranking/exchanges/compare/v3.114.0...v3.115.0) (2024-03-25)
 
 
