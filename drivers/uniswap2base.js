@@ -17,19 +17,24 @@ class Uniswap2base extends Driver {
 
     return Object.keys(data).map((market) => {
       const ticker = data[market];
-      const base = ticker.relationships.base_token.data.id.split('base_')[1];
-      const quote = ticker.relationships.quote_token.data.id.split('base_')[1];
+      const baseReference = ticker.relationships.base_token.data.id.split('base_')[1];
+      const quoteReference = ticker.relationships.quote_token.data.id.split('base_')[1];
 
       const usdVolume = ticker.attributes.volume_usd.h24;
       const usdBasePrice = ticker.attributes.base_token_price_usd;
-      const usdQuotePrice = ticker.attributes.base_token_price_usd;
-      const baseVolume = usdVolume * usdBasePrice;
-      const quoteVolume = usdVolume * usdQuotePrice;
+      const usdQuotePrice = ticker.attributes.quote_token_price_usd;
+      const baseVolume = usdVolume / usdBasePrice;
+      const quoteVolume = usdVolume / usdQuotePrice;
+      const weirdAssPair = ticker.attributes.name;
+      const [base, weirdQuote] = weirdAssPair.split(' / ');
+      const quote = weirdQuote.split(' ')[0];
 
       return new Ticker({
         base,
         quote,
-        close: parseToFloat(ticker.attributes.base_token_price_native_currency),
+        baseReference,
+        quoteReference,
+        close: parseToFloat(ticker.attributes.base_token_price_quote_token),
         baseVolume: parseToFloat(baseVolume),
         quoteVolume: parseToFloat(quoteVolume),
       });
