@@ -1,3 +1,12 @@
+# [3.115.0](https://github.com/coinranking/exchanges/compare/v3.114.0...v3.115.0) (2024-03-25)
+
+
+### Features
+
+* add baseswap driver< ([acf0bc3](https://github.com/coinranking/exchanges/commit/acf0bc3c7bfa277614ee4da2d88e8d1b7765fd85))
+* add uniswap2base driver ([3f57dd5](https://github.com/coinranking/exchanges/commit/3f57dd565657fea1e2aa44f904d1e169ee6c7fc0))
+* add uniswap3base exchange driver ([6670882](https://github.com/coinranking/exchanges/commit/667088268b30424e82a17b3a59ad48a4a89fdd58))
+
 # [3.114.0](https://github.com/coinranking/exchanges/compare/v3.113.0...v3.114.0) (2024-03-22)
 
 
