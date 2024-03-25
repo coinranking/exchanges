@@ -199,6 +199,7 @@ exports.Unisat = require('./unisat');
 exports.Uniswap = require('./uniswap');
 exports.Uniswap2 = require('./uniswap2');
 exports.Uniswap2avalanche = require('./uniswap2avalanche');
+exports.Uniswap2base = require('./uniswap2base');
 exports.Uniswap2bsc = require('./uniswap2bsc');
 exports.Uniswap2cronos = require('./uniswap2cronos');
 exports.Uniswap2klaytn = require('./uniswap2klaytn');
