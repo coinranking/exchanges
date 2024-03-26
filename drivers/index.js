@@ -115,6 +115,7 @@ exports.Graviex = require('./graviex');
 exports.Hitbtc = require('./hitbtc');
 exports.Honeyswap = require('./honeyswap');
 exports.Huobiglobal = require('./huobiglobal');
+exports.Icpswap = require('./icpswap');
 exports.Idax = require('./idax');
 exports.Idex = require('./idex');
 exports.Independentreserve = require('./independentreserve');
