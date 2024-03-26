@@ -1,3 +1,10 @@
+# [3.116.0](https://github.com/coinranking/exchanges/compare/v3.115.1...v3.116.0) (2024-03-26)
+
+
+### Features
+
+* add Icpswap ([e0a9c6d](https://github.com/coinranking/exchanges/commit/e0a9c6deb84a4aae3f97f48c530852248a38e5b0))
+
 ## [3.115.1](https://github.com/coinranking/exchanges/compare/v3.115.0...v3.115.1) (2024-03-25)
 
 
