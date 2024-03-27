@@ -223,6 +223,7 @@ exports.Wazirx = require('./wazirx');
 exports.Whitebit = require('./whitebit');
 exports.Wtzex = require('./wtzex');
 exports.Xbts = require('./xbts');
+exports.Xeggex = require('./xeggex');
 exports.Xt = require('./xt');
 exports.Yobit = require('./yobit');
 exports.Zb = require('./zb');
