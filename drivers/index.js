@@ -193,6 +193,7 @@ exports.Timex = require('./timex');
 exports.Tokenize = require('./tokenize');
 exports.Tokens = require('./tokens');
 exports.Tokenstore = require('./tokenstore');
+exports.Tokpie = require('./tokpie');
 exports.Tradeogre = require('./tradeogre');
 exports.Traderjoe = require('./traderjoe');
 exports.Tradesatoshi = require('./tradesatoshi');
