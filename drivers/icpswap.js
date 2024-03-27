@@ -17,7 +17,7 @@ class Icpswap extends Driver {
 
     return Object.keys(markets).flatMap((market) => {
       const ticker = markets[market];
-      const close = parseToFloat(ticker.last_price);
+      const close = 1 / parseToFloat(ticker.last_price);
       const baseVolume = parseToFloat(ticker.base_volume_24H);
       const quoteVolume = parseToFloat(ticker.target_volume_24H);
 
