@@ -1,3 +1,10 @@
+## [3.116.1](https://github.com/coinranking/exchanges/compare/v3.116.0...v3.116.1) (2024-03-27)
+
+
+### Bug Fixes
+
+* the last price is actually the amount in the api, fix this ([b4727f2](https://github.com/coinranking/exchanges/commit/b4727f2af8d8b7c663cc88a0d91d1dab07d5e3d0))
+
 # [3.116.0](https://github.com/coinranking/exchanges/compare/v3.115.1...v3.116.0) (2024-03-26)
 
 
