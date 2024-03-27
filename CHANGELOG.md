@@ -1,3 +1,11 @@
+# [3.117.0](https://github.com/coinranking/exchanges/compare/v3.116.1...v3.117.0) (2024-03-27)
+
+
+### Features
+
+* add tokpie ([0b727ee](https://github.com/coinranking/exchanges/commit/0b727ee6889af060f62cef6ccdac0e4ac409d590))
+* add Xeggex driver ([654ffa3](https://github.com/coinranking/exchanges/commit/654ffa35d762b0206072e053ed2110a49489c09b))
+
 ## [3.116.1](https://github.com/coinranking/exchanges/compare/v3.116.0...v3.116.1) (2024-03-27)
 
 
