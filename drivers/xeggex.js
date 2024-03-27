@@ -23,7 +23,7 @@ class Xeggex extends Driver {
         quote: ticker.target_currency,
         high: parseToFloat(ticker.high),
         low: parseToFloat(ticker.low),
-        const: parseToFloat(ticker.last_price),
+        close: parseToFloat(ticker.last_price),
         bid: parseToFloat(ticker.bid),
         ask: parseToFloat(ticker.ask),
         baseVolume: parseToFloat(ticker.base_volume),
