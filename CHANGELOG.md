@@ -1,3 +1,10 @@
+## [3.117.1](https://github.com/coinranking/exchanges/compare/v3.117.0...v3.117.1) (2024-03-27)
+
+
+### Bug Fixes
+
+* xeggex close ([f108afb](https://github.com/coinranking/exchanges/commit/f108afbccb01687d1850283a0434e7c19dea3cd3))
+
 # [3.117.0](https://github.com/coinranking/exchanges/compare/v3.116.1...v3.117.0) (2024-03-27)
 
 
