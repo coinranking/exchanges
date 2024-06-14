@@ -3,6 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@coinranking/exchanges)](https://www.npmjs.com/package/@coinranking/exchanges)
 [![codecov](https://img.shields.io/codecov/c/github/coinranking/exchanges/master.svg?style=shield)](https://codecov.io/gh/coinranking/exchanges)
 
+
 # Exchanges 📉📈
 
 A JavaScript library for getting up to date cryptocurrency exchange tickers.
