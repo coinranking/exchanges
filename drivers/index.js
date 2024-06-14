@@ -103,7 +103,6 @@ exports.Exnce = require('./exnce');
 exports.Exolo = require('./exolo');
 exports.Extstock = require('./extstock');
 exports.Exx = require('./exx');
-exports.Fameex = require('./fameex');
 exports.Felixo = require('./felixo');
 exports.Finexbox = require('./finexbox');
 exports.Gateio = require('./gateio');
