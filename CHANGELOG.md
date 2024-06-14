@@ -1,3 +1,10 @@
+# [3.118.0](https://github.com/coinranking/exchanges/compare/v3.117.1...v3.118.0) (2024-06-14)
+
+
+### Features
+
+* up the number ([5f79440](https://github.com/coinranking/exchanges/commit/5f7944095fafd24c6139914e293a01cb25b6dfec))
+
 ## [3.117.1](https://github.com/coinranking/exchanges/compare/v3.117.0...v3.117.1) (2024-03-27)
 
 
